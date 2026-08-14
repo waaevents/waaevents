@@ -1,0 +1,40 @@
+name: Update events
+
+on:
+  schedule:
+    # 13:00 UTC = 6:00am Pacific (5:00am during PST) — once a day
+    - cron: '0 13 * * *'
+  workflow_dispatch: {}   # lets you trigger a refresh manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-events:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch and categorize events
+        run: npm run update-events
+
+      - name: Commit updated data if changed
+        run: |
+          git config user.name "events-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- data/events.json; then
+            echo "No changes to data/events.json"
+          else
+            git add data/events.json
+            git commit -m "Update events ($(date -u +%Y-%m-%d))"
+            git push
+          fi

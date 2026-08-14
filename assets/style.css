@@ -1,0 +1,294 @@
+/* Woodinville Creative Events
+   Palette: sage parchment paper, moss (art), wine (music), amber (comedy) */
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --paper: #eeefe4;
+  --paper-raised: #f6f6ee;
+  --ink: #241f1b;
+  --ink-soft: #5a5349;
+  --line: #d9d5c4;
+
+  --moss: #435c3f;
+  --moss-soft: #dfe6da;
+  --wine: #6e2a39;
+  --wine-soft: #ecdcdf;
+  --amber: #b57a26;
+  --amber-soft: #f1e2c8;
+
+  --radius: 2px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Work Sans', -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, .display {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  margin: 0;
+}
+
+a { color: inherit; }
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--wine);
+  outline-offset: 3px;
+}
+
+.rows-divider {
+  height: 14px;
+  width: 100%;
+  background-image: repeating-linear-gradient(
+    to right,
+    transparent 0 6px,
+    var(--line) 6px 7px
+  );
+  background-size: 26px 2px;
+  background-repeat: repeat-x;
+  background-position: center;
+  opacity: 0.9;
+}
+
+/* ---------- Site header ---------- */
+
+.site-header {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 48px 24px 28px;
+}
+
+.site-header .eyebrow {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.site-header h1 {
+  font-size: clamp(2rem, 4vw, 2.9rem);
+  margin-top: 6px;
+}
+
+.site-header .tagline {
+  margin-top: 10px;
+  max-width: 46ch;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 18px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 1px;
+}
+.back-link:hover { color: var(--ink); border-color: var(--ink-soft); }
+
+/* ---------- Homepage panels ---------- */
+
+.panels {
+  max-width: 1080px;
+  margin: 8px auto 64px;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 780px) {
+  .panels { grid-template-columns: 1fr; }
+}
+
+.panel {
+  position: relative;
+  border-radius: var(--radius);
+  padding: 34px 26px 28px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--panel-accent, var(--ink));
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.panel:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 28px -18px rgba(36, 31, 27, 0.35);
+}
+
+.panel--art   { --panel-accent: var(--moss); }
+.panel--music { --panel-accent: var(--wine); }
+.panel--comedy{ --panel-accent: var(--amber); }
+
+.panel .kicker {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--panel-accent);
+}
+
+.panel h2 {
+  font-size: 1.7rem;
+  margin-top: 10px;
+}
+
+.panel p.desc {
+  margin-top: 10px;
+  color: var(--ink-soft);
+  font-size: 0.97rem;
+  flex-grow: 1;
+}
+
+.panel .count {
+  margin-top: 18px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  font-variant-numeric: tabular-nums;
+}
+
+.panel .more-link {
+  margin-top: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.panel .more-link .arrow {
+  color: var(--panel-accent);
+  transition: transform 140ms ease;
+}
+.panel:hover .more-link .arrow { transform: translateX(4px); }
+
+/* ---------- Category page ---------- */
+
+.category-head {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 24px 20px;
+}
+
+.category-head h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); }
+
+.category-head .kicker {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--cat-accent, var(--ink));
+}
+
+body[data-category="art"]    { --cat-accent: var(--moss); }
+body[data-category="music"]  { --cat-accent: var(--wine); }
+body[data-category="comedy"] { --cat-accent: var(--amber); }
+
+.event-list {
+  max-width: 1080px;
+  margin: 20px auto 64px;
+  padding: 0 24px;
+  list-style: none;
+}
+
+.event-card {
+  display: grid;
+  grid-template-columns: 84px 1fr;
+  gap: 20px;
+  padding: 22px 0;
+  border-top: 1px solid var(--line);
+}
+
+.event-card:last-child { border-bottom: 1px solid var(--line); }
+
+.event-date {
+  text-align: center;
+  padding-top: 2px;
+}
+
+.event-date .day {
+  font-family: 'Fraunces', serif;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--cat-accent, var(--ink));
+}
+
+.event-date .month {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.event-body h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.event-body h3 a {
+  text-decoration: none;
+}
+.event-body h3 a:hover { text-decoration: underline; }
+
+.event-meta {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+}
+
+.event-desc {
+  margin-top: 9px;
+  font-size: 0.93rem;
+  color: var(--ink-soft);
+  max-width: 62ch;
+}
+
+.empty-state, .loading-state, .error-state {
+  padding: 40px 0;
+  color: var(--ink-soft);
+  font-size: 1rem;
+  max-width: 50ch;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 26px 24px 60px;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--line);
+}
+
+.site-footer a { text-decoration: underline; }
+
+@media (prefers-reduced-motion: reduce) {
+  .panel, .panel .more-link .arrow { transition: none; }
+}

@@ -1,0 +1,157 @@
+{
+  "updatedAt": "2026-08-14T23:08:58.177Z",
+  "windowDays": 90,
+  "count": 15,
+  "events": [
+    {
+      "id": "10018473-1786726800-1786737600@visitwoodinville.org",
+      "title": "A New Favorite Returns: DA-SH Live at Synne Cellars",
+      "category": "music",
+      "start": "2026-08-15T00:00:00.000Z",
+      "location": "Hollywood Schoolhouse-Synne Cellars, 14810 NE 145th Street, Suite B-Downstairs, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/a-new-favorite-returns-da-sh-live-at-synne-cellars/",
+      "description": "Dan and Shane = DA-SH and they are bringing signature feel-good sound to Synne Cellars for an evening of live music, great wine, and the kind of atmosphere that makes you want to stay.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10013751-1786730400-1786737600@visitwoodinville.org",
+      "title": "Live Music at Patterson Cellars",
+      "category": "music",
+      "start": "2026-08-15T01:00:00.000Z",
+      "location": "Patterson Cellars Tasting Room, 19501 144th Ave NE, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/live-music-at-patterson-cellars/2026-08-14/",
+      "description": "Live music at Patterson Cellars Hollywood location, Fridays and Saturdays, 6-8pm.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018132-1786730400-1786737600@visitwoodinville.org",
+      "title": "Live Music Fridays at Northwest Spirits",
+      "category": "music",
+      "start": "2026-08-15T01:00:00.000Z",
+      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-fridays-at-northwest-spirits/2026-08-14/",
+      "description": "End your week the right way. Every Friday from 6–8pm, Northwest Spirits hosts local acoustic artists spanning a variety of genres, right in the heart of Woodinville wine country.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10016166-1786730400-1786739400@visitwoodinville.org",
+      "title": "Live Music at Fireside Lounge",
+      "category": "music",
+      "start": "2026-08-15T01:00:00.000Z",
+      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-14/",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "test-art-watercolor@visitwoodinville.org",
+      "title": "Watercolor Wildflowers: Spring in Bloom",
+      "category": "art",
+      "start": "2026-08-15T16:00:00.000Z",
+      "location": "14700 148th Ave NE, Woodinville, WA, 98072",
+      "url": "https://allevents.in/woodinville/this-weekend",
+      "description": "A watercolor painting workshop celebrating spring wildflowers, open to beginner and experienced artists.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10015204-1786788000-1786793400@visitwoodinville.org",
+      "title": "Synne Sessions: Unwind with Live Acoustic Music — Robbie Egelstad",
+      "category": "music",
+      "start": "2026-08-15T22:00:00.000Z",
+      "location": "Synne Cellars, 14810 NE 145th Street, Suite B, Woodinville, Washington, 98072",
+      "url": "https://visitwoodinville.org/event/synne-sessions-unwind-with-live-acoustic-music-robbie-egelstad-12/",
+      "description": "Unwind after work at a Synne Session with wine & live acoustic music. Robbie performs a couple of times each month as part of our Synne Sessions series.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018884-1786989600-1786996800@visitwoodinville.org",
+      "title": "MikelParis Live at Watts Brewing",
+      "category": "music",
+      "start": "2026-08-18T01:00:00.000Z",
+      "location": "Watts Brewing, 15510 Woodinville-Redmond Rd NE E110, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/mikelparis-live-at-watts-brewing/",
+      "description": "MikelParis is a multifaceted artist whose 20 year tenure as keyboardist, percussionist, and backup vocalist for the celebrated American rock band O.A.R. Catch MikelParis live at Watts Brewing.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10015317-1787162400-1787169600@visitwoodinville.org",
+      "title": "Music Bingo at Pepper Bridge & Amavi Cellars",
+      "category": "music",
+      "start": "2026-08-20T01:00:00.000Z",
+      "location": "Pepper Bridge & Amavi Cellars, 14810 NE 145th ST #A3, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/music-bingo-at-pepper-bridge-amavi-cellars/2026-08-19/",
+      "description": "Join us for a fun night of Music Bingo! Doors open at 530pm with communal seating, game starts promptly at 6pm. Prizes will be awarded throughout the night.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018470-1787245200-1787256000@visitwoodinville.org",
+      "title": "Live Music with Richard Taylor at Pepper Bridge & Amavi Cellars",
+      "category": "music",
+      "start": "2026-08-21T00:00:00.000Z",
+      "location": "Pepper Bridge & Amavi Cellars, 14810 NE 145th ST #A3, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-with-richard-taylor-at-pepper-bridge-amavi-cellars/",
+      "description": "Get ready for an incredible night as we welcome Richard Taylor to our tasting room! From soulful rock and pop to smooth R&B, Richard delivers a high-energy performance.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10016931-1787247000-1787256000@visitwoodinville.org",
+      "title": "Music Bingo",
+      "category": "music",
+      "start": "2026-08-21T00:30:00.000Z",
+      "location": "Pepper Bridge & Amavi Cellars, 14810 NE 145th ST #A3, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/music-bingo/2026-08-20/",
+      "description": "Turn up the fun with a lively night of Music Bingo—where your favorite songs replace the numbers and every round brings a chance to win! Doors open at 5:30 PM.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "test-art-walk@visitwoodinville.org",
+      "title": "Woodinville Arts Alliance Art Walk and Rotating Art",
+      "category": "art",
+      "start": "2026-08-30T18:00:00.000Z",
+      "location": "Various Woodinville Wineries, Woodinville, WA",
+      "url": "https://woodinvilleartsalliance.com/art-in-the-wineries/",
+      "description": "Self-guided art walk through Woodinville wineries featuring rotating exhibitions from local artists as part of the Art in the Wineries series.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "test-comedy-jr-berard@visitwoodinville.org",
+      "title": "Stand Up Comedy with JR Berard featuring Rosanne La Force",
+      "category": "comedy",
+      "start": "2026-09-02T00:30:00.000Z",
+      "location": "425 Cellars, Woodinville, WA",
+      "url": "https://allevents.in/woodinville/summer",
+      "description": "Stand Up Comedy with JR Berard featuring Rosanne La Force @ 425 Cellars, an evening of stand-up comedy in the heart of Woodinville wine country.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "test-comedy-scott-losse@visitwoodinville.org",
+      "title": "Stand Up Comedy with Scott Losse featuring Abraham Tadesse",
+      "category": "comedy",
+      "start": "2026-09-02T02:00:00.000Z",
+      "location": "LaShellé Wines, Woodinville, WA",
+      "url": "https://allevents.in/woodinville/all",
+      "description": "Stand Up Comedy with Scott Losse @ LaShellé Wines featuring Abraham Tadesse, a night of stand-up comedy.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "test-comedy-duane-goad@visitwoodinville.org",
+      "title": "Stand Up Comedy with Duane Goad",
+      "category": "comedy",
+      "start": "2026-09-02T02:00:00.000Z",
+      "location": "The Winemaker's Reserve, Woodinville, WA",
+      "url": "https://www.eventbrite.com/d/wa--woodinville/events/",
+      "description": "Stand Up Comedy with Duane Goad @ The Winemaker's Reserve, an evening of stand-up comedy.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "test-comedy-cory-michaelis@visitwoodinville.org",
+      "title": "Comedy! Jokes for Evermore: Cory Michaelis",
+      "category": "comedy",
+      "start": "2026-09-02T02:00:00.000Z",
+      "location": "Black Raven Brewing - Woodinville, WA",
+      "url": "https://www.eventbrite.com/d/wa--woodinville/events/",
+      "description": "Comedy! Jokes for Evermore returns with headliner Cory Michaelis for a night of stand-up comedy.",
+      "source": "Visit Woodinville"
+    }
+  ]
+}

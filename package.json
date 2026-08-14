@@ -1,0 +1,13 @@
+{
+  "name": "waaevents",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Woodinville Creative Events — static site with a daily event refresh",
+  "type": "module",
+  "scripts": {
+    "update-events": "node scripts/update-events.mjs"
+  },
+  "dependencies": {
+    "node-ical": "^0.20.1"
+  }
+}
