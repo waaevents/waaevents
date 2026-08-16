@@ -1,23 +1,30 @@
 /* Woodinville Creative Events
-   Palette: sage parchment paper, moss (art), wine (music), amber (comedy) */
+   Palette: warm paper + three saturated genre hues (moss/wine/amber) */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=Work+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-  --paper: #eeefe4;
-  --paper-raised: #f6f6ee;
+  --paper: #fbf6ec;
   --ink: #241f1b;
   --ink-soft: #5a5349;
-  --line: #d9d5c4;
+  --line: #e4dcc8;
 
-  --moss: #435c3f;
-  --moss-soft: #dfe6da;
-  --wine: #6e2a39;
-  --wine-soft: #ecdcdf;
-  --amber: #b57a26;
-  --amber-soft: #f1e2c8;
+  /* Art — moss/leaf */
+  --art: #2f7a4d;
+  --art-deep: #1e5636;
+  --art-bg: #ddf0e2;
 
-  --radius: 2px;
+  /* Music — raspberry wine */
+  --music: #b31c56;
+  --music-deep: #7c1039;
+  --music-bg: #fbe1ea;
+
+  /* Comedy — sunshine amber */
+  --comedy: #e07b12;
+  --comedy-deep: #a5560a;
+  --comedy-bg: #fdead0;
+
+  --radius: 6px;
 }
 
 * { box-sizing: border-box; }
@@ -45,12 +52,24 @@ a { color: inherit; }
 
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid var(--wine);
+  outline: 2px solid var(--music);
   outline-offset: 3px;
 }
 
+/* Signature: a three-color ribbon of the site's genres, top of every page */
+.hero-ribbon {
+  height: 10px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    var(--art) 0 33.3%,
+    var(--music) 33.3% 66.6%,
+    var(--comedy) 66.6% 100%
+  );
+}
+
 .rows-divider {
-  height: 14px;
+  height: 16px;
   width: 100%;
   background-image: repeating-linear-gradient(
     to right,
@@ -74,10 +93,10 @@ button:focus-visible {
 .site-header .eyebrow {
   font-family: 'Work Sans', sans-serif;
   font-size: 13px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--ink-soft);
+  color: var(--music);
 }
 
 .site-header h1 {
@@ -96,13 +115,13 @@ button:focus-visible {
   display: inline-block;
   margin-top: 18px;
   font-size: 0.92rem;
-  font-weight: 500;
+  font-weight: 600;
   text-decoration: none;
-  color: var(--ink-soft);
-  border-bottom: 1px solid var(--line);
+  color: var(--music-deep);
+  border-bottom: 1px solid var(--music);
   padding-bottom: 1px;
 }
-.back-link:hover { color: var(--ink); border-color: var(--ink-soft); }
+.back-link:hover { color: var(--music-deep); border-color: var(--music-deep); }
 
 /* ---------- Homepage panels ---------- */
 
@@ -112,7 +131,7 @@ button:focus-visible {
   padding: 0 24px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 22px;
 }
 
 @media (max-width: 780px) {
@@ -122,36 +141,38 @@ button:focus-visible {
 .panel {
   position: relative;
   border-radius: var(--radius);
-  padding: 34px 26px 28px;
-  min-height: 300px;
+  padding: 36px 26px 30px;
+  min-height: 320px;
   display: flex;
   flex-direction: column;
-  background: var(--paper-raised);
-  border: 1px solid var(--line);
-  border-top: 3px solid var(--panel-accent, var(--ink));
+  background: var(--panel-bg, #fff);
+  border: 1px solid var(--panel-accent, var(--line));
+  border-top: 6px solid var(--panel-accent, var(--ink));
+  box-shadow: 0 1px 0 rgba(36, 31, 27, 0.03);
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
 .panel:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 14px 28px -18px rgba(36, 31, 27, 0.35);
+  transform: translateY(-4px);
+  box-shadow: 0 18px 32px -16px var(--panel-accent, rgba(36, 31, 27, 0.35));
 }
 
-.panel--art   { --panel-accent: var(--moss); }
-.panel--music { --panel-accent: var(--wine); }
-.panel--comedy{ --panel-accent: var(--amber); }
+.panel--art    { --panel-accent: var(--art);   --panel-bg: var(--art-bg); }
+.panel--music  { --panel-accent: var(--music); --panel-bg: var(--music-bg); }
+.panel--comedy { --panel-accent: var(--comedy);--panel-bg: var(--comedy-bg); }
 
 .panel .kicker {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--panel-accent);
 }
 
 .panel h2 {
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   margin-top: 10px;
+  color: var(--ink);
 }
 
 .panel p.desc {
@@ -164,7 +185,8 @@ button:focus-visible {
 .panel .count {
   margin-top: 18px;
   font-size: 0.85rem;
-  color: var(--ink-soft);
+  font-weight: 600;
+  color: var(--panel-accent);
   font-variant-numeric: tabular-nums;
 }
 
@@ -172,17 +194,23 @@ button:focus-visible {
   margin-top: 16px;
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 7px;
-  font-weight: 600;
-  font-size: 0.95rem;
+  font-weight: 700;
+  font-size: 0.92rem;
   text-decoration: none;
-  color: var(--ink);
+  color: #fff;
+  background: var(--panel-accent);
+  padding: 11px 18px;
+  border-radius: 999px;
+  width: fit-content;
+  transition: background 140ms ease, transform 140ms ease;
 }
 
 .panel .more-link .arrow {
-  color: var(--panel-accent);
   transition: transform 140ms ease;
 }
+.panel:hover .more-link { background: var(--panel-accent); transform: translateX(1px); }
 .panel:hover .more-link .arrow { transform: translateX(4px); }
 
 /* ---------- Category page ---------- */
@@ -190,22 +218,24 @@ button:focus-visible {
 .category-head {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 0 24px 20px;
+  padding: 30px 24px 26px;
+  background: var(--cat-bg, transparent);
+  border-radius: 0 0 var(--radius) var(--radius);
 }
 
-.category-head h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); }
+.category-head h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); color: var(--ink); }
 
 .category-head .kicker {
   font-size: 12px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--cat-accent, var(--ink));
 }
 
-body[data-category="art"]    { --cat-accent: var(--moss); }
-body[data-category="music"]  { --cat-accent: var(--wine); }
-body[data-category="comedy"] { --cat-accent: var(--amber); }
+body[data-category="art"]    { --cat-accent: var(--art);    --cat-bg: var(--art-bg); }
+body[data-category="music"]  { --cat-accent: var(--music);  --cat-bg: var(--music-bg); }
+body[data-category="comedy"] { --cat-accent: var(--comedy); --cat-bg: var(--comedy-bg); }
 
 .event-list {
   max-width: 1080px;
@@ -218,32 +248,43 @@ body[data-category="comedy"] { --cat-accent: var(--amber); }
   display: grid;
   grid-template-columns: 84px 1fr;
   gap: 20px;
-  padding: 22px 0;
-  border-top: 1px solid var(--line);
+  padding: 20px;
+  margin-bottom: 14px;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: #fff;
+  transition: border-color 140ms ease, box-shadow 140ms ease;
 }
 
-.event-card:last-child { border-bottom: 1px solid var(--line); }
+.event-card:hover {
+  border-color: var(--cat-accent, var(--line));
+  box-shadow: 0 10px 24px -18px var(--cat-accent, rgba(36,31,27,0.3));
+}
 
 .event-date {
   text-align: center;
-  padding-top: 2px;
+  padding: 10px 0;
+  border-radius: var(--radius);
+  background: var(--cat-bg, var(--paper));
+  height: fit-content;
 }
 
 .event-date .day {
   font-family: 'Fraunces', serif;
   font-size: 1.7rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1;
   color: var(--cat-accent, var(--ink));
 }
 
 .event-date .month {
-  font-size: 0.78rem;
-  font-weight: 600;
+  font-size: 0.76rem;
+  font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink-soft);
-  margin-top: 4px;
+  color: var(--cat-accent, var(--ink-soft));
+  margin-top: 5px;
+  opacity: 0.85;
 }
 
 .event-body h3 {
@@ -254,12 +295,13 @@ body[data-category="comedy"] { --cat-accent: var(--amber); }
 .event-body h3 a {
   text-decoration: none;
 }
-.event-body h3 a:hover { text-decoration: underline; }
+.event-body h3 a:hover { text-decoration: underline; color: var(--cat-accent); }
 
 .event-meta {
   margin-top: 5px;
   font-size: 0.9rem;
   color: var(--ink-soft);
+  font-weight: 500;
 }
 
 .event-desc {
@@ -270,10 +312,13 @@ body[data-category="comedy"] { --cat-accent: var(--amber); }
 }
 
 .empty-state, .loading-state, .error-state {
-  padding: 40px 0;
+  padding: 40px 26px;
   color: var(--ink-soft);
   font-size: 1rem;
-  max-width: 50ch;
+  max-width: 56ch;
+  background: #fff;
+  border: 1px dashed var(--cat-accent, var(--line));
+  border-radius: var(--radius);
 }
 
 /* ---------- Footer ---------- */
@@ -287,8 +332,8 @@ body[data-category="comedy"] { --cat-accent: var(--amber); }
   border-top: 1px solid var(--line);
 }
 
-.site-footer a { text-decoration: underline; }
+.site-footer a { text-decoration: underline; color: var(--music-deep); }
 
 @media (prefers-reduced-motion: reduce) {
-  .panel, .panel .more-link .arrow { transition: none; }
+  .panel, .panel .more-link .arrow, .event-card { transition: none; }
 }

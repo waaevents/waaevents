@@ -22,6 +22,13 @@ Woodinville, WA — [woodinville-creative-events](https://waaevents.github.io/wa
      categories (happy hours, farmers markets, trivia nights, etc.) are left
      out.
   4. Writes the result to `data/events.json`.
+
+  The feed's default page only returns roughly the next week of events, and
+  Woodinville's calendar skews heavily toward live music (wineries book it
+  constantly), so the Art and Comedy pages may be empty on any given day —
+  that's a real reflection of the source, not a bug. They fill back in as
+  those events come up. See "Adding more event sources" below for how to
+  broaden this.
 - **`.github/workflows/update-events.yml`** — a GitHub Actions workflow that
   runs the script once a day (6am Pacific) and commits `data/events.json` if
   anything changed. You can also trigger it manually from the repo's
