@@ -1,5 +1,5 @@
 // Fetches public Woodinville-area event calendar feed(s), keyword-categorizes
-// each event into art / music / comedy, and writes data/events.json.
+// each event into art / music / comedy / food-drink, and writes data/events.json.
 //
 // No AI involved by design: this is a plain ICS calendar parse + keyword match.
 // Run manually with: node scripts/update-events.mjs
@@ -18,9 +18,9 @@ const FEEDS = [
   },
 ];
 
-// Keyword categorization. Checked against the title first (stronger signal),
-// then the description if the title doesn't match anything.
-const CATEGORY_KEYWORDS = {
+// Genre keywords. Checked against the title first (stronger signal), then
+// the description if the title doesn't match anything.
+const GENRE_KEYWORDS = {
   art: [
     'art walk', 'art in the wineries', 'art exhibit', 'gallery', 'painting',
     'paint night', 'paint & sip', 'artist', 'exhibition', 'pottery',
@@ -38,17 +38,39 @@ const CATEGORY_KEYWORDS = {
   ],
 };
 
+// Food & Drink: matched by venue type, not genre — breweries, restaurants,
+// cafes, and distilleries specifically (not wineries/tasting rooms, which
+// already dominate the Music category via "live music at ___" events).
+// Checked against the combined location + title + description, and only
+// after the genre keywords above have had a chance to match — so a "Live
+// Music at ___ Brewing" event still lands under Music, not here.
+const FOOD_DRINK_KEYWORDS = [
+  'brewery', 'brewing', 'taproom', 'tap room', 'pub',
+  'distillery', 'distilling', 'spirits',
+  'cafe', 'café', 'coffee', 'roastery',
+  'restaurant', 'bistro', 'eatery', 'kitchen', 'diner', 'grill', 'pizzeria',
+  'gastropub', 'bakery',
+];
+
 const WINDOW_DAYS = 90;
 
-function categorize(title, description) {
+function categorize(title, description, location) {
   const t = title.toLowerCase();
   const d = (description || '').toLowerCase();
-  for (const [cat, words] of Object.entries(CATEGORY_KEYWORDS)) {
+  const l = (location || '').toLowerCase();
+
+  for (const [cat, words] of Object.entries(GENRE_KEYWORDS)) {
     if (words.some((w) => t.includes(w))) return cat;
   }
-  for (const [cat, words] of Object.entries(CATEGORY_KEYWORDS)) {
+  for (const [cat, words] of Object.entries(GENRE_KEYWORDS)) {
     if (words.some((w) => d.includes(w))) return cat;
   }
+
+  const combined = `${l} ${t} ${d}`;
+  if (FOOD_DRINK_KEYWORDS.some((w) => combined.includes(w))) {
+    return 'food-drink';
+  }
+
   return null;
 }
 
@@ -86,7 +108,8 @@ async function main() {
 
         const title = (ev.summary || 'Untitled event').toString().trim();
         const description = cleanDescription(ev.description);
-        const category = categorize(title, description);
+        const location = (ev.location || '').toString().trim();
+        const category = categorize(title, description, location);
         if (!category) continue;
 
         const uid = ev.uid || `${title}-${start.toISOString()}`;
@@ -98,7 +121,7 @@ async function main() {
           title,
           category,
           start: start.toISOString(),
-          location: (ev.location || '').toString().trim(),
+          location,
           url: (ev.url || '').toString().trim(),
           description: description.slice(0, 280),
           source: feed.name,

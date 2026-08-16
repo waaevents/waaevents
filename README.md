@@ -1,15 +1,17 @@
 # Woodinville Creative Events
 
-A small static site listing art, music, and comedy events happening in
-Woodinville, WA — [woodinville-creative-events](https://waaevents.github.io/waaevents/)
+A small static site listing art, music, comedy, and food & drink events
+happening in Woodinville, WA —
+[woodinville-creative-events](https://waaevents.github.io/waaevents/)
 (enable GitHub Pages to get the live URL; see below).
 
 ## How it works
 
-- **`index.html`** — homepage with three panels (Art / Music / Comedy). Each
-  panel's "More information" link goes to that category's page.
-- **`art.html`, `music.html`, `comedy.html`** — list every upcoming event in
-  that category, read from `data/events.json`.
+- **`index.html`** — homepage with four panels (Art / Music / Comedy /
+  Food & Drink). Each panel's "More information" link goes to that
+  category's page.
+- **`art.html`, `music.html`, `comedy.html`, `food-drink.html`** — list
+  every upcoming event in that category, read from `data/events.json`.
 - **`data/events.json`** — the event data. Regenerated automatically.
 - **`scripts/update-events.mjs`** — a plain Node.js script (no AI) that:
   1. Fetches the public iCal feed published by
@@ -17,10 +19,16 @@ Woodinville, WA — [woodinville-creative-events](https://waaevents.github.io/wa
      the official Woodinville tourism site, which aggregates events from
      wineries, breweries, and venues around town.
   2. Keeps events happening in the next 90 days.
-  3. Sorts each event into `art`, `music`, or `comedy` by matching keywords
-     in its title and description. Events that don't match any of the three
-     categories (happy hours, farmers markets, trivia nights, etc.) are left
-     out.
+  3. Sorts each event into a category:
+     - `art`, `music`, `comedy` — by matching genre keywords in the title,
+       then the description (e.g. "live music", "stand-up", "art walk").
+     - `food-drink` — anything not already matched to a genre above, whose
+       location, title, or description names a brewery, distillery, cafe,
+       or restaurant (e.g. "Northwest Spirits", "Ruff Draft taproom").
+       Wineries/tasting rooms are deliberately excluded from this category
+       since they already dominate Music via "live music at ___" events.
+     - Anything matching neither (general happy hours with no identifiable
+       venue type, farmers markets, museum hours, etc.) is left out.
   4. Writes the result to `data/events.json`.
 
   The feed's default page only returns roughly the next week of events, and
@@ -45,9 +53,10 @@ included here.
 
 ## Adjusting categorization
 
-Keyword lists live in `CATEGORY_KEYWORDS` near the top of
-`scripts/update-events.mjs`. Add or remove words there to tune what counts
-as an art, music, or comedy event.
+Keyword lists live in `GENRE_KEYWORDS` (art/music/comedy) and
+`FOOD_DRINK_KEYWORDS` (breweries/restaurants/cafes/distilleries) near the
+top of `scripts/update-events.mjs`. Add or remove words there to tune what
+counts as each category.
 
 ## Running it locally
 

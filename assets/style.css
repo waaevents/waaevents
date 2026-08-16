@@ -24,6 +24,11 @@
   --comedy-deep: #a5560a;
   --comedy-bg: #fdead0;
 
+  /* Food & Drink — deep teal */
+  --food: #146a72;
+  --food-deep: #0d474d;
+  --food-bg: #d9edee;
+
   --radius: 6px;
 }
 
@@ -62,9 +67,10 @@ button:focus-visible {
   width: 100%;
   background: linear-gradient(
     to right,
-    var(--art) 0 33.3%,
-    var(--music) 33.3% 66.6%,
-    var(--comedy) 66.6% 100%
+    var(--art) 0 25%,
+    var(--music) 25% 50%,
+    var(--comedy) 50% 75%,
+    var(--food) 75% 100%
   );
 }
 
@@ -126,15 +132,19 @@ button:focus-visible {
 /* ---------- Homepage panels ---------- */
 
 .panels {
-  max-width: 1080px;
+  max-width: 1200px;
   margin: 8px auto 64px;
   padding: 0 24px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 980px) {
+  .panels { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 560px) {
   .panels { grid-template-columns: 1fr; }
 }
 
@@ -160,6 +170,7 @@ button:focus-visible {
 .panel--art    { --panel-accent: var(--art);   --panel-bg: var(--art-bg); }
 .panel--music  { --panel-accent: var(--music); --panel-bg: var(--music-bg); }
 .panel--comedy { --panel-accent: var(--comedy);--panel-bg: var(--comedy-bg); }
+.panel--food   { --panel-accent: var(--food);  --panel-bg: var(--food-bg); }
 
 .panel .kicker {
   font-size: 12px;
@@ -233,9 +244,10 @@ button:focus-visible {
   color: var(--cat-accent, var(--ink));
 }
 
-body[data-category="art"]    { --cat-accent: var(--art);    --cat-bg: var(--art-bg); }
-body[data-category="music"]  { --cat-accent: var(--music);  --cat-bg: var(--music-bg); }
-body[data-category="comedy"] { --cat-accent: var(--comedy); --cat-bg: var(--comedy-bg); }
+body[data-category="art"]       { --cat-accent: var(--art);    --cat-bg: var(--art-bg); }
+body[data-category="music"]     { --cat-accent: var(--music);  --cat-bg: var(--music-bg); }
+body[data-category="comedy"]    { --cat-accent: var(--comedy); --cat-bg: var(--comedy-bg); }
+body[data-category="food-drink"]{ --cat-accent: var(--food);   --cat-bg: var(--food-bg); }
 
 .event-list {
   max-width: 1080px;
