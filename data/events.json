@@ -1,68 +1,8 @@
 {
-  "updatedAt": "2026-08-14T23:17:48.468Z",
+  "updatedAt": "2026-08-16T13:55:33.884Z",
   "windowDays": 90,
   "count": 14,
   "events": [
-    {
-      "id": "10018473-1786726800-1786737600@visitwoodinville.org",
-      "title": "A New Favorite Returns: DA-SH Live at Synne Cellars",
-      "category": "music",
-      "start": "2026-08-15T00:00:00.000Z",
-      "location": "Hollywood Schoolhouse-Synne Cellars, 14810 NE 145th Street, Suite B-Downstairs, Woodinville, 98072",
-      "url": "https://visitwoodinville.org/event/a-new-favorite-returns-da-sh-live-at-synne-cellars/",
-      "description": "Dan and Shane = DA-SH and they are bringing signature feel-good sound to Synne Cellars for an evening of live music, great wine, and a laid-back summer atmosphere.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10013751-1786730400-1786737600@visitwoodinville.org",
-      "title": "Live Music at Patterson Cellars",
-      "category": "music",
-      "start": "2026-08-15T01:00:00.000Z",
-      "location": "Patterson Cellars Tasting Room, 19501 144th Ave NE, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/live-music-at-patterson-cellars/2026-08-14/",
-      "description": "Live music at Patterson Cellars Hollywood location, Fridays and Saturdays, 6-8pm.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10018132-1786730400-1786737600@visitwoodinville.org",
-      "title": "Live Music Fridays at Northwest Spirits",
-      "category": "music",
-      "start": "2026-08-15T01:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
-      "url": "https://visitwoodinville.org/event/live-music-fridays-at-northwest-spirits/2026-08-14/",
-      "description": "Every Friday from 6-8pm, Northwest Spirits hosts local acoustic artists spanning a variety of genres, right in the heart of Woodinville wine country.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10016166-1786730400-1786739400@visitwoodinville.org",
-      "title": "Live Music at Fireside Lounge",
-      "category": "music",
-      "start": "2026-08-15T01:00:00.000Z",
-      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-14/",
-      "description": "Sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10013752-1786816800-1786824000@visitwoodinville.org",
-      "title": "Live Music at Patterson Cellars",
-      "category": "music",
-      "start": "2026-08-16T01:00:00.000Z",
-      "location": "Patterson Cellars Tasting Room, 19501 144th Ave NE, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/live-music-at-patterson-cellars/2026-08-15/",
-      "description": "Live music at Patterson Cellars Hollywood location, Fridays and Saturdays, 6-8pm.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10016167-1786816800-1786825800@visitwoodinville.org",
-      "title": "Live Music at Fireside Lounge",
-      "category": "music",
-      "start": "2026-08-16T01:00:00.000Z",
-      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-15/",
-      "description": "Sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike.",
-      "source": "Visit Woodinville"
-    },
     {
       "id": "10014782-1786892400-1786899600@visitwoodinville.org",
       "title": "Synne Sessions: Unwind with Live Acoustic Music — Robbie Egelstad",
@@ -70,7 +10,7 @@
       "start": "2026-08-16T22:00:00.000Z",
       "location": "Synne Cellars, 14810 NE 145th Street, Suite B, Woodinville, Washington, 98072",
       "url": "https://visitwoodinville.org/event/synne-sessions-unwind-with-live-acoustic-music-robbie-egelstad-12/",
-      "description": "Unwind after work at a Synne Session with wine and live acoustic music, part of the recurring Synne Sessions series.",
+      "description": "Unwind after work at a Synne Session with wine & live acoustic music Robbie performs a couple of times each month as part of our Synne Sessions series, bringing an easygoing, high-quality live set to the tasting room. His performances have quickly become a guest favorite — the pe",
       "source": "Visit Woodinville"
     },
     {
@@ -80,7 +20,7 @@
       "start": "2026-08-18T01:00:00.000Z",
       "location": "Watts Brewing, 15510 Woodinville-Redmond Rd NE E110, Woodinville, WA, 98072",
       "url": "https://visitwoodinville.org/event/mikelparis-live-at-watts-brewing/",
-      "description": "MikelParis brings a vibrant fusion of funk, folk, soul, and rock to Watts Brewing. No cover charge, all ages welcome.",
+      "description": "MikelParis is a multifaceted artist whose 20 year tenure as keyboardist, percussionist, and backup vocalist for the celebrated American rock band O.A.R. is only the beginning of his story. The MikelParis experience is a vibrant fusion of funk, folk, soul, and rock that has him sp",
       "source": "Visit Woodinville"
     },
     {
@@ -90,7 +30,7 @@
       "start": "2026-08-19T01:00:00.000Z",
       "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
       "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-18/",
-      "description": "Sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike.",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
       "source": "Visit Woodinville"
     },
     {
@@ -100,7 +40,7 @@
       "start": "2026-08-20T01:00:00.000Z",
       "location": "Pepper Bridge & Amavi Cellars, 14810 NE 145th ST #A3, Woodinville, WA, 98072",
       "url": "https://visitwoodinville.org/event/music-bingo-at-pepper-bridge-amavi-cellars/2026-08-19/",
-      "description": "A fun night of Music Bingo. Doors open at 5:30pm, game starts at 6pm, prizes awarded throughout the night.",
+      "description": "Join us for a fun night of Music Bingo! Doors open at 530pm with communal seating, game starts promptly at 6pm. Board is available with wine purchase, prizes will be awarded throughout the night. We offer small snacks including a variety of cheese, charcuterie, crackers and choco",
       "source": "Visit Woodinville"
     },
     {
@@ -110,7 +50,7 @@
       "start": "2026-08-20T01:00:00.000Z",
       "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
       "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-19/",
-      "description": "Sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike.",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
       "source": "Visit Woodinville"
     },
     {
@@ -120,7 +60,7 @@
       "start": "2026-08-21T00:00:00.000Z",
       "location": "Pepper Bridge & Amavi Cellars, 14810 NE 145th ST #A3, Woodinville, WA, 98072",
       "url": "https://visitwoodinville.org/event/live-music-with-richard-taylor-at-pepper-bridge-amavi-cellars/",
-      "description": "Richard Taylor delivers a high-energy performance featuring soulful rock, pop, and R&B covers plus original songs. No cover charge.",
+      "description": "Summer Nights + Live Music = The Perfect Pairing! Get ready for an incredible night as we welcome Richard Taylor to out tasting room! From soulful rock and pop to smooth R&B, Richard delivers a high-energy performance featuring a mix of favorite covers and standout original songs",
       "source": "Visit Woodinville"
     },
     {
@@ -130,7 +70,7 @@
       "start": "2026-08-21T00:30:00.000Z",
       "location": "Pepper Bridge & Amavi Cellars, 14810 NE 145th ST #A3, Woodinville, WA, 98072",
       "url": "https://visitwoodinville.org/event/music-bingo/2026-08-20/",
-      "description": "A lively night of Music Bingo where your favorite songs replace the numbers. Doors open 5:30pm, game starts 6pm.",
+      "description": "Turn up the fun with a lively night of Music Bingo—where your favorite songs replace the numbers and every round brings a chance to win! Doors open at 5:30 PM with communal seating, and the game kicks off promptly at 6 PM. Grab your bingo board with a wine purchase and get ready ",
       "source": "Visit Woodinville"
     },
     {
@@ -140,7 +80,67 @@
       "start": "2026-08-21T01:00:00.000Z",
       "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
       "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-20/",
-      "description": "Sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike.",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018475-1787333400-1787340600@visitwoodinville.org",
+      "title": "Discover Ben Meyer: Live Jazz Debut at Synne Cellars",
+      "category": "music",
+      "start": "2026-08-22T00:30:00.000Z",
+      "location": "Hollywood Schoolhouse-Synne Cellars, 14810 NE 145th Street, Suite B-Downstairs, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/discover-ben-meyer-live-jazz-debut-at-synne-cellars/",
+      "description": "We’re excited to welcome Ben Meyer to Synne Cellars for his first-ever performance with us! Ben brings an evening of contemporary jazz featuring music by the Pat Metheny Group and other jazz favorites. Whether you’re a longtime jazz fan or simply looking for a relaxing Friday eve",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10013753-1787335200-1787342400@visitwoodinville.org",
+      "title": "Live Music at Patterson Cellars",
+      "category": "music",
+      "start": "2026-08-22T01:00:00.000Z",
+      "location": "Patterson Cellars Tasting Room, 19501 144th Ave NE, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/live-music-at-patterson-cellars/2026-08-21/",
+      "description": "Live music at Patterson Cellars Hollywood location, Fridays and Saturdays, 6-8pm.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018133-1787335200-1787342400@visitwoodinville.org",
+      "title": "Live Music Fridays at Northwest Spirits",
+      "category": "music",
+      "start": "2026-08-22T01:00:00.000Z",
+      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-fridays-at-northwest-spirits/2026-08-21/",
+      "description": "End your week the right way. Every Friday from 6–8pm, Northwest Spirits hosts local acoustic artists spanning a variety of genres, right in the heart of Woodinville wine country. Grab a craft cocktail, order some bites from Von’s 1000Spirits next door, and let the music do the re",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10016171-1787335200-1787344200@visitwoodinville.org",
+      "title": "Live Music at Fireside Lounge",
+      "category": "music",
+      "start": "2026-08-22T01:00:00.000Z",
+      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-21/",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10013754-1787421600-1787428800@visitwoodinville.org",
+      "title": "Live Music at Patterson Cellars",
+      "category": "music",
+      "start": "2026-08-23T01:00:00.000Z",
+      "location": "Patterson Cellars Tasting Room, 19501 144th Ave NE, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/live-music-at-patterson-cellars/2026-08-22/",
+      "description": "Live music at Patterson Cellars Hollywood location, Fridays and Saturdays, 6-8pm.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10016172-1787421600-1787430600@visitwoodinville.org",
+      "title": "Live Music at Fireside Lounge",
+      "category": "music",
+      "start": "2026-08-23T01:00:00.000Z",
+      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-22/",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
       "source": "Visit Woodinville"
     }
   ]
