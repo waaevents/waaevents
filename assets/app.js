@@ -1,7 +1,7 @@
 // Woodinville Creative Events — front-end rendering
 // Reads /data/events.json (regenerated daily by scripts/update-events.mjs)
 
-const DATA_URL = '/data/events.json';
+const DATA_URL = 'data/events.json';
 
 async function loadEvents() {
   const res = await fetch(DATA_URL, { cache: 'no-store' });
