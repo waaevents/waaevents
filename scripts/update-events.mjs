@@ -1,41 +1,73 @@
 // Fetches public Woodinville-area event calendar feed(s), keyword-categorizes
-// each event into art / music / comedy / food-drink, and writes data/events.json.
+// each event into art / music / comedy / food-drink / community, and writes
+// data/events.json.
 //
-// No AI involved by design: this is a plain ICS calendar parse + keyword match.
-// Run manually with: node scripts/update-events.mjs
+// No AI involved by design: this is a plain ICS calendar parse + keyword
+// match. Run manually with: node scripts/update-events.mjs
 // Run automatically by .github/workflows/update-events.yml (daily cron).
 
 import ical from 'node-ical';
 import { writeFile, mkdir } from 'node:fs/promises';
 import path from 'node:path';
 
+const WINDOW_DAYS = 90;
+
+// The Visit Woodinville feed only returns roughly the next week of events
+// per request (it's a live "list" view, not a full export), but it accepts
+// a start date in the URL. To cover the whole WINDOW_DAYS window — every
+// event, every venue the site tracks, not just the next few days — we
+// sweep it with a series of requests, one every STEP_DAYS, and merge +
+// dedupe the results by UID.
+const VISIT_WOODINVILLE_STEP_DAYS = 6;
+
+function buildVisitWoodinvilleFeeds(now, windowDays, stepDays) {
+  const feeds = [];
+  for (let offset = 0; offset < windowDays; offset += stepDays) {
+    const d = new Date(now.getTime() + offset * 24 * 60 * 60 * 1000);
+    const dateStr = d.toISOString().slice(0, 10); // YYYY-MM-DD
+    feeds.push({
+      name: `Visit Woodinville (from ${dateStr})`,
+      url: `https://visitwoodinville.org/events/list/${dateStr}/?ical=1&shortcode=f0b1cb7d`,
+    });
+  }
+  return feeds;
+}
+
 // Add more feeds here over time — anything that publishes a standard iCal
-// (.ics) feed of Woodinville-area events can be dropped in.
-const FEEDS = [
-  {
-    name: 'Visit Woodinville',
-    url: 'https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d',
-  },
-];
+// (.ics) feed of Woodinville-area events can be dropped in alongside the
+// Visit Woodinville sweep below.
+const EXTRA_FEEDS = [];
 
 // Genre keywords. Checked against the title first (stronger signal), then
 // the description if the title doesn't match anything.
 const GENRE_KEYWORDS = {
   art: [
     'art walk', 'art in the wineries', 'art exhibit', 'gallery', 'painting',
-    'paint night', 'paint & sip', 'artist', 'exhibition', 'pottery',
-    'sculpture', 'mural', 'watercolor', 'ceramic', 'craft fair', 'art show',
+    'paint night', 'paint & sip', 'paint and sip', 'artist', 'exhibition',
+    'pottery', 'sculpture', 'mural', 'watercolor', 'ceramic', 'craft fair',
+    'art show', 'living history', 'living voices', 'theatre', 'theater',
+    'hat making', 'wreath making',
   ],
   music: [
     'live music', 'concert', 'music bingo', 'music showcase', 'band',
     'acoustic', 'singer-songwriter', 'songwriter', 'jazz', 'orchestra',
     'choir', 'sing-along', 'synne sessions', 'world music', 'live at',
-    'performing live', 'dj set',
+    'performing live', 'dj set', 'karaoke',
   ],
   comedy: [
     'comedy', 'comedian', 'stand-up', 'stand up', 'standup', 'improv',
     'open mic comedy', 'sketch comedy', 'jokes for evermore',
   ],
+};
+
+// Some venues are strongly associated with one genre regardless of what
+// the event title says — Chateau Ste. Michelle's amphitheater, for
+// instance, lists shows under just the artist's name ("Bob Dylan", "Boyz
+// II Men"), with nothing in the title or description to keyword-match.
+// Checked against location only, after the title/description genre
+// keywords above have had a chance to match.
+const VENUE_GENRE_KEYWORDS = {
+  music: ['chateau ste. michelle', 'chateau ste michelle', 'ste. michelle amphitheatre'],
 };
 
 // Food & Drink: matched by venue type, not genre — breweries, restaurants,
@@ -52,7 +84,12 @@ const FOOD_DRINK_KEYWORDS = [
   'gastropub', 'bakery',
 ];
 
-const WINDOW_DAYS = 90;
+// Anything that doesn't match a genre or a food & drink venue still lands
+// on the site — under Community & More — instead of being silently
+// dropped. This is what makes "every event, every venue" true: farmers
+// markets, museum hours, festivals, wellness classes, trivia at venues
+// that aren't breweries/restaurants/cafes/distilleries, etc.
+const FALLBACK_CATEGORY = 'community';
 
 function categorize(title, description, location) {
   const t = title.toLowerCase();
@@ -65,13 +102,16 @@ function categorize(title, description, location) {
   for (const [cat, words] of Object.entries(GENRE_KEYWORDS)) {
     if (words.some((w) => d.includes(w))) return cat;
   }
+  for (const [cat, words] of Object.entries(VENUE_GENRE_KEYWORDS)) {
+    if (words.some((w) => l.includes(w))) return cat;
+  }
 
   const combined = `${l} ${t} ${d}`;
   if (FOOD_DRINK_KEYWORDS.some((w) => combined.includes(w))) {
     return 'food-drink';
   }
 
-  return null;
+  return FALLBACK_CATEGORY;
 }
 
 function cleanDescription(desc) {
@@ -92,29 +132,35 @@ async function main() {
   const now = new Date();
   const maxDate = new Date(now.getTime() + WINDOW_DAYS * 24 * 60 * 60 * 1000);
 
+  const feeds = [
+    ...buildVisitWoodinvilleFeeds(now, WINDOW_DAYS, VISIT_WOODINVILLE_STEP_DAYS),
+    ...EXTRA_FEEDS,
+  ];
+
   const seen = new Set();
   const events = [];
-  let anyFeedSucceeded = false;
+  let feedsSucceeded = 0;
+  let feedsFailed = 0;
 
-  for (const feed of FEEDS) {
+  for (const feed of feeds) {
     try {
       const rawEvents = await fetchFeed(feed);
-      anyFeedSucceeded = true;
+      feedsSucceeded += 1;
+      let addedFromThisFeed = 0;
       for (const ev of rawEvents) {
         if (!ev.start) continue;
         const start = new Date(ev.start);
         if (Number.isNaN(start.getTime())) continue;
         if (start < now || start > maxDate) continue;
 
+        const uid = ev.uid || `${ev.summary}-${start.toISOString()}`;
+        if (seen.has(uid)) continue;
+        seen.add(uid);
+
         const title = (ev.summary || 'Untitled event').toString().trim();
         const description = cleanDescription(ev.description);
         const location = (ev.location || '').toString().trim();
         const category = categorize(title, description, location);
-        if (!category) continue;
-
-        const uid = ev.uid || `${title}-${start.toISOString()}`;
-        if (seen.has(uid)) continue;
-        seen.add(uid);
 
         events.push({
           id: uid,
@@ -124,16 +170,18 @@ async function main() {
           location,
           url: (ev.url || '').toString().trim(),
           description: description.slice(0, 280),
-          source: feed.name,
+          source: 'Visit Woodinville',
         });
+        addedFromThisFeed += 1;
       }
-      console.log(`Fetched ${rawEvents.length} raw events from ${feed.name}`);
+      console.log(`${feed.name}: ${rawEvents.length} raw, ${addedFromThisFeed} new`);
     } catch (err) {
+      feedsFailed += 1;
       console.error(`Failed to fetch/parse ${feed.name}: ${err.message}`);
     }
   }
 
-  if (!anyFeedSucceeded) {
+  if (feedsSucceeded === 0) {
     console.error('All feeds failed — leaving existing data/events.json untouched.');
     process.exit(1);
   }
@@ -157,7 +205,10 @@ async function main() {
     acc[e.category] = (acc[e.category] || 0) + 1;
     return acc;
   }, {});
-  console.log(`Wrote ${events.length} categorized events to data/events.json`, counts);
+  console.log(
+    `Wrote ${events.length} events (${feedsSucceeded} feed requests ok, ${feedsFailed} failed) to data/events.json`,
+    counts,
+  );
 }
 
 main().catch((err) => {

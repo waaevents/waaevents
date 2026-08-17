@@ -45,7 +45,7 @@ async function renderHomeCounts() {
   if (!els.length) return;
   try {
     const data = await loadEvents();
-    const counts = { art: 0, music: 0, comedy: 0, 'food-drink': 0 };
+    const counts = { art: 0, music: 0, comedy: 0, 'food-drink': 0, community: 0 };
     for (const ev of data.events || []) {
       if (counts[ev.category] !== undefined) counts[ev.category] += 1;
     }
