@@ -12,25 +12,23 @@ import path from 'node:path';
 
 const WINDOW_DAYS = 90;
 
-// The Visit Woodinville feed only returns roughly the next week of events
-// per request (it's a live "list" view, not a full export), but it accepts
-// a start date in the URL. To cover the whole WINDOW_DAYS window — every
-// event, every venue the site tracks, not just the next few days — we
-// sweep it with a series of requests, one every STEP_DAYS, and merge +
-// dedupe the results by UID.
-const VISIT_WOODINVILLE_STEP_DAYS = 6;
-
-function buildVisitWoodinvilleFeeds(now, windowDays, stepDays) {
-  const feeds = [];
-  for (let offset = 0; offset < windowDays; offset += stepDays) {
-    const d = new Date(now.getTime() + offset * 24 * 60 * 60 * 1000);
-    const dateStr = d.toISOString().slice(0, 10); // YYYY-MM-DD
-    feeds.push({
-      name: `Visit Woodinville (from ${dateStr})`,
-      url: `https://visitwoodinville.org/events/list/${dateStr}/?ical=1&shortcode=f0b1cb7d`,
-    });
-  }
-  return feeds;
+// The Visit Woodinville feed's "list" view only returns roughly the next
+// week of events. A previous version of this script tried to page through
+// the full WINDOW_DAYS by guessing a dated-URL pattern
+// (/events/list/YYYY-MM-DD/?ical=1&...) — that pattern turned out to be
+// wrong: it doesn't error, it just silently returns an empty calendar, so
+// the site briefly went live with zero events. Reverted to the single
+// feed URL that's actually verified to return real events. If someone
+// wants to extend coverage further out, the reliable way is to open the
+// site's "Next Events" pagination link in a real browser, check what URL
+// it actually requests, and use that — not guess at the pattern.
+function buildVisitWoodinvilleFeeds() {
+  return [
+    {
+      name: 'Visit Woodinville',
+      url: 'https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d',
+    },
+  ];
 }
 
 // Add more feeds here over time — anything that publishes a standard iCal
@@ -133,7 +131,7 @@ async function main() {
   const maxDate = new Date(now.getTime() + WINDOW_DAYS * 24 * 60 * 60 * 1000);
 
   const feeds = [
-    ...buildVisitWoodinvilleFeeds(now, WINDOW_DAYS, VISIT_WOODINVILLE_STEP_DAYS),
+    ...buildVisitWoodinvilleFeeds(),
     ...EXTRA_FEEDS,
   ];
 
@@ -183,6 +181,20 @@ async function main() {
 
   if (feedsSucceeded === 0) {
     console.error('All feeds failed — leaving existing data/events.json untouched.');
+    process.exit(1);
+  }
+
+  // Safety net: a feed request can "succeed" (no network/parse error) but
+  // still return zero usable events — e.g. a wrong URL that resolves to
+  // an empty-but-valid calendar instead of a 404. That's exactly what
+  // broke the site earlier today. Refuse to overwrite good existing data
+  // with a suspiciously empty result; fail loudly instead so it shows up
+  // in the Actions tab rather than silently blanking the live site.
+  if (events.length === 0) {
+    console.error(
+      'Feed(s) responded but produced zero events — treating this as a ' +
+      'failure and leaving existing data/events.json untouched.',
+    );
     process.exit(1);
   }
 
