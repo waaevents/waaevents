@@ -26,6 +26,8 @@ jobs:
 
       - name: Fetch and categorize events
         run: npm run update-events
+        continue-on-error: true
+        id: fetch
 
       - name: Commit updated data if changed
         run: |
@@ -38,3 +40,20 @@ jobs:
             git commit -m "Update events ($(date -u +%Y-%m-%d))"
             git push
           fi
+
+      - name: Commit debug diagnostics (always, even on failure)
+        if: always()
+        run: |
+          git config user.name "events-bot"
+          git config user.email "actions@github.com"
+          git add -f data/debug-last-run.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No debug diagnostics to commit"
+          else
+            git commit -m "Update debug diagnostics ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Fail the job if the fetch step failed
+        if: steps.fetch.outcome == 'failure'
+        run: exit 1

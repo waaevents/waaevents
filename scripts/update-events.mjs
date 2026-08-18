@@ -165,6 +165,11 @@ async function main() {
   const events = [];
   let feedsSucceeded = 0;
   let feedsFailed = 0;
+  // Temporary diagnostics: written unconditionally (even if the run
+  // otherwise fails) so a failure's actual cause is visible without
+  // needing raw Actions log access. Remove once the two-feed setup has
+  // proven reliable for a while.
+  const feedDiagnostics = [];
 
   for (const feed of feeds) {
     try {
@@ -209,11 +214,25 @@ async function main() {
         addedFromThisFeed += 1;
       }
       console.log(`${feed.name}: ${rawEvents.length} raw, ${addedFromThisFeed} new`);
+      feedDiagnostics.push({
+        feed: feed.name, url: feed.url, ok: true,
+        rawCount: rawEvents.length, addedCount: addedFromThisFeed,
+      });
     } catch (err) {
       feedsFailed += 1;
       console.error(`Failed to fetch/parse ${feed.name}: ${err.message}`);
+      feedDiagnostics.push({
+        feed: feed.name, url: feed.url, ok: false,
+        error: err.message, stack: (err.stack || '').split('\n').slice(0, 4).join(' | '),
+      });
     }
   }
+
+  await mkdir('data', { recursive: true });
+  await writeFile(
+    path.join('data', 'debug-last-run.json'),
+    JSON.stringify({ ranAt: new Date().toISOString(), feedDiagnostics }, null, 2) + '\n',
+  );
 
   if (feedsSucceeded === 0) {
     console.error('All feeds failed — leaving existing data/events.json untouched.');
