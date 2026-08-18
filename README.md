@@ -16,17 +16,27 @@ Community & More —
   from `data/events.json`.
 - **`data/events.json`** — the event data. Regenerated automatically.
 - **`scripts/update-events.mjs`** — a plain Node.js script (no AI) that:
-  1. Sweeps the public iCal feed published by
-     [visitwoodinville.org](https://visitwoodinville.org/seasonal-events/),
-     the official Woodinville tourism site, which aggregates events from
-     wineries, breweries, and venues around town. The feed's "list" view
-     only returns about a week of events per request, so the script
-     requests it repeatedly with a different start date (every 6 days,
-     covering the full 90-day window) and merges the results, deduping by
-     event UID — this is what gets every event across the full window
-     instead of just the next few days.
-  2. Keeps events happening in the next 90 days.
-  3. Sorts each event into a category:
+  1. Fetches the public iCal feeds of two independent Woodinville
+     organizations:
+     - [visitwoodinville.org](https://visitwoodinville.org/seasonal-events/)
+       — the official Woodinville tourism site.
+     - [woodinvillechamber.org](https://woodinvillechamber.org/cal-events/category/community-events/)
+       — the Woodinville Chamber of Commerce's community events calendar.
+
+     Each feed's "list" view only returns about a week of events per
+     request — there's no reliably guessable way to page further out (an
+     earlier attempt at guessing a dated-pagination URL silently returned
+     an empty calendar and blanked the live site; see the git history).
+     Extending coverage further out would mean using whatever exact
+     "Next Events" URL a feed's own pagination link actually points to,
+     confirmed by fetching it, not assumed from a pattern.
+  2. Merges both feeds and dedupes: first by event UID (catches a feed
+     returning the same event twice), then by matching title + start time
+     (catches the *same real event* being listed independently on both
+     sites with two different UIDs — which happens, since they're
+     separate WordPress installs).
+  3. Keeps events happening in the next 90 days.
+  4. Sorts each event into a category:
      - `art`, `music`, `comedy` — by matching genre keywords in the title,
        then the description (e.g. "live music", "stand-up", "art walk",
        "karaoke", "hat making", "paint and sip").
@@ -35,27 +45,48 @@ Community & More —
        its concert listings are just artist names ("Boyz II Men") with
        nothing else to keyword-match.
      - `food-drink` — anything not already matched above, whose location,
-       title, or description names a brewery, distillery, cafe, or
-       restaurant (e.g. "Northwest Spirits", "Ruff Draft taproom").
-       Wineries/tasting rooms are deliberately excluded from this category
-       since they already dominate Music via "live music at ___" events.
+       title, or description names a brewery, distillery, cafe, restaurant,
+       or a "happy hour" (e.g. "Northwest Spirits", "Ruff Draft taproom",
+       "Woodinville Whiskey"). Wineries/tasting rooms are deliberately
+       excluded from this category since they already dominate Music via
+       "live music at ___" events — a winery's own happy hour or tasting
+       (not a keyword match) falls to Community & More instead.
      - `community` — everything else (farmers markets, museum hours,
        festivals, wellness classes, etc.). Nothing gets silently dropped;
-       every event the feed returns ends up in one of the five categories.
-  4. Writes the result to `data/events.json`.
+       every event either feed returns ends up in one of the five
+       categories.
+  5. Writes the result to `data/events.json`.
 - **`.github/workflows/update-events.yml`** — a GitHub Actions workflow that
   runs the script once a day (6am Pacific) and commits `data/events.json` if
   anything changed. You can also trigger it manually from the repo's
   **Actions** tab → "Update events" → **Run workflow**.
 
+## Sources considered but not included
+
+A few names come up often for Woodinville events but don't have a
+plain-scrapable feed, so they're not wired in:
+- **Dani Marie Productions/Talent** — a local booking agency behind a lot
+  of the live music and comedy at area wineries (Fidelitas, Long Shadows,
+  Chandler Reach, Maryhill, and others). Their listings live on Instagram
+  and Facebook, which don't offer a simple public feed.
+- **woodinvillewinecountry.com** — a second, separate wine-industry
+  events site with its own listings (e.g. winery bingo nights, release
+  parties). Its event pages didn't show an iCal export the way
+  visitwoodinville.org and the Chamber site do; would need a different
+  scraping approach to include.
+- **The SOMM Hotel's "Happenings" page** — has its own recurring event
+  series (industry nights, weekly winery dinners) but publishes them as a
+  plain content page, not a calendar feed.
+
 ## Adding more event sources
 
 `scripts/update-events.mjs` builds its feed list from
-`buildVisitWoodinvilleFeeds()` (the paginated sweep above) plus an
-`EXTRA_FEEDS` array. Any site that publishes a standard iCal (`.ics`) feed
-— most event-calendar plugins and services do, usually via an "Export
-calendar" or "Subscribe" link — can be added to `EXTRA_FEEDS`. Sites
-without an iCal feed (e.g. Eventbrite listing pages) would need a
+`buildVisitWoodinvilleFeeds()` plus an `EXTRA_FEEDS` array. Any site that
+publishes a standard iCal (`.ics`) feed — most event-calendar plugins and
+services do, usually via an "Export calendar" or "Subscribe" link — can be
+added to `EXTRA_FEEDS`. Always use the exact URL the source site shows for
+that link, never a guessed/constructed one. Sites without an iCal feed
+(e.g. Eventbrite listing pages, Instagram/Facebook) would need a
 different, site-specific scraping approach, which isn't included here.
 
 ## Adjusting categorization
@@ -63,9 +94,9 @@ different, site-specific scraping approach, which isn't included here.
 Keyword lists live near the top of `scripts/update-events.mjs`:
 `GENRE_KEYWORDS` (art/music/comedy), `VENUE_GENRE_KEYWORDS` (venues that
 imply a genre, like Chateau Ste. Michelle → music), and
-`FOOD_DRINK_KEYWORDS` (breweries/restaurants/cafes/distilleries). Add or
-remove words there to tune what counts as each category. Anything that
-matches nothing falls back to `community`.
+`FOOD_DRINK_KEYWORDS` (breweries/restaurants/cafes/distilleries/happy
+hours). Add or remove words there to tune what counts as each category.
+Anything that matches nothing falls back to `community`.
 
 ## Running it locally
 
@@ -74,12 +105,13 @@ npm install
 npm run update-events   # writes data/events.json
 ```
 
-Then open `index.html` in a browser (or serve the folder with any static
-file server — the pages fetch `/data/events.json` with an absolute path, so
-a local server, e.g. `npx serve .`, works better than opening the file
-directly).
+Then serve the folder with any static file server (e.g. `npx serve .`) and
+open `index.html` — the pages fetch `data/events.json` with a relative
+path, so opening the file directly (`file://`) won't load it.
 
 ## Enabling GitHub Pages
 
 Settings → Pages → Source: **Deploy from a branch** → Branch: **main**,
-folder **/ (root)**.
+folder **/ (root)**. Note this repo is served at a subpath
+(`waaevents.github.io/waaevents/`), which is why every internal link uses
+relative paths rather than a leading `/`.

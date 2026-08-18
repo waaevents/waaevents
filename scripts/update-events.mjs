@@ -33,8 +33,17 @@ function buildVisitWoodinvilleFeeds() {
 
 // Add more feeds here over time — anything that publishes a standard iCal
 // (.ics) feed of Woodinville-area events can be dropped in alongside the
-// Visit Woodinville sweep below.
-const EXTRA_FEEDS = [];
+// Visit Woodinville feed above. Each entry's URL should be one actually
+// shown on the source site as its own "Export .ics" / "Subscribe" link —
+// never a guessed/constructed URL (see the pagination note above for why).
+const EXTRA_FEEDS = [
+  {
+    name: 'Woodinville Chamber (Community Events)',
+    // Verified against the site's own "Export .ics file" link on
+    // https://woodinvillechamber.org/cal-events/category/community-events/
+    url: 'https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1',
+  },
+];
 
 // Genre keywords. Checked against the title first (stronger signal), then
 // the description if the title doesn't match anything.
@@ -76,10 +85,10 @@ const VENUE_GENRE_KEYWORDS = {
 // Music at ___ Brewing" event still lands under Music, not here.
 const FOOD_DRINK_KEYWORDS = [
   'brewery', 'brewing', 'taproom', 'tap room', 'pub',
-  'distillery', 'distilling', 'spirits',
+  'distillery', 'distilling', 'spirits', 'whiskey', 'whisky',
   'cafe', 'café', 'coffee', 'roastery',
   'restaurant', 'bistro', 'eatery', 'kitchen', 'diner', 'grill', 'pizzeria',
-  'gastropub', 'bakery',
+  'gastropub', 'bakery', 'happy hour',
 ];
 
 // Anything that doesn't match a genre or a food & drink venue still lands
@@ -135,7 +144,8 @@ async function main() {
     ...EXTRA_FEEDS,
   ];
 
-  const seen = new Set();
+  const seenIds = new Set();
+  const seenTitleTime = new Set();
   const events = [];
   let feedsSucceeded = 0;
   let feedsFailed = 0;
@@ -152,10 +162,20 @@ async function main() {
         if (start < now || start > maxDate) continue;
 
         const uid = ev.uid || `${ev.summary}-${start.toISOString()}`;
-        if (seen.has(uid)) continue;
-        seen.add(uid);
+        if (seenIds.has(uid)) continue;
+        seenIds.add(uid);
 
         const title = (ev.summary || 'Untitled event').toString().trim();
+
+        // Two independent sites can each list the same real-world event
+        // under their own UID (e.g. a Watts Brewing show submitted to both
+        // Visit Woodinville and the Chamber calendar) — UID alone won't
+        // catch that. Treat identical title + start time as the same
+        // event and keep only the first one seen.
+        const titleTimeKey = `${title.toLowerCase()}|${start.toISOString()}`;
+        if (seenTitleTime.has(titleTimeKey)) continue;
+        seenTitleTime.add(titleTimeKey);
+
         const description = cleanDescription(ev.description);
         const location = (ev.location || '').toString().trim();
         const category = categorize(title, description, location);
@@ -168,7 +188,7 @@ async function main() {
           location,
           url: (ev.url || '').toString().trim(),
           description: description.slice(0, 280),
-          source: 'Visit Woodinville',
+          source: feed.name,
         });
         addedFromThisFeed += 1;
       }
