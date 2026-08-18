@@ -131,7 +131,23 @@ function cleanDescription(desc) {
 }
 
 async function fetchFeed(feed) {
-  const data = await ical.async.fromURL(feed.url);
+  // Fetch with our own headers rather than relying on node-ical's default
+  // request behavior — some sites (Wordfence/Cloudflare-protected WP
+  // installs, which a lot of small-business calendars run behind) block
+  // requests that don't look like they came from a browser.
+  const res = await fetch(feed.url, {
+    headers: {
+      'User-Agent':
+        'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 ' +
+        '(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+      Accept: 'text/calendar, text/plain, */*',
+    },
+  });
+  if (!res.ok) {
+    throw new Error(`HTTP ${res.status} ${res.statusText}`);
+  }
+  const text = await res.text();
+  const data = ical.sync.parseICS(text);
   return Object.values(data).filter((ev) => ev && ev.type === 'VEVENT');
 }
 
