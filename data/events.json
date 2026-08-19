@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-08-19T00:36:59.601Z",
+  "updatedAt": "2026-08-19T14:20:12.784Z",
   "windowDays": 90,
-  "count": 49,
+  "count": 50,
   "events": [
-    {
-      "id": "10016168-1787076000-1787085000@visitwoodinville.org",
-      "title": "Live Music at Fireside Lounge",
-      "category": "music",
-      "start": "2026-08-19T01:00:00.000Z",
-      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-18/",
-      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10015757-1787079600-1787085000@visitwoodinville.org",
-      "title": "Beat the Geek Trivia at 20 Corners",
-      "category": "community",
-      "start": "2026-08-19T02:00:00.000Z",
-      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
-      "url": "https://visitwoodinville.org/event/beat-the-geek-trivia-at-20-corners/2026-08-18/",
-      "description": "Beat the Geek Trivia Night every Tuesday at 20 Corners 7:00pm – 8:30pm",
-      "source": "Visit Woodinville"
-    },
     {
       "id": "10049671-1787140800-1787144400@woodinvillechamber.org",
       "title": "Probate Paths Explained",
@@ -454,6 +434,16 @@
       "source": "Visit Woodinville"
     },
     {
+      "id": "10046778-1787493600-1787500800@woodinvillechamber.org",
+      "title": "Sip N' Paint - Grape on the Vine Hand Painted Coasters",
+      "category": "art",
+      "start": "2026-08-23T21:00:00.000Z",
+      "location": "Chelan Ridge Winery, 19151 144th Ave NE Stc B&C, Woodinville, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/sip-n-paint-grape-on-the-vine-hand-painted-coasters/",
+      "description": "Unwind with a creative afternoon painting Grape on the Vine coasters inspired by vineyard landscapes and summer harvests. Each guest will paint a set of four coordinating coasters, blending rich purples, leafy greens, and flowing vine details. This workshop is relaxed, social, an",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
       "id": "10017811-1787529600-1787615999@visitwoodinville.org",
       "title": "Game Night at The Cut Shop",
       "category": "community",
@@ -480,6 +470,26 @@
       "start": "2026-08-24T22:00:00.000Z",
       "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
       "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-24/",
+      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018498-1787641200-1787695200@visitwoodinville.org",
+      "title": "Summer Harvest Days at Willows Lodge",
+      "category": "food-drink",
+      "start": "2026-08-25T14:00:00.000Z",
+      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-08-25/",
+      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10016056-1787670000-1787677200@visitwoodinville.org",
+      "title": "Happy Hour at 20 Corners",
+      "category": "food-drink",
+      "start": "2026-08-25T22:00:00.000Z",
+      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
+      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-25/",
       "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
       "source": "Visit Woodinville"
     },
