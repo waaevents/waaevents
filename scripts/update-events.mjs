@@ -7,7 +7,7 @@
 // Run automatically by .github/workflows/update-events.yml (daily cron).
 
 import ical from 'node-ical';
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 
 const WINDOW_DAYS = 90;
@@ -130,6 +130,30 @@ function cleanDescription(desc) {
   return text;
 }
 
+// data/manual-events.json holds events that don't have an automated feed
+// source — e.g. a venue with its own real calendar (verified, dated,
+// sourced from that venue's own page) but no public iCal export to fetch
+// automatically. This file is hand-maintained and NOT touched by this
+// script or the daily workflow commit, so entries persist across runs
+// instead of being wiped when events.json gets regenerated. They still go
+// through the same date-window filter as everything else, so a manual
+// entry naturally stops showing once its date passes — but the file
+// itself needs a human to prune it occasionally.
+async function loadManualEvents() {
+  let raw;
+  try {
+    raw = await readFile(path.join('data', 'manual-events.json'), 'utf8');
+  } catch (err) {
+    if (err.code === 'ENOENT') return [];
+    throw err;
+  }
+  const parsed = JSON.parse(raw);
+  if (!Array.isArray(parsed)) {
+    throw new Error('data/manual-events.json must be a JSON array');
+  }
+  return parsed;
+}
+
 async function fetchFeed(feed) {
   // Fetch with our own headers rather than relying on node-ical's default
   // request behavior — some sites (Wordfence/Cloudflare-protected WP
@@ -234,8 +258,50 @@ async function main() {
     JSON.stringify({ ranAt: new Date().toISOString(), feedDiagnostics }, null, 2) + '\n',
   );
 
-  if (feedsSucceeded === 0) {
-    console.error('All feeds failed — leaving existing data/events.json untouched.');
+  // Merge in hand-maintained manual events (see loadManualEvents above).
+  // Same UID/title+time dedup and date-window rules apply, so a manual
+  // entry that also shows up in an automated feed collapses to one, and
+  // one whose date has passed simply stops appearing.
+  let manualEvents = [];
+  try {
+    manualEvents = await loadManualEvents();
+  } catch (err) {
+    console.error(`Failed to load data/manual-events.json: ${err.message}`);
+  }
+  let manualAdded = 0;
+  for (const ev of manualEvents) {
+    if (!ev.start) continue;
+    const start = new Date(ev.start);
+    if (Number.isNaN(start.getTime())) continue;
+    if (start < now || start > maxDate) continue;
+
+    const title = (ev.title || 'Untitled event').toString().trim();
+    const uid = ev.id || `manual-${title}-${start.toISOString()}`;
+    if (seenIds.has(uid)) continue;
+    seenIds.add(uid);
+
+    const titleTimeKey = `${title.toLowerCase()}|${start.toISOString()}`;
+    if (seenTitleTime.has(titleTimeKey)) continue;
+    seenTitleTime.add(titleTimeKey);
+
+    events.push({
+      id: uid,
+      title,
+      category: ev.category || FALLBACK_CATEGORY,
+      start: start.toISOString(),
+      location: (ev.location || '').toString().trim(),
+      url: (ev.url || '').toString().trim(),
+      description: (ev.description || '').toString().slice(0, 280),
+      source: 'Manually added',
+    });
+    manualAdded += 1;
+  }
+  if (manualEvents.length) {
+    console.log(`Manual events: ${manualEvents.length} in file, ${manualAdded} added`);
+  }
+
+  if (feedsSucceeded === 0 && manualAdded === 0) {
+    console.error('All feeds failed and no manual events available — leaving existing data/events.json untouched.');
     process.exit(1);
   }
 

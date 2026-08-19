@@ -15,6 +15,9 @@ Community & More —
   `community.html`** — list every upcoming event in that category, read
   from `data/events.json`.
 - **`data/events.json`** — the event data. Regenerated automatically.
+- **`data/manual-events.json`** — hand-maintained events for venues without
+  an automated feed (see "Manually adding an event" below). Merged in on
+  every run; not touched by the automated commit.
 - **`scripts/update-events.mjs`** — a plain Node.js script (no AI) that:
   1. Fetches the public iCal feeds of two independent Woodinville
      organizations:
@@ -60,6 +63,37 @@ Community & More —
   runs the script once a day (6am Pacific) and commits `data/events.json` if
   anything changed. You can also trigger it manually from the repo's
   **Actions** tab → "Update events" → **Run workflow**.
+
+## Manually adding an event
+
+For a venue with no automated feed (see "Sources considered but not
+included" above), add an entry to `data/manual-events.json` — a plain JSON
+array, e.g.:
+
+```json
+{
+  "title": "Live Music: Some Artist",
+  "category": "music",
+  "start": "2026-08-22T22:00:00.000Z",
+  "location": "Venue Name, Street Address, Woodinville, WA 98072",
+  "url": "https://venue-site.com/events/some-artist/",
+  "description": "One or two sentences, from the venue's own event page."
+}
+```
+
+Rules that keep this trustworthy instead of turning into guesswork:
+- `start` is UTC (`Z`) — Woodinville is Pacific time, so convert
+  (PDT is UTC-7 in summer, PST is UTC-8 in winter).
+- Only add an event you've verified on the venue's own page, with a real
+  URL and a date that hasn't passed yet — never a guessed date or a stale
+  listing surfaced by a search engine (this has happened: a search result
+  for a "current" show turned out to be from months earlier).
+  `category` is one of `art`, `music`, `comedy`, `food-drink`, `community`.
+- No need to remove old entries by hand — anything whose `start` has
+  passed is automatically left out of `data/events.json`, though pruning
+  the file itself occasionally keeps it tidy.
+- If the same event later shows up in an automated feed, it'll collapse
+  into one listing (same dedup rules as everything else), not double up.
 
 ## Sources considered but not included
 
