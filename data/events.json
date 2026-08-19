@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-08-18T02:31:27.662Z",
+  "updatedAt": "2026-08-19T00:36:59.601Z",
   "windowDays": 90,
-  "count": 45,
+  "count": 49,
   "events": [
-    {
-      "id": "10016052-1787065200-1787072400@visitwoodinville.org",
-      "title": "Happy Hour at 20 Corners",
-      "category": "food-drink",
-      "start": "2026-08-18T22:00:00.000Z",
-      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
-      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-18/",
-      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
-      "source": "Visit Woodinville"
-    },
     {
       "id": "10016168-1787076000-1787085000@visitwoodinville.org",
       "title": "Live Music at Fireside Lounge",
@@ -364,6 +354,16 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
+      "id": "manual-Live Music: The Stumbling Fiddler-2026-08-22T22:00:00.000Z",
+      "title": "Live Music: The Stumbling Fiddler",
+      "category": "music",
+      "start": "2026-08-22T22:00:00.000Z",
+      "location": "Gård Estate Wines, 19151 144th Ave NE, Unit D, Woodinville, WA 98072",
+      "url": "https://www.gardwine.com/events/the-stumbling-fiddler/",
+      "description": "Live music at Gård's Woodinville tasting room. No cover charge, all ages welcome.",
+      "source": "Manually added"
+    },
+    {
       "id": "10045632-1787418000-1787428800@woodinvillechamber.org",
       "title": "Live Music: Aidan Rufer will be performing",
       "category": "music",
@@ -452,6 +452,46 @@
       "url": "https://visitwoodinville.org/event/all-day-happy-hour-at-northwest-spirits/2026-08-23/",
       "description": "Sundays are for slowing down, and we’ve got you covered. Every Sunday, all day long, enjoy $2 off select handcrafted cocktails, including the Sour Watermelon 75, Blackberry Sage Mule, and Mint Julep. Plus $1 off all mocktails, so everyone at the table has something worth raising.",
       "source": "Visit Woodinville"
+    },
+    {
+      "id": "10017811-1787529600-1787615999@visitwoodinville.org",
+      "title": "Game Night at The Cut Shop",
+      "category": "community",
+      "start": "2026-08-24T00:00:00.000Z",
+      "location": "The Cut Shop, 12801 NE 175th St, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/game-night-at-the-cut-shop/2026-08-24/",
+      "description": "Join The Cut Shop for Game Night every Monday until close.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018497-1787554800-1787608800@visitwoodinville.org",
+      "title": "Summer Harvest Days at Willows Lodge",
+      "category": "food-drink",
+      "start": "2026-08-24T14:00:00.000Z",
+      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-08-24/",
+      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10015497-1787583600-1787590800@visitwoodinville.org",
+      "title": "Happy Hour at 20 Corners",
+      "category": "food-drink",
+      "start": "2026-08-24T22:00:00.000Z",
+      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
+      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-24/",
+      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "manual-Live Music: Michael Powers-2026-08-29T01:00:00.000Z",
+      "title": "Live Music: Michael Powers",
+      "category": "music",
+      "start": "2026-08-29T01:00:00.000Z",
+      "location": "Gård Estate Wines, 19151 144th Ave NE, Unit D, Woodinville, WA 98072",
+      "url": "https://www.gardwine.com/events/live-music-michael-powers-5/",
+      "description": "Live music at Gård's Woodinville tasting room. No cover charge, all ages welcome.",
+      "source": "Manually added"
     }
   ]
 }
