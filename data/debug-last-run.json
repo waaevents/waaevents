@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-08-18T14:19:14.647Z",
+  "ranAt": "2026-08-19T00:36:59.599Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:138:15)"
+      "ok": true,
+      "rawCount": 30,
+      "addedCount": 30
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:138:15)"
+      "ok": true,
+      "rawCount": 30,
+      "addedCount": 17
     }
   ]
 }
