@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-19T00:36:59.599Z",
+  "ranAt": "2026-08-19T14:20:12.783Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -13,7 +13,7 @@
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
       "ok": true,
       "rawCount": 30,
-      "addedCount": 17
+      "addedCount": 18
     }
   ]
 }
