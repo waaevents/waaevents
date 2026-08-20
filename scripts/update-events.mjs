@@ -43,6 +43,23 @@ const EXTRA_FEEDS = [
     // https://woodinvillechamber.org/cal-events/category/community-events/
     url: 'https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1',
   },
+  {
+    name: '425 Cellars',
+    // Verified against the site's own "iCalendar" subscribe link on
+    // https://425cellars.com/events (single Woodinville location, no
+    // filtering needed).
+    url: 'https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list',
+  },
+  {
+    name: 'Alexandria Nicole Cellars (Woodin Creek)',
+    // Verified against the site's own "Export .ics file" link on
+    // https://www.alexandrianicolecellars.com/events/list/ — but this feed
+    // covers THREE locations (Woodin Creek in Woodinville, Prosser Tasting
+    // Room, and Destiny Ridge, both in eastern WA), so it needs the
+    // Woodinville-only filter below.
+    url: 'https://www.alexandrianicolecellars.com/events/list/?ical=1',
+    requireLocationContains: 'woodinville',
+  },
 ];
 
 // Genre keywords. Checked against the title first (stronger signal), then
@@ -207,10 +224,26 @@ async function main() {
         if (start < now || start > maxDate) continue;
 
         const uid = ev.uid || `${ev.summary}-${start.toISOString()}`;
+        const title = (ev.summary || 'Untitled event').toString().trim();
+        const description = cleanDescription(ev.description);
+        const location = (ev.location || '').toString().trim();
+
+        // Some venues' feeds cover multiple cities (e.g. Alexandria
+        // Nicole Cellars also has Prosser, WA locations). If this feed
+        // specifies a required location substring, skip anything that
+        // doesn't match it — keeps a multi-location feed to Woodinville
+        // only instead of pulling in other towns. Checked before any
+        // dedup bookkeeping so a filtered-out event can't block a later,
+        // legitimate one with the same title/time.
+        if (
+          feed.requireLocationContains &&
+          !location.toLowerCase().includes(feed.requireLocationContains)
+        ) {
+          continue;
+        }
+
         if (seenIds.has(uid)) continue;
         seenIds.add(uid);
-
-        const title = (ev.summary || 'Untitled event').toString().trim();
 
         // Two independent sites can each list the same real-world event
         // under their own UID (e.g. a Watts Brewing show submitted to both
@@ -221,8 +254,6 @@ async function main() {
         if (seenTitleTime.has(titleTimeKey)) continue;
         seenTitleTime.add(titleTimeKey);
 
-        const description = cleanDescription(ev.description);
-        const location = (ev.location || '').toString().trim();
         const category = categorize(title, description, location);
 
         events.push({
