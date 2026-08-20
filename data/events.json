@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-08-19T14:20:12.784Z",
+  "updatedAt": "2026-08-20T00:54:41.268Z",
   "windowDays": 90,
-  "count": 50,
+  "count": 62,
   "events": [
-    {
-      "id": "10049671-1787140800-1787144400@woodinvillechamber.org",
-      "title": "Probate Paths Explained",
-      "category": "community",
-      "start": "2026-08-19T19:00:00.000Z",
-      "location": "Keller Williams Realty Bothell, 22614 Bothell Everett HWY, Bothell, WA, 98021, United States",
-      "url": "https://woodinvillechamber.org/calendar/probate-paths-explained/",
-      "description": "Learn the basics of probate, including the different types of proceedings, how probate can be avoided, and the role of personal representatives. Gain the knowledge you need to confidently guide clients through probate-related real estate transactions.",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10048987-1787148000-1787166000@woodinvillechamber.org",
-      "title": "Whiskey Wednesdays & Industry Night at Northwest Spirits",
-      "category": "food-drink",
-      "start": "2026-08-19T21:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Redmond-Woodinville Rd NE, Woodinville, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/whiskey-wednesdays-industry-night-at-northwest-spirits/2026-08-19/",
-      "description": "Wednesdays just got a whole lot better. Every Wednesday at Northwest Spirits, we’re pouring on the deals with 20% off all take-home bourbon bottles in our tasting room, all day long. We’re also proud to host Industry Night every Wednesday. If you work in hospitality, cheers to yo",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10016053-1787151600-1787158800@visitwoodinville.org",
-      "title": "Happy Hour at 20 Corners",
-      "category": "food-drink",
-      "start": "2026-08-19T22:00:00.000Z",
-      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
-      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-19/",
-      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10018099-1787155200-1787173200@visitwoodinville.org",
-      "title": "Whiskey Wednesdays & Industry Night at Northwest Spirits",
-      "category": "food-drink",
-      "start": "2026-08-19T23:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
-      "url": "https://visitwoodinville.org/event/whiskey-wednesdays-industry-night-at-northwest-spirits/2026-08-19/",
-      "description": "Wednesdays just got a whole lot better. Every Wednesday at Northwest Spirits, we’re pouring on the deals with 20% off all take-home bourbon bottles in our tasting room, all day long. We’re also proud to host Industry Night every Wednesday. If you work in hospitality, cheers to yo",
-      "source": "Visit Woodinville"
-    },
     {
       "id": "10015317-1787162400-1787169600@visitwoodinville.org",
       "title": "Music Bingo at Pepper Bridge & Amavi Cellars",
@@ -304,6 +264,16 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
+      "id": "manual-Saltwater Sky-2026-08-22T01:00:00.000Z",
+      "title": "Saltwater Sky",
+      "category": "music",
+      "start": "2026-08-22T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/saltwater-sky-zpgwp-2z5cx",
+      "description": "Rising PNW country band with a bluesy, storytelling sound. Reservations recommended.",
+      "source": "Manually added"
+    },
+    {
       "id": "10017001-1787392800-1787407200@visitwoodinville.org",
       "title": "Woodinville Farmers Market",
       "category": "community",
@@ -444,6 +414,16 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
+      "id": "10046408-1787497200-1787502600@woodinvillechamber.org",
+      "title": "Bingo at Métier Brewing",
+      "category": "food-drink",
+      "start": "2026-08-23T22:00:00.000Z",
+      "location": "Metier Brewing, 14125 NE 189th St Suite B, Woodinville, WA, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/bingo-at-metier-brewing/2026-08-23/",
+      "description": "NEW!!! Bingo at MBC! Join us for weekly bingo in the taprooms, every Sunday at MBC Woodinville (3-4:30 PM) and play for FREE. Each round comes with a chance to win drink tickets or fun prizes from our rotating prize box filled with damn good goodies like merch, trinkets, and more",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
       "id": "10017811-1787529600-1787615999@visitwoodinville.org",
       "title": "Game Night at The Cut Shop",
       "category": "community",
@@ -494,6 +474,16 @@
       "source": "Visit Woodinville"
     },
     {
+      "id": "10016173-1787680800-1787689800@visitwoodinville.org",
+      "title": "Live Music at Fireside Lounge",
+      "category": "music",
+      "start": "2026-08-26T01:00:00.000Z",
+      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-25/",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
+      "source": "Visit Woodinville"
+    },
+    {
       "id": "manual-Live Music: Michael Powers-2026-08-29T01:00:00.000Z",
       "title": "Live Music: Michael Powers",
       "category": "music",
@@ -501,6 +491,136 @@
       "location": "Gård Estate Wines, 19151 144th Ave NE, Unit D, Woodinville, WA 98072",
       "url": "https://www.gardwine.com/events/live-music-michael-powers-5/",
       "description": "Live music at Gård's Woodinville tasting room. No cover charge, all ages welcome.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-24 Madison Band-2026-08-29T02:00:00.000Z",
+      "title": "24 Madison Band",
+      "category": "music",
+      "start": "2026-08-29T02:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/2l4vtg8xmyitvz4itusb7dudiwshpc-ssnxz-ak7x2-znxjp-7kxc5-h6h75-egatl",
+      "description": "8-piece band covering soul, rock, R&B, funk, pop, blues, and jazz.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Stonesy (Rolling Stones tribute)-2026-08-30T01:00:00.000Z",
+      "title": "Stonesy (Rolling Stones tribute)",
+      "category": "music",
+      "start": "2026-08-30T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-5d4xr-ss57s-eyb76-ssjb8",
+      "description": "Six-piece Rolling Stones tribute band. $10 cover charge.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Keys on Main: Dueling Pianos-2026-09-11T01:00:00.000Z",
+      "title": "Keys on Main: Dueling Pianos",
+      "category": "music",
+      "start": "2026-09-11T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-78m6h-yga95-rx4kp-9pfk4-d2z7x",
+      "description": "All-request dueling pianos with Aaron Buckner and Zechariah Valette. $50/person.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Cloud Cover-2026-09-12T02:00:00.000Z",
+      "title": "Cloud Cover",
+      "category": "music",
+      "start": "2026-09-12T02:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/the-industrials-zjsmd-9g4w9-gz34k-48wns",
+      "description": "Alternative rock covers band, '80s-'90s and beyond.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Between 2 Gregs-2026-09-19T01:30:00.000Z",
+      "title": "Between 2 Gregs",
+      "category": "music",
+      "start": "2026-09-19T01:30:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/joel-astely-ck3nw-f4d7r-3bg5s",
+      "description": "Cover band playing pop/rock hits from the last six decades.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-The Davanos-2026-09-26T01:00:00.000Z",
+      "title": "The Davanos",
+      "category": "music",
+      "start": "2026-09-26T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/the-davanos-9zpfg-w2a3c-afz84-tf2lm-5pcbb-6n7t2",
+      "description": "Classic rock/blues/country trio; voted Seattle's Best Rock Band by Seattle Weekly in 2018.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-The Pour Decisions-2026-10-03T01:00:00.000Z",
+      "title": "The Pour Decisions",
+      "category": "music",
+      "start": "2026-10-03T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/the-davanos-9zpfg-w2a3c-afz84-tf2lm-5pcbb-6n7t2-a465b",
+      "description": "Classic rock band with dual guitars and rich harmonies.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Eden-2026-10-04T01:00:00.000Z",
+      "title": "Eden",
+      "category": "music",
+      "start": "2026-10-04T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-5d4xr-ss57s-eyb76-kf3jf",
+      "description": "Rock/blues/pop band fronted by Savanna Woods, a Top 20 artist from NBC's The Voice.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Keys on Main: Dueling Pianos-2026-10-09T01:00:00.000Z",
+      "title": "Keys on Main: Dueling Pianos",
+      "category": "music",
+      "start": "2026-10-09T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-78m6h-yga95-rx4kp-9pfk4-d2z7x-xkg9t",
+      "description": "All-request dueling pianos with Aaron Buckner and Zechariah Valette. $50/person.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Distant Station-2026-10-17T01:00:00.000Z",
+      "title": "Distant Station",
+      "category": "music",
+      "start": "2026-10-17T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/vum32mc8etmvyckknqvg5ckgi965im-8xmbl-9zryl-rwt97-5bynt-3p2eh-3yljx",
+      "description": "Dance band playing '80s-and-up hits (INXS, Tom Petty, Van Halen, No Doubt, etc.).",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-The Cover-Up-2026-10-24T01:00:00.000Z",
+      "title": "The Cover-Up",
+      "category": "music",
+      "start": "2026-10-24T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/the-cover-up-e4cja-drgt2",
+      "description": "'80s guitar-driven hard rock anthems cover band.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Three Trick Pony-2026-10-31T01:00:00.000Z",
+      "title": "Three Trick Pony",
+      "category": "music",
+      "start": "2026-10-31T01:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/three-trick-pony-fnm9s-rgtaf-6e8l2-t6jcy-mslye-lgcrd-shch2-nehhy",
+      "description": "3-piece band playing classic rock and funky covers.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Echos of Epic-2026-11-07T02:00:00.000Z",
+      "title": "Echos of Epic",
+      "category": "music",
+      "start": "2026-11-07T02:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/echos-of-epic-8ljwt-7mp25-rhtl8",
+      "description": "Modern rock/alternative covers band (The Strokes, Paramore, Muse, Yeah Yeah Yeahs).",
       "source": "Manually added"
     }
   ]
