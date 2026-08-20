@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-08-20T14:59:54.698Z",
+  "updatedAt": "2026-08-20T22:23:47.707Z",
   "windowDays": 90,
-  "count": 64,
+  "count": 86,
   "events": [
-    {
-      "id": "10015389-1787227200-1787252400@visitwoodinville.org",
-      "title": "Paws on the Patio at Maryhill Winery",
-      "category": "community",
-      "start": "2026-08-20T19:00:00.000Z",
-      "location": "Maryhill Winery, Hollywood Schoolhouse, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/paws-on-the-patio-at-maryhill-winery/2026-08-20/",
-      "description": "Paws on the Patio… or in our case, Paws on the Lawn! Bring your furry friend to visit and enjoy some fun perks—swag for your pup and a complimentary glass of wine from our current tasting menu for you! (One glass per dog.)Every 3rd Thursday | May–September 12:00 PM – 7:00 PM Ther",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10047228-1787227200-1787248800@woodinvillechamber.org",
-      "title": "Paws on the Patio… or in our case, Paws on the Lawn!",
-      "category": "community",
-      "start": "2026-08-20T19:00:00.000Z",
-      "location": "Maryhill Winery, Woodinville, WA, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/paws-on-the-patio-or-in-our-case-paws-on-the-lawn/2026-08-20/",
-      "description": "Bring your furry friend to visit and enjoy some fun perks—swag for your pup and a complimentary glass of wine from our current tasting menu for you! (One glass per dog.) Every 3rd Thursday | May–September 12:00 PM – 6:00 PM There may even be some bark-cutie boards available! Join",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10016054-1787238000-1787245200@visitwoodinville.org",
-      "title": "Happy Hour at 20 Corners",
-      "category": "food-drink",
-      "start": "2026-08-20T22:00:00.000Z",
-      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
-      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-20/",
-      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
-      "source": "Visit Woodinville"
-    },
     {
       "id": "10018470-1787245200-1787256000@visitwoodinville.org",
       "title": "Live Music with Richard Taylor at Pepper Bridge & Amavi Cellars",
@@ -274,6 +244,16 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
+      "id": "10002837-1787403600-1787418000@www.alexandrianicolecellars.com",
+      "title": "Mr & Mrs Roper Romp at Woodin Creek 2026",
+      "category": "food-drink",
+      "start": "2026-08-22T20:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/mr-mrs-roper-romp-2026/",
+      "description": "FREE EVENT – RSVP TODAY! Woodin Creek Tasting Rooms Back by popular demand, it’s our Second Annual Roper Romp, now bigger and better, with the party happening at Woodin Creek! Slip into your snazziest caftan, tease that red wig, and dazzle us with Mrs. Roper flair. This festive c",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
       "id": "manual-Live Music: The Stumbling Fiddler-2026-08-22T22:00:00.000Z",
       "title": "Live Music: The Stumbling Fiddler",
       "category": "music",
@@ -394,6 +374,26 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
+      "id": "10000398-1787499000-1787506200@425cellars.com",
+      "title": "Happy Hour with The Vinyl Countdowns",
+      "category": "music",
+      "start": "2026-08-23T22:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/happy-hour-with-the-vinyl-countdowns/",
+      "description": "Join us for Happy Hour featuring live music by The Vinyl Countdowns. Seattle’s The Vinyl Countdowns combine seasoned musicianship with modern technology to deliver a full, dynamic sound that’s perfect for any venue. Performing an energetic mix of hit songs from yesterday and toda",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10002890-1787500800-1787508000@www.alexandrianicolecellars.com",
+      "title": "Woodin Creek Sunday Music Series w/ Carol LaMahr",
+      "category": "music",
+      "start": "2026-08-23T23:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/woodin-creek-sunday-music-series-w-carol-lamahr/",
+      "description": "SUMMER PATIO MUSIC SERIESEVERY SUNDAY | JUNE-AUGUSTRotating live music between ANC & Bayernmoor patios spotlighting your favorites local musicians! MUSIC LINEUPJune 28: ANC: Howard MackJuly 5: Bayernmoor: Jeannie RakJuly 12: ANC: Raycene ParkerJuly 19: Bayernmoor: Kurt LindayJuly",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
       "id": "10017811-1787529600-1787615999@visitwoodinville.org",
       "title": "Game Night at The Cut Shop",
       "category": "community",
@@ -402,6 +402,16 @@
       "url": "https://visitwoodinville.org/event/game-night-at-the-cut-shop/2026-08-24/",
       "description": "Join The Cut Shop for Game Night every Monday until close.",
       "source": "Visit Woodinville"
+    },
+    {
+      "id": "10003001-1787506200-1787513400@www.alexandrianicolecellars.com",
+      "title": "Sunday Social Supper - 08/23/26",
+      "category": "food-drink",
+      "start": "2026-08-24T00:30:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/sunday-social-supper-08-23-26/",
+      "description": "Where Sundays slow down, glasses stay full, and the table gets a little more lively. Join us for our August “Evergreen” Sunday Supper, a celebration of WAugust, Washington Wine Month, and the incredible flavors of the Evergreen State. Gather around the table for a family-style, t",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "10018497-1787554800-1787608800@visitwoodinville.org",
@@ -434,6 +444,16 @@
       "source": "Visit Woodinville"
     },
     {
+      "id": "10002208-1787590800-1787598000@www.alexandrianicolecellars.com",
+      "title": "Bunco Nights (No Fee)",
+      "category": "community",
+      "start": "2026-08-25T00:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-08-24/",
+      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
       "id": "10018498-1787641200-1787695200@visitwoodinville.org",
       "title": "Summer Harvest Days at Willows Lodge",
       "category": "food-drink",
@@ -454,6 +474,16 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
+      "id": "10002484-1787659200-1787684400@www.alexandrianicolecellars.com",
+      "title": "Taco Tuesdays @ Woodin Creek",
+      "category": "community",
+      "start": "2026-08-25T19:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-08-25/",
+      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
       "id": "10016056-1787670000-1787677200@visitwoodinville.org",
       "title": "Happy Hour at 20 Corners",
       "category": "food-drink",
@@ -462,6 +492,26 @@
       "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-25/",
       "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
       "source": "Visit Woodinville"
+    },
+    {
+      "id": "10001730-1787677200-1787684400@www.alexandrianicolecellars.com",
+      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
+      "category": "community",
+      "start": "2026-08-26T00:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-08-25/",
+      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
+      "id": "10002978-1787677200-1787684400@www.alexandrianicolecellars.com",
+      "title": "\"No Fee\" Music Bingo at Woodin Creek",
+      "category": "music",
+      "start": "2026-08-26T00:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/no-fee-music-bingo-at-woodin-creek/2026-08-25/",
+      "description": "Join us every month on the LAST Tuesday for No Fee Music Bingo Night at our Woodin Creek Tasting Rooms. Enjoy a laid-back night of wine, laughs, and sing-along moments as you play your way through your favorite tunes. It’s part bingo, part dance party, and all-around a great excu",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "10016173-1787680800-1787689800@visitwoodinville.org",
@@ -504,6 +554,16 @@
       "source": "Visit Woodinville"
     },
     {
+      "id": "10000399-1787851800-1787859000@425cellars.com",
+      "title": "Live Music featuring David Paul and the On Deck",
+      "category": "music",
+      "start": "2026-08-28T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-featuring-david-paul-and-the-on-deck/",
+      "description": "Join us at 425 Cellars for an evening of live music featuring David Paul and the On Deck, a talented group of Pacific Northwest musicians whose decades of friendship and musical experience create an unforgettable live performance. Fronted by David Flaherty, a #1 songwriter whose ",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Live Music: Michael Powers-2026-08-29T01:00:00.000Z",
       "title": "Live Music: Michael Powers",
       "category": "music",
@@ -534,6 +594,56 @@
       "source": "Manually added"
     },
     {
+      "id": "10000400-1788103800-1788111000@425cellars.com",
+      "title": "Happy Hour with the Deb Nielsen Jazz Quartet",
+      "category": "music",
+      "start": "2026-08-30T22:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/happy-hour-with-the-deb-nielsen-jazz-quartet/",
+      "description": "Join us for Happy Hour featuring the Deb Nielsen Jazz Quartet. The Deb Nielsen Jazz Quartet brings together expressive vocals and outstanding musicianship to deliver fresh interpretations of beloved jazz standards and contemporary favorites. Their sophisticated sound creates the ",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000402-1788456600-1788463800@425cellars.com",
+      "title": "Reji Marc Live on the Patio Event",
+      "category": "music",
+      "start": "2026-09-04T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/reji-marc-live-on-the-patio-event/",
+      "description": "Seattle-based singer-songwriter, guitarist, and vocalist Reji Marc brings his signature blend of Alternative Blues Rock ‘n Roll to the stage! Enjoy free admission with the purchase of wine🍷🎶 Influenced by blues, soul, funk, rock, and R&B, his performances combine smooth vocals,",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000403-1788699600-1788706800@425cellars.com",
+      "title": "Gary’s Pairings",
+      "category": "community",
+      "start": "2026-09-06T20:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/garys-pairings/",
+      "description": "Think you can guess what’s in your glass? Join us at 425 Cellars for an interactive Blind Wine Tasting with Gary! Sample a mystery wine alongside a thoughtfully selected bite designed to bring out its balance and flavors—all while putting your palate to the test. This complimenta",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000404-1788708600-1788715800@425cellars.com",
+      "title": "Live Music + Happy Hour with Nicholas Russell",
+      "category": "music",
+      "start": "2026-09-06T22:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-happy-hour-with-nicholas-russell/",
+      "description": "Join us on Sunday, September 6th from 3:30 PM – 5:30 PM as we welcome Nicholas Russell to the tasting room + Happy Hour! 🎶 🍷 Free admission with the purchase of wine! Born and raised in Seattle, Nicholas Russell is a singer, guitarist, and flute player who performs regularly th",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000405-1789061400-1789068600@425cellars.com",
+      "title": "The Dogtones",
+      "category": "music",
+      "start": "2026-09-11T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/the-dogtones/",
+      "description": "🎶 FREE admission with the purchase of wine!🍷 Join us on Thursday, September 10th from 5:30 PM – 7:30 PM for an evening of fantastic live music, delicious wine, and great company! 🎸 The Dogtones have been making audiences dance, sing along, and laugh since 2008. Their huge cata",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Keys on Main: Dueling Pianos-2026-09-11T01:00:00.000Z",
       "title": "Keys on Main: Dueling Pianos",
       "category": "music",
@@ -542,6 +652,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-78m6h-yga95-rx4kp-9pfk4-d2z7x",
       "description": "All-request dueling pianos with Aaron Buckner and Zechariah Valette. $50/person.",
       "source": "Manually added"
+    },
+    {
+      "id": "10000414-1789149600-1789156800@425cellars.com",
+      "title": "Bunco for a Cause",
+      "category": "community",
+      "start": "2026-09-12T01:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/bunco-for-a-cause/",
+      "description": "🎲💕 Roll the dice, raise a glass, and play for a cause! Join us at 425 Cellars for Bunco for a Cause, a special evening of wine, games, and community benefiting the American Cancer Society’s: Making Strides Against Breast Cancer, coordinated by Team TA TA Cancer! Whether you’re ",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-Cloud Cover-2026-09-12T02:00:00.000Z",
@@ -554,6 +674,46 @@
       "source": "Manually added"
     },
     {
+      "id": "10000407-1789218000-1789225200@425cellars.com",
+      "title": "Paint ‘N Sip",
+      "category": "art",
+      "start": "2026-09-12T20:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/paint-n-sip/",
+      "description": "🍂 Twin Pumpkins Paint & Sip at 425 Cellars 🍷🎨 Celebrate the arrival of early autumn with a relaxing evening of creativity, wine, and community at 425 Cellars! Join us on September 12, 1:00-3:00 PM for a fun, beginner-friendly Paint & Sip as we create a charming Twin Pumpkins p",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000408-1789304400-1789311600@425cellars.com",
+      "title": "Live Music + Happy Hour with Between 2 Gregs",
+      "category": "music",
+      "start": "2026-09-13T20:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-happy-hour-with-between-2-gregs/",
+      "description": "🎶 Sunday Happy Hour + Live Music at 425 Cellars! 🍷 Pour a glass, settle in, and spend your Sunday afternoon with Between 2 Gregs! Blending rich harmonies, acoustic guitar, piano, and an eclectic mix of classics and modern favorites, they’re bringing the perfect soundtrack for a",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000409-1789585200-1789590600@425cellars.com",
+      "title": "Wine & Bingo Night with Debbie",
+      "category": "community",
+      "start": "2026-09-17T02:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/wine-bingo-night-with-debbie-09-2026/",
+      "description": "🍷 Wine, Bingo & Prizes — all in one night! Gather your friends and join us at 425 Cellars for Wine & Bingo Night with Debbie! Enjoy a relaxed evening of friendly competition, great wine, plenty of laughs, and prizes every round. 🏆 Admission is FREE! Bingo is included with the p",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000412-1789666200-1789673400@425cellars.com",
+      "title": "An Evening with Howard Mack",
+      "category": "music",
+      "start": "2026-09-18T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/an-evening-with-howard-mack/",
+      "description": "🎶Live Music + Wine at 425 Cellars! 🍷 Join us Thursday evening for live music from Howard Mack, a Seattle-area singer-songwriter and guitarist known for his soulful blend of blues and acoustic rock. Settle in with a glass or bottle of your favorite wine while Howard’s expressive",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Between 2 Gregs-2026-09-19T01:30:00.000Z",
       "title": "Between 2 Gregs",
       "category": "music",
@@ -564,6 +724,56 @@
       "source": "Manually added"
     },
     {
+      "id": "10000406-1789815600-1789819200@425cellars.com",
+      "title": "Yoga and Wine with Debbie",
+      "category": "community",
+      "start": "2026-09-19T18:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/yoga-and-wine-with-debbie-09-2026/",
+      "description": "Slow down, stretch, sip, and start your weekend with us.🍷 Join us at 425 Cellars for Yoga with Debbie, a gentle 60-minute yoga class centered around movement, mindfulness, and community. Debbie, a certified yoga instructor and cherished member of the 425 Cellars family, will gui",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10002147-1789907400-1789914600@www.alexandrianicolecellars.com",
+      "title": "2026 Books on Tap in Woodinville",
+      "category": "community",
+      "start": "2026-09-20T19:30:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/2026-books-on-tap-in-woodinville/2026-09-20/",
+      "description": "Introducing our Books on Tap: 2026 Edition! We’re excited to bring Books on Tap Sundays to our Woodin Creek Tasting Room for the very first time, and we’re kicking off the year with a fresh reading lineup and a fun new twist. For 2026, each month’s book will feature a playful the",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
+      "id": "10000413-1789918200-1789925400@425cellars.com",
+      "title": "Happy Hour + Live Music with Jarrett Renshaw",
+      "category": "music",
+      "start": "2026-09-20T22:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/happy-hour-live-music-with-jarrett-renshaw/",
+      "description": "🎶 Sunday Happy Hour + Live Music at 425 Cellars!🍷 Spend your Sunday afternoon with great wine, great music, and great company as we welcome Jarrett Renshaw to 425 Cellars! **FREE admission with the purchase of wine!** 🍷 A talented Pacific Northwest singer-songwriter and multi-",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000410-1790186400-1790195400@425cellars.com",
+      "title": "American Mahjong Night",
+      "category": "community",
+      "start": "2026-09-24T01:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/american-mahjong-night/",
+      "description": "🀄 Curious about American Mahjong? Come learn with us! Join us at 425 Cellars for American Mahjong 101—a fun, relaxed evening designed for complete beginners. No experience needed, and the event is FREE!✨ Learn the basics, meet new people, sip some wine, and discover why Mahjong ",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000411-1790271000-1790278200@425cellars.com",
+      "title": "Live Music with Nicola Linde",
+      "category": "music",
+      "start": "2026-09-25T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-with-nicola-linde/",
+      "description": "🎶Thursday Live Music with Nicola Linde at 425 Cellars!🍷 Join us for an evening of wine and live music featuring Nicola Linde, a powerful singer-songwriter known for her captivating, dynamic performances. With a voice that moves from a whisper to a scream, Nicola brings an unmis",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-The Davanos-2026-09-26T01:00:00.000Z",
       "title": "The Davanos",
       "category": "music",
@@ -572,6 +782,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/the-davanos-9zpfg-w2a3c-afz84-tf2lm-5pcbb-6n7t2",
       "description": "Classic rock/blues/country trio; voted Seattle's Best Rock Band by Seattle Weekly in 2018.",
       "source": "Manually added"
+    },
+    {
+      "id": "10000415-1790523000-1790530200@425cellars.com",
+      "title": "Happy Hour + Live Music with Steve Olson",
+      "category": "music",
+      "start": "2026-09-27T22:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/happy-hour-live-music-with-steve-olson/",
+      "description": "🎶Sunday Happy Hour + Live Music at 425 Cellars!🍷 Spend your Sunday afternoon with great wine and live music from Steve Olson, a longtime Pacific Northwest performer specializing in soft rock favorites from across the decades. Steve has performed for the Mariners, Seahawks, Thun",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-The Pour Decisions-2026-10-03T01:00:00.000Z",
