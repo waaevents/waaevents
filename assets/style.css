@@ -35,6 +35,12 @@
   --community-bg: #f7e3da;
 
   --radius: 6px;
+
+  /* Fine paper-grain texture — evokes wine-label cardstock rather than a
+     flat digital fill. One reusable signature texture, layered as a fixed
+     full-page overlay so every surface (paper, panels, cards) picks it up
+     consistently instead of scattering different textures around. */
+  --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 * { box-sizing: border-box; }
@@ -42,6 +48,7 @@
 html { scroll-behavior: smooth; }
 
 body {
+  position: relative;
   margin: 0;
   background: var(--paper);
   color: var(--ink);
@@ -49,6 +56,18 @@ body {
   font-size: 16px;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: var(--grain);
+  background-size: 180px 180px;
+  opacity: 0.05;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 1;
 }
 
 h1, h2, h3, .display {
@@ -158,15 +177,24 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
   background: var(--panel-bg, #fff);
+  background: linear-gradient(
+    165deg,
+    var(--panel-bg, #fff) 0%,
+    color-mix(in srgb, var(--panel-bg, #fff) 78%, var(--panel-accent, #000) 22%) 100%
+  );
   border: 1px solid var(--panel-accent, var(--line));
   border-top: 6px solid var(--panel-accent, var(--ink));
-  box-shadow: 0 1px 0 rgba(36, 31, 27, 0.03);
+  box-shadow:
+    0 2px 6px -2px rgba(36, 31, 27, 0.1),
+    0 1px 2px rgba(36, 31, 27, 0.06);
   transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
 .panel:hover {
   transform: translateY(-4px);
-  box-shadow: 0 18px 32px -16px var(--panel-accent, rgba(36, 31, 27, 0.35));
+  box-shadow:
+    0 20px 34px -18px var(--panel-accent, rgba(36, 31, 27, 0.4)),
+    0 3px 10px -2px rgba(36, 31, 27, 0.12);
 }
 
 .panel--art    { --panel-accent: var(--art);   --panel-bg: var(--art-bg); }
@@ -269,12 +297,16 @@ body[data-category="community"] { --cat-accent: var(--community); --cat-bg: var(
   border-radius: var(--radius);
   border: 1px solid var(--line);
   background: #fff;
-  transition: border-color 140ms ease, box-shadow 140ms ease;
+  box-shadow: 0 1px 3px rgba(36, 31, 27, 0.05);
+  transition: border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
 }
 
 .event-card:hover {
+  transform: translateY(-2px);
   border-color: var(--cat-accent, var(--line));
-  box-shadow: 0 10px 24px -18px var(--cat-accent, rgba(36,31,27,0.3));
+  box-shadow:
+    0 14px 28px -18px var(--cat-accent, rgba(36, 31, 27, 0.35)),
+    0 2px 6px rgba(36, 31, 27, 0.08);
 }
 
 .event-date {
@@ -282,6 +314,11 @@ body[data-category="community"] { --cat-accent: var(--community); --cat-bg: var(
   padding: 10px 0;
   border-radius: var(--radius);
   background: var(--cat-bg, var(--paper));
+  background: linear-gradient(
+    165deg,
+    var(--cat-bg, var(--paper)) 0%,
+    color-mix(in srgb, var(--cat-bg, var(--paper)) 75%, var(--cat-accent, #000) 25%) 100%
+  );
   height: fit-content;
 }
 
