@@ -76,7 +76,7 @@ const GENRE_KEYWORDS = {
     'live music', 'concert', 'music bingo', 'music showcase', 'band',
     'acoustic', 'singer-songwriter', 'songwriter', 'jazz', 'orchestra',
     'choir', 'sing-along', 'synne sessions', 'world music', 'live at',
-    'performing live', 'dj set', 'karaoke',
+    'performing live', 'dj set', 'karaoke', 'music',
   ],
   comedy: [
     'comedy', 'comedian', 'stand-up', 'stand up', 'standup', 'improv',

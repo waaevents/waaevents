@@ -168,5 +168,45 @@
     "description": "Novelty Hill-Januik's wildly popular Mamma Mia event with live music and a large array of Mediterranean cuisine from Chef Tanner Smith.",
     "addedBy": "manual",
     "addedOn": "2026-08-21"
+  },
+  {
+    "title": "Nicolas Reyes (of Gipsy Kings) with Rumba de Bomba",
+    "category": "music",
+    "start": "2026-08-22T02:00:00.000Z",
+    "location": "Chateau Ste. Michelle Amphitheatre, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/concerts/concert-calendar",
+    "description": "Summer Concert Series show. Gates open ~90 minutes before the 7pm start. Tickets via Ticketmaster.",
+    "addedBy": "manual",
+    "addedOn": "2026-08-21"
+  },
+  {
+    "title": "Tori Amos with Bartees Strange",
+    "category": "music",
+    "start": "2026-09-03T02:00:00.000Z",
+    "location": "Chateau Ste. Michelle Amphitheatre, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/concerts/concert-calendar",
+    "description": "Summer Concert Series show. Gates open ~90 minutes before the 7pm start. Tickets via Ticketmaster.",
+    "addedBy": "manual",
+    "addedOn": "2026-08-21"
+  },
+  {
+    "title": "Beck",
+    "category": "music",
+    "start": "2026-09-19T02:00:00.000Z",
+    "location": "Chateau Ste. Michelle Amphitheatre, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/concerts/concert-calendar",
+    "description": "Summer Concert Series show. Gates open ~90 minutes before the 7pm start. Tickets via Ticketmaster.",
+    "addedBy": "manual",
+    "addedOn": "2026-08-21"
+  },
+  {
+    "title": "Hermanos Gutiérrez with Y La Bamba",
+    "category": "music",
+    "start": "2026-09-28T02:00:00.000Z",
+    "location": "Chateau Ste. Michelle Amphitheatre, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/concerts/concert-calendar",
+    "description": "Summer Concert Series show. Gates open ~90 minutes before the 7pm start. Tickets via Ticketmaster.",
+    "addedBy": "manual",
+    "addedOn": "2026-08-21"
   }
 ]
