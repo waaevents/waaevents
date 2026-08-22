@@ -278,5 +278,25 @@
     "description": "Summer Concert Series show. Gates open ~90 minutes before the 7pm start. Tickets via Ticketmaster.",
     "addedBy": "manual",
     "addedOn": "2026-08-21"
+  },
+  {
+    "title": "Live Music: Jarrett Renshaw",
+    "category": "music",
+    "start": "2026-08-30T01:00:00.000Z",
+    "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th Street, Woodinville, WA 98072",
+    "url": "https://www.willowslodge.com/events/live-entertainment-with-jarrett-renshaw/",
+    "description": "Acoustic soft rock and pop singer-songwriter; covers James Taylor, Neil Young, Cat Stevens, Eagles, and originals.",
+    "addedBy": "manual",
+    "addedOn": "2026-08-22"
+  },
+  {
+    "title": "Live Music: Jarrett Renshaw",
+    "category": "music",
+    "start": "2026-09-25T01:00:00.000Z",
+    "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th Street, Woodinville, WA 98072",
+    "url": "https://www.willowslodge.com/events/live-entertainment-with-jarrett-renshaw/",
+    "description": "Acoustic soft rock and pop singer-songwriter; covers James Taylor, Neil Young, Cat Stevens, Eagles, and originals.",
+    "addedBy": "manual",
+    "addedOn": "2026-08-22"
   }
 ]
