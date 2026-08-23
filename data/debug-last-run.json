@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-08-22T13:55:05.597Z",
+  "ranAt": "2026-08-23T13:56:53.864Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "HTTP 429 Too Many Requests",
+      "stack": "Error: HTTP 429 Too Many Requests |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:188:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:217:25)"
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "HTTP 429 Too Many Requests",
+      "stack": "Error: HTTP 429 Too Many Requests |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:188:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:217:25)"
     },
     {
       "feed": "425 Cellars",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 23,
-      "addedCount": 8
+      "addedCount": 7
     }
   ]
 }
