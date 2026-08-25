@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-08-24T15:12:08.459Z",
+  "updatedAt": "2026-08-25T15:27:29.164Z",
   "windowDays": 90,
-  "count": 94,
+  "count": 93,
   "events": [
-    {
-      "id": "10049666-1787572800-1787574600@woodinvillechamber.org",
-      "title": "Ribbon Cutting: Glowlight Med Spa",
-      "category": "community",
-      "start": "2026-08-24T19:00:00.000Z",
-      "location": "Glowlight Med Spa, 17740 Garden Way NE, Woodinville, WA, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/ribbon-cutting-glowlight-med-spa/",
-      "description": "The Woodinville Chamber of Commerce is excited to celebrate the grand opening of Glowlight Med Spa, a new destination for modern aesthetics, wellness, and skin health in our community! Glowlight Med Spa brings its signature blend of medical expertise and elevated self-care to Woo",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10015497-1787583600-1787590800@visitwoodinville.org",
-      "title": "Happy Hour at 20 Corners",
-      "category": "food-drink",
-      "start": "2026-08-24T22:00:00.000Z",
-      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
-      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-24/",
-      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10002208-1787590800-1787598000@www.alexandrianicolecellars.com",
-      "title": "Bunco Nights (No Fee)",
-      "category": "community",
-      "start": "2026-08-25T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-08-24/",
-      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "10018498-1787641200-1787695200@visitwoodinville.org",
-      "title": "Summer Harvest Days at Willows Lodge",
-      "category": "food-drink",
-      "start": "2026-08-25T14:00:00.000Z",
-      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-08-25/",
-      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
-      "source": "Visit Woodinville"
-    },
     {
       "id": "10049672-1787657400-1787662800@woodinvillechamber.org",
       "title": "The AI-Enhanced Real Estate Agent",
@@ -348,7 +308,7 @@
       "title": "Pilates & Wellness with FNDN",
       "category": "community",
       "start": "2026-08-28T23:00:00.000Z",
-      "location": "WA",
+      "location": "Washington",
       "url": "https://woodinvillechamber.org/calendar/pilates-wellness-with-fndn/",
       "description": "FNDN Wellness is pleased to host a special community event on August 28th from 4 PM to 9 PM. We will be offering a Pilates Class at 6pm, also featuring a curated matcha bar and wellness vitamin shots available for $20 each. Guests are invited to enjoy the atmosphere, connect with",
       "source": "Woodinville Chamber (Community Events)"
@@ -544,6 +504,16 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
+      "id": "10018888-1788091200-1788105600@visitwoodinville.org",
+      "title": "BLOCK PARTY at Woodin Creek Village",
+      "category": "music",
+      "start": "2026-08-30T19:00:00.000Z",
+      "location": "Woodin Creek Village, 17255 135th Avenue NE, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/block-party-at-woodin-creek-village/",
+      "description": "Free Community Event Join us for the annual Woodin Creek Village BLOCK PARTY! This free family friendly event is open to all. Come and enjoy what the village has to offer! Music ~ Wine Tasting ~ Food ~ Games ~ Kid’s Activties ~ Prizes ~ And More!",
+      "source": "Visit Woodinville"
+    },
+    {
       "id": "10049803-1788091200-1788105600@woodinvillechamber.org",
       "title": "Woodin Creek Village Block Party",
       "category": "community",
@@ -554,13 +524,33 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
-      "id": "10049210-1788094800-1788105600@woodinvillechamber.org",
+      "id": "10018172-1788094800-1788105600@visitwoodinville.org",
       "title": "Woodinville Heritage Museum - Open Sunday!",
       "category": "community",
       "start": "2026-08-30T20:00:00.000Z",
-      "location": "Woodinville Heritage Museum, Northeast 171st Street, Woodinville, WA, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/woodinville-heritage-museum-open-sunday-4-2/2026-08-30/",
+      "location": "Woodinville Heritage Society & Museum, 14121 NE 171st St, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/woodinville-heritage-museum-open-sunday-2/2026-08-30/",
       "description": "Come step inside Woodinville’s story! Free Admission. The Woodinville Heritage Society & Museum is open for visitors—stop by the Heritage Museum at the DeYoung House to explore exhibits, discover local photos and artifacts you won’t see anywhere else, and learn a few “did you kno",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018073-1788098400-1788116400@visitwoodinville.org",
+      "title": "All Day Happy Hour at Northwest Spirits",
+      "category": "food-drink",
+      "start": "2026-08-30T21:00:00.000Z",
+      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/all-day-happy-hour-at-northwest-spirits/2026-08-30/",
+      "description": "Sundays are for slowing down, and we’ve got you covered. Every Sunday, all day long, enjoy $2 off select handcrafted cocktails, including the Sour Watermelon 75, Blackberry Sage Mule, and Mint Julep. Plus $1 off all mocktails, so everyone at the table has something worth raising.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10046409-1788102000-1788107400@woodinvillechamber.org",
+      "title": "Bingo at Métier Brewing",
+      "category": "food-drink",
+      "start": "2026-08-30T22:00:00.000Z",
+      "location": "Metier Brewing, 14125 NE 189th St Suite B, Woodinville, WA, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/bingo-at-metier-brewing/2026-08-30/",
+      "description": "NEW!!! Bingo at MBC! Join us for weekly bingo in the taprooms, every Sunday at MBC Woodinville (3-4:30 PM) and play for FREE. Each round comes with a chance to win drink tickets or fun prizes from our rotating prize box filled with damn good goodies like merch, trinkets, and more",
       "source": "Woodinville Chamber (Community Events)"
     },
     {
