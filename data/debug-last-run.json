@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-25T15:27:29.157Z",
+  "ranAt": "2026-08-26T16:36:53.279Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -13,7 +13,7 @@
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
       "ok": true,
       "rawCount": 30,
-      "addedCount": 17
+      "addedCount": 18
     },
     {
       "feed": "425 Cellars",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 23,
-      "addedCount": 4
+      "addedCount": 1
     }
   ]
 }
