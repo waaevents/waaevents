@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-08-26T16:36:53.279Z",
+  "ranAt": "2026-08-28T21:50:27.437Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -13,21 +13,21 @@
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
       "ok": true,
       "rawCount": 30,
-      "addedCount": 18
+      "addedCount": 17
     },
     {
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 16,
-      "addedCount": 16
+      "rawCount": 15,
+      "addedCount": 15
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
-      "rawCount": 23,
-      "addedCount": 1
+      "rawCount": 18,
+      "addedCount": 5
     }
   ]
 }
