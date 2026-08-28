@@ -1,208 +1,8 @@
 {
-  "updatedAt": "2026-08-26T16:36:53.286Z",
+  "updatedAt": "2026-08-28T21:50:27.443Z",
   "windowDays": 90,
-  "count": 91,
+  "count": 92,
   "events": [
-    {
-      "id": "10049732-1787749200-1787756400@woodinvillechamber.org",
-      "title": "New Construction Walkthrough",
-      "category": "community",
-      "start": "2026-08-26T20:00:00.000Z",
-      "location": "Keller Williams Realty Bothell, 22614 Bothell Everett HWY, Bothell, WA, 98021, United States",
-      "url": "https://woodinvillechamber.org/calendar/new-construction-walkthrough/",
-      "description": "Join us for a hands-on New Construction Walkthrough at Trio by MSR Communities. This field training is designed to help agents become more familiar with new construction homes by exploring the features, finishes, and craftsmanship that set them apart. Topics will include: Underst",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10048988-1787752800-1787770800@woodinvillechamber.org",
-      "title": "Whiskey Wednesdays & Industry Night at Northwest Spirits",
-      "category": "food-drink",
-      "start": "2026-08-26T21:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Redmond-Woodinville Rd NE, Woodinville, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/whiskey-wednesdays-industry-night-at-northwest-spirits/2026-08-26/",
-      "description": "Wednesdays just got a whole lot better. Every Wednesday at Northwest Spirits, we’re pouring on the deals with 20% off all take-home bourbon bottles in our tasting room, all day long. We’re also proud to host Industry Night every Wednesday. If you work in hospitality, cheers to yo",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10016057-1787756400-1787763600@visitwoodinville.org",
-      "title": "Happy Hour at 20 Corners",
-      "category": "food-drink",
-      "start": "2026-08-26T22:00:00.000Z",
-      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
-      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-26/",
-      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10018100-1787760000-1787778000@visitwoodinville.org",
-      "title": "Whiskey Wednesdays & Industry Night at Northwest Spirits",
-      "category": "food-drink",
-      "start": "2026-08-26T23:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
-      "url": "https://visitwoodinville.org/event/whiskey-wednesdays-industry-night-at-northwest-spirits/2026-08-26/",
-      "description": "Wednesdays just got a whole lot better. Every Wednesday at Northwest Spirits, we’re pouring on the deals with 20% off all take-home bourbon bottles in our tasting room, all day long. We’re also proud to host Industry Night every Wednesday. If you work in hospitality, cheers to yo",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10018484-1787767200-1787774400@visitwoodinville.org",
-      "title": "Mamma Mia Party 2026 at Novelty Hill-Januik",
-      "category": "music",
-      "start": "2026-08-27T01:00:00.000Z",
-      "location": "Novelty Hill Januik Winery, 14710 Woodinville-Redmond Road NE, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/mamma-mia-party-2026-at-novelty-hill-januik/",
-      "description": "Join us on Wednesday, August 26th, for our wildly popular Mamma Mia event with live music and a large array of Mediterranean cuisine complemented by Chef Tanner Smith’s unmistakable touch. Each ticket includes a multi-course dinner, two glasses of wine, live music and gratuity.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10016174-1787767200-1787776200@visitwoodinville.org",
-      "title": "Live Music at Fireside Lounge",
-      "category": "music",
-      "start": "2026-08-27T01:00:00.000Z",
-      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-26/",
-      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10047844-1787767200-1787778000@woodinvillechamber.org",
-      "title": "Live Music Nights",
-      "category": "music",
-      "start": "2026-08-27T01:00:00.000Z",
-      "location": "Hilton Garden inn Redmond, 16630 Redmond Way, Redmond, WA, 98052, United States",
-      "url": "https://woodinvillechamber.org/calendar/live-music-nights/2026-08-26/",
-      "description": "Make your Wednesdays something special with live music in our restaurant featuring local artist Will Fred. Enjoy an evening of great dining, handcrafted cocktails, and live acoustic performances in a warm, inviting setting. Perfect for after-work gatherings, casual dinners, or a ",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "manual-Mamma Mia Party 2026-2026-08-27T01:00:00.000Z",
-      "title": "Mamma Mia Party 2026",
-      "category": "music",
-      "start": "2026-08-27T01:00:00.000Z",
-      "location": "Novelty Hill-Januik, 14710 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
-      "url": "https://visitwoodinville.org/event/mamma-mia-party-2026-at-novelty-hill-januik/",
-      "description": "Novelty Hill-Januik's wildly popular Mamma Mia event with live music and a large array of Mediterranean cuisine from Chef Tanner Smith.",
-      "source": "Manually added"
-    },
-    {
-      "id": "10018500-1787814000-1787868000@visitwoodinville.org",
-      "title": "Summer Harvest Days at Willows Lodge",
-      "category": "food-drink",
-      "start": "2026-08-27T14:00:00.000Z",
-      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-08-27/",
-      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10016058-1787842800-1787850000@visitwoodinville.org",
-      "title": "Happy Hour at 20 Corners",
-      "category": "food-drink",
-      "start": "2026-08-27T22:00:00.000Z",
-      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
-      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-27/",
-      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10016917-1787850000-1787860800@visitwoodinville.org",
-      "title": "Live Music with Luna Matto",
-      "category": "music",
-      "start": "2026-08-28T00:00:00.000Z",
-      "location": "Pepper Bridge & Amavi Cellars, 14810 NE 145th ST #A3, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/live-music-with-luna-matto/2026-08-27/",
-      "description": "Summer evenings are better with live music and great wine. Join us at our Woodinville Tasting Room on the last Thursday of each month throughout the summer for live performances by Luna Matto and special guest musicians. Relax on the patio, enjoy your favorite Amavi Cellars and P",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10045336-1787850000-1787857200@woodinvillechamber.org",
-      "title": "Goose Ridge Live Music",
-      "category": "music",
-      "start": "2026-08-28T00:00:00.000Z",
-      "location": "Goose Ridge Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA, 98072",
-      "url": "https://woodinvillechamber.org/calendar/goose-ridge-live-music/2026-08-27/",
-      "description": "Sip, savor, and unwind with live music every Thursday 5PM – 7PM at our Woodinville tasting room! Enjoy a rotating lineup of talented local musicians while you sample our wines, spirits, and ciders. Each visit brings a new sound and a new pairing.",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10000399-1787851800-1787859000@425cellars.com",
-      "title": "Live Music featuring David Paul and the On Deck",
-      "category": "music",
-      "start": "2026-08-28T00:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/live-music-featuring-david-paul-and-the-on-deck/",
-      "description": "Join us at 425 Cellars for an evening of live music featuring David Paul and the On Deck, a talented group of Pacific Northwest musicians whose decades of friendship and musical experience create an unforgettable live performance. Fronted by David Flaherty, a #1 songwriter whose ",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "10016175-1787853600-1787862600@visitwoodinville.org",
-      "title": "Live Music at Fireside Lounge",
-      "category": "music",
-      "start": "2026-08-28T01:00:00.000Z",
-      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-27/",
-      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10014502-1787855400-1787862600@visitwoodinville.org",
-      "title": "Trivia Night at Ruff Draft!",
-      "category": "food-drink",
-      "start": "2026-08-28T01:30:00.000Z",
-      "location": "Ruff Draft, 5809 238th St SE, Suite 3, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/trivia-night-at-ruff-draft/2026-08-27/",
-      "description": "Join us every Thursday at Ruff Draft for a fun, fast-paced trivia night in a dog-friendly taproom and indoor dog park. Trivia starts at 6:30 PM. Bring a team—or join one when you arrive—grab a drink, and put your knowledge to the test. Questions span a variety of topics, keeping ",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10047265-1787855400-1787862600@woodinvillechamber.org",
-      "title": "Music Bingo @ Tsillan Cellars",
-      "category": "music",
-      "start": "2026-08-28T01:30:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Dr, Unit 1070, Woodinville, WA, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/music-bingo-tsillan-cellars-6/2026-08-27/",
-      "description": "",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10013604-1787857200-1787864400@visitwoodinville.org",
-      "title": "Boots & Brews Line Dancing",
-      "category": "food-drink",
-      "start": "2026-08-28T02:00:00.000Z",
-      "location": "Watts Brewing, 15510 Woodinville-Redmond Rd NE E110, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/boots-brews-line-dancing/2026-08-27/",
-      "description": "Join Wildflower Dance Co and Watts Brewing Company as they partner up for weekly Boots and Brews line dance classes! Watts has a great vibe, spacious dance floor, and beer, wine and cider available for purchase. Wildflower Dance Co will bring the boot scootin’ party to the dance ",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10013816-1787857200-1787864400@visitwoodinville.org",
-      "title": "Trivia Night at Northwest Spirits",
-      "category": "music",
-      "start": "2026-08-28T02:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
-      "url": "https://visitwoodinville.org/event/trivia-night-at-northwest-spirits/2026-08-27/",
-      "description": "Join us for a fun-filled evening of Trivia at Northwest Spirits every Thursday at 7pm! Sip on some delicious cocktails, grab an order to-go from our sister restaurant next door, Von’s 1000Spirits, and settle in! Happier Hour deals from 6pm-8pm include $2 off select NWS cocktails.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10048962-1787857200-1787864400@woodinvillechamber.org",
-      "title": "Trivia Thursdays at Northwest Spirits",
-      "category": "music",
-      "start": "2026-08-28T02:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Redmond-Woodinville Rd NE, Woodinville, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/trivia-thursdays-at-northwest-spirits/2026-08-27/",
-      "description": "Think you’ve got what it takes? Join us every Thursday at 7pm for Trivia Night at Northwest Spirits in Woodinville. Five rounds of trivia hosted by Beat the Geek, including standard Q&A, a visual round, a music round, and a nail-biting final round. Prizes for 1st, 2nd, and 3rd pl",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10018501-1787900400-1787954400@visitwoodinville.org",
-      "title": "Summer Harvest Days at Willows Lodge",
-      "category": "food-drink",
-      "start": "2026-08-28T14:00:00.000Z",
-      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-08-28/",
-      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
-      "source": "Visit Woodinville"
-    },
     {
       "id": "10016059-1787929200-1787936400@visitwoodinville.org",
       "title": "Happy Hour at 20 Corners",
@@ -514,6 +314,46 @@
       "source": "Visit Woodinville"
     },
     {
+      "id": "10002209-1788195600-1788202800@www.alexandrianicolecellars.com",
+      "title": "Bunco Nights (No Fee)",
+      "category": "community",
+      "start": "2026-09-01T00:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-08-31/",
+      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
+      "id": "10018505-1788246000-1788300000@visitwoodinville.org",
+      "title": "Summer Harvest Days at Willows Lodge",
+      "category": "food-drink",
+      "start": "2026-09-01T14:00:00.000Z",
+      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-09-01/",
+      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10002485-1788264000-1788289200@www.alexandrianicolecellars.com",
+      "title": "Taco Tuesdays @ Woodin Creek",
+      "category": "community",
+      "start": "2026-09-01T19:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-09-01/",
+      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
+      "id": "10016060-1788274800-1788282000@visitwoodinville.org",
+      "title": "Happy Hour at 20 Corners",
+      "category": "food-drink",
+      "start": "2026-09-01T22:00:00.000Z",
+      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
+      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-09-01/",
+      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
+      "source": "Visit Woodinville"
+    },
+    {
       "id": "10045907-1788274800-1788278400@woodinvillechamber.org",
       "title": "Real Estate Investor Club Workshop",
       "category": "community",
@@ -534,13 +374,103 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
-      "id": "10048143-1788285600-1788294600@woodinvillechamber.org",
+      "id": "10001731-1788282000-1788289200@www.alexandrianicolecellars.com",
+      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
+      "category": "community",
+      "start": "2026-09-02T00:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-09-01/",
+      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
+      "id": "10016178-1788285600-1788294600@visitwoodinville.org",
       "title": "Live Music at Fireside Lounge",
       "category": "music",
       "start": "2026-09-02T01:00:00.000Z",
-      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/live-music-at-fireside-lounge-2/2026-09-01/",
+      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-09-01/",
       "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10015759-1788289200-1788294600@visitwoodinville.org",
+      "title": "Beat the Geek Trivia at 20 Corners",
+      "category": "community",
+      "start": "2026-09-02T02:00:00.000Z",
+      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
+      "url": "https://visitwoodinville.org/event/beat-the-geek-trivia-at-20-corners/2026-09-01/",
+      "description": "Beat the Geek Trivia Night every Tuesday at 20 Corners 7:00pm – 8:30pm",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018506-1788332400-1788386400@visitwoodinville.org",
+      "title": "Summer Harvest Days at Willows Lodge",
+      "category": "food-drink",
+      "start": "2026-09-02T14:00:00.000Z",
+      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-09-02/",
+      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10048989-1788357600-1788375600@woodinvillechamber.org",
+      "title": "Whiskey Wednesdays & Industry Night at Northwest Spirits",
+      "category": "food-drink",
+      "start": "2026-09-02T21:00:00.000Z",
+      "location": "Northwest Spirits, 15029 Redmond-Woodinville Rd NE, Woodinville, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/whiskey-wednesdays-industry-night-at-northwest-spirits/2026-09-02/",
+      "description": "Wednesdays just got a whole lot better. Every Wednesday at Northwest Spirits, we’re pouring on the deals with 20% off all take-home bourbon bottles in our tasting room, all day long. We’re also proud to host Industry Night every Wednesday. If you work in hospitality, cheers to yo",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
+      "id": "10049806-1788357600-1788379200@woodinvillechamber.org",
+      "title": "Fresh Hop Brewday Open House",
+      "category": "food-drink",
+      "start": "2026-09-02T21:00:00.000Z",
+      "location": "Watts Brewing, 15510 Redmond - Woodinville Rd NE e110, Woodinville, WA, 98072",
+      "url": "https://woodinvillechamber.org/calendar/fresh-hop-brewday-open-house/",
+      "description": "Fresh hop season is here! Wednesday 9/2 we’re brewing our Waggle Dance Wet Hop IPA, and would like to invite you to join us! Matt is making the trek out to Yakima to load up the van with freshly-picked Amarillo hops from Virgil Gamache Farms, while Pete starts the brew. We try to",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
+      "id": "10016061-1788361200-1788368400@visitwoodinville.org",
+      "title": "Happy Hour at 20 Corners",
+      "category": "food-drink",
+      "start": "2026-09-02T22:00:00.000Z",
+      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
+      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-09-02/",
+      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018101-1788364800-1788382800@visitwoodinville.org",
+      "title": "Whiskey Wednesdays & Industry Night at Northwest Spirits",
+      "category": "food-drink",
+      "start": "2026-09-02T23:00:00.000Z",
+      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/whiskey-wednesdays-industry-night-at-northwest-spirits/2026-09-02/",
+      "description": "Wednesdays just got a whole lot better. Every Wednesday at Northwest Spirits, we’re pouring on the deals with 20% off all take-home bourbon bottles in our tasting room, all day long. We’re also proud to host Industry Night every Wednesday. If you work in hospitality, cheers to yo",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10016179-1788372000-1788381000@visitwoodinville.org",
+      "title": "Live Music at Fireside Lounge",
+      "category": "music",
+      "start": "2026-09-03T01:00:00.000Z",
+      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-09-02/",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10047845-1788372000-1788382800@woodinvillechamber.org",
+      "title": "Live Music Nights",
+      "category": "music",
+      "start": "2026-09-03T01:00:00.000Z",
+      "location": "Hilton Garden inn Redmond, 16630 Redmond Way, Redmond, WA, 98052, United States",
+      "url": "https://woodinvillechamber.org/calendar/live-music-nights/2026-09-02/",
+      "description": "Make your Wednesdays something special with live music in our restaurant featuring local artist Will Fred. Enjoy an evening of great dining, handcrafted cocktails, and live acoustic performances in a warm, inviting setting. Perfect for after-work gatherings, casual dinners, or a ",
       "source": "Woodinville Chamber (Community Events)"
     },
     {
@@ -554,6 +484,56 @@
       "source": "Manually added"
     },
     {
+      "id": "10018507-1788418800-1788472800@visitwoodinville.org",
+      "title": "Summer Harvest Days at Willows Lodge",
+      "category": "food-drink",
+      "start": "2026-09-03T14:00:00.000Z",
+      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-09-03/",
+      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10049804-1788433200-1788721200@woodinvillechamber.org",
+      "title": "Cabernet Walk",
+      "category": "food-drink",
+      "start": "2026-09-03T18:00:00.000Z",
+      "location": "Redwood Place, 14450 Woodinville-Redmond Rd NE, Woodinville, WA, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/cabernet-walk/",
+      "description": "Walk Redwood Place and enjoy special Cabernet Sauvignon tastings, Cabernet flights, Cabernet Specials. Featured wineries: Goose Ridge Vineyards Darby Winery Airfield Evergreen Family Wines Sleight of Hand Cellars Chandler Reach Village Wines Heritage Restaurant",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
+      "id": "10016062-1788447600-1788454800@visitwoodinville.org",
+      "title": "Happy Hour at 20 Corners",
+      "category": "food-drink",
+      "start": "2026-09-03T22:00:00.000Z",
+      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
+      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-09-03/",
+      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10049808-1788449400-1788472800@woodinvillechamber.org",
+      "title": "2nd Annual Smoke & Oak Country Concert and BBQ",
+      "category": "music",
+      "start": "2026-09-03T22:30:00.000Z",
+      "location": "Page Cellars, 144th Avenue Northeast, Woodinville, Washington, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/2nd-annual-smoke-oak-country-concert-and-bbq/",
+      "description": "Smoke & Oak One Last Night of Summer Featuring Flowers for Wolves Thursday, September 3, 2026 Doors Open: 3:30 PM Live Music: 4:00–9:30 PM Last Call: 9:15 PM Event Ends: 10:00 PM Woodinville Warehouse District Welcome the Harvest Celebrate the end of summer and kick off Labor Day",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
+      "id": "10045337-1788454800-1788462000@woodinvillechamber.org",
+      "title": "Goose Ridge Live Music",
+      "category": "music",
+      "start": "2026-09-04T00:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA, 98072",
+      "url": "https://woodinvillechamber.org/calendar/goose-ridge-live-music/2026-09-03/",
+      "description": "Sip, savor, and unwind with live music every Thursday 5PM – 7PM at our Woodinville tasting room! Enjoy a rotating lineup of talented local musicians while you sample our wines, spirits, and ciders. Each visit brings a new sound and a new pairing.",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
       "id": "10000402-1788456600-1788463800@425cellars.com",
       "title": "Reji Marc Live on the Patio Event",
       "category": "music",
@@ -562,6 +542,26 @@
       "url": "https://425cellars.com/event/reji-marc-live-on-the-patio-event/",
       "description": "Seattle-based singer-songwriter, guitarist, and vocalist Reji Marc brings his signature blend of Alternative Blues Rock ‘n Roll to the stage! Enjoy free admission with the purchase of wine🍷🎶 Influenced by blues, soul, funk, rock, and R&B, his performances combine smooth vocals,",
       "source": "425 Cellars"
+    },
+    {
+      "id": "10016180-1788458400-1788467400@visitwoodinville.org",
+      "title": "Live Music at Fireside Lounge",
+      "category": "music",
+      "start": "2026-09-04T01:00:00.000Z",
+      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-09-03/",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10014503-1788460200-1788467400@visitwoodinville.org",
+      "title": "Trivia Night at Ruff Draft!",
+      "category": "food-drink",
+      "start": "2026-09-04T01:30:00.000Z",
+      "location": "Ruff Draft, 5809 238th St SE, Suite 3, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/trivia-night-at-ruff-draft/2026-09-03/",
+      "description": "Join us every Thursday at Ruff Draft for a fun, fast-paced trivia night in a dog-friendly taproom and indoor dog park. Trivia starts at 6:30 PM. Bring a team—or join one when you arrive—grab a drink, and put your knowledge to the test. Questions span a variety of topics, keeping ",
+      "source": "Visit Woodinville"
     },
     {
       "id": "10000403-1788699600-1788706800@425cellars.com",
@@ -822,6 +822,16 @@
       "url": "https://www.ste-michelle.com/concerts/concert-calendar",
       "description": "Summer Concert Series show. Gates open ~90 minutes before the 7pm start. Tickets via Ticketmaster.",
       "source": "Manually added"
+    },
+    {
+      "id": "10002979-1790701200-1790708400@www.alexandrianicolecellars.com",
+      "title": "\"No Fee\" Music Bingo at Woodin Creek",
+      "category": "music",
+      "start": "2026-09-30T00:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/no-fee-music-bingo-at-woodin-creek/2026-09-29/",
+      "description": "Join us every month on the LAST Tuesday for No Fee Music Bingo Night at our Woodin Creek Tasting Rooms. Enjoy a laid-back night of wine, laughs, and sing-along moments as you play your way through your favorite tunes. It’s part bingo, part dance party, and all-around a great excu",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-The Pour Decisions-2026-10-03T01:00:00.000Z",
