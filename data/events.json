@@ -1,88 +1,8 @@
 {
-  "updatedAt": "2026-08-29T13:01:59.942Z",
+  "updatedAt": "2026-08-30T13:01:58.833Z",
   "windowDays": 90,
-  "count": 91,
+  "count": 88,
   "events": [
-    {
-      "id": "10018502-1787986800-1788040800@visitwoodinville.org",
-      "title": "Summer Harvest Days at Willows Lodge",
-      "category": "food-drink",
-      "start": "2026-08-29T14:00:00.000Z",
-      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-08-29/",
-      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10017002-1787997600-1788012000@visitwoodinville.org",
-      "title": "Woodinville Farmers Market",
-      "category": "music",
-      "start": "2026-08-29T17:00:00.000Z",
-      "location": "Woodinville Farmers Market, 13205 NE 175th St, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/woodinville-farmers-market/2026-08-29/",
-      "description": "Homegrown. Handmade. In the heart of Woodinville. Are you in the mood for some fresh produce, boutique baked goods, artisanal sauces, cider, and other delightful treats? Look no further than the Woodinville Farmers Market! Since 1993, the Woodinville Farmers Market has been servi",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10047152-1787999400-1788004800@woodinvillechamber.org",
-      "title": "Yoga + Wine at Prohibition Cellars",
-      "category": "community",
-      "start": "2026-08-29T17:30:00.000Z",
-      "location": "Prohibition Cellars, 144th Avenue Northeast, Woodinville, Washington, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/yoga-wine-at-prohibition-cellars-2/2026-08-29/",
-      "description": "Join us for a 45-minute all-levels yoga class led by a local Yoga Uncorked Chelan instructor. We’ll move, breathe, and reset—no matter your experience level. After class, stick around for wine! Grab a tasting flight, enjoy a glass, or share a bottle with friends. It’s a great way",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10013756-1788026400-1788033600@visitwoodinville.org",
-      "title": "Live Music at Patterson Cellars",
-      "category": "music",
-      "start": "2026-08-30T01:00:00.000Z",
-      "location": "Patterson Cellars Tasting Room, 19501 144th Ave NE, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/live-music-at-patterson-cellars/2026-08-29/",
-      "description": "Live music at Patterson Cellars Hollywood location, Fridays and Saturdays, 6-8pm.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10016177-1788026400-1788035400@visitwoodinville.org",
-      "title": "Live Music at Fireside Lounge",
-      "category": "music",
-      "start": "2026-08-30T01:00:00.000Z",
-      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-08-29/",
-      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10049050-1788026400-1788037200@woodinvillechamber.org",
-      "title": "Ben \"King B\" Meine",
-      "category": "music",
-      "start": "2026-08-30T01:00:00.000Z",
-      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/ben-king-b-meine/",
-      "description": "Get ready to groove with us! Wisconsin’s own Ben “King B” Meine is bringing his signature blend of blues, soul, and funk to the Freebush Cellars tasting room for an unforgettable night of live music. Known for his soulful vocals, masterful instrumentation, and interactive perform",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "manual-Stonesy (Rolling Stones tribute)-2026-08-30T01:00:00.000Z",
-      "title": "Stonesy (Rolling Stones tribute)",
-      "category": "music",
-      "start": "2026-08-30T01:00:00.000Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-5d4xr-ss57s-eyb76-ssjb8",
-      "description": "Six-piece Rolling Stones tribute band. $10 cover charge.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music: Jarrett Renshaw-2026-08-30T01:00:00.000Z",
-      "title": "Live Music: Jarrett Renshaw",
-      "category": "music",
-      "start": "2026-08-30T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th Street, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/live-entertainment-with-jarrett-renshaw/",
-      "description": "Acoustic soft rock and pop singer-songwriter; covers James Taylor, Neil Young, Cat Stevens, Eagles, and originals.",
-      "source": "Manually added"
-    },
     {
       "id": "10018503-1788073200-1788127200@visitwoodinville.org",
       "title": "Summer Harvest Days at Willows Lodge",
@@ -544,13 +464,63 @@
       "source": "Visit Woodinville"
     },
     {
-      "id": "10048146-1788544800-1788553800@woodinvillechamber.org",
+      "id": "10016181-1788544800-1788553800@visitwoodinville.org",
       "title": "Live Music at Fireside Lounge",
       "category": "music",
       "start": "2026-09-05T01:00:00.000Z",
-      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/live-music-at-fireside-lounge-2/2026-09-04/",
+      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-09-04/",
       "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10049195-1788544800-1788555600@woodinvillechamber.org",
+      "title": "Jade Teather performing live at Freebush Cellars",
+      "category": "music",
+      "start": "2026-09-05T01:00:00.000Z",
+      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/jade-teather-performing-live-at-freebush-cellars/",
+      "description": "Seattle singer-songwriter Jade Teather brings a set of originals to the tasting room — the kind of writing that rewards actually listening, with a bassist’s sense of how a song should sit in a room. If you know Melomania or “Walk Me Home,” you know the territory: sharp lyrics, no",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
+      "id": "10018509-1788591600-1788645600@visitwoodinville.org",
+      "title": "Summer Harvest Days at Willows Lodge",
+      "category": "food-drink",
+      "start": "2026-09-05T14:00:00.000Z",
+      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-09-05/",
+      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10014348-1788602400-1788607800@visitwoodinville.org",
+      "title": "Yoga + Wine at Gard Estate Wines",
+      "category": "community",
+      "start": "2026-09-05T17:00:00.000Z",
+      "location": "Gard Vintners Woodinville Tasting Room, 9151 144th Ave NE #D, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/yoga-wine-at-gard-estate-wines/2026-09-05/",
+      "description": "Join us for a 45-minute all-levels yoga class led by a local Yoga Uncorked Chelan instructor. We’ll move, breathe, and reset—no matter your experience level. After class, stick around for wine! Grab a tasting flight, enjoy a glass, or share a bottle with friends. It’s a great way",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10017003-1788602400-1788616800@visitwoodinville.org",
+      "title": "Woodinville Farmers Market",
+      "category": "music",
+      "start": "2026-09-05T17:00:00.000Z",
+      "location": "Woodinville Farmers Market, 13205 NE 175th St, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/woodinville-farmers-market/2026-09-05/",
+      "description": "Homegrown. Handmade. In the heart of Woodinville. Are you in the mood for some fresh produce, boutique baked goods, artisanal sauces, cider, and other delightful treats? Look no further than the Woodinville Farmers Market! Since 1993, the Woodinville Farmers Market has been servi",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10047065-1788604200-1788609600@woodinvillechamber.org",
+      "title": "Yoga + Wine at Evergreen Family Wines",
+      "category": "community",
+      "start": "2026-09-05T17:30:00.000Z",
+      "location": "Milbrandt Tasting Room Woodinville, Redmond - Woodinville Road Northeast 14450, Woodinville, Washington, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/yoga-wine-at-evergreen-family-wines-3/2026-09-05/",
+      "description": "Join us for a 45-minute all-levels yoga class led by a local Yoga Uncorked Chelan instructor. We’ll move, breathe, and reset—no matter your experience level. After class, stick around for wine! Grab a tasting flight, enjoy a glass, or share a bottle with friends. It’s a great way",
       "source": "Woodinville Chamber (Community Events)"
     },
     {
