@@ -1,108 +1,8 @@
 {
-  "updatedAt": "2026-08-30T13:01:58.833Z",
+  "updatedAt": "2026-08-31T13:02:32.241Z",
   "windowDays": 90,
-  "count": 88,
+  "count": 85,
   "events": [
-    {
-      "id": "10018503-1788073200-1788127200@visitwoodinville.org",
-      "title": "Summer Harvest Days at Willows Lodge",
-      "category": "food-drink",
-      "start": "2026-08-30T14:00:00.000Z",
-      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-08-30/",
-      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10049794-1788085800-1788132600@woodinvillechamber.org",
-      "title": "Yoga Uncorked",
-      "category": "community",
-      "start": "2026-08-30T17:30:00.000Z",
-      "location": "Prohibition Cellars, 144th Avenue Northeast, Woodinville, Washington, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/yoga-uncorked-8/",
-      "description": "Start your Sunday morning in the best way! Prohibition Cellars will host Yoga Uncorked for a morning of yoga followed by wine. Whether you’re brand new to yoga or a seasoned practitioner, a skilled instructor will guide you and help adjust and adapt the practice during class as n",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10018888-1788091200-1788105600@visitwoodinville.org",
-      "title": "BLOCK PARTY at Woodin Creek Village",
-      "category": "music",
-      "start": "2026-08-30T19:00:00.000Z",
-      "location": "Woodin Creek Village, 17255 135th Avenue NE, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/block-party-at-woodin-creek-village/",
-      "description": "Free Community Event Join us for the annual Woodin Creek Village BLOCK PARTY! This free family friendly event is open to all. Come and enjoy what the village has to offer! Music ~ Wine Tasting ~ Food ~ Games ~ Kid’s Activties ~ Prizes ~ And More!",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10049803-1788091200-1788105600@woodinvillechamber.org",
-      "title": "Woodin Creek Village Block Party",
-      "category": "community",
-      "start": "2026-08-30T19:00:00.000Z",
-      "location": "Woodin Creek Village, 17255 135th Avenue NE, Woodinville, WA, 98072",
-      "url": "https://woodinvillechamber.org/calendar/woodin-creek-village-block-party/",
-      "description": "BLOCK PARTY at Woodin Creek Village Tickets, Sunday, August 30 • 12 PM – 4 PM | Eventbrite",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10018172-1788094800-1788105600@visitwoodinville.org",
-      "title": "Woodinville Heritage Museum - Open Sunday!",
-      "category": "community",
-      "start": "2026-08-30T20:00:00.000Z",
-      "location": "Woodinville Heritage Society & Museum, 14121 NE 171st St, Woodinville, 98072",
-      "url": "https://visitwoodinville.org/event/woodinville-heritage-museum-open-sunday-2/2026-08-30/",
-      "description": "Come step inside Woodinville’s story! Free Admission. The Woodinville Heritage Society & Museum is open for visitors—stop by the Heritage Museum at the DeYoung House to explore exhibits, discover local photos and artifacts you won’t see anywhere else, and learn a few “did you kno",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10018073-1788098400-1788116400@visitwoodinville.org",
-      "title": "All Day Happy Hour at Northwest Spirits",
-      "category": "food-drink",
-      "start": "2026-08-30T21:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
-      "url": "https://visitwoodinville.org/event/all-day-happy-hour-at-northwest-spirits/2026-08-30/",
-      "description": "Sundays are for slowing down, and we’ve got you covered. Every Sunday, all day long, enjoy $2 off select handcrafted cocktails, including the Sour Watermelon 75, Blackberry Sage Mule, and Mint Julep. Plus $1 off all mocktails, so everyone at the table has something worth raising.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10018476-1788102000-1788112800@visitwoodinville.org",
-      "title": "Sunday Summer Sounds on the Lawn: DA-SH Live at Synne Cellars",
-      "category": "music",
-      "start": "2026-08-30T22:00:00.000Z",
-      "location": "Hollywood Schoolhouse-Synne Cellars, 14810 NE 145th Street, Suite B-Downstairs, Woodinville, 98072",
-      "url": "https://visitwoodinville.org/event/sunday-summer-sounds-on-the-lawn-da-sh-live-at-synne-cellars/",
-      "description": "DA-SH: Dan & Shayne Live at Synne Cellars Sunday, August 30, 2026 | 3:00–6:00 PM Spend one of the final Sundays of summer with us as DA-SH: Dan & Shayne return to Synne Cellars for an afternoon of live music, wine, and great company. Join us on the lawn (weather permitting) and s",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10046409-1788102000-1788107400@woodinvillechamber.org",
-      "title": "Bingo at Métier Brewing",
-      "category": "food-drink",
-      "start": "2026-08-30T22:00:00.000Z",
-      "location": "Metier Brewing, 14125 NE 189th St Suite B, Woodinville, WA, 98072, United States",
-      "url": "https://woodinvillechamber.org/calendar/bingo-at-metier-brewing/2026-08-30/",
-      "description": "NEW!!! Bingo at MBC! Join us for weekly bingo in the taprooms, every Sunday at MBC Woodinville (3-4:30 PM) and play for FREE. Each round comes with a chance to win drink tickets or fun prizes from our rotating prize box filled with damn good goodies like merch, trinkets, and more",
-      "source": "Woodinville Chamber (Community Events)"
-    },
-    {
-      "id": "10000400-1788103800-1788111000@425cellars.com",
-      "title": "Happy Hour with the Deb Nielsen Jazz Quartet",
-      "category": "music",
-      "start": "2026-08-30T22:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/happy-hour-with-the-deb-nielsen-jazz-quartet/",
-      "description": "Join us for Happy Hour featuring the Deb Nielsen Jazz Quartet. The Deb Nielsen Jazz Quartet brings together expressive vocals and outstanding musicianship to deliver fresh interpretations of beloved jazz standards and contemporary favorites. Their sophisticated sound creates the ",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "10017812-1788134400-1788220799@visitwoodinville.org",
-      "title": "Game Night at The Cut Shop",
-      "category": "community",
-      "start": "2026-08-31T00:00:00.000Z",
-      "location": "The Cut Shop, 12801 NE 175th St, Woodinville, WA, 98072",
-      "url": "https://visitwoodinville.org/event/game-night-at-the-cut-shop/2026-08-31/",
-      "description": "Join The Cut Shop for Game Night every Monday until close.",
-      "source": "Visit Woodinville"
-    },
     {
       "id": "10018504-1788159600-1788213600@visitwoodinville.org",
       "title": "Summer Harvest Days at Willows Lodge",
@@ -524,6 +424,66 @@
       "source": "Woodinville Chamber (Community Events)"
     },
     {
+      "id": "10013758-1788631200-1788638400@visitwoodinville.org",
+      "title": "Live Music at Patterson Cellars",
+      "category": "music",
+      "start": "2026-09-06T01:00:00.000Z",
+      "location": "Patterson Cellars Tasting Room, 19501 144th Ave NE, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/live-music-at-patterson-cellars/2026-09-05/",
+      "description": "Live music at Patterson Cellars Hollywood location, Fridays and Saturdays, 6-8pm.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10016182-1788631200-1788640200@visitwoodinville.org",
+      "title": "Live Music at Fireside Lounge",
+      "category": "music",
+      "start": "2026-09-06T01:00:00.000Z",
+      "location": "Fireside Lounge, 14580 NE 145th Street, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/live-music-at-fireside-lounge-2/2026-09-05/",
+      "description": "Several nights a week, sit back at Fireside Lounge and enjoy the sounds of talented musicians playing for a lounge buzzing with hotel guests and locals alike. Whether it’s a date night or you are meeting your colleagues for a drink, Fireside Lounge provides the best ambiance in W",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10049064-1788631200-1788642000@woodinvillechamber.org",
+      "title": "Big Daisy Energy",
+      "category": "music",
+      "start": "2026-09-06T01:00:00.000Z",
+      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/big-daisy-energy-2/",
+      "description": "Big Daisy Energy takes the stage as a trio, bringing the kind of live sound that fills a room without ever needing to shout. Layered lead and harmony vocals, acoustic guitar, driving electric bass, and percussion all at once — the effect is a much larger ensemble than the lineup ",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
+      "id": "10046862-1788633000-1788643800@woodinvillechamber.org",
+      "title": "Electric Boots - Elton John Time Machine",
+      "category": "art",
+      "start": "2026-09-06T01:30:00.000Z",
+      "location": "Chelan Ridge Winery, 19151 144th Ave NE Stc B&C, Woodinville, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/electric-boots-elton-john-time-machine-5/",
+      "description": "🎶 Elton John fans, this one’s for you! 🎶 Join us at Chelan Ridge Winery for an unforgettable evening with Electric Boots, an Elton John tribute artist who brings all the classics to life. From Tiny Dancer to Rocket Man, enjoy the songs you know and love from, paired with fine w",
+      "source": "Woodinville Chamber (Community Events)"
+    },
+    {
+      "id": "10018510-1788678000-1788732000@visitwoodinville.org",
+      "title": "Summer Harvest Days at Willows Lodge",
+      "category": "food-drink",
+      "start": "2026-09-06T14:00:00.000Z",
+      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
+      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-09-06/",
+      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10013841-1788699600-1788710400@visitwoodinville.org",
+      "title": "Woodinville Heritage Museum - Open Sunday!",
+      "category": "community",
+      "start": "2026-09-06T20:00:00.000Z",
+      "location": "Woodinville Heritage Society & Museum, 14121 NE 171st St, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/woodinville-heritage-museum-open-sunday/2026-09-06/",
+      "description": "Come step inside Woodinville’s story! Free Admission. The Woodinville Heritage Society & Museum is open for visitors—stop by the Heritage Museum at the DeYoung House to explore exhibits, discover local photos and artifacts you won’t see anywhere else, and learn a few “did you kno",
+      "source": "Visit Woodinville"
+    },
+    {
       "id": "10000403-1788699600-1788706800@425cellars.com",
       "title": "Gary’s Pairings",
       "category": "community",
@@ -532,6 +492,16 @@
       "url": "https://425cellars.com/event/garys-pairings/",
       "description": "Think you can guess what’s in your glass? Join us at 425 Cellars for an interactive Blind Wine Tasting with Gary! Sample a mystery wine alongside a thoughtfully selected bite designed to bring out its balance and flavors—all while putting your palate to the test. This complimenta",
       "source": "425 Cellars"
+    },
+    {
+      "id": "10047203-1788703200-1788710400@woodinvillechamber.org",
+      "title": "Fall Wreath Workshop at Freebush Cellars",
+      "category": "community",
+      "start": "2026-09-06T21:00:00.000Z",
+      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA, 98072, United States",
+      "url": "https://woodinvillechamber.org/calendar/fall-wreath-workshop-at-freebush-cellars/",
+      "description": "Join us on Sunday, September 6th from 2–4 PM for a cozy afternoon of creativity, wine, and autumn inspiration! Create your own beautiful fall wreath using seasonal florals, textured accessories, and warm autumn accents perfect for welcoming the season into your home. ✨ Flowers, w",
+      "source": "Woodinville Chamber (Community Events)"
     },
     {
       "id": "10000404-1788708600-1788715800@425cellars.com",
