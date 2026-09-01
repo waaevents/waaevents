@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-08-31T13:02:32.241Z",
+  "updatedAt": "2026-09-01T13:04:30.692Z",
   "windowDays": 90,
   "count": 85,
   "events": [
-    {
-      "id": "10018504-1788159600-1788213600@visitwoodinville.org",
-      "title": "Summer Harvest Days at Willows Lodge",
-      "category": "food-drink",
-      "start": "2026-08-31T14:00:00.000Z",
-      "location": "Willows Lodge, 14580 NE 145TH STREET, Woodinville, WA, 98072, United States",
-      "url": "https://visitwoodinville.org/event/summer-harvest-days-at-willows-lodge/2026-08-31/",
-      "description": "Join us August 24–September 13 for a refined late-summer celebration of Pacific Northwest tomatoes and cucumbers, expressed through upscale dining, garden-inspired beverages, elegant desserts, and restorative spa experiences. Harvest Days at Willows Lodge is rooted in farm-fresh ",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10015498-1788188400-1788195600@visitwoodinville.org",
-      "title": "Happy Hour at 20 Corners",
-      "category": "food-drink",
-      "start": "2026-08-31T22:00:00.000Z",
-      "location": "20 Corners, 14148 NE 190th ST, Woodinville, Washington, 98072",
-      "url": "https://visitwoodinville.org/event/happy-hour-at-20-corners/2026-08-31/",
-      "description": "20 Corners Happy Hour runs Monday – Friday from 3-5 with $1 off all beverages $2 off selected bites and $3 off the Chef’s pizza of the week.",
-      "source": "Visit Woodinville"
-    },
-    {
-      "id": "10002209-1788195600-1788202800@www.alexandrianicolecellars.com",
-      "title": "Bunco Nights (No Fee)",
-      "category": "community",
-      "start": "2026-09-01T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-08-31/",
-      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
     {
       "id": "10018505-1788246000-1788300000@visitwoodinville.org",
       "title": "Summer Harvest Days at Willows Lodge",
@@ -494,6 +464,26 @@
       "source": "425 Cellars"
     },
     {
+      "id": "10018074-1788703200-1788721200@visitwoodinville.org",
+      "title": "All Day Happy Hour at Northwest Spirits",
+      "category": "food-drink",
+      "start": "2026-09-06T21:00:00.000Z",
+      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/all-day-happy-hour-at-northwest-spirits/2026-09-06/",
+      "description": "Sundays are for slowing down, and we’ve got you covered. Every Sunday, all day long, enjoy $2 off select handcrafted cocktails, including the Sour Watermelon 75, Blackberry Sage Mule, and Mint Julep. Plus $1 off all mocktails, so everyone at the table has something worth raising.",
+      "source": "Visit Woodinville"
+    },
+    {
+      "id": "10018121-1788703200-1788721200@visitwoodinville.org",
+      "title": "Bark & Bourbon | Dog-Friendly Event at Northwest Spirits",
+      "category": "music",
+      "start": "2026-09-06T21:00:00.000Z",
+      "location": "Northwest Spirits, 15029 Redmond - Woodinville Rd NE #400, Woodinville, 98072",
+      "url": "https://visitwoodinville.org/event/bark-bourbon-dog-friendly-event-at-northwest-spirits/2026-09-06/",
+      "description": "Every first Sunday of the month, Northwest Spirits goes to the dogs, and we wouldn’t have it any other way. Bring your pup out for Bark & Bourbon, our monthly dog-friendly event featuring all-day Happy Hour, complimentary pup cups, dog treats, and doggie bandanas for every four-l",
+      "source": "Visit Woodinville"
+    },
+    {
       "id": "10047203-1788703200-1788710400@woodinvillechamber.org",
       "title": "Fall Wreath Workshop at Freebush Cellars",
       "category": "community",
@@ -512,6 +502,16 @@
       "url": "https://425cellars.com/event/live-music-happy-hour-with-nicholas-russell/",
       "description": "Join us on Sunday, September 6th from 3:30 PM – 5:30 PM as we welcome Nicholas Russell to the tasting room + Happy Hour! 🎶 🍷 Free admission with the purchase of wine! Born and raised in Seattle, Nicholas Russell is a singer, guitarist, and flute player who performs regularly th",
       "source": "425 Cellars"
+    },
+    {
+      "id": "10017813-1788739200-1788825599@visitwoodinville.org",
+      "title": "Game Night at The Cut Shop",
+      "category": "community",
+      "start": "2026-09-07T00:00:00.000Z",
+      "location": "The Cut Shop, 12801 NE 175th St, Woodinville, WA, 98072",
+      "url": "https://visitwoodinville.org/event/game-night-at-the-cut-shop/2026-09-07/",
+      "description": "Join The Cut Shop for Game Night every Monday until close.",
+      "source": "Visit Woodinville"
     },
     {
       "id": "10000405-1789061400-1789068600@425cellars.com",
