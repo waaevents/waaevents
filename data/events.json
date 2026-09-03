@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-02T13:03:39.664Z",
+  "updatedAt": "2026-09-03T13:03:11.161Z",
   "windowDays": 90,
-  "count": 38,
+  "count": 37,
   "events": [
-    {
-      "id": "manual-Tori Amos with Bartees Strange-2026-09-03T02:00:00.000Z",
-      "title": "Tori Amos with Bartees Strange",
-      "category": "music",
-      "start": "2026-09-03T02:00:00.000Z",
-      "location": "Chateau Ste. Michelle Amphitheatre, 14111 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.ste-michelle.com/concerts/concert-calendar",
-      "description": "Summer Concert Series show. Gates open ~90 minutes before the 7pm start. Tickets via Ticketmaster.",
-      "source": "Manually added"
-    },
     {
       "id": "10000402-1788456600-1788463800@425cellars.com",
       "title": "Reji Marc Live on the Patio Event",
