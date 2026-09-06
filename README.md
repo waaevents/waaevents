@@ -95,6 +95,21 @@ Rules that keep this trustworthy instead of turning into guesswork:
 - If the same event later shows up in an automated feed, it'll collapse
   into one listing (same dedup rules as everything else), not double up.
 
+## Known issue: the two main feeds are currently 403ing
+
+As of the 2026-09-05 run (see `data/debug-last-run.json`), both `visitwoodinville.org`
+and `woodinvillechamber.org` are returning `HTTP 403 Forbidden` to the GitHub
+Actions runner — likely Cloudflare/Wordfence bot-blocking a datacenter IP or
+the request's User-Agent/headers. Only the `425 Cellars` and `Alexandria
+Nicole Cellars` feeds are currently succeeding, so anything that would
+normally come in from Visit Woodinville or the Chamber (Obelisco, Patterson,
+Synne, Willows Lodge, farmers market, museum hours, etc.) is missing from
+`data/events.json` until this is fixed. A real fix means testing header/UA
+changes against the actual feed from a browser-like environment and
+confirming the 403 clears — not guessing. In the meantime, several of the
+highest-traffic venues in this gap have been added to
+`data/manual-events.json` by hand.
+
 ## Sources considered but not included
 
 A few names come up often for Woodinville events but don't have a

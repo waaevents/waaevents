@@ -3,9 +3,9 @@
     "title": "Live Music: The Stumbling Fiddler",
     "category": "music",
     "start": "2026-08-22T22:00:00.000Z",
-    "location": "Gård Estate Wines, 19151 144th Ave NE, Unit D, Woodinville, WA 98072",
+    "location": "G\u00e5rd Estate Wines, 19151 144th Ave NE, Unit D, Woodinville, WA 98072",
     "url": "https://www.gardwine.com/events/the-stumbling-fiddler/",
-    "description": "Live music at Gård's Woodinville tasting room. No cover charge, all ages welcome.",
+    "description": "Live music at G\u00e5rd's Woodinville tasting room. No cover charge, all ages welcome.",
     "addedBy": "manual",
     "addedOn": "2026-08-18"
   },
@@ -13,9 +13,9 @@
     "title": "Live Music: Michael Powers",
     "category": "music",
     "start": "2026-08-29T01:00:00.000Z",
-    "location": "Gård Estate Wines, 19151 144th Ave NE, Unit D, Woodinville, WA 98072",
+    "location": "G\u00e5rd Estate Wines, 19151 144th Ave NE, Unit D, Woodinville, WA 98072",
     "url": "https://www.gardwine.com/events/live-music-michael-powers-5/",
-    "description": "Live music at Gård's Woodinville tasting room. No cover charge, all ages welcome.",
+    "description": "Live music at G\u00e5rd's Woodinville tasting room. No cover charge, all ages welcome.",
     "addedBy": "manual",
     "addedOn": "2026-08-18"
   },
@@ -220,22 +220,22 @@
     "addedOn": "2026-08-22"
   },
   {
-    "title": "Jeannie Rak: Live Music at LaShellé Wines",
+    "title": "Jeannie Rak: Live Music at LaShell\u00e9 Wines",
     "category": "music",
     "start": "2026-09-18T01:00:00.000Z",
-    "location": "LaShellé Wines, Woodinville, WA 98072",
+    "location": "LaShell\u00e9 Wines, Woodinville, WA 98072",
     "url": "https://www.jeannierak.com/calendar/lashell-wines",
-    "description": "Live music with Jeannie Rak at LaShellé Wines' dedicated music stage.",
+    "description": "Live music with Jeannie Rak at LaShell\u00e9 Wines' dedicated music stage.",
     "addedBy": "manual",
     "addedOn": "2026-08-22"
   },
   {
-    "title": "Jeannie Rak: Live Music at LaShellé Wines",
+    "title": "Jeannie Rak: Live Music at LaShell\u00e9 Wines",
     "category": "music",
     "start": "2026-09-25T01:00:00.000Z",
-    "location": "LaShellé Wines, Woodinville, WA 98072",
+    "location": "LaShell\u00e9 Wines, Woodinville, WA 98072",
     "url": "https://www.jeannierak.com/calendar/lashell-wines-dz9al",
-    "description": "Live music with Jeannie Rak at LaShellé Wines' dedicated music stage.",
+    "description": "Live music with Jeannie Rak at LaShell\u00e9 Wines' dedicated music stage.",
     "addedBy": "manual",
     "addedOn": "2026-08-22"
   },
@@ -270,7 +270,7 @@
     "addedOn": "2026-08-22"
   },
   {
-    "title": "Hermanos Gutiérrez with Y La Bamba",
+    "title": "Hermanos Guti\u00e9rrez with Y La Bamba",
     "category": "music",
     "start": "2026-09-28T02:00:00.000Z",
     "location": "Chateau Ste. Michelle Amphitheatre, 14111 NE 145th St, Woodinville, WA 98072",
@@ -298,5 +298,125 @@
     "description": "Acoustic soft rock and pop singer-songwriter; covers James Taylor, Neil Young, Cat Stevens, Eagles, and originals.",
     "addedBy": "manual",
     "addedOn": "2026-08-22"
+  },
+  {
+    "title": "Finding Balance | A Guided Sound Journey",
+    "category": "community",
+    "start": "2026-09-12T17:00:00.000Z",
+    "location": "Sparkman Cellars, 14300 NE 145th St #102, Woodinville, WA 98072",
+    "url": "https://sparkmancellars.com/event/%f0%9f%8c%97-finding-balance-a-guided-sound-journey/",
+    "description": "A guided sound journey ahead of the Autumn Equinox \u2014 immersive sound, gentle breath, and mindful stillness \u2014 at Sparkman Cellars' Hollywood District tasting room."
+  },
+  {
+    "title": "Swing It Seattle: Tropical Swing Night",
+    "category": "community",
+    "start": "2026-09-26T01:00:00.000Z",
+    "location": "Sparkman Cellars, 14300 NE 145th St #102, Woodinville, WA 98072",
+    "url": "https://sparkmancellars.com/event/swing-it-seattle-tropical-swing-night/",
+    "description": "A tropical-themed swing dance night with Swing It Seattle \u2014 island rhythms, dancing, and good vibes at Sparkman Cellars."
+  },
+  {
+    "title": "Book Larder Cookbook Swap",
+    "category": "community",
+    "start": "2026-09-27T20:00:00.000Z",
+    "location": "Sparkman Cellars, 14300 NE 145th St #102, Woodinville, WA 98072",
+    "url": "https://sparkmancellars.com/event/book-larder-cookbook-swap/",
+    "description": "Community cookbook swap with The Book Larder \u2014 bring 2-3 gently used cookbooks to trade at Sparkman Cellars."
+  },
+  {
+    "title": "Annual Sparkman x Delille Winter Market",
+    "category": "community",
+    "start": "2026-12-06T20:00:00.000Z",
+    "location": "Sparkman Cellars, 14300 NE 145th St #102, Woodinville, WA 98072",
+    "url": "https://sparkmancellars.com/event/annual-sparkman-x-delille-winter-market/",
+    "description": "Free-admission holiday market with vendor stalls, wine, and food, hosted jointly with DeLille Cellars at Sparkman Cellars."
+  },
+  {
+    "title": "Two Funk Friday: Happy Hour + Live Music",
+    "category": "music",
+    "start": "2026-09-12T01:00:00.000Z",
+    "location": "Two Vintners, 18572 142nd Ave NE, Woodinville, WA 98072",
+    "url": "https://www.twovintners.com/all-events-",
+    "description": "Friday happy hour 4-8pm with live music 6-8pm at Two Vintners' Woodinville tasting room; food trucks, wine by the glass or bottle, first-come seating."
+  },
+  {
+    "title": "Two Funk Friday: Happy Hour + Live Music",
+    "category": "music",
+    "start": "2026-09-19T01:00:00.000Z",
+    "location": "Two Vintners, 18572 142nd Ave NE, Woodinville, WA 98072",
+    "url": "https://www.twovintners.com/all-events-",
+    "description": "Friday happy hour 4-8pm with live music 6-8pm at Two Vintners' Woodinville tasting room; food trucks, wine by the glass or bottle, first-come seating."
+  },
+  {
+    "title": "Two Funk Friday: Happy Hour + Live Music",
+    "category": "music",
+    "start": "2026-09-26T01:00:00.000Z",
+    "location": "Two Vintners, 18572 142nd Ave NE, Woodinville, WA 98072",
+    "url": "https://www.twovintners.com/all-events-",
+    "description": "Friday happy hour 4-8pm with live music 6-8pm at Two Vintners' Woodinville tasting room; food trucks, wine by the glass or bottle, first-come seating."
+  },
+  {
+    "title": "Live Music with Nick Mardon",
+    "category": "music",
+    "start": "2026-09-12T02:00:00.000Z",
+    "location": "Obelisco Estate Winery, Apple Farm Village, 14525 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://allevents.in/woodinville/live-music-with-nick-mardon/100001998271036462",
+    "description": "Live music with Seattle-based guitarist/vocalist Nick Mardon, 7-9pm, at Obelisco Estate Winery."
+  },
+  {
+    "title": "Live Music with Howard Mack",
+    "category": "music",
+    "start": "2026-09-13T02:00:00.000Z",
+    "location": "Obelisco Estate Winery, Apple Farm Village, 14525 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://allevents.in/woodinville/live-music-with-howard-mack/100001998266658367",
+    "description": "Live music with Seattle soul/blues singer-songwriter Howard Mack, 7-9pm, at Obelisco Estate Winery."
+  },
+  {
+    "title": "Game Night Thursdays at Obelisco",
+    "category": "community",
+    "start": "2026-09-11T01:30:00.000Z",
+    "location": "Obelisco Estate Winery, Apple Farm Village, 14525 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://allevents.in/woodinville/game-night-thursdays-at-obelisco-estate-winery/100001987171738162",
+    "description": "Weekly Thursday game night \u2014 board and card games, wine, and sangria \u2014 at Obelisco Estate Winery."
+  },
+  {
+    "title": "Stand-Up Comedy with Scott Losse feat. Mike Coletta",
+    "category": "comedy",
+    "start": "2026-09-19T02:00:00.000Z",
+    "location": "Maryhill Winery Tasting Room & Bistro, Hollywood Schoolhouse, 14810 NE 145th St #A, Woodinville, WA 98072",
+    "url": "https://allevents.in/woodinville/stand-up-comedy-with-scott-losse-feat-mike-coletta-maryhill-winery/100001998601128777",
+    "description": "Stand-up comedy night with Scott Losse featuring Mike Coletta at Maryhill Winery's Hollywood Schoolhouse tasting room."
+  },
+  {
+    "title": "Comedy! A Funny Finish: Derek Sheen",
+    "category": "comedy",
+    "start": "2026-09-26T02:00:00.000Z",
+    "location": "Warr-King Wines, Woodinville, WA 98072",
+    "url": "https://allevents.in/woodinville/comedy-a-funny-finish-derek-sheen/100001999119326721",
+    "description": "Cozy Comedy presents national headliner Derek Sheen for one night only at Warr-King Wines."
+  },
+  {
+    "title": "Paws & Pours: A Dog-Friendly Summer Social Mixer",
+    "category": "community",
+    "start": "2026-09-12T19:00:00.000Z",
+    "location": "J. Bookwalter Tasting Studio, Woodinville, WA 98072",
+    "url": "https://allevents.in/woodinville/paws-and-pours-a-dog-friendly-summer-social-mixer/100001994592875985",
+    "description": "Dog-friendly patio mixer with live music and a pup hydration bar, benefiting local pet rescues, at Bookwalter's Woodinville tasting studio."
+  },
+  {
+    "title": "Fall Paint n' Sip: Sunflowers in Boots",
+    "category": "art",
+    "start": "2026-09-19T01:00:00.000Z",
+    "location": "Otis Kenyon Wine, Woodinville, WA 98072",
+    "url": "https://allevents.in/woodinville/fall-paint-n-sip-sunflowers-in-boots/100001996426414147",
+    "description": "Guided paint-and-sip evening creating a whimsical 'Sunflowers in Boots' painting at Otis Kenyon Wine."
+  },
+  {
+    "title": "Watercolor Holiday Card Workshop",
+    "category": "art",
+    "start": "2026-12-07T18:00:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/course/watercolor-holiday-card-workshop/",
+    "description": "Beginner-friendly watercolor workshop painting snowy landscapes, wreaths, and holiday motifs onto 5 mailable cards, taught by Pam Carraway."
   }
 ]
