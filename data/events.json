@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-09-06T13:02:52.580Z",
+  "updatedAt": "2026-09-07T13:04:19.596Z",
   "windowDays": 90,
-  "count": 52,
+  "count": 50,
   "events": [
-    {
-      "id": "10000403-1788699600-1788706800@425cellars.com",
-      "title": "Gary’s Pairings",
-      "category": "community",
-      "start": "2026-09-06T20:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/garys-pairings/",
-      "description": "Think you can guess what’s in your glass? Join us at 425 Cellars for an interactive Blind Wine Tasting with Gary! Sample a mystery wine alongside a thoughtfully selected bite designed to bring out its balance and flavors—all while putting your palate to the test. This complimenta",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "10000404-1788708600-1788715800@425cellars.com",
-      "title": "Live Music + Happy Hour with Nicholas Russell",
-      "category": "music",
-      "start": "2026-09-06T22:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/live-music-happy-hour-with-nicholas-russell/",
-      "description": "Join us on Sunday, September 6th from 3:30 PM – 5:30 PM as we welcome Nicholas Russell to the tasting room + Happy Hour! 🎶 🍷 Free admission with the purchase of wine! Born and raised in Seattle, Nicholas Russell is a singer, guitarist, and flute player who performs regularly th",
-      "source": "425 Cellars"
-    },
     {
       "id": "10002210-1788800400-1788807600@www.alexandrianicolecellars.com",
       "title": "Bunco Nights (No Fee)",
