@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-06T13:02:52.578Z",
+  "ranAt": "2026-09-07T13:04:19.593Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 13,
-      "addedCount": 13
+      "rawCount": 11,
+      "addedCount": 11
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
