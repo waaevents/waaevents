@@ -41,6 +41,11 @@
      full-page overlay so every surface (paper, panels, cards) picks it up
      consistently instead of scattering different textures around. */
   --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+
+  /* Trailing-vine motif — one hand-drawn line repeated along the top of
+     every page, under the genre ribbon. Reads as a grapevine border
+     without needing a photo. */
+  --vine: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='34' viewBox='0 0 120 34'%3E%3Cpath d='M0 17 Q15 2 30 17 T60 17 T90 17 T120 17' fill='none' stroke='%23b4502e' stroke-width='1.4' opacity='0.35'/%3E%3Ccircle cx='14' cy='9' r='2.6' fill='%232f7a4d' opacity='0.4'/%3E%3Ccircle cx='30' cy='17' r='2.6' fill='%23b31c56' opacity='0.4'/%3E%3Ccircle cx='46' cy='9' r='2.6' fill='%23e07b12' opacity='0.4'/%3E%3Ccircle cx='60' cy='17' r='2.6' fill='%23146a72' opacity='0.4'/%3E%3Ccircle cx='76' cy='9' r='2.6' fill='%232f7a4d' opacity='0.4'/%3E%3Ccircle cx='90' cy='17' r='2.6' fill='%23b31c56' opacity='0.4'/%3E%3Ccircle cx='106' cy='9' r='2.6' fill='%23e07b12' opacity='0.4'/%3E%3C/svg%3E");
 }
 
 * { box-sizing: border-box; }
@@ -99,6 +104,15 @@ button:focus-visible {
   );
 }
 
+.vine-strip {
+  height: 34px;
+  width: 100%;
+  background-image: var(--vine);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: 120px 34px;
+}
+
 .rows-divider {
   height: 16px;
   width: 100%;
@@ -119,21 +133,41 @@ button:focus-visible {
   position: relative;
   max-width: 1080px;
   margin: 0 auto;
-  padding: 48px 24px 28px;
+  padding: 52px 24px 30px;
   overflow: hidden;
+}
+
+.site-header::before {
+  content: '';
+  position: absolute;
+  top: -160px;
+  left: -120px;
+  width: 380px;
+  height: 380px;
+  background: radial-gradient(circle, color-mix(in srgb, var(--art-bg) 80%, transparent) 0%, transparent 72%);
+  pointer-events: none;
+  z-index: -1;
 }
 
 .site-header::after {
   content: '';
   position: absolute;
-  top: -120px;
-  right: -80px;
-  width: 320px;
-  height: 320px;
-  background: radial-gradient(circle, color-mix(in srgb, var(--comedy-bg) 70%, transparent) 0%, transparent 70%);
+  top: -140px;
+  right: -100px;
+  width: 340px;
+  height: 340px;
+  background: radial-gradient(circle, color-mix(in srgb, var(--music-bg) 75%, transparent) 0%, transparent 72%);
   pointer-events: none;
   z-index: -1;
 }
+
+.site-header .title-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.site-header .title-row svg { flex-shrink: 0; }
 
 .site-header .eyebrow {
   font-family: 'Work Sans', sans-serif;
@@ -154,6 +188,24 @@ button:focus-visible {
   max-width: 46ch;
   color: var(--ink-soft);
   font-size: 1.05rem;
+}
+
+.district-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.district-chips span {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: var(--community-deep);
+  background: var(--community-bg);
+  border: 1px solid color-mix(in srgb, var(--community) 35%, transparent);
+  padding: 5px 12px;
+  border-radius: 999px;
 }
 
 .back-link {
@@ -185,7 +237,7 @@ button:focus-visible {
 
 .panel {
   position: relative;
-  border-radius: var(--radius);
+  border-radius: 10px;
   padding: 36px 26px 30px;
   min-height: 320px;
   display: flex;
@@ -274,9 +326,16 @@ button:focus-visible {
 .category-head {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 30px 24px 26px;
+  padding: 40px 24px 30px;
   background: var(--cat-bg, transparent);
+  background: linear-gradient(150deg, var(--cat-bg, transparent) 0%, var(--paper) 85%);
   border-radius: 0 0 var(--radius) var(--radius);
+}
+
+.category-head .title-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .category-head h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); color: var(--ink); }
@@ -287,6 +346,19 @@ button:focus-visible {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--cat-accent, var(--ink));
+}
+
+.cat-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 1.6rem;
+  box-shadow: 0 6px 16px -6px var(--cat-accent, rgba(36,31,27,0.3));
+  flex-shrink: 0;
 }
 
 body[data-category="art"]       { --cat-accent: var(--art);    --cat-bg: var(--art-bg); }
@@ -308,8 +380,9 @@ body[data-category="community"] { --cat-accent: var(--community); --cat-bg: var(
   gap: 20px;
   padding: 20px;
   margin-bottom: 14px;
-  border-radius: var(--radius);
+  border-radius: 10px;
   border: 1px solid var(--line);
+  border-left: 5px solid var(--cat-accent, var(--line));
   background: #fff;
   box-shadow: 0 1px 3px rgba(36, 31, 27, 0.05);
   transition: border-color 140ms ease, box-shadow 140ms ease, transform 140ms ease;
@@ -418,7 +491,7 @@ body[data-category="community"] { --cat-accent: var(--community); --cat-bg: var(
 .spotlight-card {
   position: relative;
   padding: 20px 20px 18px;
-  border-radius: var(--radius);
+  border-radius: 10px;
   background: #fff;
   border: 1px solid var(--line);
   border-left: 5px solid var(--spot-accent, var(--community));
