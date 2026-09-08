@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-09-07T13:04:19.593Z",
+  "ranAt": "2026-09-08T13:04:42.707Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 17,
-      "addedCount": 5
+      "addedCount": 4
     }
   ]
 }
