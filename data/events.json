@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-07T13:04:19.596Z",
+  "updatedAt": "2026-09-08T13:04:42.709Z",
   "windowDays": 90,
   "count": 50,
   "events": [
-    {
-      "id": "10002210-1788800400-1788807600@www.alexandrianicolecellars.com",
-      "title": "Bunco Nights (No Fee)",
-      "category": "community",
-      "start": "2026-09-08T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-09-07/",
-      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
     {
       "id": "10002486-1788868800-1788894000@www.alexandrianicolecellars.com",
       "title": "Taco Tuesdays @ Woodin Creek",
@@ -501,6 +491,16 @@
       "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
       "url": "https://www.prohibitioncellars.com/events-1/echos-of-epic-8ljwt-7mp25-rhtl8",
       "description": "Modern rock/alternative covers band (The Strokes, Paramore, Muse, Yeah Yeah Yeahs).",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Annual Sparkman x Delille Winter Market-2026-12-06T20:00:00.000Z",
+      "title": "Annual Sparkman x Delille Winter Market",
+      "category": "community",
+      "start": "2026-12-06T20:00:00.000Z",
+      "location": "Sparkman Cellars, 14300 NE 145th St #102, Woodinville, WA 98072",
+      "url": "https://sparkmancellars.com/event/annual-sparkman-x-delille-winter-market/",
+      "description": "Free-admission holiday market with vendor stalls, wine, and food, hosted jointly with DeLille Cellars at Sparkman Cellars.",
       "source": "Manually added"
     }
   ]
