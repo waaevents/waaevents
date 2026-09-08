@@ -34,6 +34,11 @@
   --community-deep: #7d3720;
   --community-bg: #f7e3da;
 
+  /* Wineries directory — deep plum */
+  --wine: #6b2a5e;
+  --wine-deep: #481c40;
+  --wine-bg: #ecdcea;
+
   --radius: 6px;
 
   /* Fine paper-grain texture — evokes wine-label cardstock rather than a
@@ -197,7 +202,7 @@ button:focus-visible {
   margin-top: 18px;
 }
 
-.district-chips span {
+.district-chips a {
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.03em;
@@ -206,6 +211,15 @@ button:focus-visible {
   border: 1px solid color-mix(in srgb, var(--community) 35%, transparent);
   padding: 5px 12px;
   border-radius: 999px;
+  text-decoration: none;
+  transition: background 120ms ease, transform 120ms ease;
+  display: inline-block;
+}
+
+.district-chips a:hover {
+  background: var(--community);
+  color: #fff;
+  transform: translateY(-1px);
 }
 
 .back-link {
@@ -268,6 +282,7 @@ button:focus-visible {
 .panel--comedy { --panel-accent: var(--comedy);--panel-bg: var(--comedy-bg); }
 .panel--food   { --panel-accent: var(--food);  --panel-bg: var(--food-bg); }
 .panel--community { --panel-accent: var(--community); --panel-bg: var(--community-bg); }
+.panel--wine   { --panel-accent: var(--wine);  --panel-bg: var(--wine-bg); }
 
 .panel .kicker {
   font-size: 12px;
@@ -537,6 +552,74 @@ body[data-category="community"] { --cat-accent: var(--community); --cat-bg: var(
   padding: 0 24px;
 }
 .spotlight-divider .rows-divider { border-radius: 999px; }
+
+/* ---------- Winery directory ---------- */
+
+.winery-directory {
+  max-width: 1080px;
+  margin: 8px auto 40px;
+  padding: 0 24px;
+}
+
+.winery-district {
+  margin-top: 34px;
+  scroll-margin-top: 20px;
+}
+
+.winery-district:first-child { margin-top: 8px; }
+
+.winery-district h2 {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.winery-district h2::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--dist-accent, var(--wine));
+  flex-shrink: 0;
+}
+
+.winery-grid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.winery-chip {
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--dist-accent, var(--wine));
+  font-size: 0.92rem;
+  font-weight: 600;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+
+.winery-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 18px -14px var(--dist-accent, rgba(36,31,27,0.4));
+}
+
+.winery-chip a {
+  text-decoration: none;
+  color: inherit;
+}
+.winery-chip a:hover { text-decoration: underline; }
+
+.winery-chip .note {
+  display: block;
+  margin-top: 2px;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
 
 /* ---------- Footer ---------- */
 

@@ -1,0 +1,86 @@
+{
+  "districts": [
+    {
+      "id": "hollywood",
+      "name": "Hollywood District",
+      "accent": "music",
+      "wineries": [
+        { "name": "Chateau Ste. Michelle Winery" },
+        { "name": "Columbia Winery" },
+        { "name": "DeLille Cellars" },
+        { "name": "Evergreen Family Wines", "note": "previously Milbrandt Vineyards" },
+        { "name": "Fidélitas" },
+        { "name": "Goose Ridge Woodinville Tasting Room" },
+        { "name": "J. Bookwalter Tasting Studio" },
+        { "name": "KINHAVEN Winery" },
+        { "name": "Long Shadows Vintners" },
+        { "name": "Mark Ryan Winery" },
+        { "name": "Matthews Winery & From The Sky Down" },
+        { "name": "Novelty Hill - Januik Winery" },
+        { "name": "Patterson Cellars" },
+        { "name": "Pepper Bridge Winery & Amavi Cellars" },
+        { "name": "Sparkman Cellars", "url": "https://sparkmancellars.com/" }
+      ]
+    },
+    {
+      "id": "warehouse",
+      "name": "Warehouse District",
+      "accent": "community",
+      "wineries": [
+        { "name": "425 Cellars", "url": "https://425cellars.com/" },
+        { "name": "Alluvium Cellars" },
+        { "name": "Ambassador Wines of Washington" },
+        { "name": "Ancestry Cellars" },
+        { "name": "Armstrong Family Winery" },
+        { "name": "Aspenwood Cellars" },
+        { "name": "Barrage Cellars" },
+        { "name": "Cave B Estate Winery" },
+        { "name": "Kevin White Winery" },
+        { "name": "Page Cellars" },
+        { "name": "Pondera Winery" },
+        { "name": "Quiddity Wines" },
+        { "name": "Savage Grace Wines" },
+        { "name": "Truthteller Winery" }
+      ]
+    },
+    {
+      "id": "artisan",
+      "name": "Artisan Hill District",
+      "accent": "art",
+      "wineries": [
+        { "name": "Auclair Winery" },
+        { "name": "Callan Cellars" },
+        { "name": "Cedergreen Cellars" },
+        { "name": "Descendant Cellars" },
+        { "name": "Pomum Cellars" }
+      ]
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown & Woodin Creek District",
+      "accent": "food",
+      "wineries": [
+        { "name": "Adams Bench" },
+        { "name": "Alexandria Nicole Cellars", "url": "https://alexandrianicolecellars.com/" },
+        { "name": "Bayernmoor Cellars" },
+        { "name": "Brian Carter Cellars" },
+        { "name": "Celaeno Winery" },
+        { "name": "L'Ecole No. 41" },
+        { "name": "Latta Wines" },
+        { "name": "Martedi Winery" },
+        { "name": "Rocky Pond Estate Winery" },
+        { "name": "Sleight of Hand Cellars" },
+        { "name": "Tsillan Cellars" },
+        { "name": "Valdemar Estates" }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other Woodinville Wineries",
+      "accent": "comedy",
+      "wineries": [
+        { "name": "JM Cellars", "note": "Bramble Bump Estate" }
+      ]
+    }
+  ]
+}

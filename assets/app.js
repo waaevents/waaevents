@@ -112,5 +112,35 @@ function escapeHtml(str) {
 }
 function escapeAttr(str) { return escapeHtml(str); }
 
+/* ---------- Winery directory ---------- */
+
+async function renderWineries() {
+  const root = document.querySelector('.winery-directory');
+  if (!root) return;
+  try {
+    const res = await fetch('data/wineries.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`Failed to load wineries (${res.status})`);
+    const data = await res.json();
+
+    root.innerHTML = (data.districts || []).map((district) => {
+      const chips = district.wineries.map((w) => {
+        const label = w.url
+          ? `<a href="${escapeAttr(w.url)}" target="_blank" rel="noopener">${escapeHtml(w.name)}</a>`
+          : escapeHtml(w.name);
+        const note = w.note ? `<span class="note">${escapeHtml(w.note)}</span>` : '';
+        return `<div class="winery-chip" style="--dist-accent: var(--${district.accent})">${label}${note}</div>`;
+      }).join('');
+      return `
+        <section class="winery-district" id="${escapeAttr(district.id)}">
+          <h2 style="--dist-accent: var(--${district.accent})">${escapeHtml(district.name)}</h2>
+          <div class="winery-grid">${chips}</div>
+        </section>`;
+    }).join('');
+  } catch (err) {
+    root.innerHTML = `<p class="error-state">Couldn't load the winery directory right now. Try refreshing the page.</p>`;
+  }
+}
+
 renderHomeCounts();
 renderCategoryList();
+renderWineries();
