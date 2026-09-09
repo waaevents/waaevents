@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-09-08T13:04:42.709Z",
+  "updatedAt": "2026-09-09T13:04:07.671Z",
   "windowDays": 90,
-  "count": 50,
+  "count": 49,
   "events": [
-    {
-      "id": "10002486-1788868800-1788894000@www.alexandrianicolecellars.com",
-      "title": "Taco Tuesdays @ Woodin Creek",
-      "category": "community",
-      "start": "2026-09-08T19:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-09-08/",
-      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "10001732-1788886800-1788894000@www.alexandrianicolecellars.com",
-      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
-      "category": "community",
-      "start": "2026-09-09T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-09-08/",
-      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
     {
       "id": "10000405-1789061400-1789068600@425cellars.com",
       "title": "The Dogtones",
@@ -501,6 +481,16 @@
       "location": "Sparkman Cellars, 14300 NE 145th St #102, Woodinville, WA 98072",
       "url": "https://sparkmancellars.com/event/annual-sparkman-x-delille-winter-market/",
       "description": "Free-admission holiday market with vendor stalls, wine, and food, hosted jointly with DeLille Cellars at Sparkman Cellars.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Watercolor Holiday Card Workshop-2026-12-07T18:00:00.000Z",
+      "title": "Watercolor Holiday Card Workshop",
+      "category": "art",
+      "start": "2026-12-07T18:00:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/course/watercolor-holiday-card-workshop/",
+      "description": "Beginner-friendly watercolor workshop painting snowy landscapes, wreaths, and holiday motifs onto 5 mailable cards, taught by Pam Carraway.",
       "source": "Manually added"
     }
   ]
