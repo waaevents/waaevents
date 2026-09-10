@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-09T13:04:07.671Z",
+  "updatedAt": "2026-09-10T13:03:17.955Z",
   "windowDays": 90,
-  "count": 49,
+  "count": 50,
   "events": [
     {
       "id": "10000405-1789061400-1789068600@425cellars.com",
@@ -291,6 +291,16 @@
       "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th Street, Woodinville, WA 98072",
       "url": "https://www.willowslodge.com/events/live-entertainment-with-jarrett-renshaw/",
       "description": "Acoustic soft rock and pop singer-songwriter; covers James Taylor, Neil Young, Cat Stevens, Eagles, and originals.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Relax & Unwind with Robbie Egelstad — Live Music-2026-09-26T00:30:00.000Z",
+      "title": "Relax & Unwind with Robbie Egelstad — Live Music",
+      "category": "music",
+      "start": "2026-09-26T00:30:00.000Z",
+      "location": "Synne Cellars, Hollywood Schoolhouse, 14810 NE 145th St, Suite B, Woodinville, WA 98072",
+      "url": "https://www.synnecellars.com/event/synne-sessions-unwind-with-live-acoustic-music-robbie-egelstad-13/",
+      "description": "Relaxed acoustic evening with returning performer Robbie Egelstad, part of Synne Cellars' recurring Synne Sessions live-music series.",
       "source": "Manually added"
     },
     {
