@@ -8,22 +8,22 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body data-category="comedy">
-  <div class="hero-ribbon" aria-hidden="true"></div>
+  <header class="jewel-hero" style="background: linear-gradient(120deg, var(--comedy-deep), var(--comedy));">
+    <div class="hero-inner">
+      <a class="back-link" href="index.html">← All events</a>
+      <div class="eyebrow">Woodinville</div>
+      <div class="category-head">
+        <div class="title-row">
+          <div class="illo illo--sm" style="--illo-bg: rgba(255,255,255,0.22)"><svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="18" y="6" width="8" height="14" rx="4" stroke="#fff" stroke-width="2"/><path d="M13 18v2a9 9 0 0 0 18 0v-2" stroke="#fff" stroke-width="2" stroke-linecap="round"/><path d="M22 29v6M17 35h10" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <h1 style="color:#fff">Comedy events</h1>
+        </div>
+        <p class="tagline">Stand-up nights and comedy shows happening around Woodinville, WA.</p>
+      </div>
+    </div>
+  </header>
   <div class="vine-strip" aria-hidden="true"></div>
 
-  <header class="site-header">
-    <a class="back-link" href="index.html">← All events</a>
-  </header>
-
-  <div class="category-head">
-    <div class="kicker">Woodinville</div>
-    <div class="title-row"><span class="cat-icon">🎤</span><h1>Comedy events</h1></div>
-    <p class="tagline">Stand-up nights and comedy shows happening around Woodinville, WA.</p>
-  </div>
-
-  <div class="rows-divider" aria-hidden="true"></div>
-
-  <main>
+  <main class="event-main">
     <ul class="event-list">
       <li class="loading-state">Loading events…</li>
     </ul>

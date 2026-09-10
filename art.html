@@ -8,20 +8,20 @@
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body data-category="art">
-  <div class="hero-ribbon" aria-hidden="true"></div>
-  <div class="vine-strip" aria-hidden="true"></div>
-
-  <header class="site-header">
-    <a class="back-link" href="index.html">← All events</a>
+  <header class="jewel-hero" style="background: linear-gradient(120deg, var(--art-deep), var(--art));">
+    <div class="hero-inner">
+      <a class="back-link" href="index.html">← All events</a>
+      <div class="eyebrow">Woodinville</div>
+      <div class="category-head">
+        <div class="title-row">
+          <div class="illo illo--sm" style="--illo-bg: rgba(255,255,255,0.22)"><svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 6C13 6 6 12.5 6 21c0 5 3 8 7 8 2 0 2.5-1.5 1.5-3-1-1.5 0-3 2-3h4c5.5 0 10-4 10-9C30.5 9.5 26.5 6 22 6Z" stroke="#fff" stroke-width="2" stroke-linejoin="round"/><circle cx="15" cy="17" r="1.8" fill="#fff"/><circle cx="21" cy="13" r="1.8" fill="#fff"/><circle cx="27" cy="17" r="1.8" fill="#fff"/></svg></div>
+          <h1 style="color:#fff">Art events</h1>
+        </div>
+        <p class="tagline">Gallery shows, art walks, painting sessions, and exhibitions around Woodinville, WA.</p>
+      </div>
+    </div>
   </header>
-
-  <div class="category-head">
-    <div class="kicker">Woodinville</div>
-    <div class="title-row"><span class="cat-icon">🎨</span><h1>Art events</h1></div>
-    <p class="tagline">Gallery shows, art walks, painting sessions, and exhibitions around Woodinville, WA.</p>
-  </div>
-
-  <div class="rows-divider" aria-hidden="true"></div>
+  <div class="vine-strip" aria-hidden="true"></div>
 
   <section class="spotlight-section">
     <h2>Woodinville's arts scene, year-round</h2>
@@ -44,7 +44,7 @@
 
   <div class="spotlight-divider"><div class="rows-divider" aria-hidden="true"></div></div>
 
-  <main>
+  <main class="event-main">
     <ul class="event-list">
       <li class="loading-state">Loading events…</li>
     </ul>

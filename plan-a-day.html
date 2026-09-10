@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Plan My Day — Woodinville Creative Events</title>
+  <meta name="description" content="Pick what you're into and get a custom Woodinville day plan — wineries, restaurants, and more.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <header class="jewel-hero">
+    <div class="hero-inner">
+      <a class="back-link" href="index.html">← All events</a>
+      <div class="eyebrow">Woodinville</div>
+      <div class="title-row">
+        <div class="illo illo--sm" style="--illo-bg: rgba(255,255,255,0.22)">
+          <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="22" cy="22" r="15" stroke="#fff" stroke-width="2"/>
+            <path d="M22 22L27 15L22 22L17 29L22 22Z" fill="#fff"/>
+          </svg>
+        </div>
+        <h1 style="color:#fff">Plan my day</h1>
+      </div>
+      <p class="tagline">Tell us what you're into, and we'll put together a morning-to-evening plan from our winery directory and a handful of Woodinville restaurants.</p>
+    </div>
+  </header>
+  <div class="vine-strip" aria-hidden="true"></div>
+
+  <div class="planner-wrap">
+    <form class="planner-form" id="planner-form">
+      <h2>What are you in the mood for?</h2>
+      <p class="sub">Pick as many as you like — we'll match wineries and restaurants to fit.</p>
+
+      <div class="interest-grid" id="interest-grid"></div>
+
+      <div class="planner-row">
+        <div class="planner-field">
+          <label for="pace">Pace</label>
+          <select id="pace">
+            <option value="2">Relaxed — 2 stops</option>
+            <option value="3" selected>Classic — 3 stops</option>
+            <option value="4">Full day — 4 stops</option>
+          </select>
+        </div>
+        <div class="planner-field">
+          <label for="district">Stay in one district?</label>
+          <select id="district">
+            <option value="any" selected>Any district</option>
+            <option value="hollywood">Hollywood District</option>
+            <option value="warehouse">Warehouse District</option>
+            <option value="artisan">Artisan Hill District</option>
+            <option value="downtown">Downtown &amp; Woodin Creek</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="submit" class="plan-btn">Build my day →</button>
+    </form>
+
+    <div class="itinerary" id="itinerary"></div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Suggestions are generated from our winery directory and a short list of Woodinville restaurants — always confirm hours and reservations directly with each venue before you go.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

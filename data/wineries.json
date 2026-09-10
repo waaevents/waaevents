@@ -5,21 +5,137 @@
       "name": "Hollywood District",
       "accent": "music",
       "wineries": [
-        { "name": "Chateau Ste. Michelle Winery" },
-        { "name": "Columbia Winery" },
-        { "name": "DeLille Cellars" },
-        { "name": "Evergreen Family Wines", "note": "previously Milbrandt Vineyards" },
-        { "name": "Fidélitas" },
-        { "name": "Goose Ridge Woodinville Tasting Room" },
-        { "name": "J. Bookwalter Tasting Studio" },
-        { "name": "KINHAVEN Winery" },
-        { "name": "Long Shadows Vintners" },
-        { "name": "Mark Ryan Winery" },
-        { "name": "Matthews Winery & From The Sky Down" },
-        { "name": "Novelty Hill - Januik Winery" },
-        { "name": "Patterson Cellars" },
-        { "name": "Pepper Bridge Winery & Amavi Cellars" },
-        { "name": "Sparkman Cellars", "url": "https://sparkmancellars.com/" }
+        {
+          "name": "Chateau Ste. Michelle Winery",
+          "url": "https://www.ste-michelle.com/",
+          "types": [
+            "estate",
+            "live-music",
+            "food-pairing"
+          ]
+        },
+        {
+          "name": "DeLille Cellars",
+          "url": "https://delillecellars.com/",
+          "types": [
+            "food-pairing",
+            "romantic"
+          ]
+        },
+        {
+          "name": "Evergreen Family Wines",
+          "note": "previously Milbrandt Vineyards",
+          "url": "https://evergreenfamilywines.com/",
+          "types": [
+            "estate",
+            "live-music"
+          ]
+        },
+        {
+          "name": "Fid\u00e9litas",
+          "url": "https://www.fidelitaswines.com/",
+          "types": [
+            "live-music"
+          ]
+        },
+        {
+          "name": "Goose Ridge Woodinville Tasting Room",
+          "url": "https://www.gooseridge.com/",
+          "types": [
+            "casual"
+          ]
+        },
+        {
+          "name": "J. Bookwalter Tasting Studio",
+          "url": "https://www.bookwalterwines.com/",
+          "types": [
+            "live-music",
+            "family"
+          ]
+        },
+        {
+          "name": "KINHAVEN Winery",
+          "url": "https://kinhavenwinery.com/"
+        },
+        {
+          "name": "Long Shadows Vintners",
+          "url": "https://longshadows.com/",
+          "types": [
+            "romantic",
+            "live-music"
+          ]
+        },
+        {
+          "name": "Mark Ryan Winery",
+          "url": "https://www.markryanwinery.com/"
+        },
+        {
+          "name": "Matthews Winery & From The Sky Down",
+          "url": "https://matthewswinery.com/"
+        },
+        {
+          "name": "Novelty Hill - Januik Winery",
+          "url": "https://www.noveltyhilljanuik.com/",
+          "types": [
+            "estate",
+            "food-pairing"
+          ]
+        },
+        {
+          "name": "Patterson Cellars",
+          "url": "https://www.pattersoncellars.com/",
+          "types": [
+            "live-music"
+          ]
+        },
+        {
+          "name": "Pepper Bridge Winery & Amavi Cellars",
+          "url": "https://www.amavicellars.com/",
+          "types": [
+            "food-pairing",
+            "romantic"
+          ]
+        },
+        {
+          "name": "Sparkman Cellars",
+          "url": "https://sparkmancellars.com/",
+          "types": [
+            "live-music",
+            "casual"
+          ]
+        },
+        {
+          "name": "Synne Cellars",
+          "url": "https://www.synnecellars.com/",
+          "types": [
+            "live-music",
+            "casual"
+          ]
+        },
+        {
+          "name": "Maryhill Winery Woodinville Tasting Room",
+          "url": "https://www.maryhillwinery.com/woodinville/",
+          "types": [
+            "live-music",
+            "family"
+          ]
+        },
+        {
+          "name": "Florence Cellars",
+          "url": "https://florencecellars.com/",
+          "types": [
+            "live-music",
+            "family"
+          ]
+        },
+        {
+          "name": "Village Wines",
+          "url": "https://www.myvillagewines.com/",
+          "types": [
+            "live-music",
+            "casual"
+          ]
+        }
       ]
     },
     {
@@ -27,20 +143,52 @@
       "name": "Warehouse District",
       "accent": "community",
       "wineries": [
-        { "name": "425 Cellars", "url": "https://425cellars.com/" },
-        { "name": "Alluvium Cellars" },
-        { "name": "Ambassador Wines of Washington" },
-        { "name": "Ancestry Cellars" },
-        { "name": "Armstrong Family Winery" },
-        { "name": "Aspenwood Cellars" },
-        { "name": "Barrage Cellars" },
-        { "name": "Cave B Estate Winery" },
-        { "name": "Kevin White Winery" },
-        { "name": "Page Cellars" },
-        { "name": "Pondera Winery" },
-        { "name": "Quiddity Wines" },
-        { "name": "Savage Grace Wines" },
-        { "name": "Truthteller Winery" }
+        {
+          "name": "425 Cellars",
+          "url": "https://425cellars.com/"
+        },
+        {
+          "name": "Alluvium Cellars"
+        },
+        {
+          "name": "Ambassador Wines of Washington"
+        },
+        {
+          "name": "Ancestry Cellars",
+          "url": "https://www.ancestrycellars.com/"
+        },
+        {
+          "name": "Armstrong Family Winery"
+        },
+        {
+          "name": "Aspenwood Cellars",
+          "url": "https://www.aspenwoodcellars.com/"
+        },
+        {
+          "name": "Barrage Cellars"
+        },
+        {
+          "name": "Cave B Estate Winery"
+        },
+        {
+          "name": "Kevin White Winery"
+        },
+        {
+          "name": "Page Cellars",
+          "url": "https://www.pagecellars.com/"
+        },
+        {
+          "name": "Pondera Winery"
+        },
+        {
+          "name": "Quiddity Wines"
+        },
+        {
+          "name": "Savage Grace Wines"
+        },
+        {
+          "name": "Truthteller Winery"
+        }
       ]
     },
     {
@@ -48,11 +196,21 @@
       "name": "Artisan Hill District",
       "accent": "art",
       "wineries": [
-        { "name": "Auclair Winery" },
-        { "name": "Callan Cellars" },
-        { "name": "Cedergreen Cellars" },
-        { "name": "Descendant Cellars" },
-        { "name": "Pomum Cellars" }
+        {
+          "name": "Auclair Winery"
+        },
+        {
+          "name": "Callan Cellars"
+        },
+        {
+          "name": "Cedergreen Cellars"
+        },
+        {
+          "name": "Descendant Cellars"
+        },
+        {
+          "name": "Pomum Cellars"
+        }
       ]
     },
     {
@@ -60,18 +218,70 @@
       "name": "Downtown & Woodin Creek District",
       "accent": "food",
       "wineries": [
-        { "name": "Adams Bench" },
-        { "name": "Alexandria Nicole Cellars", "url": "https://alexandrianicolecellars.com/" },
-        { "name": "Bayernmoor Cellars" },
-        { "name": "Brian Carter Cellars" },
-        { "name": "Celaeno Winery" },
-        { "name": "L'Ecole No. 41" },
-        { "name": "Latta Wines" },
-        { "name": "Martedi Winery" },
-        { "name": "Rocky Pond Estate Winery" },
-        { "name": "Sleight of Hand Cellars" },
-        { "name": "Tsillan Cellars" },
-        { "name": "Valdemar Estates" }
+        {
+          "name": "Adams Bench"
+        },
+        {
+          "name": "Alexandria Nicole Cellars",
+          "url": "https://alexandrianicolecellars.com/",
+          "types": [
+            "live-music",
+            "casual"
+          ]
+        },
+        {
+          "name": "Bayernmoor Cellars",
+          "url": "https://bayernmoor.com/",
+          "types": [
+            "food-pairing",
+            "family"
+          ]
+        },
+        {
+          "name": "Brian Carter Cellars",
+          "url": "https://briancartercellars.com/",
+          "types": [
+            "food-pairing",
+            "live-music",
+            "romantic"
+          ]
+        },
+        {
+          "name": "Celaeno Winery"
+        },
+        {
+          "name": "L'Ecole No. 41",
+          "url": "https://www.lecole.com/",
+          "types": [
+            "estate",
+            "food-pairing"
+          ]
+        },
+        {
+          "name": "Latta Wines"
+        },
+        {
+          "name": "Martedi Winery"
+        },
+        {
+          "name": "Sleight of Hand Cellars",
+          "url": "https://sleightofhandcellars.com/",
+          "types": [
+            "live-music",
+            "casual"
+          ]
+        },
+        {
+          "name": "Tsillan Cellars"
+        },
+        {
+          "name": "Valdemar Estates",
+          "types": [
+            "food-pairing",
+            "romantic",
+            "estate"
+          ]
+        }
       ]
     },
     {
@@ -79,8 +289,19 @@
       "name": "Other Woodinville Wineries",
       "accent": "comedy",
       "wineries": [
-        { "name": "JM Cellars", "note": "Bramble Bump Estate" }
+        {
+          "name": "JM Cellars",
+          "note": "Bramble Bump Estate"
+        }
       ]
     }
-  ]
+  ],
+  "type_labels": {
+    "live-music": "Live Music",
+    "family": "Family & Dog-Friendly",
+    "romantic": "Romantic & Intimate",
+    "estate": "Estate & Tours",
+    "food-pairing": "Food Pairing",
+    "casual": "Casual & Local"
+  }
 }
