@@ -173,11 +173,6 @@ async function renderWineries() {
   }
 }
 
-renderHomeCounts();
-renderCategoryList();
-renderWineries();
-renderPlanner();
-
 /* ---------- Day planner ---------- */
 
 const INTEREST_META = {
@@ -232,11 +227,12 @@ async function renderPlanner() {
     const interests = Array.from(form.querySelectorAll('input[name="interest"]:checked')).map((el) => el.value);
     const pace = parseInt(document.getElementById('pace').value, 10);
     const district = document.getElementById('district').value;
-    buildItinerary({ interests, pace, district, wineriesData, restaurantsData, eventsData });
+    const wineColor = document.getElementById('wine-color').value;
+    buildItinerary({ interests, pace, district, wineColor, wineriesData, restaurantsData, eventsData });
   });
 }
 
-function buildItinerary({ interests, pace, district, wineriesData, restaurantsData, eventsData }) {
+function buildItinerary({ interests, pace, district, wineColor, wineriesData, restaurantsData, eventsData }) {
   const out = document.getElementById('itinerary');
 
   let wineries = [];
@@ -247,7 +243,8 @@ function buildItinerary({ interests, pace, district, wineriesData, restaurantsDa
 
   const scored = wineries.map((w) => {
     const types = w.types || [];
-    const overlap = interests.length ? types.filter((t) => interests.includes(t)).length : 0;
+    let overlap = interests.length ? types.filter((t) => interests.includes(t)).length : 0;
+    if (wineColor !== 'any' && (w.wineFocus || []).includes(wineColor)) overlap += 2;
     return { ...w, overlap };
   });
 
@@ -291,7 +288,7 @@ function buildItinerary({ interests, pace, district, wineriesData, restaurantsDa
       <div class="stop-icon">${stopIcon[(w.types || [])[0]] || '🍷'}</div>
       <div>
         <h4>${timeLabel}: ${escapeHtml(w.name)}</h4>
-        <p>${escapeHtml(w.districtName)}${w.types && w.types.length ? ' — ' + w.types.map((t) => INTEREST_META[t]?.label || t).join(', ') : ''}</p>
+        <p>${escapeHtml(w.districtName)}${w.types && w.types.length ? ' — ' + w.types.map((t) => INTEREST_META[t]?.label || t).join(', ') : ''}${w.wineFocus && w.wineFocus.length ? ' · ' + w.wineFocus.map((v) => v === 'bubbles' ? '🥂 Bubbles' : v[0].toUpperCase() + v.slice(1)).join(', ') : ''}</p>
         ${w.url ? `<a href="${escapeAttr(w.url)}" target="_blank" rel="noopener">Visit website →</a>` : ''}
       </div>
     </div>`;
@@ -333,3 +330,8 @@ function buildItinerary({ interests, pace, district, wineriesData, restaurantsDa
   out.innerHTML = html;
   out.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
+
+renderHomeCounts();
+renderCategoryList();
+renderWineries();
+renderPlanner();

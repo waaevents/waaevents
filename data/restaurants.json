@@ -3,56 +3,101 @@
     {
       "name": "The Herbfarm",
       "url": "https://theherbfarm.com/",
-      "vibe": ["fine-dining", "romantic"],
+      "vibe": [
+        "fine-dining",
+        "romantic"
+      ],
       "note": "Iconic multi-course, farm-to-table tasting menu paired with Northwest wines. Reservations essential, well ahead."
     },
     {
       "name": "Barking Frog",
       "url": "https://willowslodge.com/dine/barking-frog/",
-      "vibe": ["fine-dining", "romantic"],
+      "vibe": [
+        "fine-dining",
+        "romantic"
+      ],
       "note": "Award-winning wine list and Northwest bistro fare at Willows Lodge."
     },
     {
       "name": "The Restaurant at DeLille Cellars",
       "url": "https://delillecellars.com/",
-      "vibe": ["fine-dining", "romantic"],
+      "vibe": [
+        "fine-dining",
+        "romantic"
+      ],
       "note": "Wine-centric dining with house-made pasta, in the former Redhook Brewery space."
     },
     {
-      "name": "Purple Café and Wine Bar",
+      "name": "Purple Caf\u00e9 and Wine Bar",
       "url": "https://www.thepurplecafe.com/",
-      "vibe": ["casual", "family"],
-      "note": "Woodinville original — big wine-by-the-glass list, PNW comfort food."
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Woodinville original \u2014 big wine-by-the-glass list, PNW comfort food."
     },
     {
       "name": "Heritage Restaurant | Bar",
       "url": "https://heritagewoodinville.com/",
-      "vibe": ["casual", "family"],
-      "note": "Community hub at the Hollywood Hill roundabout — approachable, moderately priced, good for date night or families."
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Community hub at the Hollywood Hill roundabout \u2014 approachable, moderately priced, good for date night or families."
     },
     {
       "name": "Pintxo by Valdemar",
       "url": "https://www.valdemarestates.com/",
-      "vibe": ["romantic", "food-pairing"],
+      "vibe": [
+        "romantic",
+        "food-pairing"
+      ],
       "note": "Basque-inspired tapas and Spanish-and-Washington wine pairings at Valdemar Estates."
     },
     {
-      "name": "Molbak's Garden Café",
+      "name": "Molbak's Garden Caf\u00e9",
       "url": "https://www.harvestwoodinville.com/",
-      "vibe": ["family", "casual"],
+      "vibe": [
+        "family",
+        "casual"
+      ],
       "note": "Casual soups, salads, sandwiches, and pastries surrounded by greenery."
     },
     {
       "name": "Bin 47",
       "url": "https://thesomm.com/",
-      "vibe": ["views", "romantic"],
+      "vibe": [
+        "views",
+        "romantic"
+      ],
       "note": "Seasonal Northwest fare at The SOMM Hotel & Spa."
     },
     {
       "name": "The Shed",
       "url": "https://thesomm.com/",
-      "vibe": ["views", "casual"],
-      "note": "Rooftop bar at The SOMM with panoramic Mt. Rainier views — craft brews and spirits."
+      "vibe": [
+        "views",
+        "casual"
+      ],
+      "note": "Rooftop bar at The SOMM with panoramic Mt. Rainier views \u2014 craft brews and spirits."
+    },
+    {
+      "name": "Woodinville Cut Shop",
+      "url": "https://www.woodinvillecutshop.com/",
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "American roadhouse \u2014 smoked meats, sandwiches, beer garden with a fire pit and live music some nights."
+    },
+    {
+      "name": "Woodinville Whiskey Co.",
+      "url": "https://woodinvillewhiskeyco.com/",
+      "vibe": [
+        "casual",
+        "views"
+      ],
+      "note": "Distillery tasting room and tours \u2014 bourbon, rye, and cocktails rather than wine."
     }
   ]
 }
