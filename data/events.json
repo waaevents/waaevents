@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-09-10T13:03:17.955Z",
+  "updatedAt": "2026-09-11T13:03:04.381Z",
   "windowDays": 90,
-  "count": 50,
+  "count": 46,
   "events": [
-    {
-      "id": "10000405-1789061400-1789068600@425cellars.com",
-      "title": "The Dogtones",
-      "category": "music",
-      "start": "2026-09-11T00:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/the-dogtones/",
-      "description": "🎶 FREE admission with the purchase of wine!🍷 Join us on Thursday, September 10th from 5:30 PM – 7:30 PM for an evening of fantastic live music, delicious wine, and great company! 🎸 The Dogtones have been making audiences dance, sing along, and laugh since 2008. Their huge cata",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Keys on Main: Dueling Pianos-2026-09-11T01:00:00.000Z",
-      "title": "Keys on Main: Dueling Pianos",
-      "category": "music",
-      "start": "2026-09-11T01:00:00.000Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-78m6h-yga95-rx4kp-9pfk4-d2z7x",
-      "description": "All-request dueling pianos with Aaron Buckner and Zechariah Valette. $50/person.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Jeannie Rak: Live Music at Willows Lodge Fireside Lounge-2026-09-11T01:00:00.000Z",
-      "title": "Jeannie Rak: Live Music at Willows Lodge Fireside Lounge",
-      "category": "music",
-      "start": "2026-09-11T01:00:00.000Z",
-      "location": "Willows Lodge, 14580 NE 145th Street, Woodinville, WA 98072",
-      "url": "https://www.jeannierak.com/calendar/xlnrpmgxf7djg43-c47nx-baz6r-ex757",
-      "description": "Live music with Jeannie Rak at the Fireside Lounge.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Game Night Thursdays at Obelisco-2026-09-11T01:30:00.000Z",
-      "title": "Game Night Thursdays at Obelisco",
-      "category": "community",
-      "start": "2026-09-11T01:30:00.000Z",
-      "location": "Obelisco Estate Winery, Apple Farm Village, 14525 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://allevents.in/woodinville/game-night-thursdays-at-obelisco-estate-winery/100001987171738162",
-      "description": "Weekly Thursday game night — board and card games, wine, and sangria — at Obelisco Estate Winery.",
-      "source": "Manually added"
-    },
     {
       "id": "10000414-1789149600-1789156800@425cellars.com",
       "title": "Bunco for a Cause",
