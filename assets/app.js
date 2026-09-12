@@ -116,13 +116,21 @@ function escapeAttr(str) { return escapeHtml(str); }
 
 async function renderWineries() {
   const root = document.querySelector('.winery-directory');
-  const filterBar = document.querySelector('.type-filter-bar');
+  const filterBar = document.querySelector('.type-filter-bar:not(.wine-color-bar)');
+  const colorBar = document.querySelector('.wine-color-bar');
   if (!root) return;
   try {
     const res = await fetch('data/wineries.json', { cache: 'no-store' });
     if (!res.ok) throw new Error(`Failed to load wineries (${res.status})`);
     const data = await res.json();
     const labels = data.type_labels || {};
+
+    if (colorBar) {
+      const colors = [['all', 'All wines'], ['red', 'Red'], ['white', 'White'], ['bubbles', 'Sparkling']];
+      colorBar.innerHTML = colors.map(([key, label]) =>
+        `<button type="button" class="type-chip${key === 'all' ? ' active' : ''}" data-color="${escapeAttr(key)}">${escapeHtml(label)}</button>`
+      ).join('');
+    }
 
     if (filterBar) {
       const allTypes = Object.keys(labels);
@@ -141,7 +149,8 @@ async function renderWineries() {
         const types = w.types || [];
         const tagText = types.map((t) => labels[t] || t).join(' · ');
         const tags = tagText ? `<span class="tags">${escapeHtml(tagText)}</span>` : '';
-        return `<div class="winery-chip" data-types="${escapeAttr(types.join(','))}" style="--dist-accent: var(--${district.accent})">${label}${note}${tags}</div>`;
+        const colors = w.wineFocus || [];
+        return `<div class="winery-chip" data-types="${escapeAttr(types.join(','))}" data-colors="${escapeAttr(colors.join(','))}" style="--dist-accent: var(--${district.accent})">${label}${note}${tags}</div>`;
       }).join('');
       return `
         <section class="winery-district" id="${escapeAttr(district.id)}">
@@ -150,22 +159,44 @@ async function renderWineries() {
         </section>`;
     }).join('');
 
+    let activeType = 'all';
+    let activeColor = 'all';
+
+    function applyFilters() {
+      document.querySelectorAll('.winery-chip').forEach((chip) => {
+        const types = (chip.getAttribute('data-types') || '').split(',');
+        const colors = (chip.getAttribute('data-colors') || '').split(',').filter(Boolean);
+        const typeOk = activeType === 'all' || types.includes(activeType);
+        // A winery with no confirmed color focus is never excluded by color —
+        // we just don't know, rather than assuming it doesn't pour that color.
+        const colorOk = activeColor === 'all' || colors.length === 0 || colors.includes(activeColor);
+        chip.classList.toggle('hidden', !(typeOk && colorOk));
+      });
+      document.querySelectorAll('.winery-district').forEach((section) => {
+        const visible = section.querySelectorAll('.winery-chip:not(.hidden)').length;
+        section.style.display = visible ? '' : 'none';
+      });
+    }
+
     if (filterBar) {
       filterBar.addEventListener('click', (e) => {
         const btn = e.target.closest('.type-chip');
         if (!btn) return;
         filterBar.querySelectorAll('.type-chip').forEach((b) => b.classList.remove('active'));
         btn.classList.add('active');
-        const type = btn.getAttribute('data-type');
-        document.querySelectorAll('.winery-chip').forEach((chip) => {
-          const types = (chip.getAttribute('data-types') || '').split(',');
-          const show = type === 'all' || types.includes(type);
-          chip.classList.toggle('hidden', !show);
-        });
-        document.querySelectorAll('.winery-district').forEach((section) => {
-          const visible = section.querySelectorAll('.winery-chip:not(.hidden)').length;
-          section.style.display = visible ? '' : 'none';
-        });
+        activeType = btn.getAttribute('data-type');
+        applyFilters();
+      });
+    }
+
+    if (colorBar) {
+      colorBar.addEventListener('click', (e) => {
+        const btn = e.target.closest('.type-chip');
+        if (!btn) return;
+        colorBar.querySelectorAll('.type-chip').forEach((b) => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeColor = btn.getAttribute('data-color');
+        applyFilters();
       });
     }
   } catch (err) {

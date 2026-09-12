@@ -86,7 +86,8 @@
           "url": "https://www.pattersoncellars.com/",
           "types": [
             "live-music"
-          ]
+          ],
+          "note": "also in Warehouse District"
         },
         {
           "name": "Pepper Bridge Winery & Amavi Cellars",
@@ -135,6 +136,33 @@
             "live-music",
             "casual"
           ]
+        },
+        {
+          "name": "Cave B Estate Winery",
+          "url": "https://caveb.com/"
+        },
+        {
+          "name": "Gorman Winery",
+          "note": "19501 144th Ave NE, C-500",
+          "url": "https://gormanwinery.com/"
+        },
+        {
+          "name": "Latta Wines",
+          "url": "https://lattawines.com/"
+        },
+        {
+          "name": "Guardian Cellars",
+          "url": "https://guardiancellars.com/"
+        },
+        {
+          "name": "Damsel Cellars",
+          "url": "https://damselcellars.com/",
+          "note": "also in Artisan Hill District"
+        },
+        {
+          "name": "Obelisco Estate Winery",
+          "url": "https://obelisco.com/",
+          "note": "also in Warehouse District"
         }
       ]
     },
@@ -148,59 +176,59 @@
           "url": "https://425cellars.com/"
         },
         {
-          "name": "Alluvium Cellars"
+          "name": "Alluvium Cellars",
+          "url": "https://alluviumcellars.com/"
         },
         {
-          "name": "Ambassador Wines of Washington"
+          "name": "Ambassador Wines of Washington",
+          "url": "https://ambassadorwines.com/"
         },
         {
           "name": "Ancestry Cellars",
           "url": "https://www.ancestrycellars.com/"
         },
         {
-          "name": "Armstrong Family Winery"
+          "name": "Armstrong Family Winery",
+          "url": "https://armstrongwinery.com/"
         },
         {
           "name": "Aspenwood Cellars",
           "url": "https://www.aspenwoodcellars.com/"
         },
         {
-          "name": "Barrage Cellars"
-        },
-        {
-          "name": "Cave B Estate Winery"
-        },
-        {
-          "name": "Kevin White Winery"
+          "name": "Barrage Cellars",
+          "url": "https://barragecellars.com/"
         },
         {
           "name": "Page Cellars",
           "url": "https://www.pagecellars.com/"
         },
         {
-          "name": "Pondera Winery"
+          "name": "Pondera Winery",
+          "url": "https://ponderawinery.com/"
         },
         {
-          "name": "Quiddity Wines"
+          "name": "Quiddity Wines",
+          "url": "https://quidditywines.com/"
         },
         {
-          "name": "Savage Grace Wines"
-        },
-        {
-          "name": "Truthteller Winery"
+          "name": "Savage Grace Wines",
+          "url": "https://savagegracewines.com/"
         },
         {
           "name": "Warr-King Wines",
           "types": [
             "live-music"
-          ]
+          ],
+          "url": "https://warr-kingwines.com/"
         },
         {
           "name": "Prohibition Cellars",
           "types": [
             "live-music",
             "casual"
-          ]
+          ],
+          "url": "https://prohibitioncellars.com/"
         },
         {
           "name": "Two Vintners",
@@ -211,81 +239,57 @@
           ]
         },
         {
-          "name": "Baer Winery",
-          "note": "19501 144th Ave NE, F-100"
-        },
-        {
           "name": "Bunnell Family Cellar",
-          "note": "19501 144th Ave NE, C-800"
-        },
-        {
-          "name": "Cuillin Hills Winery",
-          "note": "18580 142nd Ave NE, A-110"
-        },
-        {
-          "name": "Davenport Cellars",
-          "note": "19495 144th Ave NE, Ste A160"
+          "note": "19501 144th Ave NE, C-800",
+          "url": "https://bunnellfamilycellars.com/"
         },
         {
           "name": "Elevation Cellars",
-          "note": "19495 144th Ave NE, A-115"
+          "note": "19495 144th Ave NE, A-115",
+          "url": "https://elevationcellars.com/"
         },
         {
-          "name": "Eye of the Needle Winery",
-          "note": "19501 144th Ave NE, Ste D-1200"
-        },
-        {
-          "name": "Flying Dreams Winery"
-        },
-        {
-          "name": "Genoa Cellars"
-        },
-        {
-          "name": "Gorman Winery",
-          "note": "19501 144th Ave NE, C-500"
+          "name": "Genoa Cellars",
+          "url": "https://genoacellars.com/"
         },
         {
           "name": "Love That Red Winery",
-          "note": "19501 144th Ave NE, Suite D-100"
-        },
-        {
-          "name": "Newhouse Family Vineyards",
-          "note": "19501 144th Ave NE, C-800"
-        },
-        {
-          "name": "Newsprint Wines",
-          "note": "19501 144th Ave NE, E-600"
+          "note": "19501 144th Ave NE, Suite D-100",
+          "url": "https://lovethatredwinery.com/"
         },
         {
           "name": "Obelisco Estate Winery",
-          "note": "19495 144th Ave NE, Suite B-220"
+          "note": "19495 144th Ave NE, Suite B-220",
+          "url": "https://obelisco.com/"
         },
         {
           "name": "Robert Ramsay Cellars",
-          "note": "19495 144th Ave NE, Suite 235"
+          "note": "19495 144th Ave NE, Suite 235",
+          "url": "https://robertramsay.com/"
         },
         {
-          "name": "Smasne Cellars"
+          "name": "Smasne Cellars",
+          "url": "https://smasnecellars.com/"
         },
         {
           "name": "Tenor Winery",
-          "note": "16116 140th Place NE"
-        },
-        {
-          "name": "Upland Estates Winery",
-          "note": "19501 144th Ave NE, C-800"
-        },
-        {
-          "name": "William Church Winery",
-          "note": "19495 144th Ave NE, #A100"
+          "note": "16116 140th Place NE",
+          "url": "https://tenorwines.com/"
         },
         {
           "name": "Wit Cellars",
-          "note": "19501 144th Ave NE, Suite A500"
+          "note": "19501 144th Ave NE, Suite A500",
+          "url": "https://witcellars.com/"
         },
         {
           "name": "W.T. Vintners",
-          "note": "19495 144th Ave NE, Suite B-210"
+          "note": "19495 144th Ave NE, Suite B-210",
+          "url": "https://wtvintners.com/"
+        },
+        {
+          "name": "Patterson Cellars",
+          "url": "https://www.pattersoncellars.com/",
+          "note": "also in Hollywood District"
         }
       ]
     },
@@ -295,19 +299,28 @@
       "accent": "art",
       "wineries": [
         {
-          "name": "Auclair Winery"
+          "name": "Auclair Winery",
+          "url": "https://auclairwinery.com/"
         },
         {
-          "name": "Callan Cellars"
+          "name": "Callan Cellars",
+          "url": "https://callancellars.com/"
         },
         {
-          "name": "Cedergreen Cellars"
+          "name": "Cedergreen Cellars",
+          "url": "https://cedergreencellars.com/"
         },
         {
-          "name": "Descendant Cellars"
+          "name": "Descendant Cellars",
+          "url": "https://descendantcellars.com/"
         },
         {
-          "name": "Pomum Cellars"
+          "name": "Pomum Cellars",
+          "url": "https://pomumcellars.com/"
+        },
+        {
+          "name": "Damsel Cellars",
+          "url": "https://damselcellars.com/"
         }
       ]
     },
@@ -317,7 +330,8 @@
       "accent": "food",
       "wineries": [
         {
-          "name": "Adams Bench"
+          "name": "Adams Bench",
+          "url": "https://adamsbench.com/"
         },
         {
           "name": "Alexandria Nicole Cellars",
@@ -345,7 +359,8 @@
           ]
         },
         {
-          "name": "Celaeno Winery"
+          "name": "Celaeno Winery",
+          "url": "https://celaenowinery.com/"
         },
         {
           "name": "L'Ecole No. 41",
@@ -356,10 +371,8 @@
           ]
         },
         {
-          "name": "Latta Wines"
-        },
-        {
-          "name": "Martedi Winery"
+          "name": "Martedi Winery",
+          "url": "https://martediwinery.com/"
         },
         {
           "name": "Sleight of Hand Cellars",
@@ -370,15 +383,8 @@
           ]
         },
         {
-          "name": "Tsillan Cellars"
-        },
-        {
-          "name": "Valdemar Estates",
-          "types": [
-            "food-pairing",
-            "romantic",
-            "estate"
-          ]
+          "name": "Tsillan Cellars",
+          "url": "https://tsillancellars.com/"
         },
         {
           "name": "McQueen Champagne Bar",
@@ -391,6 +397,21 @@
             "bubbles"
           ],
           "note": "Champagne & sparkling only, Schoolhouse District"
+        },
+        {
+          "name": "Truthteller Winery",
+          "url": "https://truthtellerwinery.com/",
+          "note": "Wine Alley"
+        },
+        {
+          "name": "Baer Winery",
+          "note": "Wine Alley",
+          "url": "https://baerwinery.com/"
+        },
+        {
+          "name": "DiStefano Winery",
+          "note": "The Harvest, with Vaunt Modern Gallery",
+          "url": "https://distefanowinery.com/"
         }
       ]
     },
@@ -401,7 +422,8 @@
       "wineries": [
         {
           "name": "JM Cellars",
-          "note": "Bramble Bump Estate"
+          "note": "Bramble Bump, above Chateau Ste. Michelle",
+          "url": "https://jmcellars.com/"
         }
       ]
     },
@@ -412,62 +434,33 @@
       "wineries": [
         {
           "name": "Beaumont Cellars",
-          "note": "19151 144th Ave NE, Suite #E"
+          "note": "19151 144th Ave NE, Suite #E",
+          "url": "https://beaumontcellars.com/"
         },
         {
           "name": "Five Star Cellars Winery",
-          "note": "19151 144th Ave NE, Unit F"
+          "note": "19151 144th Ave NE, Unit F",
+          "url": "https://fivestarcellars.com/"
         },
         {
           "name": "Gård Estate Wines",
-          "note": "19151 144th Ave NE, Unit D"
-        },
-        {
-          "name": "Sol Stone"
+          "note": "19151 144th Ave NE, Unit D",
+          "url": "https://gårdestatewine.com/"
         },
         {
           "name": "Covington Cellars",
-          "note": "18580 142nd Ave NE"
-        },
-        {
-          "name": "Damsel Cellars",
-          "note": "18744 142nd Ave NE"
-        },
-        {
-          "name": "Des Voigne Cellars & Brewing",
-          "note": "14125 NE 189th Street, Suite B"
-        },
-        {
-          "name": "DiStefano Winery",
-          "note": "18648 142nd Ave NE"
-        },
-        {
-          "name": "Icon Cellars",
-          "note": "18564 142nd Ave NE"
-        },
-        {
-          "name": "Kaella Winery",
-          "note": "18800 142nd Ave NE, Suite 5B"
-        },
-        {
-          "name": "Keira Cellars",
-          "note": "18746 142nd Ave NE"
+          "note": "18580 142nd Ave NE",
+          "url": "https://covingtoncellars.com/"
         },
         {
           "name": "Stevens Winery",
-          "note": "18520 142nd Ave NE"
-        },
-        {
-          "name": "Three of Cups",
-          "note": "18808 142nd Ave NE, Suite 4A"
+          "note": "18520 142nd Ave NE",
+          "url": "https://stevenswinery.com/"
         },
         {
           "name": "EFESTĒ",
-          "note": "19730 144th Ave NE"
-        },
-        {
-          "name": "Refuge & Prospect Winery",
-          "note": "19400 144th Ave NE, Unit 6B"
+          "note": "19730 144th Ave NE",
+          "url": "https://efeste.com/"
         }
       ]
     }
