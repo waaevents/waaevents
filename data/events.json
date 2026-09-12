@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-09-11T13:03:04.381Z",
+  "updatedAt": "2026-09-12T13:03:03.116Z",
   "windowDays": 90,
-  "count": 46,
+  "count": 42,
   "events": [
-    {
-      "id": "10000414-1789149600-1789156800@425cellars.com",
-      "title": "Bunco for a Cause",
-      "category": "community",
-      "start": "2026-09-12T01:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/bunco-for-a-cause/",
-      "description": "🎲💕 Roll the dice, raise a glass, and play for a cause! Join us at 425 Cellars for Bunco for a Cause, a special evening of wine, games, and community benefiting the American Cancer Society’s: Making Strides Against Breast Cancer, coordinated by Team TA TA Cancer! Whether you’re ",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Two Funk Friday: Happy Hour + Live Music-2026-09-12T01:00:00.000Z",
-      "title": "Two Funk Friday: Happy Hour + Live Music",
-      "category": "music",
-      "start": "2026-09-12T01:00:00.000Z",
-      "location": "Two Vintners, 18572 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/all-events-",
-      "description": "Friday happy hour 4-8pm with live music 6-8pm at Two Vintners' Woodinville tasting room; food trucks, wine by the glass or bottle, first-come seating.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Cloud Cover-2026-09-12T02:00:00.000Z",
-      "title": "Cloud Cover",
-      "category": "music",
-      "start": "2026-09-12T02:00:00.000Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/the-industrials-zjsmd-9g4w9-gz34k-48wns",
-      "description": "Alternative rock covers band, '80s-'90s and beyond.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music with Nick Mardon-2026-09-12T02:00:00.000Z",
-      "title": "Live Music with Nick Mardon",
-      "category": "music",
-      "start": "2026-09-12T02:00:00.000Z",
-      "location": "Obelisco Estate Winery, Apple Farm Village, 14525 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://allevents.in/woodinville/live-music-with-nick-mardon/100001998271036462",
-      "description": "Live music with Seattle-based guitarist/vocalist Nick Mardon, 7-9pm, at Obelisco Estate Winery.",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Finding Balance | A Guided Sound Journey-2026-09-12T17:00:00.000Z",
       "title": "Finding Balance | A Guided Sound Journey",
