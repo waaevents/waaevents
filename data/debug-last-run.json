@@ -1,26 +1,26 @@
 {
-  "ranAt": "2026-09-11T13:03:04.379Z",
+  "ranAt": "2026-09-12T13:03:03.114Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": false,
-      "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:188:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:217:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": false,
-      "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:188:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:217:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 10,
-      "addedCount": 10
+      "rawCount": 9,
+      "addedCount": 9
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
