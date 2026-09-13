@@ -1,58 +1,8 @@
 {
-  "updatedAt": "2026-09-12T13:03:03.116Z",
+  "updatedAt": "2026-09-13T13:03:06.253Z",
   "windowDays": 90,
-  "count": 42,
+  "count": 37,
   "events": [
-    {
-      "id": "manual-Finding Balance | A Guided Sound Journey-2026-09-12T17:00:00.000Z",
-      "title": "Finding Balance | A Guided Sound Journey",
-      "category": "community",
-      "start": "2026-09-12T17:00:00.000Z",
-      "location": "Sparkman Cellars, 14300 NE 145th St #102, Woodinville, WA 98072",
-      "url": "https://sparkmancellars.com/event/%f0%9f%8c%97-finding-balance-a-guided-sound-journey/",
-      "description": "A guided sound journey ahead of the Autumn Equinox — immersive sound, gentle breath, and mindful stillness — at Sparkman Cellars' Hollywood District tasting room.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Paws & Pours: A Dog-Friendly Summer Social Mixer-2026-09-12T19:00:00.000Z",
-      "title": "Paws & Pours: A Dog-Friendly Summer Social Mixer",
-      "category": "community",
-      "start": "2026-09-12T19:00:00.000Z",
-      "location": "J. Bookwalter Tasting Studio, Woodinville, WA 98072",
-      "url": "https://allevents.in/woodinville/paws-and-pours-a-dog-friendly-summer-social-mixer/100001994592875985",
-      "description": "Dog-friendly patio mixer with live music and a pup hydration bar, benefiting local pet rescues, at Bookwalter's Woodinville tasting studio.",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000407-1789218000-1789225200@425cellars.com",
-      "title": "Paint ‘N Sip",
-      "category": "art",
-      "start": "2026-09-12T20:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/paint-n-sip/",
-      "description": "🍂 Twin Pumpkins Paint & Sip at 425 Cellars 🍷🎨 Celebrate the arrival of early autumn with a relaxing evening of creativity, wine, and community at 425 Cellars! Join us on September 12, 1:00-3:00 PM for a fun, beginner-friendly Paint & Sip as we create a charming Twin Pumpkins p",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Jeannie Rak: Live Music at WIT Cellars-2026-09-13T00:00:00.000Z",
-      "title": "Jeannie Rak: Live Music at WIT Cellars",
-      "category": "music",
-      "start": "2026-09-13T00:00:00.000Z",
-      "location": "WIT Cellars, 19501 144th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.jeannierak.com/calendar/wit-cellars-ckscz-xetcz",
-      "description": "Live music with Jeannie Rak at WIT Cellars, in Woodinville's Warehouse District.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music with Howard Mack-2026-09-13T02:00:00.000Z",
-      "title": "Live Music with Howard Mack",
-      "category": "music",
-      "start": "2026-09-13T02:00:00.000Z",
-      "location": "Obelisco Estate Winery, Apple Farm Village, 14525 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://allevents.in/woodinville/live-music-with-howard-mack/100001998266658367",
-      "description": "Live music with Seattle soul/blues singer-songwriter Howard Mack, 7-9pm, at Obelisco Estate Winery.",
-      "source": "Manually added"
-    },
     {
       "id": "10000408-1789313400-1789320600@425cellars.com",
       "title": "Live Music + Happy Hour with Between 2 Gregs",
