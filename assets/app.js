@@ -9,17 +9,20 @@ async function loadEvents() {
   return res.json();
 }
 
+const WOODINVILLE_TZ = 'America/Los_Angeles';
+
 function formatDay(dateStr) {
   const d = new Date(dateStr);
   return {
-    day: d.toLocaleDateString('en-US', { day: 'numeric' }),
-    month: d.toLocaleDateString('en-US', { month: 'short' }),
+    day: d.toLocaleDateString('en-US', { day: 'numeric', timeZone: WOODINVILLE_TZ }),
+    month: d.toLocaleDateString('en-US', { month: 'short', timeZone: WOODINVILLE_TZ }),
     full: d.toLocaleDateString('en-US', {
       weekday: 'short',
       month: 'short',
       day: 'numeric',
+      timeZone: WOODINVILLE_TZ,
     }),
-    time: d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' }),
+    time: d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: WOODINVILLE_TZ }),
   };
 }
 
@@ -29,6 +32,7 @@ function formatUpdated(iso) {
   return d.toLocaleString('en-US', {
     dateStyle: 'medium',
     timeStyle: 'short',
+    timeZone: WOODINVILLE_TZ,
   });
 }
 
@@ -265,6 +269,30 @@ async function renderPlanner() {
 
 function buildItinerary({ interests, pace, district, wineColor, wineriesData, restaurantsData, eventsData }) {
   const out = document.getElementById('itinerary');
+  const allEvents = eventsData.events || [];
+
+  const STOPWORDS = new Set(['the', 'estate', 'winery', 'wineries', 'cellars', 'cellar', 'wines', 'wine',
+    'vintners', 'tasting', 'studio', 'room', 'bar', 'vineyards', 'vineyard', 'co', 'company', 'woodinville']);
+
+  function coreWords(name) {
+    return name.toLowerCase().replace(/[.,'’]/g, '').split(/\s+/)
+      .filter((w) => w && w.length > 1 && !STOPWORDS.has(w));
+  }
+
+  function eventsForVenue(name, windowDays) {
+    const words = coreWords(name);
+    if (!words.length) return [];
+    const now = Date.now();
+    const until = now + 1000 * 60 * 60 * 24 * windowDays;
+    return allEvents
+      .filter((ev) => {
+        const t = new Date(ev.start).getTime();
+        if (t < now || t > until) return false;
+        const loc = (ev.location || '').toLowerCase();
+        return words.some((w) => loc.includes(w));
+      })
+      .sort((a, b) => new Date(a.start) - new Date(b.start));
+  }
 
   let wineries = [];
   (wineriesData.districts || []).forEach((d) => {
@@ -272,11 +300,18 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
     d.wineries.forEach((w) => wineries.push({ ...w, districtName: d.name, districtId: d.id }));
   });
 
+  const wantsLiveMusic = interests.includes('live-music');
+
   const scored = wineries.map((w) => {
     const types = w.types || [];
     let overlap = interests.length ? types.filter((t) => interests.includes(t)).length : 0;
     if (wineColor !== 'any' && (w.wineFocus || []).includes(wineColor)) overlap += 2;
-    return { ...w, overlap };
+    const upcoming = eventsForVenue(w.name, 30);
+    // Strongly prefer venues with a real, dated event on the books — especially
+    // when the person actually asked for live music — so the plan names a real
+    // artist and time instead of just describing the venue.
+    if (upcoming.length) overlap += wantsLiveMusic ? 4 : 1;
+    return { ...w, overlap, upcomingEvents: upcoming };
   });
 
   const withMatch = scored.filter((w) => w.overlap > 0);
@@ -296,22 +331,18 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
   const lunchSpot = topRestaurants[0];
   const dinnerSpot = topRestaurants.find((r) => r.name !== lunchSpot?.name) || topRestaurants[0];
 
-  const now = Date.now();
-  const soon = now + 1000 * 60 * 60 * 24 * 21;
-  const wineryNames = chosenWineries.map((w) => w.name.toLowerCase());
-  const matchingEvent = (eventsData.events || [])
-    .filter((ev) => {
-      const t = new Date(ev.start).getTime();
-      if (t < now || t > soon) return false;
-      const loc = (ev.location || '').toLowerCase();
-      return wineryNames.some((n) => loc.includes(n.split(' ')[0].toLowerCase()));
-    })
-    .sort((a, b) => new Date(a.start) - new Date(b.start))[0];
-
   const stopIcon = { 'live-music': '🎵', family: '🐾', romantic: '💜', estate: '🏰', 'food-pairing': '🍽️', casual: '🍇' };
   const accentFor = (types) => {
     const t = (types || [])[0];
     return INTEREST_META[t]?.accent || 'var(--wine-deep)';
+  };
+
+  const eventLine = (w) => {
+    const ev = (w.upcomingEvents || [])[0];
+    if (!ev) return '';
+    const when = new Date(ev.start).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: WOODINVILLE_TZ })
+      + ' · ' + new Date(ev.start).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: WOODINVILLE_TZ });
+    return `<p style="margin-top:8px; font-weight:700;">🎤 ${escapeHtml(ev.title)} — ${escapeHtml(when)}${ev.url ? ` <a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Details →</a>` : ''}</p>`;
   };
 
   const wineryCard = (w, timeLabel) => `
@@ -320,6 +351,7 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
       <div>
         <h4>${timeLabel}: ${escapeHtml(w.name)}</h4>
         <p>${escapeHtml(w.districtName)}${w.types && w.types.length ? ' — ' + w.types.map((t) => INTEREST_META[t]?.label || t).join(', ') : ''}${w.wineFocus && w.wineFocus.length ? ' · ' + w.wineFocus.map((v) => v === 'bubbles' ? '🥂 Bubbles' : v[0].toUpperCase() + v.slice(1)).join(', ') : ''}</p>
+        ${eventLine(w)}
         ${w.url ? `<a href="${escapeAttr(w.url)}" target="_blank" rel="noopener">Visit website →</a>` : ''}
       </div>
     </div>`;
@@ -334,21 +366,15 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
       </div>
     </div>` : '';
 
-  const eventCard = matchingEvent ? `
-    <div class="stop-card" style="--stop-accent: var(--music)">
-      <div class="stop-icon">🎉</div>
-      <div>
-        <h4>While you're there: ${escapeHtml(matchingEvent.title)}</h4>
-        <p>${escapeHtml(new Date(matchingEvent.start).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }))} — ${escapeHtml(matchingEvent.location || '')}</p>
-        ${matchingEvent.url ? `<a href="${escapeAttr(matchingEvent.url)}" target="_blank" rel="noopener">Details →</a>` : ''}
-      </div>
-    </div>` : '';
-
   const timeLabels = ['Morning', 'Midday', 'Afternoon', 'Evening'];
   let html = '';
   let stopIdx = 0;
 
-  html += `<div class="itinerary-block"><h3>${timeLabels[stopIdx++]} tasting</h3>${chosenWineries[0] ? wineryCard(chosenWineries[0], 'Start here') : ''}${eventCard}</div>`;
+  if (wantsLiveMusic && chosenWineries.every((w) => !(w.upcomingEvents || []).length)) {
+    html += `<p class="error-state" style="margin-bottom:20px;">No confirmed live-music dates in the next 30 days at wineries matching your other picks — showing the best match anyway. Try "Any district" or fewer filters, or check the <a href="music.html">Music page</a> directly.</p>`;
+  }
+
+  html += `<div class="itinerary-block"><h3>${timeLabels[stopIdx++]} tasting</h3>${chosenWineries[0] ? wineryCard(chosenWineries[0], 'Start here') : ''}</div>`;
   html += `<div class="itinerary-block"><h3>${timeLabels[stopIdx++]} bite</h3>${restaurantCard(lunchSpot, 'Lunch')}</div>`;
   if (chosenWineries[1]) {
     html += `<div class="itinerary-block"><h3>${timeLabels[stopIdx++]} tasting</h3>${wineryCard(chosenWineries[1], 'Next stop')}</div>`;
@@ -359,7 +385,9 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
   html += `<div class="itinerary-block"><h3>${timeLabels[timeLabels.length - 1]}</h3>${restaurantCard(dinnerSpot, 'Dinner')}</div>`;
 
   out.innerHTML = html;
-  out.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  if (typeof out.scrollIntoView === 'function') {
+    out.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
 }
 
 renderHomeCounts();
