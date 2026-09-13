@@ -98,6 +98,77 @@
         "views"
       ],
       "note": "Distillery tasting room and tours \u2014 bourbon, rye, and cocktails rather than wine."
+    },
+    {
+      "name": "Rooney's Sports Bar",
+      "url": "https://rooneyssportsbar.com/",
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Sports bar \u2014 game-day food and a big beer/spirits selection."
+    },
+    {
+      "name": "Von's 1000\u00b0 Spirits",
+      "url": "https://vons1000spirits.com/",
+      "vibe": [
+        "casual",
+        "views"
+      ],
+      "note": "Whiskey-and-cocktail-forward bar with a wide spirits list."
+    },
+    {
+      "name": "Cookhouse",
+      "url": "https://indianpalacecuisine.com/",
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Indian cuisine."
+    },
+    {
+      "name": "Pour Decisions Taps",
+      "url": "https://www.pourdecisionstaps.com/",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Self-serve taproom \u2014 pour-your-own beer and cider flights."
+    },
+    {
+      "name": "Brix Wine Caf\u00e9",
+      "url": "https://brixwinecafe.com/",
+      "vibe": [
+        "romantic",
+        "casual"
+      ],
+      "note": "Wine caf\u00e9 \u2014 light bites and a curated by-the-glass list."
+    },
+    {
+      "name": "Hal's Sports Bar",
+      "url": "https://www.halssportsbar.com/",
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Neighborhood sports bar."
+    },
+    {
+      "name": "Vivi Pizzeria",
+      "url": "https://vivipizzeria.com/",
+      "vibe": [
+        "family",
+        "casual"
+      ],
+      "note": "Wood-fired pizza."
+    },
+    {
+      "name": "Hollywood Schoolhouse Bistro",
+      "url": "https://www.hollywoodschoolhousebistro.com/",
+      "vibe": [
+        "romantic",
+        "casual"
+      ],
+      "note": "Bistro fare in the Hollywood Schoolhouse building."
     }
   ]
 }

@@ -163,6 +163,13 @@
           "name": "Obelisco Estate Winery",
           "url": "https://obelisco.com/",
           "note": "also in Warehouse District"
+        },
+        {
+          "name": "Market Vineyards",
+          "url": "https://www.marketvineyards.com/",
+          "types": [
+            "casual"
+          ]
         }
       ]
     },
@@ -412,6 +419,11 @@
           "name": "DiStefano Winery",
           "note": "The Harvest, with Vaunt Modern Gallery",
           "url": "https://distefanowinery.com/"
+        },
+        {
+          "name": "Grosgrain Vineyards",
+          "url": "https://grosgrainvineyards.com/",
+          "note": "The Harvest"
         }
       ]
     },
@@ -445,7 +457,7 @@
         {
           "name": "Gård Estate Wines",
           "note": "19151 144th Ave NE, Unit D",
-          "url": "https://gårdestatewine.com/"
+          "url": "https://www.gardwine.com/"
         },
         {
           "name": "Covington Cellars",
