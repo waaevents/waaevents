@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-13T13:03:06.253Z",
+  "updatedAt": "2026-09-14T13:06:04.292Z",
   "windowDays": 90,
   "count": 37,
   "events": [
-    {
-      "id": "10000408-1789313400-1789320600@425cellars.com",
-      "title": "Live Music + Happy Hour with Between 2 Gregs",
-      "category": "music",
-      "start": "2026-09-13T22:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/live-music-happy-hour-with-between-2-gregs/",
-      "description": "🎶 Sunday Happy Hour + Live Music at 425 Cellars! 🍷 Pour a glass, settle in, and spend your Sunday afternoon with Between 2 Gregs! Blending rich harmonies, acoustic guitar, piano, and an eclectic mix of classics and modern favorites, they’re bringing the perfect soundtrack for a",
-      "source": "425 Cellars"
-    },
     {
       "id": "10000409-1789585200-1789590600@425cellars.com",
       "title": "Wine & Bingo Night with Debbie",
@@ -41,6 +31,16 @@
       "location": "LaShellé Wines, Woodinville, WA 98072",
       "url": "https://www.jeannierak.com/calendar/lashell-wines",
       "description": "Live music with Jeannie Rak at LaShellé Wines' dedicated music stage.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Create and Connect: Thursday Night Maker's Club-2026-09-18T01:30:00.000Z",
+      "title": "Create and Connect: Thursday Night Maker's Club",
+      "category": "art",
+      "start": "2026-09-18T01:30:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/course/create-and-connect-thursday-night-makers-club/",
+      "description": "Relaxed, social maker's night at Picket Fence Art Studio — $35, runs the 1st and 3rd Thursday of each month, 6:30-8:30pm.",
       "source": "Manually added"
     },
     {
