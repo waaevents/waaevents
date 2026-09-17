@@ -428,11 +428,99 @@
     "description": "Relaxed acoustic evening with returning performer Robbie Egelstad, part of Synne Cellars' recurring Synne Sessions live-music series."
   },
   {
-    "title": "Create and Connect: Thursday Night Maker's Club",
+    "title": "Thursday Makers Club: Felt Picture Frames",
     "category": "art",
     "start": "2026-09-18T01:30:00.000Z",
     "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
-    "url": "https://picketfenceartstudio.com/course/create-and-connect-thursday-night-makers-club/",
-    "description": "Relaxed, social maker's night at Picket Fence Art Studio \u2014 $35, runs the 1st and 3rd Thursday of each month, 6:30-8:30pm."
+    "url": "https://picketfenceartstudio.com/event/thursday-makers-club-felt-picture-frames-3/",
+    "description": "Hand-sew your own felt picture frames for polaroids or photos while connecting with friends. $35."
+  },
+  {
+    "title": "Picket Fence Art Cafe",
+    "category": "art",
+    "start": "2026-09-20T19:00:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/picket-fence-art-cafe/2026-09-20/",
+    "description": "Drop-in creative studio time \u2014 unwind and make art in a relaxed, welcoming space."
+  },
+  {
+    "title": "Junior Artists (Ages 8-10)",
+    "category": "art",
+    "start": "2026-09-21T23:30:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/junior-artists-ages-8-10/2026-09-21/",
+    "description": "Weekly series teaching fine-art fundamentals across painting, drawing, clay, and glass fusing. $315 for the term."
+  },
+  {
+    "title": "Fall Oil Painting with Jamie Lightfoot",
+    "category": "art",
+    "start": "2026-09-22T17:00:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/fall-oil-painting-with-jamie-lightfoot-2/2026-09-22/",
+    "description": "\"Warm & Cool Light: Painting with Sorolla\" \u2014 8-week oil painting course exploring warm/cool light. $480 for the series."
+  },
+  {
+    "title": "Drawing Foundations w/ Riley Doyle | Classical Foundations Series",
+    "category": "art",
+    "start": "2026-09-23T17:00:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/drawing-foundations-w-riley-doyle-classical-foundations-series/2026-09-23/",
+    "description": "Fall drawing-fundamentals term \u2014 observational skills, structure, and core technique. $900 for the term."
+  },
+  {
+    "title": "Paint & Sip: Twilight Raven",
+    "category": "art",
+    "start": "2026-09-26T01:30:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/paint-sip-twilight-ravel/",
+    "description": "Guided paint & sip creating a twilight raven scene. $55."
+  },
+  {
+    "title": "Picket Fence Art Cafe",
+    "category": "art",
+    "start": "2026-09-27T19:00:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/picket-fence-art-cafe/2026-09-27/",
+    "description": "Drop-in creative studio time \u2014 unwind and make art in a relaxed, welcoming space."
+  },
+  {
+    "title": "Junior Artists (Ages 8-10)",
+    "category": "art",
+    "start": "2026-09-28T23:30:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/junior-artists-ages-8-10/2026-09-28/",
+    "description": "Weekly series teaching fine-art fundamentals across painting, drawing, clay, and glass fusing. $315 for the term."
+  },
+  {
+    "title": "Fall Oil Painting with Jamie Lightfoot",
+    "category": "art",
+    "start": "2026-09-29T17:00:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/fall-oil-painting-with-jamie-lightfoot-2/2026-09-29/",
+    "description": "\"Warm & Cool Light: Painting with Sorolla\" \u2014 8-week oil painting course exploring warm/cool light. $480 for the series."
+  },
+  {
+    "title": "Drawing Foundations w/ Riley Doyle | Classical Foundations Series",
+    "category": "art",
+    "start": "2026-09-30T17:00:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/drawing-foundations-w-riley-doyle-classical-foundations-series/2026-09-30/",
+    "description": "Fall drawing-fundamentals term \u2014 observational skills, structure, and core technique. $900 for the term."
+  },
+  {
+    "title": "Thursday Makers Club: Painted Tic-Tac-Toe",
+    "category": "art",
+    "start": "2026-10-02T01:30:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/thursday-makers-club-painted-tic-tac-toe/",
+    "description": "Paint your own tic-tac-toe pieces and decorate a bag to use as the board. $35."
+  },
+  {
+    "title": "Pastel Apple Workshop",
+    "category": "art",
+    "start": "2026-10-03T20:00:00.000Z",
+    "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+    "url": "https://picketfenceartstudio.com/event/pastel-apple-workshop/",
+    "description": "Learn to draw an apple in soft oil pastels for fall. $85."
   }
 ]
