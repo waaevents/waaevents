@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-16T17:22:38.368Z",
+  "updatedAt": "2026-09-17T17:21:54.192Z",
   "windowDays": 90,
-  "count": 37,
+  "count": 36,
   "events": [
-    {
-      "id": "10000409-1789585200-1789590600@425cellars.com",
-      "title": "Wine & Bingo Night with Debbie",
-      "category": "community",
-      "start": "2026-09-17T02:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/wine-bingo-night-with-debbie-09-2026/",
-      "description": "🍷 Wine, Bingo & Prizes — all in one night! Gather your friends and join us at 425 Cellars for Wine & Bingo Night with Debbie! Enjoy a relaxed evening of friendly competition, great wine, plenty of laughs, and prizes every round. 🏆 Admission is FREE! Bingo is included with the p",
-      "source": "425 Cellars"
-    },
     {
       "id": "10000412-1789666200-1789673400@425cellars.com",
       "title": "An Evening with Howard Mack",
