@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-09-17T17:21:54.192Z",
+  "updatedAt": "2026-09-18T16:47:44.167Z",
   "windowDays": 90,
-  "count": 36,
+  "count": 44,
   "events": [
-    {
-      "id": "10000412-1789666200-1789673400@425cellars.com",
-      "title": "An Evening with Howard Mack",
-      "category": "music",
-      "start": "2026-09-18T00:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/an-evening-with-howard-mack/",
-      "description": "🎶Live Music + Wine at 425 Cellars! 🍷 Join us Thursday evening for live music from Howard Mack, a Seattle-area singer-songwriter and guitarist known for his soulful blend of blues and acoustic rock. Settle in with a glass or bottle of your favorite wine while Howard’s expressive",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Jeannie Rak: Live Music at LaShellé Wines-2026-09-18T01:00:00.000Z",
-      "title": "Jeannie Rak: Live Music at LaShellé Wines",
-      "category": "music",
-      "start": "2026-09-18T01:00:00.000Z",
-      "location": "LaShellé Wines, Woodinville, WA 98072",
-      "url": "https://www.jeannierak.com/calendar/lashell-wines",
-      "description": "Live music with Jeannie Rak at LaShellé Wines' dedicated music stage.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Create and Connect: Thursday Night Maker's Club-2026-09-18T01:30:00.000Z",
-      "title": "Create and Connect: Thursday Night Maker's Club",
-      "category": "art",
-      "start": "2026-09-18T01:30:00.000Z",
-      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://picketfenceartstudio.com/course/create-and-connect-thursday-night-makers-club/",
-      "description": "Relaxed, social maker's night at Picket Fence Art Studio — $35, runs the 1st and 3rd Thursday of each month, 6:30-8:30pm.",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Two Funk Friday: Happy Hour + Live Music-2026-09-19T01:00:00.000Z",
       "title": "Two Funk Friday: Happy Hour + Live Music",
@@ -94,6 +64,16 @@
       "source": "425 Cellars"
     },
     {
+      "id": "manual-Picket Fence Art Cafe-2026-09-20T19:00:00.000Z",
+      "title": "Picket Fence Art Cafe",
+      "category": "art",
+      "start": "2026-09-20T19:00:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/picket-fence-art-cafe/2026-09-20/",
+      "description": "Drop-in creative studio time — unwind and make art in a relaxed, welcoming space.",
+      "source": "Manually added"
+    },
+    {
       "id": "10002147-1789907400-1789914600@www.alexandrianicolecellars.com",
       "title": "2026 Books on Tap in Woodinville",
       "category": "community",
@@ -112,6 +92,36 @@
       "url": "https://425cellars.com/event/happy-hour-live-music-with-jarrett-renshaw/",
       "description": "🎶 Sunday Happy Hour + Live Music at 425 Cellars!🍷 Spend your Sunday afternoon with great wine, great music, and great company as we welcome Jarrett Renshaw to 425 Cellars! **FREE admission with the purchase of wine!** 🍷 A talented Pacific Northwest singer-songwriter and multi-",
       "source": "425 Cellars"
+    },
+    {
+      "id": "manual-Junior Artists (Ages 8-10)-2026-09-21T23:30:00.000Z",
+      "title": "Junior Artists (Ages 8-10)",
+      "category": "art",
+      "start": "2026-09-21T23:30:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/junior-artists-ages-8-10/2026-09-21/",
+      "description": "Weekly series teaching fine-art fundamentals across painting, drawing, clay, and glass fusing. $315 for the term.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Fall Oil Painting with Jamie Lightfoot-2026-09-22T17:00:00.000Z",
+      "title": "Fall Oil Painting with Jamie Lightfoot",
+      "category": "art",
+      "start": "2026-09-22T17:00:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/fall-oil-painting-with-jamie-lightfoot-2/2026-09-22/",
+      "description": "\"Warm & Cool Light: Painting with Sorolla\" — 8-week oil painting course exploring warm/cool light. $480 for the series.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Drawing Foundations w/ Riley Doyle | Classical Foundations Series-2026-09-23T17:00:00.000Z",
+      "title": "Drawing Foundations w/ Riley Doyle | Classical Foundations Series",
+      "category": "art",
+      "start": "2026-09-23T17:00:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/drawing-foundations-w-riley-doyle-classical-foundations-series/2026-09-23/",
+      "description": "Fall drawing-fundamentals term — observational skills, structure, and core technique. $900 for the term.",
+      "source": "Manually added"
     },
     {
       "id": "10000410-1790186400-1790195400@425cellars.com",
@@ -194,6 +204,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Paint & Sip: Twilight Raven-2026-09-26T01:30:00.000Z",
+      "title": "Paint & Sip: Twilight Raven",
+      "category": "art",
+      "start": "2026-09-26T01:30:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/paint-sip-twilight-ravel/",
+      "description": "Guided paint & sip creating a twilight raven scene. $55.",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Comedy! A Funny Finish: Derek Sheen-2026-09-26T02:00:00.000Z",
       "title": "Comedy! A Funny Finish: Derek Sheen",
       "category": "comedy",
@@ -211,6 +231,16 @@
       "location": "Willows Lodge, 14580 NE 145th Street, Woodinville, WA 98072",
       "url": "https://www.jeannierak.com/calendar/xlnrpmgxf7djg43-c47nx-baz6r-ex757-xmpa2-ee7pf",
       "description": "Live music with Jeannie Rak at the Fireside Lounge.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Picket Fence Art Cafe-2026-09-27T19:00:00.000Z",
+      "title": "Picket Fence Art Cafe",
+      "category": "art",
+      "start": "2026-09-27T19:00:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/picket-fence-art-cafe/2026-09-27/",
+      "description": "Drop-in creative studio time — unwind and make art in a relaxed, welcoming space.",
       "source": "Manually added"
     },
     {
@@ -244,6 +274,26 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Junior Artists (Ages 8-10)-2026-09-28T23:30:00.000Z",
+      "title": "Junior Artists (Ages 8-10)",
+      "category": "art",
+      "start": "2026-09-28T23:30:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/junior-artists-ages-8-10/2026-09-28/",
+      "description": "Weekly series teaching fine-art fundamentals across painting, drawing, clay, and glass fusing. $315 for the term.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Fall Oil Painting with Jamie Lightfoot-2026-09-29T17:00:00.000Z",
+      "title": "Fall Oil Painting with Jamie Lightfoot",
+      "category": "art",
+      "start": "2026-09-29T17:00:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/fall-oil-painting-with-jamie-lightfoot-2/2026-09-29/",
+      "description": "\"Warm & Cool Light: Painting with Sorolla\" — 8-week oil painting course exploring warm/cool light. $480 for the series.",
+      "source": "Manually added"
+    },
+    {
       "id": "10002979-1790701200-1790708400@www.alexandrianicolecellars.com",
       "title": "\"No Fee\" Music Bingo at Woodin Creek",
       "category": "music",
@@ -254,6 +304,26 @@
       "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
+      "id": "manual-Drawing Foundations w/ Riley Doyle | Classical Foundations Series-2026-09-30T17:00:00.000Z",
+      "title": "Drawing Foundations w/ Riley Doyle | Classical Foundations Series",
+      "category": "art",
+      "start": "2026-09-30T17:00:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/drawing-foundations-w-riley-doyle-classical-foundations-series/2026-09-30/",
+      "description": "Fall drawing-fundamentals term — observational skills, structure, and core technique. $900 for the term.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Thursday Makers Club: Painted Tic-Tac-Toe-2026-10-02T01:30:00.000Z",
+      "title": "Thursday Makers Club: Painted Tic-Tac-Toe",
+      "category": "art",
+      "start": "2026-10-02T01:30:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/thursday-makers-club-painted-tic-tac-toe/",
+      "description": "Paint your own tic-tac-toe pieces and decorate a bag to use as the board. $35.",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-The Pour Decisions-2026-10-03T01:00:00.000Z",
       "title": "The Pour Decisions",
       "category": "music",
@@ -261,6 +331,16 @@
       "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
       "url": "https://www.prohibitioncellars.com/events-1/the-davanos-9zpfg-w2a3c-afz84-tf2lm-5pcbb-6n7t2-a465b",
       "description": "Classic rock band with dual guitars and rich harmonies.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Pastel Apple Workshop-2026-10-03T20:00:00.000Z",
+      "title": "Pastel Apple Workshop",
+      "category": "art",
+      "start": "2026-10-03T20:00:00.000Z",
+      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://picketfenceartstudio.com/event/pastel-apple-workshop/",
+      "description": "Learn to draw an apple in soft oil pastels for fall. $85.",
       "source": "Manually added"
     },
     {
