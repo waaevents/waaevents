@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&display=swap');
 
 :root {
-  --paper: #fffdf9;
-  --ink: #201a2e;
-  --ink-soft: #5c5470;
-  --line: #ece3d3;
+  --paper: #fbf7f0;
+  --ink: #241d1a;
+  --ink-soft: #6b6058;
+  --line: #e8dfd2;
+
+  /* Signature brand color — used for hero, buttons, links.
+     Category jewel tones (below) are now just small accents, not the
+     structural color language. */
+  --signature: #7c2d3b;
+  --signature-deep: #521e28;
+  --signature-bg: #f3e4e6;
 
   /* Bright jewel palette */
   --art: #059669;         /* emerald */
@@ -73,23 +80,24 @@ p { margin: 0; }
 
 /* ---------- Jewel hero ---------- */
 
+/* ---------- Editorial hero (single signature color, big serif type) ---------- */
+
 .jewel-hero {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(115deg, var(--food) 0%, var(--community) 45%, var(--music) 100%);
+  background: linear-gradient(155deg, var(--signature) 0%, var(--signature-deep) 100%);
   color: #fff;
-  padding: 56px 24px 64px;
+  padding: 72px 24px 88px;
+  text-align: center;
 }
 
 .jewel-hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image:
-    radial-gradient(circle at 10% 15%, rgba(255,255,255,0.22) 0%, transparent 45%),
-    radial-gradient(circle at 88% 80%, rgba(255,255,255,0.18) 0%, transparent 50%),
-    radial-gradient(circle at 50% 100%, rgba(255,255,255,0.10) 0%, transparent 60%);
-  filter: blur(2px);
+  background-image: var(--grain);
+  opacity: 0.12;
+  mix-blend-mode: overlay;
   pointer-events: none;
 }
 
@@ -97,167 +105,175 @@ p { margin: 0; }
   content: '';
   position: absolute;
   inset: 0;
-  background-image: var(--grain);
-  opacity: 0.10;
-  mix-blend-mode: overlay;
+  background-image: radial-gradient(ellipse 700px 400px at 50% -10%, rgba(255,255,255,0.16) 0%, transparent 70%);
   pointer-events: none;
 }
 
 .jewel-hero .hero-inner {
   position: relative;
-  max-width: 1080px;
+  max-width: 760px;
   margin: 0 auto;
 }
 
 .jewel-hero .eyebrow {
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.14em;
+  letter-spacing: 0.22em;
   text-transform: uppercase;
-  color: #fff;
-  opacity: 0.95;
+  color: rgba(255,255,255,0.75);
 }
 
 .jewel-hero .title-row {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 16px;
-  margin-top: 10px;
+  margin-top: 14px;
 }
 
 .jewel-hero h1 {
-  font-size: clamp(2rem, 5vw, 3.1rem);
+  font-size: clamp(2.1rem, 5.5vw, 3.4rem);
   color: #fff;
+  letter-spacing: -0.01em;
 }
 
 .jewel-hero .tagline {
-  margin-top: 14px;
-  max-width: 52ch;
-  font-size: 1.1rem;
-  color: rgba(255,255,255,0.95);
+  margin: 18px auto 0;
+  max-width: 46ch;
+  font-size: 1.15rem;
+  font-style: italic;
+  font-family: 'Fraunces', Georgia, serif;
+  color: rgba(255,255,255,0.88);
 }
 
 .jewel-hero .hero-cta {
   display: inline-flex;
   gap: 12px;
-  margin-top: 24px;
+  margin-top: 30px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hero-btn {
   display: inline-block;
-  padding: 12px 22px;
-  border-radius: 999px;
+  padding: 13px 28px;
+  border-radius: 3px;
   font-weight: 700;
-  font-size: 0.92rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   text-decoration: none;
-  transition: transform 140ms ease;
+  transition: transform 140ms ease, opacity 140ms ease;
 }
-.hero-btn:hover { transform: translateY(-2px); }
-.hero-btn--solid { background: #fff; color: var(--community-deep); }
+.hero-btn:hover { transform: translateY(-2px); opacity: 0.92; }
+.hero-btn--solid { background: #fff; color: var(--signature-deep); }
 .hero-btn--outline { border: 1.5px solid rgba(255,255,255,0.7); color: #fff; }
 
 .back-link {
   display: inline-block;
-  color: #fff;
+  color: rgba(255,255,255,0.85);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-decoration: none;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 .back-link:hover { text-decoration: underline; }
 
 .vine-strip {
-  height: 10px;
+  height: 3px;
   width: 100%;
-  background: linear-gradient(to right, var(--art), var(--music), var(--comedy), var(--food), var(--community));
-  filter: blur(1.5px);
-  opacity: 0.85;
+  background: var(--signature-deep);
+  opacity: 0.4;
 }
 
-/* ---------- Illustrations ---------- */
+/* ---------- Illustrations (editorial "image" panels) ---------- */
 
 .illo {
-  width: 84px;
-  height: 84px;
-  border-radius: 22px;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  background: var(--illo-bg, var(--art-bg));
-  box-shadow: inset 0 0 0 1px rgba(0,0,0,0.03);
+  background: var(--illo-bg, var(--paper));
+  position: relative;
+  overflow: hidden;
 }
-.illo svg { width: 46px; height: 46px; }
 
-.illo--sm { width: 56px; height: 56px; border-radius: 20px; }
-.illo--sm svg { width: 30px; height: 30px; }
+.illo::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: var(--grain);
+  opacity: 0.18;
+  mix-blend-mode: multiply;
+}
 
-/* ---------- Feature rows (homepage) ---------- */
+.illo svg { width: 30%; height: 30%; position: relative; z-index: 1; }
+
+.illo--sm { width: 56px; height: 56px; aspect-ratio: auto; border-radius: 3px; flex-shrink: 0; }
+.illo--sm svg { width: 56%; height: 56%; }
+
+/* ---------- Feature rows: editorial 3-up grid, image-over-text ---------- */
 
 .feature-rows {
   max-width: 1080px;
-  margin: -32px auto 0;
-  padding: 0 24px 40px;
-  position: relative;
-  z-index: 2;
+  margin: 0 auto;
+  padding: 64px 24px 56px;
   display: grid;
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 44px 36px;
 }
 
 .feature-row {
-  display: grid;
-  grid-template-columns: 84px 1fr auto;
-  align-items: center;
-  gap: 22px;
-  background: #fff;
-  border-radius: 20px;
-  padding: 22px;
-  box-shadow: 0 24px 48px -24px rgba(32, 26, 46, 0.18), 0 2px 8px rgba(32, 26, 46, 0.05);
-  border: 1px solid var(--line);
-  border-left: 6px solid var(--row-accent, var(--art));
-  transition: transform 150ms ease, box-shadow 150ms ease;
+  display: block;
   text-decoration: none;
+  color: inherit;
 }
 
-.feature-row:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 26px 46px -22px var(--row-accent, rgba(32,26,46,0.28));
+.feature-row .illo { margin-bottom: 20px; }
+
+.feature-row:hover .illo svg { transform: scale(1.06); }
+.illo svg { transition: transform 200ms ease; }
+
+.feature-row h2 {
+  font-size: 1.35rem;
 }
 
-.feature-row h2 { font-size: 1.25rem; }
-.feature-row .desc { margin-top: 5px; color: var(--ink-soft); font-size: 0.93rem; }
-.feature-row .count { margin-top: 8px; font-weight: 700; font-size: 0.85rem; color: var(--row-accent, var(--art)); }
+.feature-row .count {
+  margin-top: 6px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--row-accent, var(--signature));
+}
 
 .feature-row .row-arrow {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--row-accent, var(--art));
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  text-decoration: none;
-  flex-shrink: 0;
+  display: none;
+}
+
+.feature-row::after {
+  content: 'Learn more →';
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--signature);
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 1px;
 }
 
 .feature-row--art    { --row-accent: var(--art); }
 .feature-row--music  { --row-accent: var(--music); }
-.feature-row--comedy { --row-accent: var(--comedy); }
+.feature-row--comedy { --row-accent: var(--comedy-deep); }
 .feature-row--food   { --row-accent: var(--food); }
 .feature-row--community { --row-accent: var(--community); }
 .feature-row--wine   { --row-accent: var(--wine-deep); }
-.feature-row--plan   { --row-accent: var(--community); }
-
-@media (max-width: 560px) {
-  .feature-row { grid-template-columns: 60px 1fr; }
-  .feature-row .illo { width: 60px; height: 60px; border-radius: 20px; }
-  .feature-row .illo svg { width: 32px; height: 32px; }
-  .feature-row .row-arrow { grid-column: 2; justify-self: start; margin-top: 10px; }
-}
-
+.feature-row--plan   { --row-accent: var(--signature); }
 /* ---------- Category page head ---------- */
 
 .category-head { max-width: 1080px; margin: 0 auto; padding: 8px 24px 4px; }
