@@ -134,8 +134,10 @@
           "url": "https://www.myvillagewines.com/",
           "types": [
             "live-music",
+            "family",
             "casual"
-          ]
+          ],
+          "note": "Live music, trivia, bingo, and food specials"
         },
         {
           "name": "Cave B Estate Winery",
@@ -168,6 +170,15 @@
           "name": "Market Vineyards",
           "url": "https://www.marketvineyards.com/",
           "types": [
+            "casual"
+          ]
+        },
+        {
+          "name": "Darby Winery",
+          "url": "https://darbywinery.com/",
+          "types": [
+            "live-music",
+            "food-pairing",
             "casual"
           ]
         }

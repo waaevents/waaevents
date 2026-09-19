@@ -146,15 +146,16 @@ async function renderWineries() {
 
     root.innerHTML = (data.districts || []).map((district) => {
       const chips = district.wineries.map((w) => {
-        const label = w.url
-          ? `<a href="${escapeAttr(w.url)}" target="_blank" rel="noopener">${escapeHtml(w.name)}</a>`
-          : escapeHtml(w.name);
+        const name = escapeHtml(w.name);
         const note = w.note ? `<span class="note">${escapeHtml(w.note)}</span>` : '';
         const types = w.types || [];
         const tagText = types.map((t) => labels[t] || t).join(' · ');
         const tags = tagText ? `<span class="tags">${escapeHtml(tagText)}</span>` : '';
         const colors = w.wineFocus || [];
-        return `<div class="winery-chip" data-types="${escapeAttr(types.join(','))}" data-colors="${escapeAttr(colors.join(','))}" style="--dist-accent: var(--${district.accent})">${label}${note}${tags}</div>`;
+        const inner = `${name}${note}${tags}`;
+        const tag = w.url ? 'a' : 'div';
+        const hrefAttrs = w.url ? `href="${escapeAttr(w.url)}" target="_blank" rel="noopener"` : '';
+        return `<${tag} class="winery-chip" ${hrefAttrs} data-types="${escapeAttr(types.join(','))}" data-colors="${escapeAttr(colors.join(','))}" style="--dist-accent: var(--${district.accent})">${inner}</${tag}>`;
       }).join('');
       return `
         <section class="winery-district" id="${escapeAttr(district.id)}">
