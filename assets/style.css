@@ -2,41 +2,39 @@
 
 :root {
   --paper: #fbf7f0;
-  --ink: #241d1a;
-  --ink-soft: #6b6058;
-  --line: #e8dfd2;
+  --ink: #201f2e;
+  --ink-soft: #605e70;
+  --line: #e6e2ea;
 
-  /* Signature brand color — used for hero, buttons, links.
-     Category jewel tones (below) are now just small accents, not the
-     structural color language. */
-  --signature: #7c2d3b;
-  --signature-deep: #521e28;
-  --signature-bg: #f3e4e6;
+  /* Signature brand color — abstract blue */
+  --signature: #2f5fa8;
+  --signature-deep: #1e3f75;
+  --signature-bg: #dbe6f5;
 
-  /* Bright jewel palette */
-  --art: #059669;         /* emerald */
-  --art-deep: #047857;
-  --art-bg: #d1fae5;
+  /* Abstract palette: blue + coral primary, yellow + purple accents */
+  --art: #8b5fbf;         /* purple */
+  --art-deep: #6b3fa0;
+  --art-bg: #ece0f7;
 
-  --music: #e11d48;       /* ruby */
-  --music-deep: #be123c;
-  --music-bg: #ffe1e8;
+  --music: #ff6f59;       /* coral */
+  --music-deep: #e14f3d;
+  --music-bg: #ffe3dd;
 
-  --comedy: #f59e0b;      /* topaz */
-  --comedy-deep: #d97706;
-  --comedy-bg: #fef0cd;
+  --comedy: #f4b740;      /* yellow */
+  --comedy-deep: #d89a1f;
+  --comedy-bg: #fdf0d5;
 
-  --food: #2563eb;        /* sapphire */
-  --food-deep: #1d4ed8;
-  --food-bg: #dbe9fe;
+  --food: #2f5fa8;        /* blue */
+  --food-deep: #1e3f75;
+  --food-bg: #dbe6f5;
 
-  --community: #9333ea;   /* amethyst */
-  --community-deep: #7e22ce;
-  --community-bg: #f3e3fe;
+  --community: #ff6f59;   /* coral */
+  --community-deep: #e14f3d;
+  --community-bg: #ffe3dd;
 
-  --wine: #eab308;        /* citrine gold */
-  --wine-deep: #ca8a04;
-  --wine-bg: #fef7c3;
+  --wine: #8b5fbf;        /* purple */
+  --wine-deep: #6b3fa0;
+  --wine-bg: #ece0f7;
 
   --radius: 10px;
 
@@ -191,9 +189,9 @@ p { margin: 0; }
 /* ---------- Illustrations (editorial "image" panels) ---------- */
 
 .illo {
-  width: 100%;
-  aspect-ratio: 16 / 10;
-  border-radius: 3px;
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -204,48 +202,55 @@ p { margin: 0; }
 }
 
 .illo::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: var(--grain);
-  opacity: 0.18;
-  mix-blend-mode: multiply;
+  content: none;
 }
 
-.illo svg { width: 30%; height: 30%; position: relative; z-index: 1; }
+.illo svg { width: 52%; height: 52%; position: relative; z-index: 1; }
 
 .illo--sm { width: 56px; height: 56px; aspect-ratio: auto; border-radius: 3px; flex-shrink: 0; }
 .illo--sm svg { width: 56%; height: 56%; }
 
-/* ---------- Feature rows: editorial 3-up grid, image-over-text ---------- */
+/* ---------- Feature rows: compact horizontal cards ---------- */
 
 .feature-rows {
   max-width: 1080px;
   margin: 0 auto;
-  padding: 64px 24px 56px;
+  padding: 48px 24px 56px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 44px 36px;
+  gap: 14px;
 }
 
 .feature-row {
-  display: block;
+  display: grid;
+  grid-template-columns: 60px 1fr auto;
+  align-items: center;
+  gap: 18px;
+  padding: 16px 20px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
   text-decoration: none;
   color: inherit;
+  transition: transform 140ms ease, box-shadow 140ms ease;
 }
 
-.feature-row .illo { margin-bottom: 20px; }
+.feature-row:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 28px -18px var(--row-accent, rgba(32,26,46,0.35));
+}
+
+.feature-row .illo { margin-bottom: 0; }
 
 .feature-row:hover .illo svg { transform: scale(1.06); }
 .illo svg { transition: transform 200ms ease; }
 
 .feature-row h2 {
-  font-size: 1.35rem;
+  font-size: 1.1rem;
 }
 
 .feature-row .count {
-  margin-top: 6px;
-  font-size: 0.82rem;
+  margin-top: 3px;
+  font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -253,18 +258,20 @@ p { margin: 0; }
 }
 
 .feature-row .row-arrow {
-  display: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--row-accent, var(--signature));
+  color: #fff;
+  font-size: 1.05rem;
+  flex-shrink: 0;
 }
 
 .feature-row::after {
-  content: 'Learn more →';
-  display: inline-block;
-  margin-top: 12px;
-  font-size: 0.88rem;
-  font-weight: 700;
-  color: var(--signature);
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 1px;
+  content: none;
 }
 
 .feature-row--art    { --row-accent: var(--art); }
