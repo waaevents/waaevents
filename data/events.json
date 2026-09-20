@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-19T16:09:22.435Z",
+  "updatedAt": "2026-09-20T16:37:26.872Z",
   "windowDays": 90,
-  "count": 45,
+  "count": 41,
   "events": [
-    {
-      "id": "10000406-1789815600-1789819200@425cellars.com",
-      "title": "Yoga and Wine with Debbie",
-      "category": "community",
-      "start": "2026-09-19T18:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/yoga-and-wine-with-debbie-09-2026/",
-      "description": "Slow down, stretch, sip, and start your weekend with us.🍷 Join us at 425 Cellars for Yoga with Debbie, a gentle 60-minute yoga class centered around movement, mindfulness, and community. Debbie, a certified yoga instructor and cherished member of the 425 Cellars family, will gui",
-      "source": "425 Cellars"
-    },
     {
       "id": "manual-Picket Fence Art Cafe-2026-09-20T19:00:00.000Z",
       "title": "Picket Fence Art Cafe",
@@ -54,16 +44,6 @@
       "source": "Manually added"
     },
     {
-      "id": "10002212-1790010000-1790017200@www.alexandrianicolecellars.com",
-      "title": "Bunco Nights (No Fee)",
-      "category": "community",
-      "start": "2026-09-22T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-09-21/",
-      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
       "id": "manual-Fall Oil Painting with Jamie Lightfoot-2026-09-22T17:00:00.000Z",
       "title": "Fall Oil Painting with Jamie Lightfoot",
       "category": "art",
@@ -72,26 +52,6 @@
       "url": "https://picketfenceartstudio.com/event/fall-oil-painting-with-jamie-lightfoot-2/2026-09-22/",
       "description": "\"Warm & Cool Light: Painting with Sorolla\" — 8-week oil painting course exploring warm/cool light. $480 for the series.",
       "source": "Manually added"
-    },
-    {
-      "id": "10002488-1790078400-1790103600@www.alexandrianicolecellars.com",
-      "title": "Taco Tuesdays @ Woodin Creek",
-      "category": "community",
-      "start": "2026-09-22T19:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-09-22/",
-      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "10001734-1790096400-1790103600@www.alexandrianicolecellars.com",
-      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
-      "category": "community",
-      "start": "2026-09-23T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-09-22/",
-      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Drawing Foundations w/ Riley Doyle | Classical Foundations Series-2026-09-23T17:00:00.000Z",
