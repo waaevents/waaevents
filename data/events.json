@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-09-20T16:37:26.872Z",
+  "updatedAt": "2026-09-21T18:22:39.832Z",
   "windowDays": 90,
-  "count": 41,
+  "count": 38,
   "events": [
-    {
-      "id": "manual-Picket Fence Art Cafe-2026-09-20T19:00:00.000Z",
-      "title": "Picket Fence Art Cafe",
-      "category": "art",
-      "start": "2026-09-20T19:00:00.000Z",
-      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://picketfenceartstudio.com/event/picket-fence-art-cafe/2026-09-20/",
-      "description": "Drop-in creative studio time — unwind and make art in a relaxed, welcoming space.",
-      "source": "Manually added"
-    },
-    {
-      "id": "10002147-1789907400-1789914600@www.alexandrianicolecellars.com",
-      "title": "2026 Books on Tap in Woodinville",
-      "category": "community",
-      "start": "2026-09-20T19:30:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/2026-books-on-tap-in-woodinville/2026-09-20/",
-      "description": "Introducing our Books on Tap: 2026 Edition! We’re excited to bring Books on Tap Sundays to our Woodin Creek Tasting Room for the very first time, and we’re kicking off the year with a fresh reading lineup and a fun new twist. For 2026, each month’s book will feature a playful the",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "10000413-1789918200-1789925400@425cellars.com",
-      "title": "Happy Hour + Live Music with Jarrett Renshaw",
-      "category": "music",
-      "start": "2026-09-20T22:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/happy-hour-live-music-with-jarrett-renshaw/",
-      "description": "🎶 Sunday Happy Hour + Live Music at 425 Cellars!🍷 Spend your Sunday afternoon with great wine, great music, and great company as we welcome Jarrett Renshaw to 425 Cellars! **FREE admission with the purchase of wine!** 🍷 A talented Pacific Northwest singer-songwriter and multi-",
-      "source": "425 Cellars"
-    },
     {
       "id": "manual-Junior Artists (Ages 8-10)-2026-09-21T23:30:00.000Z",
       "title": "Junior Artists (Ages 8-10)",
