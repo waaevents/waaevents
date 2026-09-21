@@ -20,6 +20,9 @@
           "types": [
             "food-pairing",
             "romantic"
+          ],
+          "wineFocus": [
+            "red"
           ]
         },
         {
@@ -36,6 +39,9 @@
           "url": "https://www.fidelitaswines.com/",
           "types": [
             "live-music"
+          ],
+          "wineFocus": [
+            "red"
           ]
         },
         {
@@ -63,15 +69,25 @@
           "types": [
             "romantic",
             "live-music"
+          ],
+          "wineFocus": [
+            "red",
+            "white"
           ]
         },
         {
           "name": "Mark Ryan Winery",
-          "url": "https://www.markryanwinery.com/"
+          "url": "https://www.markryanwinery.com/",
+          "wineFocus": [
+            "red"
+          ]
         },
         {
           "name": "Matthews Winery & From The Sky Down",
-          "url": "https://matthewswinery.com/"
+          "url": "https://matthewswinery.com/",
+          "wineFocus": [
+            "red"
+          ]
         },
         {
           "name": "Novelty Hill - Januik Winery",
@@ -141,12 +157,18 @@
         },
         {
           "name": "Cave B Estate Winery",
-          "url": "https://caveb.com/"
+          "url": "https://caveb.com/",
+          "wineFocus": [
+            "red"
+          ]
         },
         {
           "name": "Gorman Winery",
           "note": "19501 144th Ave NE, C-500",
-          "url": "https://gormanwinery.com/"
+          "url": "https://gormanwinery.com/",
+          "wineFocus": [
+            "red"
+          ]
         },
         {
           "name": "Latta Wines",
@@ -154,7 +176,10 @@
         },
         {
           "name": "Guardian Cellars",
-          "url": "https://guardiancellars.com/"
+          "url": "https://guardiancellars.com/",
+          "wineFocus": [
+            "red"
+          ]
         },
         {
           "name": "Damsel Cellars",
@@ -180,6 +205,9 @@
             "live-music",
             "food-pairing",
             "casual"
+          ],
+          "wineFocus": [
+            "red"
           ]
         }
       ]
@@ -308,6 +336,38 @@
           "name": "Patterson Cellars",
           "url": "https://www.pattersoncellars.com/",
           "note": "also in Hollywood District"
+        },
+        {
+          "name": "Black Raven Brewing",
+          "url": "https://blackravenbrewing.com/",
+          "wineFocus": [
+            "beer"
+          ],
+          "types": [
+            "live-music",
+            "casual"
+          ]
+        },
+        {
+          "name": "Triplehorn Brewing",
+          "url": "https://triplehornbrewing.com/",
+          "wineFocus": [
+            "beer"
+          ],
+          "types": [
+            "casual"
+          ]
+        },
+        {
+          "name": "Watts Brewing Company",
+          "url": "https://wattsbrewingcompany.com/",
+          "wineFocus": [
+            "beer"
+          ],
+          "types": [
+            "casual",
+            "family"
+          ]
         }
       ]
     },
@@ -419,7 +479,10 @@
         {
           "name": "Truthteller Winery",
           "url": "https://truthtellerwinery.com/",
-          "note": "Wine Alley"
+          "note": "Wine Alley",
+          "wineFocus": [
+            "red"
+          ]
         },
         {
           "name": "Baer Winery",

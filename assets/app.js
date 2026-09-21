@@ -130,7 +130,7 @@ async function renderWineries() {
     const labels = data.type_labels || {};
 
     if (colorBar) {
-      const colors = [['all', 'All wines'], ['red', 'Red'], ['white', 'White'], ['bubbles', 'Sparkling']];
+      const colors = [['all', 'All'], ['red', 'Red'], ['white', 'White'], ['bubbles', 'Sparkling'], ['beer', 'Beer']];
       colorBar.innerHTML = colors.map(([key, label]) =>
         `<button type="button" class="type-chip${key === 'all' ? ' active' : ''}" data-color="${escapeAttr(key)}">${escapeHtml(label)}</button>`
       ).join('');

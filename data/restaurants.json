@@ -169,6 +169,42 @@
         "casual"
       ],
       "note": "Bistro fare in the Hollywood Schoolhouse building."
+    },
+    {
+      "name": "Jackson House",
+      "url": "https://jacksonhousewoodinville.com/",
+      "vibe": [
+        "romantic",
+        "casual"
+      ],
+      "note": "Restaurant and bar in a historic Woodinville house."
+    },
+    {
+      "name": "Ballard Pizza Company",
+      "url": "https://ballardpizzacompany.com/",
+      "vibe": [
+        "family",
+        "casual"
+      ],
+      "note": "Neapolitan-style pizza."
+    },
+    {
+      "name": "The Pizza Coop",
+      "url": "https://www.thepizzacoop.com/",
+      "vibe": [
+        "family",
+        "casual"
+      ],
+      "note": "Family-friendly pizzeria."
+    },
+    {
+      "name": "The Bird",
+      "url": "https://www.thebirdpizza.com/",
+      "vibe": [
+        "family",
+        "casual"
+      ],
+      "note": "Pizza spot."
     }
   ]
 }
