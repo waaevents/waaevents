@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-09-21T18:22:39.832Z",
+  "updatedAt": "2026-09-22T17:25:42.754Z",
   "windowDays": 90,
-  "count": 38,
+  "count": 36,
   "events": [
-    {
-      "id": "manual-Junior Artists (Ages 8-10)-2026-09-21T23:30:00.000Z",
-      "title": "Junior Artists (Ages 8-10)",
-      "category": "art",
-      "start": "2026-09-21T23:30:00.000Z",
-      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://picketfenceartstudio.com/event/junior-artists-ages-8-10/2026-09-21/",
-      "description": "Weekly series teaching fine-art fundamentals across painting, drawing, clay, and glass fusing. $315 for the term.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Fall Oil Painting with Jamie Lightfoot-2026-09-22T17:00:00.000Z",
-      "title": "Fall Oil Painting with Jamie Lightfoot",
-      "category": "art",
-      "start": "2026-09-22T17:00:00.000Z",
-      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://picketfenceartstudio.com/event/fall-oil-painting-with-jamie-lightfoot-2/2026-09-22/",
-      "description": "\"Warm & Cool Light: Painting with Sorolla\" — 8-week oil painting course exploring warm/cool light. $480 for the series.",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Drawing Foundations w/ Riley Doyle | Classical Foundations Series-2026-09-23T17:00:00.000Z",
       "title": "Drawing Foundations w/ Riley Doyle | Classical Foundations Series",
