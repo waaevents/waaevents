@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-09-23T17:33:42.016Z",
+  "updatedAt": "2026-09-24T17:38:02.000Z",
   "windowDays": 90,
-  "count": 35,
+  "count": 47,
   "events": [
-    {
-      "id": "10000410-1790186400-1790195400@425cellars.com",
-      "title": "American Mahjong Night",
-      "category": "community",
-      "start": "2026-09-24T01:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/american-mahjong-night/",
-      "description": "🀄 Curious about American Mahjong? Come learn with us! Join us at 425 Cellars for American Mahjong 101—a fun, relaxed evening designed for complete beginners. No experience needed, and the event is FREE!✨ Learn the basics, meet new people, sip some wine, and discover why Mahjong ",
-      "source": "425 Cellars"
-    },
     {
       "id": "manual-Live Music with Izzy Burns-2026-09-25T00:00:00.000Z",
       "title": "Live Music with Izzy Burns",
@@ -224,6 +214,16 @@
       "source": "Manually added"
     },
     {
+      "id": "10000416-1790875800-1790883000@425cellars.com",
+      "title": "Music featuring - Reji Marc",
+      "category": "music",
+      "start": "2026-10-02T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/music-featuring-reji-marc/",
+      "description": "“🍷 Thursday Night at 425 Cellars 🍷 Join us Thursday, October 1st from 5:30–7:30 PM for live music featuring Reji Marc! 🎶 Sip, unwind, and enjoy the tunes — plus grab 2 bottles and get 20% off. 🥂 📍 425 Cellars 🗓️ Oct 1 | 5:30–7:30 PM 🎤 Live Music: Reji Marc 🍾 2 bottles = 2",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Thursday Makers Club: Painted Tic-Tac-Toe-2026-10-02T01:30:00.000Z",
       "title": "Thursday Makers Club: Painted Tic-Tac-Toe",
       "category": "art",
@@ -264,6 +264,46 @@
       "source": "Manually added"
     },
     {
+      "id": "10000417-1791118800-1791126000@425cellars.com",
+      "title": "Gary's Pairing",
+      "category": "community",
+      "start": "2026-10-04T20:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/garys-pairing-10-2026/",
+      "description": "“🍷 Sunday Funday at 425 Cellars 🍷 Join us Sunday, October 4th from 1:00–3:00 PM for Gary’s Pairing — a complimentary tasting event! 🧀🍇 Come taste, relax, and enjoy the pairings on us — plus grab 2 bottles and get 20% off. 🥂 📍 425 Cellars 🗓️ Oct 4 | 1:00–3:00 PM 🎉 Gary’s P",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000418-1791127800-1791135000@425cellars.com",
+      "title": "Music featuring - Outside the lines (a.k.a. OTL)",
+      "category": "music",
+      "start": "2026-10-04T22:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/music-featuring-outside-the-lines-a-k-a-otl/",
+      "description": "“🎸 Sunday Sounds at 425 Cellars 🎸 Join us Sunday, October 4th from 3:30–5:30 PM for live music featuring Outside the Lines (OTL)! 🎶 This father/son duo brings a lifetime of shared musical history to the stage, blending classic rock, singer/songwriter favorites, country, pop, a",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000428-1791396000-1791405000@425cellars.com",
+      "title": "American Mahjong Open Play",
+      "category": "community",
+      "start": "2026-10-08T01:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/american-mahjong-open-play/",
+      "description": "🀄 American Mahjong Open Play at 425 Cellars 🀄 Join us Wednesday, October 7th from 6:00–8:30 PM for an evening of American Mahjong! 🎉 This is post-101 community play, designed for players with prior experience — not a beginner class. Come ready with a basic understanding of rea",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000419-1791480600-1791487800@425cellars.com",
+      "title": "Music featuring - The Dog Tones",
+      "category": "music",
+      "start": "2026-10-09T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/music-featuring-the-dog-tones/",
+      "description": "“🎶 Thursday Night at 425 Cellars 🎶 Join us Thursday, October 8th from 5:30–7:30 PM for live music featuring The Dogtones! 🐾 Making audiences dance, sing along, and laugh since 2008, The Dogtones bring a huge catalog of songs you know and love, a fearless willingness to take on",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Keys on Main: Dueling Pianos-2026-10-09T01:00:00.000Z",
       "title": "Keys on Main: Dueling Pianos",
       "category": "music",
@@ -284,6 +324,26 @@
       "source": "Manually added"
     },
     {
+      "id": "10000420-1791732600-1791739800@425cellars.com",
+      "title": "Music featuring - Jeannie Rak",
+      "category": "music",
+      "start": "2026-10-11T22:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/music-featuring-jeannie-rak/",
+      "description": "🎤 Sunday Sounds at 425 Cellars 🎤 Join us Sunday, October 11th from 3:30–5:30 PM for live music featuring Jeannie Rak! 🎸 A full-time working singer and guitarist in the Greater Seattle area, Jeannie got her start busking at Pike Place and has since become a favorite in the Wood",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000421-1792085400-1792092600@425cellars.com",
+      "title": "Music featuring - Lyle Ronglien",
+      "category": "music",
+      "start": "2026-10-16T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/music-featuring-lyle-ronglien/",
+      "description": "🎸 Thursday Night at 425 Cellars 🎸 Join us Thursday, October 15th from 5:30–7:30 PM for live music featuring Lyle Ronglien! 🎶 A Pacific Northwest-based singer, songwriter, and guitarist, Lyle’s playing seamlessly weaves through genres—from classical to bluegrass, rock to countr",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Distant Station-2026-10-17T01:00:00.000Z",
       "title": "Distant Station",
       "category": "music",
@@ -292,6 +352,56 @@
       "url": "https://www.prohibitioncellars.com/events-1/vum32mc8etmvyckknqvg5ckgi965im-8xmbl-9zryl-rwt97-5bynt-3p2eh-3yljx",
       "description": "Dance band playing '80s-and-up hits (INXS, Tom Petty, Van Halen, No Doubt, etc.).",
       "source": "Manually added"
+    },
+    {
+      "id": "10000422-1792344600-1792351800@425cellars.com",
+      "title": "Music featuring - Larry Murante",
+      "category": "music",
+      "start": "2026-10-19T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/music-featuring-larry-murante/",
+      "description": "🎶 Sunday Night at 425 Cellars 🎶 Join us Sunday, October 18th from 5:30–7:30 PM for live music featuring Larry Murante! 🎸 Larry brings a high-energy mix of originals from his four CD releases alongside covers spanning Marc Cohn, Billy Eilish, Chris Stapleton, Tears for Fears, Z",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000423-1792609200-1792612800@425cellars.com",
+      "title": "Wine and Bingo night with Debbie",
+      "category": "community",
+      "start": "2026-10-22T02:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/wine-and-bingo-night-with-debbie/",
+      "description": "🍷 Wine & Bingo Night at 425 Cellars 🍷 Join us Wednesday, October 21st from 7:00–8:30 PM for a fun evening of Wine and Bingo with Debbie! 🎉 Grab a glass, settle in, and see if luck is on your side for a night of laughs, prizes, and good company. 🍷🎱 📍 425 Cellars 🗓️ Oct 21 |",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000424-1792690200-1792697400@425cellars.com",
+      "title": "Music featuring - D.S. Wilson",
+      "category": "music",
+      "start": "2026-10-23T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/music-featuring-d-s-wilson/",
+      "description": "🎷 Thursday Night at 425 Cellars 🎷 Join us Thursday, October 22nd from 5:30–7:30 PM for live music featuring D.S. Wilson! 🎶 A Billboard Artist and Top 25 Seattle-based multi-instrumental jazz musician specializing in saxophone and piano/keys, D.S. Wilson is a composer, recordin",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000426-1792800000-1792972799@425cellars.com",
+      "title": "Closed for Fall Release",
+      "category": "community",
+      "start": "2026-10-24T00:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/closed-for-fall-release/",
+      "description": "Closed for Fall Release",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "10000425-1792778400-1792789200@425cellars.com",
+      "title": "Ladies night",
+      "category": "music",
+      "start": "2026-10-24T01:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/ladies-night/",
+      "description": "💃 Ladies Night at 425 Cellars 💃 Join us Friday, October 23rd for Ladies Night featuring musician Kelly Ash! 🎤🍷 Kelly is a Seattle singer, songwriter, and longtime performer blending jazz training, pop sensibility, and years fronting top 40 bands into a soulful, dynamic sound.",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-The Cover-Up-2026-10-24T01:00:00.000Z",
@@ -312,6 +422,16 @@
       "url": "https://www.jeannierak.com/calendar/wit-cellars-ckscz-xetcz-ey6xw-bekp8",
       "description": "Live music with Jeannie Rak at WIT Cellars, in Woodinville's Warehouse District.",
       "source": "Manually added"
+    },
+    {
+      "id": "10000427-1793295000-1793302200@425cellars.com",
+      "title": "Music Featuring - Annie Eastwood & Her All-Star Band",
+      "category": "music",
+      "start": "2026-10-30T00:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/music-featuring-annie-eastwood-her-all-star-band/",
+      "description": "🎶 Thursday Night at 425 Cellars 🎶 Join us Thursday, October 29th from 5:30–7:30 PM for live music featuring Annie Eastwood & Her All-Star Band! 🎸 This dynamic band of veteran players brings an eclectic mix of Rhythm & Blues, Rock, Blues, Soul, Swing, Latin, Jazz, and original ",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-Three Trick Pony-2026-10-31T01:00:00.000Z",
