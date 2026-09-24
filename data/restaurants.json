@@ -205,6 +205,28 @@
         "casual"
       ],
       "note": "Pizza spot."
+    },
+    {
+      "name": "Hollywood Tavern",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Neighborhood tavern with a fire-pit patio; regular happy hour."
+    },
+    {
+      "name": "Woodin Creek Kitchen & Tap",
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Woodin Creek Village gastropub; regular happy hour."
+    },
+    {
+      "name": "The Bine Beer & Food",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Beer-focused gastropub; regular happy hour."
     }
   ]
 }

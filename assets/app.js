@@ -174,7 +174,10 @@ async function renderWineries() {
         const typeOk = activeType === 'all' || types.includes(activeType);
         // A winery with no confirmed color focus is never excluded by color —
         // we just don't know, rather than assuming it doesn't pour that color.
-        const colorOk = activeColor === 'all' || colors.length === 0 || colors.includes(activeColor);
+        // Once a specific pour is picked, only show wineries actually confirmed to
+        // pour it — an untagged winery no longer auto-shows, or every color would
+        // look like nearly the same list.
+        const colorOk = activeColor === 'all' || colors.includes(activeColor);
         chip.classList.toggle('hidden', !(typeOk && colorOk));
       });
       document.querySelectorAll('.winery-district').forEach((section) => {
