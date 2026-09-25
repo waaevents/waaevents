@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-09-24T17:38:02.000Z",
+  "updatedAt": "2026-09-25T17:37:29.817Z",
   "windowDays": 90,
-  "count": 47,
+  "count": 43,
   "events": [
-    {
-      "id": "manual-Live Music with Izzy Burns-2026-09-25T00:00:00.000Z",
-      "title": "Live Music with Izzy Burns",
-      "category": "music",
-      "start": "2026-09-25T00:00:00.000Z",
-      "location": "Goose Ridge Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE #108, Woodinville, WA 98072",
-      "url": "https://www.gooseridge.com/etn/live-music-with-izzy-burns/",
-      "description": "Weekly Thursday live music at Goose Ridge's Woodinville tasting room, 5-7pm — part of their every-Thursday series.",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000411-1790271000-1790278200@425cellars.com",
-      "title": "Live Music with Nicola Linde",
-      "category": "music",
-      "start": "2026-09-25T00:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/live-music-with-nicola-linde/",
-      "description": "🎶Thursday Live Music with Nicola Linde at 425 Cellars!🍷 Join us for an evening of wine and live music featuring Nicola Linde, a powerful singer-songwriter known for her captivating, dynamic performances. With a voice that moves from a whisper to a scream, Nicola brings an unmis",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Jeannie Rak: Live Music at LaShellé Wines-2026-09-25T01:00:00.000Z",
-      "title": "Jeannie Rak: Live Music at LaShellé Wines",
-      "category": "music",
-      "start": "2026-09-25T01:00:00.000Z",
-      "location": "LaShellé Wines, Woodinville, WA 98072",
-      "url": "https://www.jeannierak.com/calendar/lashell-wines-dz9al",
-      "description": "Live music with Jeannie Rak at LaShellé Wines' dedicated music stage.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music: Jarrett Renshaw-2026-09-25T01:00:00.000Z",
-      "title": "Live Music: Jarrett Renshaw",
-      "category": "music",
-      "start": "2026-09-25T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th Street, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/live-entertainment-with-jarrett-renshaw/",
-      "description": "Acoustic soft rock and pop singer-songwriter; covers James Taylor, Neil Young, Cat Stevens, Eagles, and originals.",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Relax & Unwind with Robbie Egelstad — Live Music-2026-09-26T00:30:00.000Z",
       "title": "Relax & Unwind with Robbie Egelstad — Live Music",
@@ -354,10 +314,10 @@
       "source": "Manually added"
     },
     {
-      "id": "10000422-1792344600-1792351800@425cellars.com",
+      "id": "10000422-1792337400-1792344600@425cellars.com",
       "title": "Music featuring - Larry Murante",
       "category": "music",
-      "start": "2026-10-19T00:30:00.000Z",
+      "start": "2026-10-18T22:30:00.000Z",
       "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
       "url": "https://425cellars.com/event/music-featuring-larry-murante/",
       "description": "🎶 Sunday Night at 425 Cellars 🎶 Join us Sunday, October 18th from 5:30–7:30 PM for live music featuring Larry Murante! 🎸 Larry brings a high-energy mix of originals from his four CD releases alongside covers spanning Marc Cohn, Billy Eilish, Chris Stapleton, Tears for Fears, Z",
