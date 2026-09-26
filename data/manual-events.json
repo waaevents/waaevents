@@ -540,11 +540,19 @@
     "description": "Weekly Thursday live music at Goose Ridge's Woodinville tasting room, 5-7pm \u2014 part of their every-Thursday series."
   },
   {
-    "title": "Primitivo \u2014 Argentine Music Night",
-    "category": "music",
+    "title": "Primitivo \u2014 Argentine Dinner Night",
+    "category": "food-drink",
     "start": "2026-09-27T01:00:00.000Z",
     "location": "Darby Winery, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
     "url": "https://www.exploretock.com/darbywinerywoodinville",
-    "description": "Primitivo brings the flavors and sounds of Argentina to Darby Winery's Woodinville tasting room, 6pm."
+    "description": "Argentine-inspired dinner night with Primitivo at Darby Winery's Woodinville tasting room, 6pm."
+  },
+  {
+    "title": "Live Music with Jennifer Rae",
+    "category": "music",
+    "start": "2026-09-26T00:30:00.000Z",
+    "location": "Darby Winery, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
+    "url": "https://darbywinery.com/",
+    "description": "Live music with Jennifer Rae at Darby Winery's Woodinville tasting room, 5:30pm."
   }
 ]
