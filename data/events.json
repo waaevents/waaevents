@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-09-27T17:21:04.731Z",
+  "updatedAt": "2026-09-28T19:53:57.600Z",
   "windowDays": 90,
-  "count": 35,
+  "count": 31,
   "events": [
-    {
-      "id": "manual-Picket Fence Art Cafe-2026-09-27T19:00:00.000Z",
-      "title": "Picket Fence Art Cafe",
-      "category": "art",
-      "start": "2026-09-27T19:00:00.000Z",
-      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://picketfenceartstudio.com/event/picket-fence-art-cafe/2026-09-27/",
-      "description": "Drop-in creative studio time — unwind and make art in a relaxed, welcoming space.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Book Larder Cookbook Swap-2026-09-27T20:00:00.000Z",
-      "title": "Book Larder Cookbook Swap",
-      "category": "community",
-      "start": "2026-09-27T20:00:00.000Z",
-      "location": "Sparkman Cellars, 14300 NE 145th St #102, Woodinville, WA 98072",
-      "url": "https://sparkmancellars.com/event/book-larder-cookbook-swap/",
-      "description": "Community cookbook swap with The Book Larder — bring 2-3 gently used cookbooks to trade at Sparkman Cellars.",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000415-1790523000-1790530200@425cellars.com",
-      "title": "Happy Hour + Live Music with Steve Olson",
-      "category": "music",
-      "start": "2026-09-27T22:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/happy-hour-live-music-with-steve-olson/",
-      "description": "🎶Sunday Happy Hour + Live Music at 425 Cellars!🍷 Spend your Sunday afternoon with great wine and live music from Steve Olson, a longtime Pacific Northwest performer specializing in soft rock favorites from across the decades. Steve has performed for the Mariners, Seahawks, Thun",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Hermanos Gutiérrez with Y La Bamba-2026-09-28T02:00:00.000Z",
-      "title": "Hermanos Gutiérrez with Y La Bamba",
-      "category": "music",
-      "start": "2026-09-28T02:00:00.000Z",
-      "location": "Chateau Ste. Michelle Amphitheatre, 14111 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.ste-michelle.com/concerts/concert-calendar",
-      "description": "Summer Concert Series show. Gates open ~90 minutes before the 7pm start. Tickets via Ticketmaster.",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Junior Artists (Ages 8-10)-2026-09-28T23:30:00.000Z",
       "title": "Junior Artists (Ages 8-10)",
