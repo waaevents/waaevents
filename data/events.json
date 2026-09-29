@@ -1,27 +1,27 @@
 {
-  "updatedAt": "2026-09-28T19:53:57.600Z",
+  "updatedAt": "2026-09-29T18:22:26.597Z",
   "windowDays": 90,
-  "count": 31,
+  "count": 33,
   "events": [
     {
-      "id": "manual-Junior Artists (Ages 8-10)-2026-09-28T23:30:00.000Z",
-      "title": "Junior Artists (Ages 8-10)",
-      "category": "art",
-      "start": "2026-09-28T23:30:00.000Z",
-      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://picketfenceartstudio.com/event/junior-artists-ages-8-10/2026-09-28/",
-      "description": "Weekly series teaching fine-art fundamentals across painting, drawing, clay, and glass fusing. $315 for the term.",
-      "source": "Manually added"
+      "id": "10002489-1790683200-1790708400@www.alexandrianicolecellars.com",
+      "title": "Taco Tuesdays @ Woodin Creek",
+      "category": "community",
+      "start": "2026-09-29T19:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-09-29/",
+      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
-      "id": "manual-Fall Oil Painting with Jamie Lightfoot-2026-09-29T17:00:00.000Z",
-      "title": "Fall Oil Painting with Jamie Lightfoot",
-      "category": "art",
-      "start": "2026-09-29T17:00:00.000Z",
-      "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://picketfenceartstudio.com/event/fall-oil-painting-with-jamie-lightfoot-2/2026-09-29/",
-      "description": "\"Warm & Cool Light: Painting with Sorolla\" — 8-week oil painting course exploring warm/cool light. $480 for the series.",
-      "source": "Manually added"
+      "id": "10001735-1790701200-1790708400@www.alexandrianicolecellars.com",
+      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
+      "category": "community",
+      "start": "2026-09-30T00:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-09-29/",
+      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "10002979-1790701200-1790708400@www.alexandrianicolecellars.com",
@@ -124,6 +124,16 @@
       "source": "425 Cellars"
     },
     {
+      "id": "10002214-1791219600-1791226800@www.alexandrianicolecellars.com",
+      "title": "Bunco Nights (No Fee)",
+      "category": "community",
+      "start": "2026-10-06T00:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-10-05/",
+      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
       "id": "10000428-1791396000-1791405000@425cellars.com",
       "title": "American Mahjong Open Play",
       "category": "community",
@@ -162,6 +172,16 @@
       "url": "https://www.jeannierak.com/calendar/wit-cellars-ckscz-xetcz-ey6xw",
       "description": "Live music with Jeannie Rak at WIT Cellars, in Woodinville's Warehouse District.",
       "source": "Manually added"
+    },
+    {
+      "id": "10002148-1791721800-1791729000@www.alexandrianicolecellars.com",
+      "title": "2026 Books on Tap in Woodinville",
+      "category": "community",
+      "start": "2026-10-11T19:30:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/2026-books-on-tap-in-woodinville/2026-10-11/",
+      "description": "Introducing our Books on Tap: 2026 Edition! We’re excited to bring Books on Tap Sundays to our Woodin Creek Tasting Room for the very first time, and we’re kicking off the year with a fresh reading lineup and a fun new twist. For 2026, each month’s book will feature a playful the",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "10000420-1791732600-1791739800@425cellars.com",
