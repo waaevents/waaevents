@@ -1,38 +1,8 @@
 {
   "updatedAt": "2026-09-29T18:22:26.597Z",
   "windowDays": 90,
-  "count": 33,
+  "count": 70,
   "events": [
-    {
-      "id": "10002489-1790683200-1790708400@www.alexandrianicolecellars.com",
-      "title": "Taco Tuesdays @ Woodin Creek",
-      "category": "community",
-      "start": "2026-09-29T19:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-09-29/",
-      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "10001735-1790701200-1790708400@www.alexandrianicolecellars.com",
-      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
-      "category": "community",
-      "start": "2026-09-30T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-09-29/",
-      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "10002979-1790701200-1790708400@www.alexandrianicolecellars.com",
-      "title": "\"No Fee\" Music Bingo at Woodin Creek",
-      "category": "music",
-      "start": "2026-09-30T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/no-fee-music-bingo-at-woodin-creek/2026-09-29/",
-      "description": "Join us every month on the LAST Tuesday for No Fee Music Bingo Night at our Woodin Creek Tasting Rooms. Enjoy a laid-back night of wine, laughs, and sing-along moments as you play your way through your favorite tunes. It’s part bingo, part dance party, and all-around a great excu",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
     {
       "id": "manual-Drawing Foundations w/ Riley Doyle | Classical Foundations Series-2026-09-30T17:00:00.000Z",
       "title": "Drawing Foundations w/ Riley Doyle | Classical Foundations Series",
@@ -84,6 +54,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-First Friday Live Music: Jarrett Renshaw-2026-10-03T01:30:00.000Z",
+      "title": "First Friday Live Music: Jarrett Renshaw",
+      "category": "music",
+      "start": "2026-10-03T01:30:00.000Z",
+      "location": "Fidélitas Wines, Woodinville, WA",
+      "url": "https://www.exploretock.com/fidelitaswineswoodinville/event/623245/first-friday-live-music-with-jarrett-renshaw",
+      "description": "First Fridays at Fidélitas Woodinville, 6:30pm. Full food menu, live music, wine by the glass and bottle. No cost, reservations required.",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Pastel Apple Workshop-2026-10-03T20:00:00.000Z",
       "title": "Pastel Apple Workshop",
       "category": "art",
@@ -101,6 +81,16 @@
       "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
       "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-5d4xr-ss57s-eyb76-kf3jf",
       "description": "Rock/blues/pop band fronted by Savanna Woods, a Top 20 artist from NBC's The Voice.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Stand-Up Comedy with Meaghan Elwood-2026-10-04T02:00:00.000Z",
+      "title": "Stand-Up Comedy with Meaghan Elwood",
+      "category": "comedy",
+      "start": "2026-10-04T02:00:00.000Z",
+      "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+      "url": "https://evergreenfamilywines.com/venue/woodinville/",
+      "description": "Stand-up comedy night at Evergreen Family Wines' Woodinville tasting room, 7pm. Tickets around $33.",
       "source": "Manually added"
     },
     {
@@ -132,6 +122,36 @@
       "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-10-05/",
       "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
       "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-06T00:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-10-06T00:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-10-06T02:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-10-06T02:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-10-07T00:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-10-07T00:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
     },
     {
       "id": "10000428-1791396000-1791405000@425cellars.com",
@@ -194,6 +214,36 @@
       "source": "425 Cellars"
     },
     {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-13T00:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-10-13T00:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-10-13T02:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-10-13T02:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-10-14T00:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-10-14T00:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
+    },
+    {
       "id": "10000421-1792085400-1792092600@425cellars.com",
       "title": "Music featuring - Lyle Ronglien",
       "category": "music",
@@ -222,6 +272,36 @@
       "url": "https://425cellars.com/event/music-featuring-larry-murante/",
       "description": "🎶 Sunday Night at 425 Cellars 🎶 Join us Sunday, October 18th from 5:30–7:30 PM for live music featuring Larry Murante! 🎸 Larry brings a high-energy mix of originals from his four CD releases alongside covers spanning Marc Cohn, Billy Eilish, Chris Stapleton, Tears for Fears, Z",
       "source": "425 Cellars"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-20T00:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-10-20T00:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-10-20T02:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-10-20T02:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-10-21T00:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-10-21T00:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
     },
     {
       "id": "10000423-1792609200-1792612800@425cellars.com",
@@ -284,6 +364,36 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-27T00:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-10-27T00:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-10-27T02:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-10-27T02:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-10-28T00:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-10-28T00:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
+    },
+    {
       "id": "10000427-1793295000-1793302200@425cellars.com",
       "title": "Music Featuring - Annie Eastwood & Her All-Star Band",
       "category": "music",
@@ -304,6 +414,36 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-11-03T01:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-11-03T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-11-03T03:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-11-03T03:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-11-04T01:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-11-04T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Echos of Epic-2026-11-07T02:00:00.000Z",
       "title": "Echos of Epic",
       "category": "music",
@@ -311,6 +451,136 @@
       "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
       "url": "https://www.prohibitioncellars.com/events-1/echos-of-epic-8ljwt-7mp25-rhtl8",
       "description": "Modern rock/alternative covers band (The Strokes, Paramore, Muse, Yeah Yeah Yeahs).",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-First Friday Live Music: Pierce Goddard-2026-11-07T02:30:00.000Z",
+      "title": "First Friday Live Music: Pierce Goddard",
+      "category": "music",
+      "start": "2026-11-07T02:30:00.000Z",
+      "location": "Fidélitas Wines, Woodinville, WA",
+      "url": "https://www.fidelitaswines.com/upcoming-events/",
+      "description": "First Fridays at Fidélitas Woodinville, 6:30pm. Full food menu, live music, wine by the glass and bottle. No cost, reservations required.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-11-10T01:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-11-10T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-11-10T03:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-11-10T03:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-11-11T01:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-11-11T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-11-17T01:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-11-17T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-11-17T03:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-11-17T03:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-11-18T01:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-11-18T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-11-24T01:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-11-24T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-11-24T03:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-11-24T03:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-11-25T01:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-11-25T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-12-01T01:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-01T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-12-01T03:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-12-01T03:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-12-02T01:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-02T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
       "source": "Manually added"
     },
     {
@@ -331,6 +601,106 @@
       "location": "Picket Fence Art Studio, 14700 148th Ave NE, Woodinville, WA 98072",
       "url": "https://picketfenceartstudio.com/course/watercolor-holiday-card-workshop/",
       "description": "Beginner-friendly watercolor workshop painting snowy landscapes, wreaths, and holiday motifs onto 5 mailable cards, taught by Pam Carraway.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-12-08T01:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-08T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-12-08T03:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-12-08T03:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-12-09T01:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-09T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-12-15T01:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-15T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-12-15T03:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-12-15T03:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-12-16T01:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-16T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-12-22T01:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-22T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Game Night at the Cut Shop-2026-12-22T03:00:00.000Z",
+      "title": "Game Night at the Cut Shop",
+      "category": "food-drink",
+      "start": "2026-12-22T03:00:00.000Z",
+      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
+      "url": "https://www.woodinvillecutshop.com/",
+      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-12-23T01:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-23T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-12-29T01:00:00.000Z",
+      "title": "Bunco Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-29T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
+      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
       "source": "Manually added"
     }
   ]
