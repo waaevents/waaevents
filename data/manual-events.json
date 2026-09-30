@@ -576,12 +576,12 @@
     "addedOn": "2026-09-28"
   },
   {
-    "title": "Stand-Up Comedy with Meaghan Elwood",
+    "title": "Stand-Up Comedy with Meaghan Elwood featuring Carole Freeman",
     "category": "comedy",
     "start": "2026-10-04T02:00:00.000Z",
     "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
-    "url": "https://evergreenfamilywines.com/venue/woodinville/",
-    "description": "Stand-up comedy night at Evergreen Family Wines' Woodinville tasting room, 7pm. Tickets around $33.",
+    "url": "https://evergreenfamilywines.com/event/stand-up-comedy-with-meaghan-elwood-featuring-carole-freeman-woodinville/",
+    "description": "Stand-up comedy night with Meaghan Elwood and Carole Freeman at Evergreen's Woodinville tasting room. Check-in 6:30pm, show 7pm. $33.12.",
     "addedBy": "manual",
     "addedOn": "2026-09-28"
   },
@@ -1004,5 +1004,95 @@
     "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
     "addedBy": "manual",
     "addedOn": "2026-09-28"
+  },
+  {
+    "title": "Paint YOUR Pet Paint Party",
+    "category": "art",
+    "start": "2026-10-03T20:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/paint-your-pet-paint-party-woodinville-2/",
+    "description": "Pet-portrait paint party at Evergreen's Woodinville tasting room \u2014 all supplies included, any pet welcome, canvas pre-traced from your photo. $60.",
+    "addedBy": "manual",
+    "addedOn": "2026-09-29"
+  },
+  {
+    "title": "Knotty Thursdays",
+    "category": "community",
+    "start": "2026-10-09T00:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-08/",
+    "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room \u2014 bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-09-29"
+  },
+  {
+    "title": "Knotty Thursdays",
+    "category": "community",
+    "start": "2026-11-13T01:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-11-12/",
+    "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room \u2014 bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-09-29"
+  },
+  {
+    "title": "Knotty Thursdays",
+    "category": "community",
+    "start": "2026-12-11T01:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-12-10/",
+    "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room \u2014 bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-09-29"
+  },
+  {
+    "title": "Yoga Uncorked",
+    "category": "community",
+    "start": "2026-10-10T17:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/yoga-uncorked-woodinville/2026-10-10/",
+    "description": "Morning yoga session paired with wine at Evergreen's Woodinville tasting room, 10:30-11:30am. $12.50.",
+    "addedBy": "manual",
+    "addedOn": "2026-09-29"
+  },
+  {
+    "title": "Yoga Uncorked",
+    "category": "community",
+    "start": "2026-11-14T18:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/yoga-uncorked-woodinville/2026-11-14/",
+    "description": "Morning yoga session paired with wine at Evergreen's Woodinville tasting room, 10:30-11:30am. $12.50.",
+    "addedBy": "manual",
+    "addedOn": "2026-09-29"
+  },
+  {
+    "title": "Yoga Uncorked",
+    "category": "community",
+    "start": "2026-12-12T18:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/yoga-uncorked-woodinville/2026-12-12/",
+    "description": "Morning yoga session paired with wine at Evergreen's Woodinville tasting room, 10:30-11:30am. $12.50.",
+    "addedBy": "manual",
+    "addedOn": "2026-09-29"
+  },
+  {
+    "title": "Live Music by Young-Chhaylee",
+    "category": "music",
+    "start": "2026-10-10T22:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/live-music-by-young-chhaylee-woodinville-2/2026-10-10/",
+    "description": "PNW singer-songwriter Young-Chhaylee performs live at Evergreen's Woodinville tasting room, drawing on influences from John Mayer, J. Cole, and D'Angelo.",
+    "addedBy": "manual",
+    "addedOn": "2026-09-29"
+  },
+  {
+    "title": "Live Music by Young-Chhaylee",
+    "category": "music",
+    "start": "2026-11-13T22:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/live-music-by-young-chhaylee-woodinville-2/2026-11-13/",
+    "description": "PNW singer-songwriter Young-Chhaylee performs live at Evergreen's Woodinville tasting room, drawing on influences from John Mayer, J. Cole, and D'Angelo.",
+    "addedBy": "manual",
+    "addedOn": "2026-09-29"
   }
 ]
