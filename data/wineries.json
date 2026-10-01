@@ -13,12 +13,13 @@
           ]
         },
         {
-          "name": "Chandler Reach Vineyards",
+          "name": "Chandler Reach",
           "wineFocus": [
             "red",
             "white",
             "bubbles"
-          ]
+          ],
+          "url": "https://www.chandlerreach.com/"
         },
         {
           "name": "Chateau Ste. Michelle Winery",
