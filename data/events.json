@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-09-30T18:12:00.343Z",
+  "updatedAt": "2026-10-01T18:37:20.174Z",
   "windowDays": 90,
-  "count": 79,
+  "count": 80,
   "events": [
     {
       "id": "manual-Live Music with Josiah Bogle-2026-10-02T00:00:00.000Z",
@@ -791,6 +791,16 @@
       "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
       "url": "https://www.woodinvillecutshop.com/",
       "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-12-30T01:00:00.000Z",
+      "title": "Bingo Night at Alexandria Nicole Cellars",
+      "category": "food-drink",
+      "start": "2026-12-30T01:00:00.000Z",
+      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
+      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
+      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
       "source": "Manually added"
     }
   ]
