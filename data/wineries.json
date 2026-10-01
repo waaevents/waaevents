@@ -191,19 +191,6 @@
           "note": "also in Warehouse District"
         },
         {
-          "name": "Patterson Cellars",
-          "url": "https://www.pattersoncellars.com/",
-          "types": [
-            "live-music"
-          ],
-          "note": "also in Warehouse District",
-          "wineFocus": [
-            "red",
-            "white",
-            "bubbles"
-          ]
-        },
-        {
           "name": "Pepper Bridge Winery & Amavi Cellars",
           "url": "https://www.amavicellars.com/",
           "types": [
@@ -222,14 +209,6 @@
             "red",
             "white",
             "bubbles"
-          ]
-        },
-        {
-          "name": "Synne Cellars",
-          "url": "https://www.synnecellars.com/",
-          "types": [
-            "live-music",
-            "casual"
           ]
         },
         {
@@ -265,51 +244,29 @@
       "accent": "community",
       "wineries": [
         {
-          "name": "425 Cellars",
-          "url": "https://425cellars.com/",
-          "wineFocus": [
-            "red",
-            "white",
-            "bubbles"
-          ]
+          "name": "Ambassador Wines",
+          "url": "https://www.ambassadorwinery.com/"
         },
         {
-          "name": "Ambassador Wines of Washington",
-          "url": "https://ambassadorwines.com/"
-        },
-        {
-          "name": "Ancestry Cellars",
-          "url": "https://www.ancestrycellars.com/"
-        },
-        {
-          "name": "Armstrong Family Winery",
-          "url": "https://armstrongwinery.com/"
-        },
-        {
-          "name": "Aspenwood Cellars",
-          "url": "https://www.aspenwoodcellars.com/"
+          "name": "Baer Winery",
+          "note": "Wine Alley",
+          "url": "https://www.baerwinery.com/WordPress/"
         },
         {
           "name": "Barrage Cellars",
-          "url": "https://barragecellars.com/"
+          "url": "https://www.barragecellars.com/"
         },
         {
-          "name": "Bunnell Family Cellar",
-          "note": "19501 144th Ave NE, C-800",
-          "url": "https://bunnellfamilycellars.com/"
+          "name": "Bunnell/Newhouse",
+          "url": "https://www.bunnellfamilycellar.com/woodinville"
         },
         {
-          "name": "Category 5 Cellars (Cat 5)",
+          "name": "Category 5 Cellars",
           "url": "https://cat5cellars.com/"
         },
         {
-          "name": "Elevation Cellars",
-          "note": "19495 144th Ave NE, A-115",
-          "url": "https://elevationcellars.com/"
-        },
-        {
           "name": "Genoa Cellars",
-          "url": "https://genoacellars.com/"
+          "url": "http://www.genoacellars.com/"
         },
         {
           "name": "JBell Wine Co.",
@@ -329,17 +286,16 @@
           "url": "https://www.michaelflorentinocellars.com/"
         },
         {
-          "name": "Obelisco Estate Winery",
-          "note": "19495 144th Ave NE, Suite B-220",
+          "name": "Obelisco Winery",
           "url": "https://obelisco.com/"
         },
         {
           "name": "Page Cellars",
-          "url": "https://www.pagecellars.com/"
+          "url": "https://pagecellars.com/"
         },
         {
           "name": "Patterson Cellars",
-          "url": "https://www.pattersoncellars.com/",
+          "url": "https://www.pattersoncellars.com",
           "note": "also in Hollywood District",
           "wineFocus": [
             "red",
@@ -349,7 +305,7 @@
         },
         {
           "name": "Pondera Winery",
-          "url": "https://ponderawinery.com/"
+          "url": "https://www.ponderawinery.com/index.html"
         },
         {
           "name": "Prohibition Cellars",
@@ -357,20 +313,15 @@
             "live-music",
             "casual"
           ],
-          "url": "https://prohibitioncellars.com/"
+          "url": "https://www.prohibitioncellars.com/"
         },
         {
           "name": "Quiddity Wines",
           "url": "https://quidditywines.com/"
         },
         {
-          "name": "Robert Ramsay Cellars",
-          "note": "19495 144th Ave NE, Suite 235",
-          "url": "https://robertramsay.com/"
-        },
-        {
           "name": "Savage Grace Wines",
-          "url": "https://savagegracewines.com/"
+          "url": "https://www.savagegracewines.com/"
         },
         {
           "name": "Simpatico Cellars",
@@ -383,6 +334,14 @@
         {
           "name": "Story Cellars",
           "url": "https://www.storycellars.com/"
+        },
+        {
+          "name": "Synne Cellars",
+          "url": "https://www.synnecellars.com/",
+          "types": [
+            "live-music",
+            "casual"
+          ]
         },
         {
           "name": "Tilton River Cellars"
@@ -406,17 +365,9 @@
           ]
         },
         {
-          "name": "Two Vintners",
-          "url": "https://www.twovintners.com/",
-          "types": [
-            "live-music",
-            "casual"
-          ]
-        },
-        {
           "name": "W.T. Vintners",
           "note": "19495 144th Ave NE, Suite B-210",
-          "url": "https://wtvintners.com/"
+          "url": "https://www.wtvintners.com/"
         },
         {
           "name": "Warr-King Wines",
@@ -424,6 +375,10 @@
             "live-music"
           ],
           "url": "https://warr-kingwines.com/"
+        },
+        {
+          "name": "Winsome Ciderworks",
+          "url": "https://www.winsomeciderworks.com/"
         },
         {
           "name": "Wit Cellars",
@@ -545,11 +500,6 @@
           "wineFocus": [
             "red"
           ]
-        },
-        {
-          "name": "Baer Winery",
-          "note": "Wine Alley",
-          "url": "https://baerwinery.com/"
         },
         {
           "name": "Bayernmoor Cellars",
