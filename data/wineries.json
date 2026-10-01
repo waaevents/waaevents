@@ -103,7 +103,10 @@
           "types": [
             "live-music"
           ],
-          "note": "also in Warehouse District"
+          "note": "also in Warehouse District",
+          "wineFocus": [
+            "bubbles"
+          ]
         },
         {
           "name": "Pepper Bridge Winery & Amavi Cellars",
@@ -153,7 +156,10 @@
             "family",
             "casual"
           ],
-          "note": "Live music, trivia, bingo, and food specials"
+          "note": "Live music, trivia, bingo, and food specials",
+          "wineFocus": [
+            "bubbles"
+          ]
         },
         {
           "name": "Cave B Estate Winery",
@@ -207,8 +213,12 @@
             "casual"
           ],
           "wineFocus": [
-            "red"
+            "red",
+            "bubbles"
           ]
+        },
+        {
+          "name": "Lotta"
         }
       ]
     },
@@ -318,11 +328,6 @@
           "url": "https://smasnecellars.com/"
         },
         {
-          "name": "Tenor Winery",
-          "note": "16116 140th Place NE",
-          "url": "https://tenorwines.com/"
-        },
-        {
           "name": "Wit Cellars",
           "note": "19501 144th Ave NE, Suite A500",
           "url": "https://witcellars.com/"
@@ -335,17 +340,9 @@
         {
           "name": "Patterson Cellars",
           "url": "https://www.pattersoncellars.com/",
-          "note": "also in Hollywood District"
-        },
-        {
-          "name": "Black Raven Brewing",
-          "url": "https://blackravenbrewing.com/",
+          "note": "also in Hollywood District",
           "wineFocus": [
-            "beer"
-          ],
-          "types": [
-            "live-music",
-            "casual"
+            "bubbles"
           ]
         },
         {
@@ -355,6 +352,64 @@
             "beer"
           ],
           "types": [
+            "casual"
+          ]
+        },
+        {
+          "name": "Tinte Cellars",
+          "url": "https://tintecellars.com/",
+          "note": "19495 144th Ave NE, Suite A110",
+          "wineFocus": [
+            "red"
+          ]
+        },
+        {
+          "name": "Category 5 Cellars (Cat 5)",
+          "url": "https://cat5cellars.com/"
+        },
+        {
+          "name": "JBell Wine Co.",
+          "url": "https://www.jbellwine.com/"
+        },
+        {
+          "name": "LaShellē Wines",
+          "url": "https://lashellewines.com/"
+        },
+        {
+          "name": "Michael Florentino Cellars",
+          "url": "https://www.michaelflorentinocellars.com/"
+        },
+        {
+          "name": "Simpatico Cellars",
+          "url": "https://drinksimpatico.com/"
+        },
+        {
+          "name": "Story Cellars",
+          "url": "https://www.storycellars.com/"
+        },
+        {
+          "name": "Tilton River Cellars"
+        }
+      ]
+    },
+    {
+      "id": "industrial",
+      "name": "Industrial District",
+      "accent": "community",
+      "wineries": [
+        {
+          "name": "Tenor Winery",
+          "note": "16116 140th Place NE",
+          "url": "https://tenorwines.com/"
+        },
+        {
+          "name": "Black Raven Brewing",
+          "url": "https://blackravenbrewing.com/",
+          "wineFocus": [
+            "beer"
+          ],
+          "types": [
+            "live-music",
             "casual"
           ]
         },
@@ -399,6 +454,15 @@
         {
           "name": "Damsel Cellars",
           "url": "https://damselcellars.com/"
+        },
+        {
+          "name": "Lobo Hills",
+          "url": "https://www.lobohills.com/",
+          "note": "18510 142nd Ave NE"
+        },
+        {
+          "name": "Sightglass Cellars",
+          "url": "https://www.sightglasscellars.com/"
         }
       ]
     },
@@ -492,12 +556,23 @@
         {
           "name": "DiStefano Winery",
           "note": "The Harvest, with Vaunt Modern Gallery",
-          "url": "https://distefanowinery.com/"
+          "url": "https://distefanowinery.com/",
+          "wineFocus": [
+            "bubbles"
+          ]
         },
         {
           "name": "Grosgrain Vineyards",
           "url": "https://grosgrainvineyards.com/",
           "note": "The Harvest"
+        },
+        {
+          "name": "Avennia",
+          "url": "https://avennia.com/",
+          "note": "The Harvest",
+          "wineFocus": [
+            "red"
+          ]
         }
       ]
     },
