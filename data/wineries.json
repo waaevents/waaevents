@@ -31,11 +31,6 @@
           ]
         },
         {
-          "name": "Damsel Cellars",
-          "url": "https://damselcellars.com/",
-          "note": "also in Artisan Hill District"
-        },
-        {
           "name": "Darby Winery",
           "url": "https://darbywinery.com/",
           "types": [
@@ -279,10 +274,6 @@
           ]
         },
         {
-          "name": "Alluvium Cellars",
-          "url": "https://alluviumcellars.com/"
-        },
-        {
           "name": "Ambassador Wines of Washington",
           "url": "https://ambassadorwines.com/"
         },
@@ -481,37 +472,47 @@
       "accent": "art",
       "wineries": [
         {
-          "name": "Auclair Winery",
-          "url": "https://auclairwinery.com/"
+          "name": "Alluvium Cellars",
+          "url": "https://alluviumcellars.com/",
+          "note": "19151 144th Ave NE Spc J2"
         },
         {
           "name": "Callan Cellars",
-          "url": "https://callancellars.com/"
+          "url": "https://callancellars.com/",
+          "note": "18742 142nd Ave NE"
         },
         {
           "name": "Cedergreen Cellars",
-          "url": "https://cedergreencellars.com/"
+          "url": "https://cedergreencellars.com/",
+          "note": "18646 142nd Ave NE"
         },
         {
           "name": "Damsel Cellars",
-          "url": "https://damselcellars.com/"
+          "url": "https://damselcellars.com/",
+          "note": "14467 Woodinville Redmond Rd NE"
         },
         {
           "name": "Descendant Cellars",
-          "url": "https://descendantcellars.com/"
+          "url": "https://descendantcellars.com/",
+          "note": "18732 142nd Ave NE"
         },
         {
-          "name": "Lobo Hills",
+          "name": "Elentone Winery",
+          "note": "18808 142nd Ave NE Ste 5A"
+        },
+        {
+          "name": "Glacier View Cellars",
+          "note": "19255 Woodinville-Snohomish Rd #3"
+        },
+        {
+          "name": "Lobo Hills Wine Co.",
           "url": "https://www.lobohills.com/",
-          "note": "18510 142nd Ave NE"
+          "note": "18506 142nd Ave NE"
         },
         {
           "name": "Pomum Cellars",
-          "url": "https://pomumcellars.com/"
-        },
-        {
-          "name": "Sightglass Cellars",
-          "url": "https://www.sightglasscellars.com/"
+          "url": "https://pomumcellars.com/",
+          "note": "18512 142nd Ave NE"
         }
       ]
     },
