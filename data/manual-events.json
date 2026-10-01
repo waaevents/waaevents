@@ -1011,7 +1011,7 @@
     "start": "2026-10-03T20:30:00.000Z",
     "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
     "url": "https://evergreenfamilywines.com/event/paint-your-pet-paint-party-woodinville-2/",
-    "description": "Pet-portrait paint party at Evergreen's Woodinville tasting room \u2014 all supplies included, any pet welcome, canvas pre-traced from your photo. $60.",
+    "description": "Pet-portrait paint party at Evergreen's Woodinville tasting room — all supplies included, any pet welcome, canvas pre-traced from your photo. $60.",
     "addedBy": "manual",
     "addedOn": "2026-09-29"
   },
@@ -1021,7 +1021,7 @@
     "start": "2026-10-09T00:30:00.000Z",
     "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
     "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-08/",
-    "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room \u2014 bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
+    "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room — bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
     "addedBy": "manual",
     "addedOn": "2026-09-29"
   },
@@ -1031,7 +1031,7 @@
     "start": "2026-11-13T01:30:00.000Z",
     "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
     "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-11-12/",
-    "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room \u2014 bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
+    "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room — bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
     "addedBy": "manual",
     "addedOn": "2026-09-29"
   },
@@ -1041,7 +1041,7 @@
     "start": "2026-12-11T01:30:00.000Z",
     "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
     "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-12-10/",
-    "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room \u2014 bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
+    "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room — bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
     "addedBy": "manual",
     "addedOn": "2026-09-29"
   },
@@ -1094,5 +1094,75 @@
     "description": "PNW singer-songwriter Young-Chhaylee performs live at Evergreen's Woodinville tasting room, drawing on influences from John Mayer, J. Cole, and D'Angelo.",
     "addedBy": "manual",
     "addedOn": "2026-09-29"
+  },
+  {
+    "title": "Library Wine Friday at Darby",
+    "category": "food-drink",
+    "start": "2026-10-02T17:00:00.000Z",
+    "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
+    "url": "https://darbywinery.com/events/oct-library-wine/",
+    "description": "Library wine tasting at Darby Winery's Woodinville tasting room, all day. Woodinville only this month.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-01"
+  },
+  {
+    "title": "Taste the Cellar at Darby Winery",
+    "category": "food-drink",
+    "start": "2026-10-10T20:00:00.000Z",
+    "location": "Darby Winery Woodinville Warehouse, 14260 NE 193rd Pl, Woodinville, WA 98072",
+    "url": "https://darbywinery.com/events/winery-tasting/",
+    "description": "Specialty cellar tasting at Darby's Woodinville winery, 1-4pm. The tasting room is closed this day.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-01"
+  },
+  {
+    "title": "Argentine Fire Cooking by Primitivo at Darby",
+    "category": "food-drink",
+    "start": "2026-10-11T21:00:00.000Z",
+    "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
+    "url": "https://darbywinery.com/events/primitivo-october/",
+    "description": "Primitivo's Argentine fire cooking pop-up at Darby's Woodinville tasting room, 2pm until sold out.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-01"
+  },
+  {
+    "title": "Argentine Fire Cooking by Primitivo at Darby",
+    "category": "food-drink",
+    "start": "2026-10-24T21:00:00.000Z",
+    "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
+    "url": "https://darbywinery.com/events/primitivo-october/",
+    "description": "Primitivo's Argentine fire cooking pop-up at Darby's Woodinville tasting room, 2pm until sold out.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-01"
+  },
+  {
+    "title": "Stand-Up Comedy with Scott Losse & Gabey Lucas",
+    "category": "comedy",
+    "start": "2026-10-17T02:00:00.000Z",
+    "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
+    "url": "https://darbywinery.com/events/oct-comedy-show/",
+    "description": "Comedy night at Darby Winery Woodinville, 7-8:30pm. Ticketed.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-01"
+  },
+  {
+    "title": "Fall Cabernet Vertical Tasting at Darby",
+    "category": "food-drink",
+    "start": "2026-10-23T17:00:00.000Z",
+    "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
+    "url": "https://darbywinery.com/events/fall-cabernet-vertical-tasting/",
+    "description": "Fall Cabernet vertical tasting at Darby's Woodinville and West Seattle tasting rooms, all day. $30 non-members, complimentary for members.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-01"
+  },
+  {
+    "title": "Vintage Pour: A (Pre)Halloween Soirée",
+    "category": "music",
+    "start": "2026-10-31T00:00:00.000Z",
+    "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
+    "url": "https://darbywinery.com/events/vintage-pour-soiree/",
+    "description": "Wine, 1940s-50s swing/bebop jazz, small bites and an analog portrait pop-up, 5-8pm. Costumes encouraged.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-01"
   }
 ]

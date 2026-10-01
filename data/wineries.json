@@ -6,12 +6,38 @@
       "accent": "music",
       "wineries": [
         {
+          "name": "Cave B Estate Winery",
+          "url": "https://caveb.com/",
+          "wineFocus": [
+            "red"
+          ]
+        },
+        {
           "name": "Chateau Ste. Michelle Winery",
           "url": "https://www.ste-michelle.com/",
           "types": [
             "estate",
             "live-music",
             "food-pairing"
+          ]
+        },
+        {
+          "name": "Damsel Cellars",
+          "url": "https://damselcellars.com/",
+          "note": "also in Artisan Hill District"
+        },
+        {
+          "name": "Darby Winery",
+          "url": "https://darbywinery.com/",
+          "types": [
+            "live-music",
+            "food-pairing",
+            "casual"
+          ],
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
           ]
         },
         {
@@ -22,7 +48,9 @@
             "romantic"
           ],
           "wineFocus": [
-            "red"
+            "red",
+            "white",
+            "bubbles"
           ]
         },
         {
@@ -32,6 +60,11 @@
           "types": [
             "estate",
             "live-music"
+          ],
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
           ]
         },
         {
@@ -45,10 +78,33 @@
           ]
         },
         {
+          "name": "Florence Cellars",
+          "url": "https://florencecellars.com/",
+          "types": [
+            "live-music",
+            "family"
+          ]
+        },
+        {
           "name": "Goose Ridge Woodinville Tasting Room",
           "url": "https://www.gooseridge.com/",
           "types": [
             "casual"
+          ]
+        },
+        {
+          "name": "Gorman Winery",
+          "note": "19501 144th Ave NE, C-500",
+          "url": "https://gormanwinery.com/",
+          "wineFocus": [
+            "red"
+          ]
+        },
+        {
+          "name": "Guardian Cellars",
+          "url": "https://guardiancellars.com/",
+          "wineFocus": [
+            "red"
           ]
         },
         {
@@ -62,6 +118,14 @@
         {
           "name": "KINHAVEN Winery",
           "url": "https://kinhavenwinery.com/"
+        },
+        {
+          "name": "Latta Wines",
+          "url": "https://lattawines.com/"
+        },
+        {
+          "name": "Latta Wines",
+          "url": "https://www.lattawines.com/"
         },
         {
           "name": "Long Shadows Vintners",
@@ -83,6 +147,26 @@
           ]
         },
         {
+          "name": "Market Vineyards",
+          "url": "https://www.marketvineyards.com/",
+          "types": [
+            "casual"
+          ]
+        },
+        {
+          "name": "Maryhill Winery Woodinville Tasting Room",
+          "url": "https://www.maryhillwinery.com/woodinville/",
+          "types": [
+            "live-music",
+            "family"
+          ],
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
+          ]
+        },
+        {
           "name": "Matthews Winery & From The Sky Down",
           "url": "https://matthewswinery.com/",
           "wineFocus": [
@@ -98,6 +182,11 @@
           ]
         },
         {
+          "name": "Obelisco Estate Winery",
+          "url": "https://obelisco.com/",
+          "note": "also in Warehouse District"
+        },
+        {
           "name": "Patterson Cellars",
           "url": "https://www.pattersoncellars.com/",
           "types": [
@@ -105,6 +194,8 @@
           ],
           "note": "also in Warehouse District",
           "wineFocus": [
+            "red",
+            "white",
             "bubbles"
           ]
         },
@@ -122,6 +213,11 @@
           "types": [
             "live-music",
             "casual"
+          ],
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
           ]
         },
         {
@@ -130,22 +226,6 @@
           "types": [
             "live-music",
             "casual"
-          ]
-        },
-        {
-          "name": "Maryhill Winery Woodinville Tasting Room",
-          "url": "https://www.maryhillwinery.com/woodinville/",
-          "types": [
-            "live-music",
-            "family"
-          ]
-        },
-        {
-          "name": "Florence Cellars",
-          "url": "https://florencecellars.com/",
-          "types": [
-            "live-music",
-            "family"
           ]
         },
         {
@@ -158,67 +238,10 @@
           ],
           "note": "Live music, trivia, bingo, and food specials",
           "wineFocus": [
-            "bubbles"
-          ]
-        },
-        {
-          "name": "Cave B Estate Winery",
-          "url": "https://caveb.com/",
-          "wineFocus": [
-            "red"
-          ]
-        },
-        {
-          "name": "Gorman Winery",
-          "note": "19501 144th Ave NE, C-500",
-          "url": "https://gormanwinery.com/",
-          "wineFocus": [
-            "red"
-          ]
-        },
-        {
-          "name": "Latta Wines",
-          "url": "https://lattawines.com/"
-        },
-        {
-          "name": "Guardian Cellars",
-          "url": "https://guardiancellars.com/",
-          "wineFocus": [
-            "red"
-          ]
-        },
-        {
-          "name": "Damsel Cellars",
-          "url": "https://damselcellars.com/",
-          "note": "also in Artisan Hill District"
-        },
-        {
-          "name": "Obelisco Estate Winery",
-          "url": "https://obelisco.com/",
-          "note": "also in Warehouse District"
-        },
-        {
-          "name": "Market Vineyards",
-          "url": "https://www.marketvineyards.com/",
-          "types": [
-            "casual"
-          ]
-        },
-        {
-          "name": "Darby Winery",
-          "url": "https://darbywinery.com/",
-          "types": [
-            "live-music",
-            "food-pairing",
-            "casual"
-          ],
-          "wineFocus": [
             "red",
+            "white",
             "bubbles"
           ]
-        },
-        {
-          "name": "Lotta"
         }
       ]
     },
@@ -229,7 +252,12 @@
       "wineries": [
         {
           "name": "425 Cellars",
-          "url": "https://425cellars.com/"
+          "url": "https://425cellars.com/",
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
+          ]
         },
         {
           "name": "Alluvium Cellars",
@@ -256,48 +284,13 @@
           "url": "https://barragecellars.com/"
         },
         {
-          "name": "Page Cellars",
-          "url": "https://www.pagecellars.com/"
-        },
-        {
-          "name": "Pondera Winery",
-          "url": "https://ponderawinery.com/"
-        },
-        {
-          "name": "Quiddity Wines",
-          "url": "https://quidditywines.com/"
-        },
-        {
-          "name": "Savage Grace Wines",
-          "url": "https://savagegracewines.com/"
-        },
-        {
-          "name": "Warr-King Wines",
-          "types": [
-            "live-music"
-          ],
-          "url": "https://warr-kingwines.com/"
-        },
-        {
-          "name": "Prohibition Cellars",
-          "types": [
-            "live-music",
-            "casual"
-          ],
-          "url": "https://prohibitioncellars.com/"
-        },
-        {
-          "name": "Two Vintners",
-          "url": "https://www.twovintners.com/",
-          "types": [
-            "live-music",
-            "casual"
-          ]
-        },
-        {
           "name": "Bunnell Family Cellar",
           "note": "19501 144th Ave NE, C-800",
           "url": "https://bunnellfamilycellars.com/"
+        },
+        {
+          "name": "Category 5 Cellars (Cat 5)",
+          "url": "https://cat5cellars.com/"
         },
         {
           "name": "Elevation Cellars",
@@ -309,9 +302,21 @@
           "url": "https://genoacellars.com/"
         },
         {
+          "name": "JBell Wine Co.",
+          "url": "https://www.jbellwine.com/"
+        },
+        {
+          "name": "LaShellē Wines",
+          "url": "https://lashellewines.com/"
+        },
+        {
           "name": "Love That Red Winery",
           "note": "19501 144th Ave NE, Suite D-100",
           "url": "https://lovethatredwinery.com/"
+        },
+        {
+          "name": "Michael Florentino Cellars",
+          "url": "https://www.michaelflorentinocellars.com/"
         },
         {
           "name": "Obelisco Estate Winery",
@@ -319,30 +324,65 @@
           "url": "https://obelisco.com/"
         },
         {
-          "name": "Robert Ramsay Cellars",
-          "note": "19495 144th Ave NE, Suite 235",
-          "url": "https://robertramsay.com/"
-        },
-        {
-          "name": "Smasne Cellars",
-          "url": "https://smasnecellars.com/"
-        },
-        {
-          "name": "Wit Cellars",
-          "note": "19501 144th Ave NE, Suite A500",
-          "url": "https://witcellars.com/"
-        },
-        {
-          "name": "W.T. Vintners",
-          "note": "19495 144th Ave NE, Suite B-210",
-          "url": "https://wtvintners.com/"
+          "name": "Page Cellars",
+          "url": "https://www.pagecellars.com/"
         },
         {
           "name": "Patterson Cellars",
           "url": "https://www.pattersoncellars.com/",
           "note": "also in Hollywood District",
           "wineFocus": [
+            "red",
+            "white",
             "bubbles"
+          ]
+        },
+        {
+          "name": "Pondera Winery",
+          "url": "https://ponderawinery.com/"
+        },
+        {
+          "name": "Prohibition Cellars",
+          "types": [
+            "live-music",
+            "casual"
+          ],
+          "url": "https://prohibitioncellars.com/"
+        },
+        {
+          "name": "Quiddity Wines",
+          "url": "https://quidditywines.com/"
+        },
+        {
+          "name": "Robert Ramsay Cellars",
+          "note": "19495 144th Ave NE, Suite 235",
+          "url": "https://robertramsay.com/"
+        },
+        {
+          "name": "Savage Grace Wines",
+          "url": "https://savagegracewines.com/"
+        },
+        {
+          "name": "Simpatico Cellars",
+          "url": "https://drinksimpatico.com/"
+        },
+        {
+          "name": "Smasne Cellars",
+          "url": "https://smasnecellars.com/"
+        },
+        {
+          "name": "Story Cellars",
+          "url": "https://www.storycellars.com/"
+        },
+        {
+          "name": "Tilton River Cellars"
+        },
+        {
+          "name": "Tinte Cellars",
+          "url": "https://tintecellars.com/",
+          "note": "19495 144th Ave NE, Suite A110",
+          "wineFocus": [
+            "red"
           ]
         },
         {
@@ -356,39 +396,29 @@
           ]
         },
         {
-          "name": "Tinte Cellars",
-          "url": "https://tintecellars.com/",
-          "note": "19495 144th Ave NE, Suite A110",
-          "wineFocus": [
-            "red"
+          "name": "Two Vintners",
+          "url": "https://www.twovintners.com/",
+          "types": [
+            "live-music",
+            "casual"
           ]
         },
         {
-          "name": "Category 5 Cellars (Cat 5)",
-          "url": "https://cat5cellars.com/"
+          "name": "W.T. Vintners",
+          "note": "19495 144th Ave NE, Suite B-210",
+          "url": "https://wtvintners.com/"
         },
         {
-          "name": "JBell Wine Co.",
-          "url": "https://www.jbellwine.com/"
+          "name": "Warr-King Wines",
+          "types": [
+            "live-music"
+          ],
+          "url": "https://warr-kingwines.com/"
         },
         {
-          "name": "LaShellē Wines",
-          "url": "https://lashellewines.com/"
-        },
-        {
-          "name": "Michael Florentino Cellars",
-          "url": "https://www.michaelflorentinocellars.com/"
-        },
-        {
-          "name": "Simpatico Cellars",
-          "url": "https://drinksimpatico.com/"
-        },
-        {
-          "name": "Story Cellars",
-          "url": "https://www.storycellars.com/"
-        },
-        {
-          "name": "Tilton River Cellars"
+          "name": "Wit Cellars",
+          "note": "19501 144th Ave NE, Suite A500",
+          "url": "https://witcellars.com/"
         }
       ]
     },
@@ -397,11 +427,6 @@
       "name": "Industrial District",
       "accent": "community",
       "wineries": [
-        {
-          "name": "Tenor Winery",
-          "note": "16116 140th Place NE",
-          "url": "https://tenorwines.com/"
-        },
         {
           "name": "Black Raven Brewing",
           "url": "https://blackravenbrewing.com/",
@@ -412,6 +437,11 @@
             "live-music",
             "casual"
           ]
+        },
+        {
+          "name": "Tenor Winery",
+          "note": "16116 140th Place NE",
+          "url": "https://tenorwines.com/"
         },
         {
           "name": "Watts Brewing Company",
@@ -444,21 +474,21 @@
           "url": "https://cedergreencellars.com/"
         },
         {
-          "name": "Descendant Cellars",
-          "url": "https://descendantcellars.com/"
-        },
-        {
-          "name": "Pomum Cellars",
-          "url": "https://pomumcellars.com/"
-        },
-        {
           "name": "Damsel Cellars",
           "url": "https://damselcellars.com/"
+        },
+        {
+          "name": "Descendant Cellars",
+          "url": "https://descendantcellars.com/"
         },
         {
           "name": "Lobo Hills",
           "url": "https://www.lobohills.com/",
           "note": "18510 142nd Ave NE"
+        },
+        {
+          "name": "Pomum Cellars",
+          "url": "https://pomumcellars.com/"
         },
         {
           "name": "Sightglass Cellars",
@@ -481,7 +511,25 @@
           "types": [
             "live-music",
             "casual"
+          ],
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
           ]
+        },
+        {
+          "name": "Avennia",
+          "url": "https://avennia.com/",
+          "note": "The Harvest",
+          "wineFocus": [
+            "red"
+          ]
+        },
+        {
+          "name": "Baer Winery",
+          "note": "Wine Alley",
+          "url": "https://baerwinery.com/"
         },
         {
           "name": "Bayernmoor Cellars",
@@ -505,6 +553,21 @@
           "url": "https://celaenowinery.com/"
         },
         {
+          "name": "DiStefano Winery",
+          "note": "The Harvest, with Vaunt Modern Gallery",
+          "url": "https://distefanowinery.com/",
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
+          ]
+        },
+        {
+          "name": "Grosgrain Vineyards",
+          "url": "https://grosgrainvineyards.com/",
+          "note": "The Harvest"
+        },
+        {
           "name": "L'Ecole No. 41",
           "url": "https://www.lecole.com/",
           "types": [
@@ -515,18 +578,6 @@
         {
           "name": "Martedi Winery",
           "url": "https://martediwinery.com/"
-        },
-        {
-          "name": "Sleight of Hand Cellars",
-          "url": "https://sleightofhandcellars.com/",
-          "types": [
-            "live-music",
-            "casual"
-          ]
-        },
-        {
-          "name": "Tsillan Cellars",
-          "url": "https://tsillancellars.com/"
         },
         {
           "name": "McQueen Champagne Bar",
@@ -541,6 +592,14 @@
           "note": "Champagne & sparkling only, Schoolhouse District"
         },
         {
+          "name": "Sleight of Hand Cellars",
+          "url": "https://sleightofhandcellars.com/",
+          "types": [
+            "live-music",
+            "casual"
+          ]
+        },
+        {
           "name": "Truthteller Winery",
           "url": "https://truthtellerwinery.com/",
           "note": "Wine Alley",
@@ -549,30 +608,8 @@
           ]
         },
         {
-          "name": "Baer Winery",
-          "note": "Wine Alley",
-          "url": "https://baerwinery.com/"
-        },
-        {
-          "name": "DiStefano Winery",
-          "note": "The Harvest, with Vaunt Modern Gallery",
-          "url": "https://distefanowinery.com/",
-          "wineFocus": [
-            "bubbles"
-          ]
-        },
-        {
-          "name": "Grosgrain Vineyards",
-          "url": "https://grosgrainvineyards.com/",
-          "note": "The Harvest"
-        },
-        {
-          "name": "Avennia",
-          "url": "https://avennia.com/",
-          "note": "The Harvest",
-          "wineFocus": [
-            "red"
-          ]
+          "name": "Tsillan Cellars",
+          "url": "https://tsillancellars.com/"
         }
       ]
     },
@@ -599,6 +636,16 @@
           "url": "https://beaumontcellars.com/"
         },
         {
+          "name": "Covington Cellars",
+          "note": "18580 142nd Ave NE",
+          "url": "https://covingtoncellars.com/"
+        },
+        {
+          "name": "EFESTĒ",
+          "note": "19730 144th Ave NE",
+          "url": "https://efeste.com/"
+        },
+        {
           "name": "Five Star Cellars Winery",
           "note": "19151 144th Ave NE, Unit F",
           "url": "https://fivestarcellars.com/"
@@ -609,19 +656,9 @@
           "url": "https://www.gardwine.com/"
         },
         {
-          "name": "Covington Cellars",
-          "note": "18580 142nd Ave NE",
-          "url": "https://covingtoncellars.com/"
-        },
-        {
           "name": "Stevens Winery",
           "note": "18520 142nd Ave NE",
           "url": "https://stevenswinery.com/"
-        },
-        {
-          "name": "EFESTĒ",
-          "note": "19730 144th Ave NE",
-          "url": "https://efeste.com/"
         }
       ]
     }
