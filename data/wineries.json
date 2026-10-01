@@ -13,6 +13,14 @@
           ]
         },
         {
+          "name": "Chandler Reach Vineyards",
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
+          ]
+        },
+        {
           "name": "Chateau Ste. Michelle Winery",
           "url": "https://www.ste-michelle.com/",
           "types": [
@@ -226,6 +234,14 @@
           "types": [
             "live-music",
             "casual"
+          ]
+        },
+        {
+          "name": "Vaunt Modern Gallery",
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
           ]
         },
         {
