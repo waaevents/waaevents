@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-02T07:17:38.256Z",
+  "ranAt": "2026-10-02T18:07:56.386Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -74,7 +74,7 @@
       "status": "ok",
       "strategy": "jsonld",
       "platform": "wordpress",
-      "count": 7,
+      "count": 6,
       "eventPage": "https://bayernmoor.com/events"
     },
     {
@@ -169,11 +169,8 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "ok",
-      "strategy": "jsonld",
-      "platform": "wordpress",
-      "count": 4,
-      "eventPage": "https://evergreenfamilywines.com/events"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Fidélitas",
@@ -262,11 +259,6 @@
       "platform": "squarespace",
       "count": 19,
       "eventPage": "https://www.lashellewines.com/calendar"
-    },
-    {
-      "winery": "Latta Wines",
-      "status": "no-events-found",
-      "platform": "squarespace"
     },
     {
       "winery": "Latta Wines",
@@ -371,7 +363,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 22,
+      "count": 23,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
