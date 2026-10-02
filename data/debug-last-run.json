@@ -1,33 +1,498 @@
 {
-  "ranAt": "2026-10-01T18:37:20.172Z",
+  "ranAt": "2026-10-02T07:17:38.256Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
       "ok": false,
       "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:188:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:217:25)"
+      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:198:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:227:25)"
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
       "ok": false,
       "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:188:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:217:25)"
+      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:198:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:227:25)"
     },
     {
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 13,
-      "addedCount": 13
+      "rawCount": 12,
+      "addedCount": 12
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 16,
-      "addedCount": 2
+      "addedCount": 5
+    }
+  ],
+  "wineryReport": [
+    {
+      "winery": "Adams Bench",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Alexandria Nicole Cellars",
+      "status": "ok",
+      "strategy": "tribe",
+      "platform": "wordpress",
+      "count": 44,
+      "eventPage": "https://www.alexandrianicolecellars.com/"
+    },
+    {
+      "winery": "Alluvium Cellars",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Ambassador Wines",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Avennia",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Baer Winery",
+      "status": "site-unreachable",
+      "error": "HTTP 404"
+    },
+    {
+      "winery": "Barrage Cellars",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Bayernmoor Cellars",
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 7,
+      "eventPage": "https://bayernmoor.com/events"
+    },
+    {
+      "winery": "Beaumont Cellars",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Black Raven Brewing",
+      "status": "no-events-found",
+      "platform": "shopify"
+    },
+    {
+      "winery": "Brian Carter Cellars",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Bunnell/Newhouse",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Callan Cellars",
+      "status": "no-events-found",
+      "platform": "weebly"
+    },
+    {
+      "winery": "Category 5 Cellars",
+      "status": "no-events-found",
+      "platform": "shopify"
+    },
+    {
+      "winery": "Cave B Estate Winery",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Cedergreen Cellars",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Celaeno Winery",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Chandler Reach",
+      "status": "no-events-found",
+      "platform": "wix"
+    },
+    {
+      "winery": "Chateau Ste. Michelle Winery",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Covington Cellars",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Damsel Cellars",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Darby Winery",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "DeLille Cellars",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Descendant Cellars",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "DiStefano Winery",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "EFESTĒ",
+      "status": "no-events-found",
+      "platform": "shopify"
+    },
+    {
+      "winery": "Evergreen Family Wines",
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 4,
+      "eventPage": "https://evergreenfamilywines.com/events"
+    },
+    {
+      "winery": "Fidélitas",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "Fireside Lounge",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Five Star Cellars Winery",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Florence Cellars",
+      "status": "no-events-found",
+      "platform": "shopify"
+    },
+    {
+      "winery": "Freebush Cellars",
+      "status": "no-events-found",
+      "platform": "shopify"
+    },
+    {
+      "winery": "Gård Estate Wines",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Genoa Cellars",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Goose Ridge Woodinville Tasting Room",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Gorman Winery",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Grosgrain Vineyards",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Guardian Cellars",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "J. Bookwalter Tasting Studio",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "JBell Wine Co.",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "JM Cellars",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "KINHAVEN Winery",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "L'Ecole No. 41",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "LaShellē Wines",
+      "status": "ok",
+      "strategy": "squarespace",
+      "platform": "squarespace",
+      "count": 19,
+      "eventPage": "https://www.lashellewines.com/calendar"
+    },
+    {
+      "winery": "Latta Wines",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Latta Wines",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Lobo Hills Wine Co.",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "Long Shadows Vintners",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Love That Red Winery",
+      "status": "no-events-found",
+      "platform": "wix"
+    },
+    {
+      "winery": "Mark Ryan Winery",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Market Vineyards",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Martedi Winery",
+      "status": "no-events-found",
+      "platform": "weebly"
+    },
+    {
+      "winery": "Maryhill Winery Woodinville Tasting Room",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Matthews Winery & From The Sky Down",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "McQueen Champagne Bar",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Michael Florentino Cellars",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "Novelty Hill - Januik Winery",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Obelisco Estate Winery",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Obelisco Winery",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Page Cellars",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Patterson Cellars",
+      "status": "ok",
+      "strategy": "squarespace",
+      "platform": "squarespace",
+      "count": 4,
+      "eventPage": "https://www.pattersoncellars.com/events"
+    },
+    {
+      "winery": "Pepper Bridge Winery & Amavi Cellars",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "Pomum Cellars",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "Pondera Winery",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Prohibition Cellars",
+      "status": "ok",
+      "strategy": "squarespace",
+      "platform": "squarespace",
+      "count": 22,
+      "eventPage": "https://www.prohibitioncellars.com/events-1"
+    },
+    {
+      "winery": "Quiddity Wines",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Savage Grace Wines",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "Simpatico Cellars",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "Sleight of Hand Cellars",
+      "status": "site-unreachable",
+      "error": "fetch failed"
+    },
+    {
+      "winery": "Smasne Cellars",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Sparkman Cellars",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "Stevens Winery",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Story Cellars",
+      "status": "no-events-found",
+      "platform": "weebly"
+    },
+    {
+      "winery": "Synne Cellars",
+      "status": "ok",
+      "strategy": "tribe",
+      "platform": "wordpress",
+      "count": 14,
+      "eventPage": "https://www.synnecellars.com/"
+    },
+    {
+      "winery": "Tenor Winery",
+      "status": "no-events-found",
+      "platform": "other"
+    },
+    {
+      "winery": "Tinte Cellars",
+      "status": "ok",
+      "strategy": "tribe",
+      "platform": "wordpress",
+      "count": 2,
+      "eventPage": "https://tintecellars.com/"
+    },
+    {
+      "winery": "Triplehorn Brewing",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Truthteller Winery",
+      "status": "no-events-found",
+      "platform": "wix"
+    },
+    {
+      "winery": "Tsillan Cellars",
+      "status": "ok",
+      "strategy": "tribe",
+      "platform": "wordpress",
+      "count": 13,
+      "eventPage": "https://tsillancellars.com/"
+    },
+    {
+      "winery": "Vaunt Modern Gallery",
+      "status": "site-unreachable",
+      "error": "HTTP 403"
+    },
+    {
+      "winery": "Village Wines",
+      "status": "ok",
+      "strategy": "tribe",
+      "platform": "wordpress",
+      "count": 12,
+      "eventPage": "https://www.myvillagewines.com/"
+    },
+    {
+      "winery": "W.T. Vintners",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Warr-King Wines",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Watts Brewing Company",
+      "status": "ok",
+      "strategy": "squarespace",
+      "platform": "squarespace",
+      "count": 8,
+      "eventPage": "https://wattsbrewingcompany.com/events"
+    },
+    {
+      "winery": "Winsome Ciderworks",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
+      "winery": "Wit Cellars",
+      "status": "no-events-found",
+      "platform": "wordpress"
     }
   ]
 }
