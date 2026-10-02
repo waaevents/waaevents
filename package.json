@@ -5,7 +5,7 @@
   "description": "Woodinville Creative Events — static site with a daily event refresh",
   "type": "module",
   "scripts": {
-    "update-events": "node scripts/update-events.mjs",
+    "update-events": "node scripts/winery-events.mjs; node scripts/update-events.mjs",
     "test": "node tests/planner.test.cjs"
   },
   "dependencies": {

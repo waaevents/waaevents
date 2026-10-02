@@ -138,6 +138,16 @@ function categorize(title, description, location) {
   return FALLBACK_CATEGORY;
 }
 
+// Winery-site events that don't hit a genre keyword: wine/food-flavored ones
+// belong under Food & Drink, art-flavored ones under Art; the rest stay in
+// Community & More.
+function wineryCategory(title, description) {
+  const t = `${title} ${description}`.toLowerCase();
+  if (/\b(paint|painting|pottery|craft|art|gallery|artist|exhibit|sketch|drawing|floral|flower|wreath|pumpkin class|candle making)\b/.test(t)) return 'art';
+  if (/\b(wine|tasting|pairing|dinner|release|harvest|food truck|pop-?up|bbq|barbecue|brunch|cheese|chocolate|charcuterie|cocktail|lunch|oyster|pizza|tacos?)\b/.test(t)) return 'food-drink';
+  return FALLBACK_CATEGORY;
+}
+
 function cleanDescription(desc) {
   if (!desc) return '';
   let text = String(desc);
@@ -288,6 +298,49 @@ async function main() {
     path.join('data', 'debug-last-run.json'),
     JSON.stringify({ ranAt: new Date().toISOString(), feedDiagnostics }, null, 2) + '\n',
   );
+
+  // Merge events scraped from each winery's own website
+  // (scripts/winery-events.mjs writes data/winery-events.json).
+  let wineryReport = [];
+  let wineryAdded = 0;
+  try {
+    const wj = JSON.parse(await readFile(path.join('data', 'winery-events.json'), 'utf8'));
+    wineryReport = (wj.report || []).map((r) => ({
+      winery: r.winery, status: r.status, strategy: r.strategy, platform: r.platform,
+      count: r.count, eventPage: r.eventPage, error: r.error,
+    }));
+    for (const ev of wj.events || []) {
+      const start = new Date(ev.start);
+      if (Number.isNaN(start.getTime()) || start < now || start > maxDate) continue;
+      const title = (ev.title || 'Untitled event').toString().trim();
+      const uid = `winery-${ev.source}-${title}-${start.toISOString()}`;
+      if (seenIds.has(uid)) continue;
+      seenIds.add(uid);
+      const titleTimeKey = `${title.toLowerCase()}|${start.toISOString()}`;
+      if (seenTitleTime.has(titleTimeKey)) continue;
+      seenTitleTime.add(titleTimeKey);
+      const description = cleanDescription(ev.description);
+      let category = categorize(title, description, ev.location);
+      if (category === FALLBACK_CATEGORY) category = wineryCategory(title, description);
+      events.push({
+        id: uid, title, category, start: start.toISOString(),
+        location: (ev.location || '').toString().trim(),
+        url: (ev.url || '').toString().trim(),
+        description: description.slice(0, 280),
+        source: ev.source,
+      });
+      wineryAdded += 1;
+    }
+    console.log(`Winery sites: ${wineryAdded} events added`);
+  } catch (err) {
+    console.error(`No winery events merged: ${err.message}`);
+  }
+  if (wineryReport.length) {
+    await writeFile(
+      path.join('data', 'debug-last-run.json'),
+      JSON.stringify({ ranAt: new Date().toISOString(), feedDiagnostics, wineryReport }, null, 2) + '\n',
+    );
+  }
 
   // Merge in hand-maintained manual events (see loadManualEvents above).
   // Same UID/title+time dedup and date-window rules apply, so a manual
