@@ -88,7 +88,7 @@ async function renderCategoryList() {
         ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>`
         : escapeHtml(ev.title);
       const meta = [full + ' · ' + time, ev.location].filter(Boolean).join(' — ');
-      const desc = ev.description
+      const desc = false
         ? `<p class="event-desc">${escapeHtml(ev.description)}</p>`
         : '';
       return `
