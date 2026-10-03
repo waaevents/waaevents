@@ -1,58 +1,8 @@
 {
-  "updatedAt": "2026-10-02T18:07:56.390Z",
+  "updatedAt": "2026-10-03T01:00:47.972Z",
   "windowDays": 90,
-  "count": 246,
+  "count": 242,
   "events": [
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: Vineyard Walking Tours-2026-10-03T00:00:00.000Z",
-      "title": "CHELAN: Vineyard Walking Tours",
-      "category": "food-drink",
-      "start": "2026-10-03T00:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/vineyard-walking-tours/",
-      "description": "Take a guided walk through the vineyard and experience Tsillan Cellars from vine to wine. Enjoy a wine tasting at the top of the estate while taking in the sweeping views of Lake Chelan, then visit our production facility for an additional pour and an inside look at the current v",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-Synne Cellars-Vinyl DJingo: An Unforgettable Wine Night in Woodinville-2026-10-03T00:30:00.000Z",
-      "title": "Vinyl DJingo: An Unforgettable Wine Night in Woodinville",
-      "category": "music",
-      "start": "2026-10-03T00:30:00.000Z",
-      "location": "Hollywood Schoolhouse &#8211; SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
-      "url": "https://www.synnecellars.com/event/vinyl-djingo-an-unforgettable-wine-night-in-woodinville/",
-      "description": "Join us on Friday, October 2, from 5:30–7:30 PM for another evening of music, wine, and friendly competition. This isn&#8217;t your average bingo night—our DJ spins real vinyl records , giving the event an authentic record-store-meets-wine-bar vibe that you just don&#8217;t find",
-      "source": "Synne Cellars"
-    },
-    {
-      "id": "manual-The Pour Decisions-2026-10-03T01:00:00.000Z",
-      "title": "The Pour Decisions",
-      "category": "music",
-      "start": "2026-10-03T01:00:00.000Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/the-davanos-9zpfg-w2a3c-afz84-tf2lm-5pcbb-6n7t2-a465b",
-      "description": "Classic rock band with dual guitars and rich harmonies.",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Jeanie Rak-2026-10-03T01:00:00.490Z",
-      "title": "Live Music at Hollywood Hill: Jeanie Rak",
-      "category": "music",
-      "start": "2026-10-03T01:00:00.490Z",
-      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
-      "url": "https://www.pattersoncellars.com/events/2026/10/2/live-music-at-hollywood-hill-jeanie-rak",
-      "description": "",
-      "source": "Patterson Cellars"
-    },
-    {
-      "id": "winery-Prohibition Cellars-HIghway 9-2026-10-03T01:00:00.888Z",
-      "title": "HIghway 9",
-      "category": "music",
-      "start": "2026-10-03T01:00:00.888Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/joel-astely-ck3nw-f4d7r-3bg5s-sx8g2",
-      "description": "Hailing from the Pacific Northwest, Highway 9 is a premier country rock band bringing a high-octane energy to the stage. By seamlessly blending modern country hits with classic rock favorites, they capture everything from driving rhythms to soulful harmonies. From Johnny Cash to",
-      "source": "Prohibition Cellars"
-    },
     {
       "id": "manual-First Friday Live Music: Jarrett Renshaw-2026-10-03T01:30:00.000Z",
       "title": "First Friday Live Music: Jarrett Renshaw",
@@ -112,6 +62,16 @@
       "url": "https://tsillancellars.com/event/live-music-jon-white-3/",
       "description": "Join us for live music on Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see you!",
       "source": "Tsillan Cellars"
+    },
+    {
+      "id": "winery-Woodinville Wine Country Events-Harvest Party @ Bayernmoor Cellars Estate Winery-2026-10-03T19:00:00.000Z",
+      "title": "Harvest Party @ Bayernmoor Cellars Estate Winery",
+      "category": "food-drink",
+      "start": "2026-10-03T19:00:00.000Z",
+      "location": "Woodinville Wine Country, 125 316th St NE , Stanwood, WA",
+      "url": "https://woodinvillewinecountry.com/event/harvest-party-bayernmoor-cellars-estate-winery/",
+      "description": "🍇 Join us at the Estate Winery in Stanwood for our Harvest Party, celebrating the 2026 season! Experience harvest firsthand — tour a working vineyard at its peak, taste wine from Washington’s 2024 Winery of the Year (Great Northwest Wine), and feel the excitement of the season a",
+      "source": "Woodinville Wine Country Events"
     },
     {
       "id": "manual-Pastel Apple Workshop-2026-10-03T20:00:00.000Z",
