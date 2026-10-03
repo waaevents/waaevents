@@ -1344,5 +1344,625 @@
     "description": "Live music with Seattle singer-songwriter Sedona Rose (pop-rock, folk, soul). Doors 5pm. Wine, sandwiches and charcuterie plates for purchase.",
     "addedBy": "manual",
     "addedOn": "2026-10-02"
+  },
+  {
+    "title": "Murder at the Mixtape: 80's Rock Concert Mystery Dinner",
+    "category": "food-drink",
+    "start": "2026-10-03T00:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608245/murder-at-the-mixtape-an-80s-rock-concert-mystery-dinner",
+    "description": "Murder mystery dinner set backstage at a 1986 rock concert, 5-8pm. $125 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "\"Pack\" Release Party at Freebush Cellars",
+    "category": "food-drink",
+    "start": "2026-10-03T23:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/607915/pack-release-party",
+    "description": "Release party for members of The Pack, 4-9pm. $50 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Sip N Paint Pumpkin Painting at Freebush Cellars",
+    "category": "art",
+    "start": "2026-10-04T21:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608756/sip-n-paint-pumpkin-painting",
+    "description": "Pumpkin painting with wine, 2-4pm. $57 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Big Daisy Energy at Freebush Cellars",
+    "category": "music",
+    "start": "2026-10-10T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/617086/big-daisy-energy",
+    "description": "Live trio, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Dueling Pianos at Freebush Cellars",
+    "category": "music",
+    "start": "2026-10-11T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/604236/dueling-pianos",
+    "description": "Two pianists go head to head, 6-9pm. $52 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Leony's Cellars Tasting Event at Freebush",
+    "category": "food-drink",
+    "start": "2026-10-11T19:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/619067/leonys-cellars-tasting-event",
+    "description": "Pouring Leony's Cellars, a woman veteran and family-owned boutique winery, 12-4pm. $26 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Kellee Bradley at Freebush Cellars",
+    "category": "music",
+    "start": "2026-10-17T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608890/kellee-bradley",
+    "description": "Seattle singer-songwriter Kellee Bradley, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Joshua Red Uttech at Freebush Cellars",
+    "category": "music",
+    "start": "2026-10-18T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608343/joshua-red-uttech",
+    "description": "Seattle singer-songwriter Joshua Red Uttech, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Sushi Making Class & Wine Pairing at Freebush",
+    "category": "food-drink",
+    "start": "2026-10-18T20:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/623176/sushi-making-class",
+    "description": "Sushi making and wine pairing with Nara Sushi Catering, 1-3pm. $78 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Tomo Nakayama at Freebush Cellars",
+    "category": "music",
+    "start": "2026-10-24T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/622753/tomo-nakayama",
+    "description": "Seattle songwriter Tomo Nakayama, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Sarah Brunner at Freebush Cellars",
+    "category": "music",
+    "start": "2026-10-25T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/616026/sarah-brunner",
+    "description": "Acoustic Americana with Sarah Brunner, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Silly Spooks Cookie Decorating Class at Freebush",
+    "category": "art",
+    "start": "2026-10-25T20:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/621285/silly-spooks-cookie-decorating-class",
+    "description": "Decorate six Halloween sugar cookies, 1-3pm. $57 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "DJ Bingo at Freebush Cellars",
+    "category": "music",
+    "start": "2026-10-30T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/616036/dj-bingo",
+    "description": "Music bingo with a DJ, 6-8pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Tyler McGinnis at Freebush Cellars",
+    "category": "music",
+    "start": "2026-10-31T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/616402/tyler-mcginnis",
+    "description": "Live music from Seattle-based Tyler McGinnis, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Jade Teather at Freebush Cellars",
+    "category": "music",
+    "start": "2026-11-01T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/622642/jade-teather",
+    "description": "Seattle singer-songwriter Jade Teather, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Fall Floral Centerpiece Workshop at Freebush",
+    "category": "art",
+    "start": "2026-11-01T22:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608779/fall-floral-centerpiece-workshop-at-freebush-cellars",
+    "description": "Floral centerpiece workshop with wine, 2-4pm. $63 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Aidan Rufer at Freebush Cellars",
+    "category": "music",
+    "start": "2026-11-07T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/607368/aidan-rufer",
+    "description": "Story-driven folk with Aidan Rufer, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Flowers for Wolves at Freebush Cellars",
+    "category": "music",
+    "start": "2026-11-08T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608924/flowers-for-wolves",
+    "description": "Pacific Northwest harmony duo, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Tyler McGinnis at Freebush Cellars",
+    "category": "music",
+    "start": "2026-11-14T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608086/tyler-mcginnis",
+    "description": "Live music from Seattle-based Tyler McGinnis, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Electric Boots (Elton John Tribute) at Freebush",
+    "category": "music",
+    "start": "2026-11-15T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/599320/electric-boots",
+    "description": "Elton John tribute, 6-9pm. $11 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Drag Brunch at Freebush Cellars",
+    "category": "comedy",
+    "start": "2026-11-15T18:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/619888/drag-brunch",
+    "description": "Brunch with a drag show, 10am-1pm. $32 per ticket includes a mimosa or Bloody Mary.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "DJ Bingo at Freebush Cellars",
+    "category": "music",
+    "start": "2026-11-20T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/616037/dj-bingo",
+    "description": "Music bingo with a DJ, 6-8pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Alex Britton at Freebush Cellars",
+    "category": "music",
+    "start": "2026-11-21T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608218/alex-britton",
+    "description": "Acoustic set from UK-born, Seattle-based Alex Britton, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Tyler McGinnis at Freebush Cellars",
+    "category": "music",
+    "start": "2026-11-22T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/604235/tyler-mcginnis",
+    "description": "Live music from Seattle-based Tyler McGinnis, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Big Daisy Energy at Freebush Cellars",
+    "category": "music",
+    "start": "2026-11-28T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/617087/big-daisy-energy",
+    "description": "Live trio, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Sarah Brunner at Freebush Cellars",
+    "category": "music",
+    "start": "2026-11-29T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/616027/sarah-brunner",
+    "description": "Acoustic Americana with Sarah Brunner, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Tyler McGinnis at Freebush Cellars",
+    "category": "music",
+    "start": "2026-12-05T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608087/tyler-mcginnis",
+    "description": "Live music from Seattle-based Tyler McGinnis, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Flowers for Wolves at Freebush Cellars",
+    "category": "music",
+    "start": "2026-12-06T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608922/flowers-for-wolves",
+    "description": "Pacific Northwest harmony duo, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Kellee Bradley at Freebush Cellars",
+    "category": "music",
+    "start": "2026-12-12T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608891/kelle-bradley",
+    "description": "Seattle singer-songwriter Kellee Bradley, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Murder Mystery Dinner: A Dance with Death at Freebush",
+    "category": "food-drink",
+    "start": "2026-12-13T01:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/608235/murder-mystery-dinner-a-dance-with-death",
+    "description": "1950s prom murder mystery dinner, 5-8pm. $125 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Izzy Burns at Freebush Cellars",
+    "category": "music",
+    "start": "2026-12-13T21:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/619065/izzy-burns",
+    "description": "Folk-pop singer-songwriter Izzy Burns, 1-4pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "DJ Bingo at Freebush Cellars",
+    "category": "music",
+    "start": "2026-12-18T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/616038/dj-bingo",
+    "description": "British-themed music bingo with a DJ, 6-8pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Dueling Pianos at Freebush Cellars",
+    "category": "music",
+    "start": "2026-12-19T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/604237/dueling-pianos",
+    "description": "Two pianists go head to head, 6-9pm. $52 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Electric Boots (Elton John Tribute) at Freebush",
+    "category": "music",
+    "start": "2026-12-20T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/604238/electric-boots",
+    "description": "Elton John tribute, 6-9pm. $11 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Big Daisy Energy at Freebush Cellars",
+    "category": "music",
+    "start": "2026-12-27T02:00:00.000Z",
+    "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/freebushcellars/event/617083/big-daisy-energy",
+    "description": "Live trio, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-10-03T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-10-04T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-10-10T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-10-11T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-10-17T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-10-18T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-10-24T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-10-25T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-10-31T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-11-01T00:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-11-07T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-11-08T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-11-14T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-11-15T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-11-21T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-11-22T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-11-28T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-11-29T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-12-05T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-12-06T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-12-12T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-12-13T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-12-19T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-12-20T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Friday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-12-26T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Saturday Night Music at Chateau Ste. Michelle",
+    "category": "music",
+    "start": "2026-12-27T01:00:00.000Z",
+    "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.ste-michelle.com/visit-us/experiences",
+    "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
+  },
+  {
+    "title": "The Red Party: From The Sky Down Fall Red Release",
+    "category": "food-drink",
+    "start": "2026-10-23T23:00:00.000Z",
+    "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+    "url": "https://www.exploretock.com/matthews-winery/event/623270",
+    "description": "New From The Sky Down red wine releases with live music and food pairings from an on-site food truck, starting 4pm. $30 per ticket.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-03"
   }
 ]
