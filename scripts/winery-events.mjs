@@ -249,6 +249,13 @@ async function main() {
   const data = JSON.parse(await readFile(process.env.WINERIES_FILE || 'data/wineries.json', 'utf8'));
   const jobs = [];
   for (const d of data.districts) for (const w of d.wineries) if (w.url) jobs.push([w, d.id]);
+  // District/regional calendars list events for many wineries at once.
+  for (const a of [
+    { name: 'Woodinville Wine Country', url: 'https://woodinvillewinecountry.com/' },
+    { name: 'Warehouse Wineries', url: 'https://www.warehousewineries.com/' },
+    { name: 'Artisan Hill', url: 'https://www.artisanhill.com/' },
+    { name: 'Woodinville Wine Country Events', url: 'https://woodinvillewinecountry.com/events/' },
+  ]) jobs.push([a, 'aggregator']);
   const results = [];
   let i = 0;
   const worker = async () => {
