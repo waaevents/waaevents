@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-10-03T09:13:12.935Z",
+  "updatedAt": "2026-10-03T16:52:29.976Z",
   "windowDays": 90,
-  "count": 827,
+  "count": 824,
   "events": [
-    {
-      "id": "winery-Bayernmoor Cellars-Estate Harvest Party-2026-10-03T12:00:00.000Z",
-      "title": "Estate Harvest Party",
-      "category": "food-drink",
-      "start": "2026-10-03T12:00:00.000Z",
-      "location": "",
-      "url": "https://bayernmoor.com/events/estate-harvest-party-844/",
-      "description": "Where: Our Stanwood Estate! When: October 4th, 2025 12-5pm Activities: Enjoy a tasting flight and an award-winning BBQ lunch from a local restaurant included in the ticket price. Vineyard tours will depart on the hour, glass and bottles available for purchase. Cost: $50 Ticket li",
-      "source": "Bayernmoor Cellars"
-    },
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: Fall Harvest Market-2026-10-03T12:00:00.000Z",
-      "title": "CHELAN: Fall Harvest Market",
-      "category": "music",
-      "start": "2026-10-03T12:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/fall-market-3/",
-      "description": "Join us at our Fall Harvest Market on October 3rd! Enjoy wine tasting & live music by Jon White while you browse goods from local artisans and vendors from 12-4pm. It’s the perfect opportunity to start your holiday shopping early, whether you’re looking for gifts for others or tr",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: Live Music: Jon White-2026-10-03T13:00:00.000Z",
-      "title": "CHELAN: Live Music: Jon White",
-      "category": "music",
-      "start": "2026-10-03T13:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/live-music-jon-white-3/",
-      "description": "Join us for live music on Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see you!",
-      "source": "Tsillan Cellars"
-    },
     {
       "id": "manual-Von's WA Resident Lunch: 20% Off Until 2pm-2026-10-03T18:00:00.000Z",
       "title": "Von's WA Resident Lunch: 20% Off Until 2pm",
