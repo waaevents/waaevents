@@ -28,13 +28,13 @@
       "note": "Wine-centric dining with house-made pasta, in the former Redhook Brewery space."
     },
     {
-      "name": "Purple Caf\u00e9 and Wine Bar",
+      "name": "Purple Café and Wine Bar",
       "url": "https://www.thepurplecafe.com/",
       "vibe": [
         "casual",
         "family"
       ],
-      "note": "Woodinville original \u2014 big wine-by-the-glass list, PNW comfort food."
+      "note": "Woodinville original — big wine-by-the-glass list, PNW comfort food."
     },
     {
       "name": "Heritage Restaurant | Bar",
@@ -43,7 +43,7 @@
         "casual",
         "family"
       ],
-      "note": "Community hub at the Hollywood Hill roundabout \u2014 approachable, moderately priced, good for date night or families."
+      "note": "Community hub at the Hollywood Hill roundabout — approachable, moderately priced, good for date night or families."
     },
     {
       "name": "Pintxo by Valdemar",
@@ -55,7 +55,7 @@
       "note": "Basque-inspired tapas and Spanish-and-Washington wine pairings at Valdemar Estates."
     },
     {
-      "name": "Molbak's Garden Caf\u00e9",
+      "name": "Molbak's Garden Café",
       "url": "https://www.harvestwoodinville.com/",
       "vibe": [
         "family",
@@ -79,7 +79,7 @@
         "views",
         "casual"
       ],
-      "note": "Rooftop bar at The SOMM with panoramic Mt. Rainier views \u2014 craft brews and spirits."
+      "note": "Rooftop bar at The SOMM with panoramic Mt. Rainier views — craft brews and spirits."
     },
     {
       "name": "Woodinville Cut Shop",
@@ -88,7 +88,7 @@
         "casual",
         "family"
       ],
-      "note": "American roadhouse \u2014 smoked meats, sandwiches, beer garden with a fire pit and live music some nights."
+      "note": "American roadhouse — smoked meats, sandwiches, beer garden with a fire pit and live music some nights."
     },
     {
       "name": "Woodinville Whiskey Co.",
@@ -97,7 +97,7 @@
         "casual",
         "views"
       ],
-      "note": "Distillery tasting room and tours \u2014 bourbon, rye, and cocktails rather than wine."
+      "note": "Distillery tasting room and tours — bourbon, rye, and cocktails rather than wine."
     },
     {
       "name": "Rooney's Sports Bar",
@@ -106,10 +106,10 @@
         "casual",
         "family"
       ],
-      "note": "Sports bar \u2014 game-day food and a big beer/spirits selection."
+      "note": "Sports bar — game-day food and a big beer/spirits selection."
     },
     {
-      "name": "Von's 1000\u00b0 Spirits",
+      "name": "Von's 1000° Spirits",
       "url": "https://vons1000spirits.com/",
       "vibe": [
         "casual",
@@ -132,16 +132,16 @@
       "vibe": [
         "casual"
       ],
-      "note": "Self-serve taproom \u2014 pour-your-own beer and cider flights."
+      "note": "Self-serve taproom — pour-your-own beer and cider flights."
     },
     {
-      "name": "Brix Wine Caf\u00e9",
+      "name": "Brix Wine Café",
       "url": "https://brixwinecafe.com/",
       "vibe": [
         "romantic",
         "casual"
       ],
-      "note": "Wine caf\u00e9 \u2014 light bites and a curated by-the-glass list."
+      "note": "Wine café — light bites and a curated by-the-glass list."
     },
     {
       "name": "Hal's Sports Bar",
@@ -227,6 +227,13 @@
         "casual"
       ],
       "note": "Beer-focused gastropub; regular happy hour."
+    },
+    {
+      "name": "SheChill Bakery",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Bakery in downtown Woodinville next to McQueen Champagne Bar and L'Ecole No. 41."
     }
   ]
 }

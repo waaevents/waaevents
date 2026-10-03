@@ -148,11 +148,24 @@ function wineryCategory(title, description) {
   return FALLBACK_CATEGORY;
 }
 
+const NAMED_ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', ndash: '–', mdash: '—', lsquo: '‘', rsquo: '’', ldquo: '“', rdquo: '”', hellip: '…', eacute: 'é', egrave: 'è' };
+function decodeEntities(s) {
+  return String(s || '')
+    .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16)))
+    .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(parseInt(n, 10)))
+    .replace(/&([a-z]+);/gi, (m, n) => NAMED_ENTITIES[n.toLowerCase()] ?? m);
+}
+// Loose key so '"No Fee" Bingo' and curly-quoted copies of the same event match.
+function looseKey(s) {
+  return decodeEntities(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+}
+
 function cleanDescription(desc) {
   if (!desc) return '';
   let text = String(desc);
   text = text.replace(/\[\/?vc_[^\]]*\]/g, ' '); // strip WPBakery shortcodes
   text = text.replace(/<[^>]+>/g, ' ');            // strip any HTML tags
+  text = decodeEntities(text);
   text = text.replace(/\s+/g, ' ').trim();
   return text;
 }
@@ -234,7 +247,7 @@ async function main() {
         if (start < now || start > maxDate) continue;
 
         const uid = ev.uid || `${ev.summary}-${start.toISOString()}`;
-        const title = (ev.summary || 'Untitled event').toString().trim();
+        const title = decodeEntities((ev.summary || 'Untitled event').toString()).trim();
         const description = cleanDescription(ev.description);
         const location = (ev.location || '').toString().trim();
 
@@ -260,7 +273,7 @@ async function main() {
         // Visit Woodinville and the Chamber calendar) — UID alone won't
         // catch that. Treat identical title + start time as the same
         // event and keep only the first one seen.
-        const titleTimeKey = `${title.toLowerCase()}|${start.toISOString()}`;
+        const titleTimeKey = `${looseKey(title)}|${start.toISOString()}`;
         if (seenTitleTime.has(titleTimeKey)) continue;
         seenTitleTime.add(titleTimeKey);
 
@@ -312,11 +325,11 @@ async function main() {
     for (const ev of wj.events || []) {
       const start = new Date(ev.start);
       if (Number.isNaN(start.getTime()) || start < now || start > maxDate) continue;
-      const title = (ev.title || 'Untitled event').toString().trim();
+      const title = decodeEntities((ev.title || 'Untitled event').toString()).trim();
       const uid = `winery-${ev.source}-${title}-${start.toISOString()}`;
       if (seenIds.has(uid)) continue;
       seenIds.add(uid);
-      const titleTimeKey = `${title.toLowerCase()}|${start.toISOString()}`;
+      const titleTimeKey = `${looseKey(title)}|${start.toISOString()}`;
       if (seenTitleTime.has(titleTimeKey)) continue;
       seenTitleTime.add(titleTimeKey);
       const description = cleanDescription(ev.description);
@@ -359,12 +372,12 @@ async function main() {
     if (Number.isNaN(start.getTime())) continue;
     if (start < now || start > maxDate) continue;
 
-    const title = (ev.title || 'Untitled event').toString().trim();
+    const title = decodeEntities((ev.title || 'Untitled event').toString()).trim();
     const uid = ev.id || `manual-${title}-${start.toISOString()}`;
     if (seenIds.has(uid)) continue;
     seenIds.add(uid);
 
-    const titleTimeKey = `${title.toLowerCase()}|${start.toISOString()}`;
+    const titleTimeKey = `${looseKey(title)}|${start.toISOString()}`;
     if (seenTitleTime.has(titleTimeKey)) continue;
     seenTitleTime.add(titleTimeKey);
 
@@ -403,6 +416,10 @@ async function main() {
     process.exit(1);
   }
 
+  for (const e of events) {
+    e.title = decodeEntities(e.title);
+    e.location = decodeEntities(e.location);
+  }
   events.sort((a, b) => new Date(a.start) - new Date(b.start));
 
   const output = {

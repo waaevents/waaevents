@@ -517,6 +517,11 @@
           ]
         },
         {
+          "name": "Ballard Pizza Company",
+          "url": "https://ballardpizzacompany.com/",
+          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41"
+        },
+        {
           "name": "Bayernmoor Cellars",
           "url": "https://bayernmoor.com/",
           "types": [
@@ -575,6 +580,18 @@
             "bubbles"
           ],
           "note": "Champagne & sparkling only, Schoolhouse District"
+        },
+        {
+          "name": "Pour Decisions Taps",
+          "url": "https://www.pourdecisionstaps.com/",
+          "wineFocus": [
+            "beer"
+          ],
+          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41"
+        },
+        {
+          "name": "SheChill Bakery",
+          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41"
         },
         {
           "name": "Sleight of Hand Cellars",
