@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-02T18:07:56.386Z",
+  "ranAt": "2026-10-03T01:00:47.969Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -53,6 +53,11 @@
       "winery": "Ambassador Wines",
       "status": "no-events-found",
       "platform": "wordpress"
+    },
+    {
+      "winery": "Artisan Hill",
+      "status": "no-events-found",
+      "platform": "wix"
     },
     {
       "winery": "Avennia",
@@ -340,7 +345,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 4,
+      "count": 3,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -363,7 +368,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 23,
+      "count": 22,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -411,7 +416,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 14,
+      "count": 13,
       "eventPage": "https://www.synnecellars.com/"
     },
     {
@@ -442,7 +447,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 13,
+      "count": 12,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -462,6 +467,11 @@
       "winery": "W.T. Vintners",
       "status": "no-events-found",
       "platform": "squarespace"
+    },
+    {
+      "winery": "Warehouse Wineries",
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Warr-King Wines",
@@ -485,6 +495,19 @@
       "winery": "Wit Cellars",
       "status": "no-events-found",
       "platform": "wordpress"
+    },
+    {
+      "winery": "Woodinville Wine Country",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Woodinville Wine Country Events",
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 1,
+      "eventPage": "https://woodinvillewinecountry.com/event/harvest-party-bayernmoor-cellars-estate-winery/"
     }
   ]
 }
