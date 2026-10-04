@@ -626,6 +626,14 @@
         {
           "name": "Tsillan Cellars",
           "url": "https://tsillancellars.com/"
+        },
+        {
+          "name": "Woodin Creek Kitchen & Tap",
+          "url": "https://www.woodincreekkitchen.com/",
+          "wineFocus": [
+            "beer"
+          ],
+          "note": "30 beers on tap. $5 beer Thursdays."
         }
       ]
     },
