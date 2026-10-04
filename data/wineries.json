@@ -553,9 +553,21 @@
           ]
         },
         {
+          "name": "Flatstick Pub Woodinville",
+          "wineFocus": [
+            "beer"
+          ],
+          "note": "Pub, downtown Woodinville"
+        },
+        {
           "name": "Grosgrain Vineyards",
           "url": "https://grosgrainvineyards.com/",
           "note": "The Harvest"
+        },
+        {
+          "name": "Jackson House",
+          "url": "https://jacksonhousewoodinville.com/",
+          "note": "Restaurant, downtown Woodinville"
         },
         {
           "name": "L'Ecole No. 41",
@@ -591,7 +603,8 @@
         },
         {
           "name": "SheChill Bakery",
-          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41"
+          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41",
+          "url": "https://shechill.square.site/"
         },
         {
           "name": "Sleight of Hand Cellars",
