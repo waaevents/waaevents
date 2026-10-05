@@ -87,10 +87,16 @@ async function renderCategoryList() {
       const title = ev.url
         ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>`
         : escapeHtml(ev.title);
-      const meta = [full + ' · ' + time, ev.location].filter(Boolean).join(' — ');
-      const desc = false
-        ? `<p class="event-desc">${escapeHtml(ev.description)}</p>`
-        : '';
+      // Keep each listing simple: title (artist/event + venue), then time and
+      // a short venue name only when the title doesn't already name it.
+      const venue = String(ev.location || '').split(',')[0].trim();
+      const norm = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+      const venueInTitle = venue && venue.split('&').some((part) => {
+        const k = norm(part).split(' ').slice(0, 2).join(' ');
+        return k && norm(ev.title).includes(k);
+      });
+      const meta = [full + ' · ' + time, venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
+      const desc = '';
       return `
         <li class="event-card">
           <div class="event-date">
