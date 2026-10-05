@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-04T17:11:40.798Z",
+  "ranAt": "2026-10-05T21:03:12.949Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 12,
-      "addedCount": 12
+      "rawCount": 10,
+      "addedCount": 10
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -41,7 +41,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 45,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -446,7 +446,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 13,
+      "count": 12,
       "eventPage": "https://www.synnecellars.com/"
     },
     {
@@ -487,8 +487,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Village Wines",
@@ -547,7 +547,7 @@
       "strategy": "jsonld",
       "platform": "wordpress",
       "count": 1,
-      "eventPage": "https://woodinvillewinecountry.com/event/stein-vine-schoolhouse-oktoberfest-synne-cellars%f0%9f%8d%ba%f0%9f%8d%b7/"
+      "eventPage": "https://woodinvillewinecountry.com/event/kindness-for-kids-guild-4th-annual-dinner-auction-evergreen-family-wines/"
     }
   ]
 }
