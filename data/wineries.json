@@ -88,11 +88,12 @@
         },
         {
           "name": "Florence Cellars",
-          "url": "https://florencecellars.com/",
+          "url": "https://florencecellars.com/pages/tasting-room",
           "types": [
             "live-music",
             "family"
-          ]
+          ],
+          "note": "14475 Redmond-Woodinville Rd NE. Hours: Wed 4-8pm, Thu-Fri 4-10pm, Sat 12-10pm, Sun 12-5pm. Sip & Swing golf simulator."
         },
         {
           "name": "Goose Ridge Woodinville Tasting Room",
