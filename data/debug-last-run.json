@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-10-05T21:03:12.949Z",
+  "ranAt": "2026-10-06T18:42:20.121Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": false,
-      "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:211:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:240:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": false,
-      "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:211:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:240:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "425 Cellars",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 16,
-      "addedCount": 5
+      "addedCount": 4
     }
   ],
   "wineryReport": [
@@ -169,8 +169,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "EFESTĒ",
@@ -179,13 +179,16 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 5,
+      "eventPage": "https://evergreenfamilywines.com/events/list/"
     },
     {
       "winery": "Fidélitas",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Fireside Lounge",
@@ -269,8 +272,8 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "LaShellē Wines",
@@ -332,8 +335,8 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
@@ -370,8 +373,8 @@
     },
     {
       "winery": "Pomum Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Pondera Winery",
@@ -398,8 +401,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "SheChill Bakery",
@@ -408,8 +411,8 @@
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -423,8 +426,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Stevens Winery",
@@ -487,8 +490,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Village Wines",
@@ -518,7 +521,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 6,
+      "count": 8,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
