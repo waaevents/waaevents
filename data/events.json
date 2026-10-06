@@ -1,68 +1,8 @@
 {
-  "updatedAt": "2026-10-05T21:03:12.961Z",
+  "updatedAt": "2026-10-06T18:42:20.134Z",
   "windowDays": 90,
-  "count": 834,
+  "count": 836,
   "events": [
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-05T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-05T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10002214-1791219600-1791226800@www.alexandrianicolecellars.com",
-      "title": "Bunco Nights (No Fee)",
-      "category": "community",
-      "start": "2026-10-06T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-10-05/",
-      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-06T00:00:00.000Z",
-      "title": "Bunco Night at Alexandria Nicole Cellars",
-      "category": "food-drink",
-      "start": "2026-10-06T00:00:00.000Z",
-      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
-      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at Bin 47-2026-10-06T01:00:00.000Z",
-      "title": "Live Music at Bin 47",
-      "category": "music",
-      "start": "2026-10-06T01:00:00.000Z",
-      "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Game Night at the Cut Shop-2026-10-06T02:00:00.000Z",
-      "title": "Game Night at the Cut Shop",
-      "category": "food-drink",
-      "start": "2026-10-06T02:00:00.000Z",
-      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
-      "url": "https://www.woodinvillecutshop.com/",
-      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-06T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-06T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "10002490-1791288000-1791313200@www.alexandrianicolecellars.com",
       "title": "Taco Tuesdays @ Woodin Creek",
@@ -384,6 +324,16 @@
       "source": "425 Cellars"
     },
     {
+      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-10-09T00:30:00.000Z",
+      "title": "Knotty Thursdays | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-09T00:30:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-08/",
+      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity,…</p>\\n",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Knotty Thursdays-2026-10-09T00:30:00.000Z",
       "title": "Knotty Thursdays",
       "category": "community",
@@ -624,6 +574,16 @@
       "source": "Tsillan Cellars"
     },
     {
+      "id": "winery-Evergreen Family Wines-Yoga Uncorked | Woodinville-2026-10-10T17:30:00.000Z",
+      "title": "Yoga Uncorked | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-10T17:30:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/yoga-uncorked-woodinville/2026-10-10/",
+      "description": "<p>Enjoy a fun morning of Yoga + Wine at Evergreen Family Wines in Woodinville!!</p>\\n",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Yoga Uncorked-2026-10-10T17:30:00.000Z",
       "title": "Yoga Uncorked",
       "category": "community",
@@ -692,6 +652,16 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Live Music by Young-Chhaylee | Woodinville-2026-10-10T22:30:00.000Z",
+      "title": "Live Music by Young-Chhaylee | Woodinville",
+      "category": "music",
+      "start": "2026-10-10T22:30:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/live-music-by-young-chhaylee-woodinville-2/2026-10-10/",
+      "description": "<p>Young-Chhaylee is a singer/songwriter of the PNW. Growing up on the southside of Everett, WA and being a first generation Cambodian-American has shaped the experience that he speaks on. His…</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Live Music by Young-Chhaylee-2026-10-10T22:30:00.000Z",
@@ -804,6 +774,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-10-11T19:00:00.000Z",
+      "title": "Sip Back Sundays | All Locations",
+      "category": "food-drink",
+      "start": "2026-10-11T19:00:00.000Z",
+      "location": "",
+      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-10-11/",
+      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend…</p>\\n",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Leony's Cellars Tasting Event at Freebush-2026-10-11T19:00:00.000Z",
       "title": "Leony's Cellars Tasting Event at Freebush",
       "category": "food-drink",
@@ -832,6 +812,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Seahawks vs 49ers | All Locations-2026-10-11T20:25:00.000Z",
+      "title": "Seahawks vs 49ers | All Locations",
+      "category": "community",
+      "start": "2026-10-11T20:25:00.000Z",
+      "location": "",
+      "url": "https://evergreenfamilywines.com/event/seahawks-vs-49ers-all-locations/",
+      "description": "<p>Get ready to cheer, sip, and celebrate! 💙💚 Join us on select Sundays at Evergreen and catch the game while enjoying $12 tastings for the 12th and select premium glass…</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-10-11T20:25:00.000Z",
@@ -2195,12 +2185,12 @@
     },
     {
       "id": "10000426-1792800000-1792972799@425cellars.com",
-      "title": "Closed for Fall Release",
+      "title": "Club Release! Members, please check your emails for more information",
       "category": "community",
       "start": "2026-10-24T00:00:00.000Z",
       "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/closed-for-fall-release/",
-      "description": "Closed for Fall Release",
+      "url": "https://425cellars.com/event/club-release-members-please-check-your-emails-for-more-information/",
+      "description": "Club Release! Members, please check your emails for more information",
       "source": "425 Cellars"
     },
     {
@@ -2582,6 +2572,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Watts Brewing Company-Live Music with Route 66 Big Band-2026-10-27T01:00:00.742Z",
+      "title": "Live Music with Route 66 Big Band",
+      "category": "music",
+      "start": "2026-10-27T01:00:00.742Z",
+      "location": "Watts Brewing Company, 15510 Redmond - Woodinville Rd NE Ste E110, Woodinville, WA, 98072",
+      "url": "https://wattsbrewingcompany.com/events/2025/10/6/live-music-with-route-66-big-band-wbepm-ew42y",
+      "description": "Come and get your kicks with Route 66 Big Band bringing the big band sound of the swing era!",
+      "source": "Watts Brewing Company"
     },
     {
       "id": "manual-Game Night at the Cut Shop-2026-10-27T02:00:00.000Z",
@@ -3072,6 +3072,16 @@
       "url": "https://www.myvillagewines.com/event/pajama-bingo-party-with-kelvin/",
       "description": "Please note our fall Bingo start time @ 7pm! Join us for a night of BINGO & PAJAMA FUN at Village Wines with Kelvin ! Win prizes on every round , sip wine, and enjoy delicious bites. Grab your friends, see you soon Bingo is free to play , with a simple $5 Reservation Deposit to h",
       "source": "Village Wines"
+    },
+    {
+      "id": "winery-Watts Brewing Company-Acquired Taste Halloween-2026-10-31T02:00:00.119Z",
+      "title": "Acquired Taste Halloween",
+      "category": "music",
+      "start": "2026-10-31T02:00:00.119Z",
+      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
+      "url": "https://wattsbrewingcompany.com/events/2026/10/30/acquired-taste-halloween",
+      "description": "Get your groove on at Watts Brewing this Hallows Eve with live music from Acquired Taste! Join us for a Friday night full of rockin’ music, great beers, and a legendary costume contest—with prizes!",
+      "source": "Watts Brewing Company"
     },
     {
       "id": "winery-Bayernmoor Cellars-Halloween Murder Mystery Party-2026-10-31T05:30:00.000Z",
@@ -6902,6 +6912,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-12-13T08:00:00.000Z",
+      "title": "Social Sundays: New Connections",
+      "category": "food-drink",
+      "start": "2026-12-13T08:00:00.000Z",
+      "location": "All Locations",
+      "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-12-13/",
+      "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
+      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Izzy Burns at Freebush Cellars-2026-12-13T21:00:00.000Z",
