@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-07T19:08:49.033Z",
+  "ranAt": "2026-10-07T22:13:58.487Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -277,7 +277,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 16,
+      "count": 15,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -526,7 +526,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 8,
+      "count": 13,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
