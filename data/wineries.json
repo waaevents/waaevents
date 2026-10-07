@@ -170,7 +170,8 @@
             "red",
             "white",
             "bubbles"
-          ]
+          ],
+          "note": "14810 NE 145th St #A, Hollywood Schoolhouse. Closed Mondays. Live music on select dates."
         },
         {
           "name": "Matthews Winery & From The Sky Down",
@@ -214,6 +215,15 @@
           ]
         },
         {
+          "name": "Synne Cellars",
+          "url": "https://www.synnecellars.com/our-tasting-room",
+          "types": [
+            "live-music",
+            "casual"
+          ],
+          "note": "14810 NE 145th St Suite B, Hollywood Schoolhouse. Hours: Wed-Sun 12-8pm."
+        },
+        {
           "name": "The Hollywood Tavern",
           "note": "14508 Woodinville-Redmond Rd NE. Hours: Mon-Thu 11:30am-9:30pm, Fri 11:30am-10:30pm, Sat 11am-10:30pm, Sun 11am-9:30pm."
         },
@@ -246,6 +256,11 @@
             "white",
             "bubbles"
           ]
+        },
+        {
+          "name": "Woodinville Whiskey Co.",
+          "url": "https://woodinvillewhiskeyco.com/",
+          "note": "14509 Woodinville-Redmond Rd NE. Distillery tasting room open daily 11am-6pm. Tours by reservation."
         }
       ]
     },
@@ -356,14 +371,6 @@
         {
           "name": "Story Cellars",
           "url": "https://www.storycellars.com/"
-        },
-        {
-          "name": "Synne Cellars",
-          "url": "https://www.synnecellars.com/",
-          "types": [
-            "live-music",
-            "casual"
-          ]
         },
         {
           "name": "Tilton River Cellars"
@@ -667,7 +674,7 @@
       "wineries": [
         {
           "name": "JM Cellars",
-          "note": "Bramble Bump, above Chateau Ste. Michelle",
+          "note": "Bramble Bump, 14404 137th Pl NE: wine club members only, by reservation Fri-Sun.",
           "url": "https://jmcellars.com/"
         }
       ]
