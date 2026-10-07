@@ -214,6 +214,10 @@
           ]
         },
         {
+          "name": "The Hollywood Tavern",
+          "note": "14508 Woodinville-Redmond Rd NE. Hours: Mon-Thu 11:30am-9:30pm, Fri 11:30am-10:30pm, Sat 11am-10:30pm, Sun 11am-9:30pm."
+        },
+        {
           "name": "The SOMM Hotel",
           "note": "Bin 47 and The Shed",
           "url": "https://thesomm.com/"
@@ -270,6 +274,11 @@
         {
           "name": "Category 5 Cellars",
           "url": "https://cat5cellars.com/"
+        },
+        {
+          "name": "EFESTĒ",
+          "url": "https://efeste.com/",
+          "note": "19730 144th Ave NE. Hours: Sun-Wed 12-6pm, Thu and Sat 12-7pm, Fri 12-8pm."
         },
         {
           "name": "Freebush Cellars",
@@ -362,7 +371,7 @@
         {
           "name": "Tinte Cellars",
           "url": "https://tintecellars.com/",
-          "note": "19495 144th Ave NE, Suite A110",
+          "note": "19495 144th Ave NE Ste A110. Hours: Wed-Sun 12-5pm.",
           "wineFocus": [
             "red"
           ]
@@ -560,6 +569,10 @@
             "white",
             "bubbles"
           ]
+        },
+        {
+          "name": "Dossier Wine Collective",
+          "note": "15029 Woodinville-Redmond Rd #300, next to Von's 1000 Spirits"
         },
         {
           "name": "Flatstick Pub Woodinville",
