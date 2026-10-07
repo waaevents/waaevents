@@ -8284,5 +8284,45 @@
     "description": "",
     "addedBy": "manual",
     "addedOn": "2026-10-03"
+  },
+  {
+    "title": "Comedy Night at Love That Red Winery",
+    "category": "comedy",
+    "start": "2026-10-17T02:00:00.000Z",
+    "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
+    "url": "https://www.eventbrite.com/e/the-winery-comedy-tour-at-love-that-red-tickets-226792180517",
+    "description": "",
+    "addedBy": "manual",
+    "addedOn": "2026-10-06"
+  },
+  {
+    "title": "Fall Rustic Wreath Craft Workshop at Love That Red Winery",
+    "category": "art",
+    "start": "2026-11-07T22:00:00.000Z",
+    "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
+    "url": "https://www.eventbrite.com/e/fall-rustic-wreath-workshop-tickets-2001258827024",
+    "description": "",
+    "addedBy": "manual",
+    "addedOn": "2026-10-06"
+  },
+  {
+    "title": "Comedy Night at Love That Red Winery",
+    "category": "comedy",
+    "start": "2026-11-14T03:00:00.000Z",
+    "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
+    "url": "https://www.eventbrite.com/e/the-winery-comedy-tour-at-love-that-red-tickets-226792180517",
+    "description": "",
+    "addedBy": "manual",
+    "addedOn": "2026-10-06"
+  },
+  {
+    "title": "Comedy Night at Love That Red Winery",
+    "category": "comedy",
+    "start": "2026-12-12T03:00:00.000Z",
+    "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
+    "url": "https://www.eventbrite.com/e/the-winery-comedy-tour-at-love-that-red-tickets-226792180517",
+    "description": "",
+    "addedBy": "manual",
+    "addedOn": "2026-10-06"
   }
 ]
