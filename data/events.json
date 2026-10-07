@@ -1,78 +1,8 @@
 {
-  "updatedAt": "2026-10-06T18:42:20.134Z",
+  "updatedAt": "2026-10-07T00:25:56.115Z",
   "windowDays": 90,
-  "count": 836,
+  "count": 885,
   "events": [
-    {
-      "id": "10002490-1791288000-1791313200@www.alexandrianicolecellars.com",
-      "title": "Taco Tuesdays @ Woodin Creek",
-      "category": "community",
-      "start": "2026-10-06T19:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-10-06/",
-      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-06T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-06T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-06T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-06T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-06T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-06T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Taco Tuesday at Woodin Creek Kitchen & Tap-2026-10-06T23:00:00.000Z",
-      "title": "Taco Tuesday at Woodin Creek Kitchen & Tap",
-      "category": "food-drink",
-      "start": "2026-10-06T23:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10001736-1791306000-1791313200@www.alexandrianicolecellars.com",
-      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
-      "category": "community",
-      "start": "2026-10-07T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-10-06/",
-      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-10-07T00:00:00.000Z",
-      "title": "Bingo Night at Alexandria Nicole Cellars",
-      "category": "food-drink",
-      "start": "2026-10-07T00:00:00.000Z",
-      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
-      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Live Music at Bin 47-2026-10-07T01:00:00.000Z",
       "title": "Live Music at Bin 47",
@@ -80,6 +10,16 @@
       "start": "2026-10-07T01:00:00.000Z",
       "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Patricio Contreras at Fireside Lounge-2026-10-07T01:00:00.000Z",
+      "title": "Patricio Contreras at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-07T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
     },
@@ -244,6 +184,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-New Age Flamenco at Fireside Lounge-2026-10-08T01:00:00.000Z",
+      "title": "New Age Flamenco at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-08T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Tinte Cellars-Fall Floral Design Class (WOODINVILLE)-2026-10-08T17:30:00.000Z",
       "title": "Fall Floral Design Class (WOODINVILLE)",
       "category": "art",
@@ -314,6 +264,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-09T00:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-10-09T00:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "10000419-1791480600-1791487800@425cellars.com",
       "title": "Music featuring - The Dog Tones",
       "category": "music",
@@ -322,16 +282,6 @@
       "url": "https://425cellars.com/event/music-featuring-the-dog-tones/",
       "description": "“🎶 Thursday Night at 425 Cellars 🎶 Join us Thursday, October 8th from 5:30–7:30 PM for live music featuring The Dogtones! 🐾 Making audiences dance, sing along, and laugh since 2008, The Dogtones bring a huge catalog of songs you know and love, a fearless willingness to take on",
       "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-10-09T00:30:00.000Z",
-      "title": "Knotty Thursdays | Woodinville",
-      "category": "food-drink",
-      "start": "2026-10-09T00:30:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-08/",
-      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity,…</p>\\n",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Knotty Thursdays-2026-10-09T00:30:00.000Z",
@@ -371,6 +321,16 @@
       "location": "LaShellé Wines, 19501 144th Ave NE #C900, Woodinville, WA 98072",
       "url": "https://www.lashellewines.com/calendar/music-featuring-goldy-and-foss",
       "description": "Live music with Goldy & Foss (Americana, folk rock and classic covers). Doors 5pm. Wine, sandwiches and charcuterie plates for purchase.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Ben Meyer at Fireside Lounge-2026-10-09T01:00:00.000Z",
+      "title": "Ben Meyer at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-09T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
       "source": "Manually added"
     },
     {
@@ -514,6 +474,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Two Vintners-Project 33 (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle-2026-10-10T01:00:00.000Z",
+      "title": "Project 33 (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle",
+      "category": "community",
+      "start": "2026-10-10T01:00:00.000Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast Woodinville, WA, 98072 United States",
+      "url": "",
+      "description": "",
+      "source": "Two Vintners"
+    },
+    {
       "id": "manual-Big Daisy Energy at Freebush Cellars-2026-10-10T01:00:00.000Z",
       "title": "Big Daisy Energy at Freebush Cellars",
       "category": "music",
@@ -540,6 +510,26 @@
       "start": "2026-10-10T01:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-10-10T01:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-10-10T01:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Jeannie Rak at Fireside Lounge-2026-10-10T01:00:00.000Z",
+      "title": "Jeannie Rak at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-10T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
     },
@@ -572,16 +562,6 @@
       "url": "https://tsillancellars.com/event/live-music-chris-ward-3/",
       "description": "Join us for live music on Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see you!",
       "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Yoga Uncorked | Woodinville-2026-10-10T17:30:00.000Z",
-      "title": "Yoga Uncorked | Woodinville",
-      "category": "food-drink",
-      "start": "2026-10-10T17:30:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/yoga-uncorked-woodinville/2026-10-10/",
-      "description": "<p>Enjoy a fun morning of Yoga + Wine at Evergreen Family Wines in Woodinville!!</p>\\n",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Yoga Uncorked-2026-10-10T17:30:00.000Z",
@@ -652,16 +632,6 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Live Music by Young-Chhaylee | Woodinville-2026-10-10T22:30:00.000Z",
-      "title": "Live Music by Young-Chhaylee | Woodinville",
-      "category": "music",
-      "start": "2026-10-10T22:30:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-young-chhaylee-woodinville-2/2026-10-10/",
-      "description": "<p>Young-Chhaylee is a singer/songwriter of the PNW. Growing up on the southside of Everett, WA and being a first generation Cambodian-American has shaped the experience that he speaks on. His…</p>\\n",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Live Music by Young-Chhaylee-2026-10-10T22:30:00.000Z",
@@ -744,6 +714,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Rafael Cárdenas at Fireside Lounge-2026-10-11T01:00:00.000Z",
+      "title": "Rafael Cárdenas at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-11T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Larry Murante-2026-10-11T01:00:00.035Z",
       "title": "Live Music at Hollywood Hill: Larry Murante",
       "category": "music",
@@ -774,16 +754,6 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
-      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-10-11T19:00:00.000Z",
-      "title": "Sip Back Sundays | All Locations",
-      "category": "food-drink",
-      "start": "2026-10-11T19:00:00.000Z",
-      "location": "",
-      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-10-11/",
-      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend…</p>\\n",
-      "source": "Evergreen Family Wines"
-    },
-    {
       "id": "manual-Leony's Cellars Tasting Event at Freebush-2026-10-11T19:00:00.000Z",
       "title": "Leony's Cellars Tasting Event at Freebush",
       "category": "food-drink",
@@ -812,16 +782,6 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Seahawks vs 49ers | All Locations-2026-10-11T20:25:00.000Z",
-      "title": "Seahawks vs 49ers | All Locations",
-      "category": "community",
-      "start": "2026-10-11T20:25:00.000Z",
-      "location": "",
-      "url": "https://evergreenfamilywines.com/event/seahawks-vs-49ers-all-locations/",
-      "description": "<p>Get ready to cheer, sip, and celebrate! 💙💚 Join us on select Sundays at Evergreen and catch the game while enjoying $12 tastings for the 12th and select premium glass…</p>\\n",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-10-11T20:25:00.000Z",
@@ -944,14 +904,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-Bunco Nights (No Fee)-2026-10-13T00:00:00.000Z",
+      "id": "10002215-1791824400-1791831600@www.alexandrianicolecellars.com",
       "title": "Bunco Nights (No Fee)",
       "category": "community",
       "start": "2026-10-13T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-10-12/",
-      "description": "@ Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need t",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-13T00:00:00.000Z",
@@ -1070,6 +1030,16 @@
       "start": "2026-10-14T01:00:00.000Z",
       "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Patricio Contreras at Fireside Lounge-2026-10-14T01:00:00.000Z",
+      "title": "Patricio Contreras at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-14T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
     },
@@ -1194,6 +1164,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-New Age Flamenco at Fireside Lounge-2026-10-15T01:00:00.000Z",
+      "title": "New Age Flamenco at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-15T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-LaShellē Wines-Dried Flower Pumpkin Class at LaShellé Wines-2026-10-15T01:00:00.021Z",
       "title": "Dried Flower Pumpkin Class at LaShellé Wines",
       "category": "art",
@@ -1264,6 +1244,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-16T00:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-10-16T00:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Prohibition Cellars-Paint & Sip: Pumpkin & Petals-2026-10-16T00:00:00.888Z",
       "title": "Paint & Sip: Pumpkin & Petals",
       "category": "art",
@@ -1321,6 +1311,16 @@
       "location": "Studio 1886, 15500 Woodinville-Redmond Rd NE #C600, Woodinville, WA 98072",
       "url": "https://www.exploretock.com/studio1886/event/625661/80s-vinyl-bingo",
       "description": "6-8pm",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Sarah Brunner at Fireside Lounge-2026-10-16T01:00:00.000Z",
+      "title": "Sarah Brunner at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-16T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
       "source": "Manually added"
     },
     {
@@ -1454,6 +1454,26 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Two Vintners-2026-10-17T01:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-10-17T01:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Richard Taylor at Fireside Lounge-2026-10-17T01:00:00.000Z",
+      "title": "Richard Taylor at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-17T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Prohibition Cellars-Distant station-2026-10-17T01:00:00.175Z",
       "title": "Distant station",
       "category": "music",
@@ -1482,6 +1502,16 @@
       "url": "https://darbywinery.com/events/oct-comedy-show/",
       "description": "Comedy night at Darby Winery Woodinville, 7-8:30pm. Ticketed.",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Wit Cellars-Fall Release Weekend at WIT Cellars – Woodinville-2026-10-17T07:00:00.000Z",
+      "title": "Fall Release Weekend at WIT Cellars – Woodinville",
+      "category": "music",
+      "start": "2026-10-17T07:00:00.000Z",
+      "location": "WIT Cellars – Woodinville, 19501 144th Ave NE Suite A400, Woodinville",
+      "url": "https://witcellars.com/event/fall-release-weekend-at-wit-cellars-woodinville/",
+      "description": "It’s time for the Fall Release at WIT Cellars! Join us in Woodinville October 17–18 for a weekend of new wines, food pairings, live music, and plenty of fall fun. 🍂🍷 This fall’s release features two beautiful reds: 2023 Petit Verdot — Olsen Vineyard 2023 Cabernet Sauvignon — El",
+      "source": "Wit Cellars"
     },
     {
       "id": "winery-Tsillan Cellars-CHELAN: Live Music – Taste of Whisky-2026-10-17T13:00:00.000Z",
@@ -1520,6 +1550,16 @@
       "start": "2026-10-17T21:00:00.000Z",
       "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
       "url": "https://vons1000spirits.com/location/woodinville/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Hilary Joy at WIT Cellars Woodinville-2026-10-17T21:00:00.000Z",
+      "title": "Hilary Joy at WIT Cellars Woodinville",
+      "category": "music",
+      "start": "2026-10-17T21:00:00.000Z",
+      "location": "WIT Cellars Woodinville, 19501 144th Ave NE Suite A400, Woodinville, WA 98072",
+      "url": "https://witcellars.com/event/fall-release-weekend-at-wit-cellars-woodinville/",
       "description": "",
       "source": "Manually added"
     },
@@ -1610,6 +1650,16 @@
       "start": "2026-10-18T20:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Jeannie Rak at WIT Cellars Woodinville-2026-10-18T20:00:00.000Z",
+      "title": "Jeannie Rak at WIT Cellars Woodinville",
+      "category": "music",
+      "start": "2026-10-18T20:00:00.000Z",
+      "location": "WIT Cellars Woodinville, 19501 144th Ave NE Suite A400, Woodinville, WA 98072",
+      "url": "https://witcellars.com/event/fall-release-weekend-at-wit-cellars-woodinville/",
       "description": "",
       "source": "Manually added"
     },
@@ -1854,6 +1904,26 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Patricio Contreras at Fireside Lounge-2026-10-21T01:00:00.000Z",
+      "title": "Patricio Contreras at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-21T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Jeannie Rak at Fireside Lounge-2026-10-21T01:00:00.000Z",
+      "title": "Jeannie Rak at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-21T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Boot Camp Line Dancing at LaShellé Wines-2026-10-21T02:00:00.000Z",
       "title": "Boot Camp Line Dancing at LaShellé Wines",
       "category": "community",
@@ -1964,6 +2034,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-New Age Flamenco at Fireside Lounge-2026-10-22T01:00:00.000Z",
+      "title": "New Age Flamenco at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-22T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "10000423-1792609200-1792612800@425cellars.com",
       "title": "Wine and Bingo night with Debbie",
       "category": "community",
@@ -2020,6 +2100,16 @@
       "start": "2026-10-22T23:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-23T00:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-10-23T00:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -2284,6 +2374,26 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Two Vintners-2026-10-24T01:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-10-24T01:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Linzy Collins at Fireside Lounge-2026-10-24T01:00:00.000Z",
+      "title": "Linzy Collins at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-24T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Prohibition Cellars-The Cover-Up-2026-10-24T01:00:00.937Z",
       "title": "The Cover-Up",
       "category": "food-drink",
@@ -2400,6 +2510,16 @@
       "start": "2026-10-25T01:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-King Dre at Fireside Lounge-2026-10-25T01:00:00.000Z",
+      "title": "King Dre at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-25T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
     },
@@ -2694,6 +2814,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Patricio Contreras at Fireside Lounge-2026-10-28T01:00:00.000Z",
+      "title": "Patricio Contreras at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-28T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Boot Camp Line Dancing at LaShellé Wines-2026-10-28T02:00:00.000Z",
       "title": "Boot Camp Line Dancing at LaShellé Wines",
       "category": "community",
@@ -2794,6 +2924,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-New Age Flamenco at Fireside Lounge-2026-10-29T01:00:00.000Z",
+      "title": "New Age Flamenco at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-29T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Watts Brewing Company-Private Party-2026-10-29T02:00:00.757Z",
       "title": "Private Party",
       "category": "food-drink",
@@ -2864,6 +3004,26 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Woodinville After Dark at Willows Lodge-2026-10-29T23:30:00.000Z",
+      "title": "Woodinville After Dark at Willows Lodge",
+      "category": "community",
+      "start": "2026-10-29T23:30:00.000Z",
+      "location": "Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/woodinville-after-dark/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-30T00:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-10-30T00:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "10000427-1793295000-1793302200@425cellars.com",
       "title": "Music Featuring - Annie Eastwood & Her All-Star Band",
       "category": "music",
@@ -2901,6 +3061,16 @@
       "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
       "url": "https://www.exploretock.com/freebushcellars/event/616036/dj-bingo",
       "description": "Music bingo with a DJ, 6-8pm.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Sarah Brunner at Fireside Lounge-2026-10-30T01:00:00.000Z",
+      "title": "Sarah Brunner at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-30T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
       "source": "Manually added"
     },
     {
@@ -3054,6 +3224,26 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Two Vintners-2026-10-31T01:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-10-31T01:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Goldy & Foss at Fireside Lounge-2026-10-31T01:00:00.000Z",
+      "title": "Goldy & Foss at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-31T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Prohibition Cellars-Three Trick Pony-2026-10-31T01:00:00.879Z",
       "title": "Three Trick Pony",
       "category": "music",
@@ -3170,6 +3360,16 @@
       "start": "2026-11-01T01:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Ian Hale Skavdahl at Fireside Lounge-2026-11-01T01:00:00.000Z",
+      "title": "Ian Hale Skavdahl at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-01T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
     },
@@ -3444,6 +3644,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Patricio Contreras at Fireside Lounge-2026-11-04T02:00:00.000Z",
+      "title": "Patricio Contreras at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-04T02:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Boot Camp Line Dancing at LaShellé Wines-2026-11-04T03:00:00.000Z",
       "title": "Boot Camp Line Dancing at LaShellé Wines",
       "category": "community",
@@ -3524,6 +3734,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-New Age Flamenco at Fireside Lounge-2026-11-05T02:00:00.000Z",
+      "title": "New Age Flamenco at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-05T02:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-05T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -3570,6 +3790,16 @@
       "start": "2026-11-06T00:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-06T01:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-11-06T01:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -3720,6 +3950,16 @@
       "start": "2026-11-07T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-11-07T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-11-07T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -4074,6 +4314,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Patricio Contreras at Fireside Lounge-2026-11-11T02:00:00.000Z",
+      "title": "Patricio Contreras at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-11T02:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-11-11T04:00:00.000Z",
       "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
       "category": "food-drink",
@@ -4134,6 +4384,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-New Age Flamenco at Fireside Lounge-2026-11-12T02:00:00.000Z",
+      "title": "New Age Flamenco at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-12T02:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-12T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -4180,6 +4440,16 @@
       "start": "2026-11-13T00:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-13T01:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-11-13T01:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -4370,6 +4640,16 @@
       "start": "2026-11-14T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-11-14T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-11-14T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -4754,6 +5034,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Patricio Contreras at Fireside Lounge-2026-11-18T02:00:00.000Z",
+      "title": "Patricio Contreras at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-18T02:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-11-18T04:00:00.000Z",
       "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
       "category": "food-drink",
@@ -4814,6 +5104,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-New Age Flamenco at Fireside Lounge-2026-11-19T02:00:00.000Z",
+      "title": "New Age Flamenco at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-19T02:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-19T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -4860,6 +5160,16 @@
       "start": "2026-11-20T00:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-20T01:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-11-20T01:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -5030,6 +5340,26 @@
       "start": "2026-11-21T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Prohibition Cellars-2026-11-21T02:00:00.000Z",
+      "title": "Friday Live Music at Prohibition Cellars",
+      "category": "music",
+      "start": "2026-11-21T02:00:00.000Z",
+      "location": "Prohibition Cellars, Woodinville, WA",
+      "url": "https://www.prohibitioncellars.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-11-21T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-11-21T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -5374,6 +5704,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Patricio Contreras at Fireside Lounge-2026-11-25T02:00:00.000Z",
+      "title": "Patricio Contreras at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-25T02:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-11-25T04:00:00.000Z",
       "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
       "category": "food-drink",
@@ -5444,6 +5784,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-New Age Flamenco at Fireside Lounge-2026-11-26T02:00:00.000Z",
+      "title": "New Age Flamenco at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-26T02:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Alexandria Nicole Cellars-Closed – Thanksgiving 2025-2026-11-26T08:00:00.000Z",
       "title": "Closed – Thanksgiving 2025",
       "category": "community",
@@ -5500,6 +5850,16 @@
       "start": "2026-11-27T00:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-27T01:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-11-27T01:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -5620,6 +5980,26 @@
       "start": "2026-11-28T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Prohibition Cellars-2026-11-28T02:00:00.000Z",
+      "title": "Friday Live Music at Prohibition Cellars",
+      "category": "music",
+      "start": "2026-11-28T02:00:00.000Z",
+      "location": "Prohibition Cellars, Woodinville, WA",
+      "url": "https://www.prohibitioncellars.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-11-28T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-11-28T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -6064,6 +6444,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-12-04T01:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-12-04T01:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-12-04T01:30:00.000Z",
       "title": "The Summit: 16-Course Chef's Counter Dinner",
       "category": "food-drink",
@@ -6190,6 +6580,16 @@
       "start": "2026-12-05T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-12-05T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-12-05T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -6674,6 +7074,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-12-11T01:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-12-11T01:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-LaShellē Wines-Music Featuring Jarrett Renshaw-2026-12-11T01:00:00.034Z",
       "title": "Music Featuring Jarrett Renshaw",
       "category": "music",
@@ -6810,6 +7220,16 @@
       "start": "2026-12-12T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-12-12T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-12-12T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -7044,6 +7464,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Alexandria Nicole Cellars-Bunco Nights (No Fee)-2026-12-15T01:00:00.000Z",
+      "title": "Bunco Nights (No Fee)",
+      "category": "community",
+      "start": "2026-12-15T01:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-12-14/",
+      "description": "@ Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need t",
+      "source": "Alexandria Nicole Cellars"
+    },
+    {
       "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-12-15T01:00:00.000Z",
       "title": "Bunco Night at Alexandria Nicole Cellars",
       "category": "food-drink",
@@ -7082,6 +7512,16 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Alexandria Nicole Cellars-Taco Tuesdays @ Woodin Creek-2026-12-15T20:00:00.000Z",
+      "title": "Taco Tuesdays @ Woodin Creek",
+      "category": "food-drink",
+      "start": "2026-12-15T20:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-12-15/",
+      "description": "@ Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will al",
+      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-15T21:00:00.000Z",
@@ -7430,6 +7870,16 @@
       "start": "2026-12-19T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-12-19T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-12-19T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -7844,6 +8294,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2026-12-25T01:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2026-12-25T01:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-12-25T01:30:00.000Z",
       "title": "The Summit: 16-Course Chef's Counter Dinner",
       "category": "food-drink",
@@ -7950,6 +8410,26 @@
       "start": "2026-12-26T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Prohibition Cellars-2026-12-26T02:00:00.000Z",
+      "title": "Friday Live Music at Prohibition Cellars",
+      "category": "music",
+      "start": "2026-12-26T02:00:00.000Z",
+      "location": "Prohibition Cellars, Woodinville, WA",
+      "url": "https://www.prohibitioncellars.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-12-26T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-12-26T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -8340,6 +8820,16 @@
       "start": "2027-01-01T00:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Goose Ridge Woodinville-2027-01-01T01:00:00.000Z",
+      "title": "Live Music at Goose Ridge Woodinville",
+      "category": "music",
+      "start": "2027-01-01T01:00:00.000Z",
+      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
+      "url": "https://www.gooseridge.com/",
       "description": "",
       "source": "Manually added"
     },
