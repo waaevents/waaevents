@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-07T00:25:56.102Z",
+  "ranAt": "2026-10-07T19:08:49.033Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -84,7 +84,7 @@
       "status": "ok",
       "strategy": "jsonld",
       "platform": "wordpress",
-      "count": 5,
+      "count": 4,
       "eventPage": "https://bayernmoor.com/events"
     },
     {
@@ -277,7 +277,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 17,
+      "count": 16,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
