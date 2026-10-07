@@ -5,6 +5,17 @@ on:
     # 13:00 UTC = 6:00am Pacific (5:00am during PST) — once a day
     - cron: '0 13 * * *'
   workflow_dispatch: {}   # lets you trigger a refresh manually from the Actions tab
+  push:
+    # Rebuild right away when hand-added events or the scrapers change.
+    branches: [main]
+    paths:
+      - 'data/manual-events.json'
+      - 'scripts/**'
+      - 'package.json'
+
+concurrency:
+  group: update-events
+  cancel-in-progress: false
 
 permissions:
   contents: write
