@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-07T22:13:58.501Z",
+  "updatedAt": "2026-10-07T22:15:49.287Z",
   "windowDays": 90,
-  "count": 884,
+  "count": 908,
   "events": [
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-07T23:00:00.000Z",
@@ -864,6 +864,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-10-13T19:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-10-13T19:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-13T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -1000,6 +1010,16 @@
       "start": "2026-10-14T18:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-10-14T19:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-10-14T19:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -1754,6 +1774,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-10-20T19:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-10-20T19:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-20T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -1890,6 +1920,16 @@
       "start": "2026-10-21T18:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-10-21T19:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-10-21T19:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -2664,6 +2704,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-10-27T19:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-10-27T19:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-27T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -2810,6 +2860,16 @@
       "start": "2026-10-28T18:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-10-28T19:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-10-28T19:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -3514,6 +3574,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-11-03T20:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-11-03T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-03T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -3640,6 +3710,16 @@
       "start": "2026-11-04T19:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-11-04T20:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-11-04T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -4194,6 +4274,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-11-10T20:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-11-10T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-10T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4300,6 +4390,16 @@
       "start": "2026-11-11T19:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-11-11T20:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-11-11T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -4924,6 +5024,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-11-17T20:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-11-17T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-17T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5030,6 +5140,16 @@
       "start": "2026-11-18T19:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-11-18T20:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-11-18T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -5584,6 +5704,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-11-24T20:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-11-24T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-24T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5710,6 +5840,16 @@
       "start": "2026-11-25T19:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-11-25T20:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-11-25T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -6234,6 +6374,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-12-01T20:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-01T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-01T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -6330,6 +6480,16 @@
       "start": "2026-12-02T19:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-12-02T20:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-02T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -6854,6 +7014,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-12-08T20:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-08T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-08T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -6950,6 +7120,16 @@
       "start": "2026-12-09T19:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-12-09T20:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-09T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -7504,6 +7684,16 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-12-15T20:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-15T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-15T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -7590,6 +7780,16 @@
       "start": "2026-12-16T19:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-12-16T20:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-16T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -8104,6 +8304,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-12-22T20:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-22T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-22T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -8190,6 +8400,16 @@
       "start": "2026-12-23T19:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-12-23T20:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-23T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
@@ -8634,6 +8854,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Tuesday ReWined at EFESTĒ-2026-12-29T20:00:00.000Z",
+      "title": "Tuesday ReWined at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-29T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-29T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -8720,6 +8950,16 @@
       "start": "2026-12-30T19:00:00.000Z",
       "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
       "url": "https://www.woodincreekkitchen.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-WineDown Wednesday at EFESTĒ-2026-12-30T20:00:00.000Z",
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-12-30T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
       "description": "",
       "source": "Manually added"
     },
