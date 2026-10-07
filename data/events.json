@@ -1,88 +1,8 @@
 {
-  "updatedAt": "2026-10-07T00:25:56.115Z",
+  "updatedAt": "2026-10-07T19:08:49.044Z",
   "windowDays": 90,
-  "count": 885,
+  "count": 881,
   "events": [
-    {
-      "id": "manual-Live Music at Bin 47-2026-10-07T01:00:00.000Z",
-      "title": "Live Music at Bin 47",
-      "category": "music",
-      "start": "2026-10-07T01:00:00.000Z",
-      "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Patricio Contreras at Fireside Lounge-2026-10-07T01:00:00.000Z",
-      "title": "Patricio Contreras at Fireside Lounge",
-      "category": "music",
-      "start": "2026-10-07T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Boot Camp Line Dancing at LaShellé Wines-2026-10-07T02:00:00.000Z",
-      "title": "Boot Camp Line Dancing at LaShellé Wines",
-      "category": "community",
-      "start": "2026-10-07T02:00:00.000Z",
-      "location": "LaShellé Wines, 19501 144th Ave NE #C900, Woodinville, WA 98072",
-      "url": "https://www.lashellewines.com/calendar/lashell-wines-boot-camp-xpsh9-lnnf9-zejgh",
-      "description": "Boot Boogie Babes line dance class (beginner friendly) at LaShellé Wines, 7-8pm. Wear workout clothes with boots or sneakers and bring water.",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-LaShellē Wines-LASHELLÉ WINES BOOT CAMP-2026-10-07T02:00:00.218Z",
-      "title": "LASHELLÉ WINES BOOT CAMP",
-      "category": "community",
-      "start": "2026-10-07T02:00:00.218Z",
-      "location": "LaShellé Wines , 19501 144th Ave. NE #C900, Woodinville WA 98072",
-      "url": "https://www.lashellewines.com/calendar/lashell-wines-boot-camp-xpsh9-lnnf9-zejgh",
-      "description": "The Boot Boogie Babes, America’s Favorite Line Dance Team has all NEW classes starting in Woodinville at LASHELLÉ WINES! Kick Your Boots Up with us! What to Wear: Think work-out clothes with cowboy boots or your favorite sneakers! Bring: WATER! You will burn those country calorie",
-      "source": "LaShellē Wines"
-    },
-    {
-      "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-10-07T03:00:00.000Z",
-      "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
-      "category": "food-drink",
-      "start": "2026-10-07T03:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Bayernmoor Cellars-October Trivia Night Theme: Halloween-2026-10-07T18:00:00.000Z",
-      "title": "October Trivia Night Theme: Halloween",
-      "category": "food-drink",
-      "start": "2026-10-07T18:00:00.000Z",
-      "location": "",
-      "url": "https://bayernmoor.com/events/sept-trivia-126/",
-      "description": "Gather a team to compete in our monthly trivia night! Reservations highly recommended, call the tasting room at 425-216-3300 or make one online to secure your spot.",
-      "source": "Bayernmoor Cellars"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-07T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-07T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Down Wednesday: Half-Price Bottles at Woodin Creek Kitchen & Tap-2026-10-07T18:00:00.000Z",
-      "title": "Wine Down Wednesday: Half-Price Bottles at Woodin Creek Kitchen & Tap",
-      "category": "food-drink",
-      "start": "2026-10-07T18:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-07T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
@@ -1501,6 +1421,16 @@
       "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
       "url": "https://darbywinery.com/events/oct-comedy-show/",
       "description": "Comedy night at Darby Winery Woodinville, 7-8:30pm. Ticketed.",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Comedy Night at Love That Red Winery-2026-10-17T02:00:00.000Z",
+      "title": "Comedy Night at Love That Red Winery",
+      "category": "comedy",
+      "start": "2026-10-17T02:00:00.000Z",
+      "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
+      "url": "https://www.eventbrite.com/e/the-winery-comedy-tour-at-love-that-red-tickets-226792180517",
+      "description": "",
       "source": "Manually added"
     },
     {
@@ -4004,6 +3934,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Fall Rustic Wreath Craft Workshop at Love That Red Winery-2026-11-07T22:00:00.000Z",
+      "title": "Fall Rustic Wreath Craft Workshop at Love That Red Winery",
+      "category": "art",
+      "start": "2026-11-07T22:00:00.000Z",
+      "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
+      "url": "https://www.eventbrite.com/e/fall-rustic-wreath-workshop-tickets-2001258827024",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-08T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4650,6 +4590,16 @@
       "start": "2026-11-14T02:00:00.000Z",
       "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
       "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Comedy Night at Love That Red Winery-2026-11-14T03:00:00.000Z",
+      "title": "Comedy Night at Love That Red Winery",
+      "category": "comedy",
+      "start": "2026-11-14T03:00:00.000Z",
+      "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
+      "url": "https://www.eventbrite.com/e/the-winery-comedy-tour-at-love-that-red-tickets-226792180517",
       "description": "",
       "source": "Manually added"
     },
@@ -7230,6 +7180,16 @@
       "start": "2026-12-12T02:00:00.000Z",
       "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
       "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Comedy Night at Love That Red Winery-2026-12-12T03:00:00.000Z",
+      "title": "Comedy Night at Love That Red Winery",
+      "category": "comedy",
+      "start": "2026-12-12T03:00:00.000Z",
+      "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
+      "url": "https://www.eventbrite.com/e/the-winery-comedy-tour-at-love-that-red-tickets-226792180517",
       "description": "",
       "source": "Manually added"
     },
