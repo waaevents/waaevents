@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-10-08T19:05:02.463Z",
+  "updatedAt": "2026-10-08T23:37:33.564Z",
   "windowDays": 90,
-  "count": 909,
+  "count": 923,
   "events": [
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-08T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-08T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-08T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-08T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-08T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-08T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-09T00:00:00.000Z",
       "title": "Live Music at Goose Ridge Woodinville",
@@ -124,14 +94,14 @@
       "source": "Watts Brewing Company"
     },
     {
-      "id": "winery-LaShellē Wines-Music Featuring Goldy and Foss-2026-10-09T01:00:00.861Z",
+      "id": "winery-LaShellé Wines-Music Featuring Goldy and Foss-2026-10-09T01:00:00.861Z",
       "title": "Music Featuring Goldy and Foss",
       "category": "music",
       "start": "2026-10-09T01:00:00.861Z",
       "location": "LaShellé Wines, 19501 144th Ave. NE #C900, Woodinville Washington, 98072",
       "url": "https://www.lashellewines.com/calendar/music-featuring-goldy-and-foss",
       "description": "Join us for a great Thursday night music with Goldy & Foss. Goldy & Foss are a dynamic blend of Americana, Folk Rock, and classic covers, delivering infectious harmonies with a touch of island flair. Passionate about creating soulful, engaging live music, the duo brings warmth, e",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-09T01:45:00.833Z",
@@ -624,6 +594,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-10-11T21:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-10-11T21:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Sunday Live Music at From The Sky Down-2026-10-11T22:00:00.000Z",
       "title": "Sunday Live Music at From The Sky Down",
       "category": "music",
@@ -884,14 +864,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-LASHELLÉ WINES BOOT CAMP-2026-10-14T02:00:00.218Z",
+      "id": "winery-LaShellé Wines-LASHELLÉ WINES BOOT CAMP-2026-10-14T02:00:00.218Z",
       "title": "LASHELLÉ WINES BOOT CAMP",
       "category": "community",
       "start": "2026-10-14T02:00:00.218Z",
       "location": "LaShellé Wines , 19501 144th Ave. NE #C900, Woodinville WA 98072",
       "url": "https://www.lashellewines.com/calendar/lashell-wines-boot-camp-xpsh9-lnnf9-zejgh-byx3w-rnpkk",
       "description": "The Boot Boogie Babes, America’s Favorite Line Dance Team has all NEW classes starting in Woodinville at LASHELLÉ WINES! Kick Your Boots Up with us! What to Wear: Think work-out clothes with cowboy boots or your favorite sneakers! Bring: WATER! You will burn those country calorie",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-10-14T03:00:00.000Z",
@@ -1004,14 +984,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-Dried Flower Pumpkin Class at LaShellé Wines-2026-10-15T01:00:00.021Z",
+      "id": "winery-LaShellé Wines-Dried Flower Pumpkin Class at LaShellé Wines-2026-10-15T01:00:00.021Z",
       "title": "Dried Flower Pumpkin Class at LaShellé Wines",
       "category": "art",
       "start": "2026-10-15T01:00:00.021Z",
       "location": "LaShellé Wines, 19501 144th Ave NE #C900 Woodinville, WA 98072",
       "url": "https://www.lashellewines.com/calendar/dried-flower-pumpkin-class-at-lashell-wines",
       "description": "Join us for a fun evening as we create a beautiful holiday decoration to welcome the Fall season. Learn to adorn a pumpkin with dried flowers using Mod Podge. Choose a specific color palette or imagine a field of wildflowers. These pumpkins do well either inside or outside. All s",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-15T18:00:00.000Z",
@@ -1154,14 +1134,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-Music Featuring Jarrett Renshaw-2026-10-16T01:00:00.034Z",
+      "id": "winery-LaShellé Wines-Music Featuring Jarrett Renshaw-2026-10-16T01:00:00.034Z",
       "title": "Music Featuring Jarrett Renshaw",
       "category": "music",
       "start": "2026-10-16T01:00:00.034Z",
       "location": "LaShelle Wines, 19501 144th Ave NE C900, Woodinville, WA 98072",
       "url": "https://www.lashellewines.com/calendar/music-featuring-jarrett-renshaw-ja68l",
       "description": "Enjoy an evening of live music at LaShellé Wines with Pacific Northwest singer-songwriter and multi-instrumentalist Jarrett Renshaw. His blend of acoustic soft rock, pop favorites, and original music creates the perfect soundtrack for a relaxing Saturday afternoon. Seating is 1st",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-16T01:45:00.950Z",
@@ -1230,6 +1210,16 @@
       "start": "2026-10-16T23:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Bayernmoor Cellars-2026-10-16T23:00:00.000Z",
+      "title": "Friday Live Music at Bayernmoor Cellars",
+      "category": "music",
+      "start": "2026-10-16T23:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
       "description": "",
       "source": "Manually added"
     },
@@ -1554,6 +1544,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-10-18T21:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-10-18T21:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Jarrett Renshaw at From The Sky Down-2026-10-18T22:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
@@ -1814,14 +1814,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-LASHELLÉ WINES BOOT CAMP-2026-10-21T02:00:00.218Z",
+      "id": "winery-LaShellé Wines-LASHELLÉ WINES BOOT CAMP-2026-10-21T02:00:00.218Z",
       "title": "LASHELLÉ WINES BOOT CAMP",
       "category": "community",
       "start": "2026-10-21T02:00:00.218Z",
       "location": "LaShellé Wines , 19501 144th Ave. NE #C900, Woodinville WA 98072",
       "url": "https://www.lashellewines.com/calendar/lashell-wines-boot-camp-xpsh9",
       "description": "The Boot Boogie Babes, America’s Favorite Line Dance Team has all NEW classes starting in Woodinville at LASHELLÉ WINES! Kick Your Boots Up with us! What to Wear: Think work-out clothes with cowboy boots or your favorite sneakers! Bring: WATER! You will burn those country calorie",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-10-21T03:00:00.000Z",
@@ -1904,14 +1904,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-Game Night! Bunko-2026-10-22T00:30:00.291Z",
+      "id": "winery-LaShellé Wines-Game Night! Bunko-2026-10-22T00:30:00.291Z",
       "title": "Game Night! Bunko",
       "category": "food-drink",
       "start": "2026-10-22T00:30:00.291Z",
       "location": "LaShellé Wines , 19501 144th Ave NE C900, Woodinville, Washington, 98072",
       "url": "https://www.lashellewines.com/calendar/bunko-a9gdr",
       "description": "Join us for great evening of playing Bunko. Come with friends! Meet new friends! Roll the dice, count points and laugh. Doors open at 5:30 Game begins 6pm. $10 to play Wine and food will be available for purchase.",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-SOMM Talks: Certo Premium Italian Cocktails-2026-10-22T01:00:00.000Z",
@@ -2044,14 +2044,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-Music Featuring Goldy and Foss-2026-10-23T01:00:00.861Z",
+      "id": "winery-LaShellé Wines-Music Featuring Goldy and Foss-2026-10-23T01:00:00.861Z",
       "title": "Music Featuring Goldy and Foss",
       "category": "music",
       "start": "2026-10-23T01:00:00.861Z",
       "location": "LaShellé Wines, 19501 144th Ave. NE #C900, Woodinville Washington, 98072",
       "url": "https://www.lashellewines.com/calendar/music-featuring-goldy-and-foss-kmw66",
       "description": "Join us for a great Thursday night music with Goldy & Foss. Goldy & Foss are a dynamic blend of Americana, Folk Rock, and classic covers, delivering infectious harmonies with a touch of island flair. Passionate about creating soulful, engaging live music, the duo brings warmth, e",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-23T01:45:00.168Z",
@@ -2171,16 +2171,6 @@
       "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
       "url": "https://www.exploretock.com/matthews-winery/event/623270",
       "description": "New From The Sky Down red wine releases with live music and food pairings from an on-site food truck, starting 4pm. $30 per ticket.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Jarrett Renshaw at Bayernmoor Cellars-2026-10-23T23:00:00.000Z",
-      "title": "Jarrett Renshaw at Bayernmoor Cellars",
-      "category": "music",
-      "start": "2026-10-23T23:00:00.000Z",
-      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
-      "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
-      "description": "",
       "source": "Manually added"
     },
     {
@@ -2504,6 +2494,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-10-25T21:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-10-25T21:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Sunday Live Music at From The Sky Down-2026-10-25T22:00:00.000Z",
       "title": "Sunday Live Music at From The Sky Down",
       "category": "music",
@@ -2784,14 +2784,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-LASHELLÉ WINES BOOT CAMP-2026-10-28T02:00:00.218Z",
+      "id": "winery-LaShellé Wines-LASHELLÉ WINES BOOT CAMP-2026-10-28T02:00:00.218Z",
       "title": "LASHELLÉ WINES BOOT CAMP",
       "category": "community",
       "start": "2026-10-28T02:00:00.218Z",
       "location": "LaShellé Wines , 19501 144th Ave. NE #C900, Woodinville WA 98072",
       "url": "https://www.lashellewines.com/calendar/lashell-wines-boot-camp-xpsh9-9myw9",
       "description": "The Boot Boogie Babes, America’s Favorite Line Dance Team has all NEW classes starting in Woodinville at LASHELLÉ WINES! Kick Your Boots Up with us! What to Wear: Think work-out clothes with cowboy boots or your favorite sneakers! Bring: WATER! You will burn those country calorie",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-10-28T03:00:00.000Z",
@@ -3034,14 +3034,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-Saturday Music Sedona Rose-2026-10-30T01:00:00.566Z",
+      "id": "winery-LaShellé Wines-Saturday Music Sedona Rose-2026-10-30T01:00:00.566Z",
       "title": "Saturday Music Sedona Rose",
       "category": "music",
       "start": "2026-10-30T01:00:00.566Z",
       "location": "LaShellé Wines, 19501 144th Avenue NE #C900, Woodinville, Washington, 98072",
       "url": "https://www.lashellewines.com/calendar/saturday-music-sedona-rose-7ycew",
       "description": "Join us for an afternoon music relaxation featuring Sedona Rose.She is a Seattle-based singer-songwriter known for her pop-rock, folk, and soul-influenced music, performing both original songs and high-energy songs. Seating is limited, 1st come 1st serve. Doors open at 5pm. Wine,",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "winery-Beaumont Cellars-Beat the Geek TRrvia in Woodinville-2026-10-30T01:45:00.547Z",
@@ -3424,6 +3424,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-11-01T22:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-11-01T22:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Jarrett Renshaw at From The Sky Down-2026-11-01T23:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
@@ -3664,14 +3674,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-LASHELLÉ WINES BOOT CAMP-2026-11-04T03:00:00.218Z",
+      "id": "winery-LaShellé Wines-LASHELLÉ WINES BOOT CAMP-2026-11-04T03:00:00.218Z",
       "title": "LASHELLÉ WINES BOOT CAMP",
       "category": "community",
       "start": "2026-11-04T03:00:00.218Z",
       "location": "LaShellé Wines , 19501 144th Ave. NE #C900, Woodinville WA 98072",
       "url": "https://www.lashellewines.com/calendar/lashell-wines-boot-camp-xpsh9-9myw9-w8gh2",
       "description": "The Boot Boogie Babes, America’s Favorite Line Dance Team has all NEW classes starting in Woodinville at LASHELLÉ WINES! Kick Your Boots Up with us! What to Wear: Think work-out clothes with cowboy boots or your favorite sneakers! Bring: WATER! You will burn those country calorie",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-11-04T04:00:00.000Z",
@@ -3880,6 +3890,16 @@
       "start": "2026-11-07T00:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Bayernmoor Cellars-2026-11-07T00:00:00.000Z",
+      "title": "Friday Live Music at Bayernmoor Cellars",
+      "category": "music",
+      "start": "2026-11-07T00:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
       "description": "",
       "source": "Manually added"
     },
@@ -4120,6 +4140,16 @@
       "start": "2026-11-08T22:00:00.000Z",
       "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
       "url": "https://vons1000spirits.com/location/woodinville/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-11-08T22:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-11-08T22:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -4544,14 +4574,14 @@
       "source": "Prohibition Cellars"
     },
     {
-      "id": "winery-LaShellē Wines-Music Featuring Reji Marc-2026-11-13T02:00:00.727Z",
+      "id": "winery-LaShellé Wines-Music Featuring Reji Marc-2026-11-13T02:00:00.727Z",
       "title": "Music Featuring Reji Marc",
       "category": "music",
       "start": "2026-11-13T02:00:00.727Z",
       "location": "LaShellé Wines, 19501 144th Ave NE C900, Woodinville, WA 98072",
       "url": "https://www.lashellewines.com/calendar/event-five-fknp5-ych4h-3gh48-2gkc2",
       "description": "Join us at LaShellé Wines for an evening of great wine and timeless tunes as Reji Marc brings music to life! his ability to meld Blues emotion with Funk’s vibrancy and Rock’s raw power. Sip, relax, and enjoy live music in a warm and welcoming atmosphere. Seating is 1st come 1st s",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Trivia Night at Northwest Spirits-2026-11-13T03:00:00.000Z",
@@ -4620,6 +4650,16 @@
       "start": "2026-11-14T00:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Bayernmoor Cellars-2026-11-14T00:00:00.000Z",
+      "title": "Friday Live Music at Bayernmoor Cellars",
+      "category": "music",
+      "start": "2026-11-14T00:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
       "description": "",
       "source": "Manually added"
     },
@@ -5294,14 +5334,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-Saturday Music Sedona Rose-2026-11-20T02:00:00.566Z",
+      "id": "winery-LaShellé Wines-Saturday Music Sedona Rose-2026-11-20T02:00:00.566Z",
       "title": "Saturday Music Sedona Rose",
       "category": "music",
       "start": "2026-11-20T02:00:00.566Z",
       "location": "LaShellé Wines, 19501 144th Avenue NE #C900, Woodinville, Washington, 98072",
       "url": "https://www.lashellewines.com/calendar/saturday-music-sedona-rose-7ycew-6hssl",
       "description": "Join us for an afternoon music relaxation featuring Sedona Rose.She is a Seattle-based singer-songwriter known for her pop-rock, folk, and soul-influenced music, performing both original songs and high-energy songs. Seating is limited, 1st come 1st serve. Doors open at 5pm. Wine,",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Trivia Night at Northwest Spirits-2026-11-20T03:00:00.000Z",
@@ -5350,6 +5390,16 @@
       "start": "2026-11-21T00:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Bayernmoor Cellars-2026-11-21T00:00:00.000Z",
+      "title": "Friday Live Music at Bayernmoor Cellars",
+      "category": "music",
+      "start": "2026-11-21T00:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
       "description": "",
       "source": "Manually added"
     },
@@ -5560,6 +5610,16 @@
       "start": "2026-11-22T22:00:00.000Z",
       "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
       "url": "https://vons1000spirits.com/location/woodinville/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-11-22T22:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-11-22T22:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -6034,6 +6094,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Bayernmoor Cellars-2026-11-28T00:00:00.000Z",
+      "title": "Friday Live Music at Bayernmoor Cellars",
+      "category": "music",
+      "start": "2026-11-28T00:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Synne Cellars-Synne Sessions: Brian Lally | After-Thanksgiving Special-2026-11-28T01:00:00.000Z",
       "title": "Synne Sessions: Brian Lally | After-Thanksgiving Special",
       "category": "music",
@@ -6240,6 +6310,16 @@
       "start": "2026-11-29T22:00:00.000Z",
       "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
       "url": "https://vons1000spirits.com/location/woodinville/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-11-29T22:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-11-29T22:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -6654,6 +6734,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Bayernmoor Cellars-2026-12-05T00:00:00.000Z",
+      "title": "Friday Live Music at Bayernmoor Cellars",
+      "category": "music",
+      "start": "2026-12-05T00:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-12-05T01:00:00.000Z",
       "title": "Friday Night Music at Chateau Ste. Michelle",
       "category": "music",
@@ -6860,6 +6950,16 @@
       "start": "2026-12-06T22:00:00.000Z",
       "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
       "url": "https://vons1000spirits.com/location/woodinville/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-12-06T22:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-12-06T22:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -7244,14 +7344,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-Music Featuring Jarrett Renshaw-2026-12-11T01:00:00.034Z",
+      "id": "winery-LaShellé Wines-Music Featuring Jarrett Renshaw-2026-12-11T01:00:00.034Z",
       "title": "Music Featuring Jarrett Renshaw",
       "category": "music",
       "start": "2026-12-11T01:00:00.034Z",
       "location": "LaShellé Wines, 19501 144th Ave NE C900, Woodinville, WA 98072",
       "url": "https://www.lashellewines.com/calendar/music-featuring-jarrett-renshaw-xjmy4",
       "description": "Enjoy an evening of live music at LaShellé Wines with Pacific Northwest singer-songwriter and multi-instrumentalist Jarrett Renshaw. His blend of acoustic soft rock, pop favorites, and original music creates the perfect soundtrack for a relaxing Saturday afternoon. Seating is 1st",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Knotty Thursdays-2026-12-11T01:30:00.000Z",
@@ -7320,6 +7420,16 @@
       "start": "2026-12-12T00:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Bayernmoor Cellars-2026-12-12T00:00:00.000Z",
+      "title": "Friday Live Music at Bayernmoor Cellars",
+      "category": "music",
+      "start": "2026-12-12T00:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
       "description": "",
       "source": "Manually added"
     },
@@ -7540,6 +7650,16 @@
       "start": "2026-12-13T22:00:00.000Z",
       "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
       "url": "https://vons1000spirits.com/location/woodinville/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-12-13T22:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-12-13T22:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -7924,14 +8044,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellē Wines-Saturday Music Sedona Rose-2026-12-18T02:00:00.566Z",
+      "id": "winery-LaShellé Wines-Saturday Music Sedona Rose-2026-12-18T02:00:00.566Z",
       "title": "Saturday Music Sedona Rose",
       "category": "music",
       "start": "2026-12-18T02:00:00.566Z",
       "location": "LaShellé Wines, 19501 144th Avenue NE #C900, Woodinville, Washington, 98072",
       "url": "https://www.lashellewines.com/calendar/saturday-music-sedona-rose-7ycew-6hssl-hy96l",
       "description": "Join us for an afternoon music relaxation featuring Sedona Rose.She is a Seattle-based singer-songwriter known for her pop-rock, folk, and soul-influenced music, performing both original songs and high-energy songs. Seating is limited, 1st come 1st serve. Doors open at 5pm. Wine,",
-      "source": "LaShellē Wines"
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Trivia Night at Northwest Spirits-2026-12-18T03:00:00.000Z",
@@ -8574,6 +8694,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Bayernmoor Cellars-2026-12-26T00:00:00.000Z",
+      "title": "Friday Live Music at Bayernmoor Cellars",
+      "category": "music",
+      "start": "2026-12-26T00:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-12-26T01:00:00.000Z",
       "title": "Friday Night Music at Chateau Ste. Michelle",
       "category": "music",
@@ -8740,6 +8870,16 @@
       "start": "2026-12-27T22:00:00.000Z",
       "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
       "url": "https://vons1000spirits.com/location/woodinville/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-12-27T22:00:00.000Z",
+      "title": "Sunday Live Music at Brian Carter Cellars",
+      "category": "music",
+      "start": "2026-12-27T22:00:00.000Z",
+      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.briancartercellars.com/",
       "description": "",
       "source": "Manually added"
     },
