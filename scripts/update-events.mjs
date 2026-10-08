@@ -160,6 +160,22 @@ function looseKey(s) {
   return decodeEntities(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
 }
 
+// iCal events with a "floating" time (no Z, no TZID) mean wall-clock time at
+// the venue. node-ical reads those as UTC, which shifts them 7-8 hours early,
+// so reinterpret the UTC components as Pacific time.
+function feedStart(raw) {
+  const d = new Date(raw);
+  if (Number.isNaN(d.getTime()) || !raw || raw.tz || raw.dateOnly) return d;
+  for (const off of [7, 8]) {
+    const guess = new Date(d.getTime() + off * 3600000);
+    const parts = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(guess);
+    const h = Number(parts.find((p) => p.type === 'hour').value);
+    const m = Number(parts.find((p) => p.type === 'minute').value);
+    if (h === d.getUTCHours() && m === d.getUTCMinutes()) return guess;
+  }
+  return d;
+}
+
 function cleanDescription(desc) {
   if (!desc) return '';
   let text = String(desc);
@@ -242,7 +258,7 @@ async function main() {
       let addedFromThisFeed = 0;
       for (const ev of rawEvents) {
         if (!ev.start) continue;
-        const start = new Date(ev.start);
+        const start = feedStart(ev.start);
         if (Number.isNaN(start.getTime())) continue;
         if (start < now || start > maxDate) continue;
 

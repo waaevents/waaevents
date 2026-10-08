@@ -116,7 +116,7 @@ async function icsFeed(url) {
   const data = ical.sync.parseICS(text);
   return Object.values(data)
     .filter((e) => e && e.type === 'VEVENT' && e.start)
-    .map((e) => ({ title: e.summary, start: new Date(e.start).toISOString(), location: e.location, url: e.url, description: e.description }));
+    .map((e) => ({ title: e.summary, start: e.start.tz || e.start.dateOnly ? new Date(e.start).toISOString() : e.start.toISOString().slice(0, 19), location: e.location, url: e.url, description: e.description }));
 }
 
 function jsonLd(html) {
