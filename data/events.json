@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-08T23:37:33.564Z",
+  "updatedAt": "2026-10-08T23:40:17.223Z",
   "windowDays": 90,
-  "count": 923,
+  "count": 925,
   "events": [
     {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-09T00:00:00.000Z",
@@ -22,6 +22,16 @@
       "url": "https://425cellars.com/event/music-featuring-the-dog-tones/",
       "description": "“🎶 Thursday Night at 425 Cellars 🎶 Join us Thursday, October 8th from 5:30–7:30 PM for live music featuring The Dogtones! 🐾 Making audiences dance, sing along, and laugh since 2008, The Dogtones bring a huge catalog of songs you know and love, a fearless willingness to take on",
       "source": "425 Cellars"
+    },
+    {
+      "id": "winery-Tinte Cellars-Fall Floral Design Class (WOODINVILLE)-2026-10-09T00:30:00.000Z",
+      "title": "Fall Floral Design Class (WOODINVILLE)",
+      "category": "art",
+      "start": "2026-10-09T00:30:00.000Z",
+      "location": "Woodinville Warehouse District, 19495 144th Ave. NE, # A-100, Woodinville",
+      "url": "https://tintecellars.com/event/fall-floral-design-class-georgetown/",
+      "description": "Get your hands dirty and learn how to make stunning fall flower arrangements in this fun, laid-back class. Celebrate the beauty of the season with an evening of flowers, creativity, and cozy Fall inspiration. Join us for a hands-on floral design class where you’ll create an organ",
+      "source": "Tinte Cellars"
     },
     {
       "id": "manual-Knotty Thursdays-2026-10-09T00:30:00.000Z",
@@ -102,6 +112,16 @@
       "url": "https://www.lashellewines.com/calendar/music-featuring-goldy-and-foss",
       "description": "Join us for a great Thursday night music with Goldy & Foss. Goldy & Foss are a dynamic blend of Americana, Folk Rock, and classic covers, delivering infectious harmonies with a touch of island flair. Passionate about creating soulful, engaging live music, the duo brings warmth, e",
       "source": "LaShellé Wines"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-10-09T01:30:00.000Z",
+      "title": "WOODINVILLE: Music Bingo",
+      "category": "music",
+      "start": "2026-10-09T01:30:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-music-bingo-57/",
+      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-09T01:45:00.833Z",
@@ -314,16 +334,6 @@
       "source": "Prohibition Cellars"
     },
     {
-      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Chris Ward-2026-10-10T13:00:00.000Z",
-      "title": "CHELAN: Live Music – Chris Ward",
-      "category": "music",
-      "start": "2026-10-10T13:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/live-music-chris-ward-3/",
-      "description": "Join us for live music on Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see you!",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "manual-Yoga Uncorked-2026-10-10T17:30:00.000Z",
       "title": "Yoga Uncorked",
       "category": "community",
@@ -362,6 +372,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/al-capone-club-members-winter-release-party-nbmes-b8jw4-w8r8c-3gykm-2wr8g-nzf8d-mwnbz-yd7tt-26923-kx2ry-93acy-8mcmf",
       "description": "Celebrate the season with new wines, paired bites, and a wonderful crisp fall afternoon at our Alcatraz Wine Club Fall Release Party ! Be among the first to experience four new releases: 2025 Old Vine Chenin Blanc 2024 Pinot Noir 2023 My Way Red Blend 2023 Cabernet Sauvignon/Syra",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Chris Ward-2026-10-10T20:00:00.000Z",
+      "title": "CHELAN: Live Music – Chris Ward",
+      "category": "music",
+      "start": "2026-10-10T20:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/live-music-chris-ward-3/",
+      "description": "Join us for live music on Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see you!",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Taste the Cellar at Darby Winery-2026-10-10T20:00:00.000Z",
@@ -422,16 +442,6 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Tsillan Cellars-WOODINVILLE TR Closed for Private Events-2026-10-11T00:00:00.000Z",
-      "title": "WOODINVILLE TR Closed for Private Events",
-      "category": "food-drink",
-      "start": "2026-10-11T00:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/woodinville-tasting-room-closed-2/",
-      "description": "Our Woodinville Tasting Room will be closed for a private event on Sunday 10/11",
-      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Jeannie Rak: Live Music at WIT Cellars-2026-10-11T00:00:00.000Z",
@@ -522,6 +532,16 @@
       "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-10-11/",
       "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
       "source": "Alexandria Nicole Cellars"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE TR Closed for Private Events-2026-10-11T07:00:00.000Z",
+      "title": "WOODINVILLE TR Closed for Private Events",
+      "category": "food-drink",
+      "start": "2026-10-11T07:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/woodinville-tasting-room-closed-2/",
+      "description": "Our Woodinville Tasting Room will be closed for a private event on Sunday 10/11",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Leony's Cellars Tasting Event at Freebush-2026-10-11T19:00:00.000Z",
@@ -1014,16 +1034,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-10-15T18:30:00.000Z",
-      "title": "WOODINVILLE: Music Bingo",
-      "category": "music",
-      "start": "2026-10-15T18:30:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
-      "url": "https://tsillancellars.com/event/woodinville-music-bingo-58/",
-      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-15T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -1142,6 +1152,16 @@
       "url": "https://www.lashellewines.com/calendar/music-featuring-jarrett-renshaw-ja68l",
       "description": "Enjoy an evening of live music at LaShellé Wines with Pacific Northwest singer-songwriter and multi-instrumentalist Jarrett Renshaw. His blend of acoustic soft rock, pop favorites, and original music creates the perfect soundtrack for a relaxing Saturday afternoon. Seating is 1st",
       "source": "LaShellé Wines"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-10-16T01:30:00.000Z",
+      "title": "WOODINVILLE: Music Bingo",
+      "category": "music",
+      "start": "2026-10-16T01:30:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-music-bingo-58/",
+      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-16T01:45:00.950Z",
@@ -1374,16 +1394,6 @@
       "source": "Wit Cellars"
     },
     {
-      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Taste of Whisky-2026-10-17T13:00:00.000Z",
-      "title": "CHELAN: Live Music – Taste of Whisky",
-      "category": "music",
-      "start": "2026-10-17T13:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/live-music-taste-of-whisky-2/",
-      "description": "Join us for live music on Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see you!",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "winery-Woodinville Wine Country Events-Kindness for Kids Guild 4th Annual Dinner & Auction @ Evergreen Family Wines-2026-10-17T19:00:00.000Z",
       "title": "Kindness for Kids Guild 4th Annual Dinner & Auction @ Evergreen Family Wines",
       "category": "food-drink",
@@ -1392,6 +1402,16 @@
       "url": "https://woodinvillewinecountry.com/event/kindness-for-kids-guild-4th-annual-dinner-auction-evergreen-family-wines/",
       "description": "Join us for a fun night of good vibes, great food, and bidding to support kids in need! Welcome to the Kindness for Kids Guild 4th Annual Dinner & Auction! Join us for a night of fun and giving back at Evergreen Family Wines. Enjoy delicious food & wine (food provided by Heritage",
       "source": "Woodinville Wine Country Events"
+    },
+    {
+      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Taste of Whisky-2026-10-17T20:00:00.000Z",
+      "title": "CHELAN: Live Music – Taste of Whisky",
+      "category": "music",
+      "start": "2026-10-17T20:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/live-music-taste-of-whisky-2/",
+      "description": "Join us for live music on Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see you!",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-17T20:00:00.000Z",
@@ -2114,26 +2134,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Tsillan Cellars-CHELAN: Fall Winemaker Dinner-2026-10-23T18:00:00.000Z",
-      "title": "CHELAN: Fall Winemaker Dinner",
-      "category": "food-drink",
-      "start": "2026-10-23T18:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/fall-winemaker-dinner-2/",
-      "description": "The Fall Winemaker Dinner is just one month away! Don’t miss your chance to secure your tickets before we sell out. Experience an unforgettable evening of exquisite cuisine, masterfully prepared by Executive Chef Jon Webster, and perfectly paired with exciting award-winning wines",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-Tsillan Cellars-WOODINVILLE: Live Music – Taste of Whisky-2026-10-23T18:00:00.000Z",
-      "title": "WOODINVILLE: Live Music – Taste of Whisky",
-      "category": "music",
-      "start": "2026-10-23T18:00:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
-      "url": "https://tsillancellars.com/event/woodinville-live-music-taste-of-whisky/",
-      "description": "Friday 10/23 – 6:30pm-8:30pm – Walk-in Seating Only – Doors Open at 6pm Virgil returns this month for live music at the tasting room as Taste of Whisky on Friday, October 23rd! We will have a list of delicious wines available by glass and bottle and we will have some small bites",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-23T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -2254,6 +2254,26 @@
       "source": "425 Cellars"
     },
     {
+      "id": "winery-Tsillan Cellars-CHELAN: Fall Winemaker Dinner-2026-10-24T01:00:00.000Z",
+      "title": "CHELAN: Fall Winemaker Dinner",
+      "category": "food-drink",
+      "start": "2026-10-24T01:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/fall-winemaker-dinner-2/",
+      "description": "The Fall Winemaker Dinner is just one month away! Don’t miss your chance to secure your tickets before we sell out. Experience an unforgettable evening of exquisite cuisine, masterfully prepared by Executive Chef Jon Webster, and perfectly paired with exciting award-winning wines",
+      "source": "Tsillan Cellars"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: Live Music – Taste of Whisky-2026-10-24T01:00:00.000Z",
+      "title": "WOODINVILLE: Live Music – Taste of Whisky",
+      "category": "music",
+      "start": "2026-10-24T01:00:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-live-music-taste-of-whisky/",
+      "description": "Friday 10/23 – 6:30pm-8:30pm – Walk-in Seating Only – Doors Open at 6pm Virgil returns this month for live music at the tasting room as Taste of Whisky on Friday, October 23rd! We will have a list of delicious wines available by glass and bottle and we will have some small bites",
+      "source": "Tsillan Cellars"
+    },
+    {
       "id": "manual-The Cover-Up-2026-10-24T01:00:00.000Z",
       "title": "The Cover-Up",
       "category": "music",
@@ -2324,10 +2344,10 @@
       "source": "Prohibition Cellars"
     },
     {
-      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Kimo Muraki-2026-10-24T13:00:00.000Z",
+      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Kimo Muraki-2026-10-24T20:00:00.000Z",
       "title": "CHELAN: Live Music – Kimo Muraki",
       "category": "music",
-      "start": "2026-10-24T13:00:00.000Z",
+      "start": "2026-10-24T20:00:00.000Z",
       "location": "",
       "url": "https://tsillancellars.com/event/live-music-kimo-muraki-8/",
       "description": "Join us for live music on Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see you!",
@@ -2804,16 +2824,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Tsillan Cellars-WOODINVILLE: Cookie Decorating Class-2026-10-28T17:00:00.000Z",
-      "title": "WOODINVILLE: Cookie Decorating Class",
-      "category": "community",
-      "start": "2026-10-28T17:00:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
-      "url": "https://tsillancellars.com/event/woodinville-cookie-decorating-class-2/",
-      "description": "Creepin’ It Sweet Sugar Cookie Decorating Night Wednesday, October 28, 2026, from 5:00–7:00 PM Things are about to get a little creepy… and a whole lot sweeter. 👻 Join us for Creepin’ It Sweet Cookie Decorating Night at Tsillan Cellars! Spend the evening sipping, snacking, and d",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-28T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -2874,6 +2884,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: Cookie Decorating Class-2026-10-29T00:00:00.000Z",
+      "title": "WOODINVILLE: Cookie Decorating Class",
+      "category": "community",
+      "start": "2026-10-29T00:00:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-cookie-decorating-class-2/",
+      "description": "Creepin’ It Sweet Sugar Cookie Decorating Night Wednesday, October 28, 2026, from 5:00–7:00 PM Things are about to get a little creepy… and a whole lot sweeter. 👻 Join us for Creepin’ It Sweet Cookie Decorating Night at Tsillan Cellars! Spend the evening sipping, snacking, and d",
+      "source": "Tsillan Cellars"
+    },
+    {
       "id": "manual-SOMM Talks: Gard Estate Wines-2026-10-29T01:00:00.000Z",
       "title": "SOMM Talks: Gard Estate Wines",
       "category": "food-drink",
@@ -2922,16 +2942,6 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-10-29T18:30:00.000Z",
-      "title": "WOODINVILLE: Music Bingo",
-      "category": "music",
-      "start": "2026-10-29T18:30:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
-      "url": "https://tsillancellars.com/event/woodinville-music-bingo-59/",
-      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
-      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-29T20:00:00.000Z",
@@ -3042,6 +3052,16 @@
       "url": "https://www.lashellewines.com/calendar/saturday-music-sedona-rose-7ycew",
       "description": "Join us for an afternoon music relaxation featuring Sedona Rose.She is a Seattle-based singer-songwriter known for her pop-rock, folk, and soul-influenced music, performing both original songs and high-energy songs. Seating is limited, 1st come 1st serve. Doors open at 5pm. Wine,",
       "source": "LaShellé Wines"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-10-30T01:30:00.000Z",
+      "title": "WOODINVILLE: Music Bingo",
+      "category": "music",
+      "start": "2026-10-30T01:30:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-music-bingo-59/",
+      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "winery-Beaumont Cellars-Beat the Geek TRrvia in Woodinville-2026-10-30T01:45:00.547Z",
@@ -4014,16 +4034,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Tsillan Cellars-CHELAN: 2024 Red Vintage Tasting-2026-11-07T16:00:00.000Z",
-      "title": "CHELAN: 2024 Red Vintage Tasting",
-      "category": "food-drink",
-      "start": "2026-11-07T16:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-2024-red-vintage-tasting/",
-      "description": "Tasting of the 2024 Red Vintage An Exclusive Wine Club Event Chelan – Saturday, Nov. 7th 4-6pm We are excited to announce our Fourth Red Vintage Preview Event! Head Winemaker Garrett Grubbs and Vineyard Manager/Assistant Winemaker Nic Stevens can’t wait to share this incredible v",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-07T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4052,6 +4062,16 @@
       "url": "https://www.eventbrite.com/e/fall-rustic-wreath-workshop-tickets-2001258827024",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-CHELAN: 2024 Red Vintage Tasting-2026-11-08T00:00:00.000Z",
+      "title": "CHELAN: 2024 Red Vintage Tasting",
+      "category": "food-drink",
+      "start": "2026-11-08T00:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-2024-red-vintage-tasting/",
+      "description": "Tasting of the 2024 Red Vintage An Exclusive Wine Club Event Chelan – Saturday, Nov. 7th 4-6pm We are excited to announce our Fourth Red Vintage Preview Event! Head Winemaker Garrett Grubbs and Vineyard Manager/Assistant Winemaker Nic Stevens can’t wait to share this incredible v",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-08T00:00:00.000Z",
@@ -4634,16 +4654,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Tinte Cellars-{CLUB MEMBERS – SAVE THE DATE} – 4th Quarter Wine Release Weekend – Closed to the public-2026-11-14T00:00:00.000Z",
-      "title": "{CLUB MEMBERS – SAVE THE DATE} – 4th Quarter Wine Release Weekend – Closed to the public",
-      "category": "food-drink",
-      "start": "2026-11-14T00:00:00.000Z",
-      "location": "",
-      "url": "https://tintecellars.com/event/club-members-save-the-date-4th-quarter-wine-release-weekend-closed-to-the-public/",
-      "description": "{CLUB MEMBERS – SAVE THE DATE} – 4th Quarter Wine Release Weekend – Closed to the public Details in November Newsletter and Wine Club Communications",
-      "source": "Tinte Cellars"
-    },
-    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-14T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4762,6 +4772,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-5d4xr-ss57s-eyb76-4k5ll-lk98s",
       "description": "Join us for our second annual Friendsgiving Fundraiser at Prohibition Cellars , an evening of live music, wine, and giving back in support of Northwest Harvest . This November, we’re bringing the community together again with Brian James Was Here for a night of great music and an",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Tinte Cellars-{CLUB MEMBERS – SAVE THE DATE} – 4th Quarter Wine Release Weekend – Closed to the public-2026-11-14T08:00:00.000Z",
+      "title": "{CLUB MEMBERS – SAVE THE DATE} – 4th Quarter Wine Release Weekend – Closed to the public",
+      "category": "food-drink",
+      "start": "2026-11-14T08:00:00.000Z",
+      "location": "",
+      "url": "https://tintecellars.com/event/club-members-save-the-date-4th-quarter-wine-release-weekend-closed-to-the-public/",
+      "description": "{CLUB MEMBERS – SAVE THE DATE} – 4th Quarter Wine Release Weekend – Closed to the public Details in November Newsletter and Wine Club Communications",
+      "source": "Tinte Cellars"
     },
     {
       "id": "manual-Yoga Uncorked-2026-11-14T18:30:00.000Z",
