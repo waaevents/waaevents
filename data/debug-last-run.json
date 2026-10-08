@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-08T23:43:05.325Z",
+  "ranAt": "2026-10-08T23:45:45.620Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -84,7 +84,7 @@
       "status": "ok",
       "strategy": "jsonld",
       "platform": "wordpress",
-      "count": 4,
+      "count": 3,
       "eventPage": "https://bayernmoor.com/events"
     },
     {
