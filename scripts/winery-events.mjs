@@ -130,7 +130,10 @@ function jsonLd(html) {
     if (Array.isArray(n)) return n.forEach(walk);
     const t = [].concat(n['@type'] || []);
     if (t.some((x) => /Event$/.test(String(x))) && n.startDate) {
-      out.push({ title: n.name, start: n.startDate, location: locString(n.location), url: typeof n.url === 'string' ? n.url : '', description: n.description });
+      // WordPress sites left on the UTC timezone label local wall-clock times
+      // as UTC ("...T16:00:00+00:00" for a 4pm show), so drop a UTC offset and
+      // read the time as Pacific.
+      out.push({ title: n.name, start: String(n.startDate).replace(/(Z|[+-]00:?00)$/i, ''), location: locString(n.location), url: typeof n.url === 'string' ? n.url : '', description: n.description });
     }
     for (const k of ['@graph', 'itemListElement', 'item', 'subEvent', 'event']) if (n[k]) walk(n[k]);
   };
