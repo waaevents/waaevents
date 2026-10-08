@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-10-08T19:05:02.451Z",
+  "ranAt": "2026-10-08T23:37:33.550Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
       "ok": false,
       "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:211:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:240:25)"
+      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:227:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:256:25)"
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
       "ok": false,
       "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:211:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:240:25)"
+      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:227:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:256:25)"
     },
     {
       "feed": "425 Cellars",
@@ -271,7 +271,7 @@
       "platform": "squarespace"
     },
     {
-      "winery": "JM Cellars",
+      "winery": "JM Cellars (Bramble Bump)",
       "status": "no-events-found",
       "platform": "other"
     },
@@ -286,7 +286,7 @@
       "error": "HTTP 403"
     },
     {
-      "winery": "LaShellē Wines",
+      "winery": "LaShellé Wines",
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
