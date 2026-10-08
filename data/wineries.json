@@ -126,6 +126,11 @@
           ]
         },
         {
+          "name": "JM Cellars (Bramble Bump)",
+          "note": "14404 137th Pl NE. Wine club members only, by reservation Fri-Sun.",
+          "url": "https://www.jmcellars.com/"
+        },
+        {
           "name": "KINHAVEN Winery",
           "url": "https://kinhavenwinery.com/"
         },
@@ -671,13 +676,7 @@
       "id": "other",
       "name": "Other Woodinville Wineries",
       "accent": "comedy",
-      "wineries": [
-        {
-          "name": "JM Cellars",
-          "note": "Bramble Bump, 14404 137th Pl NE: wine club members only, by reservation Fri-Sun.",
-          "url": "https://jmcellars.com/"
-        }
-      ]
+      "wineries": []
     },
     {
       "id": "junction",
