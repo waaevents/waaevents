@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-08T23:43:05.339Z",
+  "updatedAt": "2026-10-08T23:45:45.634Z",
   "windowDays": 90,
-  "count": 925,
+  "count": 924,
   "events": [
     {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-09T00:00:00.000Z",
@@ -3272,16 +3272,6 @@
       "url": "https://wattsbrewingcompany.com/events/2026/10/30/acquired-taste-halloween",
       "description": "Get your groove on at Watts Brewing this Hallows Eve with live music from Acquired Taste! Join us for a Friday night full of rockin’ music, great beers, and a legendary costume contest—with prizes!",
       "source": "Watts Brewing Company"
-    },
-    {
-      "id": "winery-Bayernmoor Cellars-Halloween Murder Mystery Party-2026-10-31T12:30:00.000Z",
-      "title": "Halloween Murder Mystery Party",
-      "category": "community",
-      "start": "2026-10-31T12:30:00.000Z",
-      "location": "",
-      "url": "https://bayernmoor.com/events/a-deadly-vintage-448/",
-      "description": "",
-      "source": "Bayernmoor Cellars"
     },
     {
       "id": "winery-Prohibition Cellars-Halloween Candy & Wine Pairing OR Mystery Red Flight-2026-10-31T19:00:00.187Z",
