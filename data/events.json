@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T23:40:17.223Z",
+  "updatedAt": "2026-10-08T23:43:05.339Z",
   "windowDays": 90,
   "count": 925,
   "events": [
@@ -154,16 +154,6 @@
       "source": "Watts Brewing Company"
     },
     {
-      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Sarah Brunner-2026-10-09T16:00:00.000Z",
-      "title": "Live Music at Bayernmoor – Sarah Brunner",
-      "category": "music",
-      "start": "2026-10-09T16:00:00.000Z",
-      "location": "Bayernmoor Woodinville Tasting Room",
-      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240/",
-      "description": "Enjoy classic tunes from local artist, Sarah Brunner! Make a reservation for wine, food and fun music!",
-      "source": "Bayernmoor Cellars"
-    },
-    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-09T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -202,6 +192,16 @@
       "url": "https://wattsbrewingcompany.com/events/2026/10/2/closed-for-private-party",
       "description": "Taproom Closed for Private Party",
       "source": "Watts Brewing Company"
+    },
+    {
+      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Sarah Brunner-2026-10-09T23:00:00.000Z",
+      "title": "Live Music at Bayernmoor – Sarah Brunner",
+      "category": "music",
+      "start": "2026-10-09T23:00:00.000Z",
+      "location": "Bayernmoor Woodinville Tasting Room",
+      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240/",
+      "description": "Enjoy classic tunes from local artist, Sarah Brunner! Make a reservation for wine, food and fun music!",
+      "source": "Bayernmoor Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-09T23:00:00.000Z",
@@ -2114,16 +2114,6 @@
       "source": "Watts Brewing Company"
     },
     {
-      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Jarrett Renshaw-2026-10-23T16:00:00.000Z",
-      "title": "Live Music at Bayernmoor – Jarrett Renshaw",
-      "category": "music",
-      "start": "2026-10-23T16:00:00.000Z",
-      "location": "Bayernmoor Woodinville Tasting Room",
-      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240-397/",
-      "description": "Enjoy classic tunes from local artist, Jarrett Renshaw! Make a reservation for wine, food and fun music!",
-      "source": "Bayernmoor Cellars"
-    },
-    {
       "id": "manual-Fall Cabernet Vertical Tasting at Darby-2026-10-23T17:00:00.000Z",
       "title": "Fall Cabernet Vertical Tasting at Darby",
       "category": "food-drink",
@@ -2162,6 +2152,16 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Jarrett Renshaw-2026-10-23T23:00:00.000Z",
+      "title": "Live Music at Bayernmoor – Jarrett Renshaw",
+      "category": "music",
+      "start": "2026-10-23T23:00:00.000Z",
+      "location": "Bayernmoor Woodinville Tasting Room",
+      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240-397/",
+      "description": "Enjoy classic tunes from local artist, Jarrett Renshaw! Make a reservation for wine, food and fun music!",
+      "source": "Bayernmoor Cellars"
     },
     {
       "id": "manual-The Red Party: From The Sky Down Fall Red Release-2026-10-23T23:00:00.000Z",
@@ -3094,16 +3094,6 @@
       "source": "Watts Brewing Company"
     },
     {
-      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Farshid Babazadeh-2026-10-30T16:00:00.000Z",
-      "title": "Live Music at Bayernmoor – Farshid Babazadeh",
-      "category": "music",
-      "start": "2026-10-30T16:00:00.000Z",
-      "location": "Bayernmoor Woodinville Tasting Room",
-      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240-397-186/",
-      "description": "Enjoy classic tunes from local artist, Farshid Babazadeh! Make a reservation for wine, food and fun music!",
-      "source": "Bayernmoor Cellars"
-    },
-    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-30T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -3132,6 +3122,16 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Farshid Babazadeh-2026-10-30T23:00:00.000Z",
+      "title": "Live Music at Bayernmoor – Farshid Babazadeh",
+      "category": "music",
+      "start": "2026-10-30T23:00:00.000Z",
+      "location": "Bayernmoor Woodinville Tasting Room",
+      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240-397-186/",
+      "description": "Enjoy classic tunes from local artist, Farshid Babazadeh! Make a reservation for wine, food and fun music!",
+      "source": "Bayernmoor Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-30T23:00:00.000Z",
@@ -3274,10 +3274,10 @@
       "source": "Watts Brewing Company"
     },
     {
-      "id": "winery-Bayernmoor Cellars-Halloween Murder Mystery Party-2026-10-31T05:30:00.000Z",
+      "id": "winery-Bayernmoor Cellars-Halloween Murder Mystery Party-2026-10-31T12:30:00.000Z",
       "title": "Halloween Murder Mystery Party",
       "category": "community",
-      "start": "2026-10-31T05:30:00.000Z",
+      "start": "2026-10-31T12:30:00.000Z",
       "location": "",
       "url": "https://bayernmoor.com/events/a-deadly-vintage-448/",
       "description": "",
