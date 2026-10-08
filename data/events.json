@@ -1,118 +1,8 @@
 {
-  "updatedAt": "2026-10-07T22:15:49.287Z",
+  "updatedAt": "2026-10-08T19:05:02.463Z",
   "windowDays": 90,
-  "count": 908,
+  "count": 909,
   "events": [
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-07T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-07T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Intro to Mahjong at LaShellé Wines (5pm)-2026-10-08T00:00:00.000Z",
-      "title": "Intro to Mahjong at LaShellé Wines (5pm)",
-      "category": "community",
-      "start": "2026-10-08T00:00:00.000Z",
-      "location": "LaShellé Wines, 19501 144th Ave NE #C900, Woodinville, WA 98072",
-      "url": "https://www.lashellewines.com/calendar/intro-to-mahjong-frwyk",
-      "description": "American Mahjong 101 for beginners: class plus hands-on play. Only eight spots; register through LaShellé's events page.",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-LaShellē Wines-Intro to Mahjong 5pm-2026-10-08T00:00:00.157Z",
-      "title": "Intro to Mahjong 5pm",
-      "category": "community",
-      "start": "2026-10-08T00:00:00.157Z",
-      "location": "",
-      "url": "https://www.lashellewines.com/calendar/intro-to-mahjong-frwyk",
-      "description": "Curious about American Mahjong? Join us at LaShellé Wines for a class and a hands on playing of American Mahjong 101. This introduction has beginners in mind. No experience needed! We will have a schedule 5:00pm-5:15pm - Mingle 5:15pm-5:45pm - Class 5:45pm - 6:45pm - Hands-on Pla",
-      "source": "LaShellē Wines"
-    },
-    {
-      "id": "10000428-1791396000-1791405000@425cellars.com",
-      "title": "American Mahjong Open Play",
-      "category": "community",
-      "start": "2026-10-08T01:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/american-mahjong-open-play/",
-      "description": "🀄 American Mahjong Open Play at 425 Cellars 🀄 Join us Wednesday, October 7th from 6:00–8:30 PM for an evening of American Mahjong! 🎉 This is post-101 community play, designed for players with prior experience — not a beginner class. Come ready with a basic understanding of rea",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Village Wines-Wednesday Hosted Trivia & Prizes-2026-10-08T01:00:00.000Z",
-      "title": "Wednesday Hosted Trivia & Prizes",
-      "category": "food-drink",
-      "start": "2026-10-08T01:00:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/wednesday-hosted-trivia-prizes-with-kelvin/",
-      "description": "Join us on Wednesday, October 7th, 6pm to 7:30pm Get ready for a fun night of friendly competition during our Trivia Night at Village Wines. Bring your friends, charge your phone, and join us for an evening of pop culture, laughs, and great food and wine. It’s also Wednesday Wing",
-      "source": "Village Wines"
-    },
-    {
-      "id": "manual-SOMM Talks: Mana Vintners-2026-10-08T01:00:00.000Z",
-      "title": "SOMM Talks: Mana Vintners",
-      "category": "food-drink",
-      "start": "2026-10-08T01:00:00.000Z",
-      "location": "The SOMM Hotel Library, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-New Age Flamenco at Fireside Lounge-2026-10-08T01:00:00.000Z",
-      "title": "New Age Flamenco at Fireside Lounge",
-      "category": "music",
-      "start": "2026-10-08T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Tinte Cellars-Fall Floral Design Class (WOODINVILLE)-2026-10-08T17:30:00.000Z",
-      "title": "Fall Floral Design Class (WOODINVILLE)",
-      "category": "art",
-      "start": "2026-10-08T17:30:00.000Z",
-      "location": "Woodinville Warehouse District, 19495 144th Ave. NE, # A-100, Woodinville",
-      "url": "https://tintecellars.com/event/fall-floral-design-class-georgetown/",
-      "description": "Get your hands dirty and learn how to make stunning fall flower arrangements in this fun, laid-back class. Celebrate the beauty of the season with an evening of flowers, creativity, and cozy Fall inspiration. Join us for a hands-on floral design class where you’ll create an organ",
-      "source": "Tinte Cellars"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-08T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-08T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap-2026-10-08T18:00:00.000Z",
-      "title": "$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap",
-      "category": "food-drink",
-      "start": "2026-10-08T18:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-10-08T18:30:00.000Z",
-      "title": "WOODINVILLE: Music Bingo",
-      "category": "music",
-      "start": "2026-10-08T18:30:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
-      "url": "https://tsillancellars.com/event/woodinville-music-bingo-57/",
-      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
-      "source": "Tsillan Cellars"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-08T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
@@ -242,6 +132,16 @@
       "url": "https://www.lashellewines.com/calendar/music-featuring-goldy-and-foss",
       "description": "Join us for a great Thursday night music with Goldy & Foss. Goldy & Foss are a dynamic blend of Americana, Folk Rock, and classic covers, delivering infectious harmonies with a touch of island flair. Passionate about creating soulful, engaging live music, the duo brings warmth, e",
       "source": "LaShellē Wines"
+    },
+    {
+      "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-09T01:45:00.833Z",
+      "title": "Beat the Geek Trivia in Woodinville",
+      "category": "community",
+      "start": "2026-10-09T01:45:00.833Z",
+      "location": "",
+      "url": "https://www.beaumontcellars.com/events-calendar/2026/10/8/beat-the-geek-trivia-in-woodinville",
+      "description": "Join us for the best trivia in town. Trivia is free but minimum glass/bottle purchase required. We can sell out quickly, so for reservations please email Beth at bethod@beaumontcellars.com or, for day-of reservations, call us after 4pm at 425-482-6349.",
+      "source": "Beaumont Cellars"
     },
     {
       "id": "manual-Trivia Night at Northwest Spirits-2026-10-09T02:00:00.000Z",
@@ -682,6 +582,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Synne Cellars-🏈 SEAHAWKS vs. 49ERS — WATCH PARTY AT SYNNE! 💚💙-2026-10-11T20:25:00.000Z",
+      "title": "🏈 SEAHAWKS vs. 49ERS — WATCH PARTY AT SYNNE! 💚💙",
+      "category": "food-drink",
+      "start": "2026-10-11T20:25:00.000Z",
+      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "url": "https://www.synnecellars.com/event/%f0%9f%8f%88-seahawks-vs-49ers-watch-party-at-synne-%f0%9f%92%9a%f0%9f%92%99/",
+      "description": "It’s game day at Synne Cellars! Join us for an afternoon of Seahawks football, great wine, cold beer, and good company as Seattle takes on San Francisco! 🏈 3 TVs with the game sound ON! 🍷 Synne wines by the glass or bottle 🍺 Watts Brewing beer 🥨 Light snacks and charcuterie a",
+      "source": "Synne Cellars"
     },
     {
       "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-10-11T20:25:00.000Z",
@@ -1254,6 +1164,16 @@
       "source": "LaShellē Wines"
     },
     {
+      "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-16T01:45:00.950Z",
+      "title": "Beat the Geek Trivia in Woodinville",
+      "category": "community",
+      "start": "2026-10-16T01:45:00.950Z",
+      "location": "",
+      "url": "https://www.beaumontcellars.com/events-calendar/2026/10/15/beat-the-geek-trivia-in-woodinville",
+      "description": "Join us for the best trivia in town. Trivia is free but minimum glass/bottle purchase required. We can sell out quickly, so for reservations please email Beth at bethod@beaumontcellars.com or, for day-of reservations, call us after 4pm at 425-482-6349.",
+      "source": "Beaumont Cellars"
+    },
+    {
       "id": "manual-Trivia Night at Northwest Spirits-2026-10-16T02:00:00.000Z",
       "title": "Trivia Night at Northwest Spirits",
       "category": "food-drink",
@@ -1332,6 +1252,16 @@
       "url": "https://www.exploretock.com/studio1886",
       "description": "5-8pm",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Watts Brewing Company-#WYD Release Party-2026-10-17T00:00:00.528Z",
+      "title": "#WYD Release Party",
+      "category": "food-drink",
+      "start": "2026-10-17T00:00:00.528Z",
+      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
+      "url": "https://wattsbrewingcompany.com/events/2026/10/16/wyd-release-party",
+      "description": "#WYD is a collaboration between Watts Brewing and the BT 425/360 beer tasting group. This black IPA pairs roasted malt character with Simcoe and Nelson Sauvin hops.",
+      "source": "Watts Brewing Company"
     },
     {
       "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-17T00:30:00.000Z",
@@ -1510,7 +1440,7 @@
       "start": "2026-10-17T21:00:00.313Z",
       "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
       "url": "https://wattsbrewingcompany.com/events/2026/10/17/puget-brass-oktoberfest",
-      "description": "Join us for an afternoon of Oktoberfest music with Puget Brass! Bavarian music brats, pretzels, and Märzen Bee Oktoberfest lager!",
+      "description": "Join us for an afternoon of Oktoberfest music with Puget Brass! Bavarian music, brats, pretzels, and Märzen Bee Oktoberfest lager!",
       "source": "Watts Brewing Company"
     },
     {
@@ -2014,6 +1944,16 @@
       "source": "425 Cellars"
     },
     {
+      "id": "winery-Watts Brewing Company-Country Swing Dancing & Two-Step-2026-10-22T02:00:00.997Z",
+      "title": "Country Swing Dancing & Two-Step",
+      "category": "food-drink",
+      "start": "2026-10-22T02:00:00.997Z",
+      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
+      "url": "https://wattsbrewingcompany.com/events/2026/8/5/country-swing-dancing-amp-two-step-mawlx-n2m2n",
+      "description": "Join us for a beginner-friendly Country Swing & Two-Step lesson at Watts Brewing Company! Whether you’ve never danced before or just want to brush up on the basics, this class is designed to be fun, welcoming, and easy to follow.",
+      "source": "Watts Brewing Company"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-22T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -2112,6 +2052,16 @@
       "url": "https://www.lashellewines.com/calendar/music-featuring-goldy-and-foss-kmw66",
       "description": "Join us for a great Thursday night music with Goldy & Foss. Goldy & Foss are a dynamic blend of Americana, Folk Rock, and classic covers, delivering infectious harmonies with a touch of island flair. Passionate about creating soulful, engaging live music, the duo brings warmth, e",
       "source": "LaShellē Wines"
+    },
+    {
+      "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-23T01:45:00.168Z",
+      "title": "Beat the Geek Trivia in Woodinville",
+      "category": "community",
+      "start": "2026-10-23T01:45:00.168Z",
+      "location": "",
+      "url": "https://www.beaumontcellars.com/events-calendar/2026/10/22/beat-the-geek-trivia-in-woodinville",
+      "description": "Join us for the best trivia in town. Trivia is free but minimum glass/bottle purchase required. We can sell out quickly, so for reservations please email Beth at bethod@beaumontcellars.com or, for day-of reservations, call us after 4pm at 425-482-6349.",
+      "source": "Beaumont Cellars"
     },
     {
       "id": "winery-Village Wines-Brian James Live-2026-10-23T02:00:00.000Z",
@@ -2272,6 +2222,16 @@
       "url": "https://www.exploretock.com/studio1886",
       "description": "5-8pm",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Watts Brewing Company-Solitary Series: October 2026 Release-2026-10-24T00:00:00.805Z",
+      "title": "Solitary Series: October 2026 Release",
+      "category": "food-drink",
+      "start": "2026-10-24T00:00:00.805Z",
+      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
+      "url": "https://wattsbrewingcompany.com/events/2026/10/23/solitary-series-october-2026-release",
+      "description": "",
+      "source": "Watts Brewing Company"
     },
     {
       "id": "winery-Synne Cellars-Synne Session: Elevate Your Friday Evening with Robbie Egelstad-2026-10-24T00:30:00.000Z",
@@ -2804,6 +2764,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Watts Brewing Company-Firefly Social: Woodinville Tech Connect-2026-10-28T01:00:00.927Z",
+      "title": "Firefly Social: Woodinville Tech Connect",
+      "category": "food-drink",
+      "start": "2026-10-28T01:00:00.927Z",
+      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
+      "url": "https://wattsbrewingcompany.com/events/2026/10/27/dlkxrjfozado9l7zvcsm3ikfesihon",
+      "description": "Informal tech social in Woodinville at Watts Brewing — real conversations about careers and the industry. No pitches. Get social again.",
+      "source": "Watts Brewing Company"
+    },
+    {
       "id": "manual-Boot Camp Line Dancing at LaShellé Wines-2026-10-28T02:00:00.000Z",
       "title": "Boot Camp Line Dancing at LaShellé Wines",
       "category": "community",
@@ -3074,6 +3044,16 @@
       "source": "LaShellē Wines"
     },
     {
+      "id": "winery-Beaumont Cellars-Beat the Geek TRrvia in Woodinville-2026-10-30T01:45:00.547Z",
+      "title": "Beat the Geek TRrvia in Woodinville",
+      "category": "community",
+      "start": "2026-10-30T01:45:00.547Z",
+      "location": "",
+      "url": "https://www.beaumontcellars.com/events-calendar/2026/10/29/beat-the-geek-trrvia-in-woodinville",
+      "description": "Join us for the best trivia in town. Trivia is free but minimum glass/bottle purchase required. We can sell out quickly, so for reservations please email Beth at bethod@beaumontcellars.com or, for day-of reservations, call us after 4pm at 425-482-6349.",
+      "source": "Beaumont Cellars"
+    },
+    {
       "id": "manual-Trivia Night at Northwest Spirits-2026-10-30T02:00:00.000Z",
       "title": "Trivia Night at Northwest Spirits",
       "category": "food-drink",
@@ -3292,6 +3272,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/a-roaring-twenties-halloween-cocktail-party-xt32w",
       "description": "We’re giving our tasting flights a Halloween twist! Choose our Mixed Flight and we’ll pair each wine with a Halloween candy—because the kids shouldn’t get to have all the fun. Prefer reds? Order our Mystery Red Flight and put your palate to the test. You’ll taste five different r",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Beaumont Cellars-Woodinville will Close Early for Halloween-2026-10-31T19:00:00.242Z",
+      "title": "Woodinville will Close Early for Halloween",
+      "category": "food-drink",
+      "start": "2026-10-31T19:00:00.242Z",
+      "location": "",
+      "url": "https://www.beaumontcellars.com/events-calendar/2026/10/31/woodinville-will-close-early-for-halloween",
+      "description": "Our Woodinville Tasting Room will close at 5pm so our associates can celebrate Halloween with their families. Happy Halloween!!",
+      "source": "Beaumont Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-31T20:00:00.000Z",
@@ -4002,6 +3992,16 @@
       "url": "https://www.fidelitaswines.com/upcoming-events/",
       "description": "First Fridays at Fidélitas Woodinville, 6:30pm. Full food menu, live music, wine by the glass and bottle. No cost, reservations required.",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-CHELAN: 2024 Red Vintage Tasting-2026-11-07T16:00:00.000Z",
+      "title": "CHELAN: 2024 Red Vintage Tasting",
+      "category": "food-drink",
+      "start": "2026-11-07T16:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-2024-red-vintage-tasting/",
+      "description": "Tasting of the 2024 Red Vintage An Exclusive Wine Club Event Chelan – Saturday, Nov. 7th 4-6pm We are excited to announce our Fourth Red Vintage Preview Event! Head Winemaker Garrett Grubbs and Vineyard Manager/Assistant Winemaker Nic Stevens can’t wait to share this incredible v",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-07T21:00:00.000Z",
@@ -6032,6 +6032,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Synne Cellars-Synne Sessions: Brian Lally | After-Thanksgiving Special-2026-11-28T01:00:00.000Z",
+      "title": "Synne Sessions: Brian Lally | After-Thanksgiving Special",
+      "category": "music",
+      "start": "2026-11-28T01:00:00.000Z",
+      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "url": "https://www.synnecellars.com/event/synne-sessions-brian-lally-after-thanksgiving-special/",
+      "description": "Take a break from the Thanksgiving festivities and unwind with an evening of beautiful live acoustic guitar at Synne Cellars! We’re excited to welcome Brian Lally , an accomplished guitarist, singer, songwriter, and composer whose expressive playing blends classical influences, i",
+      "source": "Synne Cellars"
     },
     {
       "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-11-28T01:00:00.000Z",
