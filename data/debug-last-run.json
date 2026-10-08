@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-08T23:37:33.550Z",
+  "ranAt": "2026-10-08T23:40:17.210Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -477,7 +477,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 1,
+      "count": 2,
       "eventPage": "https://tintecellars.com/"
     },
     {
@@ -495,7 +495,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 10,
+      "count": 11,
       "eventPage": "https://tsillancellars.com/"
     },
     {
