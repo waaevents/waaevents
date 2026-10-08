@@ -239,6 +239,13 @@ async function processWinery(w, district) {
       .map(norm)
       .filter(Boolean)
       .filter((e) => e.title && inWindow(e.start, now, max))
+      // JSON-LD times from sites with a mis-set timezone can land in the middle
+      // of the night; drop those rather than show a wrong time.
+      .filter((e) => {
+        if (strategy !== 'jsonld') return true;
+        const h = Number(new Intl.DateTimeFormat('en-US', { timeZone: 'America/Los_Angeles', hour: '2-digit', hourCycle: 'h23' }).format(new Date(e.start)));
+        return h >= 8 && h < 23;
+      })
       .filter((e) => !(OTHER_CITIES.test(e.location) && !/woodinville/i.test(e.location)));
     if (events.length) {
       rep.status = 'ok';
