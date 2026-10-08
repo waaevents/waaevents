@@ -87,7 +87,9 @@ async function tribe(origin) {
   const j = JSON.parse(text);
   return (j.events || []).map((e) => ({
     title: e.title,
-    start: e.utc_start_date ? `${e.utc_start_date.replace(' ', 'T')}Z` : e.start_date,
+    // start_date is the wall-clock time the venue entered. utc_start_date is
+    // wrong on sites whose WordPress timezone is left at UTC, so don't use it.
+    start: e.start_date ? e.start_date.replace(' ', 'T') : e.utc_start_date ? `${e.utc_start_date.replace(' ', 'T')}Z` : null,
     location: [e.venue?.venue, e.venue?.address, e.venue?.city].filter(Boolean).join(', '),
     url: e.url,
     description: e.description || e.excerpt,
