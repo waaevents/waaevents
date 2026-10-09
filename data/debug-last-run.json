@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-08T23:45:45.620Z",
+  "ranAt": "2026-10-09T18:35:47.434Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 9,
-      "addedCount": 9
+      "rawCount": 8,
+      "addedCount": 8
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -84,7 +84,7 @@
       "status": "ok",
       "strategy": "jsonld",
       "platform": "wordpress",
-      "count": 3,
+      "count": 4,
       "eventPage": "https://bayernmoor.com/events"
     },
     {
@@ -92,7 +92,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 5,
+      "count": 4,
       "eventPage": "https://www.beaumontcellars.com/events-calendar"
     },
     {
@@ -290,7 +290,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 14,
+      "count": 13,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -401,7 +401,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 21,
+      "count": 20,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -477,7 +477,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 2,
+      "count": 1,
       "eventPage": "https://tintecellars.com/"
     },
     {
@@ -495,7 +495,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 11,
+      "count": 10,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -539,7 +539,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 17,
+      "count": 15,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
