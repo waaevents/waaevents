@@ -324,10 +324,6 @@
           "url": "https://www.lovethatredwinery.com/"
         },
         {
-          "name": "Michael Florentino Cellars",
-          "url": "https://www.michaelflorentinocellars.com/"
-        },
-        {
           "name": "Obelisco Winery",
           "url": "https://obelisco.com/"
         },
@@ -425,7 +421,7 @@
     },
     {
       "id": "industrial",
-      "name": "Industrial District",
+      "name": "West Valley Industrial District",
       "accent": "community",
       "wineries": [
         {
@@ -448,6 +444,11 @@
           "name": "Tenor Winery",
           "note": "16116 140th Place NE",
           "url": "https://tenorwines.com/"
+        },
+        {
+          "name": "The Winemakers Reserve",
+          "url": "https://www.thewinemakersreserve.com/",
+          "note": "Winery, tasting room and event space in the West Valley"
         },
         {
           "name": "Watts Brewing Company",
@@ -514,6 +515,21 @@
           "name": "Two Vintners",
           "url": "https://www.twovintners.com/",
           "note": "18570 142nd Ave NE"
+        }
+      ]
+    },
+    {
+      "id": "gateway",
+      "name": "The Gateway",
+      "accent": "community",
+      "wineries": [
+        {
+          "name": "Michael Florentino Cellars",
+          "url": "https://michaelflorentinocellars.com/"
+        },
+        {
+          "name": "Wilridge Pie & Wine Bar",
+          "url": "https://www.wilridgewinery.com/wilridge-pie-wine-bar/"
         }
       ]
     },

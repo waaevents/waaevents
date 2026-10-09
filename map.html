@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Woodinville Wine Country Map — Woodinville Creative Events</title>
+  <meta name="description" content="A zoomable map of Woodinville's wine districts with a pin for every winery and a link to each website.">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    .map-wrap { max-width: 1080px; margin: 0 auto; padding: 24px 24px 0; }
+    .map-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 10px; position: relative; }
+    .map-search { display: flex; gap: 8px; margin: 0 0 10px; }
+    .map-search input { flex: 1; font: inherit; font-size: .95rem; padding: 9px 12px; border: 1.5px solid var(--line); border-radius: 999px; min-width: 0; }
+    .map-search input:focus { outline: none; border-color: var(--signature); }
+    .map-stage { position: relative; border-radius: 8px; overflow: hidden; background: #f6f2ea; }
+    #map { width: 100%; height: auto; display: block; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
+    #map.dragging { cursor: grabbing; }
+    .zoom-ctl { position: absolute; right: 10px; top: 10px; display: flex; flex-direction: column; gap: 6px; }
+    .zoom-ctl button { width: 40px; height: 40px; border-radius: 10px; border: 1px solid var(--line); background: #fff; font: 700 20px system-ui, sans-serif; color: var(--ink); cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+    .zoom-ctl button.reset { font-size: 11px; }
+    .zoom-ctl button:hover { background: var(--signature-bg); }
+    .zone { cursor: pointer; }
+    .zone rect { transition: stroke-width .15s; }
+    .zone:hover rect, .zone:focus rect, .zone.active rect { stroke-width: 4; }
+    .zone:focus { outline: none; }
+    .zone-label { font: 800 16px system-ui, sans-serif; fill: #201f2e; pointer-events: none; }
+    .zone-count { font: 600 11px system-ui, sans-serif; fill: #3d3b4d; pointer-events: none; }
+    .pin { cursor: pointer; stroke: #fff; stroke-width: 1.5; }
+    .pin.beer { stroke: #d89a1f; stroke-width: 2; }
+    .pin.sel { stroke: #201f2e; stroke-width: 2.5; }
+    .pin:hover { stroke: #201f2e; }
+    .pin-name { font: 600 9px system-ui, sans-serif; fill: #201f2e; text-anchor: middle; pointer-events: none; paint-order: stroke; stroke: #fff; stroke-width: 2.5px; stroke-linejoin: round; }
+    .map-note { font-size: .8rem; color: var(--ink-soft); margin: 8px 4px 0; line-height: 1.45; }
+    .pin-card { margin-top: 10px; border: 1px solid var(--line); border-left-width: 6px; border-radius: var(--radius); padding: 10px 14px; background: #fff; min-height: 56px; }
+    .pin-card .pc-name { font-weight: 800; font-size: 1.05rem; }
+    .pin-card .pc-name a { color: var(--signature-deep); text-decoration: none; }
+    .pin-card .pc-name a:hover { text-decoration: underline; }
+    .pin-card .pc-meta { font-size: .85rem; color: var(--ink-soft); margin-top: 2px; }
+    .pin-card.empty { color: var(--ink-soft); font-size: .9rem; display: flex; align-items: center; }
+    .map-tools { display: flex; gap: 10px; margin: 18px 0 8px; flex-wrap: wrap; }
+    .map-tools button { font: inherit; font-weight: 700; font-size: .85rem; padding: 8px 14px; border-radius: 999px; border: 1.5px solid var(--signature); background: #fff; color: var(--signature-deep); cursor: pointer; }
+    .map-tools button:hover { background: var(--signature-bg); }
+    .district { background: #fff; border: 1px solid var(--line); border-left-width: 6px; border-radius: var(--radius); margin: 10px 0; }
+    .district summary { cursor: pointer; padding: 14px 16px; font-weight: 800; font-size: 1.05rem; list-style: none; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .district summary::-webkit-details-marker { display: none; }
+    .district summary .count { font-weight: 600; font-size: .85rem; color: var(--ink-soft); margin-left: auto; }
+    .district summary::after { content: "+"; font-size: 1.4rem; line-height: 1; color: var(--ink-soft); }
+    .district[open] summary::after { content: "–"; }
+    .district ul { list-style: none; margin: 0; padding: 0 16px 14px; columns: 2 280px; column-gap: 28px; }
+    .district li { break-inside: avoid; padding: 7px 0; border-top: 1px solid var(--line); font-size: .95rem; }
+    .district li a { font-weight: 700; color: var(--signature-deep); text-decoration: none; }
+    .district li a:hover { text-decoration: underline; }
+    .district li .nm { font-weight: 700; }
+    .district li small { display: block; color: var(--ink-soft); font-size: .8rem; margin-top: 2px; }
+    .district li .beer-tag { font-size: .72rem; font-weight: 700; color: #8a5a00; background: #fdf0d5; border-radius: 999px; padding: 1px 7px; margin-left: 6px; }
+    .district li button.find { font: inherit; font-size: .75rem; margin-left: 8px; border: 0; background: none; color: var(--ink-soft); cursor: pointer; text-decoration: underline; padding: 0; }
+  </style>
+</head>
+<body>
+
+  <header class="jewel-hero">
+    <div class="hero-inner">
+      <a class="back-link" href="wineries.html">← Wineries by district</a>
+      <div class="eyebrow">Woodinville</div>
+      <div class="title-row"><h1>Wine country map</h1></div>
+      <p class="tagline">Pinch, scroll or use + / – to zoom in on a district and find its wineries. Tap a pin for the name and website, or search for a winery by name.</p>
+    </div>
+  </header>
+  <div class="vine-strip" aria-hidden="true"></div>
+
+  <div class="map-wrap">
+    <div class="map-card">
+      <div class="map-search">
+        <input id="find" list="winery-names" type="search" placeholder="Find a winery…" autocomplete="off" aria-label="Find a winery">
+        <datalist id="winery-names"></datalist>
+      </div>
+      <div class="map-stage">
+        <svg id="map" viewBox="0 0 760 1040" role="img" aria-label="Schematic map of Woodinville's wine districts, north at the top">
+          <rect width="760" height="1040" fill="#f6f2ea"/>
+          <g id="vp">
+            <!-- West of the river: former East Railroad (Eastside Rail Corridor) and the Sammamish River -->
+            <path d="M200 1040 C185 900 222 800 198 700 S170 520 198 420 S228 220 204 0" fill="none" stroke="#b9a98f" stroke-width="3" stroke-dasharray="7 6"/>
+            <path d="M262 1040 C240 900 280 800 256 700 S226 520 256 420 S286 220 262 0" fill="none" stroke="#bcd9ee" stroke-width="18" stroke-linecap="round"/>
+            <text transform="translate(188 470) rotate(-90)" text-anchor="middle" font-size="10" fill="#8a7a5f" font-family="system-ui, sans-serif">Former East Railroad corridor</text>
+            <text transform="translate(272 540) rotate(-90)" text-anchor="middle" font-size="10" fill="#6a9bc0" font-family="system-ui, sans-serif">Sammamish River Trail</text>
+            <text x="150" y="30" text-anchor="middle" font-size="11" font-weight="700" fill="#8a8272" font-family="system-ui, sans-serif">WEST SIDE</text>
+            <text x="520" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#8a8272" font-family="system-ui, sans-serif">EAST SIDE</text>
+
+            <!-- North Woodinville hill: Warehouse, Junction, Artisan Hill, with the Gateway just below -->
+            <rect x="300" y="34" width="440" height="560" rx="22" fill="none" stroke="#c9c2b4" stroke-width="2" stroke-dasharray="6 6"/>
+            <g class="zone" data-id="warehouse" tabindex="0" role="button" aria-label="Warehouse District" fill="#ffe3dd" stroke="#e14f3d" stroke-width="2.5"><rect x="320" y="52" width="400" height="168" rx="16"/></g>
+            <g class="zone" data-id="junction" tabindex="0" role="button" aria-label="The Junction" fill="#dbe6f5" stroke="#2f5fa8" stroke-width="2.5"><rect x="320" y="240" width="400" height="96" rx="16"/></g>
+            <line x1="308" y1="346" x2="732" y2="346" stroke="#8a8272" stroke-width="2" stroke-dasharray="3 5"/>
+            <text x="728" y="341" text-anchor="end" font-size="10" fill="#6d6657" font-family="system-ui, sans-serif">N Woodinville Way</text>
+            <g class="zone" data-id="artisan" tabindex="0" role="button" aria-label="Artisan Hill District" fill="#ece0f7" stroke="#8b5fbf" stroke-width="2.5"><rect x="320" y="360" width="400" height="112" rx="16"/></g>
+            <g class="zone" data-id="gateway" tabindex="0" role="button" aria-label="The Gateway" fill="#e4f0dc" stroke="#6a9a55" stroke-width="2.5"><rect x="320" y="494" width="400" height="76" rx="16"/></g>
+            <text x="316" y="200" transform="rotate(-90 316 200)" text-anchor="middle" font-size="10" fill="#8a8272" font-family="system-ui, sans-serif">144th Ave NE</text>
+
+            <!-- East side, farther south: Downtown, then Hollywood -->
+            <g class="zone" data-id="downtown" tabindex="0" role="button" aria-label="Downtown and Woodin Creek" fill="#dbe6f5" stroke="#1e3f75" stroke-width="2.5"><rect x="320" y="650" width="400" height="136" rx="16"/></g>
+            <g class="zone" data-id="hollywood" tabindex="0" role="button" aria-label="Hollywood District" fill="#ffe3dd" stroke="#ff6f59" stroke-width="2.5"><rect x="320" y="830" width="400" height="190" rx="16"/></g>
+
+            <!-- West side: West Valley Industrial -->
+            <g class="zone" data-id="industrial" tabindex="0" role="button" aria-label="West Valley Industrial District" fill="#fdf0d5" stroke="#d89a1f" stroke-width="2.5"><rect x="30" y="560" width="150" height="132" rx="16"/></g>
+
+            <g id="labels"></g><g id="pins"></g><g id="selmark"></g>
+          </g>
+          <g font-family="system-ui, sans-serif" fill="#605e70">
+            <text x="22" y="1024" font-size="11">Not to scale</text>
+            <text x="738" y="1024" text-anchor="end" font-size="13" font-weight="800">N ↑</text>
+          </g>
+        </svg>
+        <div class="zoom-ctl">
+          <button type="button" id="zin" aria-label="Zoom in">+</button>
+          <button type="button" id="zout" aria-label="Zoom out">–</button>
+          <button type="button" id="zreset" class="reset" aria-label="Reset view">Reset</button>
+        </div>
+      </div>
+      <div id="pin-card" class="pin-card empty">Tap a pin to see the winery and its website.</div>
+      <p class="map-note">Schematic map, north at the top. Pins are placed inside each district, not at exact street addresses, so use them to see which district a winery is in and who its neighbors are. Downtown and Hollywood are on the east side of the Sammamish River Trail; the West Valley Industrial District is on the west side along the former East Railroad corridor.</p>
+    </div>
+
+    <div class="map-tools">
+      <button type="button" id="expand-all">Expand all</button>
+      <button type="button" id="collapse-all">Collapse all</button>
+    </div>
+    <div id="districts"><p class="loading-state">Loading wineries…</p></div>
+  </div>
+
+  <footer class="site-footer">
+    <p>Districts are as maintained by the site editors. Want a winery added or moved? Let us know. <a href="wineries.html">Filter wineries by style</a> or <a href="plan-a-day.html">plan a day</a>.</p>
+  </footer>
+
+  <script>
+  (function () {
+    var NS = 'http://www.w3.org/2000/svg';
+    var VBW = 760, VBH = 1040;
+    var COLORS = { gateway: '#6a9a55', hollywood: '#ff6f59', warehouse: '#e14f3d', industrial: '#d89a1f', artisan: '#8b5fbf', downtown: '#1e3f75', junction: '#2f5fa8' };
+    var ORDER = ['warehouse', 'junction', 'artisan', 'gateway', 'downtown', 'industrial', 'hollywood'];
+    var ZONES = { warehouse: [320, 52, 400, 168], junction: [320, 240, 400, 96], artisan: [320, 360, 400, 112], gateway: [320, 494, 400, 76], downtown: [320, 650, 400, 136], hollywood: [320, 830, 400, 190], industrial: [30, 560, 150, 132] };
+    var PIN_STEP = 28, PIN_R = 7;
+
+    function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+    function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : ''; }
+    function el(name, attrs) { var e = document.createElementNS(NS, name); for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
+
+    var svg = document.getElementById('map');
+    var vp = document.getElementById('vp');
+    var view = { k: 1, x: 0, y: 0 };
+    var pins = [];          // {w, d, g, circle, label, cx, cy}
+    var selected = null;
+
+    function apply() {
+      vp.setAttribute('transform', 'translate(' + view.x + ' ' + view.y + ') scale(' + view.k + ')');
+      var k = view.k;
+      pins.forEach(function (p) {
+        p.circle.setAttribute('r', (PIN_R / Math.pow(k, 0.55)).toFixed(2));
+        p.circle.style.strokeWidth = (1.5 / k).toFixed(2) + 'px';
+        p.label.setAttribute('font-size', (9 / k).toFixed(2));
+        p.label.style.strokeWidth = (2.5 / k).toFixed(2) + 'px';
+        p.label.style.display = k >= 3.2 ? '' : 'none';
+        p.label.setAttribute('y', (p.cy + (PIN_R / Math.pow(k, 0.55)) + 10 / k).toFixed(2));
+      });
+    }
+    function clampView() {
+      var k = view.k;
+      view.x = Math.min(60 * k, Math.max(VBW - VBW * k - 60 * k, view.x));
+      view.y = Math.min(60 * k, Math.max(VBH - VBH * k - 60 * k, view.y));
+    }
+    function toUser(clientX, clientY) {
+      var pt = svg.createSVGPoint(); pt.x = clientX; pt.y = clientY;
+      var m = svg.getScreenCTM().inverse(); var p = pt.matrixTransform(m);
+      return { x: p.x, y: p.y };
+    }
+    function zoomAt(ux, uy, factor) {
+      var nk = Math.min(10, Math.max(1, view.k * factor));
+      var f = nk / view.k;
+      view.x = ux - (ux - view.x) * f; view.y = uy - (uy - view.y) * f; view.k = nk;
+      clampView(); apply();
+    }
+    var anim = null;
+    function flyTo(cx, cy, k) {
+      var target = { k: k, x: VBW / 2 - cx * k, y: VBH / 2 - cy * k };
+      var from = { k: view.k, x: view.x, y: view.y }, t0 = null, dur = 450;
+      if (anim) cancelAnimationFrame(anim);
+      function step(ts) {
+        if (!t0) t0 = ts;
+        var t = Math.min(1, (ts - t0) / dur), e = t < .5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+        view.k = from.k + (target.k - from.k) * e; view.x = from.x + (target.x - from.x) * e; view.y = from.y + (target.y - from.y) * e;
+        apply();
+        if (t < 1) anim = requestAnimationFrame(step); else { clampView(); apply(); }
+      }
+      anim = requestAnimationFrame(step);
+    }
+    function flyToZone(id) {
+      var z = ZONES[id]; if (!z) return;
+      var k = Math.min(VBW / (z[2] + 60), VBH / (z[3] + 80), 6);
+      flyTo(z[0] + z[2] / 2, z[1] + z[3] / 2, k);
+    }
+
+    // ---- pointer interaction: drag to pan, wheel / pinch to zoom
+    var ptrs = {}, drag = null, pinch0 = null, moved = false;
+    svg.addEventListener('pointerdown', function (e) {
+      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+      var ids = Object.keys(ptrs);
+      moved = false;
+      if (ids.length === 1) { drag = { x: e.clientX, y: e.clientY, vx: view.x, vy: view.y }; }
+      else if (ids.length === 2) { var a = ptrs[ids[0]], b = ptrs[ids[1]]; pinch0 = { d: Math.hypot(a.x - b.x, a.y - b.y), k: view.k }; drag = null; }
+    });
+    svg.addEventListener('pointermove', function (e) {
+      if (!ptrs[e.pointerId]) return;
+      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+      var ids = Object.keys(ptrs);
+      if (ids.length === 2 && pinch0) {
+        var a = ptrs[ids[0]], b = ptrs[ids[1]];
+        var d = Math.hypot(a.x - b.x, a.y - b.y); var c = toUser((a.x + b.x) / 2, (a.y + b.y) / 2);
+        zoomAt(c.x, c.y, (pinch0.k * d / pinch0.d) / view.k); moved = true;
+      } else if (drag) {
+        var dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+        if (Math.abs(dx) + Math.abs(dy) > 5) { moved = true; svg.classList.add('dragging'); }
+        if (moved) {
+          var r = svg.getBoundingClientRect(), s = VBW / r.width;
+          view.x = drag.vx + dx * s; view.y = drag.vy + dy * s; clampView(); apply();
+        }
+      }
+    });
+    function endPtr(e) { delete ptrs[e.pointerId]; if (Object.keys(ptrs).length < 2) pinch0 = null; if (!Object.keys(ptrs).length) { drag = null; svg.classList.remove('dragging'); } }
+    svg.addEventListener('pointerup', endPtr); svg.addEventListener('pointercancel', endPtr); svg.addEventListener('pointerleave', endPtr);
+    svg.addEventListener('wheel', function (e) { e.preventDefault(); var p = toUser(e.clientX, e.clientY); zoomAt(p.x, p.y, e.deltaY < 0 ? 1.25 : 0.8); }, { passive: false });
+    document.getElementById('zin').addEventListener('click', function () { zoomAt(VBW / 2, VBH / 2, 1.5); });
+    document.getElementById('zout').addEventListener('click', function () { zoomAt(VBW / 2, VBH / 2, 1 / 1.5); });
+    document.getElementById('zreset').addEventListener('click', function () { flyTo(VBW / 2, VBH / 2, 1); });
+
+    // ---- data
+    var card = document.getElementById('pin-card');
+    function selectPin(p, fly) {
+      selected = p;
+      pins.forEach(function (q) { q.circle.classList.toggle('sel', q === p); });
+      var url = safeUrl(p.w.url);
+      var name = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(p.w.name) + ' →</a>' : esc(p.w.name);
+      card.className = 'pin-card'; card.style.borderLeftColor = COLORS[p.d.id] || '#605e70';
+      card.innerHTML = '<div class="pc-name">' + name + '</div><div class="pc-meta">' + esc(p.d.name) + (p.w.note ? ' · ' + esc(p.w.note) : '') + '</div>';
+      if (fly) flyTo(p.cx, p.cy, 6);
+    }
+
+    fetch('data/wineries.json').then(function (r) { return r.json(); }).then(function (data) {
+      var host = document.getElementById('districts'), labels = document.getElementById('labels'), pinG = document.getElementById('pins'), names = document.getElementById('winery-names');
+      host.innerHTML = '';
+      data.districts.slice().sort(function (a, b) { var i = ORDER.indexOf(a.id), j = ORDER.indexOf(b.id); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); }).forEach(function (d) {
+        if (!d.wineries || !d.wineries.length) return;
+        var list = d.wineries.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
+        var z = ZONES[d.id];
+
+        // accordion list
+        var det = document.createElement('details'); det.className = 'district'; det.id = 'd-' + d.id;
+        det.style.borderLeftColor = COLORS[d.id] || '#605e70';
+        var items = list.map(function (w, i) {
+          var url = safeUrl(w.url);
+          var nm = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a>' : '<span class="nm">' + esc(w.name) + '</span>';
+          var beer = (w.wineFocus || []).indexOf('beer') >= 0 ? '<span class="beer-tag">Beer</span>' : '';
+          var find = z ? '<button type="button" class="find" data-d="' + d.id + '" data-i="' + i + '">Show pin</button>' : '';
+          return '<li>' + nm + beer + find + (w.note ? '<small>' + esc(w.note) + '</small>' : '') + '</li>';
+        }).join('');
+        det.innerHTML = '<summary><span>' + esc(d.name) + '</span><span class="count">' + list.length + '</span></summary><ul>' + items + '</ul>';
+        host.appendChild(det);
+
+        if (!z) return;
+        // zone label
+        var t = el('text', { x: z[0] + 14, y: z[1] + 24, class: 'zone-label' });
+        t.textContent = d.name.replace(' & Woodin Creek District', ' & Woodin Creek').replace(' District', '');
+        var c = el('text', { x: z[0] + z[2] - 14, y: z[1] + 22, 'text-anchor': 'end', class: 'zone-count' });
+        c.textContent = list.length + ' wineries';
+        labels.appendChild(t); labels.appendChild(c);
+
+        // pins in a tidy grid inside the zone
+        var pad = 20, cols = Math.max(1, Math.floor((z[2] - pad * 2) / PIN_STEP) + 1);
+        var startX = z[0] + pad + 4, startY = z[1] + 52;
+        list.forEach(function (w, i) {
+          var cx = startX + (i % cols) * PIN_STEP, cy = startY + Math.floor(i / cols) * PIN_STEP;
+          var g = el('g', {});
+          var circ = el('circle', { cx: cx, cy: cy, r: PIN_R, fill: COLORS[d.id] || '#605e70', class: 'pin' + ((w.wineFocus || []).indexOf('beer') >= 0 ? ' beer' : '') });
+          var title = el('title', {}); title.textContent = w.name; circ.appendChild(title);
+          var lab = el('text', { x: cx, y: cy + 16, class: 'pin-name', 'font-size': 9 });
+          lab.textContent = w.name.length > 18 ? w.name.slice(0, 17) + '…' : w.name; lab.style.display = 'none';
+          g.appendChild(circ); g.appendChild(lab); pinG.appendChild(g);
+          var p = { w: w, d: d, circle: circ, label: lab, cx: cx, cy: cy };
+          pins.push(p);
+          circ.addEventListener('click', function (e) { if (moved) return; e.stopPropagation(); selectPin(p, false); });
+          var opt = document.createElement('option'); opt.value = w.name; names.appendChild(opt);
+        });
+      });
+      apply();
+
+      // zone taps: zoom in and open the list
+      function openDistrict(id) {
+        var detEl = document.getElementById('d-' + id); if (detEl) detEl.open = true;
+        document.querySelectorAll('.zone').forEach(function (zz) { zz.classList.toggle('active', zz.getAttribute('data-id') === id); });
+        flyToZone(id);
+      }
+      document.querySelectorAll('.zone').forEach(function (zn) {
+        zn.addEventListener('click', function () { if (!moved) openDistrict(zn.getAttribute('data-id')); });
+        zn.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openDistrict(zn.getAttribute('data-id')); } });
+      });
+      host.addEventListener('click', function (e) {
+        var b = e.target.closest('button.find'); if (!b) return;
+        var d = b.getAttribute('data-d'), i = +b.getAttribute('data-i');
+        var cand = pins.filter(function (p) { return p.d.id === d; }).sort(function (a, b2) { return a.w.name.localeCompare(b2.w.name); })[i];
+        if (cand) { document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'center' }); selectPin(cand, true); }
+      });
+      document.getElementById('find').addEventListener('change', function () {
+        var q = this.value.trim().toLowerCase(); if (!q) return;
+        var hit = pins.filter(function (p) { return p.w.name.toLowerCase() === q; })[0] || pins.filter(function (p) { return p.w.name.toLowerCase().indexOf(q) >= 0; })[0];
+        if (hit) selectPin(hit, true);
+      });
+      document.getElementById('expand-all').addEventListener('click', function () { document.querySelectorAll('details.district').forEach(function (d) { d.open = true; }); });
+      document.getElementById('collapse-all').addEventListener('click', function () { document.querySelectorAll('details.district').forEach(function (d) { d.open = false; }); });
+    }).catch(function () {
+      document.getElementById('districts').innerHTML = '<p>Sorry, the winery list could not be loaded.</p>';
+    });
+  })();
+  </script>
+</body>
+</html>
