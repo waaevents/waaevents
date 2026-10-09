@@ -1,168 +1,8 @@
 {
-  "updatedAt": "2026-10-08T23:45:45.634Z",
+  "updatedAt": "2026-10-09T18:35:47.446Z",
   "windowDays": 90,
-  "count": 924,
+  "count": 909,
   "events": [
-    {
-      "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-09T00:00:00.000Z",
-      "title": "Live Music at Goose Ridge Woodinville",
-      "category": "music",
-      "start": "2026-10-09T00:00:00.000Z",
-      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
-      "url": "https://www.gooseridge.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000419-1791480600-1791487800@425cellars.com",
-      "title": "Music featuring - The Dog Tones",
-      "category": "music",
-      "start": "2026-10-09T00:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/music-featuring-the-dog-tones/",
-      "description": "“🎶 Thursday Night at 425 Cellars 🎶 Join us Thursday, October 8th from 5:30–7:30 PM for live music featuring The Dogtones! 🐾 Making audiences dance, sing along, and laugh since 2008, The Dogtones bring a huge catalog of songs you know and love, a fearless willingness to take on",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Tinte Cellars-Fall Floral Design Class (WOODINVILLE)-2026-10-09T00:30:00.000Z",
-      "title": "Fall Floral Design Class (WOODINVILLE)",
-      "category": "art",
-      "start": "2026-10-09T00:30:00.000Z",
-      "location": "Woodinville Warehouse District, 19495 144th Ave. NE, # A-100, Woodinville",
-      "url": "https://tintecellars.com/event/fall-floral-design-class-georgetown/",
-      "description": "Get your hands dirty and learn how to make stunning fall flower arrangements in this fun, laid-back class. Celebrate the beauty of the season with an evening of flowers, creativity, and cozy Fall inspiration. Join us for a hands-on floral design class where you’ll create an organ",
-      "source": "Tinte Cellars"
-    },
-    {
-      "id": "manual-Knotty Thursdays-2026-10-09T00:30:00.000Z",
-      "title": "Knotty Thursdays",
-      "category": "community",
-      "start": "2026-10-09T00:30:00.000Z",
-      "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
-      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-08/",
-      "description": "Monthly knit-and-crochet social at Evergreen's Woodinville tasting room — bring a project and settle in with wine and fellow crafters. Second Thursday of the month, 5:30-7pm.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-09T00:30:00.000Z",
-      "title": "The Summit: 16-Course Chef's Counter Dinner",
-      "category": "food-drink",
-      "start": "2026-10-09T00:30:00.000Z",
-      "location": "Bin 47 Chef's Counter at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Keys on Main: Dueling Pianos-2026-10-09T01:00:00.000Z",
-      "title": "Keys on Main: Dueling Pianos",
-      "category": "music",
-      "start": "2026-10-09T01:00:00.000Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-78m6h-yga95-rx4kp-9pfk4-d2z7x-xkg9t",
-      "description": "All-request dueling pianos with Aaron Buckner and Zechariah Valette. $50/person.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Music Featuring Goldy and Foss at LaShellé Wines-2026-10-09T01:00:00.000Z",
-      "title": "Music Featuring Goldy and Foss at LaShellé Wines",
-      "category": "music",
-      "start": "2026-10-09T01:00:00.000Z",
-      "location": "LaShellé Wines, 19501 144th Ave NE #C900, Woodinville, WA 98072",
-      "url": "https://www.lashellewines.com/calendar/music-featuring-goldy-and-foss",
-      "description": "Live music with Goldy & Foss (Americana, folk rock and classic covers). Doors 5pm. Wine, sandwiches and charcuterie plates for purchase.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Ben Meyer at Fireside Lounge-2026-10-09T01:00:00.000Z",
-      "title": "Ben Meyer at Fireside Lounge",
-      "category": "music",
-      "start": "2026-10-09T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Prohibition Cellars-Keys on Main: Dueling Pianos-2026-10-09T01:00:00.399Z",
-      "title": "Keys on Main: Dueling Pianos",
-      "category": "community",
-      "start": "2026-10-09T01:00:00.399Z",
-      "location": "Prohibition Cellars",
-      "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-78m6h-yga95-rx4kp-9pfk4-d2z7x-xkg9t",
-      "description": "Get ready for a night of high-energy, all-request dueling pianos with Keys on Main! For their premiere performance at Prohibition Cellars, Keys on Main is sending us one of the best dueling piano show combos in the country: Aaron Buckner and Zechariah Valette —two powerhouse perf",
-      "source": "Prohibition Cellars"
-    },
-    {
-      "id": "winery-Watts Brewing Company-Brewers Night at The Evergreen Bottle Shop-2026-10-09T01:00:00.831Z",
-      "title": "Brewers Night at The Evergreen Bottle Shop",
-      "category": "food-drink",
-      "start": "2026-10-09T01:00:00.831Z",
-      "location": "Watts Brewing Company, 22828 56th Place West, Mountlake Terrace, WA, 98043",
-      "url": "https://wattsbrewingcompany.com/events/2026/10/8/brewers-night-at-the-evergreen-bottle-shop",
-      "description": "Join us at The Evergreen Bottle Shop for a brewer's night and fundraiser for the Ballinger Food Forest! Enjoy an evening of fun, great beer, and a raffle, all for a wonderful cause! A portion of all Watts beer sales will be donated to the Ballinger Food Forest.",
-      "source": "Watts Brewing Company"
-    },
-    {
-      "id": "winery-LaShellé Wines-Music Featuring Goldy and Foss-2026-10-09T01:00:00.861Z",
-      "title": "Music Featuring Goldy and Foss",
-      "category": "music",
-      "start": "2026-10-09T01:00:00.861Z",
-      "location": "LaShellé Wines, 19501 144th Ave. NE #C900, Woodinville Washington, 98072",
-      "url": "https://www.lashellewines.com/calendar/music-featuring-goldy-and-foss",
-      "description": "Join us for a great Thursday night music with Goldy & Foss. Goldy & Foss are a dynamic blend of Americana, Folk Rock, and classic covers, delivering infectious harmonies with a touch of island flair. Passionate about creating soulful, engaging live music, the duo brings warmth, e",
-      "source": "LaShellé Wines"
-    },
-    {
-      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-10-09T01:30:00.000Z",
-      "title": "WOODINVILLE: Music Bingo",
-      "category": "music",
-      "start": "2026-10-09T01:30:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
-      "url": "https://tsillancellars.com/event/woodinville-music-bingo-57/",
-      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-09T01:45:00.833Z",
-      "title": "Beat the Geek Trivia in Woodinville",
-      "category": "community",
-      "start": "2026-10-09T01:45:00.833Z",
-      "location": "",
-      "url": "https://www.beaumontcellars.com/events-calendar/2026/10/8/beat-the-geek-trivia-in-woodinville",
-      "description": "Join us for the best trivia in town. Trivia is free but minimum glass/bottle purchase required. We can sell out quickly, so for reservations please email Beth at bethod@beaumontcellars.com or, for day-of reservations, call us after 4pm at 425-482-6349.",
-      "source": "Beaumont Cellars"
-    },
-    {
-      "id": "manual-Trivia Night at Northwest Spirits-2026-10-09T02:00:00.000Z",
-      "title": "Trivia Night at Northwest Spirits",
-      "category": "food-drink",
-      "start": "2026-10-09T02:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Watts Brewing Company-Boots & Brews Line Dancing-2026-10-09T02:00:00.086Z",
-      "title": "Boots & Brews Line Dancing",
-      "category": "food-drink",
-      "start": "2026-10-09T02:00:00.086Z",
-      "location": "Watts Brewing Company, 15510 Redmond - Woodinville Rd NE Ste E110, Woodinville, WA, 98072",
-      "url": "https://wattsbrewingcompany.com/events/yh5n6dd5p72d6na-2f6st-ykz8n-2hmwt-2hel3-3m3hy",
-      "description": "Join us for line dancing classes at the brewery! We’re welcoming Wildflower Dance Co to lead line dancing every Thursday evening. Learn new dances each week and practice the favorites from weeks before. All ages and skill levels welcome $10 per class at the door",
-      "source": "Watts Brewing Company"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-09T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-09T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-09T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
@@ -1512,6 +1352,16 @@
       "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-10-18/",
       "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
       "source": "Alexandria Nicole Cellars"
+    },
+    {
+      "id": "winery-Bayernmoor Cellars-TnT – An Explosive Cook Off-2026-10-18T19:00:00.000Z",
+      "title": "TnT – An Explosive Cook Off",
+      "category": "food-drink",
+      "start": "2026-10-18T19:00:00.000Z",
+      "location": "",
+      "url": "https://bayernmoor.com/events/chef-toris-table-ramen-487-443-379-405-496/",
+      "description": "The kitchen is heating up! Chef Tori and Chef Tyler are facing off in a cooking competition at the tasting room on October 18th Come in any time during our regular hours for a blind taste-test of each chef's version of the chosen dish, and vote for the best one. Luckily, no one i",
+      "source": "Bayernmoor Cellars"
     },
     {
       "id": "manual-Sushi Making Class & Wine Pairing at Freebush-2026-10-18T20:00:00.000Z",
