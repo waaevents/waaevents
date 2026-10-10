@@ -194,7 +194,7 @@
           ]
         },
         {
-          "name": "Obelisco Estate",
+          "name": "Obelisco Estate (Apple Farm Village)",
           "url": "https://obelisco.com/",
           "note": "Apple Farm Village Tasting Room. Live music Fri and Sat 7-9pm."
         },
@@ -322,6 +322,10 @@
           "name": "Love That Red Winery",
           "note": "Hours: Fri 3-6pm, Sat 1-6pm, Sun 1-5pm. Mon-Thu by appointment.",
           "url": "https://www.lovethatredwinery.com/"
+        },
+        {
+          "name": "Obelisco Estate (Warehouse District)",
+          "url": "https://obelisco.com/"
         },
         {
           "name": "Page Cellars",
