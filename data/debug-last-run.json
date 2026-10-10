@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-10-09T18:35:47.434Z",
+  "ranAt": "2026-10-10T00:41:29.949Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": false,
-      "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:227:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:256:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": false,
-      "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:227:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:256:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "425 Cellars",
@@ -84,7 +84,7 @@
       "status": "ok",
       "strategy": "jsonld",
       "platform": "wordpress",
-      "count": 4,
+      "count": 3,
       "eventPage": "https://bayernmoor.com/events"
     },
     {
@@ -172,8 +172,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Dossier Wine Collective",
@@ -197,8 +197,8 @@
     },
     {
       "winery": "Fidélitas",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Fireside Lounge",
@@ -282,8 +282,8 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "LaShellé Wines",
@@ -345,8 +345,8 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
@@ -354,12 +354,7 @@
       "platform": "wordpress"
     },
     {
-      "winery": "Obelisco Estate Winery",
-      "status": "no-events-found",
-      "platform": "wordpress"
-    },
-    {
-      "winery": "Obelisco Winery",
+      "winery": "Obelisco Estate",
       "status": "no-events-found",
       "platform": "wordpress"
     },
@@ -383,8 +378,8 @@
     },
     {
       "winery": "Pomum Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Pondera Winery",
@@ -411,8 +406,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "SheChill Bakery",
@@ -421,8 +416,8 @@
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -436,8 +431,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Stevens Winery",
@@ -459,7 +454,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 14,
+      "count": 13,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -471,6 +466,11 @@
       "winery": "The SOMM Hotel",
       "status": "no-events-found",
       "platform": "wordpress"
+    },
+    {
+      "winery": "The Winemakers Reserve",
+      "status": "no-events-found",
+      "platform": "weebly"
     },
     {
       "winery": "Tinte Cellars",
@@ -495,7 +495,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 10,
+      "count": 11,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -539,8 +539,16 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 15,
+      "count": 14,
       "eventPage": "https://wattsbrewingcompany.com/events"
+    },
+    {
+      "winery": "Wilridge Pie & Wine Bar",
+      "status": "ok",
+      "strategy": "tribe",
+      "platform": "wordpress",
+      "count": 1,
+      "eventPage": "https://www.wilridgewinery.com/wilridge-pie-wine-bar/"
     },
     {
       "winery": "Winsome Ciderworks",
