@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-10T05:47:08.699Z",
+  "updatedAt": "2026-10-10T17:32:28.136Z",
   "windowDays": 90,
-  "count": 912,
+  "count": 918,
   "events": [
-    {
-      "id": "manual-Yoga Uncorked-2026-10-10T17:30:00.000Z",
-      "title": "Yoga Uncorked",
-      "category": "community",
-      "start": "2026-10-10T17:30:00.000Z",
-      "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
-      "url": "https://evergreenfamilywines.com/event/yoga-uncorked-woodinville/2026-10-10/",
-      "description": "Morning yoga session paired with wine at Evergreen's Woodinville tasting room, 10:30-11:30am. $12.50.",
-      "source": "Manually added"
-    },
     {
       "id": "winery-Watts Brewing Company-Stein & Vine: Schoolhouse Oktoberfest-2026-10-10T19:00:00.096Z",
       "title": "Stein & Vine: Schoolhouse Oktoberfest",
@@ -3694,6 +3684,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Owen Barnhart-2026-11-07T00:00:00.000Z",
+      "title": "CHELAN: Live Music – Owen Barnhart",
+      "category": "music",
+      "start": "2026-11-07T00:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-live-music-owen-barnhart-2/",
+      "description": "Join us for live music on Fridays or Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see yo",
+      "source": "Tsillan Cellars"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-07T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4594,6 +4594,26 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Tsillan Cellars-CHELAN: Fall Barrel Tasting-2026-11-14T20:00:00.000Z",
+      "title": "CHELAN: Fall Barrel Tasting",
+      "category": "food-drink",
+      "start": "2026-11-14T20:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-fall-barrel-tasting/",
+      "description": "Barrel Tasting Experience at Tsillan Cellars Saturday, November 14th 12:00 | 1:00 | 2:00 | 3:00 Join us for a behind-the-scenes barrel tasting experience with Head Winemaker Garrett Grubbs and Assistant Winemaker Nic Stevens. The tour begins in the Tasting Room with a pour of our",
+      "source": "Tsillan Cellars"
+    },
+    {
+      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Taste of Whisky-2026-11-14T21:00:00.000Z",
+      "title": "CHELAN: Live Music – Taste of Whisky",
+      "category": "music",
+      "start": "2026-11-14T21:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-live-music-taste-of-whisky/",
+      "description": "Join us for live music on Fridays or Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see yo",
+      "source": "Tsillan Cellars"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-14T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5334,6 +5354,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Scott Heuston-2026-11-21T21:00:00.000Z",
+      "title": "CHELAN: Live Music – Scott Heuston",
+      "category": "music",
+      "start": "2026-11-21T21:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-live-music-scott-heuston-2/",
+      "description": "Join us for live music on Fridays or Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see yo",
+      "source": "Tsillan Cellars"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-21T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5902,6 +5932,16 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Brittany Jean-2026-11-27T21:00:00.000Z",
+      "title": "CHELAN: Live Music – Brittany Jean",
+      "category": "music",
+      "start": "2026-11-27T21:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-live-music-brittany-jean/",
+      "description": "Join us for live music on Fridays or Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see yo",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-27T21:00:00.000Z",
@@ -6634,6 +6674,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: 2024 Red Vintage Tasting-2026-12-05T02:00:00.000Z",
+      "title": "WOODINVILLE: 2024 Red Vintage Tasting",
+      "category": "food-drink",
+      "start": "2026-12-05T02:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/woodinville-2024-red-vintage-tasting/",
+      "description": "Tasting of the 2024 Red Vintage An Exclusive Wine Club Event Woodinville – Friday, Dec. 4th 6-8pm We are excited to announce our Fourth Red Vintage Preview Event! Head Winemaker Garrett Grubbs and Vineyard Manager/Assistant Winemaker Nic Stevens can’t wait to share this incredibl",
+      "source": "Tsillan Cellars"
+    },
+    {
       "id": "manual-Tyler McGinnis at Freebush Cellars-2026-12-05T02:00:00.000Z",
       "title": "Tyler McGinnis at Freebush Cellars",
       "category": "music",
@@ -6682,6 +6732,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/the-industrials-zjsmd-9g4w9-gz34k-g74zg",
       "description": "Laurel Canyon Legacy celebrates the explosion of popular music that came out of LA’s Laurel Canyon in the mid-60s as folk music blended with rock and went electric. Come let us take you on a musical journey through the 60’s and 70’s as we perform your favorite songs by groups lik",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: 2024 Red Vintage Tasting-2026-12-05T20:30:00.000Z",
+      "title": "WOODINVILLE: 2024 Red Vintage Tasting",
+      "category": "food-drink",
+      "start": "2026-12-05T20:30:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/woodinville-2024-red-vintage-tasting-2/",
+      "description": "Tasting of the 2024 Red Vintage An Exclusive Wine Club Event Woodinville – Saturday, Dec. 5th 12:30-2:30pm We are excited to announce our Fourth Red Vintage Preview Event! Head Winemaker Garrett Grubbs and Vineyard Manager/Assistant Winemaker Nic Stevens can’t wait to share this",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-05T21:00:00.000Z",
