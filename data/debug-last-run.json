@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-10T00:41:29.949Z",
+  "ranAt": "2026-10-10T05:47:08.691Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -354,7 +354,12 @@
       "platform": "wordpress"
     },
     {
-      "winery": "Obelisco Estate",
+      "winery": "Obelisco Estate (Apple Farm Village)",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
+      "winery": "Obelisco Estate (Warehouse District)",
       "status": "no-events-found",
       "platform": "wordpress"
     },
@@ -368,7 +373,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 2,
+      "count": 1,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -396,7 +401,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 20,
+      "count": 19,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -455,7 +460,7 @@
       "strategy": "tribe",
       "platform": "wordpress",
       "count": 13,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room"
+      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
     },
     {
       "winery": "Tenor Winery",
@@ -501,15 +506,15 @@
     {
       "winery": "Two Vintners",
       "status": "ok",
-      "strategy": "jsonld",
+      "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 1,
-      "eventPage": "https://www.twovintners.com/all-events-/hzmcj4x2rrhrsm6-jjzgt-2zwxa-xj7fh-xcn94-cd3e5-j7meb-eaknb-jj5mw"
+      "count": 3,
+      "eventPage": "https://www.twovintners.com/all-events-?tag=TWO+FUNK+FRIDAY"
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Village Wines",
