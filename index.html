@@ -18,7 +18,6 @@
       <p class="tagline">Everything happening in wine country, updated daily.</p>
       <div class="hero-cta">
         <a class="hero-btn hero-btn--solid" href="plan-a-day.html">Plan my day →</a>
-        <a class="hero-btn hero-btn--outline" href="wineries.html">Browse wineries</a>
       </div>
     </div>
   </header>
@@ -125,7 +124,21 @@
       </div>
       <div>
         <h2>Wineries directory</h2>
-        <div class="count">77 wineries</div>
+        <div class="count" id="winery-count">wineries</div>
+      </div>
+      <span class="row-arrow">→</span>
+    </a>
+
+    <a class="feature-row feature-row--wine" href="map.html">
+      <div class="illo" style="--illo-bg: var(--wine-bg)">
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M22 40s12-10.5 12-20a12 12 0 1 0-24 0c0 9.5 12 20 12 20Z" stroke="var(--wine-deep)" stroke-width="2" stroke-linejoin="round"/>
+          <circle cx="22" cy="20" r="4.5" stroke="var(--wine-deep)" stroke-width="2"/>
+        </svg>
+      </div>
+      <div>
+        <h2>Wine country map</h2>
+        <div class="count">Zoom in and find every winery by district</div>
       </div>
       <span class="row-arrow">→</span>
     </a>
@@ -136,6 +149,14 @@
     <p>Events are gathered automatically from public Woodinville-area event calendars once a day. Last updated: <span data-updated>—</span>. Always confirm details with the venue before you go.</p>
   </footer>
 
+  <script>
+    // Count the wineries straight from the directory so this never goes stale.
+    fetch('data/wineries.json').then(function (r) { return r.json(); }).then(function (d) {
+      var n = d.districts.reduce(function (t, x) { return t + (x.wineries ? x.wineries.length : 0); }, 0);
+      var el = document.getElementById('winery-count');
+      if (el) el.textContent = n + ' wineries';
+    }).catch(function () {});
+  </script>
   <script src="assets/app.js"></script>
 </body>
 </html>
