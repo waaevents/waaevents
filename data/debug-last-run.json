@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-10T17:32:28.125Z",
+  "ranAt": "2026-10-10T23:42:47.303Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -182,8 +182,8 @@
     },
     {
       "winery": "EFESTĒ",
-      "status": "site-unreachable",
-      "error": "HTTP 503"
+      "status": "no-events-found",
+      "platform": "shopify"
     },
     {
       "winery": "EFESTĒ",
@@ -217,8 +217,8 @@
     },
     {
       "winery": "Florence Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 503"
+      "status": "no-events-found",
+      "platform": "shopify"
     },
     {
       "winery": "Freebush Cellars",
@@ -401,7 +401,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 19,
+      "count": 18,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -459,7 +459,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 13,
+      "count": 12,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -500,7 +500,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 18,
+      "count": 17,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -513,8 +513,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Village Wines",
@@ -544,7 +544,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 14,
+      "count": 12,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
