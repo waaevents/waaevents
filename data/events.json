@@ -1,98 +1,8 @@
 {
-  "updatedAt": "2026-10-09T18:35:47.446Z",
+  "updatedAt": "2026-10-10T00:41:29.963Z",
   "windowDays": 90,
-  "count": 909,
+  "count": 926,
   "events": [
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-09T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-09T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-09T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-09T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Watts Brewing Company-Closed for Private Party-2026-10-09T21:00:00.805Z",
-      "title": "Closed for Private Party",
-      "category": "food-drink",
-      "start": "2026-10-09T21:00:00.805Z",
-      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
-      "url": "https://wattsbrewingcompany.com/events/2026/10/2/closed-for-private-party",
-      "description": "Taproom Closed for Private Party",
-      "source": "Watts Brewing Company"
-    },
-    {
-      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Sarah Brunner-2026-10-09T23:00:00.000Z",
-      "title": "Live Music at Bayernmoor – Sarah Brunner",
-      "category": "music",
-      "start": "2026-10-09T23:00:00.000Z",
-      "location": "Bayernmoor Woodinville Tasting Room",
-      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240/",
-      "description": "Enjoy classic tunes from local artist, Sarah Brunner! Make a reservation for wine, food and fun music!",
-      "source": "Bayernmoor Cellars"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-09T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-09T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-10-10T00:00:00.000Z",
-      "title": "Friday Night Music at Chateau Ste. Michelle",
-      "category": "music",
-      "start": "2026-10-10T00:00:00.000Z",
-      "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.ste-michelle.com/visit-us/experiences",
-      "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Friday Live Music at Studio 1886-2026-10-10T00:00:00.000Z",
-      "title": "Friday Live Music at Studio 1886",
-      "category": "music",
-      "start": "2026-10-10T00:00:00.000Z",
-      "location": "Studio 1886, 15500 Woodinville-Redmond Rd NE #C600, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/studio1886",
-      "description": "5-8pm",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Synne Cellars-Pause & Refuel with Robbie Egelstad | Live Acoustic Music at Synne Cellars-2026-10-10T00:30:00.000Z",
-      "title": "Pause & Refuel with Robbie Egelstad | Live Acoustic Music at Synne Cellars",
-      "category": "music",
-      "start": "2026-10-10T00:30:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
-      "url": "https://www.synnecellars.com/event/pause-refuel-with-robbie-egelstad-live-acoustic-music-at-synne-cellars/",
-      "description": "From Halloween gatherings to Thanksgiving celebrations and the excitement of Christmas, the final months of the year can be a whirlwind. Robbie Egelstad is here to give you a reason to pause, slow down, and refuel… preferably with a great glass of wine. Join us every other Friday",
-      "source": "Synne Cellars"
-    },
-    {
-      "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-10T00:30:00.000Z",
-      "title": "The Summit: 16-Course Chef's Counter Dinner",
-      "category": "food-drink",
-      "start": "2026-10-10T00:30:00.000Z",
-      "location": "Bin 47 Chef's Counter at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "winery-Two Vintners-Project 33 (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle-2026-10-10T01:00:00.000Z",
       "title": "Project 33 (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle",
@@ -162,6 +72,16 @@
       "url": "https://www.pattersoncellars.com/events/2026/10/9/live-music-at-hollywood-hill-nicholas-russell",
       "description": "",
       "source": "Patterson Cellars"
+    },
+    {
+      "id": "manual-Gina Belliveau at Obelisco-2026-10-10T02:00:00.000Z",
+      "title": "Gina Belliveau at Obelisco",
+      "category": "music",
+      "start": "2026-10-10T02:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
     },
     {
       "id": "winery-Prohibition Cellars-The Dogtones-2026-10-10T02:00:00.399Z",
@@ -362,6 +282,16 @@
       "url": "https://www.myvillagewines.com/event/music-from-dahlia-2/",
       "description": "Join us for an evening of soulful sound, smooth sips, and seriously good vibes as DAHLIA takes the stage at Village Wines! With their rich vocals, heartfelt lyrics, and indie-pop energy, DAHLIA brings a fresh, captivating sound you won’t want to miss. Their music blends soul, fol",
       "source": "Village Wines"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-10-11T02:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-10-11T02:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
     },
     {
       "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-10-11T07:00:00.000Z",
@@ -1224,6 +1154,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Kozmo at Obelisco-2026-10-17T02:00:00.000Z",
+      "title": "Kozmo at Obelisco",
+      "category": "music",
+      "start": "2026-10-17T02:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Wit Cellars-Fall Release Weekend at WIT Cellars – Woodinville-2026-10-17T07:00:00.000Z",
       "title": "Fall Release Weekend at WIT Cellars – Woodinville",
       "category": "music",
@@ -1340,6 +1280,16 @@
       "start": "2026-10-18T01:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-The Buckets at Obelisco-2026-10-18T02:00:00.000Z",
+      "title": "The Buckets at Obelisco",
+      "category": "music",
+      "start": "2026-10-18T02:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
       "description": "",
       "source": "Manually added"
     },
@@ -1824,6 +1774,16 @@
       "source": "Watts Brewing Company"
     },
     {
+      "id": "winery-Tsillan Cellars-WOODINVILLE TR Closed for Private Event-2026-10-22T07:00:00.000Z",
+      "title": "WOODINVILLE TR Closed for Private Event",
+      "category": "food-drink",
+      "start": "2026-10-22T07:00:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-tr-closed-for-private-event/",
+      "description": "Our Woodinville Tasting Room will be closed on Thursday, October 22nd for a Private Event.",
+      "source": "Tsillan Cellars"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-22T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -2194,6 +2154,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "manual-Brian James at Obelisco-2026-10-24T02:00:00.000Z",
+      "title": "Brian James at Obelisco",
+      "category": "music",
+      "start": "2026-10-24T02:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Tsillan Cellars-CHELAN: Live Music – Kimo Muraki-2026-10-24T20:00:00.000Z",
       "title": "CHELAN: Live Music – Kimo Muraki",
       "category": "music",
@@ -2310,6 +2280,16 @@
       "start": "2026-10-25T01:00:00.000Z",
       "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
       "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Tyler McGinnis at Obelisco-2026-10-25T02:00:00.000Z",
+      "title": "Tyler McGinnis at Obelisco",
+      "category": "music",
+      "start": "2026-10-25T02:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
       "description": "",
       "source": "Manually added"
     },
@@ -3114,6 +3094,16 @@
       "source": "Village Wines"
     },
     {
+      "id": "manual-Chase Rabideau at Obelisco-2026-10-31T02:00:00.000Z",
+      "title": "Chase Rabideau at Obelisco",
+      "category": "music",
+      "start": "2026-10-31T02:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Watts Brewing Company-Acquired Taste Halloween-2026-10-31T02:00:00.119Z",
       "title": "Acquired Taste Halloween",
       "category": "music",
@@ -3122,6 +3112,16 @@
       "url": "https://wattsbrewingcompany.com/events/2026/10/30/acquired-taste-halloween",
       "description": "Get your groove on at Watts Brewing this Hallows Eve with live music from Acquired Taste! Join us for a Friday night full of rockin’ music, great beers, and a legendary costume contest—with prizes!",
       "source": "Watts Brewing Company"
+    },
+    {
+      "id": "winery-Wilridge Pie & Wine Bar-Wilridge Pie Wine Bar Fall 2026 Wine Club Release-2026-10-31T07:00:00.000Z",
+      "title": "Wilridge Pie Wine Bar Fall 2026 Wine Club Release",
+      "category": "food-drink",
+      "start": "2026-10-31T07:00:00.000Z",
+      "location": "Wilridge Pie Wine Bar, 19255 Woodinville Snohomish Rd #2, Woodinvile",
+      "url": "https://www.wilridgewinery.com/event/wilridge-pie-wine-bar-fall-2026-wine-club-release/",
+      "description": "Wilridge Wine Club members are invited to enjoy complimentary tastings, including newly released wines, along with special treats from Chef Cassaundra. Members are welcome to bring up to two guests. Additional guests are welcome for a wine and food tasting fee. Please RSVP to car",
+      "source": "Wilridge Pie & Wine Bar"
     },
     {
       "id": "winery-Prohibition Cellars-Halloween Candy & Wine Pairing OR Mystery Red Flight-2026-10-31T19:00:00.187Z",
@@ -3232,6 +3232,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/a-roaring-twenties-halloween-cocktail-party",
       "description": "Step back into the Roaring Twenties for Halloween night at Prohibition Cellars. For one night, we’re turning the winery into a 1920s cocktail party filled with live jazz, wine, period-inspired bites, and a room full of flappers, dapper gents, and other characters from the era. Ed",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-11-01T02:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-11-01T02:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
     },
     {
       "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-11-01T07:00:00.000Z",
@@ -3874,6 +3884,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Live Music at Obelisco-2026-11-07T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-11-07T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-07T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -3972,6 +3992,16 @@
       "url": "https://www.myvillagewines.com/event/izzy-burns/",
       "description": "Live Music at Village Wines: Izzy Burns Saturday, November 7th | 7pm to 9pm | No cover | All ages welcome Pull up a chair, pour a glass (or a juice box!), and settle in for an evening with singer-songwriter Izzy Burns , a folk-pop artist who sings because she once couldn’t. Izzy",
       "source": "Village Wines"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-11-08T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-11-08T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
     },
     {
       "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-11-08T08:00:00.000Z",
@@ -4604,6 +4634,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Live Music at Obelisco-2026-11-14T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-11-14T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Prohibition Cellars-Friendsgiving fundraiser featuring Brian james was Here - Full BAnd-2026-11-14T03:00:00.131Z",
       "title": "Friendsgiving fundraiser featuring Brian james was Here - Full BAnd",
       "category": "music",
@@ -4722,6 +4762,16 @@
       "url": "https://www.myvillagewines.com/event/brian-james-live-2/",
       "description": "Live Music at Village Wines — Featuring Tyler McGinnis Saturday, November 14th | 7:00–9:00 PM Join us for an unforgettable evening of live music at Village Wines with Tyler McGinnis, a powe rful singer-songwriter whose soulful blend of Americana, alternative country, and southern",
       "source": "Village Wines"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-11-15T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-11-15T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
     },
     {
       "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-11-15T08:00:00.000Z",
@@ -5364,6 +5414,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "manual-Live Music at Obelisco-2026-11-21T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-11-21T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-21T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5440,6 +5500,16 @@
       "start": "2026-11-22T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-11-22T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-11-22T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
       "description": "",
       "source": "Manually added"
     },
@@ -6064,6 +6134,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "manual-Live Music at Obelisco-2026-11-28T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-11-28T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-28T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -6130,6 +6210,16 @@
       "start": "2026-11-29T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-11-29T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-11-29T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
       "description": "",
       "source": "Manually added"
     },
@@ -6694,6 +6784,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "manual-Live Music at Obelisco-2026-12-05T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-12-05T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-05T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -6760,6 +6860,16 @@
       "start": "2026-12-06T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-12-06T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-12-06T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
       "description": "",
       "source": "Manually added"
     },
@@ -7374,6 +7484,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Live Music at Obelisco-2026-12-12T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-12-12T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "winery-Prohibition Cellars-The Dogtones-2026-12-12T03:00:00.399Z",
       "title": "The Dogtones",
       "category": "music",
@@ -7470,6 +7590,16 @@
       "start": "2026-12-13T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-12-13T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-12-13T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
       "description": "",
       "source": "Manually added"
     },
@@ -8064,6 +8194,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "manual-Live Music at Obelisco-2026-12-19T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-12-19T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-19T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -8140,6 +8280,16 @@
       "start": "2026-12-20T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-12-20T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-12-20T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
       "description": "",
       "source": "Manually added"
     },
@@ -8634,6 +8784,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Live Music at Obelisco-2026-12-26T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-12-26T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-26T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -8700,6 +8860,16 @@
       "start": "2026-12-27T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Live Music at Obelisco-2026-12-27T03:00:00.000Z",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-12-27T03:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, Woodinville, WA",
+      "url": "https://obelisco.com/events-dinners/",
       "description": "",
       "source": "Manually added"
     },
