@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-10-10T05:47:08.691Z",
+  "ranAt": "2026-10-10T17:32:28.125Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "HTTP 403 Forbidden",
+      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:227:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:256:25)"
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "HTTP 403 Forbidden",
+      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:227:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:256:25)"
     },
     {
       "feed": "425 Cellars",
@@ -172,8 +172,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Dossier Wine Collective",
@@ -182,8 +182,8 @@
     },
     {
       "winery": "EFESTĒ",
-      "status": "no-events-found",
-      "platform": "shopify"
+      "status": "site-unreachable",
+      "error": "HTTP 503"
     },
     {
       "winery": "EFESTĒ",
@@ -197,8 +197,8 @@
     },
     {
       "winery": "Fidélitas",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Fireside Lounge",
@@ -217,8 +217,8 @@
     },
     {
       "winery": "Florence Cellars",
-      "status": "no-events-found",
-      "platform": "shopify"
+      "status": "site-unreachable",
+      "error": "HTTP 503"
     },
     {
       "winery": "Freebush Cellars",
@@ -282,8 +282,8 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "LaShellé Wines",
@@ -345,8 +345,8 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
@@ -383,8 +383,8 @@
     },
     {
       "winery": "Pomum Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Pondera Winery",
@@ -411,8 +411,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "SheChill Bakery",
@@ -421,8 +421,8 @@
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -436,8 +436,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Stevens Winery",
@@ -460,7 +460,7 @@
       "strategy": "tribe",
       "platform": "wordpress",
       "count": 13,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
+      "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
       "winery": "Tenor Winery",
@@ -500,7 +500,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 11,
+      "count": 18,
       "eventPage": "https://tsillancellars.com/"
     },
     {
