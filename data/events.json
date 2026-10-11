@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-10-10T23:42:47.316Z",
+  "updatedAt": "2026-10-11T00:13:43.697Z",
   "windowDays": 90,
-  "count": 908,
+  "count": 905,
   "events": [
-    {
-      "id": "manual-Jeannie Rak: Live Music at WIT Cellars-2026-10-11T00:00:00.000Z",
-      "title": "Jeannie Rak: Live Music at WIT Cellars",
-      "category": "music",
-      "start": "2026-10-11T00:00:00.000Z",
-      "location": "WIT Cellars, 19501 144th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.jeannierak.com/calendar/wit-cellars-ckscz-xetcz-ey6xw",
-      "description": "Live music with Jeannie Rak at WIT Cellars, in Woodinville's Warehouse District.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Saturday Night Music at Chateau Ste. Michelle-2026-10-11T00:00:00.000Z",
-      "title": "Saturday Night Music at Chateau Ste. Michelle",
-      "category": "music",
-      "start": "2026-10-11T00:00:00.000Z",
-      "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.ste-michelle.com/visit-us/experiences",
-      "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Dueling Pianos at Freebush Cellars-2026-10-11T01:00:00.000Z",
       "title": "Dueling Pianos at Freebush Cellars",
@@ -72,16 +52,6 @@
       "url": "https://www.pattersoncellars.com/events/2026/10/10/live-music-at-hollywood-hill-larry-murante",
       "description": "",
       "source": "Patterson Cellars"
-    },
-    {
-      "id": "winery-Village Wines-Music From Dahlia-2026-10-11T02:00:00.000Z",
-      "title": "Music From Dahlia",
-      "category": "music",
-      "start": "2026-10-11T02:00:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/music-from-dahlia-2/",
-      "description": "Join us for an evening of soulful sound, smooth sips, and seriously good vibes as DAHLIA takes the stage at Village Wines! With their rich vocals, heartfelt lyrics, and indie-pop energy, DAHLIA brings a fresh, captivating sound you won’t want to miss. Their music blends soul, fol",
-      "source": "Village Wines"
     },
     {
       "id": "manual-Live Music at Obelisco-2026-10-11T02:00:00.000Z",
