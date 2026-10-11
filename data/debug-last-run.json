@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-11T00:40:59.444Z",
+  "ranAt": "2026-10-11T00:46:25.390Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -99,6 +99,11 @@
       "winery": "Black Raven Brewing",
       "status": "no-events-found",
       "platform": "shopify"
+    },
+    {
+      "winery": "Bong Bong",
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Brian Carter Cellars",
@@ -513,8 +518,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Village Wines",
