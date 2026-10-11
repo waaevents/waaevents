@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-11T00:46:25.390Z",
+  "ranAt": "2026-10-11T17:51:25.277Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -41,7 +41,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 45,
+      "count": 44,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -147,8 +147,8 @@
     },
     {
       "winery": "Chateau Ste. Michelle Winery",
-      "status": "site-unreachable",
-      "error": "This operation was aborted"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Covington Cellars",
@@ -375,11 +375,8 @@
     },
     {
       "winery": "Patterson Cellars",
-      "status": "ok",
-      "strategy": "squarespace",
-      "platform": "squarespace",
-      "count": 1,
-      "eventPage": "https://www.pattersoncellars.com/events"
+      "status": "no-events-found",
+      "platform": "squarespace"
     },
     {
       "winery": "Pepper Bridge Winery & Amavi Cellars",
@@ -465,7 +462,7 @@
       "strategy": "tribe",
       "platform": "wordpress",
       "count": 12,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room"
+      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
     },
     {
       "winery": "Tenor Winery",
@@ -505,7 +502,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 17,
+      "count": 16,
       "eventPage": "https://tsillancellars.com/"
     },
     {
