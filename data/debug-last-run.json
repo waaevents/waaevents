@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-11T00:13:43.685Z",
+  "ranAt": "2026-10-11T00:40:59.444Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -142,8 +142,8 @@
     },
     {
       "winery": "Chateau Ste. Michelle Winery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "This operation was aborted"
     },
     {
       "winery": "Covington Cellars",
@@ -513,8 +513,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Village Wines",
