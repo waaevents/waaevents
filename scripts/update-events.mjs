@@ -344,6 +344,8 @@ async function main() {
       // Watts pours at Synne's Stein & Vine party, but that event is at Synne's
       // tasting room, not at Watts' own taproom.
       if (/stein\s*&\s*vine/i.test(ev.title || '') && /watts/i.test(ev.source || '')) continue;
+      // Watts has no Oktoberfest of its own this year (it pours at Synne's).
+      if (/oktoberfest/i.test(ev.title || '') && /watts/i.test(ev.source || '')) continue;
       const title = decodeEntities((ev.title || 'Untitled event').toString()).trim();
       const uid = `winery-${ev.source}-${title}-${start.toISOString()}`;
       if (seenIds.has(uid)) continue;
