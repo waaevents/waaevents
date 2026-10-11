@@ -15,6 +15,12 @@
     .map-stage { position: relative; border-radius: 8px; overflow: hidden; background: #f6f2ea; }
     #map { width: 100%; height: auto; display: block; touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; }
     #map.dragging { cursor: grabbing; }
+    .compass { position: absolute; left: 8px; top: 8px; pointer-events: none; }
+    .street-el { display: none; }
+    #map.zoomed .street-el { display: inline; }
+    .street-line { stroke: #b9b0a0; stroke-width: 1.2; stroke-dasharray: 4 4; }
+    .street-name { font: 600 8px system-ui, sans-serif; fill: #8a8272; }
+    .pin.noaddr { stroke-dasharray: 2 2; stroke: #555; stroke-width: 1.5; }
     .zoom-ctl { position: absolute; right: 10px; top: 10px; display: flex; flex-direction: column; gap: 6px; }
     .zoom-ctl button { width: 40px; height: 40px; border-radius: 10px; border: 1px solid var(--line); background: #fff; font: 700 20px system-ui, sans-serif; color: var(--ink); cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
     .zoom-ctl button.reset { font-size: 11px; }
@@ -103,13 +109,25 @@
             <!-- West side: West Valley Industrial -->
             <g class="zone" data-id="industrial" tabindex="0" role="button" aria-label="West Valley Industrial District" fill="#fdf0d5" stroke="#d89a1f" stroke-width="2.5"><rect x="30" y="560" width="150" height="132" rx="16"/></g>
 
-            <g id="labels"></g><g id="pins"></g><g id="selmark"></g>
+            <g id="labels"></g><g id="streets"></g><g id="pins"></g><g id="selmark"></g>
           </g>
           <g font-family="system-ui, sans-serif" fill="#605e70">
             <text x="22" y="1024" font-size="11">Not to scale</text>
-            <text x="738" y="1024" text-anchor="end" font-size="13" font-weight="800">N ↑</text>
           </g>
         </svg>
+        <div class="compass" aria-label="Compass: north is up, east is right">
+          <svg viewBox="0 0 80 80" width="72" height="72">
+            <circle cx="40" cy="40" r="35" fill="rgba(255,255,255,.92)" stroke="#c9c2b4" stroke-width="1.5"/>
+            <path d="M40 12 L46 40 L40 36 L34 40 Z" fill="#d93a2b"/>
+            <path d="M40 68 L46 40 L40 44 L34 40 Z" fill="#7d7a8c"/>
+            <path d="M12 40 L40 34 L36 40 L40 46 Z" fill="#b9b5c6"/>
+            <path d="M68 40 L40 34 L44 40 L40 46 Z" fill="#b9b5c6"/>
+            <text x="40" y="10" text-anchor="middle" font-size="11" font-weight="800" fill="#d93a2b" font-family="system-ui, sans-serif">N</text>
+            <text x="40" y="78" text-anchor="middle" font-size="10" font-weight="700" fill="#4a4858" font-family="system-ui, sans-serif">S</text>
+            <text x="74" y="43.5" text-anchor="middle" font-size="10" font-weight="700" fill="#4a4858" font-family="system-ui, sans-serif">E</text>
+            <text x="6" y="43.5" text-anchor="middle" font-size="10" font-weight="700" fill="#4a4858" font-family="system-ui, sans-serif">W</text>
+          </svg>
+        </div>
         <div class="zoom-ctl">
           <button type="button" id="zin" aria-label="Zoom in">+</button>
           <button type="button" id="zout" aria-label="Zoom out">–</button>
@@ -117,7 +135,7 @@
         </div>
       </div>
       <div id="pin-card" class="pin-card empty">Tap a pin to see the winery and its website.</div>
-      <p class="map-note">Schematic map, north at the top. Pins are placed inside each district, not at exact street addresses, so use them to see which district a winery is in and who its neighbors are. Downtown and Hollywood are on the east side of the Sammamish River Trail; the West Valley Industrial District is on the west side along the former East Railroad corridor.</p>
+      <p class="map-note">Schematic map with north at the top, east to the right. Wineries with a street address in their listing are placed by that address, so zooming in shows who sits on which street and block (estimated from address numbers, not surveyed). Wineries with a dashed outline have no address listed yet and sit in a row at the bottom of their district. Downtown and Hollywood are on the east side of the Sammamish River Trail; the West Valley Industrial District is on the west side along the former East Railroad corridor.</p>
     </div>
 
     <div class="map-tools">
@@ -142,17 +160,33 @@
 
     function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
     function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : ''; }
+    var MI_AVE = 0.091, MI_ST = 0.050;   // approx. miles per avenue number / per 100 house numbers
+    function parseAddr(note) {
+      if (!note) return null;
+      var m = note.match(/(\d{4,5})\s+((?:NE\s+)?\d{2,3}(?:st|nd|rd|th)\s+(?:Ave|Pl|St)(?:\s+NE)?|(?:Woodinville|Redmond)[- ](?:Redmond|Woodinville) Rd(?:\s+NE)?|Woodinville[- ]Snohomish Rd)/i);
+      if (!m) return null;
+      var hn = parseInt(m[1], 10), s = m[2], n;
+      if ((n = s.match(/(\d{2,3})(?:st|nd|rd|th)\s+(Ave|Pl|St)/i))) {
+        var num = parseInt(n[1], 10);
+        if (/^St$/i.test(n[2])) return { dir: 'ew', street: 'NE ' + num + 'th St', x: (hn / 100) * MI_AVE, y: -num * MI_ST };
+        return { dir: 'ns', street: num + 'th Ave NE', x: num * MI_AVE, y: -(hn / 100) * MI_ST };
+      }
+      if (/Snohomish/i.test(s)) return { dir: 'ns', street: 'Woodinville-Snohomish Rd', x: 146 * MI_AVE, y: -(hn / 100) * MI_ST };
+      return { dir: 'ns', street: 'Woodinville-Redmond Rd', x: 141 * MI_AVE, y: -(hn / 100) * MI_ST };
+    }
     function el(name, attrs) { var e = document.createElementNS(NS, name); for (var k in attrs) e.setAttribute(k, attrs[k]); return e; }
 
     var svg = document.getElementById('map');
     var vp = document.getElementById('vp');
     var view = { k: 1, x: 0, y: 0 };
+    var streets = document.getElementById('streets');
     var pins = [];          // {w, d, g, circle, label, cx, cy}
     var selected = null;
 
     function apply() {
       vp.setAttribute('transform', 'translate(' + view.x + ' ' + view.y + ') scale(' + view.k + ')');
       var k = view.k;
+      svg.classList.toggle('zoomed', k >= 2.2);
       pins.forEach(function (p) {
         p.circle.setAttribute('r', (PIN_R / Math.pow(k, 0.55)).toFixed(2));
         p.circle.style.strokeWidth = (1.5 / k).toFixed(2) + 'px';
@@ -272,13 +306,52 @@
         c.textContent = list.length + ' wineries';
         labels.appendChild(t); labels.appendChild(c);
 
-        // pins in a tidy grid inside the zone
-        var pad = 20, cols = Math.max(1, Math.floor((z[2] - pad * 2) / PIN_STEP) + 1);
-        var startX = z[0] + pad + 4, startY = z[1] + 52;
-        list.forEach(function (w, i) {
-          var cx = startX + (i % cols) * PIN_STEP, cy = startY + Math.floor(i / cols) * PIN_STEP;
+        // Pins: placed by street address when the note has one (street number ~ north-south,
+        // avenue number ~ east-west), otherwise in a row at the bottom of the district.
+        var located = [], loose = [];
+        list.forEach(function (w) { var a = parseAddr(w.note); (a ? located : loose).push({ w: w, a: a }); });
+        var trayRows = Math.ceil(loose.length / Math.max(1, Math.floor((z[2] - 40) / PIN_STEP) + 1));
+        var trayH = loose.length ? trayRows * PIN_STEP + 6 : 0;
+        var inner = { x0: z[0] + 30, x1: z[0] + z[2] - 30, y0: z[1] + 52, y1: z[1] + z[3] - 16 - trayH };
+        if (inner.y1 - inner.y0 < 30) inner.y1 = inner.y0 + 30;
+        var placed = [];
+        if (located.length) {
+          var xs = located.map(function (q) { return q.a.x; }), ys = located.map(function (q) { return q.a.y; });
+          var minX = Math.min.apply(null, xs), maxX = Math.max.apply(null, xs), minY = Math.min.apply(null, ys), maxY = Math.max.apply(null, ys);
+          var spanX = Math.max(maxX - minX, 0.02), spanY = Math.max(maxY - minY, 0.02);
+          var sc = Math.min((inner.x1 - inner.x0) / spanX, (inner.y1 - inner.y0) / spanY, 520);
+          var ox = (inner.x0 + inner.x1) / 2 - ((minX + maxX) / 2) * sc, oy = (inner.y0 + inner.y1) / 2 - ((minY + maxY) / 2) * sc;
+          located.forEach(function (q) { q.cx = q.a.x * sc + ox; q.cy = q.a.y * sc + oy; });
+          // spread pins that share (nearly) the same spot into a tidy cluster
+          var groups = {};
+          located.forEach(function (q) { var k = Math.round(q.cx / 12) + ':' + Math.round(q.cy / 12); (groups[k] = groups[k] || []).push(q); });
+          Object.keys(groups).forEach(function (k) {
+            var g = groups[k]; if (g.length < 2) return;
+            var cxm = g.reduce(function (t, q) { return t + q.cx; }, 0) / g.length, cym = g.reduce(function (t, q) { return t + q.cy; }, 0) / g.length;
+            var cols = Math.ceil(Math.sqrt(g.length));
+            g.forEach(function (q, i) { q.cx = cxm + ((i % cols) - (cols - 1) / 2) * 15; q.cy = cym + (Math.floor(i / cols) - (Math.ceil(g.length / cols) - 1) / 2) * 15; });
+          });
+          // faint street lines, shown when zoomed in
+          var seen = {};
+          located.forEach(function (q) {
+            if (seen[q.a.street]) return; seen[q.a.street] = 1;
+            var ln;
+            if (q.a.dir === 'ns') { ln = el('line', { x1: q.a.x * sc + ox, x2: q.a.x * sc + ox, y1: z[1] + 40, y2: z[1] + z[3] - 8 - trayH, class: 'street-line street-el' }); }
+            else if (q.a.dir === 'ew') { ln = el('line', { x1: z[0] + 12, x2: z[0] + z[2] - 12, y1: q.a.y * sc + oy, y2: q.a.y * sc + oy, class: 'street-line street-el' }); }
+            if (ln) {
+              streets.appendChild(ln);
+              var tx = q.a.dir === 'ns' ? q.a.x * sc + ox + 3 : z[0] + 16, ty = q.a.dir === 'ns' ? z[1] + 50 : q.a.y * sc + oy - 3;
+              var st = el('text', { x: tx, y: ty, class: 'street-name street-el' }); st.textContent = q.a.street; streets.appendChild(st);
+            }
+          });
+        }
+        var tcols = Math.max(1, Math.floor((z[2] - 40) / PIN_STEP) + 1);
+        loose.forEach(function (q, i) { q.cx = z[0] + 28 + (i % tcols) * PIN_STEP; q.cy = z[1] + z[3] - 12 - trayH + 12 + Math.floor(i / tcols) * PIN_STEP; q.noaddr = true; });
+        placed = located.concat(loose).sort(function (a, b) { return a.w.name.localeCompare(b.w.name); });
+        placed.forEach(function (q, i) {
+          var w = q.w, cx = q.cx, cy = q.cy;
           var g = el('g', {});
-          var circ = el('circle', { cx: cx, cy: cy, r: PIN_R, fill: COLORS[d.id] || '#605e70', class: 'pin' + ((w.wineFocus || []).indexOf('beer') >= 0 ? ' beer' : '') });
+          var circ = el('circle', { cx: cx, cy: cy, r: PIN_R, fill: COLORS[d.id] || '#605e70', class: 'pin' + ((w.wineFocus || []).indexOf('beer') >= 0 ? ' beer' : '') + (q.noaddr ? ' noaddr' : '') });
           var title = el('title', {}); title.textContent = w.name; circ.appendChild(title);
           var lab = el('text', { x: cx, y: cy + 16, class: 'pin-name', 'font-size': 9 });
           lab.textContent = w.name.length > 18 ? w.name.slice(0, 17) + '…' : w.name; lab.style.display = 'none';
