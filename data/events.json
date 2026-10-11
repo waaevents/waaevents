@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-11T00:13:43.697Z",
+  "updatedAt": "2026-10-11T00:40:59.458Z",
   "windowDays": 90,
-  "count": 905,
+  "count": 904,
   "events": [
     {
       "id": "manual-Dueling Pianos at Freebush Cellars-2026-10-11T01:00:00.000Z",
@@ -1002,16 +1002,6 @@
       "url": "https://witcellars.com/event/fall-release-weekend-at-wit-cellars-woodinville/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Watts Brewing Company-Puget Brass Oktoberfest-2026-10-17T21:00:00.313Z",
-      "title": "Puget Brass Oktoberfest",
-      "category": "music",
-      "start": "2026-10-17T21:00:00.313Z",
-      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
-      "url": "https://wattsbrewingcompany.com/events/2026/10/17/puget-brass-oktoberfest",
-      "description": "Join us for an afternoon of Oktoberfest music with Puget Brass! Bavarian music, brats, pretzels, and Märzen Bee Oktoberfest lager!",
-      "source": "Watts Brewing Company"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-17T23:00:00.000Z",
