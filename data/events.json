@@ -1,168 +1,8 @@
 {
-  "updatedAt": "2026-10-11T17:51:25.291Z",
+  "updatedAt": "2026-10-12T21:29:05.459Z",
   "windowDays": 90,
-  "count": 896,
+  "count": 882,
   "events": [
-    {
-      "id": "manual-Leony's Cellars Tasting Event at Freebush-2026-10-11T19:00:00.000Z",
-      "title": "Leony's Cellars Tasting Event at Freebush",
-      "category": "food-drink",
-      "start": "2026-10-11T19:00:00.000Z",
-      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/freebushcellars/event/619067/leonys-cellars-tasting-event",
-      "description": "Pouring Leony's Cellars, a woman veteran and family-owned boutique winery, 12-4pm. $26 per ticket.",
-      "source": "Manually added"
-    },
-    {
-      "id": "10002148-1791721800-1791729000@www.alexandrianicolecellars.com",
-      "title": "2026 Books on Tap in Woodinville",
-      "category": "community",
-      "start": "2026-10-11T19:30:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/2026-books-on-tap-in-woodinville/2026-10-11/",
-      "description": "Introducing our Books on Tap: 2026 Edition! We’re excited to bring Books on Tap Sundays to our Woodin Creek Tasting Room for the very first time, and we’re kicking off the year with a fresh reading lineup and a fun new twist. For 2026, each month’s book will feature a playful the",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-11T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-11T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Synne Cellars-🏈 SEAHAWKS vs. 49ERS — WATCH PARTY AT SYNNE! 💚💙-2026-10-11T20:25:00.000Z",
-      "title": "🏈 SEAHAWKS vs. 49ERS — WATCH PARTY AT SYNNE! 💚💙",
-      "category": "food-drink",
-      "start": "2026-10-11T20:25:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
-      "url": "https://www.synnecellars.com/event/%f0%9f%8f%88-seahawks-vs-49ers-watch-party-at-synne-%f0%9f%92%9a%f0%9f%92%99/",
-      "description": "It’s game day at Synne Cellars! Join us for an afternoon of Seahawks football, great wine, cold beer, and good company as Seattle takes on San Francisco! 🏈 3 TVs with the game sound ON! 🍷 Synne wines by the glass or bottle 🍺 Watts Brewing beer 🥨 Light snacks and charcuterie a",
-      "source": "Synne Cellars"
-    },
-    {
-      "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-10-11T20:25:00.000Z",
-      "title": "Game Day: Hawks Pass Menu & Watch Party",
-      "category": "community",
-      "start": "2026-10-11T20:25:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/game-day-hawks-pass-menu-watch-party-3/",
-      "description": "Seahawks Watch Party at Village! Football is better together, and Village Wines is the place to watch it! Let us handle the food prep, game-day shopping, dishes, and entertaining! Join us for a Seahawks Watch Party with a lively crowd, great food, and every play on one of our fiv",
-      "source": "Village Wines"
-    },
-    {
-      "id": "manual-Argentine Fire Cooking by Primitivo at Darby-2026-10-11T21:00:00.000Z",
-      "title": "Argentine Fire Cooking by Primitivo at Darby",
-      "category": "food-drink",
-      "start": "2026-10-11T21:00:00.000Z",
-      "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
-      "url": "https://darbywinery.com/events/primitivo-october/",
-      "description": "Primitivo's Argentine fire cooking pop-up at Darby's Woodinville tasting room, 2pm until sold out.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-11T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-11T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-10-11T21:00:00.000Z",
-      "title": "Sunday Live Music at Brian Carter Cellars",
-      "category": "music",
-      "start": "2026-10-11T21:00:00.000Z",
-      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.briancartercellars.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Sunday Live Music at From The Sky Down-2026-10-11T22:00:00.000Z",
-      "title": "Sunday Live Music at From The Sky Down",
-      "category": "music",
-      "start": "2026-10-11T22:00:00.000Z",
-      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/matthews-winery",
-      "description": "3-6pm",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000420-1791732600-1791739800@425cellars.com",
-      "title": "Music featuring - Jeannie Rak",
-      "category": "music",
-      "start": "2026-10-11T22:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/music-featuring-jeannie-rak/",
-      "description": "🎤 Sunday Sounds at 425 Cellars 🎤 Join us Sunday, October 11th from 3:30–5:30 PM for live music featuring Jeannie Rak! 🎸 A full-time working singer and guitarist in the Greater Seattle area, Jeannie got her start busking at Pike Place and has since become a favorite in the Wood",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-11T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-11T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Industry Night at The SOMM (5pm to close)-2026-10-12T00:00:00.000Z",
-      "title": "Industry Night at The SOMM (5pm to close)",
-      "category": "food-drink",
-      "start": "2026-10-12T00:00:00.000Z",
-      "location": "Bin 47 and The Shed at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-12T01:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-12T01:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-12T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-12T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-12T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-12T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-12T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-12T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-12T23:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
@@ -224,14 +64,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-Taco Tuesdays @ Woodin Creek-2026-10-13T19:00:00.000Z",
+      "id": "10002491-1791892800-1791918000@www.alexandrianicolecellars.com",
       "title": "Taco Tuesdays @ Woodin Creek",
-      "category": "food-drink",
+      "category": "community",
       "start": "2026-10-13T19:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-10-13/",
-      "description": "@ Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will al",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Tuesday ReWined at EFESTĒ-2026-10-13T19:00:00.000Z",
@@ -284,14 +124,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-“No Fee” Bingo Nights at Woodin Creek-2026-10-14T00:00:00.000Z",
-      "title": "“No Fee” Bingo Nights at Woodin Creek",
+      "id": "10001737-1791910800-1791918000@www.alexandrianicolecellars.com",
+      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
       "category": "community",
       "start": "2026-10-14T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-10-13/",
-      "description": "@ Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or n",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-10-14T00:00:00.000Z",
@@ -1752,6 +1592,16 @@
       "url": "https://425cellars.com/event/ladies-night/",
       "description": "💃 Ladies Night at 425 Cellars 💃 Join us Friday, October 23rd for Ladies Night featuring musician Kelly Ash! 🎤🍷 Kelly is a Seattle singer, songwriter, and longtime performer blending jazz training, pop sensibility, and years fronting top 40 bands into a soulful, dynamic sound.",
       "source": "425 Cellars"
+    },
+    {
+      "id": "winery-Love That Red Winery-AMERICAN MAHJONG Wine Night-2026-10-24T01:00:00.000Z",
+      "title": "AMERICAN MAHJONG Wine Night",
+      "category": "food-drink",
+      "start": "2026-10-24T01:00:00.000Z",
+      "location": "LOVE THAT RED WINERY, 19501 144th Ave NE STE E400, Woodinville, WA 98072, USA",
+      "url": "",
+      "description": "Sip, Tile, Repeat - Beginners & Experienced Players Welcome!",
+      "source": "Love That Red Winery"
     },
     {
       "id": "winery-Tsillan Cellars-CHELAN: Fall Winemaker Dinner-2026-10-24T01:00:00.000Z",
@@ -4514,14 +4364,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-2026 Books on Tap in Woodinville-2026-11-15T20:30:00.000Z",
+      "id": "10002149-1794745800-1794753000@www.alexandrianicolecellars.com",
       "title": "2026 Books on Tap in Woodinville",
-      "category": "food-drink",
+      "category": "community",
       "start": "2026-11-15T20:30:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/2026-books-on-tap-in-woodinville/2026-11-15/",
-      "description": "@ Introducing our Books on Tap: 2026 Edition! We’re excited to bring Books on Tap Sundays to our Woodin Creek Tasting Room for the very first time, and we’re kicking off the year with a fresh reading lineup and a fun new twist. For 2026, each month’s book will feature a playful t",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Introducing our Books on Tap: 2026 Edition! We’re excited to bring Books on Tap Sundays to our Woodin Creek Tasting Room for the very first time, and we’re kicking off the year with a fresh reading lineup and a fun new twist. For 2026, each month’s book will feature a playful the",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-15T21:00:00.000Z",
@@ -7572,6 +7422,16 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Alexandria Nicole Cellars-“No Fee” Bingo Nights at Woodin Creek-2026-12-16T01:00:00.000Z",
+      "title": "“No Fee” Bingo Nights at Woodin Creek",
+      "category": "community",
+      "start": "2026-12-16T01:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-12-15/",
+      "description": "@ Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or n",
+      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-12-16T01:00:00.000Z",
