@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-11T17:51:25.277Z",
+  "ranAt": "2026-10-12T21:29:05.441Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,15 +19,15 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 8,
-      "addedCount": 8
+      "rawCount": 7,
+      "addedCount": 7
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 15,
-      "addedCount": 3
+      "addedCount": 5
     }
   ],
   "wineryReport": [
@@ -315,8 +315,11 @@
     },
     {
       "winery": "Love That Red Winery",
-      "status": "no-events-found",
-      "platform": "wix"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wix",
+      "count": 1,
+      "eventPage": "https://www.lovethatredwinery.com/event-details/american-mahjong-wine-night"
     },
     {
       "winery": "Mark Ryan Winery",
@@ -330,8 +333,8 @@
     },
     {
       "winery": "Martedi Winery",
-      "status": "no-events-found",
-      "platform": "weebly"
+      "status": "site-unreachable",
+      "error": "HTTP 400"
     },
     {
       "winery": "Maryhill Winery Woodinville Tasting Room",
@@ -461,8 +464,8 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 12,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
+      "count": 11,
+      "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
       "winery": "Tenor Winery",
@@ -523,7 +526,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 10,
+      "count": 9,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
