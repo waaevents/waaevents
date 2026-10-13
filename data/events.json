@@ -1,88 +1,8 @@
 {
-  "updatedAt": "2026-10-12T22:28:54.890Z",
+  "updatedAt": "2026-10-13T19:39:03.478Z",
   "windowDays": 90,
-  "count": 882,
+  "count": 896,
   "events": [
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-12T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-12T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10002215-1791824400-1791831600@www.alexandrianicolecellars.com",
-      "title": "Bunco Nights (No Fee)",
-      "category": "community",
-      "start": "2026-10-13T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-10-12/",
-      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-13T00:00:00.000Z",
-      "title": "Bunco Night at Alexandria Nicole Cellars",
-      "category": "food-drink",
-      "start": "2026-10-13T00:00:00.000Z",
-      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
-      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at Bin 47-2026-10-13T01:00:00.000Z",
-      "title": "Live Music at Bin 47",
-      "category": "music",
-      "start": "2026-10-13T01:00:00.000Z",
-      "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Game Night at the Cut Shop-2026-10-13T02:00:00.000Z",
-      "title": "Game Night at the Cut Shop",
-      "category": "food-drink",
-      "start": "2026-10-13T02:00:00.000Z",
-      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
-      "url": "https://www.woodinvillecutshop.com/",
-      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-13T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-13T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10002491-1791892800-1791918000@www.alexandrianicolecellars.com",
-      "title": "Taco Tuesdays @ Woodin Creek",
-      "category": "community",
-      "start": "2026-10-13T19:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-10-13/",
-      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Tuesday ReWined at EFESTĒ-2026-10-13T19:00:00.000Z",
-      "title": "Tuesday ReWined at EFESTĒ",
-      "category": "food-drink",
-      "start": "2026-10-13T19:00:00.000Z",
-      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
-      "url": "https://efeste.com/pages/event-calendar",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-13T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
@@ -302,16 +222,6 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-LaShellé Wines-Dried Flower Pumpkin Class at LaShellé Wines-2026-10-15T01:00:00.021Z",
-      "title": "Dried Flower Pumpkin Class at LaShellé Wines",
-      "category": "art",
-      "start": "2026-10-15T01:00:00.021Z",
-      "location": "LaShellé Wines, 19501 144th Ave NE #C900 Woodinville, WA 98072",
-      "url": "https://www.lashellewines.com/calendar/dried-flower-pumpkin-class-at-lashell-wines",
-      "description": "Join us for a fun evening as we create a beautiful holiday decoration to welcome the Fall season. Learn to adorn a pumpkin with dried flowers using Mod Podge. Choose a specific color palette or imagine a field of wildflowers. These pumpkins do well either inside or outside. All s",
-      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-15T18:00:00.000Z",
@@ -584,6 +494,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Two Vintners-Flowers For Wolves (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle-2026-10-17T01:00:00.000Z",
+      "title": "Flowers For Wolves (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle",
+      "category": "community",
+      "start": "2026-10-17T01:00:00.000Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast Woodinville, WA, 98072 United States",
+      "url": "",
+      "description": "",
+      "source": "Two Vintners"
+    },
+    {
       "id": "manual-Distant Station-2026-10-17T01:00:00.000Z",
       "title": "Distant Station",
       "category": "music",
@@ -652,16 +572,6 @@
       "url": "https://www.prohibitioncellars.com/events-1/vum32mc8etmvyckknqvg5ckgi965im-8xmbl-9zryl-rwt97-5bynt-3p2eh-3yljx",
       "description": "This upbeat dance band will keep you moving on the dance floor or even in your chair! The setlist is full of high energy songs from the 80’s and up like; INXS, Flock of Seagulls,The Fixx, Tom Petty, Van Halen, SemiSonic, Missing Persons, GoGos, No Doubt and many more. Reserve you",
       "source": "Prohibition Cellars"
-    },
-    {
-      "id": "winery-Two Vintners-Flowers For Wolves (Woodinville)-2026-10-17T01:00:00.394Z",
-      "title": "Flowers For Wolves (Woodinville)",
-      "category": "music",
-      "start": "2026-10-17T01:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/hzmcj4x2rrhrsm6-jjzgt-2zwxa-xj7fh-xcn94-cd3e5-j7meb-eaknb-jj5mw-nykr4",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
     },
     {
       "id": "winery-Village Wines-North of Somewhere Live Music-2026-10-17T02:00:00.000Z",
@@ -834,14 +744,14 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
-      "id": "winery-Bayernmoor Cellars-TnT – An Explosive Cook Off-2026-10-18T19:00:00.000Z",
-      "title": "TnT – An Explosive Cook Off",
+      "id": "winery-Jackson House-Seattle Restaurant Week at Jackson House-2026-10-18T19:00:00.000Z",
+      "title": "Seattle Restaurant Week at Jackson House",
       "category": "food-drink",
       "start": "2026-10-18T19:00:00.000Z",
       "location": "",
-      "url": "https://bayernmoor.com/events/chef-toris-table-ramen-487-443-379-405-496/",
-      "description": "The kitchen is heating up! Chef Tori and Chef Tyler are facing off in a cooking competition at the tasting room on October 18th Come in any time during our regular hours for a blind taste-test of each chef's version of the chosen dish, and vote for the best one. Luckily, no one i",
-      "source": "Bayernmoor Cellars"
+      "url": "https://jacksonhousewoodinville.com/#restaurant-week",
+      "description": "Celebrate Seattle Restaurant Week at Jackson House with menus that showcase Pacific Northwest ingredients and signature dishes.",
+      "source": "Jackson House"
     },
     {
       "id": "manual-Sushi Making Class & Wine Pairing at Freebush-2026-10-18T20:00:00.000Z",
@@ -1494,16 +1404,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Jarrett Renshaw-2026-10-23T23:00:00.000Z",
-      "title": "Live Music at Bayernmoor – Jarrett Renshaw",
-      "category": "music",
-      "start": "2026-10-23T23:00:00.000Z",
-      "location": "Bayernmoor Woodinville Tasting Room",
-      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240-397/",
-      "description": "Enjoy classic tunes from local artist, Jarrett Renshaw! Make a reservation for wine, food and fun music!",
-      "source": "Bayernmoor Cellars"
-    },
-    {
       "id": "manual-The Red Party: From The Sky Down Fall Red Release-2026-10-23T23:00:00.000Z",
       "title": "The Red Party: From The Sky Down Fall Red Release",
       "category": "food-drink",
@@ -1682,16 +1582,6 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Two Vintners-Todo Es (Woodinville)-2026-10-24T01:00:00.394Z",
-      "title": "Todo Es (Woodinville)",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/hzmcj4x2rrhrsm6-jjzgt-2zwxa-xj7fh-xcn94-cd3e5-j7meb-eaknb-jj5mw-nykr4-j8ymp",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
     },
     {
       "id": "winery-Prohibition Cellars-The Cover-Up-2026-10-24T01:00:00.937Z",
@@ -2504,16 +2394,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Farshid Babazadeh-2026-10-30T23:00:00.000Z",
-      "title": "Live Music at Bayernmoor – Farshid Babazadeh",
-      "category": "music",
-      "start": "2026-10-30T23:00:00.000Z",
-      "location": "Bayernmoor Woodinville Tasting Room",
-      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240-397-186/",
-      "description": "Enjoy classic tunes from local artist, Farshid Babazadeh! Make a reservation for wine, food and fun music!",
-      "source": "Bayernmoor Cellars"
-    },
-    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-30T23:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -2624,16 +2504,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Two Vintners-13 Til Midnight - The Taylor Swift Tribute Band (Woodinville)-2026-10-31T01:00:00.394Z",
-      "title": "13 Til Midnight - The Taylor Swift Tribute Band (Woodinville)",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/hzmcj4x2rrhrsm6-jjzgt-2zwxa-xj7fh-xcn94-cd3e5-j7meb-eaknb-jj5mw-nykr4-j8ymp-hestc",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
-    },
-    {
       "id": "winery-Prohibition Cellars-Three Trick Pony-2026-10-31T01:00:00.879Z",
       "title": "Three Trick Pony",
       "category": "music",
@@ -2672,16 +2542,6 @@
       "url": "https://wattsbrewingcompany.com/events/2026/10/30/acquired-taste-halloween",
       "description": "Get your groove on at Watts Brewing this Hallows Eve with live music from Acquired Taste! Join us for a Friday night full of rockin’ music, great beers, and a legendary costume contest—with prizes!",
       "source": "Watts Brewing Company"
-    },
-    {
-      "id": "winery-Wilridge Pie & Wine Bar-Wilridge Pie Wine Bar Fall 2026 Wine Club Release-2026-10-31T07:00:00.000Z",
-      "title": "Wilridge Pie Wine Bar Fall 2026 Wine Club Release",
-      "category": "food-drink",
-      "start": "2026-10-31T07:00:00.000Z",
-      "location": "Wilridge Pie Wine Bar, 19255 Woodinville Snohomish Rd #2, Woodinvile",
-      "url": "https://www.wilridgewinery.com/event/wilridge-pie-wine-bar-fall-2026-wine-club-release/",
-      "description": "Wilridge Wine Club members are invited to enjoy complimentary tastings, including newly released wines, along with special treats from Chef Cassaundra. Members are welcome to bring up to two guests. Additional guests are welcome for a wine and food tasting fee. Please RSVP to car",
-      "source": "Wilridge Pie & Wine Bar"
     },
     {
       "id": "winery-Prohibition Cellars-Halloween Candy & Wine Pairing OR Mystery Red Flight-2026-10-31T19:00:00.187Z",
@@ -2824,6 +2684,16 @@
       "source": "Manually added"
     },
     {
+      "id": "10000429-1793538000-1793545200@425cellars.com",
+      "title": "Gary’s Pairing",
+      "category": "community",
+      "start": "2026-11-01T21:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/garys-pairing-11-2026/",
+      "description": "Spend your Sunday afternoon at 425 Cellars with Gary’s Pairing. Enjoy a complimentary pairing experience, discover new flavors, and relax with a glass of wine in the tasting room. Plus, enjoy 20% off when you purchase 2 bottles.",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-01T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -2872,6 +2742,16 @@
       "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "10000430-1793547000-1793554200@425cellars.com",
+      "title": "Live Music with CJ Hooper",
+      "category": "music",
+      "start": "2026-11-01T23:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-with-cj-hooper/",
+      "description": "Spend your Sunday afternoon with live music from CJ Hooper, a Washington-based country singer-songwriter with deep Texas roots. Enjoy a warm country sound, great wine, and a relaxed afternoon at 425 Cellars. Complimentary admission with the purchase of wine, plus 20% off when you",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-02T00:00:00.000Z",
@@ -2962,6 +2842,16 @@
       "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
       "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-11-03T01:15:00.000Z",
+      "title": "Game Day: Hawks Pass Menu & Watch Party",
+      "category": "community",
+      "start": "2026-11-03T01:15:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/game-day-hawks-pass-menu-watch-party-6/",
+      "description": "Seahawks Watch Party at Village! Football is better together, and Village Wines is the place to watch it! Let us handle the food prep, game-day shopping, dishes, and entertaining! Join us for a Seahawks Watch Party with a lively crowd, great food, and every play on one of our fiv",
+      "source": "Village Wines"
     },
     {
       "id": "manual-Live Music at Bin 47-2026-11-03T02:00:00.000Z",
@@ -3184,6 +3074,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Village Wines-Wednesday Hosted Trivia & Prizes-2026-11-05T02:00:00.000Z",
+      "title": "Wednesday Hosted Trivia & Prizes",
+      "category": "food-drink",
+      "start": "2026-11-05T02:00:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/wednesday-hosted-trivia-prizes-2/",
+      "description": "Join us on Wednesday, November 4th, 6pm to 7:30pm Get ready for a fun night of friendly competition during our Trivia Night at Village Wines. Bring your friends, charge your phone, and join us for an evening of pop culture, laughs, and great food and wine. It’s also Wednesday Win",
+      "source": "Village Wines"
+    },
+    {
       "id": "manual-New Age Flamenco at Fireside Lounge-2026-11-05T02:00:00.000Z",
       "title": "New Age Flamenco at Fireside Lounge",
       "category": "music",
@@ -3252,6 +3152,16 @@
       "url": "https://www.gooseridge.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "10000431-1793899800-1793907000@425cellars.com",
+      "title": "Live Music with Reji Marc",
+      "category": "music",
+      "start": "2026-11-06T01:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-with-reji-marc-11-2026/",
+      "description": "Join us for an evening of live music with Reji Marc, blending the soul of Blues, the groove of Funk, and the energy of Rock. Settle in with a glass of wine and enjoy the music. Complimentary admission with the purchase of wine, plus 20% off when you purchase 2 bottles.",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-11-06T01:30:00.000Z",
@@ -3454,6 +3364,16 @@
       "source": "Manually added"
     },
     {
+      "id": "10000432-1794049200-1794052800@425cellars.com",
+      "title": "Yoga & Wine with Debbie",
+      "category": "community",
+      "start": "2026-11-07T19:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/yoga-wine-with-debbie-11-2026/",
+      "description": "Start your Saturday with a little movement and a little wine. Join Debbie for a relaxing Yoga & Wine session at 425 Cellars. The $20 ticket includes the yoga session and a glass of wine. Plus, enjoy 20% off when you purchase 2 bottles. Sign up with the QR Code or link! Link: http",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-07T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -3584,6 +3504,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-11-08T21:25:00.000Z",
+      "title": "Game Day: Hawks Pass Menu & Watch Party",
+      "category": "community",
+      "start": "2026-11-08T21:25:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/game-day-hawks-pass-menu-watch-party-7/",
+      "description": "Seahawks Watch Party at Village! Football is better together, and Village Wines is the place to watch it! Let us handle the food prep, game-day shopping, dishes, and entertaining! Join us for a Seahawks Watch Party with a lively crowd, great food, and every play on one of our fiv",
+      "source": "Village Wines"
+    },
+    {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-08T22:00:00.000Z",
       "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
       "category": "food-drink",
@@ -3612,6 +3542,16 @@
       "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "10000433-1794151800-1794159000@425cellars.com",
+      "title": "Live Music with Jeannie Rak",
+      "category": "music",
+      "start": "2026-11-08T23:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-with-jeannie-rak/",
+      "description": "Join us for an afternoon of live music with singer and guitarist Jeannie Rak. From soulful ballads to upbeat R&B originals, Jeannie brings a vibrant live sound shaped by performances throughout the Seattle and Woodinville music scene. Complimentary admission with the purchase of ",
+      "source": "425 Cellars"
     },
     {
       "id": "winery-Synne Cellars-DJingo: Sunday Funday Vinyl DJ Bingo at Synne-2026-11-09T00:00:00.000Z",
@@ -3914,6 +3854,36 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-LaShellé Wines-Intro to Mahjong 5pm-2026-11-12T01:00:00.157Z",
+      "title": "Intro to Mahjong 5pm",
+      "category": "community",
+      "start": "2026-11-12T01:00:00.157Z",
+      "location": "",
+      "url": "https://www.lashellewines.com/calendar/intro-to-mahjong-frwyk",
+      "description": "Curious about American Mahjong? Join us at LaShellé Wines for a class and a hands on playing of American Mahjong 101. This introduction has beginners in mind. No experience needed! We will have a schedule 5:00pm-5:15pm - Mingle 5:15pm-5:45pm - Class 5:45pm - 6:45pm - Hands-on Pla",
+      "source": "LaShellé Wines"
+    },
+    {
+      "id": "10000434-1794420000-1794429000@425cellars.com",
+      "title": "American Mahjong Open Play",
+      "category": "community",
+      "start": "2026-11-12T02:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/american-mahjong-open-play-11-2026/",
+      "description": "Gather around the table for an evening of American Mahjong at 425 Cellars. This post-101 community play is designed for players with prior experience who are ready to enjoy a social night of Mahjong and wine. Doors open at 6:00 PM, with play beginning at 6:30 PM. Seating is limit",
+      "source": "425 Cellars"
+    },
+    {
+      "id": "winery-Village Wines-Bingo Night With Legendary Staff Member Kelvin-2026-11-12T02:00:00.000Z",
+      "title": "Bingo Night With Legendary Staff Member Kelvin",
+      "category": "food-drink",
+      "start": "2026-11-12T02:00:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/bingo-night-with-legendary-staff-member-kelvin-3/",
+      "description": "Join us for a night of BINGO at Village Wines! Win prizes in every round, sip wine, and enjoy delicious bites. Grab your friends, see you soon. Bingo Night at Village Wines with your host and legendary staff member, Kelvin! Bingo is free to play , with a simple $5 Reservation Dep",
+      "source": "Village Wines"
+    },
+    {
       "id": "manual-New Age Flamenco at Fireside Lounge-2026-11-12T02:00:00.000Z",
       "title": "New Age Flamenco at Fireside Lounge",
       "category": "music",
@@ -3982,6 +3952,16 @@
       "url": "https://www.gooseridge.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "10000435-1794504600-1794511800@425cellars.com",
+      "title": "Live Music with The DogTones",
+      "category": "music",
+      "start": "2026-11-13T01:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-with-the-dogtones-11-2026/",
+      "description": "Join us for an evening of live music with The DogTones, a dynamic rock and pop cover band bringing decades of classic hits to the tasting room. Grab a glass of wine and enjoy a fun night of familiar favorites. Complimentary admission with the purchase of wine, plus 20% off when y",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-Knotty Thursdays-2026-11-13T01:30:00.000Z",
@@ -4234,6 +4214,16 @@
       "source": "Tsillan Cellars"
     },
     {
+      "id": "10000436-1794661200-1794668400@425cellars.com",
+      "title": "Harvest Pumpkin Centerpiece Workshop",
+      "category": "community",
+      "start": "2026-11-14T21:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/harvest-pumpkin-centerpiece-workshop/",
+      "description": "Celebrate the beauty of fall with a creative afternoon at 425 Cellars. Aparna will guide you step-by-step as you create your own Harvest Pumpkin Centerpiece, perfect for your fall table or Thanksgiving décor. All materials are included and no experience is needed. $40 per person.",
+      "source": "425 Cellars"
+    },
+    {
       "id": "winery-Tsillan Cellars-CHELAN: Live Music – Taste of Whisky-2026-11-14T21:00:00.000Z",
       "title": "CHELAN: Live Music – Taste of Whisky",
       "category": "music",
@@ -4384,6 +4374,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-11-15T21:05:00.000Z",
+      "title": "Game Day: Hawks Pass Menu & Watch Party",
+      "category": "community",
+      "start": "2026-11-15T21:05:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/game-day-hawks-pass-menu-watch-party-8/",
+      "description": "Seahawks Watch Party at Village! Football is better together, and Village Wines is the place to watch it! Let us handle the food prep, game-day shopping, dishes, and entertaining! Join us for a Seahawks Watch Party with a lively crowd, great food, and every play on one of our fiv",
+      "source": "Village Wines"
+    },
+    {
       "id": "manual-Jarrett Renshaw at Brian Carter Cellars-2026-11-15T22:00:00.000Z",
       "title": "Jarrett Renshaw at Brian Carter Cellars",
       "category": "music",
@@ -4412,6 +4412,16 @@
       "url": "https://www.exploretock.com/matthews-winery",
       "description": "3-6pm",
       "source": "Manually added"
+    },
+    {
+      "id": "10000437-1794756600-1794763800@425cellars.com",
+      "title": "Live Music with Michael Scott",
+      "category": "music",
+      "start": "2026-11-15T23:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-with-michael-scott/",
+      "description": "Spend your Sunday afternoon with live acoustic music from Seattle-area singer-songwriter Michael Scott. Enjoy a relaxed mix of classic rock, country, blues, pop, folk, and original songs alongside your favorite 425 Cellars wine. Complimentary admission with the purchase of wine, ",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-16T00:00:00.000Z",
@@ -4714,6 +4724,16 @@
       "source": "Manually added"
     },
     {
+      "id": "10000438-1795028400-1795033800@425cellars.com",
+      "title": "Wine & Bingo",
+      "category": "community",
+      "start": "2026-11-19T03:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/wine-bingo/",
+      "description": "Join us for an easygoing evening of Wine & Bingo at 425 Cellars. Enjoy a glass of wine, a little friendly competition, and plenty of fun throughout the night. Compliments of 425 Cellars. Seating is limited, and guests can enjoy 20% off when purchasing 2 bottles. Sign up using the",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-19T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -4774,6 +4794,16 @@
       "source": "Manually added"
     },
     {
+      "id": "10000439-1795109400-1795116600@425cellars.com",
+      "title": "Live Music with Jarrett Renshaw",
+      "category": "music",
+      "start": "2026-11-20T01:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-with-jarrett-renshaw-11-2026/",
+      "description": "Join us for an evening of acoustic soft rock and pop with singer and multi-instrumentalist Jarrett Renshaw. Expect a relaxed singer-songwriter set and a great night in the tasting room. Complimentary admission with the purchase of wine, plus 20% off when you purchase 2 bottles.",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Jarrett Renshaw at 425 Cellars-2026-11-20T01:30:00.000Z",
       "title": "Jarrett Renshaw at 425 Cellars",
       "category": "music",
@@ -4822,6 +4852,16 @@
       "url": "https://www.lashellewines.com/calendar/saturday-music-sedona-rose-7ycew-6hssl",
       "description": "Join us for an afternoon music relaxation featuring Sedona Rose.She is a Seattle-based singer-songwriter known for her pop-rock, folk, and soul-influenced music, performing both original songs and high-energy songs. Seating is limited, 1st come 1st serve. Doors open at 5pm. Wine,",
       "source": "LaShellé Wines"
+    },
+    {
+      "id": "winery-Village Wines-Brian James Live-2026-11-20T03:00:00.000Z",
+      "title": "Brian James Live",
+      "category": "art",
+      "start": "2026-11-20T03:00:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/brian-james-live-3/",
+      "description": "FREE EVENT | Reservations Encouraged Join us at Village Wines for an unforgettable night of live music with Brian James, an artist known for his dynamic performances, sharp wit, and songs that stay with you long after the last note fades. Described as “Absolutely Brilliant” by BB",
+      "source": "Village Wines"
     },
     {
       "id": "manual-Trivia Night at Northwest Spirits-2026-11-20T03:00:00.000Z",
@@ -5104,6 +5144,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Village Wines-Family – All Ages Trivia – 1/2 off Kids’ Entree or Dessert-2026-11-22T22:00:00.000Z",
+      "title": "Family – All Ages Trivia – 1/2 off Kids’ Entree or Dessert",
+      "category": "food-drink",
+      "start": "2026-11-22T22:00:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/family-all-ages-trivia-1-2-off-kids-entree-or-dessert-4/",
+      "description": "Sunday, November 22nd, 2pm to 3:30pm Kids get 1/2 off entree or dessert! Bingo is free! Bring the kids and join us for our first family friendly trivia at Village Wines. Order up some delicious mac and cheese for the kids, get some adult drinks or ice tea for the parents, and get",
+      "source": "Village Wines"
+    },
+    {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-22T22:00:00.000Z",
       "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
       "category": "food-drink",
@@ -5132,6 +5182,16 @@
       "url": "https://www.exploretock.com/matthews-winery",
       "description": "3-6pm",
       "source": "Manually added"
+    },
+    {
+      "id": "10000440-1795361400-1795368600@425cellars.com",
+      "title": "Live Music with Nick Moshier",
+      "category": "music",
+      "start": "2026-11-22T23:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-with-nick-moshier/",
+      "description": "Spend your Sunday afternoon with live jazz from Western Washington pianist Nick Moshier. Rooted in the jazz tradition, Nick’s playing brings together feel, interaction, and improvisation for a thoughtful and engaging performance. Complimentary admission with the purchase of wine,",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-23T00:00:00.000Z",
@@ -5434,6 +5494,16 @@
       "source": "Manually added"
     },
     {
+      "id": "10000442-1795651200-1795737599@425cellars.com",
+      "title": "Closed for Thanksgiving",
+      "category": "community",
+      "start": "2026-11-26T00:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/closed-for-thanksgiving-11-2026/",
+      "description": "Happy Thanksgiving from 425 Cellars! We’ll be closed for the holiday so our team can enjoy the day with family and friends. Wishing you a warm and joyful Thanksgiving filled with good food, good company, and plenty to be thankful for.",
+      "source": "425 Cellars"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-26T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5442,6 +5512,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "10000441-1795629600-1795638600@425cellars.com",
+      "title": "American Mahjong Open Play",
+      "category": "community",
+      "start": "2026-11-26T02:00:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/american-mahjong-open-play-2/",
+      "description": "Join us for another fun evening of American Mahjong Open Play at 425 Cellars. This post-101 community night is designed for experienced players looking to enjoy Mahjong, wine, and good company. Doors open at 6:00 PM, with play beginning at 6:30 PM. Seating is limited and tickets ",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-New Age Flamenco at Fireside Lounge-2026-11-26T02:00:00.000Z",
@@ -5482,6 +5562,16 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-Thanksgiving Buffet at Sorrento’s-2026-11-26T21:00:00.000Z",
+      "title": "Thanksgiving Buffet at Sorrento’s",
+      "category": "community",
+      "start": "2026-11-26T21:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/thanksgiving-buffet-at-sorrentos/",
+      "description": "Thanksgiving Reservations Now Available November 26th, 1-5pm Sorrento’s Ristorante invites you to join us for a spectacular Thanksgiving buffet that the whole family will enjoy. Indulge in all your holiday favorites, from green bean casserole and stuffing to a mouthwatering cider",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-26T21:00:00.000Z",
@@ -5714,6 +5804,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "winery-Village Wines-Pajama Bingo Party with Kelvin-2026-11-28T04:00:00.000Z",
+      "title": "Pajama Bingo Party with Kelvin",
+      "category": "food-drink",
+      "start": "2026-11-28T04:00:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/pajama-bingo-party-with-kelvin-2/",
+      "description": "Join us for a night of BINGO & PAJAMA FUN at Village Wines with Kelvin ! Win prizes on every round , sip wine, and enjoy delicious bites. Grab your friends, see you soon Bingo is free to play , with a simple $5 Reservation Deposit to hold your seat and keep the night running smoo",
+      "source": "Village Wines"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-28T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5824,6 +5924,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-11-29T21:25:00.000Z",
+      "title": "Game Day: Hawks Pass Menu & Watch Party",
+      "category": "community",
+      "start": "2026-11-29T21:25:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/game-day-hawks-pass-menu-watch-party-9/",
+      "description": "Seahawks Watch Party at Village! Football is better together, and Village Wines is the place to watch it! Let us handle the food prep, game-day shopping, dishes, and entertaining! Join us for a Seahawks Watch Party with a lively crowd, great food, and every play on one of our fiv",
+      "source": "Village Wines"
+    },
+    {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-29T22:00:00.000Z",
       "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
       "category": "food-drink",
@@ -5852,6 +5962,16 @@
       "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "10000443-1795966200-1795973400@425cellars.com",
+      "title": "Live Music with D.S. Wilson",
+      "category": "music",
+      "start": "2026-11-29T23:30:00.000Z",
+      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
+      "url": "https://425cellars.com/event/live-music-with-d-s-wilson/",
+      "description": "Close out the month with live jazz from D.S. Wilson, a Billboard Artist and Seattle-based multi-instrumentalist specializing in saxophone and piano/keys. Enjoy an afternoon of polished live music and wine at 425 Cellars. Complimentary admission with the purchase of wine, plus 20%",
+      "source": "425 Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-30T00:00:00.000Z",
@@ -7864,6 +7984,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-12-20T08:00:00.000Z",
+      "title": "Social Sundays: New Connections",
+      "category": "food-drink",
+      "start": "2026-12-20T08:00:00.000Z",
+      "location": "All Locations",
+      "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-12-20/",
+      "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
+      "source": "Alexandria Nicole Cellars"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-20T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -8822,6 +8952,16 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Synne Cellars-DJingo: Second Sunday Funday at Synne-2027-01-11T00:00:00.000Z",
+      "title": "DJingo: Second Sunday Funday at Synne",
+      "category": "music",
+      "start": "2027-01-11T00:00:00.000Z",
+      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "url": "https://www.synnecellars.com/event/djingo-second-sunday-funday-at-synne-2/",
+      "description": "New year, new DJingo! Start 2027 with wine in your glass, a bingo card in hand and a soundtrack spun entirely on vinyl. DJingo is our spin on music bingo—with an actual DJ, actual vinyl and plenty of friendly competition. DJ Ben Meyer digs into his extensive vinyl collection to c",
+      "source": "Synne Cellars"
     }
   ]
 }
