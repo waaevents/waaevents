@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-12T22:28:54.872Z",
+  "ranAt": "2026-10-13T19:39:03.470Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,15 +19,15 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 7,
-      "addedCount": 7
+      "rawCount": 22,
+      "addedCount": 22
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 15,
-      "addedCount": 5
+      "addedCount": 3
     }
   ],
   "wineryReport": [
@@ -41,7 +41,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 43,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -67,7 +67,7 @@
     {
       "winery": "Baer Winery",
       "status": "site-unreachable",
-      "error": "HTTP 404"
+      "error": "HTTP 403"
     },
     {
       "winery": "Ballard Pizza Company",
@@ -81,11 +81,8 @@
     },
     {
       "winery": "Bayernmoor Cellars",
-      "status": "ok",
-      "strategy": "jsonld",
-      "platform": "wordpress",
-      "count": 3,
-      "eventPage": "https://bayernmoor.com/events"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Beaumont Cellars",
@@ -132,8 +129,8 @@
     },
     {
       "winery": "Cedergreen Cellars",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Celaeno Winery",
@@ -167,8 +164,8 @@
     },
     {
       "winery": "DeLille Cellars",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Descendant Cellars",
@@ -217,8 +214,8 @@
     },
     {
       "winery": "Flatstick Pub Woodinville",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Florence Cellars",
@@ -232,8 +229,8 @@
     },
     {
       "winery": "Gård Estate Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Genoa Cellars",
@@ -242,8 +239,8 @@
     },
     {
       "winery": "Goose Ridge Woodinville Tasting Room",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Gorman Winery",
@@ -267,8 +264,11 @@
     },
     {
       "winery": "Jackson House",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "other",
+      "count": 1,
+      "eventPage": "https://jacksonhousewoodinville.com/"
     },
     {
       "winery": "JBell Wine Co.",
@@ -338,8 +338,8 @@
     },
     {
       "winery": "Maryhill Winery Woodinville Tasting Room",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Matthews Winery & From The Sky Down",
@@ -464,7 +464,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 11,
+      "count": 12,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -505,28 +505,28 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 16,
+      "count": 17,
       "eventPage": "https://tsillancellars.com/"
     },
     {
       "winery": "Two Vintners",
       "status": "ok",
-      "strategy": "squarespace",
+      "strategy": "jsonld",
       "platform": "squarespace",
-      "count": 3,
-      "eventPage": "https://www.twovintners.com/all-events-?tag=TWO+FUNK+FRIDAY"
+      "count": 1,
+      "eventPage": "https://www.twovintners.com/all-events-/hzmcj4x2rrhrsm6-jjzgt-2zwxa-xj7fh-xcn94-cd3e5-j7meb-eaknb-jj5mw-nykr4"
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Village Wines",
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 9,
+      "count": 18,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
@@ -554,11 +554,8 @@
     },
     {
       "winery": "Wilridge Pie & Wine Bar",
-      "status": "ok",
-      "strategy": "tribe",
-      "platform": "wordpress",
-      "count": 1,
-      "eventPage": "https://www.wilridgewinery.com/wilridge-pie-wine-bar/"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Winsome Ciderworks",
