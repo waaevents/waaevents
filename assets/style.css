@@ -37,10 +37,10 @@
   --wine-bg: #ece0f7;
 
   /* Front-page list accents: light sage green + gold */
-  --sage: #9db58b;
-  --sage-deep: #7d9a6a;
-  --gold: #e0b23a;
-  --gold-deep: #c4951a;
+  --sage: #98a99d;        /* grey-green */
+  --sage-deep: #52695a;   /* deep grey-green */
+  --gold: #dcaa2f;
+  --gold-deep: #9c740b;
 
   --radius: 10px;
 
@@ -90,7 +90,7 @@ p { margin: 0; }
   position: relative;
   overflow: hidden;
   background:
-    linear-gradient(180deg, rgba(20,25,40,0.35) 0%, rgba(20,25,40,0.62) 100%),
+    linear-gradient(180deg, rgba(48,66,55,0.50) 0%, rgba(34,48,40,0.78) 100%),
     url("https://images.unsplash.com/photo-1727063122519-f75f7fd0d20d?fm=jpg&q=80&w=2400&auto=format&fit=crop") center 65% / cover no-repeat;
   color: #fff;
   padding: 96px 24px 96px;
@@ -514,3 +514,13 @@ a.winery-chip:hover { text-decoration: none; color: var(--sage-deep); }
 
 .stop-card h4 { margin: 0; }
 .stop-card > div { min-width: 0; }
+
+/* Grey-green + gold wash behind everything (replaces the lavender/pink corners) */
+body {
+  background:
+    radial-gradient(ellipse 900px 600px at 8% 0%, color-mix(in srgb, var(--sage) 20%, transparent) 0%, transparent 70%),
+    radial-gradient(ellipse 900px 700px at 100% 12%, color-mix(in srgb, var(--gold) 13%, transparent) 0%, transparent 70%),
+    var(--paper);
+}
+.vine-strip { background: linear-gradient(90deg, var(--sage-deep) 0 50%, var(--gold) 50% 100%); }
+.hero-btn--solid { background: var(--gold); color: var(--ink); }
