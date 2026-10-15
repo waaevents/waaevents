@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-15T04:05:37.919Z",
+  "updatedAt": "2026-10-15T17:29:57.148Z",
   "windowDays": 90,
-  "count": 883,
+  "count": 888,
   "events": [
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-15T18:00:00.000Z",
@@ -92,6 +92,16 @@
       "url": "https://425cellars.com/event/music-featuring-lyle-ronglien/",
       "description": "🎸 Thursday Night at 425 Cellars 🎸 Join us Thursday, October 15th from 5:30–7:30 PM for live music featuring Lyle Ronglien! 🎶 A Pacific Northwest-based singer, songwriter, and guitarist, Lyle’s playing seamlessly weaves through genres—from classical to bluegrass, rock to countr",
       "source": "425 Cellars"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-10-16T00:30:00.000Z",
+      "title": "Knotty Thursdays | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-16T00:30:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-15/",
+      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity, and good company. Knotty Thursday is all about making something with your hands, enjoying a gr",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-16T00:30:00.000Z",
@@ -232,6 +242,16 @@
       "url": "https://bayernmoor.com/tasting-room/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Live Music by Mike Good | Woodinville-2026-10-17T00:00:00.000Z",
+      "title": "Live Music by Mike Good | Woodinville",
+      "category": "music",
+      "start": "2026-10-17T00:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/live-music-by-mike-good-woodinville/2026-10-16/",
+      "description": "<p>Live Music by the talented Mike Good! Come join us in Woodinville for a stellar time with incredible WA wine, amazing music, and fun vibes!</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-10-17T00:00:00.000Z",
@@ -434,6 +454,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Evergreen Family Wines-Live Music by Mike Scott | Woodinville-2026-10-17T21:00:00.000Z",
+      "title": "Live Music by Mike Scott | Woodinville",
+      "category": "music",
+      "start": "2026-10-17T21:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/live-music-by-mike-scott-woodinville/2026-10-17/",
+      "description": "<p>Join us for live music by Mike Scoot at our Woodinville Tasting Room this Friday evening. Enjoy incredible wine, great music, and stellar vibes.</p>\\n",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-17T21:00:00.000Z",
       "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
       "category": "food-drink",
@@ -504,6 +534,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Evergreen Family Wines-Kindness for Kids Guild 4th Annual Dinner & Auction | Woodinville-2026-10-18T01:30:00.000Z",
+      "title": "Kindness for Kids Guild 4th Annual Dinner & Auction | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-18T01:30:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/kindness-for-kids-guild-4th-annual-dinner-auction-woodinville/",
+      "description": "<p>Join us for a fun night of good vibes, great food, and bidding to support kids in need! Welcome to the Kindness for Kids Guild 4th Annual Dinner & Auction! Join us for a night of fun and giving back at Evergreen Family Wines. Enjoy delicious food & wine (food provided by",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-The Buckets at Obelisco-2026-10-18T02:00:00.000Z",
       "title": "The Buckets at Obelisco",
       "category": "music",
@@ -522,6 +562,16 @@
       "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-10-18/",
       "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
       "source": "Alexandria Nicole Cellars"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-10-18T19:00:00.000Z",
+      "title": "Sip Back Sundays | All Locations",
+      "category": "food-drink",
+      "start": "2026-10-18T19:00:00.000Z",
+      "location": "",
+      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-10-18/",
+      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend and let us pour you something delicious.</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "winery-Bayernmoor Cellars-TnT – An Explosive Cook Off-2026-10-18T19:00:00.000Z",
@@ -694,14 +744,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-Bunco Nights (No Fee)-2026-10-20T00:00:00.000Z",
+      "id": "10002216-1792429200-1792436400@www.alexandrianicolecellars.com",
       "title": "Bunco Nights (No Fee)",
       "category": "community",
       "start": "2026-10-20T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-10-19/",
-      "description": "@ Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need t",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-20T00:00:00.000Z",
@@ -744,14 +794,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-Taco Tuesdays @ Woodin Creek-2026-10-20T19:00:00.000Z",
+      "id": "10002492-1792497600-1792522800@www.alexandrianicolecellars.com",
       "title": "Taco Tuesdays @ Woodin Creek",
-      "category": "food-drink",
+      "category": "community",
       "start": "2026-10-20T19:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-10-20/",
-      "description": "@ Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will al",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Tuesday ReWined at EFESTĒ-2026-10-20T19:00:00.000Z",
@@ -804,14 +854,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-“No Fee” Bingo Nights at Woodin Creek-2026-10-21T00:00:00.000Z",
-      "title": "“No Fee” Bingo Nights at Woodin Creek",
+      "id": "10001738-1792515600-1792522800@www.alexandrianicolecellars.com",
+      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
       "category": "community",
       "start": "2026-10-21T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-10-20/",
-      "description": "@ Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or n",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-10-21T00:00:00.000Z",
