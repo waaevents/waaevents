@@ -50,6 +50,16 @@ setTimeout(() => {
   const boxes = grid.querySelectorAll('input[type=checkbox]');
   if (boxes.length === 0) fail('interest checkboxes never rendered — planner UI is dead on load.');
 
+  // Date-specific planning: pick the first upcoming day that has a music event.
+  const events = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/events.json'), 'utf8')).events;
+  const dayKey = (d) => new Date(d).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
+  const todayKey = dayKey(Date.now());
+  const musicDay = events.map((e) => dayKey(e.start)).filter((k, i) => k >= todayKey && events[i].category === 'music').sort()[0];
+  if (!musicDay) fail('no upcoming music event in data/events.json to test a dated plan with.');
+  const dateEl = doc.getElementById('plan-date');
+  if (!dateEl) fail('no #plan-date input — planner is not date-specific.');
+  dateEl.value = musicDay;
+
   const cb = grid.querySelector('input[value="live-music"]');
   if (!cb) fail('no "live-music" checkbox found.');
   cb.checked = true;
@@ -61,12 +71,25 @@ setTimeout(() => {
     const out = doc.getElementById('itinerary');
     if (!out.innerHTML.trim()) fail('submitting the form produced no itinerary.');
     if (!out.querySelector('h4')) fail('itinerary has no stops.');
+    if (!out.querySelector('.itinerary-date')) fail('itinerary has no date heading.');
     const hasRealEvent = /🎤/.test(out.innerHTML);
     if (!hasRealEvent) {
       console.warn('WARN: no real dated event was attached to any stop this run (may just be luck of the draw — try again).');
     }
-    const badTime = /\d{1,2}:\d{2}\s?AM\b/.test(out.innerHTML) && /🎤/.test(out.innerHTML);
-    if (badTime) fail('an event time looks like it printed in UTC instead of Pacific (check WOODINVILLE_TZ usage).');
+    // Every printed event time (stop lines AND the "also happening" list) must
+    // match that event's Pacific time — catches UTC leaking through. Morning
+    // events are legitimate now that the plan covers a whole day, so don't
+    // treat "AM" itself as a failure.
+    const fmt = (iso) => new Date(iso).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' });
+    const text = out.textContent;
+    const dayEvs = events.filter((e) => dayKey(e.start) === musicDay);
+    const shown = dayEvs.filter((e) => text.includes(`${e.title} —`));
+    for (const e of shown) {
+      if (!text.includes(`${e.title} — ${fmt(e.start)}`) && !dayEvs.some((o) => o !== e && o.title === e.title)) fail(`"${e.title}" is shown without its Pacific time (${fmt(e.start)}).`);
+    }
+    // Nothing from another day may appear.
+    const otherDay = events.filter((e) => dayKey(e.start) !== musicDay && e.title.length > 12 && text.includes(`${e.title} —`) && !dayEvs.some((o) => o.title === e.title));
+    if (otherDay.length) fail('events from other dates leaked into the plan: ' + otherDay.slice(0, 3).map((e) => e.title).join('; '));
     console.log('PASS: planner renders checkboxes, accepts a submit, and produces an itinerary.');
     if (hasRealEvent) console.log('PASS: at least one stop carries a real dated event.');
     process.exit(windowErrors.length ? 1 : 0);

@@ -229,6 +229,17 @@ const INTEREST_META = {
   'casual': { label: 'Casual & Local', icon: '🍇', accent: 'var(--comedy-deep)', bg: 'var(--comedy-bg)' },
 };
 
+// 'YYYY-MM-DD' for a moment in time, as a calendar day in Woodinville.
+function dayKey(input) {
+  return new Date(input).toLocaleDateString('en-CA', { timeZone: WOODINVILLE_TZ });
+}
+function fmtTime(input) {
+  return new Date(input).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: WOODINVILLE_TZ });
+}
+function hourOf(input) {
+  return parseInt(new Date(input).toLocaleTimeString('en-US', { hour: 'numeric', hourCycle: 'h23', timeZone: WOODINVILLE_TZ }), 10);
+}
+
 function shuffle(arr) {
   const a = arr.slice();
   for (let i = a.length - 1; i > 0; i--) {
@@ -267,17 +278,27 @@ async function renderPlanner() {
     return;
   }
 
+  // Date picker: today (Woodinville time) through the end of the event window.
+  const dateInput = document.getElementById('plan-date');
+  const todayKey = dayKey(Date.now());
+  const maxKey = dayKey(Date.now() + 1000 * 60 * 60 * 24 * ((eventsData && eventsData.windowDays) || 90));
+  dateInput.min = todayKey;
+  dateInput.max = maxKey;
+  const wanted = new URLSearchParams(window.location.search).get('date');
+  dateInput.value = wanted && wanted >= todayKey && wanted <= maxKey ? wanted : todayKey;
+
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const interests = Array.from(form.querySelectorAll('input[name="interest"]:checked')).map((el) => el.value);
     const pace = parseInt(document.getElementById('pace').value, 10);
     const district = document.getElementById('district').value;
     const wineColor = document.getElementById('wine-color').value;
-    buildItinerary({ interests, pace, district, wineColor, wineriesData, restaurantsData, eventsData });
+    const date = dateInput.value || todayKey;
+    buildItinerary({ interests, pace, district, wineColor, date, wineriesData, restaurantsData, eventsData });
   });
 }
 
-function buildItinerary({ interests, pace, district, wineColor, wineriesData, restaurantsData, eventsData }) {
+function buildItinerary({ interests, pace, district, wineColor, date, wineriesData, restaurantsData, eventsData }) {
   const out = document.getElementById('itinerary');
   const allEvents = eventsData.events || [];
 
@@ -289,19 +310,22 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
       .filter((w) => w && w.length > 1 && !STOPWORDS.has(w));
   }
 
-  function eventsForVenue(name, windowDays) {
+  // Only events on the chosen calendar day (Woodinville time). If the chosen
+  // day is today, skip events that have already started.
+  const dayEvents = allEvents
+    .filter((ev) => dayKey(ev.start) === date && new Date(ev.start).getTime() >= Date.now() - 1000 * 60 * 60 * 2)
+    .sort((a, b) => new Date(a.start) - new Date(b.start));
+
+  // Match on the venue-name part of the location (text before the first
+  // comma), whole words only — matching anywhere in the address attached an
+  // Obelisco event ("Apple Farm Village Tasting Room") to Village Wines.
+  function eventsForVenue(name) {
     const words = coreWords(name);
     if (!words.length) return [];
-    const now = Date.now();
-    const until = now + 1000 * 60 * 60 * 24 * windowDays;
-    return allEvents
-      .filter((ev) => {
-        const t = new Date(ev.start).getTime();
-        if (t < now || t > until) return false;
-        const loc = (ev.location || '').toLowerCase();
-        return words.some((w) => loc.includes(w));
-      })
-      .sort((a, b) => new Date(a.start) - new Date(b.start));
+    return dayEvents.filter((ev) => {
+      const first = (ev.location || '').split(',')[0].toLowerCase().replace(/[.'’]/g, '').split(/\s+/);
+      return words.some((w) => first.includes(w));
+    });
   }
 
   let wineries = [];
@@ -316,11 +340,12 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
     const types = w.types || [];
     let overlap = interests.length ? types.filter((t) => interests.includes(t)).length : 0;
     if (wineColor !== 'any' && (w.wineFocus || []).includes(wineColor)) overlap += 2;
-    const upcoming = eventsForVenue(w.name, 30);
-    // Strongly prefer venues with a real, dated event on the books — especially
+    let upcoming = eventsForVenue(w.name);
+    if (wantsLiveMusic) upcoming = [...upcoming.filter((e) => e.category === 'music'), ...upcoming.filter((e) => e.category !== 'music')];
+    // Strongly prefer venues with a real event on the chosen date — especially
     // when the person actually asked for live music — so the plan names a real
     // artist and time instead of just describing the venue.
-    if (upcoming.length) overlap += wantsLiveMusic ? 4 : 1;
+    if (upcoming.length) overlap += wantsLiveMusic && upcoming[0].category === 'music' ? 4 : 1;
     return { ...w, overlap, upcomingEvents: upcoming };
   });
 
@@ -329,7 +354,13 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
   pool.sort((a, b) => b.overlap - a.overlap);
 
   const topMatches = pool.filter((w) => w.overlap === pool[0]?.overlap);
-  const chosenWineries = shuffle(topMatches.length >= pace ? topMatches : pool).slice(0, Math.max(1, pace - 1));
+  const picked = shuffle(topMatches.length >= pace ? topMatches : pool).slice(0, Math.max(1, pace - 1));
+  // Stops without a scheduled event come first; stops with one follow in time order.
+  const chosenWineries = [
+    ...picked.filter((w) => !(w.upcomingEvents || []).length),
+    ...picked.filter((w) => (w.upcomingEvents || []).length)
+      .sort((a, b) => new Date(a.upcomingEvents[0].start) - new Date(b.upcomingEvents[0].start)),
+  ];
 
   const restaurantVibeFromInterests = interests.length ? interests : ['casual'];
   const scoredRestaurants = (restaurantsData.restaurants || []).map((r) => {
@@ -350,9 +381,7 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
   const eventLine = (w) => {
     const ev = (w.upcomingEvents || [])[0];
     if (!ev) return '';
-    const when = new Date(ev.start).toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', timeZone: WOODINVILLE_TZ })
-      + ' · ' + new Date(ev.start).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: WOODINVILLE_TZ });
-    return `<p style="margin-top:8px; font-weight:700;">🎤 ${escapeHtml(ev.title)} — ${escapeHtml(when)}${ev.url ? ` <a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Details →</a>` : ''}</p>`;
+    return `<p style="margin-top:8px; font-weight:700;">${ev.category === 'music' ? '🎤' : '📅'} ${escapeHtml(ev.title)} — ${escapeHtml(fmtTime(ev.start))}${ev.url ? ` <a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Details →</a>` : ''}</p>`;
   };
 
   const wineryCard = (w, timeLabel) => `
@@ -377,22 +406,40 @@ function buildItinerary({ interests, pace, district, wineColor, wineriesData, re
     </div>` : '';
 
   const timeLabels = ['Morning', 'Midday', 'Afternoon', 'Evening'];
-  let html = '';
-  let stopIdx = 0;
+  const prettyDate = new Date(date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', month: 'long', day: 'numeric' });
+  // Heading for a winery stop: follows the event's start time when it has one.
+  const slotFor = (w, fallback) => {
+    const ev = (w.upcomingEvents || [])[0];
+    if (!ev) return fallback;
+    const h = hourOf(ev.start);
+    return h < 12 ? 'Morning' : h < 16 ? 'Afternoon' : 'Evening';
+  };
+  let html = `<h2 class="itinerary-date">Your plan for ${escapeHtml(prettyDate)}</h2>`;
 
   if (wantsLiveMusic && chosenWineries.every((w) => !(w.upcomingEvents || []).length)) {
-    html += `<p class="error-state" style="margin-bottom:20px;">No confirmed live-music dates in the next 30 days at wineries matching your other picks — showing the best match anyway. Try "Any district" or fewer filters, or check the <a href="music.html">Music page</a> directly.</p>`;
+    html += `<p class="error-state" style="margin-bottom:20px;">No confirmed live music on ${escapeHtml(prettyDate)} at wineries matching your other picks — showing the best match anyway. Try a different date, "Any district", or fewer filters, or check the <a href="music.html">Music page</a>.</p>`;
   }
 
-  html += `<div class="itinerary-block"><h3>${timeLabels[stopIdx++]} tasting</h3>${chosenWineries[0] ? wineryCard(chosenWineries[0], 'Start here') : ''}</div>`;
-  html += `<div class="itinerary-block"><h3>${timeLabels[stopIdx++]} bite</h3>${restaurantCard(lunchSpot, 'Lunch')}</div>`;
+  html += `<div class="itinerary-block"><h3>${chosenWineries[0] ? slotFor(chosenWineries[0], timeLabels[0]) : timeLabels[0]} tasting</h3>${chosenWineries[0] ? wineryCard(chosenWineries[0], 'Start here') : ''}</div>`;
+  html += `<div class="itinerary-block"><h3>${timeLabels[1]} bite</h3>${restaurantCard(lunchSpot, 'Lunch')}</div>`;
   if (chosenWineries[1]) {
-    html += `<div class="itinerary-block"><h3>${timeLabels[stopIdx++]} tasting</h3>${wineryCard(chosenWineries[1], 'Next stop')}</div>`;
+    html += `<div class="itinerary-block"><h3>${slotFor(chosenWineries[1], timeLabels[2])} tasting</h3>${wineryCard(chosenWineries[1], 'Next stop')}</div>`;
   }
   if (pace >= 4 && chosenWineries[2]) {
     html += `<div class="itinerary-block"><h3>One more stop</h3>${wineryCard(chosenWineries[2], 'Last tasting')}</div>`;
   }
   html += `<div class="itinerary-block"><h3>${timeLabels[timeLabels.length - 1]}</h3>${restaurantCard(dinnerSpot, 'Dinner')}</div>`;
+
+  // Everything else on the calendar for that day that isn't already a stop.
+  const used = new Set(chosenWineries.map((w) => (w.upcomingEvents || [])[0]).filter(Boolean));
+  const others = dayEvents.filter((ev) => !used.has(ev)).slice(0, 10);
+  if (others.length) {
+    html += `<div class="also-happening"><h3>Also happening ${escapeHtml(prettyDate)}</h3><ul>${others.map((ev) => `
+      <li><strong>${escapeHtml(ev.title)}</strong> — ${escapeHtml(fmtTime(ev.start))}${ev.url ? ` <a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Details →</a>` : ''}
+      <small>${escapeHtml((ev.location || '').split(',')[0])}</small></li>`).join('')}</ul></div>`;
+  } else if (!dayEvents.length) {
+    html += `<p class="error-state" style="margin-top:20px;">No listed events for ${escapeHtml(prettyDate)} yet — the plan above is built from our winery and restaurant directory.</p>`;
+  }
 
   out.innerHTML = html;
   if (typeof out.scrollIntoView === 'function') {

@@ -22,7 +22,7 @@
         </div>
         <h1 style="color:#fff">Plan my day</h1>
       </div>
-      <p class="tagline">Tell us what you're into, and we'll put together a morning-to-evening plan from our winery directory and a handful of Woodinville restaurants.</p>
+      <p class="tagline">Pick a date and what you're into, and we'll build a morning-to-evening plan around the events actually happening in Woodinville that day.</p>
     </div>
   </header>
   <div class="vine-strip" aria-hidden="true"></div>
@@ -30,11 +30,15 @@
   <div class="planner-wrap">
     <form class="planner-form" id="planner-form">
       <h2>What are you in the mood for?</h2>
-      <p class="sub">Pick as many as you like — we'll match wineries and restaurants to fit.</p>
+      <p class="sub">Pick as many as you like — we'll match wineries, restaurants, and that day's events to fit.</p>
 
       <div class="interest-grid" id="interest-grid"></div>
 
       <div class="planner-row">
+        <div class="planner-field">
+          <label for="plan-date">Date</label>
+          <input type="date" id="plan-date" required>
+        </div>
         <div class="planner-field">
           <label for="wine-color">Pour preference</label>
           <select id="wine-color">
