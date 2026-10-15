@@ -77,6 +77,7 @@ const GENRE_KEYWORDS = {
     'acoustic', 'singer-songwriter', 'songwriter', 'jazz', 'orchestra',
     'choir', 'sing-along', 'synne sessions', 'world music', 'live at',
     'performing live', 'dj set', 'karaoke', 'music',
+    '(duo)', '(trio)', '(solo)', ' duo', ' trio', 'quartet', 'live!',
   ],
   comedy: [
     'comedy', 'comedian', 'stand-up', 'stand up', 'standup', 'improv',
@@ -123,8 +124,12 @@ function categorize(title, description, location) {
   for (const [cat, words] of Object.entries(GENRE_KEYWORDS)) {
     if (words.some((w) => t.includes(w))) return cat;
   }
-  for (const [cat, words] of Object.entries(GENRE_KEYWORDS)) {
-    if (words.some((w) => d.includes(w))) return cat;
+  // Description pass: check music BEFORE art. Musicians are routinely called
+  // an "artist" in their bios ("an artist known for his dynamic performances"),
+  // which would otherwise match the art keyword 'artist' first.
+  const descOrder = ['music', ...Object.keys(GENRE_KEYWORDS).filter((c) => c !== 'music')];
+  for (const cat of descOrder) {
+    if (GENRE_KEYWORDS[cat].some((w) => d.includes(w))) return cat;
   }
   for (const [cat, words] of Object.entries(VENUE_GENRE_KEYWORDS)) {
     if (words.some((w) => l.includes(w))) return cat;
