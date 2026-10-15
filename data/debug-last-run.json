@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-10-14T17:42:04.963Z",
+  "ranAt": "2026-10-15T04:05:37.908Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "HTTP 403 Forbidden",
+      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:232:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:261:25)"
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "HTTP 403 Forbidden",
+      "stack": "Error: HTTP 403 Forbidden |     at fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:232:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:261:25)"
     },
     {
       "feed": "425 Cellars",
@@ -177,8 +177,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Dossier Wine Collective",
@@ -202,8 +202,8 @@
     },
     {
       "winery": "Fidélitas",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Fireside Lounge",
@@ -290,8 +290,8 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "LaShellé Wines",
@@ -356,8 +356,8 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
@@ -391,8 +391,8 @@
     },
     {
       "winery": "Pomum Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Pondera Winery",
@@ -419,8 +419,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "SheChill Bakery",
@@ -429,8 +429,8 @@
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -444,8 +444,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Stevens Winery",
@@ -529,7 +529,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 18,
+      "count": 17,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
