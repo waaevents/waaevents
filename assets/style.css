@@ -36,6 +36,12 @@
   --wine-deep: #6b3fa0;
   --wine-bg: #ece0f7;
 
+  /* Front-page list accents: light sage green + gold */
+  --sage: #9db58b;
+  --sage-deep: #7d9a6a;
+  --gold: #e0b23a;
+  --gold-deep: #c4951a;
+
   --radius: 10px;
 
   --grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
@@ -198,7 +204,7 @@ p { margin: 0; }
   justify-content: space-between;
   gap: 20px;
   padding: 22px 4px;
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1.5px solid color-mix(in srgb, var(--row-accent, var(--line)) 45%, var(--line));
   text-decoration: none;
   color: inherit;
   transition: opacity 140ms ease;
@@ -222,19 +228,17 @@ p { margin: 0; }
 }
 
 .feature-row .row-arrow {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-family: 'Fraunces', serif;
   color: var(--row-accent, var(--signature));
+  font-weight: 700;
   flex-shrink: 0;
 }
 
-.feature-row--art    { --row-accent: var(--art); }
-.feature-row--music  { --row-accent: var(--music); }
-.feature-row--comedy { --row-accent: var(--comedy-deep); }
-.feature-row--food   { --row-accent: var(--food); }
-.feature-row--community { --row-accent: var(--community); }
-.feature-row--wine   { --row-accent: var(--wine-deep); }
-.feature-row--plan   { --row-accent: var(--signature); }
+/* Front-page rows alternate sage and gold (replaces the per-category colors,
+   which read as orange/coral on the list). */
+.feature-rows .feature-row:nth-child(odd)  { --row-accent: var(--sage-deep); }
+.feature-rows .feature-row:nth-child(even) { --row-accent: var(--gold-deep); }
 /* ---------- Category page head ---------- */
 
 .category-head { max-width: 1080px; margin: 0 auto; padding: 8px 24px 4px; }
