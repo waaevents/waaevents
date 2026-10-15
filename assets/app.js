@@ -257,7 +257,7 @@ async function renderPlanner() {
   grid.innerHTML = Object.entries(INTEREST_META).map(([key, m]) => `
     <label class="interest-pill" style="--pill-accent: ${m.accent}; --pill-bg: ${m.bg}">
       <input type="checkbox" value="${key}" name="interest">
-      <span>${m.icon} ${m.label}</span>
+      <span>${m.label}</span>
     </label>
   `).join('');
 
@@ -353,8 +353,27 @@ function buildItinerary({ interests, pace, district, wineColor, date, wineriesDa
   const pool = interests.length && withMatch.length ? withMatch : scored;
   pool.sort((a, b) => b.overlap - a.overlap);
 
-  const topMatches = pool.filter((w) => w.overlap === pool[0]?.overlap);
-  const picked = shuffle(topMatches.length >= pace ? topMatches : pool).slice(0, Math.max(1, pace - 1));
+  // Greedy pick: never two stops for the same venue (e.g. Obelisco has two
+  // tasting rooms) and never the same event attached to two stops.
+  const baseName = (n) => n.toLowerCase().replace(/\(.*?\)/g, '').trim();
+  const picked = [];
+  const usedBase = new Set();
+  const usedEvents = new Set();
+  const want = Math.max(1, pace - 1);
+  // Best matches first: shuffle only within each score tier, so a short list of
+  // top matches (e.g. the few wineries with music that day) is never diluted by
+  // shuffling the whole pool.
+  const tiers = new Map();
+  pool.forEach((w) => tiers.set(w.overlap, [...(tiers.get(w.overlap) || []), w]));
+  const ranked = [...tiers.keys()].sort((a, b) => b - a).flatMap((k) => shuffle(tiers.get(k)));
+  for (const w of ranked) {
+    if (picked.length >= want) break;
+    const ev = (w.upcomingEvents || [])[0];
+    if (usedBase.has(baseName(w.name)) || (ev && usedEvents.has(ev))) continue;
+    picked.push(w);
+    usedBase.add(baseName(w.name));
+    if (ev) usedEvents.add(ev);
+  }
   // Stops without a scheduled event come first; stops with one follow in time order.
   const chosenWineries = [
     ...picked.filter((w) => !(w.upcomingEvents || []).length),
@@ -381,7 +400,7 @@ function buildItinerary({ interests, pace, district, wineColor, date, wineriesDa
   const eventLine = (w) => {
     const ev = (w.upcomingEvents || [])[0];
     if (!ev) return '';
-    return `<p style="margin-top:8px; font-weight:700;">${ev.category === 'music' ? '🎤' : '📅'} ${escapeHtml(ev.title)} — ${escapeHtml(fmtTime(ev.start))}${ev.url ? ` <a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Details →</a>` : ''}</p>`;
+    return `<p class="event-line"><span class="event-tag">${ev.category === 'music' ? 'Live music' : 'Event'}</span>${escapeHtml(ev.title)} — ${escapeHtml(fmtTime(ev.start))}${ev.url ? ` <a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">Details →</a>` : ''}</p>`;
   };
 
   const wineryCard = (w, timeLabel) => `
@@ -389,7 +408,7 @@ function buildItinerary({ interests, pace, district, wineColor, date, wineriesDa
       <div class="stop-icon">${stopIcon[(w.types || [])[0]] || '🍷'}</div>
       <div>
         <h4>${timeLabel}: ${escapeHtml(w.name)}</h4>
-        <p>${escapeHtml(w.districtName)}${w.types && w.types.length ? ' — ' + w.types.map((t) => INTEREST_META[t]?.label || t).join(', ') : ''}${w.wineFocus && w.wineFocus.length ? ' · ' + w.wineFocus.map((v) => v === 'bubbles' ? '🥂 Bubbles' : v[0].toUpperCase() + v.slice(1)).join(', ') : ''}</p>
+        <p>${escapeHtml(w.districtName)}${w.types && w.types.length ? ' — ' + w.types.map((t) => INTEREST_META[t]?.label || t).join(', ') : ''}${w.wineFocus && w.wineFocus.length ? ' · ' + w.wineFocus.map((v) => v === 'bubbles' ? 'Bubbles' : v[0].toUpperCase() + v.slice(1)).join(', ') : ''}</p>
         ${eventLine(w)}
         ${w.url ? `<a href="${escapeAttr(w.url)}" target="_blank" rel="noopener">Visit website →</a>` : ''}
       </div>

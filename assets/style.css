@@ -401,3 +401,116 @@ div.winery-chip { color: var(--ink); cursor: default; }
 .also-happening ul { list-style: none; padding: 0; margin: 0; }
 .also-happening li { padding: 10px 0; border-top: 1px solid var(--line); font-size: 0.92rem; }
 .also-happening li small { display: block; color: var(--ink-soft); }
+
+/* =====================================================================
+   Editorial pass: plain typographic lists everywhere (no cards, tiles,
+   shadows, emoji icons or colored left bars) — same language as the
+   front page. Palette: cream paper, ink, sage, gold.
+   ===================================================================== */
+
+:root {
+  --sage-tint: color-mix(in srgb, var(--sage) 50%, var(--line));
+  --gold-tint: color-mix(in srgb, var(--gold) 55%, var(--line));
+}
+
+body[data-category] { --cat-accent: var(--sage-deep); --cat-bg-soft: transparent; }
+
+/* Inner-page header: shorter, no icon beside the title */
+.jewel-hero:has(.back-link) { padding: 56px 24px 52px; }
+.illo--sm { display: none; }
+.category-head .title-row { justify-content: center; }
+.vine-strip { background: linear-gradient(90deg, var(--sage) 0 50%, var(--gold) 50% 100%); height: 4px; opacity: 1; }
+
+/* Front page list: numbered, roomy, serif */
+.feature-rows { counter-reset: frow; }
+.feature-row { display: grid; grid-template-columns: 2.6rem 1fr auto; align-items: baseline; gap: 0 8px; padding: 26px 4px; }
+.feature-row::before {
+  content: counter(frow, decimal-leading-zero); counter-increment: frow;
+  font-family: 'Fraunces', Georgia, serif; font-size: 0.95rem; font-weight: 600;
+  color: var(--row-accent, var(--sage-deep));
+}
+.feature-row h2 { font-size: 1.6rem; }
+.feature-row .count { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.72rem; color: var(--row-accent, var(--ink-soft)); }
+.feature-row:hover { opacity: 1; }
+.feature-row:hover h2 { text-decoration: underline; text-decoration-color: var(--row-accent); text-decoration-thickness: 2px; text-underline-offset: 5px; }
+.feature-row .row-arrow { transition: transform 140ms ease; }
+.feature-row:hover .row-arrow { transform: translateX(5px); }
+
+/* Event lists (Art, Music, Comedy, Food & Drink, Community) */
+main.event-main { max-width: 720px; }
+.event-card {
+  grid-template-columns: 64px 1fr; gap: 18px; padding: 22px 0; margin: 0;
+  border: 0; border-bottom: 1.5px solid var(--sage-tint); border-radius: 0;
+  background: transparent; box-shadow: none;
+}
+.event-card:hover { box-shadow: none; transform: none; }
+.event-date { background: none; padding: 0; text-align: left; }
+.event-date .day { font-size: 2.1rem; font-weight: 600; color: var(--gold-deep); }
+.event-date .month { color: var(--sage-deep); letter-spacing: 0.16em; text-transform: uppercase; margin-top: 4px; }
+.event-body h3 { font-size: 1.25rem; }
+.event-body h3 a:hover { text-decoration-color: var(--gold-deep); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.event-meta { margin-top: 6px; }
+.empty-state, .loading-state, .error-state { background: transparent; border-radius: 0; border: 0; border-top: 1.5px solid var(--sage-tint); border-bottom: 1.5px solid var(--sage-tint); }
+
+/* "Recurring series" blocks */
+.spotlight-section { max-width: 720px; margin-top: 24px; }
+.spotlight-section h2 { font-size: 1.6rem; padding-bottom: 10px; border-bottom: 2px solid var(--gold); }
+.spotlight-grid { display: block; margin-top: 4px; }
+.spotlight-card { padding: 20px 0; border: 0; border-bottom: 1.5px solid var(--sage-tint); border-radius: 0; background: transparent; box-shadow: none; }
+.spotlight-card:hover { transform: none; box-shadow: none; }
+.spotlight-card .glyph { display: none; }
+.spotlight-card h3 { margin-top: 0; font-size: 1.2rem; }
+.spotlight-card a.spotlight-link { color: var(--sage-deep); border-bottom: 2px solid var(--gold); }
+.spotlight-divider { max-width: 720px; }
+
+/* Wineries: text tabs + plain linked lists */
+.type-filter-bar { gap: 4px 20px; margin: 14px 0 10px; }
+.type-chip {
+  padding: 6px 0; border: 0; border-bottom: 2px solid transparent; border-radius: 0;
+  background: none; color: var(--ink-soft); font-size: 0.85rem; letter-spacing: 0.02em;
+}
+.type-chip:hover { border-color: var(--sage); color: var(--ink); }
+.type-chip.active { background: none; color: var(--ink); border-color: var(--gold); }
+.winery-district h2 { display: block; font-size: 1.55rem; padding-bottom: 8px; border-bottom: 2px solid var(--sage); }
+.winery-district h2::before { content: none; }
+.winery-district:nth-of-type(even) h2 { border-bottom-color: var(--gold); }
+.winery-grid { gap: 0 32px; margin-top: 4px; }
+.winery-chip {
+  padding: 13px 2px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0;
+  background: transparent; color: var(--ink); font-size: 1rem;
+}
+.winery-chip:hover { transform: none; box-shadow: none; }
+a.winery-chip:hover { text-decoration: none; color: var(--sage-deep); }
+.winery-chip .note { color: var(--ink-soft); }
+.winery-chip .tags { color: var(--sage-deep); text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.66rem; }
+
+/* Plan my day */
+.planner-wrap { max-width: 720px; }
+.planner-form { background: none; border: 0; box-shadow: none; padding: 0; }
+.planner-form h2 { font-size: 1.6rem; }
+.interest-grid { gap: 0 28px; }
+.interest-pill { border: 0; border-bottom: 1.5px solid var(--line); border-radius: 0; padding: 13px 2px; }
+.interest-pill:has(input:checked) { background: none; color: var(--ink); border-bottom-color: var(--gold); }
+.interest-pill input { accent-color: var(--sage-deep); }
+.planner-field select, .planner-field input[type=date] {
+  border: 0; border-bottom: 1.5px solid var(--sage); border-radius: 0; background: transparent; padding: 10px 2px;
+}
+.planner-field label { text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.72rem; color: var(--sage-deep); }
+.plan-btn {
+  background: var(--gold); color: var(--ink); border-radius: 3px; padding: 14px 30px;
+  text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.85rem;
+}
+.itinerary-date { font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 1.7rem; padding-bottom: 10px; border-bottom: 2px solid var(--gold); }
+.itinerary-block h3, .also-happening h3 { color: var(--gold-deep); }
+.stop-card { border: 0; border-bottom: 1.5px solid var(--sage-tint); border-radius: 0; background: transparent; padding: 14px 0 18px; margin: 0; }
+.stop-card .stop-icon { display: none; }
+.stop-card a, .also-happening a { color: var(--sage-deep); }
+.event-line { margin-top: 8px; font-weight: 600; }
+.event-tag { display: inline-block; margin-right: 6px; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold-deep); }
+.also-happening li { border-top: 1px solid var(--sage-tint); }
+
+.site-footer { max-width: 720px; border-top: 1.5px solid var(--sage-tint); }
+.site-footer a { color: var(--sage-deep); }
+
+.stop-card h4 { margin: 0; }
+.stop-card > div { min-width: 0; }

@@ -72,7 +72,7 @@ setTimeout(() => {
     if (!out.innerHTML.trim()) fail('submitting the form produced no itinerary.');
     if (!out.querySelector('h4')) fail('itinerary has no stops.');
     if (!out.querySelector('.itinerary-date')) fail('itinerary has no date heading.');
-    const hasRealEvent = /🎤/.test(out.innerHTML);
+    const hasRealEvent = !!out.querySelector('.event-line');
     if (!hasRealEvent) {
       console.warn('WARN: no real dated event was attached to any stop this run (may just be luck of the draw — try again).');
     }
