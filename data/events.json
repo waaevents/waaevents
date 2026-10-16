@@ -1,198 +1,8 @@
 {
-  "updatedAt": "2026-10-15T17:29:57.148Z",
+  "updatedAt": "2026-10-16T17:05:15.175Z",
   "windowDays": 90,
-  "count": 888,
+  "count": 876,
   "events": [
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-15T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-15T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap-2026-10-15T18:00:00.000Z",
-      "title": "$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap",
-      "category": "food-drink",
-      "start": "2026-10-15T18:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-15T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-15T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-15T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-15T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-15T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-15T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-16T00:00:00.000Z",
-      "title": "Live Music at Goose Ridge Woodinville",
-      "category": "music",
-      "start": "2026-10-16T00:00:00.000Z",
-      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
-      "url": "https://www.gooseridge.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Prohibition Cellars-Paint & Sip: Pumpkin & Petals-2026-10-16T00:00:00.888Z",
-      "title": "Paint & Sip: Pumpkin & Petals",
-      "category": "art",
-      "start": "2026-10-16T00:00:00.888Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/joel-astely-ck3nw-f4d7r-3bg5s-ehheg",
-      "description": "Unwind and paint a colorful Autumn Pumpkin surrounded by expressive florals in this relaxed mixed-media Paint & Sip led by local artist Rohini Mathur , whose artwork is currently on display at Prohibition Cellars. Explore a playful combination of watercolors, inks, and paper coll",
-      "source": "Prohibition Cellars"
-    },
-    {
-      "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-10-16T00:15:00.000Z",
-      "title": "Game Day: Hawks Pass Menu & Watch Party",
-      "category": "community",
-      "start": "2026-10-16T00:15:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/game-day-hawks-pass-menu-watch-party-4/",
-      "description": "Seahawks Watch Party at Village! Football is better together, and Village Wines is the place to watch it! Let us handle the food prep, game-day shopping, dishes, and entertaining! Join us for a Seahawks Watch Party with a lively crowd, great food, and every play on one of our fiv",
-      "source": "Village Wines"
-    },
-    {
-      "id": "10000421-1792085400-1792092600@425cellars.com",
-      "title": "Music featuring - Lyle Ronglien",
-      "category": "music",
-      "start": "2026-10-16T00:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/music-featuring-lyle-ronglien/",
-      "description": "🎸 Thursday Night at 425 Cellars 🎸 Join us Thursday, October 15th from 5:30–7:30 PM for live music featuring Lyle Ronglien! 🎶 A Pacific Northwest-based singer, songwriter, and guitarist, Lyle’s playing seamlessly weaves through genres—from classical to bluegrass, rock to countr",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-10-16T00:30:00.000Z",
-      "title": "Knotty Thursdays | Woodinville",
-      "category": "food-drink",
-      "start": "2026-10-16T00:30:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-15/",
-      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity, and good company. Knotty Thursday is all about making something with your hands, enjoying a gr",
-      "source": "Evergreen Family Wines"
-    },
-    {
-      "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-16T00:30:00.000Z",
-      "title": "The Summit: 16-Course Chef's Counter Dinner",
-      "category": "food-drink",
-      "start": "2026-10-16T00:30:00.000Z",
-      "location": "Bin 47 Chef's Counter at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Music Featuring Jarrett Renshaw at LaShellé Wines-2026-10-16T01:00:00.000Z",
-      "title": "Music Featuring Jarrett Renshaw at LaShellé Wines",
-      "category": "music",
-      "start": "2026-10-16T01:00:00.000Z",
-      "location": "LaShellé Wines, 19501 144th Ave NE #C900, Woodinville, WA 98072",
-      "url": "https://www.lashellewines.com/calendar/music-featuring-jarrett-renshaw-ja68l",
-      "description": "Live music with Pacific Northwest singer-songwriter Jarrett Renshaw. Doors 5pm. Wine and charcuterie plates for purchase.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-80's Vinyl Bingo with DJ Ben Meyer at Studio 1886-2026-10-16T01:00:00.000Z",
-      "title": "80's Vinyl Bingo with DJ Ben Meyer at Studio 1886",
-      "category": "music",
-      "start": "2026-10-16T01:00:00.000Z",
-      "location": "Studio 1886, 15500 Woodinville-Redmond Rd NE #C600, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/studio1886/event/625661/80s-vinyl-bingo",
-      "description": "6-8pm",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Sarah Brunner at Fireside Lounge-2026-10-16T01:00:00.000Z",
-      "title": "Sarah Brunner at Fireside Lounge",
-      "category": "music",
-      "start": "2026-10-16T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-LaShellé Wines-Music Featuring Jarrett Renshaw-2026-10-16T01:00:00.034Z",
-      "title": "Music Featuring Jarrett Renshaw",
-      "category": "music",
-      "start": "2026-10-16T01:00:00.034Z",
-      "location": "LaShelle Wines, 19501 144th Ave NE C900, Woodinville, WA 98072",
-      "url": "https://www.lashellewines.com/calendar/music-featuring-jarrett-renshaw-ja68l",
-      "description": "Enjoy an evening of live music at LaShellé Wines with Pacific Northwest singer-songwriter and multi-instrumentalist Jarrett Renshaw. His blend of acoustic soft rock, pop favorites, and original music creates the perfect soundtrack for a relaxing Saturday afternoon. Seating is 1st",
-      "source": "LaShellé Wines"
-    },
-    {
-      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-10-16T01:30:00.000Z",
-      "title": "WOODINVILLE: Music Bingo",
-      "category": "music",
-      "start": "2026-10-16T01:30:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
-      "url": "https://tsillancellars.com/event/woodinville-music-bingo-58/",
-      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-10-16T01:45:00.950Z",
-      "title": "Beat the Geek Trivia in Woodinville",
-      "category": "community",
-      "start": "2026-10-16T01:45:00.950Z",
-      "location": "",
-      "url": "https://www.beaumontcellars.com/events-calendar/2026/10/15/beat-the-geek-trivia-in-woodinville",
-      "description": "Join us for the best trivia in town. Trivia is free but minimum glass/bottle purchase required. We can sell out quickly, so for reservations please email Beth at bethod@beaumontcellars.com or, for day-of reservations, call us after 4pm at 425-482-6349.",
-      "source": "Beaumont Cellars"
-    },
-    {
-      "id": "manual-Trivia Night at Northwest Spirits-2026-10-16T02:00:00.000Z",
-      "title": "Trivia Night at Northwest Spirits",
-      "category": "food-drink",
-      "start": "2026-10-16T02:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Watts Brewing Company-Boots & Brews Line Dancing-2026-10-16T02:00:00.017Z",
-      "title": "Boots & Brews Line Dancing",
-      "category": "food-drink",
-      "start": "2026-10-16T02:00:00.017Z",
-      "location": "Watts Brewing Company, 15510 Redmond - Woodinville Rd NE Ste E110, Woodinville, WA, 98072",
-      "url": "https://wattsbrewingcompany.com/events/yh5n6dd5p72d6na-2f6st-ykz8n-2hmwt-2hel3-tzbxl",
-      "description": "Join us for line dancing classes at the brewery! We’re welcoming Wildflower Dance Co to lead line dancing every Thursday evening. Learn new dances each week and practice the favorites from weeks before. All ages and skill levels welcome $10 per class at the door",
-      "source": "Watts Brewing Company"
-    },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-16T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
@@ -244,14 +54,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Evergreen Family Wines-Live Music by Mike Good | Woodinville-2026-10-17T00:00:00.000Z",
-      "title": "Live Music by Mike Good | Woodinville",
+      "id": "winery-Synne Cellars-One Last Evening on the Lawn? Live Music Friday!-2026-10-17T00:00:00.000Z",
+      "title": "One Last Evening on the Lawn? Live Music Friday!",
       "category": "music",
       "start": "2026-10-17T00:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-mike-good-woodinville/2026-10-16/",
-      "description": "<p>Live Music by the talented Mike Good! Come join us in Woodinville for a stellar time with incredible WA wine, amazing music, and fun vibes!</p>\\n",
-      "source": "Evergreen Family Wines"
+      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "url": "https://www.synnecellars.com/event/one-last-evening-on-the-lawn-live-music-friday/",
+      "description": "Live Music Friday with DA-SH! Could this be our last concert on the lawn until spring? The weather is looking promising, and we’re hoping to take advantage of a beautiful fall evening! If Mother Nature cooperates, we’ll bring the music outside to our lawn for what could be our fi",
+      "source": "Synne Cellars"
     },
     {
       "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-10-17T00:00:00.000Z",
@@ -374,6 +184,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Walker Sherman-2026-10-17T01:00:00.245Z",
+      "title": "Live Music at Hollywood Hill: Walker Sherman",
+      "category": "music",
+      "start": "2026-10-17T01:00:00.245Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
+      "url": "https://www.pattersoncellars.com/events/2026/10/16/live-music-at-hollywood-hill-walker-sherman",
+      "description": "",
+      "source": "Patterson Cellars"
+    },
+    {
       "id": "winery-Village Wines-North of Somewhere Live Music-2026-10-17T02:00:00.000Z",
       "title": "North of Somewhere Live Music",
       "category": "music",
@@ -424,16 +244,6 @@
       "source": "Wit Cellars"
     },
     {
-      "id": "winery-Woodinville Wine Country Events-Kindness for Kids Guild 4th Annual Dinner & Auction @ Evergreen Family Wines-2026-10-17T19:00:00.000Z",
-      "title": "Kindness for Kids Guild 4th Annual Dinner & Auction @ Evergreen Family Wines",
-      "category": "food-drink",
-      "start": "2026-10-17T19:00:00.000Z",
-      "location": "Woodinville Wine Country, 14450 Redmond-Woodinville Rd NE Ste 101-A , Woodinville, WA",
-      "url": "https://woodinvillewinecountry.com/event/kindness-for-kids-guild-4th-annual-dinner-auction-evergreen-family-wines/",
-      "description": "Join us for a fun night of good vibes, great food, and bidding to support kids in need! Welcome to the Kindness for Kids Guild 4th Annual Dinner & Auction! Join us for a night of fun and giving back at Evergreen Family Wines. Enjoy delicious food & wine (food provided by Heritage",
-      "source": "Woodinville Wine Country Events"
-    },
-    {
       "id": "winery-Tsillan Cellars-CHELAN: Live Music – Taste of Whisky-2026-10-17T20:00:00.000Z",
       "title": "CHELAN: Live Music – Taste of Whisky",
       "category": "music",
@@ -452,16 +262,6 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Live Music by Mike Scott | Woodinville-2026-10-17T21:00:00.000Z",
-      "title": "Live Music by Mike Scott | Woodinville",
-      "category": "music",
-      "start": "2026-10-17T21:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-mike-scott-woodinville/2026-10-17/",
-      "description": "<p>Join us for live music by Mike Scoot at our Woodinville Tasting Room this Friday evening. Enjoy incredible wine, great music, and stellar vibes.</p>\\n",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-17T21:00:00.000Z",
@@ -534,14 +334,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Evergreen Family Wines-Kindness for Kids Guild 4th Annual Dinner & Auction | Woodinville-2026-10-18T01:30:00.000Z",
-      "title": "Kindness for Kids Guild 4th Annual Dinner & Auction | Woodinville",
-      "category": "food-drink",
-      "start": "2026-10-18T01:30:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/kindness-for-kids-guild-4th-annual-dinner-auction-woodinville/",
-      "description": "<p>Join us for a fun night of good vibes, great food, and bidding to support kids in need! Welcome to the Kindness for Kids Guild 4th Annual Dinner & Auction! Join us for a night of fun and giving back at Evergreen Family Wines. Enjoy delicious food & wine (food provided by",
-      "source": "Evergreen Family Wines"
+      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Randy Norris-2026-10-18T01:00:00.486Z",
+      "title": "Live Music at Hollywood Hill: Randy Norris",
+      "category": "music",
+      "start": "2026-10-18T01:00:00.486Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
+      "url": "https://www.pattersoncellars.com/events/2026/10/17/live-music-at-hollywood-hill-randy-norris",
+      "description": "",
+      "source": "Patterson Cellars"
     },
     {
       "id": "manual-The Buckets at Obelisco-2026-10-18T02:00:00.000Z",
@@ -562,16 +362,6 @@
       "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-10-18/",
       "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
       "source": "Alexandria Nicole Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-10-18T19:00:00.000Z",
-      "title": "Sip Back Sundays | All Locations",
-      "category": "food-drink",
-      "start": "2026-10-18T19:00:00.000Z",
-      "location": "",
-      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-10-18/",
-      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend and let us pour you something delicious.</p>\\n",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "winery-Bayernmoor Cellars-TnT – An Explosive Cook Off-2026-10-18T19:00:00.000Z",
@@ -1082,6 +872,16 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Patterson Cellars-2023 Grenache and 2022 BDX Member Preview Weekend-2026-10-22T18:00:00.717Z",
+      "title": "2023 Grenache and 2022 BDX Member Preview Weekend",
+      "category": "community",
+      "start": "2026-10-22T18:00:00.717Z",
+      "location": "Patterson Cellars, All Locations",
+      "url": "https://www.pattersoncellars.com/events/2026/10/22/2023-grenache-and-2022-bdx-member-preview-weekend",
+      "description": "",
+      "source": "Patterson Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-22T20:00:00.000Z",
@@ -2104,6 +1904,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Tsillan Cellars-CHELAN: Prime Rib Thursdays-2026-10-30T00:00:00.000Z",
+      "title": "CHELAN: Prime Rib Thursdays",
+      "category": "community",
+      "start": "2026-10-30T00:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays/",
+      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and your choice of potatoes or a side salad. 🍴 Make reservations on OpenTable or call 509-68",
+      "source": "Tsillan Cellars"
+    },
+    {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-10-30T00:00:00.000Z",
       "title": "Live Music at Goose Ridge Woodinville",
       "category": "music",
@@ -2412,6 +2222,16 @@
       "url": "https://www.wilridgewinery.com/event/wilridge-pie-wine-bar-fall-2026-wine-club-release/",
       "description": "Wilridge Wine Club members are invited to enjoy complimentary tastings, including newly released wines, along with special treats from Chef Cassaundra. Members are welcome to bring up to two guests. Additional guests are welcome for a wine and food tasting fee. Please RSVP to car",
       "source": "Wilridge Pie & Wine Bar"
+    },
+    {
+      "id": "winery-Woodinville Wine Country Events-Animal Costume Contest @ Freebush Cellars-2026-10-31T19:00:00.000Z",
+      "title": "Animal Costume Contest @ Freebush Cellars",
+      "category": "community",
+      "start": "2026-10-31T19:00:00.000Z",
+      "location": "Woodinville Wine Country, 19495 144th Ave NE Ste B235 , Woodinville, WA",
+      "url": "https://woodinvillewinecountry.com/event/animal-costume-contest-freebush-cellars/",
+      "description": "Free to enter · All ages welcome Dust off the capes, cowboy hats, and pumpkin suits, because this Halloween the pets are the stars of the show! Join us at Freebush Cellars in the Woodinville Warehouse District for our Animal Costume Contest, an evening of spooky-season fun for th",
+      "source": "Woodinville Wine Country Events"
     },
     {
       "id": "winery-Prohibition Cellars-Halloween Candy & Wine Pairing OR Mystery Red Flight-2026-10-31T19:00:00.187Z",
@@ -2964,6 +2784,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-LaShellé Wines-Thanksgiving Napkin Class at LaShellé Wines-2026-11-05T02:00:00.021Z",
+      "title": "Thanksgiving Napkin Class at LaShellé Wines",
+      "category": "art",
+      "start": "2026-11-05T02:00:00.021Z",
+      "location": "LaShellé Wines, 19501 144th Ave NE #C900 Woodinville, WA 98072",
+      "url": "https://www.lashellewines.com/calendar/dried-flower-pumpkin-class-at-lashell-wines",
+      "description": "Celebrate the season with a set of hand painted linen napkins adorned with seasonal designs to add to your Thanksgiving table. You will be guided step by step through the fabric painting process. Once dry, napkins are machine washable and dryable. Check in is at 5:45pm Register h",
+      "source": "LaShellé Wines"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-05T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -3012,6 +2842,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-CHELAN: Prime Rib Thursdays-2026-11-06T01:00:00.000Z",
+      "title": "CHELAN: Prime Rib Thursdays",
+      "category": "community",
+      "start": "2026-11-06T01:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays-2/",
+      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and your choice of potatoes or a side salad. 🍴 Make reservations on OpenTable or call 509-68",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-06T01:00:00.000Z",
@@ -3824,6 +3664,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Tsillan Cellars-CHELAN: Prime Rib Thursdays-2026-11-13T01:00:00.000Z",
+      "title": "CHELAN: Prime Rib Thursdays",
+      "category": "community",
+      "start": "2026-11-13T01:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays-3/",
+      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and your choice of potatoes or a side salad. 🍴 Make reservations on OpenTable or call 509-68",
+      "source": "Tsillan Cellars"
+    },
+    {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-13T01:00:00.000Z",
       "title": "Live Music at Goose Ridge Woodinville",
       "category": "music",
@@ -3892,6 +3742,16 @@
       "url": "https://www.lashellewines.com/calendar/event-five-fknp5-ych4h-3gh48-2gkc2",
       "description": "Join us at LaShellé Wines for an evening of great wine and timeless tunes as Reji Marc brings music to life! his ability to meld Blues emotion with Funk’s vibrancy and Rock’s raw power. Sip, relax, and enjoy live music in a warm and welcoming atmosphere. Seating is 1st come 1st s",
       "source": "LaShellé Wines"
+    },
+    {
+      "id": "winery-Patterson Cellars-Light Bites with John Patterson & Chef Jack Rogers-2026-11-13T02:00:00.778Z",
+      "title": "Light Bites with John Patterson & Chef Jack Rogers",
+      "category": "community",
+      "start": "2026-11-13T02:00:00.778Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
+      "url": "https://www.pattersoncellars.com/events/2026/11/12/light-bites-with-john-patterson-amp-chef-jack-rogers",
+      "description": "",
+      "source": "Patterson Cellars"
     },
     {
       "id": "manual-Trivia Night at Northwest Spirits-2026-11-13T03:00:00.000Z",
@@ -4672,6 +4532,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-CHELAN: Prime Rib Thursdays-2026-11-20T01:00:00.000Z",
+      "title": "CHELAN: Prime Rib Thursdays",
+      "category": "community",
+      "start": "2026-11-20T01:00:00.000Z",
+      "location": "",
+      "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays-4/",
+      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and your choice of potatoes or a side salad. 🍴 Make reservations on OpenTable or call 509-68",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-20T01:00:00.000Z",
@@ -6842,6 +6712,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-LaShellé Wines-December Kissing Ball Class at LaShellé Wines-2026-12-10T02:00:00.021Z",
+      "title": "December Kissing Ball Class at LaShellé Wines",
+      "category": "art",
+      "start": "2026-12-10T02:00:00.021Z",
+      "location": "LaShellé Wines, 19501 144th Ave NE #C900 Woodinville, WA 98072",
+      "url": "https://www.lashellewines.com/calendar/dried-flower-pumpkin-class-at-lashell-wines-nghwn",
+      "description": "The perfect porch or window decoration for the holidays. This cedar and fir wreath will last throughout the holiday season. Choose from select embellishments. All supplies included. Check in is at 5:45pm Register here: https://www.annewrittenart.com/shop/december-kissing-ball-cla",
+      "source": "LaShellé Wines"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-12-10T19:00:00.000Z",
