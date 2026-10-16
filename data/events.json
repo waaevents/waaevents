@@ -1,58 +1,8 @@
 {
-  "updatedAt": "2026-10-16T17:05:15.175Z",
+  "updatedAt": "2026-10-16T23:28:45.541Z",
   "windowDays": 90,
-  "count": 876,
+  "count": 868,
   "events": [
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-16T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-16T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-16T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-16T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-16T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-16T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-16T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-16T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Friday Live Music at Bayernmoor Cellars-2026-10-16T23:00:00.000Z",
-      "title": "Friday Live Music at Bayernmoor Cellars",
-      "category": "music",
-      "start": "2026-10-16T23:00:00.000Z",
-      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
-      "url": "https://bayernmoor.com/tasting-room/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "winery-Synne Cellars-One Last Evening on the Lawn? Live Music Friday!-2026-10-17T00:00:00.000Z",
       "title": "One Last Evening on the Lawn? Live Music Friday!",
@@ -1384,6 +1334,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "winery-LaShellé Wines-Closing at 3pm for off premise event-2026-10-25T19:00:00.001Z",
+      "title": "Closing at 3pm for off premise event",
+      "category": "music",
+      "start": "2026-10-25T19:00:00.001Z",
+      "location": "",
+      "url": "https://www.lashellewines.com/calendar/closing-at-3pm-for-off-premise-event",
+      "description": "We are closing early to attend an off premise event. We will reopen on Thursday October 29th 5-8pm for live music featuring Sedona Rose. #block-8c4437d8cf3e691e3db3 { --stroke-style: none;--stroke-thickness: 2px; --tweak-text-block-stroke-color: hsla(var(--black-hsl), 1) ; } #blo",
+      "source": "LaShellé Wines"
+    },
+    {
       "id": "manual-Silly Spooks Cookie Decorating Class at Freebush-2026-10-25T20:00:00.000Z",
       "title": "Silly Spooks Cookie Decorating Class at Freebush",
       "category": "art",
@@ -1954,8 +1914,8 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-LaShellé Wines-Saturday Music Sedona Rose-2026-10-30T01:00:00.566Z",
-      "title": "Saturday Music Sedona Rose",
+      "id": "winery-LaShellé Wines-Thursday night Music Sedona Rose-2026-10-30T01:00:00.566Z",
+      "title": "Thursday night Music Sedona Rose",
       "category": "music",
       "start": "2026-10-30T01:00:00.566Z",
       "location": "LaShellé Wines, 19501 144th Avenue NE #C900, Woodinville, Washington, 98072",
