@@ -294,7 +294,7 @@ async function main() {
         // Visit Woodinville and the Chamber calendar) — UID alone won't
         // catch that. Treat identical title + start time as the same
         // event and keep only the first one seen.
-        const titleTimeKey = `${looseKey(title)}|${start.toISOString()}`;
+        const titleTimeKey = `${looseKey(title)}|${start.toISOString().slice(0, 16)}`;
         if (seenTitleTime.has(titleTimeKey)) continue;
         seenTitleTime.add(titleTimeKey);
 
@@ -355,7 +355,7 @@ async function main() {
       const uid = `winery-${ev.source}-${title}-${start.toISOString()}`;
       if (seenIds.has(uid)) continue;
       seenIds.add(uid);
-      const titleTimeKey = `${looseKey(title)}|${start.toISOString()}`;
+      const titleTimeKey = `${looseKey(title)}|${start.toISOString().slice(0, 16)}`;
       if (seenTitleTime.has(titleTimeKey)) continue;
       seenTitleTime.add(titleTimeKey);
       const description = cleanDescription(ev.description);
@@ -403,7 +403,7 @@ async function main() {
     if (seenIds.has(uid)) continue;
     seenIds.add(uid);
 
-    const titleTimeKey = `${looseKey(title)}|${start.toISOString()}`;
+    const titleTimeKey = `${looseKey(title)}|${start.toISOString().slice(0, 16)}`;
     if (seenTitleTime.has(titleTimeKey)) continue;
     seenTitleTime.add(titleTimeKey);
 
