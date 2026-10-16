@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-16T17:05:15.165Z",
+  "ranAt": "2026-10-16T23:28:45.527Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -147,8 +147,8 @@
     },
     {
       "winery": "Chateau Ste. Michelle Winery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "This operation was aborted"
     },
     {
       "winery": "Covington Cellars",
@@ -298,7 +298,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 16,
+      "count": 17,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -524,8 +524,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Village Wines",
