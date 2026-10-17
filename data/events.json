@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-10-17T16:02:39.000Z",
+  "updatedAt": "2026-10-17T22:13:51.248Z",
   "windowDays": 90,
-  "count": 851,
+  "count": 847,
   "events": [
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Taste of Whisky-2026-10-17T20:00:00.000Z",
-      "title": "CHELAN: Live Music – Taste of Whisky",
-      "category": "music",
-      "start": "2026-10-17T20:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/live-music-taste-of-whisky-2/",
-      "description": "Join us for live music on Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see you!",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-17T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-17T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-17T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-17T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Hilary Joy at WIT Cellars Woodinville-2026-10-17T21:00:00.000Z",
-      "title": "Hilary Joy at WIT Cellars Woodinville",
-      "category": "music",
-      "start": "2026-10-17T21:00:00.000Z",
-      "location": "WIT Cellars Woodinville, 19501 144th Ave NE Suite A400, Woodinville, WA 98072",
-      "url": "https://witcellars.com/event/fall-release-weekend-at-wit-cellars-woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-17T23:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
