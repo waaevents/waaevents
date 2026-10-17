@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-17T16:02:38.993Z",
+  "ranAt": "2026-10-17T22:13:51.234Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -511,7 +511,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 20,
+      "count": 19,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -555,7 +555,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 9,
+      "count": 8,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
