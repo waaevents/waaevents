@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-16T23:28:45.527Z",
+  "ranAt": "2026-10-17T01:20:53.309Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -51,8 +51,8 @@
     },
     {
       "winery": "Ambassador Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Artisan Hill",
@@ -147,8 +147,8 @@
     },
     {
       "winery": "Chateau Ste. Michelle Winery",
-      "status": "site-unreachable",
-      "error": "This operation was aborted"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Covington Cellars",
@@ -384,7 +384,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 4,
+      "count": 3,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -412,7 +412,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 17,
+      "count": 16,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -470,7 +470,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 13,
+      "count": 12,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -517,10 +517,10 @@
     {
       "winery": "Two Vintners",
       "status": "ok",
-      "strategy": "jsonld",
+      "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 1,
-      "eventPage": "https://www.twovintners.com/all-events-/hzmcj4x2rrhrsm6-jjzgt-2zwxa-xj7fh-xcn94-cd3e5-j7meb-eaknb-jj5mw-nykr4"
+      "count": 2,
+      "eventPage": "https://www.twovintners.com/all-events-?tag=TWO+FUNK+FRIDAY"
     },
     {
       "winery": "Vaunt Modern Gallery",
@@ -532,7 +532,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 16,
+      "count": 15,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
@@ -555,7 +555,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 10,
+      "count": 9,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
