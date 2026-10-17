@@ -21,11 +21,18 @@
     "Tilton River Cellars": "19495 144th Ave NE",
     "The Winemakers Reserve": "15902 Woodinville-Redmond Rd NE",
     "Michael Florentino Cellars": "19255 Woodinville-Snohomish Rd",
-    "Wilridge Pie & Wine Bar": "19255 Woodinville-Snohomish Rd NE",
+    "Wilridge Pie & Wine Bar": "19255 Woodinville-Snohomish Rd",
     "Martedi Winery": "17621 128th Pl NE",
     "SheChill Bakery": "17401 133rd Ave NE",
     "Evergreen Family Wines": "14450 Woodinville-Redmond Rd NE",
     "Savage Grace Wines": "19501 144th Ave NE",
     "Baer Winery": "13590 NE Village Square Dr"
+  },
+  "coordinates": {
+    "Bong Bong": {
+      "lat": 47.7327,
+      "lng": -122.1424,
+      "note": "The Yard at Harvest, same development as Vaunt Gallery; geocoder matched a different 147th Pl NE"
+    }
   }
 }

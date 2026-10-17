@@ -32,14 +32,21 @@ async function main() {
   const data = JSON.parse(await readFile('data/wineries.json', 'utf8'));
   let found = {};
   try { found = JSON.parse(await readFile('data/winery-addresses.json', 'utf8')).addresses || {}; } catch { /* none */ }
-  let manual = {};
-  try { manual = JSON.parse(await readFile('data/winery-addresses-manual.json', 'utf8')).addresses || {}; } catch { /* none */ }
+  let manual = {}; let manualXY = {};
+  try {
+    const m = JSON.parse(await readFile('data/winery-addresses-manual.json', 'utf8'));
+    manual = m.addresses || {}; manualXY = m.coordinates || {};
+  } catch { /* none */ }
   let prev = {};
   try { prev = JSON.parse(await readFile('data/winery-geo.json', 'utf8')).places || {}; } catch { /* first run */ }
   const places = {}; const missing = [];
   for (const d of data.districts) {
     for (const w of d.wineries) {
       if (prev[w.name]?.lat && prev[w.name].precision !== 'name-search' && !(manual[w.name] && prev[w.name].address !== manual[w.name])) { places[w.name] = prev[w.name]; continue; }
+      if (manualXY[w.name]) {
+        places[w.name] = { lat: manualXY[w.name].lat, lng: manualXY[w.name].lng, address: manual[w.name] || null, precision: 'address' };
+        continue;
+      }
       const addr = addressOf(w, found, manual);
       let hit = null;
       try {

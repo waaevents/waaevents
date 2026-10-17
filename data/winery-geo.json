@@ -2,10 +2,10 @@
   "generatedAt": "2026-10-17T22:12:04.141Z",
   "places": {
     "Bong Bong": {
-      "lat": 47.7571005,
-      "lng": -122.1432956,
+      "lat": 47.7327,
+      "lng": -122.1424,
       "address": "14484 147th Pl NE",
-      "precision": "street"
+      "precision": "address"
     },
     "Cave B Estate Winery": {
       "lat": 47.7309051,
@@ -458,10 +458,10 @@
       "precision": "address"
     },
     "Wilridge Pie & Wine Bar": {
-      "lat": 47.7564666,
-      "lng": -122.1604421,
-      "address": "19255 Woodinville-Snohomish Rd NE",
-      "precision": "street"
+      "lat": 47.767501,
+      "lng": -122.154485,
+      "address": "19255 Woodinville-Snohomish Rd",
+      "precision": "address"
     },
     "Adams Bench": {
       "lat": 47.7517027,
