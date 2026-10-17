@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-10-12T22:31:06.728Z",
+  "generatedAt": "2026-10-17T01:21:02.315Z",
   "places": {
+    "Cave B Estate Winery": {
+      "lat": 47.7309051,
+      "lng": -122.139463,
+      "address": "14356 Woodinville-Redmond Rd NE",
+      "precision": "address"
+    },
     "Chandler Reach": {
       "lat": 47.7324083,
       "lng": -122.1409412,
@@ -31,6 +37,12 @@
       "address": null,
       "precision": "name-search"
     },
+    "Fidélitas": {
+      "lat": 47.7317619,
+      "lng": -122.1420773,
+      "address": "14467 Woodinville-Redmond Rd NE",
+      "precision": "address"
+    },
     "Fireside Lounge": {
       "lat": 47.7340641,
       "lng": -122.1469518,
@@ -41,6 +53,12 @@
       "lat": 47.7320762,
       "lng": -122.1420771,
       "address": "14475 Redmond-Woodinville Rd NE",
+      "precision": "address"
+    },
+    "Goose Ridge Woodinville Tasting Room": {
+      "lat": 47.7324083,
+      "lng": -122.1409412,
+      "address": "14450 Woodinville-Redmond Rd NE",
       "precision": "address"
     },
     "Gorman Winery": {
@@ -109,6 +127,12 @@
       "address": "15500 Woodinville-Redmond Rd NE",
       "precision": "address"
     },
+    "Novelty Hill - Januik Winery": {
+      "lat": 47.7350254,
+      "lng": -122.1537722,
+      "address": "14710 Woodinville-Redmond Rd NE",
+      "precision": "address"
+    },
     "Obelisco Estate (Apple Farm Village)": {
       "lat": 47.7337195,
       "lng": -122.1424445,
@@ -116,16 +140,16 @@
       "precision": "address"
     },
     "Pepper Bridge Winery & Amavi Cellars": {
-      "lat": 47.7330917,
-      "lng": -122.1417536,
-      "address": null,
-      "precision": "name-search"
+      "lat": 47.7330963,
+      "lng": -122.1416027,
+      "address": "14810 NE 145th St",
+      "precision": "address"
     },
     "Sparkman Cellars": {
-      "lat": 47.7347179,
-      "lng": -122.1483852,
-      "address": null,
-      "precision": "name-search"
+      "lat": 47.7324952,
+      "lng": -122.1419687,
+      "address": "14473 Woodinville-Redmond Rd NE",
+      "precision": "address"
     },
     "Synne Cellars": {
       "lat": 47.7330963,
@@ -433,6 +457,12 @@
       "address": "15029 Woodinville-Redmond Rd",
       "precision": "address"
     },
+    "Flatstick Pub Woodinville": {
+      "lat": 47.7542219,
+      "lng": -122.1629603,
+      "address": "13205 NE 175th St",
+      "precision": "address"
+    },
     "Grosgrain Vineyards": {
       "lat": 47.7317815,
       "lng": -122.1434702,
@@ -443,6 +473,12 @@
       "lat": 47.7538856,
       "lng": -122.1620817,
       "address": "17409 133rd Ave NE",
+      "precision": "address"
+    },
+    "L'Ecole No. 41": {
+      "lat": 47.7532338,
+      "lng": -122.1632869,
+      "address": "17401 133rd Ave NE",
       "precision": "address"
     },
     "McQueen Champagne Bar": {
@@ -457,10 +493,22 @@
       "address": "17401 133rd Ave Ne",
       "precision": "address"
     },
+    "Sleight of Hand Cellars": {
+      "lat": 47.7324083,
+      "lng": -122.1409412,
+      "address": "14450 Woodinville-Redmond Rd NE",
+      "precision": "address"
+    },
     "Truthteller Winery": {
       "lat": 47.7517027,
       "lng": -122.1602909,
       "address": "13590 NE Village Square Dr",
+      "precision": "street"
+    },
+    "Tsillan Cellars": {
+      "lat": 47.7517027,
+      "lng": -122.1602909,
+      "address": "13550 NE Village Square Dr",
       "precision": "street"
     },
     "Woodin Creek Kitchen & Tap": {
@@ -502,10 +550,6 @@
   },
   "missing": [
     "Bong Bong",
-    "Cave B Estate Winery",
-    "Fidélitas",
-    "Goose Ridge Woodinville Tasting Room",
-    "Novelty Hill - Januik Winery",
     "Vaunt Modern Gallery",
     "Bunnell/Newhouse",
     "JBell Wine Co.",
@@ -515,11 +559,7 @@
     "The Winemakers Reserve",
     "Michael Florentino Cellars",
     "Wilridge Pie & Wine Bar",
-    "Flatstick Pub Woodinville",
-    "L'Ecole No. 41",
     "Martedi Winery",
-    "SheChill Bakery",
-    "Sleight of Hand Cellars",
-    "Tsillan Cellars"
+    "SheChill Bakery"
   ]
 }
