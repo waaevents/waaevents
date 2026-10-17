@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-17T01:20:53.309Z",
+  "ranAt": "2026-10-17T16:02:38.993Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -51,8 +51,8 @@
     },
     {
       "winery": "Ambassador Wines",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Artisan Hill",
@@ -517,10 +517,10 @@
     {
       "winery": "Two Vintners",
       "status": "ok",
-      "strategy": "squarespace",
+      "strategy": "jsonld",
       "platform": "squarespace",
-      "count": 2,
-      "eventPage": "https://www.twovintners.com/all-events-?tag=TWO+FUNK+FRIDAY"
+      "count": 1,
+      "eventPage": "https://www.twovintners.com/all-events-/hzmcj4x2rrhrsm6-jjzgt-2zwxa-xj7fh-xcn94-cd3e5-j7meb-eaknb-jj5mw-nykr4-j8ymp"
     },
     {
       "winery": "Vaunt Modern Gallery",
@@ -573,11 +573,8 @@
     },
     {
       "winery": "Wit Cellars",
-      "status": "ok",
-      "strategy": "tribe",
-      "platform": "wordpress",
-      "count": 1,
-      "eventPage": "https://witcellars.com/"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Woodin Creek Kitchen & Tap",
