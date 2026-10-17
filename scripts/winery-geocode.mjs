@@ -19,7 +19,8 @@ async function nominatim(q) {
 }
 const inBox = (p) => p.lat >= BOX.minLat && p.lat <= BOX.maxLat && p.lng >= BOX.minLng && p.lng <= BOX.maxLng;
 
-function addressOf(w, found) {
+function addressOf(w, found, manual = {}) {
+  if (manual[w.name]) return manual[w.name];
   const fromNote = (w.note || '').match(RE);
   if (fromNote) return fromNote[0].replace(/\s+/g, ' ');
   const f = found[w.name]?.address;
@@ -31,13 +32,15 @@ async function main() {
   const data = JSON.parse(await readFile('data/wineries.json', 'utf8'));
   let found = {};
   try { found = JSON.parse(await readFile('data/winery-addresses.json', 'utf8')).addresses || {}; } catch { /* none */ }
+  let manual = {};
+  try { manual = JSON.parse(await readFile('data/winery-addresses-manual.json', 'utf8')).addresses || {}; } catch { /* none */ }
   let prev = {};
   try { prev = JSON.parse(await readFile('data/winery-geo.json', 'utf8')).places || {}; } catch { /* first run */ }
   const places = {}; const missing = [];
   for (const d of data.districts) {
     for (const w of d.wineries) {
-      if (prev[w.name]?.lat && prev[w.name].precision !== 'name-search') { places[w.name] = prev[w.name]; continue; }
-      const addr = addressOf(w, found);
+      if (prev[w.name]?.lat && prev[w.name].precision !== 'name-search' && !(manual[w.name] && prev[w.name].address !== manual[w.name])) { places[w.name] = prev[w.name]; continue; }
+      const addr = addressOf(w, found, manual);
       let hit = null;
       try {
         if (addr) {
