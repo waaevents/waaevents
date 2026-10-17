@@ -1,37 +1,37 @@
 {
-  "generatedAt": "2026-10-17T01:20:23.168Z",
+  "generatedAt": "2026-10-17T22:11:39.041Z",
   "addresses": {
     "notFound": {
-      "Evergreen Family Wines": "HTTP 403",
-      "Fidélitas": "HTTP 403",
+      "Fidélitas": "fetch failed",
+      "Evergreen Family Wines": "no address found",
       "Bong Bong": "no address found",
       "Florence Cellars": "no address found",
-      "Sparkman Cellars": "HTTP 403",
-      "Pepper Bridge Winery & Amavi Cellars": "HTTP 403",
       "Goose Ridge Woodinville Tasting Room": "no address found",
-      "Cave B Estate Winery": "no address found",
+      "Pepper Bridge Winery & Amavi Cellars": "HTTP 403",
+      "Sparkman Cellars": "HTTP 520",
       "Vaunt Modern Gallery": "no address found",
       "Baer Winery": "HTTP 404",
-      "Novelty Hill - Januik Winery": "no address found",
       "Bunnell/Newhouse": "no address found",
-      "Savage Grace Wines": "HTTP 403",
       "JBell Wine Co.": "no address found",
-      "Simpatico Cellars": "HTTP 403",
+      "Savage Grace Wines": "HTTP 520",
+      "Novelty Hill - Januik Winery": "no address found",
+      "Simpatico Cellars": "fetch failed",
+      "Cave B Estate Winery": "no address found",
       "Story Cellars": "no address found",
       "The Winemakers Reserve": "no address found",
-      "Pomum Cellars": "HTTP 403",
-      "Michael Florentino Cellars": "HTTP 403",
+      "Pomum Cellars": "HTTP 520",
+      "Michael Florentino Cellars": "fetch failed",
       "Lobo Hills Wine Co.": "HTTP 403",
-      "Wilridge Pie & Wine Bar": "no address found",
       "Alluvium Cellars": "no address found",
-      "DiStefano Winery": "HTTP 403",
+      "DiStefano Winery": "fetch failed",
+      "Wilridge Pie & Wine Bar": "no address found",
+      "L'Ecole No. 41": "fetch failed",
       "Dossier Wine Collective": "no address found",
-      "L'Ecole No. 41": "HTTP 403",
       "Flatstick Pub Woodinville": "no address found",
       "SheChill Bakery": "no address found",
       "Martedi Winery": "no address found",
-      "Sleight of Hand Cellars": "fetch failed",
-      "Tsillan Cellars": "fetch failed"
+      "Truthteller Winery": "no address found",
+      "Sleight of Hand Cellars": "fetch failed"
     },
     "Chandler Reach": {
       "address": "14450 Woodinville-Redmond Rd NE",
@@ -41,13 +41,13 @@
       "address": "14300 NE 145TH ST",
       "source": "https://delillecellars.com/"
     },
-    "Fireside Lounge": {
-      "address": "14580 NE 145th St",
-      "source": "https://www.willowslodge.com/woodinville-restaurants/fireside-lounge/"
-    },
     "Chateau Ste. Michelle Winery": {
       "address": "14111 NE 145th St",
       "source": "https://www.ste-michelle.com/"
+    },
+    "Fireside Lounge": {
+      "address": "14580 NE 145th St",
+      "source": "https://www.willowslodge.com/woodinville-restaurants/fireside-lounge/"
     },
     "Darby Winery": {
       "address": "14450 Woodinville-Redmond Rd NE",
@@ -61,29 +61,21 @@
       "address": "14404 137th Pl NE",
       "source": "https://www.jmcellars.com/"
     },
-    "Gorman Winery": {
-      "address": "19501 144th Ave NE #C500",
-      "source": "https://www.gormanwinery.com/?page_id=55"
+    "KINHAVEN Winery": {
+      "address": "14463 Woodinville-Redmond Rd NE",
+      "source": "https://kinhavenwinery.com/"
+    },
+    "Guardian Cellars": {
+      "address": "14525 148th Ave NE #122",
+      "source": "https://guardiancellars.com/tasting-rooms"
     },
     "Latta Wines": {
       "address": "14200 NE 145th ST",
       "source": "https://www.lattawines.com/locations"
     },
-    "KINHAVEN Winery": {
-      "address": "14463 Woodinville-Redmond Rd NE",
-      "source": "https://kinhavenwinery.com/"
-    },
-    "Mark Ryan Winery": {
-      "address": "14200 NE 145TH ST D",
-      "source": "https://www.markryanwinery.com/visit-our-tasting-room"
-    },
-    "Maryhill Winery Woodinville Tasting Room": {
-      "address": "14810 NE 145th St A",
-      "source": "https://www.maryhillwinery.com/woodinville/"
-    },
-    "Guardian Cellars": {
-      "address": "14525 148th Ave NE #122",
-      "source": "https://guardiancellars.com/tasting-rooms"
+    "Gorman Winery": {
+      "address": "19501 144th Ave NE #C500",
+      "source": "https://www.gormanwinery.com/?page_id=55"
     },
     "Matthews Winery & From The Sky Down": {
       "address": "15500 Woodinville-Redmond Rd NE",
@@ -93,6 +85,14 @@
       "address": "14810 NE 145th St",
       "source": "https://www.marketvineyards.com/"
     },
+    "Mark Ryan Winery": {
+      "address": "14200 NE 145TH ST D",
+      "source": "https://www.markryanwinery.com/visit-our-tasting-room"
+    },
+    "Maryhill Winery Woodinville Tasting Room": {
+      "address": "14810 NE 145th St A",
+      "source": "https://www.maryhillwinery.com/woodinville/"
+    },
     "Long Shadows Vintners": {
       "address": "14200 NE 145th St",
       "source": "https://longshadows.com/"
@@ -101,17 +101,13 @@
       "address": "19501 144th Ave NE #C300",
       "source": "https://www.synnecellars.com/our-tasting-room"
     },
-    "Village Wines": {
-      "address": "14450 Woodinville-Redmond Rd NE",
-      "source": "https://www.myvillagewines.com/"
-    },
     "The SOMM Hotel": {
       "address": "14800 NE 144th St",
       "source": "https://thesomm.com/"
     },
-    "Woodinville Whiskey Co.": {
-      "address": "14509 Woodinville-Redmond Rd NE",
-      "source": "https://woodinvillewhiskeyco.com/pages/visit-the-woodinville-distillery"
+    "Village Wines": {
+      "address": "14450 Woodinville-Redmond Rd NE",
+      "source": "https://www.myvillagewines.com/"
     },
     "Barrage Cellars": {
       "address": "19501 144th Ave NE #E-800",
@@ -121,13 +117,17 @@
       "address": "19501 144th Ave NE #D-900",
       "source": "https://cat5cellars.com/"
     },
+    "Woodinville Whiskey Co.": {
+      "address": "14509 Woodinville-Redmond Rd NE",
+      "source": "https://woodinvillewhiskeyco.com/pages/visit-the-woodinville-distillery"
+    },
     "EFESTĒ": {
       "address": "19730 144th Ave NE",
       "source": "https://efeste.com/"
     },
-    "Freebush Cellars": {
-      "address": "19495 144th Ave NE",
-      "source": "https://freebushcellars.com/"
+    "Ambassador Wines": {
+      "address": "19501 144th Ave NE #C-400",
+      "source": "https://www.ambassadorwinery.com/"
     },
     "Genoa Cellars": {
       "address": "19501 144th Ave NE",
@@ -140,10 +140,6 @@
     "Love That Red Winery": {
       "address": "19501 144th Ave NE",
       "source": "https://www.lovethatredwinery.com/"
-    },
-    "Ambassador Wines": {
-      "address": "19501 144th Ave NE #C-400",
-      "source": "https://www.ambassadorwinery.com/"
     },
     "Page Cellars": {
       "address": "14450 NE 144th AVE NE #A160",
@@ -161,10 +157,6 @@
       "address": "19501 144th Ave NE",
       "source": "https://www.ponderawinery.com/index.html"
     },
-    "Quiddity Wines": {
-      "address": "19510 144th Ave NE #C1",
-      "source": "https://quidditywines.com/"
-    },
     "Smasne Cellars": {
       "address": "19495 144th Ave NE",
       "source": "https://smasnecellars.com/"
@@ -173,13 +165,21 @@
       "address": "19495 144th Ave NE #A-100",
       "source": "https://tintecellars.com/"
     },
+    "Triplehorn Brewing": {
+      "address": "19510 144th Ave NE #6",
+      "source": "https://triplehornbrewing.com/"
+    },
     "W.T. Vintners": {
       "address": "19495 144th Ave NE #B210",
       "source": "https://www.wtvintners.com/"
     },
-    "Triplehorn Brewing": {
-      "address": "19510 144th Ave NE #6",
-      "source": "https://triplehornbrewing.com/"
+    "Obelisco Estate (Apple Farm Village)": {
+      "address": "14525 148th Ave NE #121",
+      "source": "https://obelisco.com/connect/"
+    },
+    "Warr-King Wines": {
+      "address": "19501 144th Ave NE #B205",
+      "source": "https://warr-kingwines.com/"
     },
     "Wit Cellars": {
       "address": "19501 144th Ave NE #A-400",
@@ -189,13 +189,13 @@
       "address": "19495 144th Ave NE #A140",
       "source": "https://www.winsomeciderworks.com/"
     },
+    "Tenor Winery": {
+      "address": "15500 Woodinville-Redmond Rd NE",
+      "source": "https://tenorwines.com/"
+    },
     "Studio 1886": {
       "address": "15500 Woodinville-Redmond Rd NE",
       "source": "https://studio1886winery.com/"
-    },
-    "Warr-King Wines": {
-      "address": "19501 144th Ave NE #B205",
-      "source": "https://warr-kingwines.com/"
     },
     "Black Raven Brewing": {
       "address": "15902 Woodinville-Redmond Rd NE",
@@ -205,25 +205,29 @@
       "address": "15510 Woodinville-Redmond Rd NE #E110",
       "source": "https://wattsbrewingcompany.com/"
     },
-    "Tenor Winery": {
-      "address": "15500 Woodinville-Redmond Rd NE",
-      "source": "https://tenorwines.com/"
-    },
     "Callan Cellars": {
       "address": "18742 142nd Ave NE",
       "source": "https://callancellars.com/"
+    },
+    "Quiddity Wines": {
+      "address": "19510 144th Ave NE #C1",
+      "source": "https://quidditywines.com/"
+    },
+    "Freebush Cellars": {
+      "address": "19495 144th Ave NE",
+      "source": "https://freebushcellars.com/"
     },
     "Cedergreen Cellars": {
       "address": "18646 142nd Ave NE",
       "source": "https://cedergreencellars.com/"
     },
-    "Descendant Cellars": {
-      "address": "18732 142nd AVE NE",
-      "source": "https://descendantcellars.com/"
-    },
     "Damsel Cellars": {
       "address": "18746 142nd Ave NE",
       "source": "https://www.damselcellars.com/contact"
+    },
+    "Descendant Cellars": {
+      "address": "18732 142nd AVE NE",
+      "source": "https://descendantcellars.com/"
     },
     "Two Vintners": {
       "address": "18576 142nd Ave NE",
@@ -232,6 +236,10 @@
     "Alexandria Nicole Cellars": {
       "address": "17140 135th Ave NE #2D",
       "source": "https://alexandrianicolecellars.com/"
+    },
+    "Obelisco Estate (Warehouse District)": {
+      "address": "14525 148th Ave NE #121",
+      "source": "https://obelisco.com/connect/"
     },
     "Ballard Pizza Company": {
       "address": "17401 133rd Ave NE",
@@ -249,37 +257,29 @@
       "address": "15007 Woodinville-Redmond Rd NE",
       "source": "https://www.celaenowinery.com/about/"
     },
-    "Adams Bench": {
-      "address": "13590 NE Village Square Dr",
-      "source": "https://www.adamsbench.com/visit/"
-    },
-    "Obelisco Estate (Apple Farm Village)": {
-      "address": "14525 148th Ave NE #121",
-      "source": "https://obelisco.com/connect/"
-    },
     "Jackson House": {
       "address": "17409 133rd Ave NE #1203",
       "source": "https://jacksonhousewoodinville.com/"
-    },
-    "Avennia": {
-      "address": "14480 147th Pl NE #E20",
-      "source": "https://www.avennia.com/visit-us/"
-    },
-    "McQueen Champagne Bar": {
-      "address": "17405 133rd Ave NE",
-      "source": "https://mcqueenchampagnebar.com/"
-    },
-    "Pour Decisions Taps": {
-      "address": "17401 133rd Ave Ne #1004",
-      "source": "https://www.pourdecisionstaps.com/"
     },
     "Grosgrain Vineyards": {
       "address": "14484 147th PL NE",
       "source": "https://grosgrainvineyards.com/visit/"
     },
-    "Obelisco Estate (Warehouse District)": {
-      "address": "14525 148th Ave NE #121",
-      "source": "https://obelisco.com/connect/"
+    "McQueen Champagne Bar": {
+      "address": "17405 133rd Ave NE",
+      "source": "https://mcqueenchampagnebar.com/"
+    },
+    "Adams Bench": {
+      "address": "13590 NE Village Square Dr",
+      "source": "https://www.adamsbench.com/visit/"
+    },
+    "Pour Decisions Taps": {
+      "address": "17401 133rd Ave Ne #1004",
+      "source": "https://www.pourdecisionstaps.com/"
+    },
+    "Avennia": {
+      "address": "14480 147th Pl NE #E20",
+      "source": "https://www.avennia.com/visit-us/"
     },
     "Woodin Creek Kitchen & Tap": {
       "address": "13550 NE Village Square Dr",
@@ -289,21 +289,21 @@
       "address": "18580 142nd Ave NE",
       "source": "https://covingtoncellars.com/"
     },
-    "Beaumont Cellars": {
-      "address": "19151 144th Ave NE E",
-      "source": "https://www.beaumontcellars.com/contact"
-    },
     "Five Star Cellars Winery": {
       "address": "19151 144th Ave NE F",
       "source": "https://fivestarcellars.com/tasting/"
     },
-    "Gård Estate Wines": {
-      "address": "19151 144th Ave NE",
-      "source": "https://www.gardwine.com/visit/"
+    "Beaumont Cellars": {
+      "address": "19151 144th Ave NE E",
+      "source": "https://www.beaumontcellars.com/contact"
     },
     "Stevens Winery": {
       "address": "18520 142nd Ave NE",
       "source": "https://stevenswinery.com/contactus.php"
+    },
+    "Gård Estate Wines": {
+      "address": "19151 144th Ave NE",
+      "source": "https://www.gardwine.com/visit/"
     },
     "Tsillan Cellars": {
       "address": "13550 NE Village Square Dr",
@@ -311,35 +311,35 @@
     }
   },
   "notFound": {
-    "Fidélitas": "fetch failed",
+    "Fidélitas": "no address found",
     "Evergreen Family Wines": "no address found",
     "Bong Bong": "no address found",
     "Florence Cellars": "no address found",
     "Goose Ridge Woodinville Tasting Room": "no address found",
+    "Sparkman Cellars": "no address found",
     "Pepper Bridge Winery & Amavi Cellars": "HTTP 403",
-    "Sparkman Cellars": "HTTP 520",
-    "Vaunt Modern Gallery": "no address found",
+    "Vaunt Modern Gallery": "HTTP 403",
+    "Novelty Hill - Januik Winery": "no address found",
     "Baer Winery": "HTTP 404",
     "Bunnell/Newhouse": "no address found",
-    "JBell Wine Co.": "no address found",
-    "Savage Grace Wines": "HTTP 520",
-    "Novelty Hill - Januik Winery": "no address found",
-    "Simpatico Cellars": "fetch failed",
     "Cave B Estate Winery": "no address found",
+    "JBell Wine Co.": "no address found",
+    "Savage Grace Wines": "no address found",
+    "Simpatico Cellars": "no address found",
     "Story Cellars": "no address found",
     "The Winemakers Reserve": "no address found",
-    "Pomum Cellars": "HTTP 520",
-    "Michael Florentino Cellars": "fetch failed",
+    "Pomum Cellars": "no address found",
+    "Michael Florentino Cellars": "no address found",
     "Lobo Hills Wine Co.": "HTTP 403",
+    "DiStefano Winery": "no address found",
     "Alluvium Cellars": "no address found",
-    "DiStefano Winery": "fetch failed",
     "Wilridge Pie & Wine Bar": "no address found",
-    "L'Ecole No. 41": "fetch failed",
+    "L'Ecole No. 41": "no address found",
     "Dossier Wine Collective": "no address found",
     "Flatstick Pub Woodinville": "no address found",
+    "Truthteller Winery": "no address found",
     "SheChill Bakery": "no address found",
     "Martedi Winery": "no address found",
-    "Truthteller Winery": "no address found",
     "Sleight of Hand Cellars": "fetch failed"
   }
 }

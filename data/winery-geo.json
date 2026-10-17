@@ -1,6 +1,12 @@
 {
-  "generatedAt": "2026-10-17T01:21:02.315Z",
+  "generatedAt": "2026-10-17T22:12:04.141Z",
   "places": {
+    "Bong Bong": {
+      "lat": 47.7571005,
+      "lng": -122.1432956,
+      "address": "14484 147th Pl NE",
+      "precision": "street"
+    },
     "Cave B Estate Winery": {
       "lat": 47.7309051,
       "lng": -122.139463,
@@ -32,10 +38,10 @@
       "precision": "address"
     },
     "Evergreen Family Wines": {
-      "lat": 47.7321954,
-      "lng": -122.1407419,
-      "address": null,
-      "precision": "name-search"
+      "lat": 47.7324083,
+      "lng": -122.1409412,
+      "address": "14450 Woodinville-Redmond Rd NE",
+      "precision": "address"
     },
     "Fidélitas": {
       "lat": 47.7317619,
@@ -169,6 +175,12 @@
       "address": "14800 NE 144th St",
       "precision": "street"
     },
+    "Vaunt Modern Gallery": {
+      "lat": 47.732672,
+      "lng": -122.142381,
+      "address": "14799 NE 145th St",
+      "precision": "address"
+    },
     "Village Wines": {
       "lat": 47.7324083,
       "lng": -122.1409412,
@@ -188,14 +200,20 @@
       "precision": "address"
     },
     "Baer Winery": {
-      "lat": 47.7696286,
-      "lng": -122.15237,
-      "address": null,
-      "precision": "name-search"
+      "lat": 47.7517027,
+      "lng": -122.1602909,
+      "address": "13590 NE Village Square Dr",
+      "precision": "street"
     },
     "Barrage Cellars": {
       "lat": 47.7695487,
       "lng": -122.149467,
+      "address": "19501 144th Ave NE",
+      "precision": "address"
+    },
+    "Bunnell/Newhouse": {
+      "lat": 47.7693417,
+      "lng": -122.1512389,
       "address": "19501 144th Ave NE",
       "precision": "address"
     },
@@ -221,6 +239,12 @@
       "lat": 47.7695487,
       "lng": -122.149467,
       "address": "19501 144th Ave NE",
+      "precision": "address"
+    },
+    "JBell Wine Co.": {
+      "lat": 47.7688976,
+      "lng": -122.1478847,
+      "address": "19495 144th Ave NE",
       "precision": "address"
     },
     "LaShellé Wines": {
@@ -272,14 +296,32 @@
       "precision": "address"
     },
     "Savage Grace Wines": {
-      "lat": 47.7691301,
-      "lng": -122.152548,
-      "address": null,
-      "precision": "name-search"
+      "lat": 47.7693417,
+      "lng": -122.1512389,
+      "address": "19501 144th Ave NE",
+      "precision": "address"
+    },
+    "Simpatico Cellars": {
+      "lat": 47.7693417,
+      "lng": -122.1512389,
+      "address": "19501 144th Ave NE",
+      "precision": "address"
     },
     "Smasne Cellars": {
       "lat": 47.7688996,
       "lng": -122.1478837,
+      "address": "19495 144th Ave NE",
+      "precision": "address"
+    },
+    "Story Cellars": {
+      "lat": 47.7693417,
+      "lng": -122.1512389,
+      "address": "19501 144th Ave NE",
+      "precision": "address"
+    },
+    "Tilton River Cellars": {
+      "lat": 47.7688976,
+      "lng": -122.1478847,
       "address": "19495 144th Ave NE",
       "precision": "address"
     },
@@ -335,6 +377,12 @@
       "lat": 47.7436795,
       "lng": -122.146335,
       "address": "16116 140th Pl",
+      "precision": "address"
+    },
+    "The Winemakers Reserve": {
+      "lat": 47.7442063,
+      "lng": -122.1573357,
+      "address": "15902 Woodinville-Redmond Rd NE",
       "precision": "address"
     },
     "Watts Brewing Company": {
@@ -403,6 +451,18 @@
       "address": "18570 142nd Ave NE",
       "precision": "address"
     },
+    "Michael Florentino Cellars": {
+      "lat": 47.767501,
+      "lng": -122.154485,
+      "address": "19255 Woodinville-Snohomish Rd",
+      "precision": "address"
+    },
+    "Wilridge Pie & Wine Bar": {
+      "lat": 47.7564666,
+      "lng": -122.1604421,
+      "address": "19255 Woodinville-Snohomish Rd NE",
+      "precision": "street"
+    },
     "Adams Bench": {
       "lat": 47.7517027,
       "lng": -122.1602909,
@@ -446,10 +506,10 @@
       "precision": "address"
     },
     "DiStefano Winery": {
-      "lat": 47.755415,
-      "lng": -122.173225,
-      "address": null,
-      "precision": "name-search"
+      "lat": 47.762676,
+      "lng": -122.1501979,
+      "address": "18648 142nd Ave NE",
+      "precision": "address"
     },
     "Dossier Wine Collective": {
       "lat": 47.7372174,
@@ -481,6 +541,12 @@
       "address": "17401 133rd Ave NE",
       "precision": "address"
     },
+    "Martedi Winery": {
+      "lat": 47.7512961,
+      "lng": -122.1699409,
+      "address": "17621 128th Pl NE",
+      "precision": "street"
+    },
     "McQueen Champagne Bar": {
       "lat": 47.7538649,
       "lng": -122.1620811,
@@ -491,6 +557,12 @@
       "lat": 47.7532338,
       "lng": -122.1632869,
       "address": "17401 133rd Ave Ne",
+      "precision": "address"
+    },
+    "SheChill Bakery": {
+      "lat": 47.7532338,
+      "lng": -122.1632869,
+      "address": "17401 133rd Ave NE",
       "precision": "address"
     },
     "Sleight of Hand Cellars": {
@@ -548,18 +620,5 @@
       "precision": "address"
     }
   },
-  "missing": [
-    "Bong Bong",
-    "Vaunt Modern Gallery",
-    "Bunnell/Newhouse",
-    "JBell Wine Co.",
-    "Simpatico Cellars",
-    "Story Cellars",
-    "Tilton River Cellars",
-    "The Winemakers Reserve",
-    "Michael Florentino Cellars",
-    "Wilridge Pie & Wine Bar",
-    "Martedi Winery",
-    "SheChill Bakery"
-  ]
+  "missing": []
 }
