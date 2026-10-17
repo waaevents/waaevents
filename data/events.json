@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-10-17T01:20:53.322Z",
+  "updatedAt": "2026-10-17T16:02:39.000Z",
   "windowDays": 90,
-  "count": 856,
+  "count": 851,
   "events": [
-    {
-      "id": "manual-Stand-Up Comedy with Scott Losse & Gabey Lucas-2026-10-17T02:00:00.000Z",
-      "title": "Stand-Up Comedy with Scott Losse & Gabey Lucas",
-      "category": "comedy",
-      "start": "2026-10-17T02:00:00.000Z",
-      "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
-      "url": "https://darbywinery.com/events/oct-comedy-show/",
-      "description": "Comedy night at Darby Winery Woodinville, 7-8:30pm. Ticketed.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Comedy Night at Love That Red Winery-2026-10-17T02:00:00.000Z",
-      "title": "Comedy Night at Love That Red Winery",
-      "category": "comedy",
-      "start": "2026-10-17T02:00:00.000Z",
-      "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
-      "url": "https://www.eventbrite.com/e/the-winery-comedy-tour-at-love-that-red-tickets-226792180517",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Kozmo at Obelisco-2026-10-17T02:00:00.000Z",
-      "title": "Kozmo at Obelisco",
-      "category": "music",
-      "start": "2026-10-17T02:00:00.000Z",
-      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE Suite 121, Woodinville, WA 98072",
-      "url": "https://obelisco.com/events-dinners/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Wit Cellars-Fall Release Weekend at WIT Cellars – Woodinville-2026-10-17T07:00:00.000Z",
-      "title": "Fall Release Weekend at WIT Cellars – Woodinville",
-      "category": "music",
-      "start": "2026-10-17T07:00:00.000Z",
-      "location": "WIT Cellars – Woodinville, 19501 144th Ave NE Suite A400, Woodinville",
-      "url": "https://witcellars.com/event/fall-release-weekend-at-wit-cellars-woodinville/",
-      "description": "It’s time for the Fall Release at WIT Cellars! Join us in Woodinville October 17–18 for a weekend of new wines, food pairings, live music, and plenty of fall fun. 🍂🍷 This fall’s release features two beautiful reds: 2023 Petit Verdot — Olsen Vineyard 2023 Cabernet Sauvignon — El",
-      "source": "Wit Cellars"
-    },
     {
       "id": "winery-Tsillan Cellars-CHELAN: Live Music – Taste of Whisky-2026-10-17T20:00:00.000Z",
       "title": "CHELAN: Live Music – Taste of Whisky",
@@ -954,6 +914,16 @@
       "source": "Love That Red Winery"
     },
     {
+      "id": "winery-Two Vintners-Todo Es (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle-2026-10-24T01:00:00.000Z",
+      "title": "Todo Es (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle",
+      "category": "community",
+      "start": "2026-10-24T01:00:00.000Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast Woodinville, WA, 98072 United States",
+      "url": "",
+      "description": "",
+      "source": "Two Vintners"
+    },
+    {
       "id": "winery-Tsillan Cellars-CHELAN: Fall Winemaker Dinner-2026-10-24T01:00:00.000Z",
       "title": "CHELAN: Fall Winemaker Dinner",
       "category": "food-drink",
@@ -1022,16 +992,6 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Two Vintners-Todo Es (Woodinville)-2026-10-24T01:00:00.394Z",
-      "title": "Todo Es (Woodinville)",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/hzmcj4x2rrhrsm6-jjzgt-2zwxa-xj7fh-xcn94-cd3e5-j7meb-eaknb-jj5mw-nykr4-j8ymp",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
     },
     {
       "id": "winery-Prohibition Cellars-The Cover-Up-2026-10-24T01:00:00.937Z",
@@ -1972,16 +1932,6 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Two Vintners-13 Til Midnight - The Taylor Swift Tribute Band (Woodinville)-2026-10-31T01:00:00.394Z",
-      "title": "13 Til Midnight - The Taylor Swift Tribute Band (Woodinville)",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/taylor-swift-tribute-band",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
     },
     {
       "id": "winery-Prohibition Cellars-Three Trick Pony-2026-10-31T01:00:00.879Z",
