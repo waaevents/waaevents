@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-10-17T22:13:51.234Z",
+  "ranAt": "2026-10-18T16:13:52.468Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:223:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:261:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:223:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:261:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "425 Cellars",
@@ -41,7 +41,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 43,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -177,8 +177,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Dossier Wine Collective",
@@ -197,13 +197,13 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Fidélitas",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Fireside Lounge",
@@ -290,8 +290,8 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "LaShellé Wines",
@@ -356,8 +356,8 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
@@ -384,7 +384,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 3,
+      "count": 2,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -394,8 +394,8 @@
     },
     {
       "winery": "Pomum Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Pondera Winery",
@@ -422,8 +422,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "SheChill Bakery",
@@ -432,8 +432,8 @@
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -447,8 +447,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Stevens Winery",
@@ -470,7 +470,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 12,
+      "count": 13,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
