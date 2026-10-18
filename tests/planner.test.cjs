@@ -54,7 +54,7 @@ setTimeout(() => {
   const events = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/events.json'), 'utf8')).events;
   const dayKey = (d) => new Date(d).toLocaleDateString('en-CA', { timeZone: 'America/Los_Angeles' });
   const todayKey = dayKey(Date.now());
-  const musicDay = events.map((e) => dayKey(e.start)).filter((k, i) => k >= todayKey && events[i].category === 'music').sort()[0];
+  const musicDay = events.filter((e) => e.category === 'music' && new Date(e.start).getTime() > Date.now() + 3 * 3600 * 1000).map((e) => dayKey(e.start)).sort()[0];
   if (!musicDay) fail('no upcoming music event in data/events.json to test a dated plan with.');
   const dateEl = doc.getElementById('plan-date');
   if (!dateEl) fail('no #plan-date input — planner is not date-specific.');
