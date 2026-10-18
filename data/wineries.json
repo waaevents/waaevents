@@ -6,6 +6,14 @@
       "accent": "music",
       "wineries": [
         {
+          "name": "Avennia",
+          "url": "https://avennia.com/",
+          "note": "The Harvest",
+          "wineFocus": [
+            "red"
+          ]
+        },
+        {
           "name": "Bong Bong",
           "url": "https://bongbongbar.com/"
         },
@@ -35,6 +43,11 @@
           ]
         },
         {
+          "name": "Damsel Cellars",
+          "url": "https://damselcellars.com/",
+          "note": "14467 Woodinville Redmond Rd NE"
+        },
+        {
           "name": "Darby Winery",
           "url": "https://darbywinery.com/",
           "types": [
@@ -55,6 +68,16 @@
             "food-pairing",
             "romantic"
           ],
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
+          ]
+        },
+        {
+          "name": "DiStefano Winery",
+          "note": "Tasting inside Vaunt Modern Gallery, The Yard at Harvest",
+          "url": "https://distefanowinery.com/",
           "wineFocus": [
             "red",
             "white",
@@ -107,12 +130,9 @@
           ]
         },
         {
-          "name": "Gorman Winery",
-          "note": "19501 144th Ave NE, C-500",
-          "url": "https://gormanwinery.com/",
-          "wineFocus": [
-            "red"
-          ]
+          "name": "Grosgrain Vineyards",
+          "url": "https://grosgrainvineyards.com/",
+          "note": "The Harvest"
         },
         {
           "name": "Guardian Cellars",
@@ -203,11 +223,29 @@
           "note": "14525 148th Ave NE Suite 121. Hours: Mon-Wed 1-7pm, Thu 1-8pm, Fri-Sat 12-9pm, Sun 12-7pm. Live music Saturdays and select Fridays, 7-9pm, 21+."
         },
         {
+          "name": "Patterson Cellars",
+          "url": "https://www.pattersoncellars.com",
+          "note": "also in Hollywood District",
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
+          ]
+        },
+        {
           "name": "Pepper Bridge Winery & Amavi Cellars",
           "url": "https://www.amavicellars.com/",
           "types": [
             "food-pairing",
             "romantic"
+          ]
+        },
+        {
+          "name": "Sleight of Hand Cellars",
+          "url": "https://sleightofhandcellars.com/",
+          "types": [
+            "live-music",
+            "casual"
           ]
         },
         {
@@ -249,7 +287,7 @@
             "bubbles"
           ],
           "url": "https://vaunt-gallery.com/",
-          "note": "DiStefano Wines"
+          "note": "Gallery with DiStefano Winery tasting, The Yard at Harvest"
         },
         {
           "name": "Village Wines",
@@ -283,11 +321,6 @@
           "url": "https://www.ambassadorwinery.com/"
         },
         {
-          "name": "Baer Winery",
-          "note": "Wine Alley",
-          "url": "https://www.baerwinery.com/WordPress/"
-        },
-        {
           "name": "Barrage Cellars",
           "url": "https://www.barragecellars.com/"
         },
@@ -314,6 +347,14 @@
           "url": "http://www.genoacellars.com/"
         },
         {
+          "name": "Gorman Winery",
+          "note": "19501 144th Ave NE, C-500",
+          "url": "https://gormanwinery.com/",
+          "wineFocus": [
+            "red"
+          ]
+        },
+        {
           "name": "JBell Wine Co.",
           "url": "https://www.jbellwine.com/"
         },
@@ -336,16 +377,6 @@
           "name": "Page Cellars",
           "url": "https://pagecellars.com/",
           "note": "Warehouse District. Red Mountain reds. Dog friendly. Trivia nights and live music nights."
-        },
-        {
-          "name": "Patterson Cellars",
-          "url": "https://www.pattersoncellars.com",
-          "note": "also in Hollywood District",
-          "wineFocus": [
-            "red",
-            "white",
-            "bubbles"
-          ]
         },
         {
           "name": "Pondera Winery",
@@ -441,6 +472,15 @@
           ]
         },
         {
+          "name": "Celaeno Winery",
+          "url": "https://celaenowinery.com/"
+        },
+        {
+          "name": "Dossier Wine Collective",
+          "note": "15029 Woodinville-Redmond Rd #300, next to Von's 1000 Spirits",
+          "url": "https://dossierwine.com/"
+        },
+        {
           "name": "Studio 1886",
           "url": "https://studio1886winery.com/",
           "note": "15500 Woodinville-Redmond Rd NE #C600"
@@ -489,11 +529,6 @@
           "note": "18646 142nd Ave NE"
         },
         {
-          "name": "Damsel Cellars",
-          "url": "https://damselcellars.com/",
-          "note": "14467 Woodinville Redmond Rd NE"
-        },
-        {
           "name": "Descendant Cellars",
           "url": "https://descendantcellars.com/",
           "note": "18732 142nd Ave NE"
@@ -540,7 +575,7 @@
     },
     {
       "id": "downtown",
-      "name": "Downtown & Woodin Creek District",
+      "name": "Downtown, Woodin Creek & District Flats",
       "accent": "food",
       "wineries": [
         {
@@ -561,12 +596,9 @@
           ]
         },
         {
-          "name": "Avennia",
-          "url": "https://avennia.com/",
-          "note": "The Harvest",
-          "wineFocus": [
-            "red"
-          ]
+          "name": "Baer Winery",
+          "note": "Wine Alley",
+          "url": "https://www.baerwinery.com/WordPress/"
         },
         {
           "name": "Ballard Pizza Company",
@@ -591,36 +623,12 @@
           ]
         },
         {
-          "name": "Celaeno Winery",
-          "url": "https://celaenowinery.com/"
-        },
-        {
-          "name": "DiStefano Winery",
-          "note": "The Harvest, with Vaunt Modern Gallery",
-          "url": "https://distefanowinery.com/",
-          "wineFocus": [
-            "red",
-            "white",
-            "bubbles"
-          ]
-        },
-        {
-          "name": "Dossier Wine Collective",
-          "note": "15029 Woodinville-Redmond Rd #300, next to Von's 1000 Spirits",
-          "url": "https://dossierwine.com/"
-        },
-        {
           "name": "Flatstick Pub Woodinville",
           "wineFocus": [
             "beer"
           ],
           "note": "Pub, downtown Woodinville",
           "url": "https://flatstickpub.com/"
-        },
-        {
-          "name": "Grosgrain Vineyards",
-          "url": "https://grosgrainvineyards.com/",
-          "note": "The Harvest"
         },
         {
           "name": "Jackson House",
@@ -663,14 +671,6 @@
           "name": "SheChill Bakery",
           "note": "Next to McQueen Champagne Bar and L'Ecole No. 41",
           "url": "https://shechill.square.site/"
-        },
-        {
-          "name": "Sleight of Hand Cellars",
-          "url": "https://sleightofhandcellars.com/",
-          "types": [
-            "live-music",
-            "casual"
-          ]
         },
         {
           "name": "Truthteller Winery",

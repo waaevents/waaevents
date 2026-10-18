@@ -4,52 +4,40 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Woodinville Wine Country Map — Woodinville Creative Events</title>
-  <meta name="description" content="A street map of Woodinville's wineries and tasting rooms, with a pin and website link for each.">
+  <meta name="description" content="A simple street map of Woodinville's wine country: pick an area, tap a pin, see the tasting rooms inside.">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/MarkerCluster.Default.css">
   <style>
-    .map-wrap { max-width: 1080px; margin: 0 auto; padding: 28px 24px 0; }
-    .map-search { margin: 0 0 6px; }
-    .map-search input { width: 100%; font: inherit; font-size: 1rem; padding: 10px 2px; border: 0; border-bottom: 2px solid var(--sage-deep); border-radius: 0; background: transparent; min-width: 0; }
-    .map-search input:focus { outline: none; border-bottom-color: var(--gold); }
-    .chips { display: flex; flex-wrap: wrap; gap: 2px 18px; margin: 8px 0 14px; }
-    .chip { font: inherit; font-size: .85rem; font-weight: 600; padding: 6px 0; border: 0; border-bottom: 2px solid var(--gold); border-radius: 0; background: none; color: var(--ink); cursor: pointer; }
-    .chip .dot { display: none; }
-    .chip.off { color: var(--ink-soft); border-bottom-color: transparent; opacity: .75; }
-    .chip:hover { border-bottom-color: var(--sage-deep); }
-    #map { width: 100%; height: 68vh; min-height: 420px; max-height: 720px; z-index: 0; border: 2px solid var(--sage-deep); background: #e9ece8; }
-    .leaflet-tile-pane { filter: grayscale(.6) contrast(.95) brightness(1.04); }
-    .mk { display: block; width: 18px; height: 18px; border-radius: 50% 50% 50% 0; transform: rotate(-45deg); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); background: var(--sage-deep); }
-    .mk.beer { background: var(--gold); }
-    .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large { background-color: rgba(86,110,95,.35); }
-    .marker-cluster-small div, .marker-cluster-medium div, .marker-cluster-large div { background-color: rgba(86,110,95,.92); color: #fff; font: 700 12px 'Work Sans', sans-serif; }
-    .leaflet-container a.leaflet-popup-close-button { color: var(--sage-deep); }
-    .compass-ctl { background: rgba(251,247,240,.94); border-radius: 50%; box-shadow: 0 1px 5px rgba(0,0,0,.3); width: 66px; height: 66px; pointer-events: none; }
-    .pop-name { font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 1.1rem; }
-    .pop-name a { color: var(--ink); text-decoration: none; }
-    .pop-meta { font-size: .82rem; color: var(--ink-soft); margin-top: 3px; line-height: 1.4; }
-    .pop-links { margin-top: 8px; font-size: .82rem; }
-    .pop-links a { color: var(--sage-deep); font-weight: 700; margin-right: 12px; border-bottom: 2px solid var(--gold); text-decoration: none; }
-    .map-note { font-size: .8rem; color: var(--ink-soft); margin: 10px 2px 0; line-height: 1.5; }
-    .map-tools { display: flex; gap: 20px; margin: 26px 0 6px; }
-    .map-tools button { font: inherit; font-weight: 700; font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; padding: 6px 0; border: 0; border-bottom: 2px solid var(--gold); border-radius: 0; background: none; color: var(--ink); cursor: pointer; }
-    .map-tools button:hover { border-bottom-color: var(--sage-deep); }
-    .district { border: 0; border-bottom: 1.5px solid var(--sage-tint); margin: 0; }
-    .district summary { cursor: pointer; padding: 18px 2px; font-family: 'Fraunces', Georgia, serif; font-weight: 600; font-size: 1.35rem; list-style: none; display: flex; align-items: baseline; gap: 12px; }
-    .district summary::-webkit-details-marker { display: none; }
-    .district summary .count { font-family: 'Work Sans', sans-serif; font-weight: 700; font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--gold-deep); margin-left: auto; }
-    .district summary::after { content: "+"; font-size: 1.4rem; line-height: 1; color: var(--sage-deep); }
-    .district[open] summary::after { content: "–"; }
-    .district ul { list-style: none; margin: 0; padding: 0 2px 14px; columns: 2 280px; column-gap: 32px; }
-    .district li { break-inside: avoid; padding: 9px 0; border-top: 1px solid var(--line); font-size: .98rem; }
-    .district li a { font-weight: 600; color: var(--ink); text-decoration: none; }
-    .district li a:hover { color: var(--sage-deep); text-decoration: underline; }
-    .district li .nm { font-weight: 600; }
-    .district li small { display: block; color: var(--ink-soft); font-size: .8rem; margin-top: 2px; }
-    .district li .beer-tag { font-size: .66rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--gold-deep); margin-left: 8px; }
-    .district li button.find { font: inherit; font-size: .75rem; font-weight: 600; margin-left: 10px; border: 0; background: none; color: var(--sage-deep); cursor: pointer; text-decoration: underline; padding: 0; }
+    .map-wrap { max-width: 1080px; margin: 0 auto; padding: 26px 24px 0; }
+    .step { font-size: .72rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--sage-deep); margin: 0 0 6px; }
+    .areas { display: flex; flex-wrap: wrap; gap: 8px 10px; margin: 0 0 22px; }
+    .area { font: inherit; font-size: .98rem; font-weight: 700; padding: 11px 16px; border: 2px solid var(--sage); border-radius: 3px; background: transparent; color: var(--ink); cursor: pointer; }
+    .area small { font-weight: 600; color: var(--ink-soft); margin-left: 4px; }
+    .area.on { background: var(--sage-deep); border-color: var(--sage-deep); color: #fff; }
+    .area.on small { color: #e7ece8; }
+    #map { width: 100%; height: 56vh; min-height: 360px; max-height: 620px; z-index: 0; border: 2px solid var(--sage-deep); background: #e9ece8; }
+    .leaflet-tile-pane { filter: grayscale(.55) contrast(.96) brightness(1.04); }
+    .leaflet-control-zoom a { width: 38px !important; height: 38px !important; line-height: 38px !important; font-size: 22px !important; }
+    .bld { display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%; background: var(--sage-deep); color: #fff; border: 3px solid #fff; box-shadow: 0 1px 5px rgba(0,0,0,.5); font: 700 13px 'Work Sans', sans-serif; }
+    .bld.one { background: var(--gold); color: var(--ink); width: 22px; height: 22px; border-width: 2px; }
+    .bld-label { background: rgba(255,255,255,.94); border: 0; box-shadow: 0 1px 3px rgba(0,0,0,.3); color: var(--ink); font: 700 12px 'Work Sans', sans-serif; padding: 2px 6px; border-radius: 3px; }
+    .bld-label::before { display: none; }
+    .nolabels .bld-label { display: none; }
+    .pop h4 { font-family: 'Fraunces', Georgia, serif; font-size: 1rem; margin: 0 0 6px; }
+    .pop ul { list-style: none; margin: 0; padding: 0; }
+    .pop li { padding: 5px 0; border-top: 1px solid var(--line); font-size: .9rem; }
+    .pop li a { font-weight: 700; color: var(--ink); text-decoration: none; border-bottom: 2px solid var(--gold); }
+    .pop small { display: block; color: var(--ink-soft); }
+    .pop .dir { display: inline-block; margin-top: 8px; font-weight: 700; font-size: .85rem; color: var(--sage-deep); border-bottom: 2px solid var(--gold); text-decoration: none; }
+    .list-head { font-family: 'Fraunces', Georgia, serif; font-size: 1.5rem; margin: 26px 0 4px; padding-bottom: 8px; border-bottom: 2px solid var(--gold); }
+    .list { list-style: none; margin: 0; padding: 0; }
+    .list li { display: flex; gap: 14px; align-items: baseline; justify-content: space-between; padding: 13px 2px; border-bottom: 1px solid var(--line); }
+    .list .nm { font-weight: 700; font-size: 1.02rem; }
+    .list .nm a { color: var(--ink); text-decoration: none; }
+    .list .nm a:hover { color: var(--sage-deep); text-decoration: underline; }
+    .list small { display: block; color: var(--ink-soft); font-weight: 400; font-size: .82rem; margin-top: 2px; }
+    .list button { font: inherit; font-size: .8rem; font-weight: 700; color: var(--sage-deep); border: 0; border-bottom: 2px solid var(--gold); background: none; cursor: pointer; padding: 0 0 1px; white-space: nowrap; }
+    .map-note { font-size: .78rem; color: var(--ink-soft); margin: 10px 2px 0; line-height: 1.5; }
   </style>
 </head>
 <body>
@@ -59,151 +47,121 @@
       <a class="back-link" href="wineries.html">← Wineries by district</a>
       <div class="eyebrow">Woodinville</div>
       <div class="title-row"><h1>Wine country map</h1></div>
-      <p class="tagline">A real street map of Woodinville's wineries and tasting rooms. Zoom in, tap a pin for the website and directions, or search by name.</p>
+      <p class="tagline">Pick an area. Tap a pin. See who's pouring there.</p>
     </div>
   </header>
   <div class="vine-strip" aria-hidden="true"></div>
 
   <div class="map-wrap">
-    <div class="map-card-plain">
-      <div class="map-search">
-        <input id="find" list="winery-names" type="search" placeholder="Find a winery…" autocomplete="off" aria-label="Find a winery">
-        <datalist id="winery-names"></datalist>
-      </div>
-      <div class="chips" id="chips" aria-label="Show districts"></div>
-      <div id="map" role="region" aria-label="Street map of Woodinville wineries"></div>
-      <p class="map-note" id="map-note">Map data © OpenStreetMap contributors. Pin positions come from each winery's street address; a pin marked "approximate" is placed at the street or by name search rather than at the exact building.</p>
-    </div>
+    <p class="step">1 · Pick an area</p>
+    <div class="areas" id="areas"></div>
 
-    <div class="map-tools">
-      <button type="button" id="expand-all">Expand all</button>
-      <button type="button" id="collapse-all">Collapse all</button>
-    </div>
-    <div id="districts"><p class="loading-state">Loading wineries…</p></div>
+    <p class="step">2 · Tap a pin</p>
+    <div id="map" role="region" aria-label="Street map of Woodinville wineries"></div>
+    <p class="map-note">Each pin is one building. A green number means several tasting rooms share it; a gold dot is a single one. Map data © OpenStreetMap contributors.</p>
+
+    <h2 class="list-head" id="list-head">Loading…</h2>
+    <ul class="list" id="list"></ul>
   </div>
 
   <footer class="site-footer">
-    <p>Districts are as maintained by the site editors. Want a winery added or moved? Let us know. <a href="wineries.html">Filter wineries by style</a> or <a href="plan-a-day.html">plan a day</a>.</p>
+    <p>Areas follow the Woodinville Wine Country districts. Something in the wrong place? Let us know. <a href="wineries.html">Filter wineries by style</a> or <a href="plan-a-day.html">plan a day</a>.</p>
   </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.5.3/leaflet.markercluster.js"></script>
   <script>
   (function () {
-    var COLORS = {};
-    var ORDER = ['warehouse', 'junction', 'artisan', 'gateway', 'downtown', 'industrial', 'hollywood'];
     function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
     function safeUrl(u) { return /^https?:\/\//i.test(u || '') ? u : ''; }
+    var mapEl = document.getElementById('map');
+    if (typeof L === 'undefined') { mapEl.innerHTML = '<p style="padding:20px">The map could not load. Check your connection and try again.</p>'; return; }
 
-    if (typeof L === 'undefined') { document.getElementById('map').innerHTML = '<p style="padding:20px">The map could not load. Check your connection and try again.</p>'; }
+    var map = L.map('map', { scrollWheelZoom: false }).setView([47.7525, -122.152], 13);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+    var layer = L.layerGroup().addTo(map);
+    var markers = {};          // building key -> marker
+    var data = { districts: [], geo: {} };
+    var current = null;
 
-    var map = typeof L !== 'undefined' ? L.map('map', { zoomControl: true, scrollWheelZoom: true }).setView([47.7525, -122.152], 13) : null;
-    if (map) {
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' }).addTo(map);
-      var Compass = L.Control.extend({
-        options: { position: 'topleft' },
-        onAdd: function () {
-          var d = L.DomUtil.create('div', 'compass-ctl');
-          d.setAttribute('aria-label', 'Compass: north is up');
-          d.innerHTML = '<svg viewBox="0 0 80 80" width="66" height="66"><circle cx="40" cy="40" r="33" fill="none" stroke="#c9c2b4" stroke-width="1.5"/><path d="M40 14 L46 40 L40 36 L34 40 Z" fill="#b8860b"/><path d="M40 66 L46 40 L40 44 L34 40 Z" fill="#566e5f"/><path d="M14 40 L40 34 L36 40 L40 46 Z" fill="#b9b5c6"/><path d="M66 40 L40 34 L44 40 L40 46 Z" fill="#b9b5c6"/><text x="40" y="11" text-anchor="middle" font-size="11" font-weight="800" fill="#b8860b" font-family="system-ui,sans-serif">N</text><text x="40" y="79" text-anchor="middle" font-size="10" font-weight="700" fill="#4a4858" font-family="system-ui,sans-serif">S</text><text x="75" y="43.5" text-anchor="middle" font-size="10" font-weight="700" fill="#4a4858" font-family="system-ui,sans-serif">E</text><text x="5" y="43.5" text-anchor="middle" font-size="10" font-weight="700" fill="#4a4858" font-family="system-ui,sans-serif">W</text></svg>';
-          return d;
-        }
+    // Labels only when zoomed in enough to be readable.
+    function syncLabels() { mapEl.classList.toggle('nolabels', map.getZoom() < 15); }
+    map.on('zoomend', syncLabels); syncLabels();
+
+    function keyOf(p) { return p.lat.toFixed(4) + ',' + p.lng.toFixed(4); }
+
+    function buildingsFor(d) {
+      var by = {}, loose = [];
+      d.wineries.forEach(function (w) {
+        var p = data.geo[w.name];
+        if (!p || p.lat == null) { loose.push(w); return; }
+        var k = keyOf(p);
+        (by[k] = by[k] || { key: k, lat: p.lat, lng: p.lng, address: p.address, approx: p.precision === 'name-search', wineries: [] }).wineries.push(w);
       });
-      map.addControl(new Compass());
+      return { list: Object.keys(by).map(function (k) { return by[k]; }), loose: loose };
     }
 
-    var cluster = map ? L.markerClusterGroup({ maxClusterRadius: 38, spiderfyOnMaxZoom: true, showCoverageOnHover: false }) : null;
-    if (map) map.addLayer(cluster);
-    var entries = [];   // {w, d, marker, geo}
-    var hidden = {};
-
-    function popupHtml(e) {
-      var url = safeUrl(e.w.url);
-      var name = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(e.w.name) + '</a>' : esc(e.w.name);
-      var addr = e.geo.address || '';
-      var dir = 'https://www.google.com/maps/dir/?api=1&destination=' + encodeURIComponent((addr ? addr + ', ' : e.w.name + ', ') + 'Woodinville, WA');
-      var approx = e.geo.precision !== 'address' ? ' (approximate location)' : '';
-      return '<div class="pop-name">' + name + '</div><div class="pop-meta">' + esc(e.d.name) + (addr ? '<br>' + esc(addr) + approx : '') + (e.w.note ? '<br>' + esc(e.w.note) : '') + '</div>' +
-        '<div class="pop-links">' + (url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">Website</a>' : '') + '<a href="' + esc(dir) + '" target="_blank" rel="noopener">Directions</a></div>';
-    }
-    function refreshLayer() {
-      if (!map) return;
-      cluster.clearLayers();
-      cluster.addLayers(entries.filter(function (e) { return !hidden[e.d.id]; }).map(function (e) { return e.marker; }));
-    }
-    function fitAll(ids) {
-      if (!map) return;
-      var pts = entries.filter(function (e) { return !ids || ids.indexOf(e.d.id) >= 0; }).map(function (e) { return [e.geo.lat, e.geo.lng]; });
-      if (pts.length) map.fitBounds(pts, { padding: [30, 30], maxZoom: 17 });
-    }
-    function showEntry(e) {
-      document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'center' });
-      hidden[e.d.id] = false; syncChips(); refreshLayer();
-      cluster.zoomToShowLayer(e.marker, function () { e.marker.openPopup(); });
+    function popupHtml(b) {
+      var h = '<div class="pop"><h4>' + (b.address ? esc(b.address) : 'Woodinville') + '</h4><ul>';
+      b.wineries.forEach(function (w) {
+        var u = safeUrl(w.url);
+        h += '<li>' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a>' : esc(w.name)) + (w.note ? '<small>' + esc(w.note) + '</small>' : '') + '</li>';
+      });
+      h += '</ul><a class="dir" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=' + b.lat + ',' + b.lng + '">Directions →</a>' + (b.approx ? '<small>Approximate location</small>' : '') + '</div>';
+      return h;
     }
 
-    var chipsEl = document.getElementById('chips');
-    function syncChips() { chipsEl.querySelectorAll('.chip').forEach(function (c) { c.classList.toggle('off', !!hidden[c.getAttribute('data-id')]); }); }
+    function show(id) {
+      current = id;
+      layer.clearLayers(); markers = {};
+      document.querySelectorAll('.area').forEach(function (b) { b.classList.toggle('on', b.dataset.id === id); });
+      var ds = id === 'all' ? data.districts : data.districts.filter(function (d) { return d.id === id; });
+      var name = id === 'all' ? 'All wineries' : ds[0].name;
+      var merged = { wineries: [] }; ds.forEach(function (d) { merged.wineries = merged.wineries.concat(d.wineries); });
+      var res = buildingsFor(merged);
+      var pts = [];
+      res.list.forEach(function (b) {
+        var n = b.wineries.length;
+        var icon = L.divIcon({ className: '', html: '<div class="bld' + (n === 1 ? ' one' : '') + '">' + (n > 1 ? n : '') + '</div>', iconSize: n === 1 ? [22, 22] : [30, 30], iconAnchor: n === 1 ? [11, 11] : [15, 15] });
+        var m = L.marker([b.lat, b.lng], { icon: icon, title: n === 1 ? b.wineries[0].name : n + ' tasting rooms' }).addTo(layer);
+        m.bindPopup(popupHtml(b), { maxWidth: 280 });
+        m.bindTooltip(n === 1 ? b.wineries[0].name : (b.address || '') + ' · ' + n, { permanent: true, direction: 'right', offset: [n === 1 ? 10 : 14, 0], className: 'bld-label' });
+        b.marker = m; markers[b.key] = m; pts.push([b.lat, b.lng]);
+        b.wineries.forEach(function (w) { w._b = b; });
+      });
+      if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 16 });
+      document.getElementById('list-head').textContent = name;
+      var ul = document.getElementById('list'); ul.innerHTML = '';
+      var all = merged.wineries.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
+      all.forEach(function (w) {
+        var u = safeUrl(w.url), li = document.createElement('li');
+        li.innerHTML = '<span class="nm">' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a>' : esc(w.name)) + (w.note ? '<small>' + esc(w.note) + '</small>' : '') + '</span>' + (w._b ? '<button type="button">Show on map</button>' : '');
+        var btn = li.querySelector('button');
+        if (btn) btn.addEventListener('click', function () {
+          mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          map.setView([w._b.lat, w._b.lng], Math.max(map.getZoom(), 16));
+          w._b.marker.openPopup();
+        });
+        ul.appendChild(li);
+      });
+    }
 
     Promise.all([
       fetch('data/wineries.json').then(function (r) { return r.json(); }),
-      fetch('data/winery-geo.json').then(function (r) { return r.json(); }).catch(function () { return { places: {} }; })
+      fetch('data/winery-geo.json').then(function (r) { return r.json(); })
     ]).then(function (res) {
-      var data = res[0], geo = (res[1] && res[1].places) || {};
-      var host = document.getElementById('districts'), names = document.getElementById('winery-names');
-      host.innerHTML = '';
-      var districts = data.districts.slice().sort(function (a, b) { var i = ORDER.indexOf(a.id), j = ORDER.indexOf(b.id); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); }).filter(function (d) { return d.wineries && d.wineries.length; });
-      districts.forEach(function (d) {
-        var list = d.wineries.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
-        var onMap = 0;
-        var lis = list.map(function (w, i) {
-          var g = geo[w.name], ent = null;
-          if (g && map) {
-            var icon = L.divIcon({ className: '', html: '<span class="mk' + ((w.wineFocus || []).indexOf('beer') >= 0 ? ' beer' : '') + '"></span>', iconSize: [18, 18], iconAnchor: [9, 18], popupAnchor: [0, -16] });
-            ent = { w: w, d: d, geo: g, marker: L.marker([g.lat, g.lng], { icon: icon, title: w.name }) };
-            ent.marker.bindPopup(popupHtml(ent));
-            entries.push(ent); onMap++;
-            var opt = document.createElement('option'); opt.value = w.name; names.appendChild(opt);
-          }
-          var url = safeUrl(w.url);
-          var nm = url ? '<a href="' + esc(url) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a>' : '<span class="nm">' + esc(w.name) + '</span>';
-          var beer = (w.wineFocus || []).indexOf('beer') >= 0 ? '<span class="beer-tag">Beer</span>' : '';
-          var find = ent ? '<button type="button" class="find" data-n="' + esc(w.name) + '">Show on map</button>' : '';
-          return '<li>' + nm + beer + find + (w.note ? '<small>' + esc(w.note) + '</small>' : '') + '</li>';
-        }).join('');
-        var det = document.createElement('details'); det.className = 'district'; det.id = 'd-' + d.id; 
-        det.innerHTML = '<summary><span>' + esc(d.name) + '</span><span class="count">' + list.length + ' · ' + onMap + ' on map</span></summary><ul>' + lis + '</ul>';
-        host.appendChild(det);
-
-        var chip = document.createElement('button'); chip.type = 'button'; chip.className = 'chip'; chip.setAttribute('data-id', d.id);
-        chip.innerHTML = esc(d.name.replace(' & Woodin Creek District', ' & Woodin Creek').replace(' District', ''));
-        chip.addEventListener('click', function () {
-          var allHidden = districts.every(function (x) { return x.id === d.id ? false : hidden[x.id]; });
-          // first tap isolates a district and zooms to it; tapping the only visible one shows all again
-          districts.forEach(function (x) { hidden[x.id] = !(allHidden || x.id === d.id) ; });
-          if (allHidden) districts.forEach(function (x) { hidden[x.id] = false; });
-          syncChips(); refreshLayer(); fitAll(allHidden ? null : [d.id]);
-        });
-        chipsEl.appendChild(chip);
+      data.districts = res[0].districts.filter(function (d) { return d.wineries.length; });
+      data.geo = res[1].places || {};
+      var order = ['hollywood', 'downtown', 'warehouse', 'junction', 'gateway', 'artisan', 'industrial'];
+      data.districts.sort(function (a, b) { var i = order.indexOf(a.id), j = order.indexOf(b.id); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); });
+      var host = document.getElementById('areas');
+      data.districts.concat([{ id: 'all', name: 'Everything', wineries: [] }]).forEach(function (d) {
+        var b = document.createElement('button'); b.type = 'button'; b.className = 'area'; b.dataset.id = d.id;
+        b.innerHTML = esc(d.name.replace(/ District$/, '')) + (d.id === 'all' ? '' : '<small>' + d.wineries.length + '</small>');
+        b.addEventListener('click', function () { show(d.id); });
+        host.appendChild(b);
       });
-      refreshLayer(); fitAll(null);
-      var unplaced = districts.reduce(function (t, d) { return t + d.wineries.length; }, 0) - entries.length;
-      if (unplaced > 0) document.getElementById('map-note').insertAdjacentHTML('beforeend', ' ' + unplaced + ' listings below have no pin yet because no street address has been found for them.');
-
-      host.addEventListener('click', function (e) {
-        var b = e.target.closest('button.find'); if (!b) return;
-        var ent = entries.filter(function (x) { return x.w.name === b.getAttribute('data-n'); })[0]; if (ent) showEntry(ent);
-      });
-      document.getElementById('find').addEventListener('change', function () {
-        var q = this.value.trim().toLowerCase(); if (!q) return;
-        var hit = entries.filter(function (x) { return x.w.name.toLowerCase() === q; })[0] || entries.filter(function (x) { return x.w.name.toLowerCase().indexOf(q) >= 0; })[0];
-        if (hit) showEntry(hit);
-      });
-      document.getElementById('expand-all').addEventListener('click', function () { document.querySelectorAll('details.district').forEach(function (x) { x.open = true; }); });
-      document.getElementById('collapse-all').addEventListener('click', function () { document.querySelectorAll('details.district').forEach(function (x) { x.open = false; }); });
-    }).catch(function () {
-      document.getElementById('districts').innerHTML = '<p>Sorry, the winery list could not be loaded.</p>';
-    });
+      show('hollywood');
+    }).catch(function () { document.getElementById('list-head').textContent = 'Could not load the winery list.'; });
   })();
   </script>
 </body>

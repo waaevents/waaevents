@@ -13,7 +13,7 @@
     "Cave B Estate Winery": "14356 Woodinville-Redmond Rd NE",
     "Bong Bong": "14484 147th Pl NE",
     "Vaunt Modern Gallery": "14799 NE 145th St",
-    "DiStefano Winery": "18648 142nd Ave NE",
+    "DiStefano Winery": "14799 NE 145th St",
     "Bunnell/Newhouse": "19501 144th Ave NE",
     "JBell Wine Co.": "19495 144th Ave NE",
     "Simpatico Cellars": "19501 144th Ave NE",
@@ -33,6 +33,11 @@
       "lat": 47.7327,
       "lng": -122.1424,
       "note": "The Yard at Harvest, same development as Vaunt Gallery; geocoder matched a different 147th Pl NE"
+    },
+    "DiStefano Winery": {
+      "lat": 47.7327,
+      "lng": -122.1424,
+      "note": "Tasting inside Vaunt Modern Gallery (The Yard at Harvest)"
     }
   }
 }
