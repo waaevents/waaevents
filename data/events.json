@@ -1,87 +1,17 @@
 {
-  "updatedAt": "2026-10-17T22:13:51.248Z",
+  "updatedAt": "2026-10-18T16:13:52.481Z",
   "windowDays": 90,
-  "count": 847,
+  "count": 840,
   "events": [
     {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-17T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
+      "id": "winery-Jackson House-Seattle Restaurant Week at Jackson House-2026-10-18T19:00:00.000Z",
+      "title": "Seattle Restaurant Week at Jackson House",
       "category": "food-drink",
-      "start": "2026-10-17T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Saturday Night Music at Chateau Ste. Michelle-2026-10-18T00:00:00.000Z",
-      "title": "Saturday Night Music at Chateau Ste. Michelle",
-      "category": "music",
-      "start": "2026-10-18T00:00:00.000Z",
-      "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.ste-michelle.com/visit-us/experiences",
-      "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Joshua Red Uttech at Freebush Cellars-2026-10-18T01:00:00.000Z",
-      "title": "Joshua Red Uttech at Freebush Cellars",
-      "category": "music",
-      "start": "2026-10-18T01:00:00.000Z",
-      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/freebushcellars/event/608343/joshua-red-uttech",
-      "description": "Seattle singer-songwriter Joshua Red Uttech, 6-9pm.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at The Shed-2026-10-18T01:00:00.000Z",
-      "title": "Live Music at The Shed",
-      "category": "music",
-      "start": "2026-10-18T01:00:00.000Z",
-      "location": "The Shed at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-18T01:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-18T01:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Randy Norris-2026-10-18T01:00:00.486Z",
-      "title": "Live Music at Hollywood Hill: Randy Norris",
-      "category": "music",
-      "start": "2026-10-18T01:00:00.486Z",
-      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
-      "url": "https://www.pattersoncellars.com/events/2026/10/17/live-music-at-hollywood-hill-randy-norris",
-      "description": "",
-      "source": "Patterson Cellars"
-    },
-    {
-      "id": "manual-The Buckets at Obelisco-2026-10-18T02:00:00.000Z",
-      "title": "The Buckets at Obelisco",
-      "category": "music",
-      "start": "2026-10-18T02:00:00.000Z",
-      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE Suite 121, Woodinville, WA 98072",
-      "url": "https://obelisco.com/events-dinners/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-10-18T07:00:00.000Z",
-      "title": "Social Sundays: New Connections",
-      "category": "food-drink",
-      "start": "2026-10-18T07:00:00.000Z",
-      "location": "All Locations",
-      "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-10-18/",
-      "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
-      "source": "Alexandria Nicole Cellars"
+      "start": "2026-10-18T19:00:00.000Z",
+      "location": "",
+      "url": "https://jacksonhousewoodinville.com/#restaurant-week",
+      "description": "Celebrate Seattle Restaurant Week at Jackson House with menus that showcase Pacific Northwest ingredients and signature dishes.",
+      "source": "Jackson House"
     },
     {
       "id": "winery-Bayernmoor Cellars-TnT – An Explosive Cook Off-2026-10-18T19:00:00.000Z",
@@ -92,16 +22,6 @@
       "url": "https://bayernmoor.com/events/chef-toris-table-ramen-487-443-379-405-496/",
       "description": "The kitchen is heating up! Chef Tori and Chef Tyler are facing off in a cooking competition at the tasting room on October 18th Come in any time during our regular hours for a blind taste-test of each chef's version of the chosen dish, and vote for the best one. Luckily, no one i",
       "source": "Bayernmoor Cellars"
-    },
-    {
-      "id": "winery-Jackson House-Seattle Restaurant Week at Jackson House-2026-10-18T19:00:00.000Z",
-      "title": "Seattle Restaurant Week at Jackson House",
-      "category": "food-drink",
-      "start": "2026-10-18T19:00:00.000Z",
-      "location": "",
-      "url": "https://jacksonhousewoodinville.com/#restaurant-week",
-      "description": "Celebrate Seattle Restaurant Week at Jackson House with menus that showcase Pacific Northwest ingredients and signature dishes.",
-      "source": "Jackson House"
     },
     {
       "id": "manual-Sushi Making Class & Wine Pairing at Freebush-2026-10-18T20:00:00.000Z",
@@ -8471,6 +8391,16 @@
       "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/djingo-second-sunday-funday-at-synne-2/",
       "description": "New year, new DJingo! Start 2027 with wine in your glass, a bingo card in hand and a soundtrack spun entirely on vinyl. DJingo is our spin on music bingo—with an actual DJ, actual vinyl and plenty of friendly competition. DJ Ben Meyer digs into his extensive vinyl collection to c",
+      "source": "Synne Cellars"
+    },
+    {
+      "id": "winery-Synne Cellars-Synne Sessions: Brian Lally | Live Acoustic Music-2027-01-16T01:00:00.000Z",
+      "title": "Synne Sessions: Brian Lally | Live Acoustic Music",
+      "category": "music",
+      "start": "2027-01-16T01:00:00.000Z",
+      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "url": "https://www.synnecellars.com/event/synne-sessions-brian-lally-live-acoustic-music/",
+      "description": "Start your weekend with an evening of beautiful live acoustic music at Synne Cellars! We’re delighted to welcome back Brian Lally , an accomplished guitarist, singer, songwriter, and composer whose expressive playing blends classical influences, improvisation, and soulful musical",
       "source": "Synne Cellars"
     }
   ]
