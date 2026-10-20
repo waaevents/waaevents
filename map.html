@@ -16,13 +16,21 @@
     .area.on { background: var(--sage-deep); border-color: var(--sage-deep); color: #fff; }
     .area.on small { color: #e7ece8; }
     #map { width: 100%; height: 56vh; min-height: 360px; max-height: 620px; z-index: 0; border: 2px solid var(--sage-deep); background: #e9ece8; }
-    .leaflet-tile-pane { filter: grayscale(.55) contrast(.96) brightness(1.04); }
     .leaflet-control-zoom a { width: 38px !important; height: 38px !important; line-height: 38px !important; font-size: 22px !important; }
     .bld { display: flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%; background: var(--sage-deep); color: #fff; border: 3px solid #fff; box-shadow: 0 1px 5px rgba(0,0,0,.5); font: 700 13px 'Work Sans', sans-serif; }
     .bld.one { background: var(--gold); color: var(--ink); width: 22px; height: 22px; border-width: 2px; }
     .bld-label { background: rgba(255,255,255,.94); border: 0; box-shadow: 0 1px 3px rgba(0,0,0,.3); color: var(--ink); font: 700 12px 'Work Sans', sans-serif; padding: 2px 6px; border-radius: 3px; }
     .bld-label::before { display: none; }
     .nolabels .bld-label { display: none; }
+    .area-label-wrap { background: none; border: 0; pointer-events: none; }
+    .area-label { display: flex; align-items: center; justify-content: center; height: 44px; background: none; border: 0; box-shadow: none; padding: 0; font: 800 12px 'Work Sans', sans-serif; letter-spacing: .14em; text-transform: uppercase; color: #2f4a3a; text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 4px #fff, 0 0 4px #fff; text-align: center; white-space: normal; width: 150px; line-height: 1.25; }
+    .area-label::before { display: none; }
+    .deep .area-label-wrap { display: none; }
+    .legend { display: flex; flex-wrap: wrap; gap: 8px 22px; margin: 12px 2px 0; font-size: .82rem; color: var(--ink); align-items: center; }
+    .legend span { display: inline-flex; align-items: center; gap: 8px; }
+    .legend .bld { width: 24px; height: 24px; font-size: 12px; border-width: 2px; }
+    .legend .bld.one { width: 16px; height: 16px; }
+    .legend .swatch { width: 24px; height: 14px; border: 2px dashed var(--sage-deep); background: rgba(82,105,90,.16); border-radius: 3px; }
     .pop h4 { font-family: 'Fraunces', Georgia, serif; font-size: 1rem; margin: 0 0 6px; }
     .pop ul { list-style: none; margin: 0; padding: 0; }
     .pop li { padding: 5px 0; border-top: 1px solid var(--line); font-size: .9rem; }
@@ -58,7 +66,12 @@
 
     <p class="step">2 · Tap a pin</p>
     <div id="map" role="region" aria-label="Street map of Woodinville wineries"></div>
-    <p class="map-note">Each pin is one building. A green number means several tasting rooms share it; a gold dot is a single one. Map data © OpenStreetMap contributors.</p>
+    <div class="legend">
+      <span><div class="bld one"></div> One tasting room</span>
+      <span><div class="bld">3</div> Number = tasting rooms in that building</span>
+      <span><div class="swatch"></div> Shaded area = district</span>
+    </div>
+    <p class="map-note">The number on each area button is how many places are in that area. Zoom in to see street names and parks. Map data © OpenStreetMap contributors.</p>
 
     <h2 class="list-head" id="list-head">Loading…</h2>
     <ul class="list" id="list"></ul>
@@ -78,6 +91,8 @@
 
     var map = L.map('map', { scrollWheelZoom: false }).setView([47.7525, -122.152], 13);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { maxZoom: 19, attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' }).addTo(map);
+    var areaLayer = L.layerGroup().addTo(map);
+    var labels = [];
     var layer = L.layerGroup().addTo(map);
     var markers = {};          // building key -> marker
     var data = { districts: [], geo: {} };
@@ -86,7 +101,7 @@
     var CORE = [[47.727, -122.176], [47.763, -122.136]];
 
     // Labels only when zoomed in enough to be readable.
-    function syncLabels() { mapEl.classList.toggle('nolabels', map.getZoom() < 15); }
+    function syncLabels() { mapEl.classList.toggle('nolabels', map.getZoom() < 15); mapEl.classList.toggle('deep', map.getZoom() >= 16); }
     map.on('zoomend', syncLabels); syncLabels();
 
     function keyOf(p) { return p.lat.toFixed(4) + ',' + p.lng.toFixed(4); }
@@ -102,6 +117,53 @@
       return { list: Object.keys(by).map(function (k) { return by[k]; }), loose: loose };
     }
 
+
+    // Convex hull (monotone chain) of [lng,lat] points, then pushed outward a little so pins sit inside the shape.
+    function hull(pts) {
+      pts = pts.slice().sort(function (a, b) { return a[0] - b[0] || a[1] - b[1]; });
+      function cross(o, a, b) { return (a[0] - o[0]) * (b[1] - o[1]) - (a[1] - o[1]) * (b[0] - o[0]); }
+      var lo = [], up = [], i;
+      for (i = 0; i < pts.length; i++) { while (lo.length >= 2 && cross(lo[lo.length - 2], lo[lo.length - 1], pts[i]) <= 0) lo.pop(); lo.push(pts[i]); }
+      for (i = pts.length - 1; i >= 0; i--) { while (up.length >= 2 && cross(up[up.length - 2], up[up.length - 1], pts[i]) <= 0) up.pop(); up.push(pts[i]); }
+      up.pop(); lo.pop(); return lo.concat(up);
+    }
+    function drawArea(d, idx) {
+      var res = buildingsFor(d); if (!res.list.length) return;
+      var color = idx % 2 ? '#b8860b' : '#52695a';
+      var pts = res.list.map(function (b) { return [b.lng, b.lat]; });
+      var cx = pts.reduce(function (a, p) { return a + p[0]; }, 0) / pts.length, cy = pts.reduce(function (a, p) { return a + p[1]; }, 0) / pts.length;
+      var shape;
+      var h = pts.length >= 3 ? hull(pts) : [];
+      if (h.length >= 3) {
+        var padLat = 0.0014, padLng = 0.002;
+        var ring = h.map(function (p) { var dx = p[0] - cx, dy = p[1] - cy, m = Math.sqrt(dx * dx + dy * dy) || 1; return [p[1] + (dy / m) * padLat, p[0] + (dx / m) * padLng]; });
+        shape = L.polygon(ring, { color: color, weight: 2, dashArray: '6 6', fillColor: color, fillOpacity: 0.13, interactive: false, smoothFactor: 1 });
+      } else {
+        var far = 0; pts.forEach(function (p) { far = Math.max(far, Math.hypot((p[1] - cy) * 111000, (p[0] - cx) * 75000)); });
+        shape = L.circle([cy, cx], { radius: far + 170, color: color, weight: 2, dashArray: '6 6', fillColor: color, fillOpacity: 0.13, interactive: false });
+      }
+      shape.addTo(areaLayer);
+      var lm = L.marker([cy, cx], { interactive: false, keyboard: false, zIndexOffset: 1000,
+        icon: L.divIcon({ className: 'area-label-wrap', html: '<div class="area-label">' + esc(d.name.replace(/ District$/, '')) + '</div>', iconSize: [150, 44], iconAnchor: [75, 22] }) }).addTo(areaLayer);
+      labels.push({ m: lm, base: L.latLng(cy, cx) });
+    }
+
+    // Keep area names from landing on top of each other: try nearby spots until one is free.
+    function layoutLabels() {
+      var tries = [[0, -40], [-95, -10], [95, -10], [0, 42], [-95, -52], [95, -52], [-95, 34], [95, 34], [0, -84], [0, 84]], placed = [];
+      labels.slice().sort(function (a, b) { return map.latLngToContainerPoint(a.base).y - map.latLngToContainerPoint(b.base).y; }).forEach(function (l) {
+        var pt = map.latLngToContainerPoint(l.base), pick = tries[0];
+        for (var i = 0; i < tries.length; i++) {
+          var x = Math.min(Math.max(pt.x + tries[i][0], 80), map.getSize().x - 80), y = pt.y + tries[i][1];
+          if (!placed.some(function (q) { return Math.abs(q[0] - x) < 130 && Math.abs(q[1] - y) < 40; })) { pick = tries[i]; break; }
+        }
+        var fx = Math.min(Math.max(pt.x + pick[0], 80), map.getSize().x - 80), fy = pt.y + pick[1];
+        placed.push([fx, fy]);
+        l.m.setLatLng(map.containerPointToLatLng(L.point(fx, fy)));
+      });
+    }
+    map.on('zoomend moveend', layoutLabels);
+
     function popupHtml(b) {
       var h = '<div class="pop"><h4>' + (b.address ? esc(b.address) : 'Woodinville') + '</h4><ul>';
       b.wineries.forEach(function (w) {
@@ -114,11 +176,11 @@
 
     function show(id) {
       current = id;
-      layer.clearLayers(); markers = {};
+      layer.clearLayers(); areaLayer.clearLayers(); markers = {}; labels = [];
       document.querySelectorAll('.area').forEach(function (b) { b.classList.toggle('on', b.dataset.id === id); });
       var ds = id === 'all' ? data.districts : data.districts.filter(function (d) { return d.id === id; });
       var name = id === 'all' ? 'All wineries' : ds[0].name;
-      var merged = { wineries: [] }; ds.forEach(function (d) { merged.wineries = merged.wineries.concat(d.wineries); });
+      var merged = { wineries: [] }; ds.forEach(function (d, i) { merged.wineries = merged.wineries.concat(d.wineries); drawArea(d, data.districts.indexOf(d)); });
       var res = buildingsFor(merged);
       var pts = [];
       res.list.forEach(function (b) {
@@ -131,6 +193,7 @@
         b.wineries.forEach(function (w) { w._b = b; });
       });
       if (id === 'all') map.fitBounds(CORE); else if (pts.length) map.fitBounds(pts, { padding: [40, 40], maxZoom: 16 });
+      layoutLabels();
       document.getElementById('list-head').textContent = name;
       var ul = document.getElementById('list'); ul.innerHTML = '';
       var all = merged.wineries.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
