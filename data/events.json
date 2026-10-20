@@ -1,78 +1,8 @@
 {
-  "updatedAt": "2026-10-19T18:54:55.545Z",
+  "updatedAt": "2026-10-20T17:38:41.954Z",
   "windowDays": 90,
-  "count": 833,
+  "count": 822,
   "events": [
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-19T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-19T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-19T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-19T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-19T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-19T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10002216-1792429200-1792436400@www.alexandrianicolecellars.com",
-      "title": "Bunco Nights (No Fee)",
-      "category": "community",
-      "start": "2026-10-20T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-10-19/",
-      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-20T00:00:00.000Z",
-      "title": "Bunco Night at Alexandria Nicole Cellars",
-      "category": "food-drink",
-      "start": "2026-10-20T00:00:00.000Z",
-      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
-      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at Bin 47-2026-10-20T01:00:00.000Z",
-      "title": "Live Music at Bin 47",
-      "category": "music",
-      "start": "2026-10-20T01:00:00.000Z",
-      "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Game Night at the Cut Shop-2026-10-20T02:00:00.000Z",
-      "title": "Game Night at the Cut Shop",
-      "category": "food-drink",
-      "start": "2026-10-20T02:00:00.000Z",
-      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
-      "url": "https://www.woodinvillecutshop.com/",
-      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-20T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
@@ -374,16 +304,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Patterson Cellars-2023 Grenache and 2022 BDX Member Preview Weekend-2026-10-22T18:00:00.717Z",
-      "title": "2023 Grenache and 2022 BDX Member Preview Weekend",
-      "category": "community",
-      "start": "2026-10-22T18:00:00.717Z",
-      "location": "Patterson Cellars, All Locations",
-      "url": "https://www.pattersoncellars.com/events/2026/10/22/2023-grenache-and-2022-bdx-member-preview-weekend",
-      "description": "",
-      "source": "Patterson Cellars"
-    },
-    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-22T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -432,16 +352,6 @@
       "url": "https://425cellars.com/event/music-featuring-d-s-wilson/",
       "description": "🎷 Thursday Night at 425 Cellars 🎷 Join us Thursday, October 22nd from 5:30–7:30 PM for live music featuring D.S. Wilson! 🎶 A Billboard Artist and Top 25 Seattle-based multi-instrumental jazz musician specializing in saxophone and piano/keys, D.S. Wilson is a composer, recordin",
       "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-10-23T00:30:00.000Z",
-      "title": "Knotty Thursdays | Woodinville",
-      "category": "food-drink",
-      "start": "2026-10-23T00:30:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-22/",
-      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity, and good company. Knotty Thursday is all about making something with your hands, enjoying a gr",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-23T00:30:00.000Z",
@@ -534,6 +444,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Patterson Cellars-2023 Grenache and 2022 BDX Member Preview Weekend-2026-10-23T18:00:00.150Z",
+      "title": "2023 Grenache and 2022 BDX Member Preview Weekend",
+      "category": "community",
+      "start": "2026-10-23T18:00:00.150Z",
+      "location": "Patterson Cellars, All Locations",
+      "url": "https://www.pattersoncellars.com/events/2026/10/22/2023-grenache-and-2022-bdx-member-preview-weekend",
+      "description": "",
+      "source": "Patterson Cellars"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-23T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -592,16 +512,6 @@
       "url": "https://425cellars.com/event/club-release-members-please-check-your-emails-for-more-information/",
       "description": "Club Release! Members, please check your emails for more information",
       "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Live Music by Josiah Bogle | Woodinville-2026-10-24T00:00:00.000Z",
-      "title": "Live Music by Josiah Bogle | Woodinville",
-      "category": "music",
-      "start": "2026-10-24T00:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-josiah-bogle-woodinville-3/2026-10-23/",
-      "description": "<p>Join us for the talented Josiah Bogle in Woodinville. His performance will enhance your Evergreen experience, making you want to come back for more! Josiah Bogle takes you on a journey through the best of vintage pop rock nuanced with today’s current sound. Whether singi",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-10-24T00:00:00.000Z",
@@ -794,16 +704,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Evergreen Family Wines-Live Music by Sarah Brunner | Woodinville-2026-10-24T21:00:00.000Z",
-      "title": "Live Music by Sarah Brunner | Woodinville",
-      "category": "music",
-      "start": "2026-10-24T21:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-sarah-brunner-woodinville-4/2026-10-24/",
-      "description": "<p> Michigan native and Seattle-based musician Sarah Brunner is a full-time performer, both as a solo artist and with her band, The Hipocrats. Her style, deeply rooted in acoustic Americana, folk, and country, blends rhythm guitar with soulful vocal melodies to create a sou",
-      "source": "Evergreen Family Wines"
-    },
-    {
       "id": "manual-Argentine Fire Cooking by Primitivo at Darby-2026-10-24T21:00:00.000Z",
       "title": "Argentine Fire Cooking by Primitivo at Darby",
       "category": "food-drink",
@@ -862,16 +762,6 @@
       "url": "https://www.ste-michelle.com/visit-us/experiences",
       "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Winter Release Party | Woodinville-2026-10-25T01:00:00.000Z",
-      "title": "Winter Release Party | Woodinville",
-      "category": "food-drink",
-      "start": "2026-10-25T01:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/winter-release-party-woodinville-2/",
-      "description": "<p>Join us at our Woodinville Tasting Room for our exclusive Wine Club Winter Release Party on October 24th from 6–9 PM! Be among the first to experience our newest releases as we open the wines featured in your latest club allotment. Enjoy a beautifully curated charcuterie",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Sarah Brunner at Freebush Cellars-2026-10-25T01:00:00.000Z",
@@ -942,16 +832,6 @@
       "url": "https://www.prohibitioncellars.com/events-1/n7mhrt4ff22e5cp-wmctr-xm2ca-2cwe2-xx2h6-ya866-nh7xb-rndx7-akrpd-7ja58-3wdxs-w4gb9-4cp99-pcptb-45n6c-29k3z-5k5ns",
       "description": "Start your Sunday morning in the best way! Prohibition Cellars will host Yoga Uncorked for a morning of yoga followed by wine. Whether you’re brand new to yoga or a seasoned practitioner, a skilled instructor will guide you and help adjust and adapt the practice during class as n",
       "source": "Prohibition Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-10-25T19:00:00.000Z",
-      "title": "Sip Back Sundays | All Locations",
-      "category": "food-drink",
-      "start": "2026-10-25T19:00:00.000Z",
-      "location": "",
-      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-10-25/",
-      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend and let us pour you something delicious.</p>\\n",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "winery-LaShellé Wines-Closing at 3pm for off premise event-2026-10-25T19:00:00.001Z",
@@ -7552,6 +7432,16 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Alexandria Nicole Cellars-“No Fee” Bingo Nights at Woodin Creek-2026-12-23T01:00:00.000Z",
+      "title": "“No Fee” Bingo Nights at Woodin Creek",
+      "category": "community",
+      "start": "2026-12-23T01:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-12-22/",
+      "description": "@ Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or n",
+      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-12-23T01:00:00.000Z",
