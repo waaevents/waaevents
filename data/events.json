@@ -1,158 +1,8 @@
 {
-  "updatedAt": "2026-10-20T17:38:41.954Z",
+  "updatedAt": "2026-10-21T17:46:38.091Z",
   "windowDays": 90,
-  "count": 822,
+  "count": 810,
   "events": [
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-20T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-20T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10002492-1792497600-1792522800@www.alexandrianicolecellars.com",
-      "title": "Taco Tuesdays @ Woodin Creek",
-      "category": "community",
-      "start": "2026-10-20T19:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-10-20/",
-      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Tuesday ReWined at EFESTĒ-2026-10-20T19:00:00.000Z",
-      "title": "Tuesday ReWined at EFESTĒ",
-      "category": "food-drink",
-      "start": "2026-10-20T19:00:00.000Z",
-      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
-      "url": "https://efeste.com/pages/event-calendar",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-20T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-20T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-20T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-20T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-20T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-20T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Taco Tuesday at Woodin Creek Kitchen & Tap-2026-10-20T23:00:00.000Z",
-      "title": "Taco Tuesday at Woodin Creek Kitchen & Tap",
-      "category": "food-drink",
-      "start": "2026-10-20T23:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10001738-1792515600-1792522800@www.alexandrianicolecellars.com",
-      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
-      "category": "community",
-      "start": "2026-10-21T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-10-20/",
-      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-10-21T00:00:00.000Z",
-      "title": "Bingo Night at Alexandria Nicole Cellars",
-      "category": "food-drink",
-      "start": "2026-10-21T00:00:00.000Z",
-      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/alexandria-nicole-cellars-woodin-creek",
-      "description": "Weekly Tuesday bingo, 5-7pm. No fee, with wine and prizes.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at Bin 47-2026-10-21T01:00:00.000Z",
-      "title": "Live Music at Bin 47",
-      "category": "music",
-      "start": "2026-10-21T01:00:00.000Z",
-      "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Patricio Contreras at Fireside Lounge-2026-10-21T01:00:00.000Z",
-      "title": "Patricio Contreras at Fireside Lounge",
-      "category": "music",
-      "start": "2026-10-21T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Jeannie Rak at Fireside Lounge-2026-10-21T01:00:00.000Z",
-      "title": "Jeannie Rak at Fireside Lounge",
-      "category": "music",
-      "start": "2026-10-21T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Boot Camp Line Dancing at LaShellé Wines-2026-10-21T02:00:00.000Z",
-      "title": "Boot Camp Line Dancing at LaShellé Wines",
-      "category": "community",
-      "start": "2026-10-21T02:00:00.000Z",
-      "location": "LaShellé Wines, 19501 144th Ave NE #C900, Woodinville, WA 98072",
-      "url": "https://www.lashellewines.com/calendar/lashell-wines-boot-camp-xpsh9",
-      "description": "Boot Boogie Babes line dance class (beginner friendly) at LaShellé Wines, 7-8pm. Wear workout clothes with boots or sneakers and bring water.",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-LaShellé Wines-LASHELLÉ WINES BOOT CAMP-2026-10-21T02:00:00.218Z",
-      "title": "LASHELLÉ WINES BOOT CAMP",
-      "category": "community",
-      "start": "2026-10-21T02:00:00.218Z",
-      "location": "LaShellé Wines , 19501 144th Ave. NE #C900, Woodinville WA 98072",
-      "url": "https://www.lashellewines.com/calendar/lashell-wines-boot-camp-xpsh9",
-      "description": "The Boot Boogie Babes, America’s Favorite Line Dance Team has all NEW classes starting in Woodinville at LASHELLÉ WINES! Kick Your Boots Up with us! What to Wear: Think work-out clothes with cowboy boots or your favorite sneakers! Bring: WATER! You will burn those country calorie",
-      "source": "LaShellé Wines"
-    },
-    {
-      "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-10-21T03:00:00.000Z",
-      "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
-      "category": "food-drink",
-      "start": "2026-10-21T03:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-21T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
@@ -836,11 +686,11 @@
     {
       "id": "winery-LaShellé Wines-Closing at 3pm for off premise event-2026-10-25T19:00:00.001Z",
       "title": "Closing at 3pm for off premise event",
-      "category": "music",
+      "category": "community",
       "start": "2026-10-25T19:00:00.001Z",
       "location": "",
       "url": "https://www.lashellewines.com/calendar/closing-at-3pm-for-off-premise-event",
-      "description": "We are closing early to attend an off premise event. We will reopen on Thursday October 29th 5-8pm for live music featuring Sedona Rose. #block-8c4437d8cf3e691e3db3 { --stroke-style: none;--stroke-thickness: 2px; --tweak-text-block-stroke-color: hsla(var(--black-hsl), 1) ; } #blo",
+      "description": "We will be closing at 3pm on Sunday, October 25th to participate in an off-premise event. We appreciate your business and understanding and we look forward to pouring for you next week. Please email us at lashellewines@gmail.com to book your own private event with us!",
       "source": "LaShellé Wines"
     },
     {
@@ -974,14 +824,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-Bunco Nights (No Fee)-2026-10-27T00:00:00.000Z",
+      "id": "10002217-1793034000-1793041200@www.alexandrianicolecellars.com",
       "title": "Bunco Nights (No Fee)",
       "category": "community",
       "start": "2026-10-27T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-10-26/",
-      "description": "@ Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need t",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-10-27T00:00:00.000Z",
@@ -1034,14 +884,14 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-Taco Tuesdays @ Woodin Creek-2026-10-27T19:00:00.000Z",
+      "id": "10002493-1793102400-1793127600@www.alexandrianicolecellars.com",
       "title": "Taco Tuesdays @ Woodin Creek",
-      "category": "food-drink",
+      "category": "community",
       "start": "2026-10-27T19:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2026-10-27/",
-      "description": "@ Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will al",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will also",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Tuesday ReWined at EFESTĒ-2026-10-27T19:00:00.000Z",
@@ -1094,6 +944,16 @@
       "source": "Manually added"
     },
     {
+      "id": "10001739-1793120400-1793127600@www.alexandrianicolecellars.com",
+      "title": "\"No Fee\" Bingo Nights at Woodin Creek",
+      "category": "community",
+      "start": "2026-10-28T00:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
+      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-10-27/",
+      "description": "Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or new",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
+    },
+    {
       "id": "10002980-1793120400-1793127600@www.alexandrianicolecellars.com",
       "title": "\"No Fee\" Music Bingo at Woodin Creek",
       "category": "music",
@@ -1102,16 +962,6 @@
       "url": "https://www.alexandrianicolecellars.com/event/no-fee-music-bingo-at-woodin-creek/2026-10-27/",
       "description": "Join us every month on the LAST Tuesday for No Fee Music Bingo Night at our Woodin Creek Tasting Rooms. Enjoy a laid-back night of wine, laughs, and sing-along moments as you play your way through your favorite tunes. It’s part bingo, part dance party, and all-around a great excu",
       "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "winery-Alexandria Nicole Cellars-“No Fee” Bingo Nights at Woodin Creek-2026-10-28T00:00:00.000Z",
-      "title": "“No Fee” Bingo Nights at Woodin Creek",
-      "category": "community",
-      "start": "2026-10-28T00:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
-      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2026-10-27/",
-      "description": "@ Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or n",
-      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Bingo Night at Alexandria Nicole Cellars-2026-10-28T00:00:00.000Z",
@@ -1222,6 +1072,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE TR: Special Hours-2026-10-28T21:00:00.000Z",
+      "title": "WOODINVILLE TR: Special Hours",
+      "category": "community",
+      "start": "2026-10-28T21:00:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-tr-special-hours/",
+      "description": "We will be open from 5-7pm during to host our Cookie Decorating Class but will be closed for regular service from 2-5pm.",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-28T21:00:00.000Z",
@@ -7534,6 +7394,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Alexandria Nicole Cellars-Closing Early – Christmas Eve 2026-2026-12-24T08:00:00.000Z",
+      "title": "Closing Early – Christmas Eve 2026",
+      "category": "food-drink",
+      "start": "2026-12-24T08:00:00.000Z",
+      "location": "",
+      "url": "https://www.alexandrianicolecellars.com/event/closing-early-christmas-eve-2026/",
+      "description": "@ All Tasting Rooms will be closing at 3pm Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live",
+      "source": "Alexandria Nicole Cellars"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-12-24T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -7612,6 +7482,16 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Alexandria Nicole Cellars-Closed – Christmas 2026-2026-12-25T08:00:00.000Z",
+      "title": "Closed – Christmas 2026",
+      "category": "community",
+      "start": "2026-12-25T08:00:00.000Z",
+      "location": "",
+      "url": "https://www.alexandrianicolecellars.com/event/closed-christmas-2026/",
+      "description": "@ All locations will be closed for Christmas Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live",
+      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-12-25T19:00:00.000Z",
