@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-20T17:38:41.942Z",
+  "ranAt": "2026-10-21T17:46:38.081Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 15,
-      "addedCount": 4
+      "addedCount": 5
     }
   ],
   "wineryReport": [
@@ -295,7 +295,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 17,
+      "count": 16,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -468,7 +468,7 @@
       "strategy": "tribe",
       "platform": "wordpress",
       "count": 13,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room"
+      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
     },
     {
       "winery": "Tenor Winery",
@@ -508,7 +508,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 19,
+      "count": 20,
       "eventPage": "https://tsillancellars.com/"
     },
     {
