@@ -1,26 +1,26 @@
 {
-  "ranAt": "2026-10-21T17:46:38.081Z",
+  "ranAt": "2026-10-22T17:44:57.593Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:223:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:261:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:223:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:261:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 20,
-      "addedCount": 20
+      "rawCount": 19,
+      "addedCount": 19
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -177,8 +177,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Dossier Wine Collective",
@@ -287,8 +287,8 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "LaShellé Wines",
@@ -353,8 +353,8 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
@@ -391,8 +391,8 @@
     },
     {
       "winery": "Pomum Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Pondera Winery",
@@ -419,8 +419,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "SheChill Bakery",
@@ -429,8 +429,8 @@
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -444,8 +444,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Stevens Winery",
@@ -468,7 +468,7 @@
       "strategy": "tribe",
       "platform": "wordpress",
       "count": 13,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
+      "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
       "winery": "Tenor Winery",
@@ -508,7 +508,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 20,
+      "count": 19,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -521,8 +521,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Village Wines",
@@ -552,7 +552,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 8,
+      "count": 7,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
