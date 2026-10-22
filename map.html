@@ -189,7 +189,7 @@
         var n = b.wineries.length;
         var icon = L.divIcon({ className: '', html: '<div class="bld' + (n === 1 ? ' one' : '') + '">' + (n > 1 ? n : '') + '</div>', iconSize: n === 1 ? [22, 22] : [30, 30], iconAnchor: n === 1 ? [11, 11] : [15, 15] });
         var m = L.marker([b.lat, b.lng], { icon: icon, title: n === 1 ? b.wineries[0].name : n + ' tasting rooms' }).addTo(layer);
-        m.bindPopup(popupHtml(b), { maxWidth: 300, maxHeight: 250 });
+        m.bindPopup(popupHtml(b), { maxWidth: 300, maxHeight: 250, autoPanPaddingTopLeft: [70, 20], autoPanPaddingBottomRight: [20, 20] });
         m.bindTooltip(n === 1 ? b.wineries[0].name : (b.address || '') + ' · ' + n, { permanent: true, direction: 'right', offset: [n === 1 ? 10 : 14, 0], className: 'bld-label' });
         b.marker = m; markers[b.key] = m; pts.push([b.lat, b.lng]);
         b.wineries.forEach(function (w) { w._b = b; });
