@@ -581,10 +581,6 @@
       "accent": "food",
       "wineries": [
         {
-          "name": "Adams Bench",
-          "url": "https://adamsbench.com/"
-        },
-        {
           "name": "Alexandria Nicole Cellars",
           "url": "https://alexandrianicolecellars.com/",
           "types": [
@@ -673,14 +669,6 @@
           "name": "SheChill Bakery",
           "note": "Next to McQueen Champagne Bar and L'Ecole No. 41",
           "url": "https://shechill.square.site/"
-        },
-        {
-          "name": "Truthteller Winery",
-          "url": "https://truthtellerwinery.com/",
-          "note": "Wine Alley",
-          "wineFocus": [
-            "red"
-          ]
         },
         {
           "name": "Tsillan Cellars",
