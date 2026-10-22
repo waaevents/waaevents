@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-10-22T17:44:57.593Z",
+  "ranAt": "2026-10-22T22:26:56.472Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "fetch failed",
+      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:224:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:262:25)"
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "fetch failed",
+      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:224:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:262:25)"
     },
     {
       "feed": "425 Cellars",
@@ -177,8 +177,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Dossier Wine Collective",
@@ -197,8 +197,11 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 7,
+      "eventPage": "https://evergreenfamilywines.com/events/list/"
     },
     {
       "winery": "Fidélitas",
@@ -287,8 +290,8 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "LaShellé Wines",
@@ -353,8 +356,8 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
@@ -391,8 +394,8 @@
     },
     {
       "winery": "Pomum Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 520"
     },
     {
       "winery": "Pondera Winery",
@@ -419,8 +422,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 520"
     },
     {
       "winery": "SheChill Bakery",
@@ -429,8 +432,8 @@
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -444,8 +447,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 520"
     },
     {
       "winery": "Stevens Winery",
