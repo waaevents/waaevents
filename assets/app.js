@@ -158,7 +158,8 @@ async function renderWineries() {
         const tagText = types.map((t) => labels[t] || t).join(' · ');
         const tags = tagText ? `<span class="tags">${escapeHtml(tagText)}</span>` : '';
         const colors = w.wineFocus || [];
-        const inner = `${name}${note}${tags}`;
+        const visit = w.url ? '<span class="visit">Website →</span>' : '';
+        const inner = `${name}${note}${tags}${visit}`;
         const tag = w.url ? 'a' : 'div';
         const hrefAttrs = w.url ? `href="${escapeAttr(w.url)}" target="_blank" rel="noopener"` : '';
         return `<${tag} class="winery-chip" ${hrefAttrs} data-types="${escapeAttr(types.join(','))}" data-colors="${escapeAttr(colors.join(','))}" style="--dist-accent: var(--${district.accent})">${inner}</${tag}>`;

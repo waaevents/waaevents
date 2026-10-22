@@ -524,3 +524,7 @@ body {
 }
 .vine-strip { background: linear-gradient(90deg, var(--sage-deep) 0 50%, var(--gold) 50% 100%); }
 .hero-btn--solid { background: var(--gold); color: var(--ink); }
+
+/* Visible website link on every winery row */
+.winery-chip .visit { display: block; margin-top: 6px; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.02em; color: var(--sage-deep); }
+a.winery-chip:hover .visit { color: var(--gold-deep); text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 3px; }

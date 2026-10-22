@@ -45,6 +45,8 @@
     .list .nm a:hover { color: var(--sage-deep); text-decoration: underline; }
     .list small { display: block; color: var(--ink-soft); font-weight: 400; font-size: .82rem; margin-top: 2px; }
     .list button { font: inherit; font-size: .8rem; font-weight: 700; color: var(--sage-deep); border: 0; border-bottom: 2px solid var(--gold); background: none; cursor: pointer; padding: 0 0 1px; white-space: nowrap; }
+    .pop .web, .list .web { font-size: .8rem; font-weight: 700; color: var(--sage-deep); text-decoration: none; border-bottom: 2px solid var(--gold); white-space: nowrap; }
+    .list .acts { display: flex; gap: 16px; align-items: baseline; flex-shrink: 0; }
     .map-note { font-size: .78rem; color: var(--ink-soft); margin: 10px 2px 0; line-height: 1.5; }
   </style>
 </head>
@@ -168,7 +170,7 @@
       var h = '<div class="pop"><h4>' + (b.address ? esc(b.address) : 'Woodinville') + '</h4><ul>';
       b.wineries.forEach(function (w) {
         var u = safeUrl(w.url);
-        h += '<li>' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a>' : esc(w.name)) + (w.note ? '<small>' + esc(w.note) + '</small>' : '') + '</li>';
+        h += '<li>' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a> <a class="web" href="' + esc(u) + '" target="_blank" rel="noopener">Website →</a>' : esc(w.name)) + (w.note ? '<small>' + esc(w.note) + '</small>' : '') + '</li>';
       });
       h += '</ul><a class="dir" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=' + b.lat + ',' + b.lng + '">Directions →</a>' + (b.approx ? '<small>Approximate location</small>' : '') + '</div>';
       return h;
@@ -187,7 +189,7 @@
         var n = b.wineries.length;
         var icon = L.divIcon({ className: '', html: '<div class="bld' + (n === 1 ? ' one' : '') + '">' + (n > 1 ? n : '') + '</div>', iconSize: n === 1 ? [22, 22] : [30, 30], iconAnchor: n === 1 ? [11, 11] : [15, 15] });
         var m = L.marker([b.lat, b.lng], { icon: icon, title: n === 1 ? b.wineries[0].name : n + ' tasting rooms' }).addTo(layer);
-        m.bindPopup(popupHtml(b), { maxWidth: 280 });
+        m.bindPopup(popupHtml(b), { maxWidth: 300, maxHeight: 250 });
         m.bindTooltip(n === 1 ? b.wineries[0].name : (b.address || '') + ' · ' + n, { permanent: true, direction: 'right', offset: [n === 1 ? 10 : 14, 0], className: 'bld-label' });
         b.marker = m; markers[b.key] = m; pts.push([b.lat, b.lng]);
         b.wineries.forEach(function (w) { w._b = b; });
@@ -199,7 +201,7 @@
       var all = merged.wineries.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
       all.forEach(function (w) {
         var u = safeUrl(w.url), li = document.createElement('li');
-        li.innerHTML = '<span class="nm">' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a>' : esc(w.name)) + (w.note ? '<small>' + esc(w.note) + '</small>' : '') + '</span>' + (w._b ? '<button type="button">Show on map</button>' : '');
+        li.innerHTML = '<span class="nm">' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a>' : esc(w.name)) + (w.note ? '<small>' + esc(w.note) + '</small>' : '') + '</span>' + '<span class="acts">' + (u ? '<a class="web" href="' + esc(u) + '" target="_blank" rel="noopener">Website →</a>' : '') + (w._b ? '<button type="button">Show on map</button>' : '') + '</span>';
         var btn = li.querySelector('button');
         if (btn) btn.addEventListener('click', function () {
           mapEl.scrollIntoView({ behavior: 'smooth', block: 'center' });

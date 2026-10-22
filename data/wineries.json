@@ -275,7 +275,8 @@
         },
         {
           "name": "The Hollywood Tavern",
-          "note": "14508 Woodinville-Redmond Rd NE. Hours: Mon-Thu 11:30am-9:30pm, Fri 11:30am-10:30pm, Sat 11am-10:30pm, Sun 11am-9:30pm."
+          "note": "14508 Woodinville-Redmond Rd NE. Hours: Mon-Thu 11:30am-9:30pm, Fri 11:30am-10:30pm, Sat 11am-10:30pm, Sun 11am-9:30pm.",
+          "url": "https://thehollywoodtavern.com/"
         },
         {
           "name": "The SOMM Hotel",
@@ -414,7 +415,8 @@
           "url": "https://www.storycellars.com/"
         },
         {
-          "name": "Tilton River Cellars"
+          "name": "Tilton River Cellars",
+          "url": "https://tiltonrivercellars.godaddysites.com/"
         },
         {
           "name": "Tinte Cellars",
@@ -538,11 +540,8 @@
         },
         {
           "name": "Elentone Winery",
-          "note": "18808 142nd Ave NE Ste 5A"
-        },
-        {
-          "name": "Glacier View Cellars",
-          "note": "19255 Woodinville-Snohomish Rd #3"
+          "note": "18808 142nd Ave NE Ste 5A",
+          "url": "https://www.elentone.com/"
         },
         {
           "name": "Lobo Hills Wine Co.",
