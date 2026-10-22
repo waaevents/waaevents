@@ -152,9 +152,9 @@
       "precision": "address"
     },
     "Sparkman Cellars": {
-      "lat": 47.7324952,
-      "lng": -122.1419687,
-      "address": "14473 Woodinville-Redmond Rd NE",
+      "lat": 47.7345392,
+      "lng": -122.149421,
+      "address": "14300 NE 145th St",
       "precision": "address"
     },
     "Synne Cellars": {
@@ -617,6 +617,12 @@
       "lat": 47.7619508,
       "lng": -122.1501736,
       "address": "18520 142nd Ave NE",
+      "precision": "address"
+    },
+    "Sigillo Cellars": {
+      "lat": 47.7345392,
+      "lng": -122.149421,
+      "address": "14300 NE 145th St",
       "precision": "address"
     }
   },

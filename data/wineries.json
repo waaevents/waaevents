@@ -244,6 +244,11 @@
           ]
         },
         {
+          "name": "Sigillo Cellars",
+          "url": "https://www.sigillocellars.com/",
+          "note": "Snoqualmie winery, now partnered with Sparkman Cellars. Listed at the Sparkman building."
+        },
+        {
           "name": "Sleight of Hand Cellars",
           "url": "https://sleightofhandcellars.com/",
           "types": [
@@ -262,7 +267,8 @@
             "red",
             "white",
             "bubbles"
-          ]
+          ],
+          "note": "Old Redhook Brewery. Now partnered with Sigillo Cellars. Open daily 12-5pm."
         },
         {
           "name": "Synne Cellars",

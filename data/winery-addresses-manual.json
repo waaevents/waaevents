@@ -8,7 +8,7 @@
     "Tsillan Cellars": "13550 NE Village Square Dr",
     "Flatstick Pub Woodinville": "13205 NE 175th St",
     "Goose Ridge Woodinville Tasting Room": "14450 Woodinville-Redmond Rd NE",
-    "Sparkman Cellars": "14473 Woodinville-Redmond Rd NE",
+    "Sparkman Cellars": "14300 NE 145th St",
     "Pepper Bridge Winery & Amavi Cellars": "14810 NE 145th St",
     "Cave B Estate Winery": "14356 Woodinville-Redmond Rd NE",
     "Bong Bong": "14484 147th Pl NE",
@@ -26,7 +26,8 @@
     "SheChill Bakery": "17401 133rd Ave NE",
     "Evergreen Family Wines": "14450 Woodinville-Redmond Rd NE",
     "Savage Grace Wines": "19501 144th Ave NE",
-    "Baer Winery": "13590 NE Village Square Dr"
+    "Baer Winery": "13590 NE Village Square Dr",
+    "Sigillo Cellars": "14300 NE 145th St"
   },
   "coordinates": {
     "Bong Bong": {
@@ -38,6 +39,16 @@
       "lat": 47.7327,
       "lng": -122.1424,
       "note": "Tasting inside Vaunt Modern Gallery (The Yard at Harvest)"
+    },
+    "Sparkman Cellars": {
+      "lat": 47.7345392,
+      "lng": -122.149421,
+      "note": "Old Redhook Brewery building (same building as DeLille Cellars); Sparkman's own site gives 14300 NE 145th St #102"
+    },
+    "Sigillo Cellars": {
+      "lat": 47.7345392,
+      "lng": -122.149421,
+      "note": "Old Redhook Brewery building (same building as DeLille Cellars); Sparkman's own site gives 14300 NE 145th St #102"
     }
   }
 }
