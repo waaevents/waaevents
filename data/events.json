@@ -1,48 +1,8 @@
 {
-  "updatedAt": "2026-10-22T17:44:57.606Z",
+  "updatedAt": "2026-10-22T22:26:56.709Z",
   "windowDays": 90,
-  "count": 798,
+  "count": 791,
   "events": [
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-22T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-22T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap-2026-10-22T18:00:00.000Z",
-      "title": "$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap",
-      "category": "food-drink",
-      "start": "2026-10-22T18:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-22T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-22T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-22T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-22T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-22T23:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
@@ -72,6 +32,16 @@
       "url": "https://425cellars.com/event/music-featuring-d-s-wilson/",
       "description": "🎷 Thursday Night at 425 Cellars 🎷 Join us Thursday, October 22nd from 5:30–7:30 PM for live music featuring D.S. Wilson! 🎶 A Billboard Artist and Top 25 Seattle-based multi-instrumental jazz musician specializing in saxophone and piano/keys, D.S. Wilson is a composer, recordin",
       "source": "425 Cellars"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-10-23T00:30:00.000Z",
+      "title": "Knotty Thursdays | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-23T00:30:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-22/",
+      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity,…</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-23T00:30:00.000Z",
@@ -222,6 +192,16 @@
       "url": "https://425cellars.com/event/club-release-members-please-check-your-emails-for-more-information/",
       "description": "Club Release! Members, please check your emails for more information",
       "source": "425 Cellars"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Live Music by Josiah Bogle | Woodinville-2026-10-24T00:00:00.000Z",
+      "title": "Live Music by Josiah Bogle | Woodinville",
+      "category": "music",
+      "start": "2026-10-24T00:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/live-music-by-josiah-bogle-woodinville-3/2026-10-23/",
+      "description": "<p>Join us for the talented Josiah Bogle in Woodinville. His performance will enhance your Evergreen experience, making you want to come back for more! Josiah Bogle takes you on a…</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-10-24T00:00:00.000Z",
@@ -414,6 +394,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Evergreen Family Wines-Live Music by Sarah Brunner | Woodinville-2026-10-24T21:00:00.000Z",
+      "title": "Live Music by Sarah Brunner | Woodinville",
+      "category": "music",
+      "start": "2026-10-24T21:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/live-music-by-sarah-brunner-woodinville-4/2026-10-24/",
+      "description": "<p> Michigan native and Seattle-based musician Sarah Brunner is a full-time performer, both as a solo artist and with her band, The Hipocrats. Her style, deeply rooted in acoustic Americana, folk,…</p>\\n",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Argentine Fire Cooking by Primitivo at Darby-2026-10-24T21:00:00.000Z",
       "title": "Argentine Fire Cooking by Primitivo at Darby",
       "category": "food-drink",
@@ -472,6 +462,16 @@
       "url": "https://www.ste-michelle.com/visit-us/experiences",
       "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Winter Release Party | Woodinville-2026-10-25T01:00:00.000Z",
+      "title": "Winter Release Party | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-25T01:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/winter-release-party-woodinville-2/",
+      "description": "<p>Join us at our Woodinville Tasting Room for our exclusive Wine Club Winter Release Party on October 24th from 6–9 PM! Be among the first to experience our newest releases…</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Sarah Brunner at Freebush Cellars-2026-10-25T01:00:00.000Z",
@@ -542,6 +542,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/n7mhrt4ff22e5cp-wmctr-xm2ca-2cwe2-xx2h6-ya866-nh7xb-rndx7-akrpd-7ja58-3wdxs-w4gb9-4cp99-pcptb-45n6c-29k3z-5k5ns",
       "description": "Start your Sunday morning in the best way! Prohibition Cellars will host Yoga Uncorked for a morning of yoga followed by wine. Whether you’re brand new to yoga or a seasoned practitioner, a skilled instructor will guide you and help adjust and adapt the practice during class as n",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-10-25T19:00:00.000Z",
+      "title": "Sip Back Sundays | All Locations",
+      "category": "food-drink",
+      "start": "2026-10-25T19:00:00.000Z",
+      "location": "",
+      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-10-25/",
+      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend…</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "winery-LaShellé Wines-Closing at 3pm for off premise event-2026-10-25T19:00:00.001Z",
@@ -1074,6 +1084,16 @@
       "source": "425 Cellars"
     },
     {
+      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-10-30T00:30:00.000Z",
+      "title": "Knotty Thursdays | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-30T00:30:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-29/",
+      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity,…</p>\\n",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-30T00:30:00.000Z",
       "title": "The Summit: 16-Course Chef's Counter Dinner",
       "category": "food-drink",
@@ -1242,6 +1262,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Murder Mystery Dinner | Woodinville-2026-10-31T01:00:00.000Z",
+      "title": "Murder Mystery Dinner | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-31T01:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/murder-mystery-dinner-woodinville/",
+      "description": "<p>I Love the 80s to Death: A Halloween Murder Mystery Dinner This Halloween, we’re going back to the 80s... and someone might not make it out alive. Join us at…</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Tyler McGinnis at Freebush Cellars-2026-10-31T01:00:00.000Z",
