@@ -6,6 +6,7 @@
 // match. Run manually with: node scripts/update-events.mjs
 // Run automatically by .github/workflows/update-events.yml (daily cron).
 
+import { fuzzyDedupe } from './dedupe.mjs';
 import ical from 'node-ical';
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -445,6 +446,12 @@ async function main() {
   for (const e of events) {
     e.title = decodeEntities(e.title);
     e.location = decodeEntities(e.location);
+  }
+  {
+    const r = fuzzyDedupe(events);
+    if (r.dropped.length) console.log(`Fuzzy de-dupe removed ${r.dropped.length} duplicate listing(s).`);
+    events.length = 0;
+    events.push(...r.events);
   }
   events.sort((a, b) => new Date(a.start) - new Date(b.start));
 

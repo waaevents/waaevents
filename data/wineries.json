@@ -111,7 +111,10 @@
         {
           "name": "Fireside Lounge",
           "url": "https://www.willowslodge.com/woodinville-restaurants/fireside-lounge/",
-          "note": "Willows Lodge. Open daily 3-10pm. Happier Hour 3-5:30pm and 9-10pm."
+          "note": "Willows Lodge. Live music through the week. Open daily 3-10pm. Happier Hour 3-5:30pm and 9-10pm.",
+          "types": [
+            "live-music"
+          ]
         },
         {
           "name": "Florence Cellars",
