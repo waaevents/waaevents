@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-23T03:47:08.900Z",
+  "ranAt": "2026-10-23T17:36:00.557Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -62,7 +62,7 @@
     {
       "winery": "Baer Winery",
       "status": "site-unreachable",
-      "error": "HTTP 404"
+      "error": "This operation was aborted"
     },
     {
       "winery": "Ballard Pizza Company",
@@ -381,7 +381,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 4,
+      "count": 5,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
