@@ -100,7 +100,8 @@ async function renderCategoryList() {
         const k = norm(part).split(' ').slice(0, 2).join(' ');
         return k && norm(ev.title).includes(k);
       });
-      const meta = [full + ' · ' + time, venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
+      const endTime = ev.end ? new Date(ev.end).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: WOODINVILLE_TZ }) : '';
+      const meta = [full + ' · ' + time + (endTime ? ' – ' + endTime : ''), venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
       return `
         <li class="event-card">
           <div class="event-date">

@@ -1,0 +1,52 @@
+{
+  "_note": "Weekly shows that aren't published as individual dated listings. scripts/recurring.mjs turns each into dated events for the next 90 days (Pacific time). When a venue publishes a specific show for the same night, the specific listing wins and the generic one is dropped. Weekdays: 0=Sun ... 6=Sat. skipDates: YYYY-MM-DD.",
+  "series": [
+    {
+      "title": "Live Music at Prohibition Cellars",
+      "category": "music",
+      "location": "Prohibition Cellars, 19501 144th Ave NE, Suite F-900, Woodinville, WA 98072",
+      "weekdays": [
+        5
+      ],
+      "start": "18:00",
+      "end": "21:00",
+      "url": "https://www.prohibitioncellars.com/events-1",
+      "description": "Live music most Friday nights, usually 6-9pm. Reservations recommended.",
+      "skipDates": [
+        "2026-12-25"
+      ]
+    },
+    {
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "weekdays": [
+        5,
+        6
+      ],
+      "start": "18:00",
+      "end": "20:00",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "skipDates": [
+        "2026-12-25"
+      ]
+    },
+    {
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "weekdays": [
+        5,
+        6
+      ],
+      "start": "18:00",
+      "end": "20:00",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "skipDates": [
+        "2026-12-25"
+      ]
+    }
+  ]
+}

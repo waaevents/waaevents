@@ -25,7 +25,8 @@ function venueOf(location) {
 
 export function fuzzyDedupe(events) {
   // Feed events first so they win over manual ones.
-  const ordered = [...events].sort((a, b) => (a.source === 'Manually added') - (b.source === 'Manually added'));
+  const rank = (e) => (e.source === 'Recurring' ? 2 : e.source === 'Manually added' ? 1 : 0);
+  const ordered = [...events].sort((a, b) => rank(a) - rank(b));
   const kept = [];
   const dropped = [];
   for (const ev of ordered) {
@@ -38,7 +39,11 @@ export function fuzzyDedupe(events) {
       if (Math.abs(new Date(k.start).getTime() - t) > 90 * 60000) return false;
       const kw = new Set(words(String(k.location || '').split(',')[0]));
       const ktoks = words(k.title).filter((w) => !GENERIC.has(w) && !kw.has(w) && w.length > 1);
-      return ktoks.some((w) => toks.has(w));
+      if (ktoks.some((w) => toks.has(w))) return true;
+      // A generic weekly placeholder ("Live Music at X") is covered by any
+      // specific music listing at the same venue that night.
+      // Same category only, so a band filed under Food & Drink by its source doesn't hide the music listing.
+      return ev.category === k.category && (toks.size === 0 || ktoks.length === 0);
     });
     if (dup) dropped.push({ dropped: ev, keptAs: dup }); else kept.push(ev);
   }

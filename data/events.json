@@ -214,16 +214,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Two Vintners-2026-10-24T01:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "manual-Linzy Collins at Fireside Lounge-2026-10-24T01:00:00.000Z",
       "title": "Linzy Collins at Fireside Lounge",
       "category": "music",
@@ -232,6 +222,28 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-10-24t01-00-00-000z-live-music-at-prohibition-cellars",
+      "title": "Live Music at Prohibition Cellars",
+      "category": "music",
+      "start": "2026-10-24T01:00:00.000Z",
+      "end": "2026-10-24T04:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE, Suite F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1",
+      "description": "Live music most Friday nights, usually 6-9pm. Reservations recommended.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-10-24t01-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-10-24T01:00:00.000Z",
+      "end": "2026-10-24T03:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Lexci Menhart-2026-10-24T01:00:00.898Z",
@@ -392,6 +404,28 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-10-25t01-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-10-25T01:00:00.000Z",
+      "end": "2026-10-25T03:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-10-25t01-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-10-25T01:00:00.000Z",
+      "end": "2026-10-25T03:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "manual-Tyler McGinnis at Obelisco-2026-10-25T02:00:00.000Z",
@@ -1174,6 +1208,28 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-10-31t01-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-10-31T01:00:00.000Z",
+      "end": "2026-10-31T03:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-10-31t01-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-10-31T01:00:00.000Z",
+      "end": "2026-10-31T03:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Prohibition Cellars-Three Trick Pony-2026-10-31T01:00:00.879Z",
       "title": "Three Trick Pony",
       "category": "music",
@@ -1332,6 +1388,28 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-01t01-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-01T01:00:00.000Z",
+      "end": "2026-11-01T03:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-01t01-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-01T01:00:00.000Z",
+      "end": "2026-11-01T03:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "manual-Live Music at Obelisco-2026-11-01T02:00:00.000Z",
@@ -2034,6 +2112,28 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-07t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-07T02:00:00.000Z",
+      "end": "2026-11-07T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-07t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-07T02:00:00.000Z",
+      "end": "2026-11-07T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Prohibition Cellars-Echos of Epic-2026-11-07T02:00:00.112Z",
       "title": "Echos of Epic",
       "category": "music",
@@ -2162,6 +2262,28 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-08t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-08T02:00:00.000Z",
+      "end": "2026-11-08T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-08t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-08T02:00:00.000Z",
+      "end": "2026-11-08T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "winery-Village Wines-Izzy Burns – Live Music-2026-11-08T03:00:00.000Z",
@@ -2884,6 +3006,28 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-14t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-14T02:00:00.000Z",
+      "end": "2026-11-14T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-14t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-14T02:00:00.000Z",
+      "end": "2026-11-14T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Comedy Night at Love That Red Winery-2026-11-14T03:00:00.000Z",
       "title": "Comedy Night at Love That Red Winery",
       "category": "comedy",
@@ -3042,6 +3186,28 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-15t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-15T02:00:00.000Z",
+      "end": "2026-11-15T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-15t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-15T02:00:00.000Z",
+      "end": "2026-11-15T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "winery-Village Wines-Tyler McGinnis-2026-11-15T03:00:00.000Z",
@@ -3734,16 +3900,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Prohibition Cellars-2026-11-21T02:00:00.000Z",
-      "title": "Friday Live Music at Prohibition Cellars",
-      "category": "music",
-      "start": "2026-11-21T02:00:00.000Z",
-      "location": "Prohibition Cellars, Woodinville, WA",
-      "url": "https://www.prohibitioncellars.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "manual-Friday Live Music at Two Vintners-2026-11-21T02:00:00.000Z",
       "title": "Friday Live Music at Two Vintners",
       "category": "music",
@@ -3752,6 +3908,28 @@
       "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-21t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-21T02:00:00.000Z",
+      "end": "2026-11-21T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-21t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-21T02:00:00.000Z",
+      "end": "2026-11-21T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "winery-Prohibition Cellars-The Davanos-2026-11-21T02:00:00.188Z",
@@ -3852,6 +4030,28 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-22t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-22T02:00:00.000Z",
+      "end": "2026-11-22T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-22t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-22T02:00:00.000Z",
+      "end": "2026-11-22T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "manual-Live Music at Obelisco-2026-11-22T03:00:00.000Z",
@@ -4514,16 +4714,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Prohibition Cellars-2026-11-28T02:00:00.000Z",
-      "title": "Friday Live Music at Prohibition Cellars",
-      "category": "music",
-      "start": "2026-11-28T02:00:00.000Z",
-      "location": "Prohibition Cellars, Woodinville, WA",
-      "url": "https://www.prohibitioncellars.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "manual-Friday Live Music at Two Vintners-2026-11-28T02:00:00.000Z",
       "title": "Friday Live Music at Two Vintners",
       "category": "music",
@@ -4532,6 +4722,28 @@
       "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-28t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-28T02:00:00.000Z",
+      "end": "2026-11-28T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-28t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-28T02:00:00.000Z",
+      "end": "2026-11-28T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "winery-Prohibition Cellars-Joel Gibson Jr. (duo)-2026-11-28T02:00:00.078Z",
@@ -4622,6 +4834,28 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-29t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-29T02:00:00.000Z",
+      "end": "2026-11-29T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-29t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-11-29T02:00:00.000Z",
+      "end": "2026-11-29T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "manual-Live Music at Obelisco-2026-11-29T03:00:00.000Z",
@@ -5214,6 +5448,28 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-05t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-05T02:00:00.000Z",
+      "end": "2026-12-05T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-05t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-05T02:00:00.000Z",
+      "end": "2026-12-05T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Prohibition Cellars-Laurel Canyon Legacy-2026-12-05T02:00:00.179Z",
       "title": "Laurel Canyon Legacy",
       "category": "music",
@@ -5302,6 +5558,28 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-06t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-06T02:00:00.000Z",
+      "end": "2026-12-06T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-06t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-06T02:00:00.000Z",
+      "end": "2026-12-06T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "manual-Live Music at Obelisco-2026-12-06T03:00:00.000Z",
@@ -5924,6 +6202,28 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-12t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-12T02:00:00.000Z",
+      "end": "2026-12-12T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-12t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-12T02:00:00.000Z",
+      "end": "2026-12-12T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Comedy Night at Love That Red Winery-2026-12-12T03:00:00.000Z",
       "title": "Comedy Night at Love That Red Winery",
       "category": "comedy",
@@ -6032,6 +6332,28 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-13t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-13T02:00:00.000Z",
+      "end": "2026-12-13T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-13t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-13T02:00:00.000Z",
+      "end": "2026-12-13T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "manual-Live Music at Obelisco-2026-12-13T03:00:00.000Z",
@@ -6624,6 +6946,28 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-19t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-19T02:00:00.000Z",
+      "end": "2026-12-19T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-19t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-19T02:00:00.000Z",
+      "end": "2026-12-19T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Prohibition Cellars-Three Trick Pony-2026-12-19T02:00:00.879Z",
       "title": "Three Trick Pony",
       "category": "music",
@@ -6712,6 +7056,28 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-20t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-20T02:00:00.000Z",
+      "end": "2026-12-20T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-20t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-20T02:00:00.000Z",
+      "end": "2026-12-20T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     },
     {
       "id": "manual-Live Music at Obelisco-2026-12-20T03:00:00.000Z",
@@ -7354,6 +7720,28 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-27t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-27T02:00:00.000Z",
+      "end": "2026-12-27T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-27t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2026-12-27T02:00:00.000Z",
+      "end": "2026-12-27T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Live Music at Obelisco-2026-12-27T03:00:00.000Z",
       "title": "Live Music at Obelisco",
       "category": "music",
@@ -7754,6 +8142,116 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2027-01-02t02-00-00-000z-live-music-at-prohibition-cellars",
+      "title": "Live Music at Prohibition Cellars",
+      "category": "music",
+      "start": "2027-01-02T02:00:00.000Z",
+      "end": "2027-01-02T05:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE, Suite F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1",
+      "description": "Live music most Friday nights, usually 6-9pm. Reservations recommended.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-02t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-02T02:00:00.000Z",
+      "end": "2027-01-02T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-02t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-02T02:00:00.000Z",
+      "end": "2027-01-02T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-03t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-03T02:00:00.000Z",
+      "end": "2027-01-03T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-03t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-03T02:00:00.000Z",
+      "end": "2027-01-03T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-09t02-00-00-000z-live-music-at-prohibition-cellars",
+      "title": "Live Music at Prohibition Cellars",
+      "category": "music",
+      "start": "2027-01-09T02:00:00.000Z",
+      "end": "2027-01-09T05:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE, Suite F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1",
+      "description": "Live music most Friday nights, usually 6-9pm. Reservations recommended.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-09t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-09T02:00:00.000Z",
+      "end": "2027-01-09T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-09t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-09T02:00:00.000Z",
+      "end": "2027-01-09T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-10t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-10T02:00:00.000Z",
+      "end": "2027-01-10T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-10t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-10T02:00:00.000Z",
+      "end": "2027-01-10T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Synne Cellars-DJingo: Second Sunday Funday at Synne-2027-01-11T00:00:00.000Z",
       "title": "DJingo: Second Sunday Funday at Synne",
       "category": "music",
@@ -7772,6 +8270,61 @@
       "url": "https://www.synnecellars.com/event/synne-sessions-brian-lally-live-acoustic-music/",
       "description": "Start your weekend with an evening of beautiful live acoustic music at Synne Cellars! We’re delighted to welcome back Brian Lally , an accomplished guitarist, singer, songwriter, and composer whose expressive playing blends classical influences, improvisation, and soulful musical",
       "source": "Synne Cellars"
+    },
+    {
+      "id": "rec-2027-01-16t02-00-00-000z-live-music-at-prohibition-cellars",
+      "title": "Live Music at Prohibition Cellars",
+      "category": "music",
+      "start": "2027-01-16T02:00:00.000Z",
+      "end": "2027-01-16T05:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE, Suite F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1",
+      "description": "Live music most Friday nights, usually 6-9pm. Reservations recommended.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-16t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-16T02:00:00.000Z",
+      "end": "2027-01-16T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-16t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-16T02:00:00.000Z",
+      "end": "2027-01-16T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-17t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-17T02:00:00.000Z",
+      "end": "2027-01-17T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-17t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-17T02:00:00.000Z",
+      "end": "2027-01-17T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
     }
   ]
 }

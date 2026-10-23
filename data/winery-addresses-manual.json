@@ -27,7 +27,8 @@
     "Evergreen Family Wines": "14450 Woodinville-Redmond Rd NE",
     "Savage Grace Wines": "19501 144th Ave NE",
     "Baer Winery": "13590 NE Village Square Dr",
-    "Sigillo Cellars": "14300 NE 145th St"
+    "Sigillo Cellars": "14300 NE 145th St",
+    "Gorman Winery": "14505 148th Ave NE"
   },
   "coordinates": {
     "Bong Bong": {
@@ -49,6 +50,11 @@
       "lat": 47.7345392,
       "lng": -122.149421,
       "note": "Old Redhook Brewery building (same building as DeLille Cellars); Sparkman's own site gives 14300 NE 145th St #102"
+    },
+    "Gorman Winery": {
+      "lat": 47.7330904,
+      "lng": -122.1426097,
+      "note": "Hollywood Hill tasting room at The Station (same building as Patterson Cellars Hollywood Hill)"
     }
   }
 }

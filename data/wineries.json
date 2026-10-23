@@ -133,6 +133,17 @@
           ]
         },
         {
+          "name": "Gorman Winery",
+          "note": "Hollywood Hill tasting room at The Station, 14505 148th Ave NE. Live music Friday and Saturday evenings. Second tasting room at the winery in the Warehouse District (19501 144th Ave NE, C-500).",
+          "url": "https://gormanwinery.com/",
+          "wineFocus": [
+            "red"
+          ],
+          "types": [
+            "live-music"
+          ]
+        },
+        {
           "name": "Grosgrain Vineyards",
           "url": "https://grosgrainvineyards.com/",
           "note": "The Harvest"
@@ -228,11 +239,14 @@
         {
           "name": "Patterson Cellars",
           "url": "https://www.pattersoncellars.com",
-          "note": "also in Hollywood District",
+          "note": "Hollywood Hill tasting room at The Station, 14505 148th Ave NE. Live music Friday and Saturday evenings, 6-8pm. Second tasting room in the Warehouse District.",
           "wineFocus": [
             "red",
             "white",
             "bubbles"
+          ],
+          "types": [
+            "live-music"
           ]
         },
         {
@@ -355,14 +369,6 @@
         {
           "name": "Genoa Cellars",
           "url": "http://www.genoacellars.com/"
-        },
-        {
-          "name": "Gorman Winery",
-          "note": "19501 144th Ave NE, C-500",
-          "url": "https://gormanwinery.com/",
-          "wineFocus": [
-            "red"
-          ]
         },
         {
           "name": "JBell Wine Co.",

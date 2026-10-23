@@ -7,6 +7,7 @@
 // Run automatically by .github/workflows/update-events.yml (daily cron).
 
 import { fuzzyDedupe } from './dedupe.mjs';
+import { expandRecurring } from './recurring.mjs';
 import ical from 'node-ical';
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
@@ -446,6 +447,15 @@ async function main() {
   for (const e of events) {
     e.title = decodeEntities(e.title);
     e.location = decodeEntities(e.location);
+  }
+  // Weekly recurring shows (data/recurring-events.json) -> dated events.
+  try {
+    const rec = JSON.parse(await readFile('data/recurring-events.json', 'utf8'));
+    const expanded = expandRecurring(rec.series || [], new Date(), WINDOW_DAYS);
+    for (const ev of expanded) events.push({ id: `rec-${ev.start}-${ev.title}`.replace(/[^a-z0-9]+/gi, '-').toLowerCase(), ...ev });
+    console.log(`Recurring series: ${expanded.length} dated events generated`);
+  } catch (err) {
+    console.warn('Recurring events skipped:', err.message);
   }
   {
     const r = fuzzyDedupe(events);
