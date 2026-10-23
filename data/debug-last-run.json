@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-22T22:26:56.472Z",
+  "ranAt": "2026-10-23T03:47:08.900Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 19,
-      "addedCount": 19
+      "rawCount": 18,
+      "addedCount": 18
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -31,11 +31,6 @@
     }
   ],
   "wineryReport": [
-    {
-      "winery": "Adams Bench",
-      "status": "no-events-found",
-      "platform": "wordpress"
-    },
     {
       "winery": "Alexandria Nicole Cellars",
       "status": "ok",
@@ -92,7 +87,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 3,
+      "count": 2,
       "eventPage": "https://www.beaumontcellars.com/events-calendar"
     },
     {
@@ -196,12 +191,14 @@
       "platform": "shopify"
     },
     {
+      "winery": "Elentone Winery",
+      "status": "no-events-found",
+      "platform": "squarespace"
+    },
+    {
       "winery": "Evergreen Family Wines",
-      "status": "ok",
-      "strategy": "jsonld",
-      "platform": "wordpress",
-      "count": 7,
-      "eventPage": "https://evergreenfamilywines.com/events/list/"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Fidélitas",
@@ -298,7 +295,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 16,
+      "count": 15,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -431,6 +428,11 @@
       "platform": "weebly"
     },
     {
+      "winery": "Sigillo Cellars",
+      "status": "site-unreachable",
+      "error": "fetch failed"
+    },
+    {
       "winery": "Simpatico Cellars",
       "status": "site-unreachable",
       "error": "fetch failed"
@@ -479,6 +481,11 @@
       "platform": "other"
     },
     {
+      "winery": "The Hollywood Tavern",
+      "status": "no-events-found",
+      "platform": "wordpress"
+    },
+    {
       "winery": "The SOMM Hotel",
       "status": "no-events-found",
       "platform": "wordpress"
@@ -487,6 +494,11 @@
       "winery": "The Winemakers Reserve",
       "status": "no-events-found",
       "platform": "weebly"
+    },
+    {
+      "winery": "Tilton River Cellars",
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Tinte Cellars",
@@ -500,11 +512,6 @@
       "winery": "Triplehorn Brewing",
       "status": "no-events-found",
       "platform": "wordpress"
-    },
-    {
-      "winery": "Truthteller Winery",
-      "status": "no-events-found",
-      "platform": "wix"
     },
     {
       "winery": "Tsillan Cellars",
@@ -532,7 +539,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 14,
+      "count": 13,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
@@ -555,7 +562,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 7,
+      "count": 6,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
@@ -563,7 +570,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 1,
+      "count": 2,
       "eventPage": "https://www.wilridgewinery.com/wilridge-pie-wine-bar/"
     },
     {
