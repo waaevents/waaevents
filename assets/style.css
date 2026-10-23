@@ -528,3 +528,15 @@ body {
 /* Visible website link on every winery row */
 .winery-chip .visit { display: block; margin-top: 6px; font-size: 0.78rem; font-weight: 700; letter-spacing: 0.02em; color: var(--sage-deep); }
 a.winery-chip:hover .visit { color: var(--gold-deep); text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+
+/* Event search (artist / event + winery) */
+.event-search { max-width: 720px; margin: 0 auto 8px; padding: 22px 0 6px; display: grid; grid-template-columns: 1fr 1fr; gap: 14px 22px; }
+.event-search .es-field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.event-search .es-field span { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--sage-deep); }
+.event-search input, .event-search select {
+  font: inherit; font-size: 1rem; min-width: 0; width: 100%; padding: 10px 2px; color: var(--ink);
+  border: 0; border-bottom: 2px solid var(--sage-deep); border-radius: 0; background: transparent;
+}
+.event-search input:focus, .event-search select:focus { outline: none; border-bottom-color: var(--gold); }
+.event-search .es-count { grid-column: 1 / -1; margin: 0; font-size: 0.8rem; font-weight: 600; color: var(--ink-soft); }
+@media (max-width: 560px) { .event-search { grid-template-columns: 1fr; } }

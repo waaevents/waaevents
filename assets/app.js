@@ -71,6 +71,11 @@ async function renderCategoryList() {
   if (!list) return;
   const category = document.body.getAttribute('data-category');
 
+  // Accent-insensitive, case-insensitive text (LaShellé = lashelle).
+  const fold = (t) => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const venueOf = (ev) => String(ev.location || '').split(',')[0].trim();
+  const venueKey = (ev) => fold(venueOf(ev)).replace(/[^a-z0-9]+/g, '');
+
   try {
     const data = await loadEvents();
     setFooterUpdated(data.updatedAt);
@@ -82,21 +87,20 @@ async function renderCategoryList() {
       return;
     }
 
-    list.innerHTML = events.map((ev) => {
+    const cardHtml = (ev) => {
       const { day, month, full, time } = formatDay(ev.start);
       const title = ev.url
         ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>`
         : escapeHtml(ev.title);
       // Keep each listing simple: title (artist/event + venue), then time and
       // a short venue name only when the title doesn't already name it.
-      const venue = String(ev.location || '').split(',')[0].trim();
+      const venue = venueOf(ev);
       const norm = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
       const venueInTitle = venue && venue.split('&').some((part) => {
         const k = norm(part).split(' ').slice(0, 2).join(' ');
         return k && norm(ev.title).includes(k);
       });
       const meta = [full + ' · ' + time, venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
-      const desc = '';
       return `
         <li class="event-card">
           <div class="event-date">
@@ -106,10 +110,47 @@ async function renderCategoryList() {
           <div class="event-body">
             <h3>${title}</h3>
             <p class="event-meta">${escapeHtml(meta)}</p>
-            ${desc}
           </div>
         </li>`;
-    }).join('');
+    };
+
+    // ---- Search: artist / event name and winery ----
+    const venues = new Map(); // key -> label
+    events.forEach((ev) => { const k = venueKey(ev); if (k && !venues.has(k)) venues.set(k, venueOf(ev)); });
+    const venueOptions = [...venues.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+      .map(([k, label]) => `<option value="${escapeAttr(k)}">${escapeHtml(label)}</option>`).join('');
+    const bar = document.createElement('div');
+    bar.className = 'event-search';
+    bar.innerHTML = `
+      <label class="es-field"><span>Search artist or event</span>
+        <input type="search" id="ev-q" placeholder="e.g. Brian James" autocomplete="off"></label>
+      <label class="es-field"><span>Winery or venue</span>
+        <select id="ev-venue"><option value="">All wineries &amp; venues</option>${venueOptions}</select></label>
+      <p class="es-count" id="ev-count" aria-live="polite"></p>`;
+    list.parentNode.insertBefore(bar, list);
+
+    const qEl = bar.querySelector('#ev-q');
+    const vEl = bar.querySelector('#ev-venue');
+    const cEl = bar.querySelector('#ev-count');
+
+    const apply = () => {
+      const tokens = fold(qEl.value).split(/\s+/).filter(Boolean);
+      const vk = vEl.value;
+      const shown = events.filter((ev) => {
+        if (vk && venueKey(ev) !== vk) return false;
+        if (!tokens.length) return true;
+        const hay = fold(`${ev.title} ${ev.location || ''} ${ev.description || ''}`);
+        return tokens.every((t) => hay.includes(t));
+      });
+      list.innerHTML = shown.length
+        ? shown.map(cardHtml).join('')
+        : '<li class="empty-state">No matches. Try just the artist\'s last name, or choose "All wineries &amp; venues".</li>';
+      const filtered = tokens.length || vk;
+      cEl.textContent = filtered ? `${shown.length} of ${events.length} events` : `${events.length} upcoming events`;
+    };
+    qEl.addEventListener('input', apply);
+    vEl.addEventListener('change', apply);
+    apply();
   } catch (err) {
     list.innerHTML = `<li class="error-state">Couldn't load events right now. Try refreshing the page.</li>`;
   }
