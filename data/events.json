@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-10-23T17:36:00.939Z",
+  "updatedAt": "2026-10-23T19:51:41.926Z",
   "windowDays": 90,
-  "count": 777,
+  "count": 826,
   "events": [
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-23T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-23T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Patterson Cellars-2023 Grenache and 2022 BDX Member Preview Weekend-2026-10-23T18:00:00.150Z",
-      "title": "2023 Grenache and 2022 BDX Member Preview Weekend",
-      "category": "community",
-      "start": "2026-10-23T18:00:00.150Z",
-      "location": "Patterson Cellars, All Locations",
-      "url": "https://www.pattersoncellars.com/events/2026/10/22/2023-grenache-and-2022-bdx-member-preview-weekend",
-      "description": "",
-      "source": "Patterson Cellars"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-23T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
@@ -210,6 +190,16 @@
       "start": "2026-10-24T01:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-10-24T01:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-10-24T01:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -406,17 +396,6 @@
       "source": "Manually added"
     },
     {
-      "id": "rec-2026-10-25t01-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
-      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
-      "category": "music",
-      "start": "2026-10-25T01:00:00.000Z",
-      "end": "2026-10-25T03:00:00.000Z",
-      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
-      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
-      "source": "Recurring"
-    },
-    {
       "id": "rec-2026-10-25t01-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
       "title": "Live Music at Gorman Winery (Hollywood Hill)",
       "category": "music",
@@ -426,6 +405,16 @@
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
       "source": "Recurring"
+    },
+    {
+      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Erina McLaren-2026-10-25T01:00:00.951Z",
+      "title": "Live Music at Hollywood Hill: Erina McLaren",
+      "category": "music",
+      "start": "2026-10-25T01:00:00.951Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
+      "url": "https://www.pattersoncellars.com/events/2026/10/24/live-music-at-hollywood-hill-erina-mclaren",
+      "description": "",
+      "source": "Patterson Cellars"
     },
     {
       "id": "manual-Tyler McGinnis at Obelisco-2026-10-25T02:00:00.000Z",
