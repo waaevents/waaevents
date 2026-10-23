@@ -1,18 +1,8 @@
 {
-  "updatedAt": "2026-10-23T03:47:09.113Z",
+  "updatedAt": "2026-10-23T17:36:00.939Z",
   "windowDays": 90,
   "count": 777,
   "events": [
-    {
-      "id": "manual-Fall Cabernet Vertical Tasting at Darby-2026-10-23T17:00:00.000Z",
-      "title": "Fall Cabernet Vertical Tasting at Darby",
-      "category": "food-drink",
-      "start": "2026-10-23T17:00:00.000Z",
-      "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
-      "url": "https://darbywinery.com/events/fall-cabernet-vertical-tasting/",
-      "description": "Fall Cabernet vertical tasting at Darby's Woodinville and West Seattle tasting rooms, all day. $30 non-members, complimentary for members.",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-23T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
@@ -242,6 +232,16 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Lexci Menhart-2026-10-24T01:00:00.898Z",
+      "title": "Live Music at Hollywood Hill: Lexci Menhart",
+      "category": "music",
+      "start": "2026-10-24T01:00:00.898Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
+      "url": "https://www.pattersoncellars.com/events/2026/10/23/live-music-at-hollywood-hill-lexci-menhart",
+      "description": "",
+      "source": "Patterson Cellars"
     },
     {
       "id": "winery-Prohibition Cellars-The Cover-Up-2026-10-24T01:00:00.937Z",
