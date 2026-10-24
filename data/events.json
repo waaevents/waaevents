@@ -1,270 +1,8 @@
 {
-  "updatedAt": "2026-10-23T19:51:41.926Z",
+  "updatedAt": "2026-10-24T16:21:52.325Z",
   "windowDays": 90,
-  "count": 826,
+  "count": 803,
   "events": [
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-23T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-23T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-23T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-23T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Jarrett Renshaw-2026-10-23T23:00:00.000Z",
-      "title": "Live Music at Bayernmoor – Jarrett Renshaw",
-      "category": "music",
-      "start": "2026-10-23T23:00:00.000Z",
-      "location": "Bayernmoor Woodinville Tasting Room",
-      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240-397/",
-      "description": "Enjoy classic tunes from local artist, Jarrett Renshaw! Make a reservation for wine, food and fun music!",
-      "source": "Bayernmoor Cellars"
-    },
-    {
-      "id": "manual-The Red Party: From The Sky Down Fall Red Release-2026-10-23T23:00:00.000Z",
-      "title": "The Red Party: From The Sky Down Fall Red Release",
-      "category": "food-drink",
-      "start": "2026-10-23T23:00:00.000Z",
-      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/matthews-winery/event/623270",
-      "description": "New From The Sky Down red wine releases with live music and food pairings from an on-site food truck, starting 4pm. $30 per ticket.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-23T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-23T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000426-1792800000-1792972799@425cellars.com",
-      "title": "Club Release! Members, please check your emails for more information",
-      "category": "community",
-      "start": "2026-10-24T00:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/club-release-members-please-check-your-emails-for-more-information/",
-      "description": "Club Release! Members, please check your emails for more information",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-10-24T00:00:00.000Z",
-      "title": "Friday Night Music at Chateau Ste. Michelle",
-      "category": "music",
-      "start": "2026-10-24T00:00:00.000Z",
-      "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.ste-michelle.com/visit-us/experiences",
-      "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Friday Live Music at Studio 1886-2026-10-24T00:00:00.000Z",
-      "title": "Friday Live Music at Studio 1886",
-      "category": "music",
-      "start": "2026-10-24T00:00:00.000Z",
-      "location": "Studio 1886, 15500 Woodinville-Redmond Rd NE #C600, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/studio1886",
-      "description": "5-8pm",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Watts Brewing Company-Solitary Series: October 2026 Release-2026-10-24T00:00:00.805Z",
-      "title": "Solitary Series: October 2026 Release",
-      "category": "food-drink",
-      "start": "2026-10-24T00:00:00.805Z",
-      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
-      "url": "https://wattsbrewingcompany.com/events/2026/10/23/solitary-series-october-2026-release",
-      "description": "Come celebrate the next release in the Solitary Series, a blonde barleywine highlighting the unique flavor of meadowfoam honey!",
-      "source": "Watts Brewing Company"
-    },
-    {
-      "id": "winery-Synne Cellars-Synne Session: Elevate Your Friday Evening with Robbie Egelstad-2026-10-24T00:30:00.000Z",
-      "title": "Synne Session: Elevate Your Friday Evening with Robbie Egelstad",
-      "category": "food-drink",
-      "start": "2026-10-24T00:30:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
-      "url": "https://www.synnecellars.com/event/synne-session-elevate-your-friday-evening-with-robbie-egelstad/",
-      "description": "From Halloween gatherings to Thanksgiving celebrations and the excitement of Christmas, the final months of the year can be a whirlwind. Robbie Egelstad is here to give you a reason to pause, slow down, and refuel… preferably with a great glass of wine. Join us every other Friday",
-      "source": "Synne Cellars"
-    },
-    {
-      "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-24T00:30:00.000Z",
-      "title": "The Summit: 16-Course Chef's Counter Dinner",
-      "category": "food-drink",
-      "start": "2026-10-24T00:30:00.000Z",
-      "location": "Bin 47 Chef's Counter at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000425-1792778400-1792789200@425cellars.com",
-      "title": "Ladies night",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/ladies-night/",
-      "description": "💃 Ladies Night at 425 Cellars 💃 Join us Friday, October 23rd for Ladies Night featuring musician Kelly Ash! 🎤🍷 Kelly is a Seattle singer, songwriter, and longtime performer blending jazz training, pop sensibility, and years fronting top 40 bands into a soulful, dynamic sound.",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Love That Red Winery-AMERICAN MAHJONG Wine Night-2026-10-24T01:00:00.000Z",
-      "title": "AMERICAN MAHJONG Wine Night",
-      "category": "food-drink",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "LOVE THAT RED WINERY, 19501 144th Ave NE STE E400, Woodinville, WA 98072, USA",
-      "url": "",
-      "description": "Sip, Tile, Repeat - Beginners & Experienced Players Welcome!",
-      "source": "Love That Red Winery"
-    },
-    {
-      "id": "winery-Two Vintners-Todo Es (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle-2026-10-24T01:00:00.000Z",
-      "title": "Todo Es (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle",
-      "category": "community",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast Woodinville, WA, 98072 United States",
-      "url": "",
-      "description": "",
-      "source": "Two Vintners"
-    },
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: Fall Winemaker Dinner-2026-10-24T01:00:00.000Z",
-      "title": "CHELAN: Fall Winemaker Dinner",
-      "category": "food-drink",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/fall-winemaker-dinner-2/",
-      "description": "The Fall Winemaker Dinner is just one month away! Don’t miss your chance to secure your tickets before we sell out. Experience an unforgettable evening of exquisite cuisine, masterfully prepared by Executive Chef Jon Webster, and perfectly paired with exciting award-winning wines",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-Tsillan Cellars-WOODINVILLE: Live Music – Taste of Whisky-2026-10-24T01:00:00.000Z",
-      "title": "WOODINVILLE: Live Music – Taste of Whisky",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
-      "url": "https://tsillancellars.com/event/woodinville-live-music-taste-of-whisky/",
-      "description": "Friday 10/23 – 6:30pm-8:30pm – Walk-in Seating Only – Doors Open at 6pm Virgil returns this month for live music at the tasting room as Taste of Whisky on Friday, October 23rd! We will have a list of delicious wines available by glass and bottle and we will have some small bites",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "manual-Tomo Nakayama at Freebush Cellars-2026-10-24T01:00:00.000Z",
-      "title": "Tomo Nakayama at Freebush Cellars",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/freebushcellars/event/622753/tomo-nakayama",
-      "description": "Seattle songwriter Tomo Nakayama, 6-9pm.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at The Shed-2026-10-24T01:00:00.000Z",
-      "title": "Live Music at The Shed",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "The Shed at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-24T01:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Friday Live Music at Two Vintners-2026-10-24T01:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Linzy Collins at Fireside Lounge-2026-10-24T01:00:00.000Z",
-      "title": "Linzy Collins at Fireside Lounge",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-10-24t01-00-00-000z-live-music-at-prohibition-cellars",
-      "title": "Live Music at Prohibition Cellars",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.000Z",
-      "end": "2026-10-24T04:00:00.000Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE, Suite F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1",
-      "description": "Live music most Friday nights, usually 6-9pm. Reservations recommended.",
-      "source": "Recurring"
-    },
-    {
-      "id": "rec-2026-10-24t01-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
-      "title": "Live Music at Gorman Winery (Hollywood Hill)",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.000Z",
-      "end": "2026-10-24T03:00:00.000Z",
-      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.gormanwinery.com/",
-      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
-      "source": "Recurring"
-    },
-    {
-      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Lexci Menhart-2026-10-24T01:00:00.898Z",
-      "title": "Live Music at Hollywood Hill: Lexci Menhart",
-      "category": "music",
-      "start": "2026-10-24T01:00:00.898Z",
-      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
-      "url": "https://www.pattersoncellars.com/events/2026/10/23/live-music-at-hollywood-hill-lexci-menhart",
-      "description": "",
-      "source": "Patterson Cellars"
-    },
-    {
-      "id": "winery-Prohibition Cellars-The Cover-Up-2026-10-24T01:00:00.937Z",
-      "title": "The Cover-Up",
-      "category": "food-drink",
-      "start": "2026-10-24T01:00:00.937Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/the-cover-up-e4cja-drgt2",
-      "description": "The Cover-Up specializes in playing the guitar driven hard rock anthems of the '80's. Big choruses, stunning vocals, epic guitar riffs - these are the songs that will get you singing and dancing the night away! Reserve your table here . Woodinville Tasting Room. Walk-in seating i",
-      "source": "Prohibition Cellars"
-    },
-    {
-      "id": "manual-Brian James at Obelisco-2026-10-24T02:00:00.000Z",
-      "title": "Brian James at Obelisco",
-      "category": "music",
-      "start": "2026-10-24T02:00:00.000Z",
-      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE Suite 121, Woodinville, WA 98072",
-      "url": "https://obelisco.com/events-dinners/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Thrill the World Seattle: Zombie Dance, Costume Contest & Trick-or-Treat-2026-10-24T18:00:00.000Z",
       "title": "Thrill the World Seattle: Zombie Dance, Costume Contest & Trick-or-Treat",
@@ -1177,16 +915,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Two Vintners-2026-10-31T01:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "manual-Goldy & Foss at Fireside Lounge-2026-10-31T01:00:00.000Z",
       "title": "Goldy & Foss at Fireside Lounge",
       "category": "music",
@@ -1217,6 +945,16 @@
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
       "source": "Recurring"
+    },
+    {
+      "id": "winery-Two Vintners-13 Til Midnight - The Taylor Swift Tribute Band (Woodinville)-2026-10-31T01:00:00.394Z",
+      "title": "13 Til Midnight - The Taylor Swift Tribute Band (Woodinville)",
+      "category": "music",
+      "start": "2026-10-31T01:00:00.394Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
+      "url": "https://www.twovintners.com/all-events-/taylor-swift-tribute-band",
+      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
+      "source": "Two Vintners"
     },
     {
       "id": "winery-Prohibition Cellars-Three Trick Pony-2026-10-31T01:00:00.879Z",
@@ -8310,6 +8048,39 @@
       "category": "music",
       "start": "2027-01-17T02:00:00.000Z",
       "end": "2027-01-17T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-23t02-00-00-000z-live-music-at-prohibition-cellars",
+      "title": "Live Music at Prohibition Cellars",
+      "category": "music",
+      "start": "2027-01-23T02:00:00.000Z",
+      "end": "2027-01-23T05:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE, Suite F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1",
+      "description": "Live music most Friday nights, usually 6-9pm. Reservations recommended.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-23t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-23T02:00:00.000Z",
+      "end": "2027-01-23T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-23t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-23T02:00:00.000Z",
+      "end": "2027-01-23T04:00:00.000Z",
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
