@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-24T16:21:51.980Z",
+  "ranAt": "2026-10-25T16:55:24.509Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -36,7 +36,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 43,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -62,7 +62,7 @@
     {
       "winery": "Baer Winery",
       "status": "site-unreachable",
-      "error": "HTTP 404"
+      "error": "This operation was aborted"
     },
     {
       "winery": "Ballard Pizza Company",
@@ -378,7 +378,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 4,
+      "count": 3,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -515,28 +515,28 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 17,
+      "count": 16,
       "eventPage": "https://tsillancellars.com/"
     },
     {
       "winery": "Two Vintners",
       "status": "ok",
-      "strategy": "squarespace",
+      "strategy": "jsonld",
       "platform": "squarespace",
       "count": 1,
-      "eventPage": "https://www.twovintners.com/all-events-?tag=TWO+FUNK+FRIDAY"
+      "eventPage": "https://www.twovintners.com/all-events-/taylor-swift-tribute-band"
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Village Wines",
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 13,
+      "count": 12,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
