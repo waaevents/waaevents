@@ -1,4 +1,4 @@
-# Woodinville Creative Events
+# Woodinville Creative Events & Winery Guide
 
 A small static site listing every event it can find happening in
 Woodinville, WA, sorted into Art, Music, Comedy, Food & Drink, and
