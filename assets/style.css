@@ -540,3 +540,11 @@ a.winery-chip:hover .visit { color: var(--gold-deep); text-decoration: underline
 .event-search input:focus, .event-search select:focus { outline: none; border-bottom-color: var(--gold); }
 .event-search .es-count { grid-column: 1 / -1; margin: 0; font-size: 0.8rem; font-weight: 600; color: var(--ink-soft); }
 @media (max-width: 560px) { .event-search { grid-template-columns: 1fr; } }
+
+/* QR code at the bottom of the front page */
+.share-qr { max-width: 720px; margin: 8px auto 0; padding: 36px 24px 12px; text-align: center; }
+.share-qr .qr-label { margin: 0 0 14px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; color: var(--sage-deep); }
+.share-qr img { display: block; margin: 0 auto; width: 176px; height: 176px; border: 2px solid var(--sage-deep); border-radius: 4px; background: #fff; }
+.share-qr .qr-note { margin: 14px 0 2px; font-family: 'Fraunces', Georgia, serif; font-size: 1.05rem; font-weight: 600; }
+.share-qr .qr-url { margin: 0; font-size: 0.8rem; color: var(--ink-soft); }
+@media print { .share-qr img { width: 2.2in; height: 2.2in; } }
