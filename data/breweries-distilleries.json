@@ -1,0 +1,98 @@
+{
+  "_note": "Breweries and distilleries in and around Woodinville. Addresses and websites from Visit Woodinville's Sip directory and each business's site. Listed alphabetically.",
+  "breweries": [
+    {
+      "name": "20 Corners Brewing Co.",
+      "url": "http://www.20cornersbrewing.com",
+      "address": "14148 NE 190th St",
+      "area": "Warehouse District",
+      "note": "Dog-friendly taproom."
+    },
+    {
+      "name": "Black Raven Brewing Co.",
+      "url": "https://blackravenbrewing.com/",
+      "address": "15902 Woodinville-Redmond Rd NE",
+      "area": "West Valley",
+      "note": "Production brewery and taproom, all ages. Pizza from The Bird inside."
+    },
+    {
+      "name": "Métier Brewing Company",
+      "url": "https://metierbrewing.com/",
+      "address": "14125 NE 189th St, Suite B",
+      "area": "Warehouse District",
+      "note": "Dog-friendly taproom."
+    },
+    {
+      "name": "Rainbrew",
+      "url": "https://rainbrew.com/",
+      "address": "12826 NE 178th St, Suite C",
+      "area": "West Valley"
+    },
+    {
+      "name": "Ruff Draft",
+      "url": "https://www.ruffdraft.dog/",
+      "address": "5809 238th St SE, Suite 3",
+      "area": "Greater Woodinville"
+    },
+    {
+      "name": "Triplehorn Brewing Co.",
+      "url": "http://www.TriplehornBrewing.com",
+      "address": "19510 144th Ave NE",
+      "area": "Warehouse District",
+      "note": "Woodinville's largest locally owned brewery. Dog-friendly."
+    },
+    {
+      "name": "Watts Brewing Company",
+      "url": "https://wattsbrewingcompany.com/",
+      "address": "15510 Woodinville-Redmond Rd NE, E110",
+      "area": "West Valley"
+    }
+  ],
+  "distilleries": [
+    {
+      "name": "Copper Cat Distillery",
+      "url": "https://www.coppercatdistillery.com/",
+      "address": "19151 144th Ave NE, Space H",
+      "area": "Warehouse District"
+    },
+    {
+      "name": "Four Leaf Spirits",
+      "url": "http://www.fourleafspirits.com",
+      "address": "12280 NE Woodinville Dr, Suite C",
+      "area": "West Valley"
+    },
+    {
+      "name": "Glass Distillery",
+      "url": "https://glassvodka.com/",
+      "address": "15007 Redmond-Woodinville Rd NE, Suite A",
+      "area": "West Valley",
+      "note": "Vodka."
+    },
+    {
+      "name": "Northwest Spirits",
+      "url": "https://northwestspirits.com/",
+      "address": "15029 Woodinville-Redmond Rd NE, Suite 400",
+      "area": "West Valley",
+      "note": "Spirit flights and cocktails; Von's 1000 Spirits is next door."
+    },
+    {
+      "name": "Pacific Distillery",
+      "url": "http://www.pacificdistillery.com",
+      "address": "18808 142nd Ave NE, #4B",
+      "area": "Warehouse District"
+    },
+    {
+      "name": "Washington Creek Distillery",
+      "url": "https://washingtoncreek.com",
+      "address": "19495 144th Ave NE, Suite B230",
+      "area": "Warehouse District"
+    },
+    {
+      "name": "Woodinville Whiskey Co.",
+      "url": "http://www.woodinvillewhiskeyco.com",
+      "address": "14509 Woodinville-Redmond Rd NE",
+      "area": "Hollywood District",
+      "note": "Tastings daily; complimentary tours on weekends."
+    }
+  ]
+}

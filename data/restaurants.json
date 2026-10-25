@@ -1,13 +1,13 @@
 {
   "restaurants": [
     {
-      "name": "The Herbfarm",
-      "url": "https://theherbfarm.com/",
+      "name": "Ballard Pizza Company",
+      "url": "https://ballardpizzacompany.com/",
       "vibe": [
-        "fine-dining",
-        "romantic"
+        "family",
+        "casual"
       ],
-      "note": "Iconic multi-course, farm-to-table tasting menu paired with Northwest wines. Reservations essential, well ahead."
+      "note": "Neapolitan-style pizza."
     },
     {
       "name": "Barking Frog",
@@ -19,22 +19,65 @@
       "note": "Award-winning wine list and Northwest bistro fare at Willows Lodge."
     },
     {
-      "name": "The Restaurant at DeLille Cellars",
-      "url": "https://delillecellars.com/",
+      "name": "Bin 47",
+      "url": "https://thesomm.com/",
       "vibe": [
-        "fine-dining",
+        "views",
         "romantic"
       ],
-      "note": "Wine-centric dining with house-made pasta, in the former Redhook Brewery space."
+      "note": "Seasonal Northwest fare at The SOMM Hotel & Spa."
     },
     {
-      "name": "Purple Café and Wine Bar",
-      "url": "https://www.thepurplecafe.com/",
+      "name": "The Bine Beer & Food",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Beer-focused gastropub; regular happy hour."
+    },
+    {
+      "name": "The Bird",
+      "url": "https://www.thebirdpizza.com/",
+      "vibe": [
+        "family",
+        "casual"
+      ],
+      "note": "Pizza spot."
+    },
+    {
+      "name": "Brix Wine Café",
+      "url": "https://brixwinecafe.com/",
+      "vibe": [
+        "romantic",
+        "casual"
+      ],
+      "note": "Wine café — light bites and a curated by-the-glass list."
+    },
+    {
+      "name": "Cookhouse",
+      "url": "https://indianpalacecuisine.com/",
       "vibe": [
         "casual",
         "family"
       ],
-      "note": "Woodinville original — big wine-by-the-glass list, PNW comfort food."
+      "note": "Indian cuisine."
+    },
+    {
+      "name": "Hal's Sports Bar",
+      "url": "https://www.halssportsbar.com/",
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Neighborhood sports bar."
+    },
+    {
+      "name": "The Herbfarm",
+      "url": "https://theherbfarm.com/",
+      "vibe": [
+        "fine-dining",
+        "romantic"
+      ],
+      "note": "Iconic multi-course, farm-to-table tasting menu paired with Northwest wines. Reservations essential, well ahead."
     },
     {
       "name": "Heritage Restaurant | Bar",
@@ -46,6 +89,31 @@
       "note": "Community hub at the Hollywood Hill roundabout — approachable, moderately priced, good for date night or families."
     },
     {
+      "name": "Hollywood Schoolhouse Bistro",
+      "url": "https://www.hollywoodschoolhousebistro.com/",
+      "vibe": [
+        "romantic",
+        "casual"
+      ],
+      "note": "Bistro fare in the Hollywood Schoolhouse building."
+    },
+    {
+      "name": "Hollywood Tavern",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Neighborhood tavern with a fire-pit patio; regular happy hour."
+    },
+    {
+      "name": "Jackson House",
+      "url": "https://jacksonhousewoodinville.com/",
+      "vibe": [
+        "romantic",
+        "casual"
+      ],
+      "note": "Restaurant and bar in a historic Woodinville house."
+    },
+    {
       "name": "Molbak's Garden Café",
       "url": "https://www.harvestwoodinville.com/",
       "vibe": [
@@ -55,13 +123,56 @@
       "note": "Casual soups, salads, sandwiches, and pastries surrounded by greenery."
     },
     {
-      "name": "Bin 47",
-      "url": "https://thesomm.com/",
+      "name": "The Pizza Coop",
+      "url": "https://www.thepizzacoop.com/",
       "vibe": [
-        "views",
+        "family",
+        "casual"
+      ],
+      "note": "Family-friendly pizzeria."
+    },
+    {
+      "name": "Pour Decisions Taps",
+      "url": "https://www.pourdecisionstaps.com/",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Self-serve taproom — pour-your-own beer and cider flights."
+    },
+    {
+      "name": "Purple Café and Wine Bar",
+      "url": "https://www.thepurplecafe.com/",
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Woodinville original — big wine-by-the-glass list, PNW comfort food."
+    },
+    {
+      "name": "The Restaurant at DeLille Cellars",
+      "url": "https://delillecellars.com/",
+      "vibe": [
+        "fine-dining",
         "romantic"
       ],
-      "note": "Seasonal Northwest fare at The SOMM Hotel & Spa."
+      "note": "Wine-centric dining with house-made pasta, in the former Redhook Brewery space."
+    },
+    {
+      "name": "Rooney's Sports Bar",
+      "url": "https://rooneyssportsbar.com/",
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Sports bar — game-day food and a big beer/spirits selection."
+    },
+    {
+      "name": "SheChill Bakery",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Bakery in downtown Woodinville next to McQueen Champagne Bar and L'Ecole No. 41.",
+      "url": "https://shechill.square.site/"
     },
     {
       "name": "The Shed",
@@ -71,6 +182,33 @@
         "casual"
       ],
       "note": "Rooftop bar at The SOMM with panoramic Mt. Rainier views — craft brews and spirits."
+    },
+    {
+      "name": "Vivi Pizzeria",
+      "url": "https://vivipizzeria.com/",
+      "vibe": [
+        "family",
+        "casual"
+      ],
+      "note": "Wood-fired pizza."
+    },
+    {
+      "name": "Von's 1000° Spirits",
+      "url": "https://vons1000spirits.com/",
+      "vibe": [
+        "casual",
+        "views"
+      ],
+      "note": "Whiskey-and-cocktail-forward bar with a wide spirits list."
+    },
+    {
+      "name": "Woodin Creek Kitchen & Tap",
+      "vibe": [
+        "casual",
+        "family"
+      ],
+      "note": "Woodin Creek Village gastropub; regular happy hour.",
+      "url": "https://www.woodincreekkitchen.com/"
     },
     {
       "name": "Woodinville Cut Shop",
@@ -89,144 +227,6 @@
         "views"
       ],
       "note": "Distillery tasting room and tours — bourbon, rye, and cocktails rather than wine."
-    },
-    {
-      "name": "Rooney's Sports Bar",
-      "url": "https://rooneyssportsbar.com/",
-      "vibe": [
-        "casual",
-        "family"
-      ],
-      "note": "Sports bar — game-day food and a big beer/spirits selection."
-    },
-    {
-      "name": "Von's 1000° Spirits",
-      "url": "https://vons1000spirits.com/",
-      "vibe": [
-        "casual",
-        "views"
-      ],
-      "note": "Whiskey-and-cocktail-forward bar with a wide spirits list."
-    },
-    {
-      "name": "Cookhouse",
-      "url": "https://indianpalacecuisine.com/",
-      "vibe": [
-        "casual",
-        "family"
-      ],
-      "note": "Indian cuisine."
-    },
-    {
-      "name": "Pour Decisions Taps",
-      "url": "https://www.pourdecisionstaps.com/",
-      "vibe": [
-        "casual"
-      ],
-      "note": "Self-serve taproom — pour-your-own beer and cider flights."
-    },
-    {
-      "name": "Brix Wine Café",
-      "url": "https://brixwinecafe.com/",
-      "vibe": [
-        "romantic",
-        "casual"
-      ],
-      "note": "Wine café — light bites and a curated by-the-glass list."
-    },
-    {
-      "name": "Hal's Sports Bar",
-      "url": "https://www.halssportsbar.com/",
-      "vibe": [
-        "casual",
-        "family"
-      ],
-      "note": "Neighborhood sports bar."
-    },
-    {
-      "name": "Vivi Pizzeria",
-      "url": "https://vivipizzeria.com/",
-      "vibe": [
-        "family",
-        "casual"
-      ],
-      "note": "Wood-fired pizza."
-    },
-    {
-      "name": "Hollywood Schoolhouse Bistro",
-      "url": "https://www.hollywoodschoolhousebistro.com/",
-      "vibe": [
-        "romantic",
-        "casual"
-      ],
-      "note": "Bistro fare in the Hollywood Schoolhouse building."
-    },
-    {
-      "name": "Jackson House",
-      "url": "https://jacksonhousewoodinville.com/",
-      "vibe": [
-        "romantic",
-        "casual"
-      ],
-      "note": "Restaurant and bar in a historic Woodinville house."
-    },
-    {
-      "name": "Ballard Pizza Company",
-      "url": "https://ballardpizzacompany.com/",
-      "vibe": [
-        "family",
-        "casual"
-      ],
-      "note": "Neapolitan-style pizza."
-    },
-    {
-      "name": "The Pizza Coop",
-      "url": "https://www.thepizzacoop.com/",
-      "vibe": [
-        "family",
-        "casual"
-      ],
-      "note": "Family-friendly pizzeria."
-    },
-    {
-      "name": "The Bird",
-      "url": "https://www.thebirdpizza.com/",
-      "vibe": [
-        "family",
-        "casual"
-      ],
-      "note": "Pizza spot."
-    },
-    {
-      "name": "Hollywood Tavern",
-      "vibe": [
-        "casual"
-      ],
-      "note": "Neighborhood tavern with a fire-pit patio; regular happy hour."
-    },
-    {
-      "name": "Woodin Creek Kitchen & Tap",
-      "vibe": [
-        "casual",
-        "family"
-      ],
-      "note": "Woodin Creek Village gastropub; regular happy hour.",
-      "url": "https://www.woodincreekkitchen.com/"
-    },
-    {
-      "name": "The Bine Beer & Food",
-      "vibe": [
-        "casual"
-      ],
-      "note": "Beer-focused gastropub; regular happy hour."
-    },
-    {
-      "name": "SheChill Bakery",
-      "vibe": [
-        "casual"
-      ],
-      "note": "Bakery in downtown Woodinville next to McQueen Champagne Bar and L'Ecole No. 41.",
-      "url": "https://shechill.square.site/"
     }
   ]
 }

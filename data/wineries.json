@@ -1,6 +1,177 @@
 {
   "districts": [
     {
+      "id": "artisan",
+      "name": "Artisan Hill District",
+      "accent": "art",
+      "wineries": [
+        {
+          "name": "Alluvium Cellars",
+          "url": "https://alluviumcellars.com/",
+          "note": "19151 144th Ave NE Spc J2"
+        },
+        {
+          "name": "Callan Cellars",
+          "url": "https://callancellars.com/",
+          "note": "18742 142nd Ave NE"
+        },
+        {
+          "name": "Cedergreen Cellars",
+          "url": "https://cedergreencellars.com/",
+          "note": "18646 142nd Ave NE"
+        },
+        {
+          "name": "Descendant Cellars",
+          "url": "https://descendantcellars.com/",
+          "note": "18732 142nd Ave NE"
+        },
+        {
+          "name": "Elentone Winery",
+          "note": "18808 142nd Ave NE Ste 5A",
+          "url": "https://www.elentone.com/"
+        },
+        {
+          "name": "Lobo Hills Wine Co.",
+          "url": "https://www.lobohills.com/",
+          "note": "18506 142nd Ave NE"
+        },
+        {
+          "name": "Pomum Cellars",
+          "url": "https://pomumcellars.com/",
+          "note": "18512 142nd Ave NE"
+        },
+        {
+          "name": "Two Vintners",
+          "url": "https://www.twovintners.com/",
+          "note": "18570 142nd Ave NE"
+        }
+      ]
+    },
+    {
+      "id": "downtown",
+      "name": "Downtown, Woodin Creek & District Flats",
+      "accent": "food",
+      "wineries": [
+        {
+          "name": "Alexandria Nicole Cellars",
+          "url": "https://alexandrianicolecellars.com/",
+          "types": [
+            "live-music",
+            "casual"
+          ],
+          "wineFocus": [
+            "red",
+            "white",
+            "bubbles"
+          ]
+        },
+        {
+          "name": "Baer Winery",
+          "note": "Wine Alley",
+          "url": "https://www.baerwinery.com/WordPress/"
+        },
+        {
+          "name": "Ballard Pizza Company",
+          "url": "https://ballardpizzacompany.com/",
+          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41"
+        },
+        {
+          "name": "Bayernmoor Cellars",
+          "url": "https://bayernmoor.com/",
+          "types": [
+            "food-pairing",
+            "family"
+          ]
+        },
+        {
+          "name": "Brian Carter Cellars",
+          "url": "https://briancartercellars.com/",
+          "types": [
+            "food-pairing",
+            "live-music",
+            "romantic"
+          ]
+        },
+        {
+          "name": "Flatstick Pub Woodinville",
+          "wineFocus": [
+            "beer"
+          ],
+          "note": "Pub, downtown Woodinville",
+          "url": "https://flatstickpub.com/"
+        },
+        {
+          "name": "Jackson House",
+          "url": "https://jacksonhousewoodinville.com/",
+          "note": "Restaurant, downtown Woodinville"
+        },
+        {
+          "name": "L'Ecole No. 41",
+          "url": "https://www.lecole.com/",
+          "types": [
+            "estate",
+            "food-pairing"
+          ]
+        },
+        {
+          "name": "Martedi Winery",
+          "url": "https://martediwinery.com/"
+        },
+        {
+          "name": "McQueen Champagne Bar",
+          "url": "https://mcqueenchampagnebar.com/",
+          "types": [
+            "romantic",
+            "casual"
+          ],
+          "wineFocus": [
+            "bubbles"
+          ],
+          "note": "Champagne & sparkling only, Schoolhouse District"
+        },
+        {
+          "name": "Pour Decisions Taps",
+          "url": "https://www.pourdecisionstaps.com/",
+          "wineFocus": [
+            "beer"
+          ],
+          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41"
+        },
+        {
+          "name": "SheChill Bakery",
+          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41",
+          "url": "https://shechill.square.site/"
+        },
+        {
+          "name": "Tsillan Cellars",
+          "url": "https://tsillancellars.com/"
+        },
+        {
+          "name": "Woodin Creek Kitchen & Tap",
+          "url": "https://www.woodincreekkitchen.com/",
+          "wineFocus": [
+            "beer"
+          ],
+          "note": "30 beers on tap. $5 beer Thursdays."
+        }
+      ]
+    },
+    {
+      "id": "gateway",
+      "name": "The Gateway",
+      "accent": "community",
+      "wineries": [
+        {
+          "name": "Michael Florentino Cellars",
+          "url": "https://michaelflorentinocellars.com/"
+        },
+        {
+          "name": "Wilridge Pie & Wine Bar",
+          "url": "https://www.wilridgewinery.com/wilridge-pie-wine-bar/"
+        }
+      ]
+    },
+    {
       "id": "hollywood",
       "name": "Hollywood District",
       "accent": "music",
@@ -156,6 +327,11 @@
           ]
         },
         {
+          "name": "The Hollywood Tavern",
+          "note": "14508 Woodinville-Redmond Rd NE. Hours: Mon-Thu 11:30am-9:30pm, Fri 11:30am-10:30pm, Sat 11am-10:30pm, Sun 11am-9:30pm.",
+          "url": "https://thehollywoodtavern.com/"
+        },
+        {
           "name": "J. Bookwalter Tasting Studio",
           "url": "https://www.bookwalterwines.com/",
           "types": [
@@ -271,6 +447,11 @@
           ]
         },
         {
+          "name": "The SOMM Hotel",
+          "note": "Bin 47 and The Shed",
+          "url": "https://thesomm.com/"
+        },
+        {
           "name": "Sparkman Cellars",
           "url": "https://sparkmancellars.com/",
           "types": [
@@ -292,16 +473,6 @@
             "casual"
           ],
           "note": "14810 NE 145th St Suite B, Hollywood Schoolhouse. Hours: Wed-Sun 12-8pm."
-        },
-        {
-          "name": "The Hollywood Tavern",
-          "note": "14508 Woodinville-Redmond Rd NE. Hours: Mon-Thu 11:30am-9:30pm, Fri 11:30am-10:30pm, Sat 11am-10:30pm, Sun 11am-9:30pm.",
-          "url": "https://thehollywoodtavern.com/"
-        },
-        {
-          "name": "The SOMM Hotel",
-          "note": "Bin 47 and The Shed",
-          "url": "https://thesomm.com/"
         },
         {
           "name": "Vaunt Modern Gallery",
@@ -334,6 +505,49 @@
           "note": "14509 Woodinville-Redmond Rd NE. Distillery tasting room open daily 11am-6pm. Tours by reservation."
         }
       ]
+    },
+    {
+      "id": "junction",
+      "name": "The Junction",
+      "accent": "food",
+      "wineries": [
+        {
+          "name": "Beaumont Cellars",
+          "note": "19151 144th Ave NE, Suite #E",
+          "url": "https://beaumontcellars.com/"
+        },
+        {
+          "name": "Covington Cellars",
+          "note": "18580 142nd Ave NE",
+          "url": "https://covingtoncellars.com/"
+        },
+        {
+          "name": "EFESTĒ",
+          "note": "19730 144th Ave NE",
+          "url": "https://efeste.com/"
+        },
+        {
+          "name": "Five Star Cellars Winery",
+          "note": "19151 144th Ave NE, Unit F",
+          "url": "https://fivestarcellars.com/"
+        },
+        {
+          "name": "Gård Estate Wines",
+          "note": "19151 144th Ave NE, Unit D",
+          "url": "https://www.gardwine.com/"
+        },
+        {
+          "name": "Stevens Winery",
+          "note": "18520 142nd Ave NE",
+          "url": "https://stevenswinery.com/"
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other Woodinville Wineries",
+      "accent": "comedy",
+      "wineries": []
     },
     {
       "id": "warehouse",
@@ -508,11 +722,6 @@
           "url": "https://tenorwines.com/"
         },
         {
-          "name": "The Winemakers Reserve",
-          "url": "https://www.thewinemakersreserve.com/",
-          "note": "Winery, tasting room and event space in the West Valley"
-        },
-        {
           "name": "Watts Brewing Company",
           "url": "https://wattsbrewingcompany.com/",
           "wineFocus": [
@@ -522,220 +731,11 @@
             "casual",
             "family"
           ]
-        }
-      ]
-    },
-    {
-      "id": "artisan",
-      "name": "Artisan Hill District",
-      "accent": "art",
-      "wineries": [
-        {
-          "name": "Alluvium Cellars",
-          "url": "https://alluviumcellars.com/",
-          "note": "19151 144th Ave NE Spc J2"
         },
         {
-          "name": "Callan Cellars",
-          "url": "https://callancellars.com/",
-          "note": "18742 142nd Ave NE"
-        },
-        {
-          "name": "Cedergreen Cellars",
-          "url": "https://cedergreencellars.com/",
-          "note": "18646 142nd Ave NE"
-        },
-        {
-          "name": "Descendant Cellars",
-          "url": "https://descendantcellars.com/",
-          "note": "18732 142nd Ave NE"
-        },
-        {
-          "name": "Elentone Winery",
-          "note": "18808 142nd Ave NE Ste 5A",
-          "url": "https://www.elentone.com/"
-        },
-        {
-          "name": "Lobo Hills Wine Co.",
-          "url": "https://www.lobohills.com/",
-          "note": "18506 142nd Ave NE"
-        },
-        {
-          "name": "Pomum Cellars",
-          "url": "https://pomumcellars.com/",
-          "note": "18512 142nd Ave NE"
-        },
-        {
-          "name": "Two Vintners",
-          "url": "https://www.twovintners.com/",
-          "note": "18570 142nd Ave NE"
-        }
-      ]
-    },
-    {
-      "id": "gateway",
-      "name": "The Gateway",
-      "accent": "community",
-      "wineries": [
-        {
-          "name": "Michael Florentino Cellars",
-          "url": "https://michaelflorentinocellars.com/"
-        },
-        {
-          "name": "Wilridge Pie & Wine Bar",
-          "url": "https://www.wilridgewinery.com/wilridge-pie-wine-bar/"
-        }
-      ]
-    },
-    {
-      "id": "downtown",
-      "name": "Downtown, Woodin Creek & District Flats",
-      "accent": "food",
-      "wineries": [
-        {
-          "name": "Alexandria Nicole Cellars",
-          "url": "https://alexandrianicolecellars.com/",
-          "types": [
-            "live-music",
-            "casual"
-          ],
-          "wineFocus": [
-            "red",
-            "white",
-            "bubbles"
-          ]
-        },
-        {
-          "name": "Baer Winery",
-          "note": "Wine Alley",
-          "url": "https://www.baerwinery.com/WordPress/"
-        },
-        {
-          "name": "Ballard Pizza Company",
-          "url": "https://ballardpizzacompany.com/",
-          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41"
-        },
-        {
-          "name": "Bayernmoor Cellars",
-          "url": "https://bayernmoor.com/",
-          "types": [
-            "food-pairing",
-            "family"
-          ]
-        },
-        {
-          "name": "Brian Carter Cellars",
-          "url": "https://briancartercellars.com/",
-          "types": [
-            "food-pairing",
-            "live-music",
-            "romantic"
-          ]
-        },
-        {
-          "name": "Flatstick Pub Woodinville",
-          "wineFocus": [
-            "beer"
-          ],
-          "note": "Pub, downtown Woodinville",
-          "url": "https://flatstickpub.com/"
-        },
-        {
-          "name": "Jackson House",
-          "url": "https://jacksonhousewoodinville.com/",
-          "note": "Restaurant, downtown Woodinville"
-        },
-        {
-          "name": "L'Ecole No. 41",
-          "url": "https://www.lecole.com/",
-          "types": [
-            "estate",
-            "food-pairing"
-          ]
-        },
-        {
-          "name": "Martedi Winery",
-          "url": "https://martediwinery.com/"
-        },
-        {
-          "name": "McQueen Champagne Bar",
-          "url": "https://mcqueenchampagnebar.com/",
-          "types": [
-            "romantic",
-            "casual"
-          ],
-          "wineFocus": [
-            "bubbles"
-          ],
-          "note": "Champagne & sparkling only, Schoolhouse District"
-        },
-        {
-          "name": "Pour Decisions Taps",
-          "url": "https://www.pourdecisionstaps.com/",
-          "wineFocus": [
-            "beer"
-          ],
-          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41"
-        },
-        {
-          "name": "SheChill Bakery",
-          "note": "Next to McQueen Champagne Bar and L'Ecole No. 41",
-          "url": "https://shechill.square.site/"
-        },
-        {
-          "name": "Tsillan Cellars",
-          "url": "https://tsillancellars.com/"
-        },
-        {
-          "name": "Woodin Creek Kitchen & Tap",
-          "url": "https://www.woodincreekkitchen.com/",
-          "wineFocus": [
-            "beer"
-          ],
-          "note": "30 beers on tap. $5 beer Thursdays."
-        }
-      ]
-    },
-    {
-      "id": "other",
-      "name": "Other Woodinville Wineries",
-      "accent": "comedy",
-      "wineries": []
-    },
-    {
-      "id": "junction",
-      "name": "The Junction",
-      "accent": "food",
-      "wineries": [
-        {
-          "name": "Beaumont Cellars",
-          "note": "19151 144th Ave NE, Suite #E",
-          "url": "https://beaumontcellars.com/"
-        },
-        {
-          "name": "Covington Cellars",
-          "note": "18580 142nd Ave NE",
-          "url": "https://covingtoncellars.com/"
-        },
-        {
-          "name": "EFESTĒ",
-          "note": "19730 144th Ave NE",
-          "url": "https://efeste.com/"
-        },
-        {
-          "name": "Five Star Cellars Winery",
-          "note": "19151 144th Ave NE, Unit F",
-          "url": "https://fivestarcellars.com/"
-        },
-        {
-          "name": "Gård Estate Wines",
-          "note": "19151 144th Ave NE, Unit D",
-          "url": "https://www.gardwine.com/"
-        },
-        {
-          "name": "Stevens Winery",
-          "note": "18520 142nd Ave NE",
-          "url": "https://stevenswinery.com/"
+          "name": "The Winemakers Reserve",
+          "url": "https://www.thewinemakersreserve.com/",
+          "note": "Winery, tasting room and event space in the West Valley"
         }
       ]
     }

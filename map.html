@@ -198,7 +198,7 @@
       layoutLabels();
       document.getElementById('list-head').textContent = name;
       var ul = document.getElementById('list'); ul.innerHTML = '';
-      var all = merged.wineries.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
+      var all = merged.wineries.slice().sort(function (a, b) { return String(a.name).toLowerCase().replace(/^the\s+/, '').localeCompare(String(b.name).toLowerCase().replace(/^the\s+/, '')); });
       all.forEach(function (w) {
         var u = safeUrl(w.url), li = document.createElement('li');
         li.innerHTML = '<span class="nm">' + (u ? '<a href="' + esc(u) + '" target="_blank" rel="noopener">' + esc(w.name) + '</a>' : esc(w.name)) + (w.note ? '<small>' + esc(w.note) + '</small>' : '') + '</span>' + '<span class="acts">' + (u ? '<a class="web" href="' + esc(u) + '" target="_blank" rel="noopener">Website →</a>' : '') + (w._b ? '<button type="button">Show on map</button>' : '') + '</span>';
@@ -218,8 +218,9 @@
     ]).then(function (res) {
       data.districts = res[0].districts.filter(function (d) { return d.wineries.length; });
       data.geo = res[1].places || {};
-      var order = ['hollywood', 'downtown', 'warehouse', 'junction', 'gateway', 'artisan', 'industrial'];
-      data.districts.sort(function (a, b) { var i = order.indexOf(a.id), j = order.indexOf(b.id); return (i < 0 ? 99 : i) - (j < 0 ? 99 : j); });
+      // Alphabetical, ignoring a leading "The".
+      function key(n) { return String(n || '').toLowerCase().replace(/^the\s+/, ''); }
+      data.districts.sort(function (a, b) { return key(a.name).localeCompare(key(b.name)); });
       var host = document.getElementById('areas');
       [{ id: 'all', name: 'Everything', wineries: [] }].concat(data.districts).forEach(function (d) {
         var b = document.createElement('button'); b.type = 'button'; b.className = 'area'; b.dataset.id = d.id;

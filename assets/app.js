@@ -42,6 +42,12 @@ function setFooterUpdated(iso) {
   });
 }
 
+/* ---------- Shared: alphabetical order (ignores a leading "The ") ---------- */
+function sortKey(str) {
+  return String(str || '').toLowerCase().replace(/^the\s+/, '');
+}
+const byName = (a, b) => sortKey(a.name).localeCompare(sortKey(b.name));
+
 /* ---------- Homepage: panel counts ---------- */
 
 async function renderHomeCounts() {
@@ -55,12 +61,21 @@ async function renderHomeCounts() {
     }
     els.forEach((el) => {
       const cat = el.getAttribute('data-count-for');
+      if (cat === 'breweries') return;
       const n = counts[cat] || 0;
       el.textContent = n === 1 ? '1 upcoming event' : `${n} upcoming events`;
     });
     setFooterUpdated(data.updatedAt);
   } catch (err) {
-    els.forEach((el) => { el.textContent = 'Event count unavailable'; });
+    els.forEach((el) => { if (el.getAttribute('data-count-for') !== 'breweries') el.textContent = 'Event count unavailable'; });
+  }
+  const bEl = document.querySelector('[data-count-for="breweries"]');
+  if (bEl) {
+    try {
+      const b = await (await fetch('data/breweries-distilleries.json', { cache: 'no-store' })).json();
+      const nb = (b.breweries || []).length, nd = (b.distilleries || []).length;
+      bEl.textContent = `${nb} breweries · ${nd} distilleries`;
+    } catch (e) { bEl.textContent = 'Breweries & distilleries'; }
   }
 }
 
@@ -118,7 +133,7 @@ async function renderCategoryList() {
     // ---- Search: artist / event name and winery ----
     const venues = new Map(); // key -> label
     events.forEach((ev) => { const k = venueKey(ev); if (k && !venues.has(k)) venues.set(k, venueOf(ev)); });
-    const venueOptions = [...venues.entries()].sort((a, b) => a[1].localeCompare(b[1]))
+    const venueOptions = [...venues.entries()].sort((a, b) => sortKey(a[1]).localeCompare(sortKey(b[1])))
       .map(([k, label]) => `<option value="${escapeAttr(k)}">${escapeHtml(label)}</option>`).join('');
     const bar = document.createElement('div');
     bar.className = 'event-search';
@@ -178,22 +193,22 @@ async function renderWineries() {
     const labels = data.type_labels || {};
 
     if (colorBar) {
-      const colors = [['all', 'All'], ['red', 'Red'], ['white', 'White'], ['bubbles', 'Sparkling'], ['beer', 'Beer']];
+      const colors = [['all', 'All'], ['beer', 'Beer'], ['red', 'Red'], ['bubbles', 'Sparkling'], ['white', 'White']];
       colorBar.innerHTML = colors.map(([key, label]) =>
         `<button type="button" class="type-chip${key === 'all' ? ' active' : ''}" data-color="${escapeAttr(key)}">${escapeHtml(label)}</button>`
       ).join('');
     }
 
     if (filterBar) {
-      const allTypes = Object.keys(labels);
+      const allTypes = Object.keys(labels).sort((a, b) => String(labels[a]).localeCompare(String(labels[b])));
       filterBar.innerHTML = ['all', ...allTypes].map((t) => {
         const label = t === 'all' ? 'All wineries' : labels[t];
         return `<button type="button" class="type-chip${t === 'all' ? ' active' : ''}" data-type="${escapeAttr(t)}">${escapeHtml(label)}</button>`;
       }).join('');
     }
 
-    root.innerHTML = (data.districts || []).map((district) => {
-      const chips = district.wineries.map((w) => {
+    root.innerHTML = [...(data.districts || [])].filter((d) => (d.wineries || []).length).sort((a, b) => sortKey(a.name).localeCompare(sortKey(b.name))).map((district) => {
+      const chips = [...district.wineries].sort(byName).map((w) => {
         const name = escapeHtml(w.name);
         const note = w.note ? `<span class="note">${escapeHtml(w.note)}</span>` : '';
         const types = w.types || [];
@@ -297,7 +312,7 @@ async function renderPlanner() {
   const form = document.getElementById('planner-form');
   if (!grid || !form) return;
 
-  grid.innerHTML = Object.entries(INTEREST_META).map(([key, m]) => `
+  grid.innerHTML = Object.entries(INTEREST_META).sort((a, b) => a[1].label.localeCompare(b[1].label)).map(([key, m]) => `
     <label class="interest-pill" style="--pill-accent: ${m.accent}; --pill-bg: ${m.bg}">
       <input type="checkbox" value="${key}" name="interest">
       <span>${m.label}</span>
@@ -509,7 +524,35 @@ function buildItinerary({ interests, pace, district, wineColor, date, wineriesDa
   }
 }
 
+/* ---------- Breweries & distilleries ---------- */
+
+async function renderBreweries() {
+  const root = document.querySelector('.brewery-directory');
+  if (!root) return;
+  try {
+    const res = await fetch('data/breweries-distilleries.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error(`Failed to load (${res.status})`);
+    const data = await res.json();
+    const section = (title, id, accent, items) => {
+      const rows = [...items].sort(byName).map((b) => {
+        const tag = b.url ? 'a' : 'div';
+        const href = b.url ? `href="${escapeAttr(b.url)}" target="_blank" rel="noopener"` : '';
+        return `<${tag} class="winery-chip" ${href}>${escapeHtml(b.name)}
+          <span class="note">${escapeHtml([b.address, b.area].filter(Boolean).join(' · '))}</span>
+          ${b.note ? `<span class="note">${escapeHtml(b.note)}</span>` : ''}
+          ${b.url ? '<span class="visit">Website →</span>' : ''}</${tag}>`;
+      }).join('');
+      return `<section class="winery-district" id="${id}"><h2 style="--dist-accent: ${accent}">${title}</h2><div class="winery-grid">${rows}</div></section>`;
+    };
+    root.innerHTML = section('Breweries', 'breweries', 'var(--wine-deep)', data.breweries || [])
+      + section('Distilleries', 'distilleries', 'var(--food)', data.distilleries || []);
+  } catch (err) {
+    root.innerHTML = `<p class="error-state">Couldn't load the brewery list right now. Try refreshing the page.</p>`;
+  }
+}
+
 renderHomeCounts();
 renderCategoryList();
+renderBreweries();
 renderWineries();
 renderPlanner();
