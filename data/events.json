@@ -4,16 +4,6 @@
   "count": 787,
   "events": [
     {
-      "id": "winery-Prohibition Cellars-Yoga uncorked-2026-10-25T17:30:00.423Z",
-      "title": "Yoga uncorked",
-      "category": "food-drink",
-      "start": "2026-10-25T17:30:00.423Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/n7mhrt4ff22e5cp-wmctr-xm2ca-2cwe2-xx2h6-ya866-nh7xb-rndx7-akrpd-7ja58-3wdxs-w4gb9-4cp99-pcptb-45n6c-29k3z-5k5ns",
-      "description": "Start your Sunday morning in the best way! Prohibition Cellars will host Yoga Uncorked for a morning of yoga followed by wine. Whether you’re brand new to yoga or a seasoned practitioner, a skilled instructor will guide you and help adjust and adapt the practice during class as n",
-      "source": "Prohibition Cellars"
-    },
-    {
       "id": "winery-LaShellé Wines-Closing at 3pm for off premise event-2026-10-25T19:00:00.001Z",
       "title": "Closing at 3pm for off premise event",
       "category": "community",
@@ -64,6 +54,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-10-25t21-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-10-25T21:30:00.000Z",
+      "end": "2026-10-26T00:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Sunday Live Music at From The Sky Down-2026-10-25T22:00:00.000Z",
       "title": "Sunday Live Music at From The Sky Down",
       "category": "music",
@@ -92,6 +93,17 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-10-26t00-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-10-26T00:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
     },
     {
       "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-10-26T00:20:00.000Z",
@@ -124,6 +136,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-10-26t18-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-10-26T18:00:00.000Z",
+      "end": "2026-10-27T03:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-26T20:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -142,6 +165,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-10-26t21-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-10-26T21:30:00.000Z",
+      "end": "2026-10-27T00:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-26T23:00:00.000Z",
@@ -252,6 +286,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-10-27t21-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-10-27T21:30:00.000Z",
+      "end": "2026-10-28T00:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-27T23:00:00.000Z",
@@ -404,6 +449,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-10-28t21-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-10-28T21:30:00.000Z",
+      "end": "2026-10-29T00:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-28T23:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -472,6 +528,17 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-10-29t18-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-10-29T18:30:00.000Z",
+      "end": "2026-10-30T04:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-29T20:00:00.000Z",
@@ -652,6 +719,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-10-30t21-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-10-30T21:30:00.000Z",
+      "end": "2026-10-31T00:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Farshid Babazadeh-2026-10-30T23:00:00.000Z",
@@ -886,6 +964,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-10-31t21-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-10-31T21:30:00.000Z",
+      "end": "2026-11-01T00:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-10-31T23:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -1058,6 +1147,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-01t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-01T22:30:00.000Z",
+      "end": "2026-11-02T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Jarrett Renshaw at From The Sky Down-2026-11-01T23:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
@@ -1098,6 +1198,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-02t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-11-02T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-02T02:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -1118,6 +1229,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-02t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-11-02T19:00:00.000Z",
+      "end": "2026-11-03T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-02T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -1136,6 +1258,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-02t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-02T22:30:00.000Z",
+      "end": "2026-11-03T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-03T00:00:00.000Z",
@@ -1236,6 +1369,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-03t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-03T22:30:00.000Z",
+      "end": "2026-11-04T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-04T00:00:00.000Z",
@@ -1368,6 +1512,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-04t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-04T22:30:00.000Z",
+      "end": "2026-11-05T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-05T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -1426,6 +1581,17 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-05t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-05T19:30:00.000Z",
+      "end": "2026-11-06T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-05T21:00:00.000Z",
@@ -1546,6 +1712,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-06t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-06T22:30:00.000Z",
+      "end": "2026-11-07T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "winery-Tsillan Cellars-CHELAN: Live Music – Owen Barnhart-2026-11-07T00:00:00.000Z",
@@ -1750,6 +1927,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-07t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-07T22:30:00.000Z",
+      "end": "2026-11-08T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Tsillan Cellars-CHELAN: 2024 Red Vintage Tasting-2026-11-08T00:00:00.000Z",
       "title": "CHELAN: 2024 Red Vintage Tasting",
       "category": "food-drink",
@@ -1902,6 +2090,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-08t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-08T22:30:00.000Z",
+      "end": "2026-11-09T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Jarrett Renshaw at From The Sky Down-2026-11-08T23:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
@@ -1952,6 +2151,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-09t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-11-09T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-09T02:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -1972,6 +2182,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-09t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-11-09T19:00:00.000Z",
+      "end": "2026-11-10T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-09T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -1990,6 +2211,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-09t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-09T22:30:00.000Z",
+      "end": "2026-11-10T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-10T00:00:00.000Z",
@@ -2090,6 +2322,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-10t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-10T22:30:00.000Z",
+      "end": "2026-11-11T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-11T00:00:00.000Z",
@@ -2222,6 +2465,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-11t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-11T22:30:00.000Z",
+      "end": "2026-11-12T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-12T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -2290,6 +2544,17 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-12t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-12T19:30:00.000Z",
+      "end": "2026-11-13T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-12T21:00:00.000Z",
@@ -2450,6 +2715,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-13t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-13T22:30:00.000Z",
+      "end": "2026-11-14T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-14T00:00:00.000Z",
@@ -2674,6 +2950,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-14t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-14T22:30:00.000Z",
+      "end": "2026-11-15T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Jarrett Renshaw at Chandler Reach-2026-11-14T23:00:00.000Z",
       "title": "Jarrett Renshaw at Chandler Reach",
       "category": "music",
@@ -2846,6 +3133,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-15t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-15T22:30:00.000Z",
+      "end": "2026-11-16T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Sunday Live Music at From The Sky Down-2026-11-15T23:00:00.000Z",
       "title": "Sunday Live Music at From The Sky Down",
       "category": "music",
@@ -2886,6 +3184,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-16t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-11-16T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-16T02:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -2906,6 +3215,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-16t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-11-16T19:00:00.000Z",
+      "end": "2026-11-17T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-16T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -2924,6 +3244,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-16t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-16T22:30:00.000Z",
+      "end": "2026-11-17T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-17T00:00:00.000Z",
@@ -3024,6 +3355,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-17t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-17T22:30:00.000Z",
+      "end": "2026-11-18T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-18T00:00:00.000Z",
@@ -3156,6 +3498,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-18t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-18T22:30:00.000Z",
+      "end": "2026-11-19T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-19T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -3204,6 +3557,17 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-19t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-19T19:30:00.000Z",
+      "end": "2026-11-20T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-19T21:00:00.000Z",
@@ -3354,6 +3718,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-20t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-20T22:30:00.000Z",
+      "end": "2026-11-21T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-21T00:00:00.000Z",
@@ -3518,6 +3893,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-21t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-21T22:30:00.000Z",
+      "end": "2026-11-22T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Synne Cellars-Fall Wine Club Release + Darelle Holden Quartet-2026-11-22T00:00:00.000Z",
       "title": "Fall Wine Club Release + Darelle Holden Quartet",
       "category": "music",
@@ -3660,6 +4046,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-22t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-22T22:30:00.000Z",
+      "end": "2026-11-23T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Sunday Live Music at From The Sky Down-2026-11-22T23:00:00.000Z",
       "title": "Sunday Live Music at From The Sky Down",
       "category": "music",
@@ -3700,6 +4097,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-23t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-11-23T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-23T02:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -3720,6 +4128,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-23t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-11-23T19:00:00.000Z",
+      "end": "2026-11-24T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-23T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -3738,6 +4157,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-23t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-23T22:30:00.000Z",
+      "end": "2026-11-24T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-24T00:00:00.000Z",
@@ -3838,6 +4268,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-24t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-24T22:30:00.000Z",
+      "end": "2026-11-25T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-25T00:00:00.000Z",
@@ -3968,6 +4409,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-25t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-25T22:30:00.000Z",
+      "end": "2026-11-26T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "10000442-1795651200-1795737599@425cellars.com",
@@ -4170,6 +4622,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-27t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-27T22:30:00.000Z",
+      "end": "2026-11-28T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-28T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4332,6 +4795,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-28t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-28T22:30:00.000Z",
+      "end": "2026-11-29T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-29T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4474,6 +4948,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-29t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-29T22:30:00.000Z",
+      "end": "2026-11-30T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Jarrett Renshaw at From The Sky Down-2026-11-29T23:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
@@ -4514,6 +4999,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-30t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-11-30T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-30T02:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4534,6 +5030,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-30t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-11-30T19:00:00.000Z",
+      "end": "2026-12-01T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-30T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4552,6 +5059,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-30t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-11-30T22:30:00.000Z",
+      "end": "2026-12-01T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-01T00:00:00.000Z",
@@ -4652,6 +5170,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-01t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-01T22:30:00.000Z",
+      "end": "2026-12-02T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-02T00:00:00.000Z",
@@ -4764,6 +5293,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-02t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-02T22:30:00.000Z",
+      "end": "2026-12-03T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-03T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4792,6 +5332,17 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-03t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-03T19:30:00.000Z",
+      "end": "2026-12-04T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-03T21:00:00.000Z",
@@ -4882,6 +5433,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-04t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-04T22:30:00.000Z",
+      "end": "2026-12-05T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-05T00:00:00.000Z",
@@ -5026,6 +5588,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "rec-2026-12-05t02-30-00-000z-first-friday-live-music-at-fid-litas",
+      "title": "First Friday Live Music at Fidélitas",
+      "category": "music",
+      "start": "2026-12-05T02:30:00.000Z",
+      "location": "Fidélitas Wines, 14200 NE 145th St, Suite B, Woodinville, WA 98072",
+      "url": "https://www.fidelitaswines.com/upcoming-events/",
+      "description": "First Friday of every month at 6:30pm. Free, but reservations are required.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Tsillan Cellars-WOODINVILLE: 2024 Red Vintage Tasting-2026-12-05T20:30:00.000Z",
       "title": "WOODINVILLE: 2024 Red Vintage Tasting",
       "category": "food-drink",
@@ -5054,6 +5626,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-05t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-05T22:30:00.000Z",
+      "end": "2026-12-06T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-06T00:00:00.000Z",
@@ -5208,6 +5791,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-06t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-06T22:30:00.000Z",
+      "end": "2026-12-07T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Sunday Live Music at From The Sky Down-2026-12-06T23:00:00.000Z",
       "title": "Sunday Live Music at From The Sky Down",
       "category": "music",
@@ -5248,6 +5842,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-07t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-12-07T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-07T02:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5278,6 +5883,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-07t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-12-07T19:00:00.000Z",
+      "end": "2026-12-08T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-07T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5296,6 +5912,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-07t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-07T22:30:00.000Z",
+      "end": "2026-12-08T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-08T00:00:00.000Z",
@@ -5396,6 +6023,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-08t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-08T22:30:00.000Z",
+      "end": "2026-12-09T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-09T00:00:00.000Z",
@@ -5508,6 +6146,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-09t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-09T22:30:00.000Z",
+      "end": "2026-12-10T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-10T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -5546,6 +6195,17 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-10t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-10T19:30:00.000Z",
+      "end": "2026-12-11T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-10T21:00:00.000Z",
@@ -5656,6 +6316,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-11t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-11T22:30:00.000Z",
+      "end": "2026-12-12T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-12T00:00:00.000Z",
@@ -5820,6 +6491,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-12t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-12T22:30:00.000Z",
+      "end": "2026-12-13T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Jarrett Renshaw at Chandler Reach-2026-12-12T23:00:00.000Z",
       "title": "Jarrett Renshaw at Chandler Reach",
       "category": "music",
@@ -5962,6 +6644,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-13t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-13T22:30:00.000Z",
+      "end": "2026-12-14T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Jarrett Renshaw at From The Sky Down-2026-12-13T23:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
@@ -6002,6 +6695,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-14t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-12-14T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-14T02:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -6022,6 +6726,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-14t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-12-14T19:00:00.000Z",
+      "end": "2026-12-15T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-14T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -6040,6 +6755,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-14t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-14T22:30:00.000Z",
+      "end": "2026-12-15T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-15T00:00:00.000Z",
@@ -6140,6 +6866,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-15t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-15T22:30:00.000Z",
+      "end": "2026-12-16T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-16T00:00:00.000Z",
@@ -6252,6 +6989,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-16t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-16T22:30:00.000Z",
+      "end": "2026-12-17T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-17T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -6280,6 +7028,17 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-17t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-17T19:30:00.000Z",
+      "end": "2026-12-18T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-17T21:00:00.000Z",
@@ -6390,6 +7149,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-18t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-18T22:30:00.000Z",
+      "end": "2026-12-19T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Jarrett Renshaw at Bayernmoor Cellars-2026-12-19T00:00:00.000Z",
@@ -6544,6 +7314,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-19t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-19T22:30:00.000Z",
+      "end": "2026-12-20T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Synne Cellars-Holiday Magic & Live Music at Synne Cellars with Ian Skavdahl-2026-12-20T00:00:00.000Z",
       "title": "Holiday Magic & Live Music at Synne Cellars with Ian Skavdahl",
       "category": "music",
@@ -6686,6 +7467,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-20t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-20T22:30:00.000Z",
+      "end": "2026-12-21T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Sunday Live Music at From The Sky Down-2026-12-20T23:00:00.000Z",
       "title": "Sunday Live Music at From The Sky Down",
       "category": "music",
@@ -6716,6 +7508,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-21t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-12-21T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-21T02:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -6736,6 +7539,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-21t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-12-21T19:00:00.000Z",
+      "end": "2026-12-22T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-21T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -6754,6 +7568,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-21t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-21T22:30:00.000Z",
+      "end": "2026-12-22T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-22T00:00:00.000Z",
@@ -6854,6 +7679,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-22t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-22T22:30:00.000Z",
+      "end": "2026-12-23T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-23T00:00:00.000Z",
@@ -6966,6 +7802,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-23t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-23T22:30:00.000Z",
+      "end": "2026-12-24T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-24T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -7004,6 +7851,17 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-24t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-24T19:30:00.000Z",
+      "end": "2026-12-25T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-24T21:00:00.000Z",
@@ -7216,6 +8074,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-26t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-26T22:30:00.000Z",
+      "end": "2026-12-27T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-27T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -7338,6 +8207,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-27t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-27T22:30:00.000Z",
+      "end": "2026-12-28T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Jarrett Renshaw at From The Sky Down-2026-12-27T23:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
@@ -7368,6 +8248,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-28t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-12-28T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-28T02:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -7388,6 +8279,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-28t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2026-12-28T19:00:00.000Z",
+      "end": "2026-12-29T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-28T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -7406,6 +8308,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-28t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-28T22:30:00.000Z",
+      "end": "2026-12-29T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-29T00:00:00.000Z",
@@ -7486,6 +8399,17 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-29t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-29T22:30:00.000Z",
+      "end": "2026-12-30T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-30T00:00:00.000Z",
@@ -7588,6 +8512,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-30t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-30T22:30:00.000Z",
+      "end": "2026-12-31T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-31T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -7616,6 +8551,17 @@
       "url": "https://www.woodincreekkitchen.com/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-31t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2026-12-31T19:30:00.000Z",
+      "end": "2027-01-01T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-31T21:00:00.000Z",
@@ -7688,6 +8634,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2027-01-01t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-01T22:30:00.000Z",
+      "end": "2027-01-02T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-02t02-00-00-000z-live-music-at-prohibition-cellars",
       "title": "Live Music at Prohibition Cellars",
       "category": "music",
@@ -7721,6 +8678,27 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-02t02-30-00-000z-first-friday-live-music-at-fid-litas",
+      "title": "First Friday Live Music at Fidélitas",
+      "category": "music",
+      "start": "2027-01-02T02:30:00.000Z",
+      "location": "Fidélitas Wines, 14200 NE 145th St, Suite B, Woodinville, WA 98072",
+      "url": "https://www.fidelitaswines.com/upcoming-events/",
+      "description": "First Friday of every month at 6:30pm. Free, but reservations are required.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-02t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-02T22:30:00.000Z",
+      "end": "2027-01-03T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-03t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -7740,6 +8718,94 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-03t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-03T22:30:00.000Z",
+      "end": "2027-01-04T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-04t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-01-04T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-04t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2027-01-04T19:00:00.000Z",
+      "end": "2027-01-05T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-04t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-04T22:30:00.000Z",
+      "end": "2027-01-05T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-05t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-05T22:30:00.000Z",
+      "end": "2027-01-06T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-06t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-06T22:30:00.000Z",
+      "end": "2027-01-07T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-07t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-07T19:30:00.000Z",
+      "end": "2027-01-08T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-08t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-08T22:30:00.000Z",
+      "end": "2027-01-09T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
       "source": "Recurring"
     },
     {
@@ -7776,6 +8842,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-09t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-09T22:30:00.000Z",
+      "end": "2027-01-10T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-10t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -7798,6 +8875,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-10t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-10T22:30:00.000Z",
+      "end": "2027-01-11T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Synne Cellars-DJingo: Second Sunday Funday at Synne-2027-01-11T00:00:00.000Z",
       "title": "DJingo: Second Sunday Funday at Synne",
       "category": "music",
@@ -7806,6 +8894,83 @@
       "url": "https://www.synnecellars.com/event/djingo-second-sunday-funday-at-synne-2/",
       "description": "New year, new DJingo! Start 2027 with wine in your glass, a bingo card in hand and a soundtrack spun entirely on vinyl. DJingo is our spin on music bingo—with an actual DJ, actual vinyl and plenty of friendly competition. DJ Ben Meyer digs into his extensive vinyl collection to c",
       "source": "Synne Cellars"
+    },
+    {
+      "id": "rec-2027-01-11t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-01-11T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-11t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2027-01-11T19:00:00.000Z",
+      "end": "2027-01-12T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-11t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-11T22:30:00.000Z",
+      "end": "2027-01-12T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-12t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-12T22:30:00.000Z",
+      "end": "2027-01-13T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-13t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-13T22:30:00.000Z",
+      "end": "2027-01-14T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-14t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-14T19:30:00.000Z",
+      "end": "2027-01-15T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-15t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-15T22:30:00.000Z",
+      "end": "2027-01-16T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
     },
     {
       "id": "winery-Synne Cellars-Synne Sessions: Brian Lally | Live Acoustic Music-2027-01-16T01:00:00.000Z",
@@ -7851,6 +9016,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-16t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-16T22:30:00.000Z",
+      "end": "2027-01-17T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-17t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -7870,6 +9046,94 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-17t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-17T22:30:00.000Z",
+      "end": "2027-01-18T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-18t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-01-18T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-18t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2027-01-18T19:00:00.000Z",
+      "end": "2027-01-19T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-18t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-18T22:30:00.000Z",
+      "end": "2027-01-19T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-19t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-19T22:30:00.000Z",
+      "end": "2027-01-20T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-20t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-20T22:30:00.000Z",
+      "end": "2027-01-21T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-21t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-21T19:30:00.000Z",
+      "end": "2027-01-22T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-22t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-22T22:30:00.000Z",
+      "end": "2027-01-23T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
       "source": "Recurring"
     },
     {
@@ -7903,6 +9167,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-23t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-23T22:30:00.000Z",
+      "end": "2027-01-24T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
       "source": "Recurring"
     },
     {

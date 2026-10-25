@@ -29,16 +29,17 @@ export function expandRecurring(series, now = new Date(), windowDays = 90) {
     const y = Number(p.year), m = Number(p.month), d = Number(p.day), wd = WD[p.weekday];
     for (const s of series) {
       if (!s.weekdays.includes(wd)) continue;
+      if (s.nth && Math.ceil(d / 7) !== s.nth) continue; // e.g. nth: 1 = first <weekday> of the month
       if (s.skipDates && s.skipDates.includes(`${p.year}-${p.month}-${p.day}`)) continue;
       const [sh, sm] = s.start.split(':').map(Number);
-      const [eh, em] = s.end.split(':').map(Number);
       const start = pacificToUtc(y, m, d, sh, sm);
-      const end = pacificToUtc(y, m, d, eh, em);
-      if (end.getTime() < now.getTime()) continue; // already over
-      out.push({
-        title: s.title, category: s.category, start: start.toISOString(), end: end.toISOString(),
-        location: s.location, url: s.url, description: s.description, source: 'Recurring',
-      });
+      const end = s.end ? (([eh, em]) => pacificToUtc(y, m, d, eh, em))(s.end.split(':').map(Number)) : null;
+      if ((end || start).getTime() < now.getTime()) continue; // already over
+      const ev = { title: s.title, category: s.category, start: start.toISOString() };
+      if (end) ev.end = end.toISOString();
+      if (s.timeTBA) ev.timeTBA = true;
+      Object.assign(ev, { location: s.location, url: s.url, description: s.description, source: 'Recurring' });
+      out.push(ev);
     }
   }
   return out;

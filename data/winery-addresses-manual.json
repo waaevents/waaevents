@@ -1,7 +1,7 @@
 {
   "_note": "Street addresses confirmed from each business's own site or local press. Used by scripts/winery-geocode.mjs ahead of scraped addresses. Add 'Winery name': 'street address' to place a pin.",
   "addresses": {
-    "Fidélitas": "14467 Woodinville-Redmond Rd NE",
+    "Fidélitas": "14200 NE 145th St",
     "Novelty Hill - Januik Winery": "14710 Woodinville-Redmond Rd NE",
     "L'Ecole No. 41": "17401 133rd Ave NE",
     "Sleight of Hand Cellars": "14450 Woodinville-Redmond Rd NE",
