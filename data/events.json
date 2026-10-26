@@ -1,140 +1,8 @@
 {
-  "updatedAt": "2026-10-25T16:55:24.957Z",
+  "updatedAt": "2026-10-26T18:56:38.949Z",
   "windowDays": 90,
-  "count": 787,
+  "count": 901,
   "events": [
-    {
-      "id": "winery-LaShellé Wines-Closing at 3pm for off premise event-2026-10-25T19:00:00.001Z",
-      "title": "Closing at 3pm for off premise event",
-      "category": "community",
-      "start": "2026-10-25T19:00:00.001Z",
-      "location": "",
-      "url": "https://www.lashellewines.com/calendar/closing-at-3pm-for-off-premise-event",
-      "description": "We will be closing at 3pm on Sunday, October 25th to participate in an off-premise event. We appreciate your business and understanding and we look forward to pouring for you next week. Please email us at lashellewines@gmail.com to book your own private event with us!",
-      "source": "LaShellé Wines"
-    },
-    {
-      "id": "manual-Silly Spooks Cookie Decorating Class at Freebush-2026-10-25T20:00:00.000Z",
-      "title": "Silly Spooks Cookie Decorating Class at Freebush",
-      "category": "art",
-      "start": "2026-10-25T20:00:00.000Z",
-      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/freebushcellars/event/621285/silly-spooks-cookie-decorating-class",
-      "description": "Decorate six Halloween sugar cookies, 1-3pm. $57 per ticket.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-25T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-25T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-25T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-25T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Sunday Live Music at Brian Carter Cellars-2026-10-25T21:00:00.000Z",
-      "title": "Sunday Live Music at Brian Carter Cellars",
-      "category": "music",
-      "start": "2026-10-25T21:00:00.000Z",
-      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.briancartercellars.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-10-25t21-30-00-000z-happy-hour-at-the-restaurant-at-delille",
-      "title": "Happy Hour at The Restaurant at DeLille",
-      "category": "food-drink",
-      "start": "2026-10-25T21:30:00.000Z",
-      "end": "2026-10-26T00:00:00.000Z",
-      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
-      "url": "https://delillecellars.com/restaurant/",
-      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
-      "source": "Recurring"
-    },
-    {
-      "id": "manual-Sunday Live Music at From The Sky Down-2026-10-25T22:00:00.000Z",
-      "title": "Sunday Live Music at From The Sky Down",
-      "category": "music",
-      "start": "2026-10-25T22:00:00.000Z",
-      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/matthews-winery",
-      "description": "3-6pm",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-25T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-25T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Industry Night at The SOMM (5pm to close)-2026-10-26T00:00:00.000Z",
-      "title": "Industry Night at The SOMM (5pm to close)",
-      "category": "food-drink",
-      "start": "2026-10-26T00:00:00.000Z",
-      "location": "Bin 47 and The Shed at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-10-26t00-00-00-000z-industry-night-at-flatstick-pub",
-      "title": "Industry Night at Flatstick Pub",
-      "category": "food-drink",
-      "start": "2026-10-26T00:00:00.000Z",
-      "timeTBA": true,
-      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
-      "url": "https://flatstickpub.com/woodinville/",
-      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
-      "source": "Recurring"
-    },
-    {
-      "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-10-26T00:20:00.000Z",
-      "title": "Game Day: Hawks Pass Menu & Watch Party",
-      "category": "community",
-      "start": "2026-10-26T00:20:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/game-day-hawks-pass-menu-watch-party-5/",
-      "description": "Seahawks Watch Party at Village! Football is better together, and Village Wines is the place to watch it! Let us handle the food prep, game-day shopping, dishes, and entertaining! Join us for a Seahawks Watch Party with a lively crowd, great food, and every play on one of our fiv",
-      "source": "Village Wines"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-26T01:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-26T01:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-26T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-26T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "rec-2026-10-26t18-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
       "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
@@ -611,6 +479,16 @@
       "source": "425 Cellars"
     },
     {
+      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-10-30T00:30:00.000Z",
+      "title": "Knotty Thursdays | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-30T00:30:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-10-29/",
+      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity, and good company. Knotty Thursday is all about making something with your hands, enjoying a gr",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-30T00:30:00.000Z",
       "title": "The Summit: 16-Course Chef's Counter Dinner",
       "category": "food-drink",
@@ -802,6 +680,16 @@
       "source": "Two Vintners"
     },
     {
+      "id": "winery-Evergreen Family Wines-Murder Mystery Dinner | Woodinville-2026-10-31T01:00:00.000Z",
+      "title": "Murder Mystery Dinner | Woodinville",
+      "category": "food-drink",
+      "start": "2026-10-31T01:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/murder-mystery-dinner-woodinville/",
+      "description": "<p>I Love the 80s to Death: A Halloween Murder Mystery Dinner This Halloween, we’re going back to the 80s... and someone might not make it out alive. Join us at Evergreen Family Wines in Woodinville on Friday, October 30 for I Love the 80s to Death, a totally killer Hallowe",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Tyler McGinnis at Freebush Cellars-2026-10-31T01:00:00.000Z",
       "title": "Tyler McGinnis at Freebush Cellars",
       "category": "music",
@@ -954,6 +842,26 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Evergreen Family Wines-Live Music by King Dre | Woodinville-2026-10-31T21:00:00.000Z",
+      "title": "Live Music by King Dre | Woodinville",
+      "category": "music",
+      "start": "2026-10-31T21:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/live-music-by-king-dre-woodinville-5/2026-10-31/",
+      "description": "<p>Live music by King Dre in Woodinville! Enjoy live music, premium WA Wine, and great ambiance.</p>\\n",
+      "source": "Evergreen Family Wines"
+    },
+    {
+      "id": "winery-Village Wines-A Very Happy Halloween at Village-2026-10-31T21:00:00.000Z",
+      "title": "A Very Happy Halloween at Village",
+      "category": "food-drink",
+      "start": "2026-10-31T21:00:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/2026halloween/",
+      "description": "Halloween Happy Hour Menu 2pm to close 10% off your bill if you wear a costume",
+      "source": "Village Wines"
+    },
+    {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-31T21:00:00.000Z",
       "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
       "category": "food-drink",
@@ -1085,6 +993,16 @@
       "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-11-01/",
       "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
       "source": "Alexandria Nicole Cellars"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-11-01T20:00:00.000Z",
+      "title": "Sip Back Sundays | All Locations",
+      "category": "food-drink",
+      "start": "2026-11-01T20:00:00.000Z",
+      "location": "",
+      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-11-01/",
+      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend and let us pour you something delicious.</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Bark & Bourbon Dog Day at Northwest Spirits (all-day happy hour)-2026-11-01T20:00:00.000Z",
@@ -1634,6 +1552,16 @@
       "source": "Tsillan Cellars"
     },
     {
+      "id": "winery-Evergreen Family Wines-Networking Night | Woodinville-2026-11-06T01:00:00.000Z",
+      "title": "Networking Night | Woodinville",
+      "category": "community",
+      "start": "2026-11-06T01:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/networking-night-woodinville/",
+      "description": "<p>Join us for a fun and relaxed evening of connection at Evergreen Family Wines. Our November 5th Networking Night brings together local professionals, business owners and community members for an engaging night of conversation, collaboration and community building. Whethe",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-06T01:00:00.000Z",
       "title": "Live Music at Goose Ridge Woodinville",
       "category": "music",
@@ -1885,6 +1813,16 @@
       "url": "https://425cellars.com/event/yoga-wine-with-debbie-11-2026/",
       "description": "Start your Saturday with a little movement and a little wine. Join Debbie for a relaxing Yoga & Wine session at 425 Cellars. The $20 ticket includes the yoga session and a glass of wine. Plus, enjoy 20% off when you purchase 2 bottles. Sign up with the QR Code or link! Link: http",
       "source": "425 Cellars"
+    },
+    {
+      "id": "winery-Village Wines-Sip & Shop & Play & Listen-2026-11-07T20:00:00.000Z",
+      "title": "Sip & Shop & Play & Listen",
+      "category": "music",
+      "start": "2026-11-07T20:00:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/sipshopplay2026/",
+      "description": "Saturday, November 7th, 12pm to 6pm plus live music at 7pm We are celebrating fall at Village $4 slider (carnitas, chicken, burger) $4 pint of draft beer $4 glass of bubble, red, or white wine specials Shuffle board and darts Live music with Izzy Burns – 7pm to 9pm After you are",
+      "source": "Village Wines"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-07T21:00:00.000Z",
@@ -8167,6 +8105,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-12-27T08:00:00.000Z",
+      "title": "Social Sundays: New Connections",
+      "category": "food-drink",
+      "start": "2026-12-27T08:00:00.000Z",
+      "location": "All Locations",
+      "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-12-27/",
+      "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
+      "source": "Alexandria Nicole Cellars"
+    },
+    {
       "id": "winery-Prohibition Cellars-Yoga uncorked-2026-12-27T18:30:00.423Z",
       "title": "Yoga uncorked",
       "category": "food-drink",
@@ -8329,6 +8277,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Alexandria Nicole Cellars-Bunco Nights (No Fee)-2026-12-29T01:00:00.000Z",
+      "title": "Bunco Nights (No Fee)",
+      "category": "community",
+      "start": "2026-12-29T01:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-12-28/",
+      "description": "@ Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need t",
+      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-12-29T01:00:00.000Z",
@@ -9200,6 +9158,28 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-24t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-24T22:30:00.000Z",
+      "end": "2027-01-25T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-25t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-01-25T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
       "source": "Recurring"
     }
   ]
