@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-25T16:55:24.509Z",
+  "ranAt": "2026-10-26T18:56:38.490Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,7 +19,7 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 17,
+      "rawCount": 16,
       "addedCount": 16
     },
     {
@@ -36,7 +36,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 43,
+      "count": 45,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -62,7 +62,7 @@
     {
       "winery": "Baer Winery",
       "status": "site-unreachable",
-      "error": "This operation was aborted"
+      "error": "HTTP 404"
     },
     {
       "winery": "Ballard Pizza Company",
@@ -197,8 +197,11 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 5,
+      "eventPage": "https://evergreenfamilywines.com/events"
     },
     {
       "winery": "Fidélitas",
@@ -295,7 +298,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 15,
+      "count": 14,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -406,7 +409,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 14,
+      "count": 13,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -470,7 +473,7 @@
       "strategy": "tribe",
       "platform": "wordpress",
       "count": 12,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room"
+      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
     },
     {
       "winery": "Tenor Winery",
@@ -528,15 +531,15 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Village Wines",
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 12,
+      "count": 13,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
