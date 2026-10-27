@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-10-26T18:56:38.490Z",
+  "ranAt": "2026-10-27T18:29:34.355Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:225:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:263:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:225:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:263:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "425 Cellars",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 15,
-      "addedCount": 5
+      "addedCount": 4
     }
   ],
   "wineryReport": [
@@ -62,7 +62,7 @@
     {
       "winery": "Baer Winery",
       "status": "site-unreachable",
-      "error": "HTTP 404"
+      "error": "HTTP 504"
     },
     {
       "winery": "Ballard Pizza Company",
@@ -172,8 +172,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Dossier Wine Collective",
@@ -197,16 +197,13 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "ok",
-      "strategy": "jsonld",
-      "platform": "wordpress",
-      "count": 5,
-      "eventPage": "https://evergreenfamilywines.com/events"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Fidélitas",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Fireside Lounge",
@@ -290,8 +287,8 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "LaShellé Wines",
@@ -353,8 +350,8 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
@@ -396,8 +393,8 @@
     },
     {
       "winery": "Pondera Winery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "This operation was aborted"
     },
     {
       "winery": "Pour Decisions Taps",
@@ -419,8 +416,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "SheChill Bakery",
@@ -429,13 +426,13 @@
     },
     {
       "winery": "Sigillo Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -449,8 +446,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Stevens Winery",
@@ -473,7 +470,7 @@
       "strategy": "tribe",
       "platform": "wordpress",
       "count": 12,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
+      "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
       "winery": "Tenor Winery",
@@ -539,7 +536,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 13,
+      "count": 14,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
@@ -562,7 +559,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 5,
+      "count": 4,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
