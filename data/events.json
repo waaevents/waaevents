@@ -1,28 +1,8 @@
 {
-  "updatedAt": "2026-10-29T03:40:02.364Z",
+  "updatedAt": "2026-10-29T18:43:59.879Z",
   "windowDays": 90,
-  "count": 886,
+  "count": 891,
   "events": [
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-29T18:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-10-29T18:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap-2026-10-29T18:00:00.000Z",
-      "title": "$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap",
-      "category": "food-drink",
-      "start": "2026-10-29T18:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "rec-2026-10-29t18-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
       "title": "All-Day Happy Hour at The Restaurant at DeLille",
@@ -81,7 +61,7 @@
       "start": "2026-10-30T00:00:00.000Z",
       "location": "",
       "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays/",
-      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and your choice of potatoes or a side salad. 🍴 Make reservations on OpenTable or call 509-68",
+      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and smoked gouda mashed potatoes. 🍴 Make reservations on OpenTable or call 509-682-5409.",
       "source": "Tsillan Cellars"
     },
     {
@@ -1193,7 +1173,7 @@
       "start": "2026-11-06T01:00:00.000Z",
       "location": "",
       "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays-2/",
-      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and your choice of potatoes or a side salad. 🍴 Make reservations on OpenTable or call 509-68",
+      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and smoked gouda mashed potatoes. 🍴 Make reservations on OpenTable or call 509-682-5409.",
       "source": "Tsillan Cellars"
     },
     {
@@ -1225,6 +1205,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-11-06T02:00:00.000Z",
+      "title": "WOODINVILLE: Music Bingo",
+      "category": "music",
+      "start": "2026-11-06T02:00:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-music-bingo-60/",
+      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "winery-Prohibition Cellars-the seasonal table: Fall edition-2026-11-06T02:00:00.732Z",
@@ -2186,7 +2176,7 @@
       "start": "2026-11-13T01:00:00.000Z",
       "location": "",
       "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays-3/",
-      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and your choice of potatoes or a side salad. 🍴 Make reservations on OpenTable or call 509-68",
+      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and smoked gouda mashed potatoes. 🍴 Make reservations on OpenTable or call 509-682-5409.",
       "source": "Tsillan Cellars"
     },
     {
@@ -2228,6 +2218,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-11-13T02:00:00.000Z",
+      "title": "WOODINVILLE: Music Bingo",
+      "category": "music",
+      "start": "2026-11-13T02:00:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-music-bingo-61/",
+      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "winery-Prohibition Cellars-Keys on Main: Dueling Pianos-2026-11-13T02:00:00.399Z",
@@ -3209,7 +3209,7 @@
       "start": "2026-11-20T01:00:00.000Z",
       "location": "",
       "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays-4/",
-      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and your choice of potatoes or a side salad. 🍴 Make reservations on OpenTable or call 509-68",
+      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and smoked gouda mashed potatoes. 🍴 Make reservations on OpenTable or call 509-682-5409.",
       "source": "Tsillan Cellars"
     },
     {
@@ -3251,6 +3251,16 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-11-20T02:00:00.000Z",
+      "title": "WOODINVILLE: Music Bingo",
+      "category": "music",
+      "start": "2026-11-20T02:00:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-music-bingo-62/",
+      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-DJ Bingo at Freebush Cellars-2026-11-20T02:00:00.000Z",
@@ -3464,6 +3474,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/the-davanos-9zpfg-w2a3c-afz84-tf2lm-5pcbb-ydx6h",
       "description": "The Davanos were co-founded in 2003 by the incredibly talented duo of guitarist Jerry Battista and drummer Fred Holzman, while Bassist Greg Youtsey completes the trifecta perfectly. The Davanos play a kick-ass combination of classic rock, blues, country western along with some of",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE: Holiday Sip & Shop-2026-11-21T20:00:00.000Z",
+      "title": "WOODINVILLE: Holiday Sip & Shop",
+      "category": "community",
+      "start": "2026-11-21T20:00:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-holiday-sip-shop/",
+      "description": "Shop Small & Local this year with our Annual Sip & Shop on Saturday, November 21 from 12-5pm! Join us for a fun Saturday afternoon of shopping ahead of your holiday gatherings! This is also a great chance to stock up your cellar for all of your feasting this season! Stay tuned fo",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "winery-Tsillan Cellars-CHELAN: Live Music – Scott Heuston-2026-11-21T21:00:00.000Z",
@@ -4083,6 +4103,16 @@
       "url": "https://www.alexandrianicolecellars.com/event/closed-thanksgiving-2025-2/",
       "description": "@ We’ll be closed for Thanksgiving Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live",
       "source": "Alexandria Nicole Cellars"
+    },
+    {
+      "id": "winery-Tsillan Cellars-WOODINVILLE CLOSED FOR THANKSGIVING-2026-11-26T08:00:00.000Z",
+      "title": "WOODINVILLE CLOSED FOR THANKSGIVING",
+      "category": "food-drink",
+      "start": "2026-11-26T08:00:00.000Z",
+      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
+      "url": "https://tsillancellars.com/event/woodinville-closed-for-thanksgiving/",
+      "description": "Our tasting room will be closed on Thursday, November 26th for Thanksgiving",
+      "source": "Tsillan Cellars"
     },
     {
       "id": "winery-LaShellé Wines-CLOSED For the Thanksgiving Holiday-2026-11-26T18:00:00.619Z",
@@ -9030,6 +9060,27 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-27t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-27T22:30:00.000Z",
+      "end": "2027-01-28T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-28t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-01-28T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
       "source": "Recurring"
     }
   ]
