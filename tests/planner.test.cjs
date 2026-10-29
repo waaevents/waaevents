@@ -83,12 +83,24 @@ setTimeout(() => {
     const fmt = (iso) => new Date(iso).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Los_Angeles' });
     const text = out.textContent;
     const dayEvs = events.filter((e) => dayKey(e.start) === musicDay);
-    const shown = dayEvs.filter((e) => text.includes(`${e.title} —`));
+    // Read the event titles the plan actually printed (exact titles, not substrings: "Happy Hour at X"
+    // is a substring of "All-Day Happy Hour at X", which is a different listing).
+    const printed = [
+      ...[...out.querySelectorAll('.also-happening li strong')].map((el) => el.textContent.trim()),
+      ...[...out.querySelectorAll('.event-line')].map((el) => {
+        const tag = el.querySelector('.event-tag');
+        const t = el.textContent.replace(tag ? tag.textContent : '', '');
+        return t.split(' — ')[0].trim();
+      }),
+    ];
+    const dayTitles = new Set(dayEvs.map((e) => e.title));
+    const shown = dayEvs.filter((e) => printed.includes(e.title));
     for (const e of shown) {
-      if (!text.includes(`${e.title} — ${fmt(e.start)}`) && !dayEvs.some((o) => o !== e && o.title === e.title)) fail(`"${e.title}" is shown without its Pacific time (${fmt(e.start)}).`);
+      const sameTitle = dayEvs.filter((o) => o.title === e.title);
+      if (!sameTitle.some((o) => text.includes(`${o.title} — ${fmt(o.start)}`) || (o.timeTBA && text.includes(o.title)))) fail(`"${e.title}" is shown without its Pacific time (${fmt(e.start)}).`);
     }
     // Nothing from another day may appear.
-    const otherDay = events.filter((e) => dayKey(e.start) !== musicDay && e.title.length > 12 && text.includes(`${e.title} —`) && !dayEvs.some((o) => o.title === e.title));
+    const otherDay = printed.filter((t) => !dayTitles.has(t)).map((title) => ({ title }));
     if (otherDay.length) fail('events from other dates leaked into the plan: ' + otherDay.slice(0, 3).map((e) => e.title).join('; '));
     console.log('PASS: planner renders checkboxes, accepts a submit, and produces an itinerary.');
     if (hasRealEvent) console.log('PASS: at least one stop carries a real dated event.');
