@@ -1,26 +1,8 @@
 {
-  "updatedAt": "2026-10-29T03:31:28.130Z",
+  "updatedAt": "2026-10-29T03:40:02.364Z",
   "windowDays": 90,
-  "count": 870,
+  "count": 886,
   "events": [
-    {
-      "title": "SOMM Talks: Gard Estate Wines",
-      "category": "food-drink",
-      "start": "2026-10-29T01:00:00.000Z",
-      "location": "The SOMM Hotel Library, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "title": "New Age Flamenco at Fireside Lounge",
-      "category": "music",
-      "start": "2026-10-29T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-29T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
@@ -516,10 +498,10 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-A Deadly Vintage: Halloween Murder Mystery Party at Bayernmoor-2026-11-01T00:30:00.000Z",
       "title": "A Deadly Vintage: Halloween Murder Mystery Party at Bayernmoor",
       "category": "art",
       "start": "2026-11-01T00:30:00.000Z",
-      "end": "2026-11-01T03:30:00.000Z",
       "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
       "url": "https://bayernmoor.com/events/a-deadly-vintage-448/",
       "description": "Saturday Oct 31. Guests play detective and solve a murder, with a curated wine flight, gourmet bites and an interactive whodunit. Their page lists 5:30-8:30pm.",
