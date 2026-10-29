@@ -4,6 +4,24 @@
   "count": 870,
   "events": [
     {
+      "title": "SOMM Talks: Gard Estate Wines",
+      "category": "food-drink",
+      "start": "2026-10-29T01:00:00.000Z",
+      "location": "The SOMM Hotel Library, 14800 NE 144th St, Woodinville, WA 98072",
+      "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "title": "New Age Flamenco at Fireside Lounge",
+      "category": "music",
+      "start": "2026-10-29T01:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-10-29T18:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -495,6 +513,16 @@
       "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
       "url": "https://www.ste-michelle.com/visit-us/experiences",
       "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
+      "source": "Manually added"
+    },
+    {
+      "title": "A Deadly Vintage: Halloween Murder Mystery Party at Bayernmoor",
+      "category": "art",
+      "start": "2026-11-01T00:30:00.000Z",
+      "end": "2026-11-01T03:30:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/events/a-deadly-vintage-448/",
+      "description": "Saturday Oct 31. Guests play detective and solve a murder, with a curated wine flight, gourmet bites and an interactive whodunit. Their page lists 5:30-8:30pm.",
       "source": "Manually added"
     },
     {
@@ -1075,6 +1103,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-05t02-00-00-000z-trivia-night-at-bayernmoor-cellars-monthly-themed-",
+      "title": "Trivia Night at Bayernmoor Cellars (monthly, themed)",
+      "category": "food-drink",
+      "start": "2026-11-05T02:00:00.000Z",
+      "end": "2026-11-05T04:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
+      "description": "Monthly themed trivia on the first Wednesday, 6-8pm. Gather a team; reservations highly recommended (425-216-3300).",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-LaShellé Wines-Thanksgiving Napkin Class at LaShellé Wines-2026-11-05T02:00:00.021Z",
       "title": "Thanksgiving Napkin Class at LaShellé Wines",
       "category": "art",
@@ -1093,6 +1132,16 @@
       "url": "https://www.wilridgewinery.com/event/sip-script-harvest-calligraphy-workshop-at-pie-wine-bar/",
       "description": "Join us at Wilridge Pie Wine Bar in Woodinville for a festive, beginner-friendly calligraphy workshop with Sip & Script! Learn the art of modern calligraphy in a relaxed, welcoming setting, with all workshop materials included. Enjoy wine and Happy Hour offerings while discoverin",
       "source": "Wilridge Pie & Wine Bar"
+    },
+    {
+      "id": "rec-2026-11-05t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-11-05T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-05T19:00:00.000Z",
@@ -2076,6 +2125,16 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-12t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-11-12T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-12T19:00:00.000Z",
@@ -3091,6 +3150,16 @@
       "source": "425 Cellars"
     },
     {
+      "id": "rec-2026-11-19t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-11-19T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-19T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -4014,6 +4083,16 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-11-26t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-11-26T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Alexandria Nicole Cellars-Closed – Thanksgiving 2025-2026-11-26T08:00:00.000Z",
       "title": "Closed – Thanksgiving 2025",
       "category": "community",
@@ -4864,6 +4943,27 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-03t02-00-00-000z-trivia-night-at-bayernmoor-cellars-monthly-themed-",
+      "title": "Trivia Night at Bayernmoor Cellars (monthly, themed)",
+      "category": "food-drink",
+      "start": "2026-12-03T02:00:00.000Z",
+      "end": "2026-12-03T04:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
+      "description": "Monthly themed trivia on the first Wednesday, 6-8pm. Gather a team; reservations highly recommended (425-216-3300).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-03t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-12-03T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-12-03T19:00:00.000Z",
@@ -5729,6 +5829,16 @@
       "source": "LaShellé Wines"
     },
     {
+      "id": "rec-2026-12-10t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-12-10T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-12-10T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -6572,6 +6682,16 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-17t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-12-17T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-12-17T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -7385,6 +7505,16 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-24t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-12-24T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Alexandria Nicole Cellars-Closing Early – Christmas Eve 2026-2026-12-24T08:00:00.000Z",
       "title": "Closing Early – Christmas Eve 2026",
       "category": "food-drink",
@@ -8135,6 +8265,16 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-31t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2026-12-31T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Alexandria Nicole Cellars-Closing Early – New Year’s Eve 2026-2026-12-31T08:00:00.000Z",
       "title": "Closing Early – New Year’s Eve 2026",
       "category": "food-drink",
@@ -8399,6 +8539,27 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-07t02-00-00-000z-trivia-night-at-bayernmoor-cellars-monthly-themed-",
+      "title": "Trivia Night at Bayernmoor Cellars (monthly, themed)",
+      "category": "food-drink",
+      "start": "2027-01-07T02:00:00.000Z",
+      "end": "2027-01-07T04:00:00.000Z",
+      "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
+      "url": "https://bayernmoor.com/tasting-room/",
+      "description": "Monthly themed trivia on the first Wednesday, 6-8pm. Gather a team; reservations highly recommended (425-216-3300).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-07t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-01-07T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-07t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
       "title": "All-Day Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8563,6 +8724,16 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-14t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-01-14T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-14t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
       "title": "All-Day Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8724,6 +8895,16 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-21t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-01-21T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
       "source": "Recurring"
     },
     {
