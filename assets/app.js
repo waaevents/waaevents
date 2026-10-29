@@ -116,7 +116,7 @@ async function renderCategoryList() {
         return k && norm(ev.title).includes(k);
       });
       const endTime = ev.end ? new Date(ev.end).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: WOODINVILLE_TZ }) : '';
-      const meta = [full + ' · ' + (ev.timeTBA ? 'Time TBA' : time + (endTime ? ' – ' + endTime : '')), venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
+      const meta = [full + ' · ' + (ev.timeTBA ? (endTime ? 'Until ' + endTime : 'Time TBA') : time + (endTime ? ' – ' + endTime : '')), venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
       return `
         <li class="event-card">
           <div class="event-date">

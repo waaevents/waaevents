@@ -8954,5 +8954,28 @@
     "description": "6:30pm. No cost to attend, but reservations are required.",
     "addedBy": "manual",
     "addedOn": "2026-10-25"
+  },
+  {
+    "title": "Halloween Singo at Florence Cellars",
+    "category": "music",
+    "start": "2026-11-01T02:00:00.000Z",
+    "end": "2026-11-01T04:00:00.000Z",
+    "location": "Florence Cellars, 14475 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
+    "url": "https://florencecellars.com/pages/tasting-room",
+    "description": "Saturday Oct 31, 7-9pm. Halloween edition of Singo (singing bingo) at the Florence Cellars tasting room.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-25"
+  },
+  {
+    "title": "Halloween Party at The Haunted Shed (The SOMM)",
+    "category": "community",
+    "start": "2026-11-01T01:00:00.000Z",
+    "end": "2026-11-01T06:00:00.000Z",
+    "timeTBA": true,
+    "location": "Bin 47 and The Shed at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
+    "url": "https://thesomm.com/eat-drink/the-shed",
+    "description": "Saturday Oct 31. The Haunted Shed comes alive with a DJ, a mad scientist behind the bar and a costume contest. The DJ plays until 9:55pm, then the music continues in the Bin 47 Lounge until 11pm. Start time not published.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-25"
   }
 ]
