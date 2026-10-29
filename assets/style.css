@@ -548,3 +548,20 @@ a.winery-chip:hover .visit { color: var(--gold-deep); text-decoration: underline
 .share-qr .qr-note { margin: 14px 0 2px; font-family: 'Fraunces', Georgia, serif; font-size: 1.05rem; font-weight: 600; }
 .share-qr .qr-url { margin: 0; font-size: 0.8rem; color: var(--ink-soft); }
 @media print { .share-qr img { width: 2.2in; height: 2.2in; } }
+
+/* Food & Drink sub-tabs and weekly specials list */
+.subtabs { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 8px 10px; }
+.subtab { font: inherit; font-size: 0.95rem; font-weight: 700; padding: 10px 16px; border: 2px solid var(--sage); border-radius: 3px; background: transparent; color: var(--ink); cursor: pointer; }
+.subtab small { margin-left: 4px; font-weight: 600; color: var(--ink-soft); }
+.subtab.on { background: var(--sage-deep); border-color: var(--sage-deep); color: #fff; }
+.subtab.on small { color: #e7ece8; }
+.special-row { list-style: none; display: grid; grid-template-columns: 1fr auto; gap: 6px 18px; padding: 18px 0; border-bottom: 1.5px solid var(--sage-tint); align-items: start; }
+.special-row h3 { font-size: 1.15rem; margin: 0; }
+.special-row h3 a { color: var(--ink); text-decoration: none; }
+.special-row h3 a:hover { text-decoration: underline; text-decoration-color: var(--gold-deep); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.sp-venue { margin: 4px 0 0; font-size: 0.85rem; color: var(--ink-soft); }
+.sp-when { text-align: right; font-size: 0.88rem; line-height: 1.45; }
+.sp-when strong { display: block; color: var(--sage-deep); }
+.sp-when span { display: block; font-weight: 600; }
+.sp-when em { display: block; font-style: normal; font-size: 0.78rem; color: var(--gold-deep); font-weight: 700; }
+@media (max-width: 480px) { .special-row { grid-template-columns: 1fr; } .sp-when { text-align: left; } }

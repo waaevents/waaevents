@@ -81,6 +81,70 @@ async function renderHomeCounts() {
 
 /* ---------- Category pages: event list ---------- */
 
+/* ---------- Happy hours & lunch specials (Food & Drink sub-category) ---------- */
+
+const SPECIAL_RE = /happy hour|weekday lunch|lunch special|industry night|\$\d+\s*(beer|wine|pint)|half[- ]?(price|off)|1\/2 off|taco tue/i;
+const NOT_SPECIAL_RE = /trivia|bingo|bunco|game night/i;
+function isSpecial(ev) {
+  return ev.category === 'food-drink' && SPECIAL_RE.test(ev.title) && !NOT_SPECIAL_RE.test(ev.title);
+}
+
+const WEEK = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+function pacific(iso, opts) {
+  return new Date(iso).toLocaleString('en-US', { timeZone: WOODINVILLE_TZ, ...opts });
+}
+function daysText(days) {
+  const set = WEEK.filter((d) => days.has(d));
+  if (set.length === 7) return 'Daily';
+  if (set.length === 6) return `Daily except ${WEEK.find((d) => !days.has(d))}`;
+  const out = [];
+  let i = 0;
+  while (i < set.length) {
+    let j = i;
+    while (j + 1 < set.length && WEEK.indexOf(set[j + 1]) === WEEK.indexOf(set[j]) + 1) j++;
+    out.push(j - i >= 2 ? `${set[i]}–${set[j]}` : set.slice(i, j + 1).join(', '));
+    i = j + 1;
+  }
+  return out.join(', ');
+}
+// One row per deal (venue + title) instead of one card per day.
+function groupSpecials(list) {
+  const fold2 = (t) => String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  const groups = new Map();
+  list.forEach((ev) => {
+    const vk = fold2(String(ev.location || '').split(',')[0]);
+    const k = vk + '|' + fold2(ev.title);
+    if (!groups.has(k)) groups.set(k, { venueKey: vk, venue: String(ev.location || '').split(',')[0].trim(), first: ev, events: [] });
+    groups.get(k).events.push(ev);
+  });
+  return [...groups.values()].map((g) => {
+    const days = new Set(g.events.map((e) => pacific(e.start, { weekday: 'short' })));
+    const times = {};
+    g.events.forEach((e) => {
+      const t = e.timeTBA ? 'Time TBA' : pacific(e.start, { hour: 'numeric', minute: '2-digit' }) + (e.end ? ' – ' + pacific(e.end, { hour: 'numeric', minute: '2-digit' }) : '');
+      times[t] = (times[t] || 0) + 1;
+    });
+    const time = Object.entries(times).sort((a, b) => b[1] - a[1])[0][0];
+    const few = g.events.length <= 2;
+    const when = few ? g.events.map((e) => pacific(e.start, { weekday: 'short', month: 'short', day: 'numeric' })).join(' · ') : daysText(days);
+    return { ...g, when, time, next: pacific(g.events[0].start, { weekday: 'short', month: 'short', day: 'numeric' }) };
+  }).sort((a, b) => sortKey(a.venue).localeCompare(sortKey(b.venue)) || a.first.title.localeCompare(b.first.title));
+}
+function specialRowHtml(g) {
+  const ev = g.first;
+  const title = ev.url
+    ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>`
+    : escapeHtml(ev.title);
+  return `
+    <li class="special-row">
+      <div class="sp-main">
+        <h3>${title}</h3>
+        <p class="sp-venue">${escapeHtml(g.venue)}</p>
+      </div>
+      <div class="sp-when"><strong>${escapeHtml(g.when)}</strong><span>${escapeHtml(g.time)}</span><em>Next: ${escapeHtml(g.next)}</em></div>
+    </li>`;
+}
+
 async function renderCategoryList() {
   const list = document.querySelector('.event-list');
   if (!list) return;
@@ -130,42 +194,77 @@ async function renderCategoryList() {
         </li>`;
     };
 
+    // ---- Happy hours & specials sub-category (Food & Drink only) ----
+    const hasSub = category === 'food-drink';
+    const eventsOnly = hasSub ? events.filter((ev) => !isSpecial(ev)) : events;
+    const specials = hasSub ? events.filter(isSpecial) : [];
+    let view = 'events';
+
     // ---- Search: artist / event name and winery ----
-    const venues = new Map(); // key -> label
-    events.forEach((ev) => { const k = venueKey(ev); if (k && !venues.has(k)) venues.set(k, venueOf(ev)); });
-    const venueOptions = [...venues.entries()].sort((a, b) => sortKey(a[1]).localeCompare(sortKey(b[1])))
-      .map(([k, label]) => `<option value="${escapeAttr(k)}">${escapeHtml(label)}</option>`).join('');
     const bar = document.createElement('div');
     bar.className = 'event-search';
     bar.innerHTML = `
-      <label class="es-field"><span>Search artist or event</span>
+      ${hasSub ? `<div class="subtabs" role="tablist">
+        <button type="button" class="subtab on" data-view="events" role="tab">Events <small>${eventsOnly.length}</small></button>
+        <button type="button" class="subtab" data-view="specials" role="tab">Happy hours &amp; specials <small>${groupSpecials(specials).length}</small></button>
+      </div>` : ''}
+      <label class="es-field"><span>Search artist, event or deal</span>
         <input type="search" id="ev-q" placeholder="e.g. Brian James" autocomplete="off"></label>
       <label class="es-field"><span>Winery or venue</span>
-        <select id="ev-venue"><option value="">All wineries &amp; venues</option>${venueOptions}</select></label>
+        <select id="ev-venue"></select></label>
       <p class="es-count" id="ev-count" aria-live="polite"></p>`;
     list.parentNode.insertBefore(bar, list);
 
     const qEl = bar.querySelector('#ev-q');
     const vEl = bar.querySelector('#ev-venue');
     const cEl = bar.querySelector('#ev-count');
+    const currentList = () => (view === 'specials' ? specials : eventsOnly);
+
+    const fillVenues = () => {
+      const venues = new Map();
+      currentList().forEach((ev) => { const k = venueKey(ev); if (k && !venues.has(k)) venues.set(k, venueOf(ev)); });
+      const opts = [...venues.entries()].sort((a, b) => sortKey(a[1]).localeCompare(sortKey(b[1])))
+        .map(([k, label]) => `<option value="${escapeAttr(k)}">${escapeHtml(label)}</option>`).join('');
+      vEl.innerHTML = `<option value="">All wineries &amp; venues</option>${opts}`;
+    };
 
     const apply = () => {
       const tokens = fold(qEl.value).split(/\s+/).filter(Boolean);
       const vk = vEl.value;
-      const shown = events.filter((ev) => {
+      const base = currentList();
+      const shown = base.filter((ev) => {
         if (vk && venueKey(ev) !== vk) return false;
         if (!tokens.length) return true;
         const hay = fold(`${ev.title} ${ev.location || ''} ${ev.description || ''}`);
         return tokens.every((t) => hay.includes(t));
       });
-      list.innerHTML = shown.length
-        ? shown.map(cardHtml).join('')
-        : '<li class="empty-state">No matches. Try just the artist\'s last name, or choose "All wineries &amp; venues".</li>';
       const filtered = tokens.length || vk;
-      cEl.textContent = filtered ? `${shown.length} of ${events.length} events` : `${events.length} upcoming events`;
+      if (view === 'specials') {
+        const groups = groupSpecials(shown);
+        list.innerHTML = groups.length
+          ? groups.map(specialRowHtml).join('')
+          : '<li class="empty-state">No matching happy hours or specials.</li>';
+        const places = new Set(groups.map((g) => g.venueKey)).size;
+        cEl.textContent = `${groups.length} weekly ${groups.length === 1 ? 'special' : 'specials'} at ${places} ${places === 1 ? 'place' : 'places'}`;
+      } else {
+        list.innerHTML = shown.length
+          ? shown.map(cardHtml).join('')
+          : '<li class="empty-state">No matches. Try just the artist\'s last name, or choose "All wineries &amp; venues".</li>';
+        cEl.textContent = filtered ? `${shown.length} of ${base.length} events` : `${base.length} upcoming events`;
+      }
     };
+
+    bar.querySelectorAll('.subtab').forEach((btn) => btn.addEventListener('click', () => {
+      view = btn.dataset.view;
+      bar.querySelectorAll('.subtab').forEach((b) => b.classList.toggle('on', b === btn));
+      list.classList.toggle('specials-list', view === 'specials');
+      qEl.value = '';
+      fillVenues();
+      apply();
+    }));
     qEl.addEventListener('input', apply);
     vEl.addEventListener('change', apply);
+    fillVenues();
     apply();
   } catch (err) {
     list.innerHTML = `<li class="error-state">Couldn't load events right now. Try refreshing the page.</li>`;
