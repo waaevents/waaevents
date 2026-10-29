@@ -55,9 +55,10 @@ async function renderHomeCounts() {
   if (!els.length) return;
   try {
     const data = await loadEvents();
-    const counts = { art: 0, music: 0, comedy: 0, 'food-drink': 0, community: 0 };
+    const counts = { art: 0, music: 0, comedy: 0, 'food-drink': 0, community: 0, 'game-nights': 0 };
     for (const ev of data.events || []) {
-      if (counts[ev.category] !== undefined) counts[ev.category] += 1;
+      if (isGameNight(ev)) counts['game-nights'] += 1;
+      else if (counts[ev.category] !== undefined) counts[ev.category] += 1;
     }
     els.forEach((el) => {
       const cat = el.getAttribute('data-count-for');
@@ -84,9 +85,14 @@ async function renderHomeCounts() {
 /* ---------- Happy hours & lunch specials (Food & Drink sub-category) ---------- */
 
 const SPECIAL_RE = /happy hour|weekday lunch|lunch special|industry night|\$\d+\s*(beer|wine|pint)|half[- ]?(price|off)|1\/2 off|taco tue/i;
-const NOT_SPECIAL_RE = /trivia|bingo|bunco|game night/i;
 function isSpecial(ev) {
-  return ev.category === 'food-drink' && SPECIAL_RE.test(ev.title) && !NOT_SPECIAL_RE.test(ev.title);
+  return ev.category === 'food-drink' && SPECIAL_RE.test(ev.title) && !isGameNight(ev);
+}
+
+// Game nights: trivia, bingo (incl. pajama / music / vinyl bingo), Singo, bunco, mahjong, board-game nights.
+const GAME_RE = /trivia|bingo|singo|bunco|mah[- ]?jon?gg?|majong|game night|board game/i;
+function isGameNight(ev) {
+  return GAME_RE.test(ev.title);
 }
 
 const WEEK = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
@@ -132,6 +138,19 @@ function groupSpecials(list) {
 }
 function specialRowHtml(g) {
   const ev = g.first;
+  if (g.kind === 'static') {
+    const name = g.url
+      ? `<a href="${escapeAttr(g.url)}" target="_blank" rel="noopener">${escapeHtml(g.venue)}</a>`
+      : escapeHtml(g.venue);
+    return `
+    <li class="special-row">
+      <div class="sp-main">
+        <h3>${name}</h3>
+        <p class="sp-details">${escapeHtml(g.details || '')}</p>
+      </div>
+      <div class="sp-when"><strong>${escapeHtml(g.when || '')}</strong>${g.time ? `<span>${escapeHtml(g.time)}</span>` : ''}</div>
+    </li>`;
+  }
   const title = ev.url
     ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>`
     : escapeHtml(ev.title);
@@ -159,7 +178,7 @@ async function renderCategoryList() {
     const data = await loadEvents();
     setFooterUpdated(data.updatedAt);
 
-    const events = (data.events || []).filter((ev) => ev.category === category);
+    const events = (data.events || []).filter((ev) => (category === 'game-nights' ? isGameNight(ev) : ev.category === category && !isGameNight(ev)));
 
     if (!events.length) {
       list.innerHTML = `<li class="empty-state">No ${category} events found in the next 90 days. Check back soon — this list refreshes daily.</li>`;
@@ -198,6 +217,15 @@ async function renderCategoryList() {
     const hasSub = category === 'food-drink';
     const eventsOnly = hasSub ? events.filter((ev) => !isSpecial(ev)) : events;
     const specials = hasSub ? events.filter(isSpecial) : [];
+    let hh = { rows: [], also: null };
+    if (hasSub) {
+      try { hh = await (await fetch('data/happy-hours.json', { cache: 'no-store' })).json(); } catch (e) { /* curated list unavailable */ }
+    }
+    const keyOf = (t) => fold(t).replace(/[^a-z0-9]+/g, '');
+    // One row per venue: curated schedule first, plus any other recurring deal the calendars carry.
+    const curated = (hh.rows || []).map((r) => ({ kind: 'static', ...r, venueKey: keyOf(r.venue), first: {} }));
+    const generated = groupSpecials(specials).filter((g) => !curated.some((r) => (r.match || []).some((m) => g.venueKey.includes(m))));
+    const specialRows = [...curated, ...generated].sort((a, b) => sortKey(a.venue).localeCompare(sortKey(b.venue)) || String(a.first.title || '').localeCompare(String(b.first.title || '')));
     let view = 'events';
 
     // ---- Search: artist / event name and winery ----
@@ -206,7 +234,7 @@ async function renderCategoryList() {
     bar.innerHTML = `
       ${hasSub ? `<div class="subtabs" role="tablist">
         <button type="button" class="subtab on" data-view="events" role="tab">Events <small>${eventsOnly.length}</small></button>
-        <button type="button" class="subtab" data-view="specials" role="tab">Happy hours &amp; specials <small>${groupSpecials(specials).length}</small></button>
+        <button type="button" class="subtab" data-view="specials" role="tab">Happy hours &amp; specials <small>${specialRows.length}</small></button>
       </div>` : ''}
       <label class="es-field"><span>Search artist, event or deal</span>
         <input type="search" id="ev-q" placeholder="e.g. Brian James" autocomplete="off"></label>
@@ -218,11 +246,11 @@ async function renderCategoryList() {
     const qEl = bar.querySelector('#ev-q');
     const vEl = bar.querySelector('#ev-venue');
     const cEl = bar.querySelector('#ev-count');
-    const currentList = () => (view === 'specials' ? specials : eventsOnly);
 
     const fillVenues = () => {
       const venues = new Map();
-      currentList().forEach((ev) => { const k = venueKey(ev); if (k && !venues.has(k)) venues.set(k, venueOf(ev)); });
+      if (view === 'specials') specialRows.forEach((r) => { if (r.venueKey && !venues.has(r.venueKey)) venues.set(r.venueKey, r.venue); });
+      else eventsOnly.forEach((ev) => { const k = venueKey(ev); if (k && !venues.has(k)) venues.set(k, venueOf(ev)); });
       const opts = [...venues.entries()].sort((a, b) => sortKey(a[1]).localeCompare(sortKey(b[1])))
         .map(([k, label]) => `<option value="${escapeAttr(k)}">${escapeHtml(label)}</option>`).join('');
       vEl.innerHTML = `<option value="">All wineries &amp; venues</option>${opts}`;
@@ -231,26 +259,30 @@ async function renderCategoryList() {
     const apply = () => {
       const tokens = fold(qEl.value).split(/\s+/).filter(Boolean);
       const vk = vEl.value;
-      const base = currentList();
-      const shown = base.filter((ev) => {
-        if (vk && venueKey(ev) !== vk) return false;
-        if (!tokens.length) return true;
-        const hay = fold(`${ev.title} ${ev.location || ''} ${ev.description || ''}`);
-        return tokens.every((t) => hay.includes(t));
-      });
       const filtered = tokens.length || vk;
       if (view === 'specials') {
-        const groups = groupSpecials(shown);
-        list.innerHTML = groups.length
-          ? groups.map(specialRowHtml).join('')
-          : '<li class="empty-state">No matching happy hours or specials.</li>';
-        const places = new Set(groups.map((g) => g.venueKey)).size;
-        cEl.textContent = `${groups.length} weekly ${groups.length === 1 ? 'special' : 'specials'} at ${places} ${places === 1 ? 'place' : 'places'}`;
+        const rows = specialRows.filter((r) => {
+          if (vk && r.venueKey !== vk) return false;
+          if (!tokens.length) return true;
+          const hay = fold(`${r.venue} ${r.details || ''} ${r.when || ''} ${r.first.title || ''}`);
+          return tokens.every((t) => hay.includes(t));
+        });
+        const also = !filtered && hh.also
+          ? `<li class="special-note">${escapeHtml((hh.also.venues || []).join(', '))} ${escapeHtml(hh.also.text || '')} <a href="${escapeAttr(hh.also.url)}" target="_blank" rel="noopener">Current list on Yelp →</a></li>`
+          : '';
+        list.innerHTML = rows.length ? rows.map(specialRowHtml).join('') + also : '<li class="empty-state">No matching happy hours or specials.</li>';
+        cEl.textContent = `${rows.length} ${rows.length === 1 ? 'place' : 'places'} with recurring happy hours or specials`;
       } else {
+        const shown = eventsOnly.filter((ev) => {
+          if (vk && venueKey(ev) !== vk) return false;
+          if (!tokens.length) return true;
+          const hay = fold(`${ev.title} ${ev.location || ''} ${ev.description || ''}`);
+          return tokens.every((t) => hay.includes(t));
+        });
         list.innerHTML = shown.length
           ? shown.map(cardHtml).join('')
           : '<li class="empty-state">No matches. Try just the artist\'s last name, or choose "All wineries &amp; venues".</li>';
-        cEl.textContent = filtered ? `${shown.length} of ${base.length} events` : `${base.length} upcoming events`;
+        cEl.textContent = filtered ? `${shown.length} of ${eventsOnly.length} events` : `${eventsOnly.length} upcoming events`;
       }
     };
 

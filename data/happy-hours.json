@@ -1,0 +1,135 @@
+{
+  "_note": "Recurring happy hours and weekly food & drink deals, hand-curated from each venue's own site. Shown on the Food & Drink page's 'Happy hours & specials' tab, A to Z. 'match' hides the same venue's auto-generated calendar rows so nothing appears twice.",
+  "rows": [
+    {
+      "venue": "Baer Winery",
+      "when": "Mondays",
+      "time": "",
+      "details": "$8 glass pours.",
+      "url": "https://baerwinery.com/",
+      "match": [
+        "baer"
+      ]
+    },
+    {
+      "venue": "DeLille Cellars — The Restaurant",
+      "when": "Daily",
+      "time": "2:30–5 PM",
+      "details": "All-day happy hour on Thursdays ($12 select wines, $10 cocktails, $6 drafts). Sun & Mon: half off any bottle with two entrées. Tue: half-off rotating pasta. Wed: $2.50 oysters.",
+      "url": "https://delillecellars.com/restaurant/",
+      "match": [
+        "delille"
+      ]
+    },
+    {
+      "venue": "Evergreen Family Wines",
+      "when": "Wednesdays",
+      "time": "",
+      "details": "Wine Down Wednesday happy hour.",
+      "url": "https://evergreenfamilywines.com/events/",
+      "match": [
+        "evergreen"
+      ]
+    },
+    {
+      "venue": "Fireside Lounge (Willows Lodge)",
+      "when": "Daily",
+      "time": "3–5:30 PM and 9–10 PM",
+      "details": "Seasonal cocktails and casual bites, plus live music during the week.",
+      "url": "https://willowslodge.com/dine/fireside-lounge/",
+      "match": [
+        "fireside"
+      ]
+    },
+    {
+      "venue": "Hal's Sports Bar",
+      "when": "Mon–Fri",
+      "time": "3–5 PM",
+      "details": "Late-night happy hour Fri & Sat, 10 PM–close. Mondays: industry night. Wednesdays: half-off wings.",
+      "url": "https://www.halssportsbar.com/",
+      "match": [
+        "halssports"
+      ]
+    },
+    {
+      "venue": "Patterson Cellars",
+      "when": "Mon (Hollywood Hill) · Fri (Warehouse)",
+      "time": "Regular tasting-room hours",
+      "details": "$8 glass pours and $10 charcuterie, cheese or meat plates.",
+      "url": "https://www.pattersoncellars.com/",
+      "match": [
+        "patterson"
+      ]
+    },
+    {
+      "venue": "Purple Café & Wine Bar",
+      "when": "Daily",
+      "time": "4–6 PM",
+      "details": "Mondays: half-off select bottles of wine.",
+      "url": "https://www.purplecafe.com/woodinville",
+      "match": [
+        "purple"
+      ]
+    },
+    {
+      "venue": "Two Vintners",
+      "when": "Fridays",
+      "time": "4–8 PM",
+      "details": "Funk Fridays: happy hour with live music 6–8 PM. Wines by the glass or bottle, food trucks, first-come seating.",
+      "url": "https://www.twovintners.com/all-events-",
+      "match": [
+        "twovintners"
+      ]
+    },
+    {
+      "venue": "Village Wines",
+      "when": "Tue–Sun",
+      "time": "2–5 PM",
+      "details": "Shareable bites. $5 half glasses at lunch. Wine club members save $25 on bottles at the table. Closed Mondays.",
+      "url": "https://www.myvillagewines.com/",
+      "match": [
+        "villagewines"
+      ]
+    },
+    {
+      "venue": "Von's 1000 Spirits",
+      "when": "Daily",
+      "time": "2–6 PM",
+      "details": "Handcrafted cocktails and scratch-made bites; drink deals change every hour on the Wagering Wheel. 20% off weekday lunch until 2 PM for Washington residents. Dogs welcome on the patio.",
+      "url": "https://vons1000spirits.com/location/woodinville/",
+      "match": [
+        "vons"
+      ]
+    },
+    {
+      "venue": "Woodin Creek Kitchen & Tap",
+      "when": "Tue–Fri · Mon evenings",
+      "time": "3–6 PM (Mon from 4 PM)",
+      "details": "$2 off cocktails, wine, beer and apps. Wednesday: Wine Down Wednesday, half-price bottles on most wines. Thursday: $5 beer night. Tuesday: Taco Tuesday.",
+      "url": "https://www.woodincreekkitchen.com/",
+      "match": [
+        "woodincreek"
+      ]
+    },
+    {
+      "venue": "Woodinville Cut Shop",
+      "when": "Mon–Fri",
+      "time": "2–5 PM",
+      "details": "Cheap drafts, wells and cans plus $7–8 snacks like ribs, wings and fried pickles. Their site lists two slightly different price sets, so check before you go.",
+      "url": "https://www.woodinvillecutshop.com/happyhour",
+      "match": [
+        "cutshop"
+      ]
+    }
+  ],
+  "also": {
+    "venues": [
+      "Brix Wine Café",
+      "Heritage Restaurant | Bar",
+      "The Bistro at Hollywood Schoolhouse",
+      "The Hollywood Tavern"
+    ],
+    "text": "also run regular happy hours. Times vary and aren't all published, so check each site directly.",
+    "url": "https://www.yelp.com/search?find_desc=Happy+Hour&find_loc=Woodinville%2C+WA+98072"
+  }
+}
