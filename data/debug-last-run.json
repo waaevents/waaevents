@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-10-29T18:43:59.296Z",
+  "ranAt": "2026-10-30T18:20:11.243Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 16,
-      "addedCount": 16
+      "rawCount": 15,
+      "addedCount": 15
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -87,7 +87,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 2,
+      "count": 1,
       "eventPage": "https://www.beaumontcellars.com/events-calendar"
     },
     {
@@ -197,8 +197,8 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Fidélitas",
@@ -295,7 +295,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 13,
+      "count": 12,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -378,7 +378,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 5,
+      "count": 7,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -406,7 +406,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 13,
+      "count": 18,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -515,7 +515,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 19,
+      "count": 17,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -528,8 +528,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Village Wines",
@@ -551,15 +551,15 @@
     },
     {
       "winery": "Warr-King Wines",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Watts Brewing Company",
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 2,
+      "count": 1,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
