@@ -1,0 +1,42 @@
+{
+  "_note": "Wineries and tasting rooms with real food, delivery, or dog menus. Shown on Food & Drink > Winery dining, A to Z.",
+  "rows": [
+    {
+      "venue": "The Bistro at Hollywood Schoolhouse",
+      "when": "Delivers to wineries",
+      "details": "Delivers to nearby wineries, including Bookwalter and Amavi.",
+      "url": "https://www.hollywoodschoolhousebistro.com/"
+    },
+    {
+      "venue": "Brian Carter Cellars (Woodin Creek)",
+      "when": "Full menu",
+      "details": "Tasting room and bistro with a full menu from award-winning Chef Nicholas Ames (named Best Chef in the Pacific Northwest by the Seattle Times). Supper Club: first Wednesday of the month, 6 PM, multi-course dinner with wine pairings, 18 seats. Winemaker's Dinners: quarterly five-course dinners, $175 ($150 for wine club). Reserve on Tock.",
+      "url": "https://briancartercellars.com/events-woodinville/",
+      "address": "17140 135th Ave NE, Suite 1030"
+    },
+    {
+      "venue": "Darby Winery",
+      "when": "Special menus",
+      "details": "Special menus with Heritage Restaurant | Bar.",
+      "url": "https://darbywinery.com/"
+    },
+    {
+      "venue": "Evergreen Family Wines",
+      "when": "Special menus",
+      "details": "Special menus with Heritage Restaurant | Bar.",
+      "url": "https://evergreenfamilywines.com/"
+    },
+    {
+      "venue": "Maryhill Winery (Hollywood Schoolhouse)",
+      "when": "Full menu",
+      "details": "Full menu available at the Woodinville tasting room (14810 NE 145th St, #A).",
+      "url": "https://www.maryhillwinery.com/woodinville/"
+    },
+    {
+      "venue": "Village Wines",
+      "when": "Delivery · Puppy menu",
+      "details": "Delivers to the Redwood strip. Has a puppy menu for dogs.",
+      "url": "https://www.myvillagewines.com/"
+    }
+  ]
+}

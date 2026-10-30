@@ -905,6 +905,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2026-11-05t02-00-00-000z-supper-club-at-brian-carter-cellars",
+      "title": "Supper Club at Brian Carter Cellars",
+      "category": "food-drink",
+      "start": "2026-11-05T02:00:00.000Z",
+      "end": "2026-11-05T04:00:00.000Z",
+      "location": "Brian Carter Cellars Tasting Room & Bistro, 17140 135th Ave NE, Suite 1030, Woodinville, WA 98072",
+      "url": "https://briancartercellars.com/events-woodinville/",
+      "description": "Monthly community dinner on the first Wednesday: a new multi-course menu from Chef Nicholas Ames with Brian Carter wine pairings, 18 seats at one long table. Reserve on Tock.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-LaShellé Wines-Thanksgiving Napkin Class at LaShellé Wines-2026-11-05T02:00:00.021Z",
       "title": "Thanksgiving Napkin Class at LaShellé Wines",
       "category": "art",
@@ -994,16 +1005,6 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: Prime Rib Thursdays-2026-11-06T01:00:00.000Z",
-      "title": "CHELAN: Prime Rib Thursdays",
-      "category": "community",
-      "start": "2026-11-06T01:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays-2/",
-      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and smoked gouda mashed potatoes. 🍴 Make reservations on OpenTable or call 509-682-5409.",
-      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-06T01:00:00.000Z",
@@ -1105,16 +1106,6 @@
       "url": "https://delillecellars.com/restaurant/",
       "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
       "source": "Recurring"
-    },
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Owen Barnhart-2026-11-07T00:00:00.000Z",
-      "title": "CHELAN: Live Music – Owen Barnhart",
-      "category": "music",
-      "start": "2026-11-07T00:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-live-music-owen-barnhart-2/",
-      "description": "Join us for live music on Fridays or Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see yo",
-      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-07T00:00:00.000Z",
@@ -1328,16 +1319,6 @@
       "url": "https://delillecellars.com/restaurant/",
       "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
       "source": "Recurring"
-    },
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: 2024 Red Vintage Tasting-2026-11-08T00:00:00.000Z",
-      "title": "CHELAN: 2024 Red Vintage Tasting",
-      "category": "food-drink",
-      "start": "2026-11-08T00:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-2024-red-vintage-tasting/",
-      "description": "Tasting of the 2024 Red Vintage Chelan – Saturday, Nov. 7th 4-6pm We are excited to announce our Fourth Red Vintage Preview Event! Head Winemaker Garrett Grubbs and Vineyard Manager/Assistant Winemaker Nic Stevens can’t wait to share this incredible vintage with you. They will gu",
-      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-08T00:00:00.000Z",
@@ -2009,16 +1990,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Tsillan Cellars-CHELAN: Prime Rib Thursdays-2026-11-13T01:00:00.000Z",
-      "title": "CHELAN: Prime Rib Thursdays",
-      "category": "community",
-      "start": "2026-11-13T01:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays-3/",
-      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and smoked gouda mashed potatoes. 🍴 Make reservations on OpenTable or call 509-682-5409.",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-13T01:00:00.000Z",
       "title": "Live Music at Goose Ridge Woodinville",
       "category": "music",
@@ -2332,16 +2303,6 @@
       "source": "Patterson Cellars"
     },
     {
-      "id": "winery-Tsillan Cellars-CHELAN: Fall Barrel Tasting-2026-11-14T20:00:00.000Z",
-      "title": "CHELAN: Fall Barrel Tasting",
-      "category": "food-drink",
-      "start": "2026-11-14T20:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-fall-barrel-tasting/",
-      "description": "Barrel Tasting Experience at Tsillan Cellars Saturday, November 14th 12:00 | 1:00 | 2:00 | 3:00 Join us for a behind-the-scenes barrel tasting experience with Head Winemaker Garrett Grubbs and Assistant Winemaker Nic Stevens. The tour begins in the Tasting Room with a pour of our",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "10000436-1794661200-1794668400@425cellars.com",
       "title": "Harvest Pumpkin Centerpiece Workshop",
       "category": "community",
@@ -2350,16 +2311,6 @@
       "url": "https://425cellars.com/event/harvest-pumpkin-centerpiece-workshop/",
       "description": "Celebrate the beauty of fall with a creative afternoon at 425 Cellars. Aparna will guide you step-by-step as you create your own Harvest Pumpkin Centerpiece, perfect for your fall table or Thanksgiving décor. All materials are included and no experience is needed. $40 per person.",
       "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Taste of Whisky-2026-11-14T21:00:00.000Z",
-      "title": "CHELAN: Live Music – Taste of Whisky",
-      "category": "music",
-      "start": "2026-11-14T21:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-live-music-taste-of-whisky/",
-      "description": "Join us for live music on Fridays or Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see yo",
-      "source": "Tsillan Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-14T21:00:00.000Z",
@@ -3042,16 +2993,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Tsillan Cellars-CHELAN: Prime Rib Thursdays-2026-11-20T01:00:00.000Z",
-      "title": "CHELAN: Prime Rib Thursdays",
-      "category": "community",
-      "start": "2026-11-20T01:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-prime-rib-thursdays-4/",
-      "description": "Thursday nights just got better 🍷 Prime Rib Thursdays are back at Sorrento’s Ristorante — perfectly prepared by Chef Jon and served with Au Jus, creamy horseradish, seasonal vegetables, and smoked gouda mashed potatoes. 🍴 Make reservations on OpenTable or call 509-682-5409.",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-20T01:00:00.000Z",
       "title": "Live Music at Goose Ridge Woodinville",
       "category": "music",
@@ -3322,16 +3263,6 @@
       "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
       "url": "https://tsillancellars.com/event/woodinville-holiday-sip-shop/",
       "description": "Shop Small & Local this year with our Annual Sip & Shop on Saturday, November 21 from 12-5pm! Join us for a fun Saturday afternoon of shopping ahead of your holiday gatherings! This is also a great chance to stock up your cellar for all of your feasting this season! Stay tuned fo",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Scott Heuston-2026-11-21T21:00:00.000Z",
-      "title": "CHELAN: Live Music – Scott Heuston",
-      "category": "music",
-      "start": "2026-11-21T21:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-live-music-scott-heuston-2/",
-      "description": "Join us for live music on Fridays or Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see yo",
       "source": "Tsillan Cellars"
     },
     {
@@ -4094,16 +4025,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Tsillan Cellars-CHELAN: Live Music – Brittany Jean-2026-11-27T21:00:00.000Z",
-      "title": "CHELAN: Live Music – Brittany Jean",
-      "category": "music",
-      "start": "2026-11-27T21:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-live-music-brittany-jean/",
-      "description": "Join us for live music on Fridays or Saturdays throughout Fall and Winter at Tsillan Cellars. Enjoy a selection of award-winning wines and available bites. Weather depending this Fall, performances will be on the Island, then transitioning into the Tasting Room. We hope to see yo",
-      "source": "Tsillan Cellars"
-    },
-    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-27T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4834,6 +4755,17 @@
       "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
       "url": "https://bayernmoor.com/tasting-room/",
       "description": "Monthly themed trivia on the first Wednesday, 6-8pm. Gather a team; reservations highly recommended (425-216-3300).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-03t02-00-00-000z-supper-club-at-brian-carter-cellars",
+      "title": "Supper Club at Brian Carter Cellars",
+      "category": "food-drink",
+      "start": "2026-12-03T02:00:00.000Z",
+      "end": "2026-12-03T04:00:00.000Z",
+      "location": "Brian Carter Cellars Tasting Room & Bistro, 17140 135th Ave NE, Suite 1030, Woodinville, WA 98072",
+      "url": "https://briancartercellars.com/events-woodinville/",
+      "description": "Monthly community dinner on the first Wednesday: a new multi-course menu from Chef Nicholas Ames with Brian Carter wine pairings, 18 seats at one long table. Reserve on Tock.",
       "source": "Recurring"
     },
     {
@@ -8448,6 +8380,17 @@
       "location": "Bayernmoor Cellars Tasting Room at Woodin Creek, Woodinville, WA",
       "url": "https://bayernmoor.com/tasting-room/",
       "description": "Monthly themed trivia on the first Wednesday, 6-8pm. Gather a team; reservations highly recommended (425-216-3300).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-07t02-00-00-000z-supper-club-at-brian-carter-cellars",
+      "title": "Supper Club at Brian Carter Cellars",
+      "category": "food-drink",
+      "start": "2027-01-07T02:00:00.000Z",
+      "end": "2027-01-07T04:00:00.000Z",
+      "location": "Brian Carter Cellars Tasting Room & Bistro, 17140 135th Ave NE, Suite 1030, Woodinville, WA 98072",
+      "url": "https://briancartercellars.com/events-woodinville/",
+      "description": "Monthly community dinner on the first Wednesday: a new multi-course menu from Chef Nicholas Ames with Brian Carter wine pairings, 18 seats at one long table. Reserve on Tock.",
       "source": "Recurring"
     },
     {

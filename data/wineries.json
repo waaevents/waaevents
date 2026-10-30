@@ -90,7 +90,8 @@
             "food-pairing",
             "live-music",
             "romantic"
-          ]
+          ],
+          "note": "Woodin Creek tasting room and bistro, 17140 135th Ave NE #1030. Full menu from award-winning Chef Nicholas Ames. Supper Club and Winemaker's Dinners."
         },
         {
           "name": "Flatstick Pub Woodinville",
@@ -230,7 +231,8 @@
             "red",
             "white",
             "bubbles"
-          ]
+          ],
+          "note": "Special menus with Heritage Restaurant | Bar."
         },
         {
           "name": "DeLille Cellars",
@@ -257,7 +259,7 @@
         },
         {
           "name": "Evergreen Family Wines",
-          "note": "previously Milbrandt Vineyards",
+          "note": "previously Milbrandt Vineyards. Special menus with Heritage Restaurant | Bar.",
           "url": "https://evergreenfamilywines.com/",
           "types": [
             "estate",
@@ -390,7 +392,7 @@
             "white",
             "bubbles"
           ],
-          "note": "14810 NE 145th St #A, Hollywood Schoolhouse. Closed Mondays. Live music on select dates."
+          "note": "14810 NE 145th St #A, Hollywood Schoolhouse. Closed Mondays. Live music on select dates. Full menu."
         },
         {
           "name": "Matthews Winery & From The Sky Down",
@@ -492,7 +494,7 @@
             "family",
             "casual"
           ],
-          "note": "Live music, trivia, bingo, and food specials",
+          "note": "Live music, trivia, bingo, and food specials. Delivers to the Redwood strip. Puppy menu for dogs.",
           "wineFocus": [
             "red",
             "white",

@@ -7,6 +7,7 @@
 // Run automatically by .github/workflows/update-events.yml (daily cron).
 
 import { fuzzyDedupe } from './dedupe.mjs';
+import { applyHidden } from './hidden.mjs';
 import { expandRecurring } from './recurring.mjs';
 import ical from 'node-ical';
 import { writeFile, mkdir, readFile } from 'node:fs/promises';
@@ -456,6 +457,16 @@ async function main() {
     console.log(`Recurring series: ${expanded.length} dated events generated`);
   } catch (err) {
     console.warn('Recurring events skipped:', err.message);
+  }
+  // Drop events listed in data/hidden-events.json (wrong location, not offered in Woodinville, ...).
+  try {
+    const hid = JSON.parse(await readFile('data/hidden-events.json', 'utf8'));
+    const h = applyHidden(events, hid.rules || []);
+    if (h.hidden.length) console.log(`Hidden by rule: ${h.hidden.length} event(s).`);
+    events.length = 0;
+    events.push(...h.events);
+  } catch (err) {
+    console.warn('Hidden-event rules skipped:', err.message);
   }
   {
     const r = fuzzyDedupe(events);

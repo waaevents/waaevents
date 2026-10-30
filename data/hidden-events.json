@@ -1,0 +1,9 @@
+{
+  "_note": "Rules for events to drop from every refresh. title/location are case-insensitive regexes; both must match when both are given.",
+  "rules": [
+    {
+      "title": "^CHELAN:",
+      "reason": "Tsillan Cellars' Lake Chelan events (Prime Rib Thursdays, Chelan live music and tastings). Not offered in Woodinville."
+    }
+  ]
+}

@@ -145,6 +145,19 @@
       "start": "19:00",
       "url": "https://flatstickpub.com/woodinville/",
       "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams."
+    },
+    {
+      "title": "Supper Club at Brian Carter Cellars",
+      "category": "food-drink",
+      "location": "Brian Carter Cellars Tasting Room & Bistro, 17140 135th Ave NE, Suite 1030, Woodinville, WA 98072",
+      "weekdays": [
+        3
+      ],
+      "nth": 1,
+      "start": "18:00",
+      "end": "20:00",
+      "url": "https://briancartercellars.com/events-woodinville/",
+      "description": "Monthly community dinner on the first Wednesday: a new multi-course menu from Chef Nicholas Ames with Brian Carter wine pairings, 18 seats at one long table. Reserve on Tock."
     }
   ]
 }

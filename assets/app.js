@@ -185,6 +185,18 @@ async function renderCategoryList() {
       return;
     }
 
+    // Same event, same place, same day, several start times (e.g. the SOMM blending classes): one card, times listed together.
+    function mergeSameDay(list) {
+      const out = [];
+      const seen = new Map();
+      list.forEach((ev) => {
+        const k = [venueKey(ev), fold(ev.title).replace(/[^a-z0-9]+/g, ''), dayKey(ev.start)].join('|');
+        if (seen.has(k)) seen.get(k).times.push(ev);
+        else { const m = { ...ev, times: [ev] }; seen.set(k, m); out.push(m); }
+      });
+      return out;
+    }
+
     const cardHtml = (ev) => {
       const { day, month, full, time } = formatDay(ev.start);
       const title = ev.url
@@ -199,7 +211,10 @@ async function renderCategoryList() {
         return k && norm(ev.title).includes(k);
       });
       const endTime = ev.end ? new Date(ev.end).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: WOODINVILLE_TZ }) : '';
-      const meta = [full + ' · ' + (ev.timeTBA ? (endTime ? 'Until ' + endTime : 'Time TBA') : time + (endTime ? ' – ' + endTime : '')), venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
+      const when = ev.times && ev.times.length > 1
+        ? ev.times.map((t) => fmtTime(t.start)).join(', ')
+        : (ev.timeTBA ? (endTime ? 'Until ' + endTime : 'Time TBA') : time + (endTime ? ' – ' + endTime : ''));
+      const meta = [full + ' · ' + when, venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
       return `
         <li class="event-card">
           <div class="event-date">
@@ -215,17 +230,22 @@ async function renderCategoryList() {
 
     // ---- Happy hours & specials sub-category (Food & Drink only) ----
     const hasSub = category === 'food-drink';
-    const eventsOnly = hasSub ? events.filter((ev) => !isSpecial(ev)) : events;
+    const eventsOnly = mergeSameDay(hasSub ? events.filter((ev) => !isSpecial(ev)) : events);
     const specials = hasSub ? events.filter(isSpecial) : [];
     let hh = { rows: [], also: null };
+    let dining = { rows: [] };
     if (hasSub) {
       try { hh = await (await fetch('data/happy-hours.json', { cache: 'no-store' })).json(); } catch (e) { /* curated list unavailable */ }
+      try { dining = await (await fetch('data/winery-dining.json', { cache: 'no-store' })).json(); } catch (e) { /* curated list unavailable */ }
     }
     const keyOf = (t) => fold(t).replace(/[^a-z0-9]+/g, '');
     // One row per venue: curated schedule first, plus any other recurring deal the calendars carry.
     const curated = (hh.rows || []).map((r) => ({ kind: 'static', ...r, venueKey: keyOf(r.venue), first: {} }));
     const generated = groupSpecials(specials).filter((g) => !curated.some((r) => (r.match || []).some((m) => g.venueKey.includes(m))));
     const specialRows = [...curated, ...generated].sort((a, b) => sortKey(a.venue).localeCompare(sortKey(b.venue)) || String(a.first.title || '').localeCompare(String(b.first.title || '')));
+    const diningRows = (dining.rows || []).map((r) => ({ kind: 'static', ...r, venueKey: keyOf(r.venue), first: {} }))
+      .sort((a, b) => sortKey(a.venue).localeCompare(sortKey(b.venue)));
+    const rowsFor = (v) => (v === 'dining' ? diningRows : specialRows);
     let view = 'events';
 
     // ---- Search: artist / event name and winery ----
@@ -235,6 +255,7 @@ async function renderCategoryList() {
       ${hasSub ? `<div class="subtabs" role="tablist">
         <button type="button" class="subtab on" data-view="events" role="tab">Events <small>${eventsOnly.length}</small></button>
         <button type="button" class="subtab" data-view="specials" role="tab">Happy hours &amp; specials <small>${specialRows.length}</small></button>
+        <button type="button" class="subtab" data-view="dining" role="tab">Winery dining <small>${diningRows.length}</small></button>
       </div>` : ''}
       <label class="es-field"><span>Search artist, event or deal</span>
         <input type="search" id="ev-q" placeholder="e.g. Brian James" autocomplete="off"></label>
@@ -249,7 +270,7 @@ async function renderCategoryList() {
 
     const fillVenues = () => {
       const venues = new Map();
-      if (view === 'specials') specialRows.forEach((r) => { if (r.venueKey && !venues.has(r.venueKey)) venues.set(r.venueKey, r.venue); });
+      if (view !== 'events') rowsFor(view).forEach((r) => { if (r.venueKey && !venues.has(r.venueKey)) venues.set(r.venueKey, r.venue); });
       else eventsOnly.forEach((ev) => { const k = venueKey(ev); if (k && !venues.has(k)) venues.set(k, venueOf(ev)); });
       const opts = [...venues.entries()].sort((a, b) => sortKey(a[1]).localeCompare(sortKey(b[1])))
         .map(([k, label]) => `<option value="${escapeAttr(k)}">${escapeHtml(label)}</option>`).join('');
@@ -260,18 +281,20 @@ async function renderCategoryList() {
       const tokens = fold(qEl.value).split(/\s+/).filter(Boolean);
       const vk = vEl.value;
       const filtered = tokens.length || vk;
-      if (view === 'specials') {
-        const rows = specialRows.filter((r) => {
+      if (view === 'specials' || view === 'dining') {
+        const rows = rowsFor(view).filter((r) => {
           if (vk && r.venueKey !== vk) return false;
           if (!tokens.length) return true;
           const hay = fold(`${r.venue} ${r.details || ''} ${r.when || ''} ${r.first.title || ''}`);
           return tokens.every((t) => hay.includes(t));
         });
-        const also = !filtered && hh.also
+        const also = view === 'specials' && !filtered && hh.also
           ? `<li class="special-note">${escapeHtml((hh.also.venues || []).join(', '))} ${escapeHtml(hh.also.text || '')} <a href="${escapeAttr(hh.also.url)}" target="_blank" rel="noopener">Current list on Yelp →</a></li>`
           : '';
-        list.innerHTML = rows.length ? rows.map(specialRowHtml).join('') + also : '<li class="empty-state">No matching happy hours or specials.</li>';
-        cEl.textContent = `${rows.length} ${rows.length === 1 ? 'place' : 'places'} with recurring happy hours or specials`;
+        list.innerHTML = rows.length ? rows.map(specialRowHtml).join('') + also : '<li class="empty-state">No matches.</li>';
+        cEl.textContent = view === 'dining'
+          ? `${rows.length} ${rows.length === 1 ? 'place' : 'places'} serving food, delivering, or doing something special for dinner`
+          : `${rows.length} ${rows.length === 1 ? 'place' : 'places'} with recurring happy hours or specials`;
       } else {
         const shown = eventsOnly.filter((ev) => {
           if (vk && venueKey(ev) !== vk) return false;
@@ -289,7 +312,7 @@ async function renderCategoryList() {
     bar.querySelectorAll('.subtab').forEach((btn) => btn.addEventListener('click', () => {
       view = btn.dataset.view;
       bar.querySelectorAll('.subtab').forEach((b) => b.classList.toggle('on', b === btn));
-      list.classList.toggle('specials-list', view === 'specials');
+      list.classList.toggle('specials-list', view !== 'events');
       qEl.value = '';
       fillVenues();
       apply();
@@ -322,6 +345,7 @@ async function renderWineries() {
     if (!res.ok) throw new Error(`Failed to load wineries (${res.status})`);
     const data = await res.json();
     const labels = data.type_labels || {};
+    const HIDDEN_TYPES = new Set(['casual', 'romantic']); // no Casual & Local / Romantic & Intimate sorting here
 
     if (colorBar) {
       const colors = [['all', 'All'], ['beer', 'Beer'], ['red', 'Red'], ['bubbles', 'Sparkling'], ['white', 'White']];
@@ -331,7 +355,7 @@ async function renderWineries() {
     }
 
     if (filterBar) {
-      const allTypes = Object.keys(labels).sort((a, b) => String(labels[a]).localeCompare(String(labels[b])));
+      const allTypes = Object.keys(labels).filter((t) => !HIDDEN_TYPES.has(t)).sort((a, b) => String(labels[a]).localeCompare(String(labels[b])));
       filterBar.innerHTML = ['all', ...allTypes].map((t) => {
         const label = t === 'all' ? 'All wineries' : labels[t];
         return `<button type="button" class="type-chip${t === 'all' ? ' active' : ''}" data-type="${escapeAttr(t)}">${escapeHtml(label)}</button>`;
@@ -343,7 +367,7 @@ async function renderWineries() {
         const name = escapeHtml(w.name);
         const note = w.note ? `<span class="note">${escapeHtml(w.note)}</span>` : '';
         const types = w.types || [];
-        const tagText = types.map((t) => labels[t] || t).join(' · ');
+        const tagText = types.filter((t) => !HIDDEN_TYPES.has(t)).map((t) => labels[t] || t).join(' · ');
         const tags = tagText ? `<span class="tags">${escapeHtml(tagText)}</span>` : '';
         const colors = w.wineFocus || [];
         const visit = w.url ? '<span class="visit">Website →</span>' : '';
