@@ -1,119 +1,8 @@
 {
-  "updatedAt": "2026-10-31T00:53:35.727Z",
+  "updatedAt": "2026-10-31T17:26:43.729Z",
   "windowDays": 90,
-  "count": 866,
+  "count": 860,
   "events": [
-    {
-      "id": "winery-Two Vintners-13 Til Midnight - The Taylor Swift Tribute Band (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle-2026-10-31T01:00:00.000Z",
-      "title": "13 Til Midnight - The Taylor Swift Tribute Band (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.000Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast Woodinville, WA, 98072 United States",
-      "url": "",
-      "description": "",
-      "source": "Two Vintners"
-    },
-    {
-      "id": "manual-Tyler McGinnis at Freebush Cellars-2026-10-31T01:00:00.000Z",
-      "title": "Tyler McGinnis at Freebush Cellars",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.000Z",
-      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/freebushcellars/event/616402/tyler-mcginnis",
-      "description": "Live music from Seattle-based Tyler McGinnis, 6-9pm.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at The Shed-2026-10-31T01:00:00.000Z",
-      "title": "Live Music at The Shed",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.000Z",
-      "location": "The Shed at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-31T01:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-31T01:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Goldy & Foss at Fireside Lounge-2026-10-31T01:00:00.000Z",
-      "title": "Goldy & Foss at Fireside Lounge",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-10-31t01-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
-      "title": "Live Music at Gorman Winery (Hollywood Hill)",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.000Z",
-      "end": "2026-10-31T03:00:00.000Z",
-      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.gormanwinery.com/",
-      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
-      "source": "Recurring"
-    },
-    {
-      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Steven Crabtree-2026-10-31T01:00:00.396Z",
-      "title": "Live Music at Hollywood Hill: Steven Crabtree",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.396Z",
-      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
-      "url": "https://www.pattersoncellars.com/events/2026/10/30/live-music-at-hollywood-hill-steven-crabtree",
-      "description": "",
-      "source": "Patterson Cellars"
-    },
-    {
-      "id": "winery-Prohibition Cellars-Three Trick Pony-2026-10-31T01:00:00.879Z",
-      "title": "Three Trick Pony",
-      "category": "music",
-      "start": "2026-10-31T01:00:00.879Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/three-trick-pony-fnm9s-rgtaf-6e8l2-t6jcy-mslye-lgcrd-shch2-nehhy",
-      "description": "3 Trick Pony is a high energy 3-piece band that plays a wide variety of classic rock and funky covers that everyone grew up with. They have been packing the dance floor the last 13+ years and are known for their wide range of styles and musicianship. Always 100% LIVE, you can exp",
-      "source": "Prohibition Cellars"
-    },
-    {
-      "id": "manual-Chase Rabideau at Obelisco-2026-10-31T02:00:00.000Z",
-      "title": "Chase Rabideau at Obelisco",
-      "category": "music",
-      "start": "2026-10-31T02:00:00.000Z",
-      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE Suite 121, Woodinville, WA 98072",
-      "url": "https://obelisco.com/events-dinners/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Watts Brewing Company-Acquired Taste Halloween-2026-10-31T02:00:00.119Z",
-      "title": "Acquired Taste Halloween",
-      "category": "music",
-      "start": "2026-10-31T02:00:00.119Z",
-      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
-      "url": "https://wattsbrewingcompany.com/events/2026/10/30/acquired-taste-halloween",
-      "description": "Get your groove on at Watts Brewing this Hallows Eve with live music from Acquired Taste! Join us for a Friday night full of rockin’ music, great beers, and a legendary costume contest—with prizes!",
-      "source": "Watts Brewing Company"
-    },
-    {
-      "id": "winery-Wilridge Pie & Wine Bar-Wilridge Pie Wine Bar Fall 2026 Wine Club Release-2026-10-31T07:00:00.000Z",
-      "title": "Wilridge Pie Wine Bar Fall 2026 Wine Club Release",
-      "category": "food-drink",
-      "start": "2026-10-31T07:00:00.000Z",
-      "location": "Wilridge Pie Wine Bar, 19255 Woodinville Snohomish Rd #2, Woodinvile",
-      "url": "https://www.wilridgewinery.com/event/wilridge-pie-wine-bar-fall-2026-wine-club-release/",
-      "description": "Wilridge Wine Club members are invited to enjoy complimentary tastings, including newly released wines, along with special treats from Chef Cassaundra. Members are welcome to bring up to two guests. Additional guests are welcome for a wine and food tasting fee. Please RSVP to car",
-      "source": "Wilridge Pie & Wine Bar"
-    },
     {
       "id": "winery-Woodinville Wine Country Events-Animal Costume Contest @ Freebush Cellars-2026-10-31T19:00:00.000Z",
       "title": "Animal Costume Contest @ Freebush Cellars",
@@ -1051,9 +940,9 @@
       "title": "Synne Session: Recharge with Robbie Egelstad | Live Acoustic Music",
       "category": "music",
       "start": "2026-11-07T01:30:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/synne-session-recharge-with-robbie-egelstad-live-acoustic-music/",
-      "description": "From Halloween gatherings to Thanksgiving celebrations and the excitement of Christmas, the final months of the year can be a whirlwind. Robbie Egelstad is here to give you a reason to pause, slow down, and refuel… preferably with a great glass of wine. Join us every other Friday",
+      "description": "From Halloween gatherings to Thanksgiving celebrations and the excitement of Christmas, the final months of the year can be a whirlwind. Robbie Egelstad is here to give you a reason to pause, slow down, and refuel… preferably with a great glass of wine. Enjoy live acoustic music",
       "source": "Synne Cellars"
     },
     {
@@ -1097,16 +986,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Two Vintners-2026-11-07T02:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-11-07T02:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "rec-2026-11-07t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -1137,6 +1016,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/echos-of-epic-8ljwt-7mp25-rhtl8",
       "description": "Get ready for a night of electrifying modern rock and alternative hits as Echos of Epic takes over Prohibition Cellars! Fronted by Janessa's powerhouse vocals with James' gritty guitar riffs, Gus's driving basslines, Paul's infectious rhythms, and Dave's synth magic, this band is",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Two Vintners-Alicia Healey (Woodinville)-2026-11-07T02:00:00.394Z",
+      "title": "Alicia Healey (Woodinville)",
+      "category": "music",
+      "start": "2026-11-07T02:00:00.394Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
+      "url": "https://www.twovintners.com/all-events-/aliciahealey",
+      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
+      "source": "Two Vintners"
     },
     {
       "id": "manual-First Friday Live Music: Pierce Goddard-2026-11-07T02:30:00.000Z",
@@ -1397,7 +1286,7 @@
       "title": "DJingo: Sunday Funday Vinyl DJ Bingo at Synne",
       "category": "community",
       "start": "2026-11-09T00:00:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/djingo-sunday-funday-vinyl-dj-bingo-at-synne/",
       "description": "Your 2nd Sunday plans just got a whole lot more fun. DJingo is back at Synne—and this kicks off our Monthly 2nd Sunday Sunday Funday DJingo sessions! We’ll be bringing the fun back most every second Sunday throughout 2027. (We’re giving February 14 a pass—Valentine’s Day AND the",
       "source": "Synne Cellars"
@@ -2054,7 +1943,7 @@
       "title": "A Friday Night Favorite Returns: Ian Skavdahl Live at Synne Cellars",
       "category": "music",
       "start": "2026-11-14T01:00:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/a-friday-night-favorite-returns-ian-skavdahl-live-at-synne-cellars/",
       "description": "Join us on Friday, November 13, from 5:00–8:00 PM as local favorite Ian Skavdahl returns to Synne Cellars for an evening of outstanding live music. Known for his soulful vocals and engaging acoustic style, Ian performs a crowd-pleasing mix of popular favorites spanning folk, rock",
       "source": "Synne Cellars"
@@ -2120,16 +2009,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Two Vintners-2026-11-14T02:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-11-14T02:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "rec-2026-11-14t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -2150,6 +2029,16 @@
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
       "source": "Recurring"
+    },
+    {
+      "id": "winery-Two Vintners-Thomas Pallua (Woodinville)-2026-11-14T02:00:00.394Z",
+      "title": "Thomas Pallua (Woodinville)",
+      "category": "music",
+      "start": "2026-11-14T02:00:00.394Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
+      "url": "https://www.twovintners.com/all-events-/thomas-pallua",
+      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
+      "source": "Two Vintners"
     },
     {
       "id": "manual-Comedy Night at Love That Red Winery-2026-11-14T03:00:00.000Z",
@@ -3067,7 +2956,7 @@
       "title": "A Better Way to Wine Down | Live Acoustic Music with Robbie Egelstad at Synne",
       "category": "music",
       "start": "2026-11-21T01:30:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/a-better-way-to-wine-down-live-acoustic-music-with-robbie-egelstad-at-synne/",
       "description": "You’re almost ready for Thanksgiving and the excitement of Christmas. The final months of the year can be a whirlwind. Robbie Egelstad is here to give you a reason to pause, slow down, and refuel… preferably with a great glass of wine. Join us every other Friday from 5:30–7:30 PM",
       "source": "Synne Cellars"
@@ -3113,16 +3002,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Two Vintners-2026-11-21T02:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-11-21T02:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "rec-2026-11-21t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -3153,6 +3032,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/the-davanos-9zpfg-w2a3c-afz84-tf2lm-5pcbb-ydx6h",
       "description": "The Davanos were co-founded in 2003 by the incredibly talented duo of guitarist Jerry Battista and drummer Fred Holzman, while Bassist Greg Youtsey completes the trifecta perfectly. The Davanos play a kick-ass combination of classic rock, blues, country western along with some of",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Two Vintners-Sedona Rose & The Thorns (Woodinville)-2026-11-21T02:00:00.394Z",
+      "title": "Sedona Rose & The Thorns (Woodinville)",
+      "category": "music",
+      "start": "2026-11-21T02:00:00.394Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
+      "url": "https://www.twovintners.com/all-events-/sedona-rose-and-the-thorns",
+      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
+      "source": "Two Vintners"
     },
     {
       "id": "winery-Tsillan Cellars-WOODINVILLE: Holiday Sip & Shop-2026-11-21T20:00:00.000Z",
@@ -3200,7 +3089,7 @@
       "title": "Fall Wine Club Release + Darelle Holden Quartet",
       "category": "music",
       "start": "2026-11-22T00:00:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/fall-wine-club-release-darelle-holden-quartet/",
       "description": "Saturday, November 21 | Live Music 4–7 PM We are incredibly lucky to welcome the Darelle Holden Quartet to Synne for our fall Wine Club Release celebration—you may have caught Darelle drawing a crowd at Jazz Alley or Bake’s Place, you already know why we’re excited. Holden’s sult",
       "source": "Synne Cellars"
@@ -3979,7 +3868,7 @@
       "title": "Synne Sessions: Brian Lally | After-Thanksgiving Special",
       "category": "music",
       "start": "2026-11-28T01:00:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/synne-sessions-brian-lally-after-thanksgiving-special/",
       "description": "Take a break from the Thanksgiving festivities and unwind with an evening of beautiful live acoustic guitar at Synne Cellars! We’re excited to welcome Brian Lally , an accomplished guitarist, singer, songwriter, and composer whose expressive playing blends classical influences, i",
       "source": "Synne Cellars"
@@ -4045,16 +3934,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Two Vintners-2026-11-28T02:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-11-28T02:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "rec-2026-11-28t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -4085,6 +3964,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/joel-gibson-jr-bespj-3fdsf-xx9l3",
       "description": "Coveted and distinctive Country & Rock Singer-Songwriter, Joel Gibson Jr. is the premier independent Country & Rock artist of the PNW! His Kitsap County roots mixed with his Summers spent in North Carolina as a youth provide the foundation for an eclectic blend of Country, Rock &",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Two Vintners-Jon Petty & The Heartfakers (Woodinville)-2026-11-28T02:00:00.394Z",
+      "title": "Jon Petty & The Heartfakers (Woodinville)",
+      "category": "music",
+      "start": "2026-11-28T02:00:00.394Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
+      "url": "https://www.twovintners.com/all-events-/jonpetty-and-heartfakers",
+      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
+      "source": "Two Vintners"
     },
     {
       "id": "winery-Village Wines-Pajama Bingo Party with Kelvin-2026-11-28T04:00:00.000Z",
@@ -4854,7 +4743,7 @@
       "title": "Sip, Slow Down & Stay Awhile | Live Acoustic Music at Synne with Robbie Egelstad",
       "category": "music",
       "start": "2026-12-05T01:30:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/sip-slow-down-stay-awhile-live-acoustic-music-at-synne-with-robbie-egelstad/",
       "description": "Experience the excitement of the holiday season at Synne Cellars. The final months of the year can be a whirlwind. Robbie Egelstad is here to give you a reason to pause, slow down, and refuel… preferably with a great glass of wine. Join us every other Friday from 5:30–7:30 PM bet",
       "source": "Synne Cellars"
@@ -4910,16 +4799,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Two Vintners-2026-12-05T02:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-12-05T02:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "rec-2026-12-05t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -4950,6 +4829,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/the-industrials-zjsmd-9g4w9-gz34k-g74zg",
       "description": "Laurel Canyon Legacy celebrates the explosion of popular music that came out of LA’s Laurel Canyon in the mid-60s as folk music blended with rock and went electric. Come let us take you on a musical journey through the 60’s and 70’s as we perform your favorite songs by groups lik",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Two Vintners-Under The Puddle (Woodinville)-2026-12-05T02:00:00.394Z",
+      "title": "Under The Puddle (Woodinville)",
+      "category": "music",
+      "start": "2026-12-05T02:00:00.394Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
+      "url": "https://www.twovintners.com/all-events-/under-the-puddle-live-music-woodinville",
+      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
+      "source": "Two Vintners"
     },
     {
       "id": "rec-2026-12-05t02-30-00-000z-first-friday-live-music-at-fid-litas",
@@ -5672,6 +5561,16 @@
       "source": "LaShellé Wines"
     },
     {
+      "id": "winery-Prohibition Cellars-Keys on Main: Dueling Pianos-2026-12-11T02:00:00.399Z",
+      "title": "Keys on Main: Dueling Pianos",
+      "category": "music",
+      "start": "2026-12-11T02:00:00.399Z",
+      "location": "Prohibition Cellars",
+      "url": "https://www.prohibitioncellars.com/events-1/live-jazz-featuring-william-muoz-r53y6-5lrye-2rt6y-6j869-kkyky-snar4-4gt7w-t7pcs-lldw5-4jcnh-ejz37-2xy3e-tfnys-3ae56-e5end-8m26y-gfbpj-9tkeh-kxnl6-78m6h-yga95-rx4kp-9pfk4-d2z7x-xkg9t-8m7g2-kb93x",
+      "description": "Keys on Main is back at Prohibition Cellars with their two grand pianos for another high-energy, all-request dueling piano show! Keys on Main brings together some of the best dueling piano performers in the country—powerhouse musicians with huge vocals, quick wit, and the kind of",
+      "source": "Prohibition Cellars"
+    },
+    {
       "id": "manual-Trivia Night at Northwest Spirits-2026-12-11T03:00:00.000Z",
       "title": "Trivia Night at Northwest Spirits",
       "category": "food-drink",
@@ -5803,16 +5702,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Two Vintners-2026-12-12T02:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-12-12T02:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "rec-2026-12-12t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -5833,6 +5722,16 @@
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
       "source": "Recurring"
+    },
+    {
+      "id": "winery-Two Vintners-Slimtones (Woodinville)-2026-12-12T02:00:00.394Z",
+      "title": "Slimtones (Woodinville)",
+      "category": "music",
+      "start": "2026-12-12T02:00:00.394Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
+      "url": "https://www.twovintners.com/all-events-/slimtones-live-music-woodinville",
+      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
+      "source": "Two Vintners"
     },
     {
       "id": "manual-Comedy Night at Love That Red Winery-2026-12-12T03:00:00.000Z",
@@ -6083,7 +5982,7 @@
       "title": "DJingo: Second Sunday Funday at Synne",
       "category": "music",
       "start": "2026-12-14T00:00:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/djingo-second-sunday-funday-at-synne/",
       "description": "Take a break from the holiday hustle—wine, vinyl, bingo and prizes are waiting at our December DJingo. DJingo is our spin on music bingo—with an actual DJ, actual vinyl and plenty of friendly competition. DJ Ben Meyer digs into his extensive vinyl collection to create a completel",
       "source": "Synne Cellars"
@@ -6630,7 +6529,7 @@
       "title": "Slow Down with Robbie Egelstad at Synne Cellars",
       "category": "food-drink",
       "start": "2026-12-19T01:30:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/slow-down-with-robbie-egelstad-at-synne-cellars/",
       "description": "Experience the excitement of the holiday season at Synne Cellars. The final months of the year can be a whirlwind. Robbie Egelstad is here to give you a reason to pause, slow down, and refuel… preferably with a great glass of wine. Join us every other Friday from 5:30–7:30 PM bet",
       "source": "Synne Cellars"
@@ -6676,16 +6575,6 @@
       "source": "Manually added"
     },
     {
-      "id": "manual-Friday Live Music at Two Vintners-2026-12-19T02:00:00.000Z",
-      "title": "Friday Live Music at Two Vintners",
-      "category": "music",
-      "start": "2026-12-19T02:00:00.000Z",
-      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
-      "url": "https://www.twovintners.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
       "id": "rec-2026-12-19t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -6706,6 +6595,16 @@
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
       "source": "Recurring"
+    },
+    {
+      "id": "winery-Two Vintners-Marilyn & the G-Strings (Woodinville)-2026-12-19T02:00:00.394Z",
+      "title": "Marilyn & the G-Strings (Woodinville)",
+      "category": "music",
+      "start": "2026-12-19T02:00:00.394Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
+      "url": "https://www.twovintners.com/all-events-/marilyn-and-the-gstrings-live-music-woodinville",
+      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
+      "source": "Two Vintners"
     },
     {
       "id": "winery-Prohibition Cellars-Three Trick Pony-2026-12-19T02:00:00.879Z",
@@ -6753,7 +6652,7 @@
       "title": "Holiday Magic & Live Music at Synne Cellars with Ian Skavdahl",
       "category": "music",
       "start": "2026-12-20T00:00:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/holiday-magic-live-music-at-synne-cellars-with-ian-skavdahl/",
       "description": "Make the holidays even more memorable with an afternoon of exceptional live music, outstanding wine, and the cozy charm of Synne Cellars. Join us on Saturday, December 19, from 4:00–7:00 PM as local favorite Ian Skavdahl returns to fill the tasting room with beloved classics, pop",
       "source": "Synne Cellars"
@@ -8416,7 +8315,7 @@
       "title": "DJingo: Second Sunday Funday at Synne",
       "category": "music",
       "start": "2027-01-11T00:00:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/djingo-second-sunday-funday-at-synne-2/",
       "description": "New year, new DJingo! Start 2027 with wine in your glass, a bingo card in hand and a soundtrack spun entirely on vinyl. DJingo is our spin on music bingo—with an actual DJ, actual vinyl and plenty of friendly competition. DJ Ben Meyer digs into his extensive vinyl collection to c",
       "source": "Synne Cellars"
@@ -8513,7 +8412,7 @@
       "title": "Synne Sessions: Brian Lally | Live Acoustic Music",
       "category": "music",
       "start": "2027-01-16T01:00:00.000Z",
-      "location": "Hollywood Schoolhouse – SYNNE, 14810 NE 145th Street, Suite B, Woodinville",
+      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
       "url": "https://www.synnecellars.com/event/synne-sessions-brian-lally-live-acoustic-music/",
       "description": "Start your weekend with an evening of beautiful live acoustic music at Synne Cellars! We’re delighted to welcome back Brian Lally , an accomplished guitarist, singer, songwriter, and composer whose expressive playing blends classical influences, improvisation, and soulful musical",
       "source": "Synne Cellars"
@@ -8833,6 +8732,50 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-29t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-01-29T22:30:00.000Z",
+      "end": "2027-01-30T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-30t02-00-00-000z-live-music-at-prohibition-cellars",
+      "title": "Live Music at Prohibition Cellars",
+      "category": "music",
+      "start": "2027-01-30T02:00:00.000Z",
+      "end": "2027-01-30T05:00:00.000Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE, Suite F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1",
+      "description": "Live music most Friday nights, usually 6-9pm. Reservations recommended.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-30t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-30T02:00:00.000Z",
+      "end": "2027-01-30T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-30t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-01-30T02:00:00.000Z",
+      "end": "2027-01-30T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
       "source": "Recurring"
     }
   ]
