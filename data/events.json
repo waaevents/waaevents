@@ -1,99 +1,8 @@
 {
-  "updatedAt": "2026-10-30T18:20:11.562Z",
+  "updatedAt": "2026-10-31T00:53:35.727Z",
   "windowDays": 90,
-  "count": 881,
+  "count": 866,
   "events": [
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-30T20:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-30T20:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-10-30T21:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-10-30T21:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-10-30t21-30-00-000z-happy-hour-at-the-restaurant-at-delille",
-      "title": "Happy Hour at The Restaurant at DeLille",
-      "category": "food-drink",
-      "start": "2026-10-30T21:30:00.000Z",
-      "end": "2026-10-31T00:00:00.000Z",
-      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
-      "url": "https://delillecellars.com/restaurant/",
-      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
-      "source": "Recurring"
-    },
-    {
-      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Farshid Babazadeh-2026-10-30T23:00:00.000Z",
-      "title": "Live Music at Bayernmoor – Farshid Babazadeh",
-      "category": "music",
-      "start": "2026-10-30T23:00:00.000Z",
-      "location": "Bayernmoor Woodinville Tasting Room",
-      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240-397-186/",
-      "description": "Enjoy classic tunes from local artist, Farshid Babazadeh! Make a reservation for wine, food and fun music!",
-      "source": "Bayernmoor Cellars"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-10-30T23:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-10-30T23:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Vintage Pour: A (Pre)Halloween Soirée-2026-10-31T00:00:00.000Z",
-      "title": "Vintage Pour: A (Pre)Halloween Soirée",
-      "category": "music",
-      "start": "2026-10-31T00:00:00.000Z",
-      "location": "Darby Winery Woodinville Tasting Room, 14450 Woodinville-Redmond Rd NE, Ste 105, Woodinville, WA 98072",
-      "url": "https://darbywinery.com/events/vintage-pour-soiree/",
-      "description": "Wine, 1940s-50s swing/bebop jazz, small bites and an analog portrait pop-up, 5-8pm. Costumes encouraged.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-10-31T00:00:00.000Z",
-      "title": "Friday Night Music at Chateau Ste. Michelle",
-      "category": "music",
-      "start": "2026-10-31T00:00:00.000Z",
-      "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.ste-michelle.com/visit-us/experiences",
-      "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Jarrett Renshaw at Studio 1886-2026-10-31T00:00:00.000Z",
-      "title": "Jarrett Renshaw at Studio 1886",
-      "category": "music",
-      "start": "2026-10-31T00:00:00.000Z",
-      "location": "Studio 1886, 15500 Woodinville-Redmond Rd NE #C600, Woodinville, WA 98072",
-      "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-10-31T00:30:00.000Z",
-      "title": "The Summit: 16-Course Chef's Counter Dinner",
-      "category": "food-drink",
-      "start": "2026-10-31T00:30:00.000Z",
-      "location": "Bin 47 Chef's Counter at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "winery-Two Vintners-13 Til Midnight - The Taylor Swift Tribute Band (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle-2026-10-31T01:00:00.000Z",
       "title": "13 Til Midnight - The Taylor Swift Tribute Band (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle",
@@ -174,16 +83,6 @@
       "url": "https://www.prohibitioncellars.com/events-1/three-trick-pony-fnm9s-rgtaf-6e8l2-t6jcy-mslye-lgcrd-shch2-nehhy",
       "description": "3 Trick Pony is a high energy 3-piece band that plays a wide variety of classic rock and funky covers that everyone grew up with. They have been packing the dance floor the last 13+ years and are known for their wide range of styles and musicianship. Always 100% LIVE, you can exp",
       "source": "Prohibition Cellars"
-    },
-    {
-      "id": "winery-Village Wines-Pajama Bingo Party with Kelvin-2026-10-31T02:00:00.000Z",
-      "title": "Pajama Bingo Party with Kelvin",
-      "category": "food-drink",
-      "start": "2026-10-31T02:00:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/pajama-bingo-party-with-kelvin/",
-      "description": "Please note our fall Bingo start time @ 7pm! Join us for a night of BINGO & PAJAMA FUN at Village Wines with Kelvin ! Win prizes on every round , sip wine, and enjoy delicious bites. Grab your friends, see you soon Bingo is free to play , with a simple $5 Reservation Deposit to h",
-      "source": "Village Wines"
     },
     {
       "id": "manual-Chase Rabideau at Obelisco-2026-10-31T02:00:00.000Z",
@@ -5234,6 +5133,16 @@
       "url": "https://www.lashellewines.com/calendar/noir-joy",
       "description": "Holiday Market Shop from a vibrant collection of makers and small businesses offering unique, high-quality holiday gifts. JACQUELINE TABOR will perform at 2:00 PM this is an unforgettable performance to uplift, inspire, and celebrate together. Tickets: https://event.auctria.com/2",
       "source": "LaShellé Wines"
+    },
+    {
+      "id": "winery-Wit Cellars-Woodinville Wine Blending Class-2026-12-06T21:00:00.000Z",
+      "title": "Woodinville Wine Blending Class",
+      "category": "food-drink",
+      "start": "2026-12-06T21:00:00.000Z",
+      "location": "WIT Cellars – Woodinville, 19501 144th Ave NE Suite A400, Woodinville",
+      "url": "https://witcellars.com/event/woodinville-wine-blending-class/",
+      "description": "Ever wonder what goes into creating the perfect bottle of wine? Now it’s your turn to play winemaker! Join Phillip, WIT Cellars’ Woodinville Wine Educator , for a fun, hands-on wine blending experience where YOU get to call the shots! We’ll start by tasting several single-varieta",
+      "source": "Wit Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-06T21:00:00.000Z",
