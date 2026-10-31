@@ -1,19 +1,19 @@
 {
-  "ranAt": "2026-10-31T00:53:35.284Z",
+  "ranAt": "2026-10-31T17:26:43.148Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:226:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:264:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": false,
-      "error": "fetch failed",
-      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:226:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:264:25)"
+      "ok": true,
+      "rawCount": 0,
+      "addedCount": 0
     },
     {
       "feed": "425 Cellars",
@@ -169,8 +169,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Dossier Wine Collective",
@@ -194,13 +194,13 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Fidélitas",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Fireside Lounge",
@@ -284,8 +284,8 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "LaShellé Wines",
@@ -347,8 +347,8 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
@@ -375,7 +375,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 7,
+      "count": 6,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -385,8 +385,8 @@
     },
     {
       "winery": "Pomum Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Pondera Winery",
@@ -413,8 +413,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "SheChill Bakery",
@@ -423,13 +423,13 @@
     },
     {
       "winery": "Sigillo Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -443,8 +443,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "site-unreachable",
-      "error": "HTTP 520"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Stevens Winery",
@@ -518,10 +518,10 @@
     {
       "winery": "Two Vintners",
       "status": "ok",
-      "strategy": "jsonld",
+      "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 1,
-      "eventPage": "https://www.twovintners.com/all-events-/taylor-swift-tribute-band"
+      "count": 7,
+      "eventPage": "https://www.twovintners.com/all-events-?tag=TWO+FUNK+FRIDAY"
     },
     {
       "winery": "Vaunt Modern Gallery",
@@ -553,18 +553,15 @@
     },
     {
       "winery": "Watts Brewing Company",
-      "status": "ok",
-      "strategy": "squarespace",
-      "platform": "squarespace",
-      "count": 1,
-      "eventPage": "https://wattsbrewingcompany.com/events"
+      "status": "no-events-found",
+      "platform": "squarespace"
     },
     {
       "winery": "Wilridge Pie & Wine Bar",
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 4,
+      "count": 2,
       "eventPage": "https://www.wilridgewinery.com/wilridge-pie-wine-bar/"
     },
     {
