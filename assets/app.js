@@ -164,6 +164,36 @@ function specialRowHtml(g) {
     </li>`;
 }
 
+/* ---------- Venue websites (fallback link for events that don't carry their own) ---------- */
+
+let venueUrlsPromise = null;
+function loadVenueUrls() {
+  if (!venueUrlsPromise) {
+    const get = (u) => fetch(u, { cache: 'no-store' }).then((r) => r.json()).catch(() => ({}));
+    venueUrlsPromise = Promise.all([get('data/wineries.json'), get('data/restaurants.json'), get('data/breweries-distilleries.json')]).then(([w, r, b]) => {
+      const out = [];
+      const add = (name, url) => {
+        const key = String(name || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+        if (key.length >= 6 && /^https?:\/\//i.test(url || '')) out.push({ key, url });
+      };
+      (w.districts || []).forEach((d) => (d.wineries || []).forEach((x) => add(x.name, x.url)));
+      (r.restaurants || []).forEach((x) => add(x.name, x.url));
+      [...(b.breweries || []), ...(b.distilleries || [])].forEach((x) => add(x.name, x.url));
+      return out;
+    });
+  }
+  return venueUrlsPromise;
+}
+function venueUrlFor(ev, venueUrls) {
+  const vk = String(String(ev.location || '').split(',')[0]).normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '');
+  if (vk.length < 6) return '';
+  let best = null;
+  (venueUrls || []).forEach((v) => {
+    if ((vk.includes(v.key) || v.key.includes(vk)) && (!best || v.key.length > best.key.length)) best = v;
+  });
+  return best ? best.url : '';
+}
+
 async function renderCategoryList() {
   const list = document.querySelector('.event-list');
   if (!list) return;
@@ -177,6 +207,7 @@ async function renderCategoryList() {
   try {
     const data = await loadEvents();
     setFooterUpdated(data.updatedAt);
+    const venueUrls = await loadVenueUrls();
 
     const events = (data.events || []).filter((ev) => (category === 'game-nights' ? isGameNight(ev) : ev.category === category && !isGameNight(ev)));
 
@@ -199,8 +230,10 @@ async function renderCategoryList() {
 
     const cardHtml = (ev) => {
       const { day, month, full, time } = formatDay(ev.start);
-      const title = ev.url
-        ? `<a href="${escapeAttr(ev.url)}" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>`
+      // Every title links somewhere: the event's own page, else the venue's website.
+      const href = ev.url || venueUrlFor(ev, venueUrls);
+      const title = href
+        ? `<a href="${escapeAttr(href)}" target="_blank" rel="noopener">${escapeHtml(ev.title)}</a>`
         : escapeHtml(ev.title);
       // Keep each listing simple: title (artist/event + venue), then time and
       // a short venue name only when the title doesn't already name it.

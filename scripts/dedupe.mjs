@@ -45,7 +45,17 @@ export function fuzzyDedupe(events) {
       // Same category only, so a band filed under Food & Drink by its source doesn't hide the music listing.
       return ev.category === k.category && (toks.size === 0 || ktoks.length === 0);
     });
-    if (dup) dropped.push({ dropped: ev, keptAs: dup }); else kept.push(ev);
+    if (dup) {
+      // If the kept one is a generic placeholder ("Sunday Live Music at X") and this one names the act, keep the named one.
+      const dupVenueWords = new Set(words(String(dup.location || '').split(',')[0]));
+      const dupSpecific = words(dup.title).filter((w) => !GENERIC.has(w) && !dupVenueWords.has(w) && w.length > 1).length > 0;
+      if (!dupSpecific && toks.size > 0) {
+        kept.splice(kept.indexOf(dup), 1, ev);
+        dropped.push({ dropped: dup, keptAs: ev });
+      } else {
+        dropped.push({ dropped: ev, keptAs: dup });
+      }
+    } else kept.push(ev);
   }
   kept.sort((a, b) => new Date(a.start) - new Date(b.start));
   return { events: kept, dropped };

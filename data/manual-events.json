@@ -8988,5 +8988,49 @@
     "description": "Saturday Oct 31. Guests play detective and solve a murder, with a curated wine flight, gourmet bites and an interactive whodunit. Their page lists 5:30-8:30pm.",
     "addedBy": "manual",
     "addedOn": "2026-10-29"
+  },
+  {
+    "title": "Steven Fletcher at Brian Carter Cellars",
+    "category": "music",
+    "start": "2026-11-01T22:00:00.000Z",
+    "end": "2026-11-02T00:00:00.000Z",
+    "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+    "url": "https://briancartercellars.com/woodinville/events",
+    "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-30"
+  },
+  {
+    "title": "Michael Scott at Brian Carter Cellars",
+    "category": "music",
+    "start": "2026-11-08T22:00:00.000Z",
+    "end": "2026-11-09T00:00:00.000Z",
+    "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+    "url": "https://briancartercellars.com/woodinville/events",
+    "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-30"
+  },
+  {
+    "title": "Ian Skavdahl at Brian Carter Cellars",
+    "category": "music",
+    "start": "2026-11-22T22:00:00.000Z",
+    "end": "2026-11-23T00:00:00.000Z",
+    "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+    "url": "https://briancartercellars.com/woodinville/events",
+    "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-30"
+  },
+  {
+    "title": "Kristi Lynn at Brian Carter Cellars",
+    "category": "music",
+    "start": "2026-11-29T22:00:00.000Z",
+    "end": "2026-11-30T00:00:00.000Z",
+    "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
+    "url": "https://briancartercellars.com/woodinville/events",
+    "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
+    "addedBy": "manual",
+    "addedOn": "2026-10-30"
   }
 ]

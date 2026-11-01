@@ -63,6 +63,17 @@ const EXTRA_FEEDS = [
     url: 'https://www.alexandrianicolecellars.com/events/list/?ical=1',
     requireLocationContains: 'woodinville',
   },
+  {
+    name: 'Evergreen Family Wines',
+    // Verified against the site's own "Export .ics file" link on
+    // https://evergreenfamilywines.com/events . The feed covers Woodinville,
+    // Leavenworth and Prosser, so keep Woodinville only. "All Locations"
+    // events (e.g. Sip Back Sundays happy hour) have no venue line but do
+    // include the Woodinville tasting room, so they're allowed through.
+    url: 'https://evergreenfamilywines.com/events/list/?ical=1',
+    requireLocationContains: 'woodinville',
+    allowTitleContains: 'all locations',
+  },
 ];
 
 // Genre keywords. Checked against the title first (stronger signal), then
@@ -284,7 +295,8 @@ async function main() {
         // legitimate one with the same title/time.
         if (
           feed.requireLocationContains &&
-          !location.toLowerCase().includes(feed.requireLocationContains)
+          !location.toLowerCase().includes(feed.requireLocationContains) &&
+          !(feed.allowTitleContains && title.toLowerCase().includes(feed.allowTitleContains))
         ) {
           continue;
         }
