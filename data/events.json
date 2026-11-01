@@ -1,38 +1,8 @@
 {
-  "updatedAt": "2026-11-01T18:12:46.843Z",
+  "updatedAt": "2026-11-01T21:08:27.369Z",
   "windowDays": 90,
-  "count": 856,
+  "count": 853,
   "events": [
-    {
-      "id": "manual-Bark & Bourbon Dog Day at Northwest Spirits (all-day happy hour)-2026-11-01T20:00:00.000Z",
-      "title": "Bark & Bourbon Dog Day at Northwest Spirits (all-day happy hour)",
-      "category": "community",
-      "start": "2026-11-01T20:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000429-1793538000-1793545200@425cellars.com",
-      "title": "Gary’s Pairing",
-      "category": "community",
-      "start": "2026-11-01T21:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/garys-pairing-11-2026/",
-      "description": "Spend your Sunday afternoon at 425 Cellars with Gary’s Pairing. Enjoy a complimentary pairing experience, discover new flavors, and relax with a glass of wine in the tasting room. Plus, enjoy 20% off when you purchase 2 bottles.",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-01T21:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-01T21:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Fall Floral Centerpiece Workshop at Freebush-2026-11-01T22:00:00.000Z",
       "title": "Fall Floral Centerpiece Workshop at Freebush",
@@ -54,10 +24,10 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Steven Fletcher at Brian Carter Cellars-2026-11-01T22:00:00.000Z",
       "title": "Steven Fletcher at Brian Carter Cellars",
       "category": "music",
       "start": "2026-11-01T22:00:00.000Z",
-      "end": "2026-11-02T00:00:00.000Z",
       "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
       "url": "https://briancartercellars.com/woodinville/events",
       "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
@@ -1059,10 +1029,10 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Michael Scott at Brian Carter Cellars-2026-11-08T22:00:00.000Z",
       "title": "Michael Scott at Brian Carter Cellars",
       "category": "music",
       "start": "2026-11-08T22:00:00.000Z",
-      "end": "2026-11-09T00:00:00.000Z",
       "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
       "url": "https://briancartercellars.com/woodinville/events",
       "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
@@ -3105,10 +3075,10 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Ian Skavdahl at Brian Carter Cellars-2026-11-22T22:00:00.000Z",
       "title": "Ian Skavdahl at Brian Carter Cellars",
       "category": "music",
       "start": "2026-11-22T22:00:00.000Z",
-      "end": "2026-11-23T00:00:00.000Z",
       "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
       "url": "https://briancartercellars.com/woodinville/events",
       "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
@@ -4067,10 +4037,10 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Kristi Lynn at Brian Carter Cellars-2026-11-29T22:00:00.000Z",
       "title": "Kristi Lynn at Brian Carter Cellars",
       "category": "music",
       "start": "2026-11-29T22:00:00.000Z",
-      "end": "2026-11-30T00:00:00.000Z",
       "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
       "url": "https://briancartercellars.com/woodinville/events",
       "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
