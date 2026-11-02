@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-01T21:08:26.797Z",
+  "ranAt": "2026-11-02T22:01:17.520Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 15,
-      "addedCount": 14
+      "rawCount": 13,
+      "addedCount": 13
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 45,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -299,7 +299,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 12,
+      "count": 13,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -410,7 +410,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 17,
+      "count": 18,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -525,15 +525,15 @@
     {
       "winery": "Two Vintners",
       "status": "ok",
-      "strategy": "squarespace",
+      "strategy": "jsonld",
       "platform": "squarespace",
-      "count": 7,
-      "eventPage": "https://www.twovintners.com/all-events-?tag=TWO+FUNK+FRIDAY"
+      "count": 1,
+      "eventPage": "https://www.twovintners.com/all-events-/aliciahealey"
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Village Wines",
