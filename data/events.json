@@ -1,90 +1,8 @@
 {
-  "updatedAt": "2026-11-02T22:01:18.105Z",
+  "updatedAt": "2026-11-03T19:54:27.926Z",
   "windowDays": 90,
-  "count": 846,
+  "count": 843,
   "events": [
-    {
-      "id": "rec-2026-11-02t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
-      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
-      "category": "food-drink",
-      "start": "2026-11-02T19:00:00.000Z",
-      "end": "2026-11-03T04:00:00.000Z",
-      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
-      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
-      "source": "Recurring"
-    },
-    {
-      "id": "rec-2026-11-02t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
-      "title": "Happy Hour at The Restaurant at DeLille",
-      "category": "food-drink",
-      "start": "2026-11-02T22:30:00.000Z",
-      "end": "2026-11-03T01:00:00.000Z",
-      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
-      "url": "https://delillecellars.com/restaurant/",
-      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
-      "source": "Recurring"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-03T00:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-03T00:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10002218-1793638800-1793646000@www.alexandrianicolecellars.com",
-      "title": "Bunco Nights (No Fee)",
-      "category": "community",
-      "start": "2026-11-03T01:00:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2026-11-02/",
-      "description": "Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need to ",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Bunco Night at Alexandria Nicole Cellars-2026-11-03T01:00:00.000Z",
-      "title": "Bunco Night at Alexandria Nicole Cellars",
-      "category": "food-drink",
-      "start": "2026-11-03T01:00:00.000Z",
-      "location": "Alexandria Nicole Cellars, 17140 135th Ave NE Bldg 2D Ste 1010, Woodinville, WA 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/",
-      "description": "Weekly Monday Bunco, 5-7pm. No fee. Bring a small prize (up to $10) for the pool and get half off your first glass.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at Bin 47-2026-11-03T02:00:00.000Z",
-      "title": "Live Music at Bin 47",
-      "category": "music",
-      "start": "2026-11-03T02:00:00.000Z",
-      "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Game Night at the Cut Shop-2026-11-03T03:00:00.000Z",
-      "title": "Game Night at the Cut Shop",
-      "category": "food-drink",
-      "start": "2026-11-03T03:00:00.000Z",
-      "location": "Woodinville Cut Shop, 12801 NE 175th St, Woodinville, WA 98072",
-      "url": "https://www.woodinvillecutshop.com/",
-      "description": "Weekly Monday game night, board games, cards and tabletop RPGs at the Cut Shop, running until close.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-03T19:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-11-03T19:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "10002494-1793707200-1793732400@www.alexandrianicolecellars.com",
       "title": "Taco Tuesdays @ Woodin Creek",
@@ -590,6 +508,16 @@
       "url": "https://www.exploretock.com/studio1886",
       "description": "5-8pm",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Watts Brewing Company-Glass Pint of Emotion Movember Fundraiser-2026-11-07T01:00:00.649Z",
+      "title": "Glass Pint of Emotion Movember Fundraiser",
+      "category": "food-drink",
+      "start": "2026-11-07T01:00:00.649Z",
+      "location": "Watts Brewing Company, 15510 Woodinville-Redmond Rd NE Ste E110, Woodinville, WA, 98072",
+      "url": "https://wattsbrewingcompany.com/events/2026/11/6/glass-pint-of-emotion-movember-fundraiser",
+      "description": "Come celebrate Movember with the release of Glass Pint of Emotion, our brown ale brewed with our friends at Sound 2 Summit and Halcyon Brewing.",
+      "source": "Watts Brewing Company"
     },
     {
       "id": "winery-Synne Cellars-Synne Session: Recharge with Robbie Egelstad | Live Acoustic Music-2026-11-07T01:30:00.000Z",
@@ -3356,6 +3284,16 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Prohibition Cellars-Thanksgiving Closures-2026-11-25T22:00:00.170Z",
+      "title": "Thanksgiving Closures",
+      "category": "food-drink",
+      "start": "2026-11-25T22:00:00.170Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/holiday-closures-bdn2e-wa44a",
+      "description": "Both Prohibition Cellars tasting rooms will be closed November 25 & 26 so our team can enjoy Thanksgiving with family and friends. Wishing you a wonderful Thanksgiving filled with good food, great wine, and plenty to be thankful for! #block-15bded7a2f523c5af2b5 { --stroke-style:",
+      "source": "Prohibition Cellars"
     },
     {
       "id": "rec-2026-11-25t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
@@ -7964,6 +7902,16 @@
       "source": "Recurring"
     },
     {
+      "id": "winery-Alexandria Nicole Cellars-Bunco Nights (No Fee)-2027-01-05T01:00:00.000Z",
+      "title": "Bunco Nights (No Fee)",
+      "category": "community",
+      "start": "2027-01-05T01:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "url": "https://www.alexandrianicolecellars.com/event/bunco-nights-no-fee/2027-01-04/",
+      "description": "@ Ready to roll? Join us every Monday for a lively evening of Bunco, bold pours, and just the right amount of friendly competition. Whether you’re a seasoned dice-shaker or have no idea what “Bunco!” even means yet, you’re in the right place. We’ll teach you everything you need t",
+      "source": "Alexandria Nicole Cellars"
+    },
+    {
       "id": "rec-2027-01-05t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8637,6 +8585,28 @@
       "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
       "url": "https://flatstickpub.com/woodinville/",
       "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-01t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
+      "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
+      "category": "food-drink",
+      "start": "2027-02-01T19:00:00.000Z",
+      "end": "2027-02-02T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-01t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-02-01T22:30:00.000Z",
+      "end": "2027-02-02T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
       "source": "Recurring"
     }
   ]
