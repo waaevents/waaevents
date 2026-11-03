@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-02T22:01:17.520Z",
+  "ranAt": "2026-11-03T19:54:27.503Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 15,
-      "addedCount": 5
+      "addedCount": 4
     },
     {
       "feed": "Evergreen Family Wines",
@@ -410,7 +410,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 18,
+      "count": 19,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -563,7 +563,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 6,
+      "count": 7,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
