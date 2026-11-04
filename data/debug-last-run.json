@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-03T19:54:27.503Z",
+  "ranAt": "2026-11-04T20:09:44.909Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 15,
-      "addedCount": 4
+      "addedCount": 2
     },
     {
       "feed": "Evergreen Family Wines",
@@ -201,8 +201,11 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 6,
+      "eventPage": "https://evergreenfamilywines.com/events"
     },
     {
       "winery": "Fidélitas",
@@ -299,7 +302,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 13,
+      "count": 16,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -309,8 +312,11 @@
     },
     {
       "winery": "Lobo Hills Wine Co.",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "ok",
+      "strategy": "tribe",
+      "platform": "wordpress",
+      "count": 1,
+      "eventPage": "https://lobohills.com/"
     },
     {
       "winery": "Long Shadows Vintners",
@@ -519,7 +525,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 19,
+      "count": 22,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -532,8 +538,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Village Wines",
