@@ -1,26 +1,26 @@
 {
-  "ranAt": "2026-11-05T20:24:02.569Z",
+  "ranAt": "2026-11-06T03:06:10.699Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
       "url": "https://visitwoodinville.org/events/list/?ical=1&shortcode=f0b1cb7d",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "fetch failed",
+      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:237:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:275:25)"
     },
     {
       "feed": "Woodinville Chamber (Community Events)",
       "url": "https://woodinvillechamber.org/cal-events/category/community-events/list/?ical=1",
-      "ok": true,
-      "rawCount": 0,
-      "addedCount": 0
+      "ok": false,
+      "error": "fetch failed",
+      "stack": "TypeError: fetch failed |     at node:internal/deps/undici/undici:14976:13 |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:237:15) |     at async main (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:275:25)"
     },
     {
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
       "rawCount": 13,
-      "addedCount": 13
+      "addedCount": 12
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -91,7 +91,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 5,
+      "count": 4,
       "eventPage": "https://www.beaumontcellars.com/events-calendar"
     },
     {
@@ -176,8 +176,8 @@
     },
     {
       "winery": "DiStefano Winery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Dossier Wine Collective",
@@ -201,13 +201,13 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Fidélitas",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Fireside Lounge",
@@ -291,15 +291,15 @@
     },
     {
       "winery": "L'Ecole No. 41",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "LaShellé Wines",
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 16,
+      "count": 15,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -354,13 +354,13 @@
     },
     {
       "winery": "Michael Florentino Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Novelty Hill - Januik Winery",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "HTTP 503"
     },
     {
       "winery": "Obelisco Estate (Apple Farm Village)",
@@ -392,8 +392,8 @@
     },
     {
       "winery": "Pomum Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 520"
     },
     {
       "winery": "Pondera Winery",
@@ -410,7 +410,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 19,
+      "count": 18,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -420,8 +420,8 @@
     },
     {
       "winery": "Savage Grace Wines",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 520"
     },
     {
       "winery": "SheChill Bakery",
@@ -430,13 +430,13 @@
     },
     {
       "winery": "Sigillo Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Simpatico Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Sleight of Hand Cellars",
@@ -450,8 +450,8 @@
     },
     {
       "winery": "Sparkman Cellars",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 520"
     },
     {
       "winery": "Stevens Winery",
@@ -519,7 +519,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 25,
+      "count": 23,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -563,7 +563,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 7,
+      "count": 6,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
