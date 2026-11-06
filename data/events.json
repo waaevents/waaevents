@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-05T20:24:02.976Z",
+  "updatedAt": "2026-11-06T03:06:11.222Z",
   "windowDays": 90,
-  "count": 827,
+  "count": 815,
   "events": [
     {
       "id": "rec-2026-11-05t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
@@ -13,126 +13,6 @@
       "url": "https://delillecellars.com/restaurant/",
       "description": "Happy hour specials on drinks and bites all day every Thursday.",
       "source": "Recurring"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-05T21:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-05T21:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-05T22:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-11-05T22:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-06T00:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-06T00:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-06T01:00:00.000Z",
-      "title": "Live Music at Goose Ridge Woodinville",
-      "category": "music",
-      "start": "2026-11-06T01:00:00.000Z",
-      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
-      "url": "https://www.gooseridge.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000431-1793899800-1793907000@425cellars.com",
-      "title": "Live Music with Reji Marc",
-      "category": "music",
-      "start": "2026-11-06T01:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/live-music-with-reji-marc-11-2026/",
-      "description": "Join us for an evening of live music with Reji Marc, blending the soul of Blues, the groove of Funk, and the energy of Rock. Settle in with a glass of wine and enjoy the music. Complimentary admission with the purchase of wine, plus 20% off when you purchase 2 bottles.",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-11-06T01:30:00.000Z",
-      "title": "The Summit: 16-Course Chef's Counter Dinner",
-      "category": "food-drink",
-      "start": "2026-11-06T01:30:00.000Z",
-      "location": "Bin 47 Chef's Counter at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Tsillan Cellars-WOODINVILLE: Music Bingo-2026-11-06T02:00:00.000Z",
-      "title": "WOODINVILLE: Music Bingo",
-      "category": "music",
-      "start": "2026-11-06T02:00:00.000Z",
-      "location": "Tsillan Cellars Woodinville, 13550 NE Village Square Drive, Unit 1070, Woodinville",
-      "url": "https://tsillancellars.com/event/woodinville-music-bingo-60/",
-      "description": "Thursdays – 6:30-8:30pm – Board Available with Purchase – 21+ – Reservations Highly Recommended Another month, another Music Bingo schedule! It’s one of the highlights of our week to get to sing, dance and laugh with you all while you get your bingo on! Bring your friends out and",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-LaShellé Wines-Music Night With Josiah Bogle-2026-11-06T02:00:00.729Z",
-      "title": "Music Night With Josiah Bogle",
-      "category": "music",
-      "start": "2026-11-06T02:00:00.729Z",
-      "location": "",
-      "url": "https://www.lashellewines.com/calendar/70ch3xepojaxoavrgyh0ign9dfesya",
-      "description": "Join us at LaShellé Wines in Woodinville and enjoy live music with Josiah Bogle. Josiah Bogle takes you on a journey through the best of vintage pop rock nuanced with today’s current sound. Seating is limited, 1st come 1st serve. Doors open at 5pm. Wine, sandwiches & charcuterie",
-      "source": "LaShellé Wines"
-    },
-    {
-      "id": "winery-Prohibition Cellars-the seasonal table: Fall edition-2026-11-06T02:00:00.732Z",
-      "title": "the seasonal table: Fall edition",
-      "category": "community",
-      "start": "2026-11-06T02:00:00.732Z",
-      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
-      "url": "https://www.prohibitioncellars.com/events-1/joel-gibson-jr-bespj-3fdsf-kbfbl-9zdfr-han73",
-      "description": "The Seasonal Table returns this fall for another intimate evening where the flavors of the season take center stage. Our seasonal dining series brings together Chef Mauricio Sanchez's cuisine and Prohibition Cellars wines in the barrel room of our working winery. For the Fall Edi",
-      "source": "Prohibition Cellars"
-    },
-    {
-      "id": "winery-Beaumont Cellars-Beat the Geek Trivia in Woodinville-2026-11-06T02:45:00.660Z",
-      "title": "Beat the Geek Trivia in Woodinville",
-      "category": "community",
-      "start": "2026-11-06T02:45:00.660Z",
-      "location": "",
-      "url": "https://www.beaumontcellars.com/events-calendar/2026/11/5/beat-the-geek-trivia-in-woodinville",
-      "description": "Join us for the best trivia in town. Trivia is free but minimum glass/bottle purchase required. We can sell out quickly, so for reservations please email Beth at bethod@beaumontcellars.com or, for day-of reservations, call us after 4pm at 425-482-6349.",
-      "source": "Beaumont Cellars"
-    },
-    {
-      "id": "manual-Trivia Night at Northwest Spirits-2026-11-06T03:00:00.000Z",
-      "title": "Trivia Night at Northwest Spirits",
-      "category": "food-drink",
-      "start": "2026-11-06T03:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Watts Brewing Company-Boots & Brews Line Dancing-2026-11-06T03:00:00.616Z",
-      "title": "Boots & Brews Line Dancing",
-      "category": "food-drink",
-      "start": "2026-11-06T03:00:00.616Z",
-      "location": "Watts Brewing Company, 15510 Redmond - Woodinville Rd NE Ste E110, Woodinville, WA, 98072",
-      "url": "https://wattsbrewingcompany.com/events/yh5n6dd5p72d6na-2f6st-ykz8n-2hmwt-2hel3-3m3hy-z9xxn",
-      "description": "Join us for line dancing classes at the brewery! We’re welcoming Wildflower Dance Co to lead line dancing every Thursday evening. Learn new dances each week and practice the favorites from weeks before. All ages and skill levels welcome $10 per class at the door",
-      "source": "Watts Brewing Company"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-06T19:00:00.000Z",
