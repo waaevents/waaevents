@@ -165,6 +165,16 @@
       "source": "Manually added"
     },
     {
+      "title": "Richard Taylor Jr. at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-07T02:00:00.000Z",
+      "end": "2026-11-07T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music from Richard Taylor Jr. Seating is first-come, first-served.",
+      "source": "Manually added"
+    },
+    {
       "id": "rec-2026-11-07t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
       "title": "Live Music at Gorman Winery (Hollywood Hill)",
       "category": "music",
@@ -365,6 +375,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-08t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-11-08T02:00:00.000Z",
+      "end": "2026-11-08T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -1045,6 +1066,27 @@
       "source": "Tsillan Cellars"
     },
     {
+      "id": "rec-2026-11-13t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-11-13T02:00:00.000Z",
+      "end": "2026-11-13T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-13t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2026-11-13T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Prohibition Cellars-Keys on Main: Dueling Pianos-2026-11-13T02:00:00.399Z",
       "title": "Keys on Main: Dueling Pianos",
       "category": "music",
@@ -1298,6 +1340,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2026-11-14t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-11-14T02:00:00.000Z",
+      "end": "2026-11-14T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Comedy Night at Love That Red Winery-2026-11-14T03:00:00.000Z",
       "title": "Comedy Night at Love That Red Winery",
       "category": "comedy",
@@ -1478,6 +1531,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-15t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-11-15T02:00:00.000Z",
+      "end": "2026-11-15T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -2138,6 +2202,26 @@
       "source": "Manually added"
     },
     {
+      "title": "Richard Taylor Jr. at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-20T02:00:00.000Z",
+      "end": "2026-11-20T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music from Richard Taylor Jr. Seating is first-come, first-served.",
+      "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-11-20t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2026-11-20T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-LaShellé Wines-Thursday Music Sedona Rose-2026-11-20T02:00:00.566Z",
       "title": "Thursday Music Sedona Rose",
       "category": "music",
@@ -2371,6 +2455,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2026-11-21t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-11-21T02:00:00.000Z",
+      "end": "2026-11-21T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Prohibition Cellars-The Davanos-2026-11-21T02:00:00.188Z",
       "title": "The Davanos",
       "category": "music",
@@ -2499,6 +2594,16 @@
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
       "description": "",
+      "source": "Manually added"
+    },
+    {
+      "title": "Patricio Contreras at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-22T02:00:00.000Z",
+      "end": "2026-11-22T04:00:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Classical guitar from Chilean-born Patricio Contreras. Seating is first-come, first-served.",
       "source": "Manually added"
     },
     {
@@ -2919,16 +3024,6 @@
       "source": "Manually added"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-Closing Early – Thanksgiving Eve 2026-2026-11-25T08:00:00.000Z",
-      "title": "Closing Early – Thanksgiving Eve 2026",
-      "category": "food-drink",
-      "start": "2026-11-25T08:00:00.000Z",
-      "location": "",
-      "url": "https://www.alexandrianicolecellars.com/event/closing-early-thanksgiving-eve-2026/",
-      "description": "@ All Tasting Rooms will be closing at 3pm Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live",
-      "source": "Alexandria Nicole Cellars"
-    },
-    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-25T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -3060,16 +3155,6 @@
       "source": "Watts Brewing Company"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-Closed – Thanksgiving 2025-2026-11-26T08:00:00.000Z",
-      "title": "Closed – Thanksgiving 2025",
-      "category": "community",
-      "start": "2026-11-26T08:00:00.000Z",
-      "location": "",
-      "url": "https://www.alexandrianicolecellars.com/event/closed-thanksgiving-2025-2/",
-      "description": "@ We’ll be closed for Thanksgiving Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live",
-      "source": "Alexandria Nicole Cellars"
-    },
-    {
       "id": "winery-Tsillan Cellars-WOODINVILLE: Closed for Thanksgving-2026-11-26T08:00:00.000Z",
       "title": "WOODINVILLE: Closed for Thanksgving",
       "category": "food-drink",
@@ -3197,6 +3282,16 @@
       "location": "Bin 47 Chef's Counter at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
       "description": "",
+      "source": "Manually added"
+    },
+    {
+      "title": "Linzy Collins at Fireside Lounge",
+      "category": "music",
+      "start": "2026-11-27T02:00:00.000Z",
+      "end": "2026-11-27T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music from Linzy Collins. Seating is first-come, first-served.",
       "source": "Manually added"
     },
     {
@@ -3373,6 +3468,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2026-11-28t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-11-28T02:00:00.000Z",
+      "end": "2026-11-28T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Prohibition Cellars-Joel Gibson Jr. (duo)-2026-11-28T02:00:00.078Z",
       "title": "Joel Gibson Jr. (duo)",
       "category": "music",
@@ -3513,6 +3619,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-11-29t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-11-29T02:00:00.000Z",
+      "end": "2026-11-29T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -3881,6 +3998,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-02t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-02T02:00:00.000Z",
+      "end": "2026-12-02T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-12-02T04:00:00.000Z",
       "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
       "category": "food-drink",
@@ -3984,6 +4112,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2026-12-03t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-03T02:00:00.000Z",
+      "end": "2026-12-03T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2026-12-03t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
       "title": "Beat the Geek Trivia at Flatstick Pub",
       "category": "food-drink",
@@ -4073,6 +4212,27 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-04t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-04T02:00:00.000Z",
+      "end": "2026-12-04T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-04t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2026-12-04T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
+      "source": "Recurring"
     },
     {
       "id": "winery-Patterson Cellars-Wine & Whimsy: Holiday Wine Barrel Ring Wreaths-2026-12-04T02:00:00.493Z",
@@ -4268,6 +4428,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2026-12-05t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-05T02:00:00.000Z",
+      "end": "2026-12-05T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-LaShellé Wines-December Bottle Brush Tree Wreath Class at LaShellé Wines-2026-12-05T02:00:00.021Z",
       "title": "December Bottle Brush Tree Wreath Class at LaShellé Wines",
       "category": "art",
@@ -4418,6 +4589,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-06t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-06T02:00:00.000Z",
+      "end": "2026-12-06T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -4816,6 +4998,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-09t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-09T02:00:00.000Z",
+      "end": "2026-12-09T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-12-09T04:00:00.000Z",
       "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
       "category": "food-drink",
@@ -4895,6 +5088,17 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-10t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-10T02:00:00.000Z",
+      "end": "2026-12-10T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
     },
     {
       "id": "winery-LaShellé Wines-December Kissing Ball Wreath Class at LaShellé Wines-2026-12-10T02:00:00.021Z",
@@ -5006,6 +5210,27 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-11t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-11T02:00:00.000Z",
+      "end": "2026-12-11T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-11t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2026-12-11T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
+      "source": "Recurring"
     },
     {
       "id": "winery-LaShellé Wines-Music Featuring Jarrett Renshaw-2026-12-11T02:00:00.034Z",
@@ -5191,6 +5416,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2026-12-12t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-12T02:00:00.000Z",
+      "end": "2026-12-12T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Comedy Night at Love That Red Winery-2026-12-12T03:00:00.000Z",
       "title": "Comedy Night at Love That Red Winery",
       "category": "comedy",
@@ -5341,6 +5577,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-13t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-13T02:00:00.000Z",
+      "end": "2026-12-13T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -5699,6 +5946,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-16t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-16T02:00:00.000Z",
+      "end": "2026-12-16T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-12-16T04:00:00.000Z",
       "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
       "category": "food-drink",
@@ -5788,6 +6046,17 @@
       "url": "https://www.lashellewines.com/calendar/bunko-a9gdr",
       "description": "Join us for great evening of playing Bunko. Come with friends! Meet new friends! Roll the dice, count points and laugh. Doors open at 5:30 Game begins 6pm. $10 to play Wine and food will be available for purchase.",
       "source": "LaShellé Wines"
+    },
+    {
+      "id": "rec-2026-12-17t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-17T02:00:00.000Z",
+      "end": "2026-12-17T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
     },
     {
       "id": "rec-2026-12-17t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
@@ -5889,6 +6158,27 @@
       "url": "https://www.exploretock.com/freebushcellars/event/616038/dj-bingo",
       "description": "British-themed music bingo with a DJ, 6-8pm.",
       "source": "Manually added"
+    },
+    {
+      "id": "rec-2026-12-18t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-18T02:00:00.000Z",
+      "end": "2026-12-18T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-18t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2026-12-18T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
+      "source": "Recurring"
     },
     {
       "id": "winery-LaShellé Wines-Saturday Music Sedona Rose-2026-12-18T02:00:00.566Z",
@@ -6074,6 +6364,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2026-12-19t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-19T02:00:00.000Z",
+      "end": "2026-12-19T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "winery-Prohibition Cellars-Three Trick Pony-2026-12-19T02:00:00.879Z",
       "title": "Three Trick Pony",
       "category": "music",
@@ -6194,6 +6495,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-20t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-20T02:00:00.000Z",
+      "end": "2026-12-20T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -6542,6 +6854,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-23t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-23T02:00:00.000Z",
+      "end": "2026-12-23T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-12-23T04:00:00.000Z",
       "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
       "category": "food-drink",
@@ -6633,6 +6956,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-24t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-24T02:00:00.000Z",
+      "end": "2026-12-24T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2026-12-24t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
       "title": "Beat the Geek Trivia at Flatstick Pub",
       "category": "food-drink",
@@ -6641,16 +6975,6 @@
       "url": "https://flatstickpub.com/woodinville/",
       "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
       "source": "Recurring"
-    },
-    {
-      "id": "winery-Alexandria Nicole Cellars-Closing Early – Christmas Eve 2026-2026-12-24T08:00:00.000Z",
-      "title": "Closing Early – Christmas Eve 2026",
-      "category": "food-drink",
-      "start": "2026-12-24T08:00:00.000Z",
-      "location": "",
-      "url": "https://www.alexandrianicolecellars.com/event/closing-early-christmas-eve-2026/",
-      "description": "@ All Tasting Rooms will be closing at 3pm Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live",
-      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-12-24T19:00:00.000Z",
@@ -6742,16 +7066,6 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Alexandria Nicole Cellars-Closed – Christmas 2026-2026-12-25T08:00:00.000Z",
-      "title": "Closed – Christmas 2026",
-      "category": "community",
-      "start": "2026-12-25T08:00:00.000Z",
-      "location": "",
-      "url": "https://www.alexandrianicolecellars.com/event/closed-christmas-2026/",
-      "description": "@ All locations will be closed for Christmas Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live",
-      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-12-25T19:00:00.000Z",
@@ -6974,6 +7288,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2026-12-27t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-27T02:00:00.000Z",
+      "end": "2026-12-27T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -7312,6 +7637,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-30t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-30T02:00:00.000Z",
+      "end": "2026-12-30T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)-2026-12-30T04:00:00.000Z",
       "title": "Beat the Geek Trivia at Woodin Creek Kitchen & Tap (Taco Tuesday)",
       "category": "food-drink",
@@ -7393,6 +7729,17 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2026-12-31t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2026-12-31T02:00:00.000Z",
+      "end": "2026-12-31T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2026-12-31t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
       "title": "Beat the Geek Trivia at Flatstick Pub",
       "category": "food-drink",
@@ -7401,16 +7748,6 @@
       "url": "https://flatstickpub.com/woodinville/",
       "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
       "source": "Recurring"
-    },
-    {
-      "id": "winery-Alexandria Nicole Cellars-Closing Early – New Year’s Eve 2026-2026-12-31T08:00:00.000Z",
-      "title": "Closing Early – New Year’s Eve 2026",
-      "category": "food-drink",
-      "start": "2026-12-31T08:00:00.000Z",
-      "location": "",
-      "url": "https://www.alexandrianicolecellars.com/event/closing-early-new-years-eve-2026/",
-      "description": "@ All Tasting Rooms will be closing at 3pm Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live",
-      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-12-31T19:00:00.000Z",
@@ -7504,6 +7841,27 @@
       "source": "Manually added"
     },
     {
+      "id": "rec-2027-01-01t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-01T02:00:00.000Z",
+      "end": "2027-01-01T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-01t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2027-01-01T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
+      "source": "Recurring"
+    },
+    {
       "id": "manual-Trivia Night at Northwest Spirits-2027-01-01T03:00:00.000Z",
       "title": "Trivia Night at Northwest Spirits",
       "category": "food-drink",
@@ -7512,16 +7870,6 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Alexandria Nicole Cellars-Closed – New Year’s Day 2027-2027-01-01T08:00:00.000Z",
-      "title": "Closed – New Year’s Day 2027",
-      "category": "community",
-      "start": "2027-01-01T08:00:00.000Z",
-      "location": "",
-      "url": "https://www.alexandrianicolecellars.com/event/closed-new-years-day-2027/",
-      "description": "@ All locations will be closed for New Year’s Day Add to calendar Google Calendar iCalendar Outlook 365 Outlook Live",
-      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "rec-2027-01-01t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
@@ -7568,6 +7916,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-02t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-02T02:00:00.000Z",
+      "end": "2027-01-02T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-02t02-30-00-000z-first-friday-live-music-at-fid-litas",
       "title": "First Friday Live Music at Fidélitas",
       "category": "music",
@@ -7608,6 +7967,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-03t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-03T02:00:00.000Z",
+      "end": "2027-01-03T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -7718,6 +8088,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-06t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-06T02:00:00.000Z",
+      "end": "2027-01-06T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-06t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -7751,6 +8132,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-07t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-07T02:00:00.000Z",
+      "end": "2027-01-07T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-07t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
       "title": "Beat the Geek Trivia at Flatstick Pub",
       "category": "food-drink",
@@ -7769,6 +8161,27 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-08t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-08T02:00:00.000Z",
+      "end": "2027-01-08T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-08t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2027-01-08T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
       "source": "Recurring"
     },
     {
@@ -7816,6 +8229,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-09t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-09T02:00:00.000Z",
+      "end": "2027-01-09T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-09t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -7846,6 +8270,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-10t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-10T02:00:00.000Z",
+      "end": "2027-01-10T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -7936,6 +8371,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-13t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-13T02:00:00.000Z",
+      "end": "2027-01-13T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-13t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -7944,6 +8390,17 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-14t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-14T02:00:00.000Z",
+      "end": "2027-01-14T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -7965,6 +8422,27 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-15t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-15T02:00:00.000Z",
+      "end": "2027-01-15T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-15t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2027-01-15T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
       "source": "Recurring"
     },
     {
@@ -8022,6 +8500,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-16t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-16T02:00:00.000Z",
+      "end": "2027-01-16T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-16t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8052,6 +8541,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-17t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-17T02:00:00.000Z",
+      "end": "2027-01-17T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -8132,6 +8632,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-20t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-20T02:00:00.000Z",
+      "end": "2027-01-20T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-20t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8140,6 +8651,17 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-21t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-21T02:00:00.000Z",
+      "end": "2027-01-21T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -8161,6 +8683,27 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-22t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-22T02:00:00.000Z",
+      "end": "2027-01-22T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-22t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2027-01-22T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
       "source": "Recurring"
     },
     {
@@ -8208,6 +8751,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-23t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-23T02:00:00.000Z",
+      "end": "2027-01-23T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-23t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8238,6 +8792,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-24t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-24T02:00:00.000Z",
+      "end": "2027-01-24T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -8318,6 +8883,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-27t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-27T02:00:00.000Z",
+      "end": "2027-01-27T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-27t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8326,6 +8902,17 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-28t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-28T02:00:00.000Z",
+      "end": "2027-01-28T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -8347,6 +8934,27 @@
       "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://delillecellars.com/restaurant/",
       "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-29t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-29T02:00:00.000Z",
+      "end": "2027-01-29T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-29t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2027-01-29T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
       "source": "Recurring"
     },
     {
@@ -8394,6 +9002,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-01-30t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-30T02:00:00.000Z",
+      "end": "2027-01-30T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-30t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8424,6 +9043,17 @@
       "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
       "url": "https://www.gormanwinery.com/",
       "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-01-31t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-01-31T02:00:00.000Z",
+      "end": "2027-01-31T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
@@ -8504,6 +9134,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-02-03t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-02-03T02:00:00.000Z",
+      "end": "2027-02-03T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-02-03t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8534,6 +9175,17 @@
       "location": "Brian Carter Cellars Tasting Room & Bistro, 17140 135th Ave NE, Suite 1030, Woodinville, WA 98072",
       "url": "https://briancartercellars.com/events-woodinville/",
       "description": "Monthly community dinner on the first Wednesday: a new multi-course menu from Chef Nicholas Ames with Brian Carter wine pairings, 18 seats at one long table. Reserve on Tock.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-04t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-02-04T02:00:00.000Z",
+      "end": "2027-02-04T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {

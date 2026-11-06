@@ -120,6 +120,16 @@
       "match": [
         "cutshop"
       ]
+    },
+    {
+      "venue": "From The Sky Down",
+      "when": "Wednesdays",
+      "time": "4–6 PM",
+      "details": "Special glass-pour pricing and 10% off bottles (From The Sky Down and library wines only).",
+      "url": "https://fromtheskydown.com/events",
+      "match": [
+        "skydown"
+      ]
     }
   ],
   "also": {

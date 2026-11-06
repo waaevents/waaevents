@@ -175,6 +175,41 @@
         "2026-12-25"
       ],
       "description": "Live music in Bin 47 every Monday and Tuesday evening, 6-9pm. The Shed has music Friday and Saturday."
+    },
+    {
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "weekdays": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "start": "18:00",
+      "end": "20:30",
+      "url": "https://www.willowslodge.com/events/",
+      "skipDates": [
+        "2026-12-24",
+        "2026-12-25"
+      ],
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served."
+    },
+    {
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "weekdays": [
+        4
+      ],
+      "start": "18:00",
+      "url": "https://fromtheskydown.com/visit",
+      "skipDates": [
+        "2026-11-26",
+        "2026-12-24"
+      ],
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle."
     }
   ]
 }

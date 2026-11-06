@@ -9197,5 +9197,49 @@
     "description": "Monday night live music in Bin 47, 6-9pm.",
     "addedBy": "manual",
     "addedOn": "2026-11-02"
+  },
+  {
+    "title": "Richard Taylor Jr. at Fireside Lounge",
+    "category": "music",
+    "start": "2026-11-07T02:00:00.000Z",
+    "end": "2026-11-07T04:30:00.000Z",
+    "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.willowslodge.com/events/",
+    "description": "Live music from Richard Taylor Jr. Seating is first-come, first-served.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-05"
+  },
+  {
+    "title": "Richard Taylor Jr. at Fireside Lounge",
+    "category": "music",
+    "start": "2026-11-20T02:00:00.000Z",
+    "end": "2026-11-20T04:30:00.000Z",
+    "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.willowslodge.com/events/",
+    "description": "Live music from Richard Taylor Jr. Seating is first-come, first-served.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-05"
+  },
+  {
+    "title": "Patricio Contreras at Fireside Lounge",
+    "category": "music",
+    "start": "2026-11-22T02:00:00.000Z",
+    "end": "2026-11-22T04:00:00.000Z",
+    "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.willowslodge.com/events/",
+    "description": "Classical guitar from Chilean-born Patricio Contreras. Seating is first-come, first-served.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-05"
+  },
+  {
+    "title": "Linzy Collins at Fireside Lounge",
+    "category": "music",
+    "start": "2026-11-27T02:00:00.000Z",
+    "end": "2026-11-27T04:30:00.000Z",
+    "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+    "url": "https://www.willowslodge.com/events/",
+    "description": "Live music from Linzy Collins. Seating is first-come, first-served.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-05"
   }
 ]

@@ -4,6 +4,10 @@
     {
       "title": "^CHELAN:",
       "reason": "Tsillan Cellars' Lake Chelan events (Prime Rib Thursdays, Chelan live music and tastings). Not offered in Woodinville."
+    },
+    {
+      "title": "^(closed|closing early)\\s*[–-]",
+      "reason": "Holiday-hours notices (e.g. Alexandria Nicole's 'Closed – Thanksgiving'), not events."
     }
   ]
 }
