@@ -9208,6 +9208,27 @@
       "url": "https://delillecellars.com/restaurant/",
       "description": "Happy hour specials on drinks and bites all day every Thursday.",
       "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-05t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-02-05T02:00:00.000Z",
+      "end": "2027-02-05T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-05t02-00-00-000z-family-movie-night-at-from-the-sky-down",
+      "title": "Family Movie Night at From The Sky Down",
+      "category": "community",
+      "start": "2027-02-05T02:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/visit",
+      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
+      "source": "Recurring"
     }
   ]
 }
