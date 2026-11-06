@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-06T03:06:10.699Z",
+  "ranAt": "2026-11-06T19:46:27.870Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,7 +19,7 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 13,
+      "rawCount": 12,
       "addedCount": 12
     },
     {
@@ -69,7 +69,7 @@
     {
       "winery": "Baer Winery",
       "status": "site-unreachable",
-      "error": "HTTP 404"
+      "error": "This operation was aborted"
     },
     {
       "winery": "Ballard Pizza Company",
@@ -201,8 +201,8 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Fidélitas",
@@ -359,8 +359,8 @@
     },
     {
       "winery": "Novelty Hill - Januik Winery",
-      "status": "site-unreachable",
-      "error": "HTTP 503"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Obelisco Estate (Apple Farm Village)",
@@ -584,7 +584,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 1,
+      "count": 3,
       "eventPage": "https://witcellars.com/"
     },
     {
