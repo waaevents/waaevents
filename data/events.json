@@ -1,29 +1,8 @@
 {
-  "updatedAt": "2026-11-06T03:06:11.222Z",
+  "updatedAt": "2026-11-06T19:46:28.409Z",
   "windowDays": 90,
-  "count": 815,
+  "count": 816,
   "events": [
-    {
-      "id": "rec-2026-11-05t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
-      "title": "All-Day Happy Hour at The Restaurant at DeLille",
-      "category": "food-drink",
-      "start": "2026-11-05T19:30:00.000Z",
-      "end": "2026-11-06T05:00:00.000Z",
-      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
-      "url": "https://delillecellars.com/restaurant/",
-      "description": "Happy hour specials on drinks and bites all day every Thursday.",
-      "source": "Recurring"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-06T19:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-11-06T19:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-06T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
@@ -3304,6 +3283,16 @@
       "source": "Village Wines"
     },
     {
+      "id": "winery-Wit Cellars-Holiday Sip & Shop – Woodinville Warehouse Wineries-2026-11-28T20:00:00.000Z",
+      "title": "Holiday Sip & Shop – Woodinville Warehouse Wineries",
+      "category": "food-drink",
+      "start": "2026-11-28T20:00:00.000Z",
+      "location": "WIT Cellars – Woodinville, 19501 144th Ave NE Suite A400, Woodinville",
+      "url": "https://witcellars.com/event/holiday-sip-shop-woodinville-warehouse-wineries/2026-11-28/",
+      "description": "Sip, shop, and celebrate the holiday season in Woodinville! Join us November 28–29 for the Woodinville Warehouse Wineries Holiday Sip & Shop , a festive weekend featuring 20+ wineries and 50+ local vendors! Discover unique holiday gifts, enjoy wine specials and tasty treats, and",
+      "source": "Wit Cellars"
+    },
+    {
       "id": "winery-Patterson Cellars-Woodinville Warehouse Wineries: Holiday Sip & Shop-2026-11-28T20:00:00.873Z",
       "title": "Woodinville Warehouse Wineries: Holiday Sip & Shop",
       "category": "community",
@@ -3445,6 +3434,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/n7mhrt4ff22e5cp-wmctr-xm2ca-2cwe2-xx2h6-ya866-nh7xb-rndx7-akrpd-7ja58-3wdxs-w4gb9-4cp99-pcptb-45n6c-29k3z-5k5ns-lwyt2",
       "description": "Start your Sunday morning in the best way! Prohibition Cellars will host Yoga Uncorked for a morning of yoga followed by wine. Whether you’re brand new to yoga or a seasoned practitioner, a skilled instructor will guide you and help adjust and adapt the practice during class as n",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Wit Cellars-Holiday Sip & Shop – Woodinville Warehouse Wineries-2026-11-29T20:00:00.000Z",
+      "title": "Holiday Sip & Shop – Woodinville Warehouse Wineries",
+      "category": "food-drink",
+      "start": "2026-11-29T20:00:00.000Z",
+      "location": "WIT Cellars – Woodinville, 19501 144th Ave NE Suite A400, Woodinville",
+      "url": "https://witcellars.com/event/holiday-sip-shop-woodinville-warehouse-wineries/2026-11-29/",
+      "description": "Sip, shop, and celebrate the holiday season in Woodinville! Join us November 28–29 for the Woodinville Warehouse Wineries Holiday Sip & Shop , a festive weekend featuring 20+ wineries and 50+ local vendors! Discover unique holiday gifts, enjoy wine specials and tasty treats, and",
+      "source": "Wit Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-29T21:00:00.000Z",
@@ -8325,6 +8324,17 @@
       "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
       "url": "https://flatstickpub.com/woodinville/",
       "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-04t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-02-04T19:30:00.000Z",
+      "end": "2027-02-05T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
       "source": "Recurring"
     }
   ]
