@@ -9032,5 +9032,170 @@
     "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
     "addedBy": "manual",
     "addedOn": "2026-10-30"
+  },
+  {
+    "title": "Networking Night at Evergreen Family Wines",
+    "category": "community",
+    "start": "2026-11-06T01:00:00.000Z",
+    "end": "2026-11-06T02:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/networking-night-woodinville/",
+    "description": "Woodinville Chamber Networking Night: a relaxed evening of connection for local professionals, business owners and community members.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Knotty Thursdays at Evergreen Family Wines",
+    "category": "community",
+    "start": "2026-11-06T01:30:00.000Z",
+    "end": "2026-11-06T03:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-11-05/",
+    "description": "Bring your knitting, crochet or crafty project for an evening of wine, creativity and good company.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Live Music by Farshid Babazadeh at Evergreen Family Wines",
+    "category": "music",
+    "start": "2026-11-07T01:00:00.000Z",
+    "end": "2026-11-07T04:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/live-music-by-farshid-babazadeh-woodinville-5/2026-11-06/",
+    "description": "Live guitar at the Woodinville tasting room.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Sip + Shop at Redwood Place",
+    "category": "community",
+    "start": "2026-11-07T19:00:00.000Z",
+    "end": "2026-11-08T02:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/sip-shop-at-redwood-place-woodinville/",
+    "description": "Block party at Redwood Place: $5 mini wine tastings from each tasting room plus market vendors at each merchant.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Live Music by King Dre at Evergreen Family Wines",
+    "category": "music",
+    "start": "2026-11-07T22:00:00.000Z",
+    "end": "2026-11-08T01:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/live-music-by-king-dre-woodinville-5/2026-11-07/",
+    "description": "Live music, Washington wine and great ambiance.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Stand-Up Comedy with Gabey Lucas & Duane Goad at Evergreen Family Wines",
+    "category": "comedy",
+    "start": "2026-11-08T02:30:00.000Z",
+    "end": "2026-11-08T04:30:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/stand-up-comedy-with-gabey-lucas-woodinville/",
+    "description": "Comedy and wine at the Woodinville tasting room. Ticketed.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Seahawks vs Cardinals at Evergreen Family Wines",
+    "category": "community",
+    "start": "2026-11-08T21:25:00.000Z",
+    "end": "2026-11-09T01:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/seahawks-vs-cardinals-all-locations-2/",
+    "description": "Catch the game on select Sundays: $12 tastings for the 12th and select premium glass pours.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Live Music by Young-Chhaylee at Evergreen Family Wines",
+    "category": "music",
+    "start": "2026-11-14T01:00:00.000Z",
+    "end": "2026-11-14T04:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/live-music-by-young-chhaylee-woodinville/2026-11-13/",
+    "description": "Singer/songwriter of the PNW.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Live Music by Mike Scott at Evergreen Family Wines",
+    "category": "music",
+    "start": "2026-11-14T22:00:00.000Z",
+    "end": "2026-11-15T01:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/live-music-by-mike-scott-woodinville/2026-11-14/",
+    "description": "Live music at the Woodinville tasting room.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Seahawks vs Raiders at Evergreen Family Wines",
+    "category": "community",
+    "start": "2026-11-15T21:05:00.000Z",
+    "end": "2026-11-16T01:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/seahawks-vs-raiders-all-locations/",
+    "description": "Catch the game on select Sundays: $12 tastings for the 12th and select premium glass pours.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Knotty Thursdays at Evergreen Family Wines",
+    "category": "community",
+    "start": "2026-11-20T01:30:00.000Z",
+    "end": "2026-11-20T03:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-11-19/",
+    "description": "Bring your knitting, crochet or crafty project for an evening of wine, creativity and good company.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Live Music by Josiah Bogle at Evergreen Family Wines",
+    "category": "music",
+    "start": "2026-11-21T01:00:00.000Z",
+    "end": "2026-11-21T04:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/live-music-by-josiah-bogle-woodinville-3/2026-11-20/",
+    "description": "Live music at the Woodinville tasting room.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Live Music by Sarah Brunner at Evergreen Family Wines",
+    "category": "music",
+    "start": "2026-11-21T22:00:00.000Z",
+    "end": "2026-11-22T01:00:00.000Z",
+    "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
+    "url": "https://evergreenfamilywines.com/event/live-music-by-sarah-brunner-woodinville-4/2026-11-21/",
+    "description": "Acoustic Americana and folk from Seattle-based Sarah Brunner.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-01"
+  },
+  {
+    "title": "Jarrett Renshaw at Bin 47 (The SOMM)",
+    "category": "music",
+    "start": "2026-11-17T02:00:00.000Z",
+    "end": "2026-11-17T05:00:00.000Z",
+    "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
+    "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
+    "description": "Monday night live music in Bin 47, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-02"
+  },
+  {
+    "title": "Jarrett Renshaw at Bin 47 (The SOMM)",
+    "category": "music",
+    "start": "2026-11-24T02:00:00.000Z",
+    "end": "2026-11-24T05:00:00.000Z",
+    "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
+    "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
+    "description": "Monday night live music in Bin 47, 6-9pm.",
+    "addedBy": "manual",
+    "addedOn": "2026-11-02"
   }
 ]

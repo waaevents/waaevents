@@ -158,6 +158,23 @@
       "end": "20:00",
       "url": "https://briancartercellars.com/events-woodinville/",
       "description": "Monthly community dinner on the first Wednesday: a new multi-course menu from Chef Nicholas Ames with Brian Carter wine pairings, 18 seats at one long table. Reserve on Tock."
+    },
+    {
+      "title": "Live Music at Bin 47 (The SOMM)",
+      "category": "music",
+      "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
+      "weekdays": [
+        1,
+        2
+      ],
+      "start": "18:00",
+      "end": "21:00",
+      "url": "https://thesomm.com/happenings",
+      "skipDates": [
+        "2026-12-24",
+        "2026-12-25"
+      ],
+      "description": "Live music in Bin 47 every Monday and Tuesday evening, 6-9pm. The Shed has music Friday and Saturday."
     }
   ]
 }

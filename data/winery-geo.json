@@ -606,6 +606,24 @@
       "lng": -122.1573357,
       "address": "15902 Woodinville-Redmond Rd NE",
       "precision": "address"
+    },
+    "Gård Estate Wines (The Yard at Harvest)": {
+      "lat": 47.7327,
+      "lng": -122.1424,
+      "address": "The Yard at Harvest, 147th Pl NE",
+      "precision": "address"
+    },
+    "Cascade Cliffs (The Yard at Harvest)": {
+      "lat": 47.7327,
+      "lng": -122.1424,
+      "address": "The Yard at Harvest, 147th Pl NE",
+      "precision": "address"
+    },
+    "Elk Haven Winery & Rainfire Distillery": {
+      "lat": 47.7327,
+      "lng": -122.1424,
+      "address": "14480 147th Pl NE",
+      "precision": "address"
     }
   },
   "missing": []

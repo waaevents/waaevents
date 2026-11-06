@@ -190,6 +190,11 @@
           "url": "https://bongbongbar.com/"
         },
         {
+          "name": "Cascade Cliffs (The Yard at Harvest)",
+          "url": "https://myharvestlist.com/venues/cascade-cliffs",
+          "note": "Tasting room at The Yard at Harvest, now open."
+        },
+        {
           "name": "Cave B Estate Winery",
           "url": "https://caveb.com/",
           "wineFocus": [
@@ -256,6 +261,12 @@
             "white",
             "bubbles"
           ]
+        },
+        {
+          "name": "Elk Haven Winery & Rainfire Distillery",
+          "url": "https://www.elkhavenwinery.com/",
+          "note": "Shared wine-and-spirits tasting room with light bites, Building E, Suite E34, 14480 147th Pl NE. Opened Oct 24; advertised hours noon–6 PM, days not yet confirmed.",
+          "types": []
         },
         {
           "name": "Evergreen Family Wines",
@@ -327,6 +338,11 @@
           "wineFocus": [
             "red"
           ]
+        },
+        {
+          "name": "Gård Estate Wines (The Yard at Harvest)",
+          "url": "https://www.gardwine.com/",
+          "note": "Second Woodinville tasting room, soft-opened Oct 17-18. Fireplace, wine club room and dog-friendly patio. The original Gård tasting room stays in the Junction (19151 144th Ave NE)."
         },
         {
           "name": "The Hollywood Tavern",

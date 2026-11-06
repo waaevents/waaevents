@@ -23,9 +23,9 @@
     },
     {
       "venue": "Evergreen Family Wines",
-      "when": "Wednesdays",
-      "time": "",
-      "details": "Wine Down Wednesday happy hour.",
+      "when": "Sundays",
+      "time": "12–5 PM",
+      "details": "Sip Back Sundays happy hour: special pricing on wines by the glass. Seahawks Sundays on select game days: $12 tastings for the 12th and select premium glass pours.",
       "url": "https://evergreenfamilywines.com/events/",
       "match": [
         "evergreen"

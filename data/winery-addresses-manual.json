@@ -28,7 +28,11 @@
     "Savage Grace Wines": "19501 144th Ave NE",
     "Baer Winery": "13590 NE Village Square Dr",
     "Sigillo Cellars": "14300 NE 145th St",
-    "Gorman Winery": "14505 148th Ave NE"
+    "Gorman Winery": "14505 148th Ave NE",
+    "Gård Estate Wines (The Yard at Harvest)": "The Yard at Harvest, 147th Pl NE",
+    "Cascade Cliffs (The Yard at Harvest)": "The Yard at Harvest, 147th Pl NE",
+    "Elk Haven Winery & Rainfire Distillery": "14480 147th Pl NE",
+    "J.P. Trodden Distilling": "The Yard at Harvest, 147th Pl NE"
   },
   "coordinates": {
     "Bong Bong": {
@@ -55,6 +59,26 @@
       "lat": 47.7330904,
       "lng": -122.1426097,
       "note": "Hollywood Hill tasting room at The Station (same building as Patterson Cellars Hollywood Hill)"
+    },
+    "Gård Estate Wines (The Yard at Harvest)": {
+      "lat": 47.7327,
+      "lng": -122.1424,
+      "note": "The Yard at Harvest"
+    },
+    "Cascade Cliffs (The Yard at Harvest)": {
+      "lat": 47.7327,
+      "lng": -122.1424,
+      "note": "The Yard at Harvest"
+    },
+    "Elk Haven Winery & Rainfire Distillery": {
+      "lat": 47.7327,
+      "lng": -122.1424,
+      "note": "The Yard at Harvest"
+    },
+    "J.P. Trodden Distilling": {
+      "lat": 47.7327,
+      "lng": -122.1424,
+      "note": "The Yard at Harvest"
     }
   }
 }

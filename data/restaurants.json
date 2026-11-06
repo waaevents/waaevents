@@ -44,6 +44,14 @@
       "note": "Pizza spot."
     },
     {
+      "name": "Brass Steak & Seafood",
+      "url": "https://www.brasshospitality.com/",
+      "vibe": [
+        "romantic"
+      ],
+      "note": "Contemporary steakhouse at The Yard at Harvest (14486 147th Pl NE, Suite D20), opened Oct 24. USDA Prime steaks, seafood, raw bar and a martini program. Dinner Sun-Thu 4-9pm, Fri-Sat 4-10pm; reservations on OpenTable."
+    },
+    {
       "name": "Brix Wine Café",
       "url": "https://brixwinecafe.com/",
       "vibe": [
@@ -60,6 +68,14 @@
         "family"
       ],
       "note": "Indian cuisine."
+    },
+    {
+      "name": "Farine Bakery & Café",
+      "url": "https://myharvestlist.com/venues/farine-bakery-and-cafe/",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Bakery and pâtisserie at The Yard at Harvest."
     },
     {
       "name": "Hal's Sports Bar",
@@ -105,6 +121,14 @@
       "note": "Neighborhood tavern with a fire-pit patio; regular happy hour."
     },
     {
+      "name": "House Balthazar | Macarons & Champagne",
+      "url": "https://housebalthazar.com/",
+      "vibe": [
+        "romantic"
+      ],
+      "note": "Champagne and macarons at The Yard at Harvest, Suite D25. Sun-Thu 11am-7pm, Fri-Sat 11am-11pm."
+    },
+    {
       "name": "Jackson House",
       "url": "https://jacksonhousewoodinville.com/",
       "vibe": [
@@ -121,6 +145,14 @@
         "casual"
       ],
       "note": "Casual soups, salads, sandwiches, and pastries surrounded by greenery."
+    },
+    {
+      "name": "Olive Branch",
+      "url": "https://myharvestlist.com/venues/olive-branch/",
+      "vibe": [
+        "casual"
+      ],
+      "note": "Bakery at The Yard at Harvest."
     },
     {
       "name": "The Pizza Coop",

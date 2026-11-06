@@ -71,6 +71,11 @@ const EXTRA_FEEDS = [
     // events (e.g. Sip Back Sundays happy hour) have no venue line but do
     // include the Woodinville tasting room, so they're allowed through.
     url: 'https://evergreenfamilywines.com/events/list/?ical=1',
+    // The site's "iCalendar" subscribe link (webcal://) points at a different path; try it if the first is refused.
+    altUrls: [
+      'https://evergreenfamilywines.com/?post_type=tribe_events&ical=1&eventDisplay=list',
+      'https://evergreenfamilywines.com/events/list/?outlook-ical=1',
+    ],
     requireLocationContains: 'woodinville',
     allowTitleContains: 'all locations',
   },
@@ -230,6 +235,20 @@ async function loadManualEvents() {
 }
 
 async function fetchFeed(feed) {
+  // Some calendars refuse one URL form but serve another (same iCal, different path).
+  const urls = [feed.url, ...(feed.altUrls || [])];
+  let lastErr;
+  for (const u of urls) {
+    try {
+      return await fetchFeedOnce({ ...feed, url: u });
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  throw lastErr;
+}
+
+async function fetchFeedOnce(feed) {
   // Fetch with our own headers rather than relying on node-ical's default
   // request behavior — some sites (Wordfence/Cloudflare-protected WP
   // installs, which a lot of small-business calendars run behind) block
