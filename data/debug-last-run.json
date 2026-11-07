@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-06T23:32:54.589Z",
+  "ranAt": "2026-11-07T17:54:45.365Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -212,10 +212,10 @@
     {
       "winery": "Evergreen Family Wines",
       "status": "ok",
-      "strategy": "ics",
+      "strategy": "jsonld",
       "platform": "wordpress",
-      "count": 20,
-      "eventPage": "https://evergreenfamilywines.com/"
+      "count": 7,
+      "eventPage": "https://evergreenfamilywines.com/events"
     },
     {
       "winery": "Fidélitas",
@@ -400,7 +400,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 8,
+      "count": 7,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -428,7 +428,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 18,
+      "count": 17,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -491,7 +491,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 12,
+      "count": 11,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -537,7 +537,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 23,
+      "count": 22,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -546,7 +546,7 @@
       "strategy": "jsonld",
       "platform": "squarespace",
       "count": 1,
-      "eventPage": "https://www.twovintners.com/all-events-/aliciahealey"
+      "eventPage": "https://www.twovintners.com/all-events-/thomas-pallua"
     },
     {
       "winery": "Vaunt Modern Gallery",
@@ -581,7 +581,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 6,
+      "count": 5,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
