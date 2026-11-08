@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-07T17:54:45.365Z",
+  "ranAt": "2026-11-08T18:09:42.912Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 12,
-      "addedCount": 12
+      "rawCount": 11,
+      "addedCount": 11
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 45,
+      "count": 44,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -91,7 +91,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 4,
+      "count": 3,
       "eventPage": "https://www.beaumontcellars.com/events-calendar"
     },
     {
@@ -211,11 +211,8 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "ok",
-      "strategy": "jsonld",
-      "platform": "wordpress",
-      "count": 7,
-      "eventPage": "https://evergreenfamilywines.com/events"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Fidélitas",
@@ -400,7 +397,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 7,
+      "count": 5,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -537,7 +534,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 22,
+      "count": 21,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -558,7 +555,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 13,
+      "count": 11,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
