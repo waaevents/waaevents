@@ -1,271 +1,8 @@
 {
-  "updatedAt": "2026-11-07T17:54:46.015Z",
+  "updatedAt": "2026-11-08T18:09:43.537Z",
   "windowDays": 90,
-  "count": 892,
+  "count": 867,
   "events": [
-    {
-      "id": "10000432-1794049200-1794052800@425cellars.com",
-      "title": "Yoga & Wine with Debbie",
-      "category": "community",
-      "start": "2026-11-07T19:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/yoga-wine-with-debbie-11-2026/",
-      "description": "Start your Saturday with a little movement and a little wine. Join Debbie for a relaxing Yoga & Wine session at 425 Cellars. The $20 ticket includes the yoga session and a glass of wine. Plus, enjoy 20% off when you purchase 2 bottles. Sign up with the QR Code or link! Link: http",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Sip + Shop at Redwood Place | Woodinville-2026-11-07T19:00:00.000Z",
-      "title": "Sip + Shop at Redwood Place | Woodinville",
-      "category": "food-drink",
-      "start": "2026-11-07T19:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/sip-shop-at-redwood-place-woodinville/",
-      "description": "<p>Enjoy ... Sipping $5 mini wine tasting from each tasting room at Redwood Place...have fun exploring, finding new favorites along the way! Shopping from market vendors at each merchant in Redwood Place ... get a head start on your holiday shopping from local vendors!! Dra",
-      "source": "Evergreen Family Wines"
-    },
-    {
-      "id": "manual-Sip + Shop at Redwood Place-2026-11-07T19:00:00.000Z",
-      "title": "Sip + Shop at Redwood Place",
-      "category": "community",
-      "start": "2026-11-07T19:00:00.000Z",
-      "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
-      "url": "https://evergreenfamilywines.com/event/sip-shop-at-redwood-place-woodinville/",
-      "description": "Block party at Redwood Place: $5 mini wine tastings from each tasting room plus market vendors at each merchant.",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Village Wines-Sip & Shop & Play & Listen-2026-11-07T20:00:00.000Z",
-      "title": "Sip & Shop & Play & Listen",
-      "category": "music",
-      "start": "2026-11-07T20:00:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/sipshopplay2026/",
-      "description": "Saturday, November 7th, 12pm to 6pm plus live music at 7pm We are celebrating fall at Village $4 slider (carnitas, chicken, burger) $4 pint of draft beer $4 glass of bubble, red, or white wine specials Shuffle board and darts Live music with Izzy Burns – 7pm to 9pm After you are",
-      "source": "Village Wines"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-07T21:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-07T21:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Beaumont Cellars-Chili Competition in Woodinville!-2026-11-07T21:00:00.394Z",
-      "title": "Chili Competition in Woodinville!",
-      "category": "food-drink",
-      "start": "2026-11-07T21:00:00.394Z",
-      "location": "",
-      "url": "https://www.beaumontcellars.com/events-calendar/2026/10/13/chili-competition-in-woodinville",
-      "description": "Join five Junction tasting rooms in Woodinville for a fun chili and wine competition!! Each tasting room will have a unique chili for you to try along with a complementary taste of wine. Cost is $25 in advance and $30 day of the event. Our tasting rooms have some great cooks, so",
-      "source": "Beaumont Cellars"
-    },
-    {
-      "id": "winery-Patterson Cellars-SOLD OUT - The Red Party | Woodinville Warehouse District-2026-11-07T21:00:00.823Z",
-      "title": "SOLD OUT - The Red Party | Woodinville Warehouse District",
-      "category": "food-drink",
-      "start": "2026-11-07T21:00:00.823Z",
-      "location": "Patterson Cellars, 19501 144th Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.pattersoncellars.com/events/2026/11/7/the-red-party-woodinville-warehouse-district",
-      "description": "Join us for The Red Party at our Woodinville Warehouse District tasting room on Saturday, November 7th from 1–7 PM! The holiday season is right around the corner, making it the perfect time to stock up on the reds you’ll want on hand for gatherings, dinner tables, gifting, and co",
-      "source": "Patterson Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Live Music by King Dre | Woodinville-2026-11-07T22:00:00.000Z",
-      "title": "Live Music by King Dre | Woodinville",
-      "category": "music",
-      "start": "2026-11-07T22:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-king-dre-woodinville-5/2026-11-07/",
-      "description": "<p>Live music by King Dre in Woodinville! Enjoy live music, premium WA Wine, and great ambiance.</p>\\n",
-      "source": "Evergreen Family Wines"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-07T22:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-11-07T22:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Fall Rustic Wreath Craft Workshop at Love That Red Winery-2026-11-07T22:00:00.000Z",
-      "title": "Fall Rustic Wreath Craft Workshop at Love That Red Winery",
-      "category": "art",
-      "start": "2026-11-07T22:00:00.000Z",
-      "location": "Love That Red Winery, 19501 144th Ave NE Ste E400, Woodinville, WA 98072",
-      "url": "https://www.eventbrite.com/e/fall-rustic-wreath-workshop-tickets-2001258827024",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music by King Dre at Evergreen Family Wines-2026-11-07T22:00:00.000Z",
-      "title": "Live Music by King Dre at Evergreen Family Wines",
-      "category": "music",
-      "start": "2026-11-07T22:00:00.000Z",
-      "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-king-dre-woodinville-5/2026-11-07/",
-      "description": "Live music, Washington wine and great ambiance.",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-11-07t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
-      "title": "Happy Hour at The Restaurant at DeLille",
-      "category": "food-drink",
-      "start": "2026-11-07T22:30:00.000Z",
-      "end": "2026-11-08T01:00:00.000Z",
-      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
-      "url": "https://delillecellars.com/restaurant/",
-      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
-      "source": "Recurring"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-08T00:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-08T00:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Saturday Night Music at Chateau Ste. Michelle-2026-11-08T01:00:00.000Z",
-      "title": "Saturday Night Music at Chateau Ste. Michelle",
-      "category": "music",
-      "start": "2026-11-08T01:00:00.000Z",
-      "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.ste-michelle.com/visit-us/experiences",
-      "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Flowers for Wolves at Freebush Cellars-2026-11-08T02:00:00.000Z",
-      "title": "Flowers for Wolves at Freebush Cellars",
-      "category": "music",
-      "start": "2026-11-08T02:00:00.000Z",
-      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/freebushcellars/event/608924/flowers-for-wolves",
-      "description": "Pacific Northwest harmony duo, 6-9pm.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Jarrett Renshaw at The Shed at The SOMM Hotel-2026-11-08T02:00:00.000Z",
-      "title": "Jarrett Renshaw at The Shed at The SOMM Hotel",
-      "category": "music",
-      "start": "2026-11-08T02:00:00.000Z",
-      "location": "The Shed at The SOMM Hotel, Woodinville, WA",
-      "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-08T02:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-08T02:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-11-08t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
-      "title": "Live Music at Gorman Winery (Hollywood Hill)",
-      "category": "music",
-      "start": "2026-11-08T02:00:00.000Z",
-      "end": "2026-11-08T04:00:00.000Z",
-      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.gormanwinery.com/",
-      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
-      "source": "Recurring"
-    },
-    {
-      "id": "rec-2026-11-08t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
-      "title": "Live Music at Fireside Lounge (Willows Lodge)",
-      "category": "music",
-      "start": "2026-11-08T02:00:00.000Z",
-      "end": "2026-11-08T04:30:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
-      "source": "Recurring"
-    },
-    {
-      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Erina McLaren-2026-11-08T02:00:00.808Z",
-      "title": "Live Music at Hollywood Hill: Erina McLaren",
-      "category": "music",
-      "start": "2026-11-08T02:00:00.808Z",
-      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
-      "url": "https://www.pattersoncellars.com/events/2026/11/7/live-music-at-hollywood-hill-erina-mclaren",
-      "description": "",
-      "source": "Patterson Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Stand-Up Comedy with Gabey Lucas | Woodinville-2026-11-08T02:30:00.000Z",
-      "title": "Stand-Up Comedy with Gabey Lucas | Woodinville",
-      "category": "comedy",
-      "start": "2026-11-08T02:30:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/stand-up-comedy-with-gabey-lucas-woodinville/",
-      "description": "<p>Get ready for laughs with Gabey Lucas featuring Duane Goad at Evergreen Family Wines—comedy and wine, perfect combo! 🎤🍷 Stand-Up Comedy at Evergreen Family Wines with Gabey Lucas & Duane Goad!Great Wine. Delicious Food. Big Laughs. One Unforgettable Saturday Night! Loo",
-      "source": "Evergreen Family Wines"
-    },
-    {
-      "id": "manual-Stand-Up Comedy with Gabey Lucas & Duane Goad at Evergreen Family Wines-2026-11-08T02:30:00.000Z",
-      "title": "Stand-Up Comedy with Gabey Lucas & Duane Goad at Evergreen Family Wines",
-      "category": "comedy",
-      "start": "2026-11-08T02:30:00.000Z",
-      "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
-      "url": "https://evergreenfamilywines.com/event/stand-up-comedy-with-gabey-lucas-woodinville/",
-      "description": "Comedy and wine at the Woodinville tasting room. Ticketed.",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Village Wines-Izzy Burns – Live Music-2026-11-08T03:00:00.000Z",
-      "title": "Izzy Burns – Live Music",
-      "category": "music",
-      "start": "2026-11-08T03:00:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/izzy-burns/",
-      "description": "Live Music at Village Wines: Izzy Burns Saturday, November 7th | 7pm to 9pm | No cover | All ages welcome Pull up a chair, pour a glass (or a juice box!), and settle in for an evening with singer-songwriter Izzy Burns , a folk-pop artist who sings because she once couldn’t. Izzy",
-      "source": "Village Wines"
-    },
-    {
-      "id": "manual-Live Music at Obelisco-2026-11-08T03:00:00.000Z",
-      "title": "Live Music at Obelisco",
-      "category": "music",
-      "start": "2026-11-08T03:00:00.000Z",
-      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE Suite 121, Woodinville, WA 98072",
-      "url": "https://obelisco.com/events-dinners/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-11-08T08:00:00.000Z",
-      "title": "Social Sundays: New Connections",
-      "category": "food-drink",
-      "start": "2026-11-08T08:00:00.000Z",
-      "location": "All Locations",
-      "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-11-08/",
-      "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
-      "source": "Alexandria Nicole Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-11-08T20:00:00.000Z",
-      "title": "Sip Back Sundays | All Locations",
-      "category": "food-drink",
-      "start": "2026-11-08T20:00:00.000Z",
-      "location": "",
-      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-11-08/",
-      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend and let us pour you something delicious.</p>\\n",
-      "source": "Evergreen Family Wines"
-    },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-08T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
@@ -275,16 +12,6 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Seahawks vs Cardinals | All Locations-2026-11-08T21:25:00.000Z",
-      "title": "Seahawks vs Cardinals | All Locations",
-      "category": "community",
-      "start": "2026-11-08T21:25:00.000Z",
-      "location": "",
-      "url": "https://evergreenfamilywines.com/event/seahawks-vs-cardinals-all-locations-2/",
-      "description": "<p>Get ready to cheer, sip, and celebrate! 💙💚 Join us on select Sundays at Evergreen and catch the game while enjoying $12 tastings for the 12th and select premium glass pours for just $12. 📣 $12 Tastings for the 12th 🍷 $12 Select Premium Glass Pours 🏈 Seahawks on the",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-11-08T21:25:00.000Z",
@@ -874,16 +601,6 @@
       "source": "425 Cellars"
     },
     {
-      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-11-13T01:30:00.000Z",
-      "title": "Knotty Thursdays | Woodinville",
-      "category": "food-drink",
-      "start": "2026-11-13T01:30:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-11-12/",
-      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity, and good company. Knotty Thursday is all about making something with your hands, enjoying a gr",
-      "source": "Evergreen Family Wines"
-    },
-    {
       "id": "manual-Knotty Thursdays-2026-11-13T01:30:00.000Z",
       "title": "Knotty Thursdays",
       "category": "community",
@@ -1023,16 +740,6 @@
       "url": "https://thesomm.com/happenings",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Live Music by Young-Chhaylee | Woodinville-2026-11-13T22:00:00.000Z",
-      "title": "Live Music by Young-Chhaylee | Woodinville",
-      "category": "music",
-      "start": "2026-11-13T22:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-young-chhaylee-woodinville-2/2026-11-13/",
-      "description": "<p>Young-Chhaylee is a singer/songwriter of the PNW. Growing up on the southside of Everett, WA and being a first generation Cambodian-American has shaped the experience that he speaks on. His writing and style and groove are pieces taken from John Mayer, J. Cole, Otis Redd",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Live Music by Young-Chhaylee-2026-11-13T22:00:00.000Z",
@@ -9161,6 +8868,50 @@
       "location": "Fidélitas Wines, 14200 NE 145th St, Suite B, Woodinville, WA 98072",
       "url": "https://www.fidelitaswines.com/upcoming-events/",
       "description": "First Friday of every month at 6:30pm. Free, but reservations are required.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-06t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-02-06T22:30:00.000Z",
+      "end": "2027-02-07T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-07t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-02-07T02:00:00.000Z",
+      "end": "2027-02-07T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-07t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-02-07T02:00:00.000Z",
+      "end": "2027-02-07T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-07t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-02-07T02:00:00.000Z",
+      "end": "2027-02-07T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     }
   ]
