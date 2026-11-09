@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-08T18:09:42.912Z",
+  "ranAt": "2026-11-09T22:48:07.061Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 11,
-      "addedCount": 11
+      "rawCount": 10,
+      "addedCount": 10
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 45,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -211,8 +211,11 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 7,
+      "eventPage": "https://evergreenfamilywines.com/events/list/"
     },
     {
       "winery": "Fidélitas",
@@ -314,7 +317,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 15,
+      "count": 21,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -403,7 +406,7 @@
     {
       "winery": "Pepper Bridge Winery & Amavi Cellars",
       "status": "site-unreachable",
-      "error": "HTTP 403"
+      "error": "fetch failed"
     },
     {
       "winery": "Pomum Cellars",
@@ -488,7 +491,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 11,
+      "count": 10,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -555,7 +558,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 11,
+      "count": 12,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
@@ -570,8 +573,11 @@
     },
     {
       "winery": "Warr-King Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "ok",
+      "strategy": "tribe",
+      "platform": "wordpress",
+      "count": 3,
+      "eventPage": "https://warr-kingwines.com/"
     },
     {
       "winery": "Watts Brewing Company",
