@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-09T22:48:07.061Z",
+  "ranAt": "2026-11-10T20:06:26.133Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 45,
+      "count": 44,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -211,11 +211,8 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "ok",
-      "strategy": "jsonld",
-      "platform": "wordpress",
-      "count": 7,
-      "eventPage": "https://evergreenfamilywines.com/events/list/"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Fidélitas",
@@ -406,7 +403,7 @@
     {
       "winery": "Pepper Bridge Winery & Amavi Cellars",
       "status": "site-unreachable",
-      "error": "fetch failed"
+      "error": "HTTP 403"
     },
     {
       "winery": "Pomum Cellars",
@@ -491,7 +488,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 10,
+      "count": 11,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -537,7 +534,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 21,
+      "count": 22,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -558,7 +555,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 12,
+      "count": 11,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
