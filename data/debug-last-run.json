@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-10T20:06:26.133Z",
+  "ranAt": "2026-11-11T19:56:33.524Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -27,14 +27,14 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 15,
-      "addedCount": 2
+      "addedCount": 5
     },
     {
       "feed": "Evergreen Family Wines",
       "url": "https://evergreenfamilywines.com/events/list/?ical=1",
-      "ok": false,
-      "error": "HTTP 403 Forbidden",
-      "stack": "Error: HTTP 403 Forbidden |     at fetchFeedOnce (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:265:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:243:14)"
+      "ok": true,
+      "rawCount": 30,
+      "addedCount": 16
     }
   ],
   "wineryReport": [
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 45,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -286,8 +286,11 @@
     },
     {
       "winery": "Jackson House",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "other",
+      "count": 1,
+      "eventPage": "https://jacksonhousewoodinville.com/"
     },
     {
       "winery": "JBell Wine Co.",
@@ -314,7 +317,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 21,
+      "count": 20,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -397,7 +400,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 5,
+      "count": 6,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -527,7 +530,7 @@
     {
       "winery": "Triplehorn Brewing",
       "status": "no-events-found",
-      "platform": "wordpress"
+      "platform": "other"
     },
     {
       "winery": "Tsillan Cellars",
@@ -581,7 +584,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 5,
+      "count": 7,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
