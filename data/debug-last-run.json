@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-11T19:56:33.524Z",
+  "ranAt": "2026-11-12T20:33:19.036Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 10,
-      "addedCount": 10
+      "rawCount": 9,
+      "addedCount": 9
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -32,9 +32,9 @@
     {
       "feed": "Evergreen Family Wines",
       "url": "https://evergreenfamilywines.com/events/list/?ical=1",
-      "ok": true,
-      "rawCount": 30,
-      "addedCount": 16
+      "ok": false,
+      "error": "HTTP 403 Forbidden",
+      "stack": "Error: HTTP 403 Forbidden |     at fetchFeedOnce (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:265:11) |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5) |     at async fetchFeed (file:///home/runner/work/waaevents/waaevents/scripts/update-events.mjs:243:14)"
     }
   ],
   "wineryReport": [
@@ -317,7 +317,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 20,
+      "count": 19,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -428,7 +428,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 17,
+      "count": 16,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -443,8 +443,8 @@
     },
     {
       "winery": "SheChill Bakery",
-      "status": "no-events-found",
-      "platform": "weebly"
+      "status": "site-unreachable",
+      "error": "This operation was aborted"
     },
     {
       "winery": "Sigillo Cellars",
@@ -473,8 +473,8 @@
     },
     {
       "winery": "Stevens Winery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Story Cellars",
@@ -491,7 +491,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 11,
+      "count": 15,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -589,11 +589,8 @@
     },
     {
       "winery": "Wilridge Pie & Wine Bar",
-      "status": "ok",
-      "strategy": "tribe",
-      "platform": "wordpress",
-      "count": 1,
-      "eventPage": "https://www.wilridgewinery.com/wilridge-pie-wine-bar/"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Winsome Ciderworks",
@@ -605,7 +602,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 3,
+      "count": 5,
       "eventPage": "https://witcellars.com/"
     },
     {
