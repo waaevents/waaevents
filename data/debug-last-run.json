@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-12T20:33:19.036Z",
+  "ranAt": "2026-11-13T20:10:29.035Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 9,
-      "addedCount": 9
+      "rawCount": 8,
+      "addedCount": 8
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -91,7 +91,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 3,
+      "count": 2,
       "eventPage": "https://www.beaumontcellars.com/events-calendar"
     },
     {
@@ -317,7 +317,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 19,
+      "count": 18,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -400,7 +400,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 6,
+      "count": 7,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -428,7 +428,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 16,
+      "count": 15,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -443,8 +443,8 @@
     },
     {
       "winery": "SheChill Bakery",
-      "status": "site-unreachable",
-      "error": "This operation was aborted"
+      "status": "no-events-found",
+      "platform": "weebly"
     },
     {
       "winery": "Sigillo Cellars",
@@ -537,7 +537,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 22,
+      "count": 20,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -558,7 +558,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 11,
+      "count": 13,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
@@ -584,7 +584,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 7,
+      "count": 6,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
@@ -626,7 +626,7 @@
       "strategy": "jsonld",
       "platform": "wordpress",
       "count": 1,
-      "eventPage": "https://woodinvillewinecountry.com/event/writers-wine-songwriter-sessions-maryhill-winery-tasting-room-and-bistro/"
+      "eventPage": "https://woodinvillewinecountry.com/event/winter-wreath-making-black-friday-reimagined-sky-river-mead/"
     }
   ]
 }
