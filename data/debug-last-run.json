@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-13T20:10:29.035Z",
+  "ranAt": "2026-11-14T18:36:19.523Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -400,7 +400,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 7,
+      "count": 6,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -428,7 +428,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 15,
+      "count": 14,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -491,7 +491,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 15,
+      "count": 14,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -521,11 +521,8 @@
     },
     {
       "winery": "Tinte Cellars",
-      "status": "ok",
-      "strategy": "tribe",
-      "platform": "wordpress",
-      "count": 1,
-      "eventPage": "https://tintecellars.com/"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Triplehorn Brewing",
@@ -537,16 +534,16 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 20,
+      "count": 21,
       "eventPage": "https://tsillancellars.com/"
     },
     {
       "winery": "Two Vintners",
       "status": "ok",
-      "strategy": "jsonld",
+      "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 1,
-      "eventPage": "https://www.twovintners.com/all-events-/thomas-pallua"
+      "count": 5,
+      "eventPage": "https://www.twovintners.com/all-events-?tag=TWO+FUNK+FRIDAY"
     },
     {
       "winery": "Vaunt Modern Gallery",
@@ -602,7 +599,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 5,
+      "count": 8,
       "eventPage": "https://witcellars.com/"
     },
     {
