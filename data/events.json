@@ -1,211 +1,8 @@
 {
-  "updatedAt": "2026-11-14T18:36:19.968Z",
+  "updatedAt": "2026-11-15T19:11:29.382Z",
   "windowDays": 90,
-  "count": 822,
+  "count": 806,
   "events": [
-    {
-      "id": "winery-Patterson Cellars-SOLD OUT - Wine 101: Taste, Pair & Pour with Confidence-2026-11-14T19:00:00.931Z",
-      "title": "SOLD OUT - Wine 101: Taste, Pair & Pour with Confidence",
-      "category": "food-drink",
-      "start": "2026-11-14T19:00:00.931Z",
-      "location": "Patterson Cellars, 19501 144th Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.pattersoncellars.com/events/2026/11/14/wine-101-taste-pair-amp-pour-with-confidence",
-      "description": "Ever wonder why some wines pair beautifully with certain foods while others just… don’t? Or how the right pairing can completely change the way both the wine and the food taste? Join us on Saturday, November 14th from 11 AM–2 PM at our Woodinville Warehouse District location as w",
-      "source": "Patterson Cellars"
-    },
-    {
-      "id": "winery-Wit Cellars-Bubble Release Party @ WIT in Woodinville-2026-11-14T20:00:00.000Z",
-      "title": "Bubble Release Party @ WIT in Woodinville",
-      "category": "food-drink",
-      "start": "2026-11-14T20:00:00.000Z",
-      "location": "WIT Cellars – Woodinville, 19501 144th Ave NE Suite A400, Woodinville",
-      "url": "https://witcellars.com/event/bubble-release-party-wit-in-woodinville/2026-11-14/",
-      "description": "Come get your sparkle on! 🥂✨ Join us at WIT Cellars in Woodinville for a sparkling weekend featuring some of our favorite bubbles paired with delicious bites! Whether you’re celebrating with someone special or gathering your favorite wine-loving friends, it’s a great excuse to e",
-      "source": "Wit Cellars"
-    },
-    {
-      "id": "10000436-1794661200-1794668400@425cellars.com",
-      "title": "Harvest Pumpkin Centerpiece Workshop",
-      "category": "community",
-      "start": "2026-11-14T21:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/harvest-pumpkin-centerpiece-workshop/",
-      "description": "Celebrate the beauty of fall with a creative afternoon at 425 Cellars. Aparna will guide you step-by-step as you create your own Harvest Pumpkin Centerpiece, perfect for your fall table or Thanksgiving décor. All materials are included and no experience is needed. $40 per person.",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-14T21:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-14T21:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-14T22:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-11-14T22:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music by Mike Scott at Evergreen Family Wines-2026-11-14T22:00:00.000Z",
-      "title": "Live Music by Mike Scott at Evergreen Family Wines",
-      "category": "music",
-      "start": "2026-11-14T22:00:00.000Z",
-      "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-mike-scott-woodinville/2026-11-14/",
-      "description": "Live music at the Woodinville tasting room.",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-11-14t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
-      "title": "Happy Hour at The Restaurant at DeLille",
-      "category": "food-drink",
-      "start": "2026-11-14T22:30:00.000Z",
-      "end": "2026-11-15T01:00:00.000Z",
-      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
-      "url": "https://delillecellars.com/restaurant/",
-      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
-      "source": "Recurring"
-    },
-    {
-      "id": "manual-Jarrett Renshaw at Chandler Reach-2026-11-14T23:00:00.000Z",
-      "title": "Jarrett Renshaw at Chandler Reach",
-      "category": "music",
-      "start": "2026-11-14T23:00:00.000Z",
-      "location": "Chandler Reach Vineyards Tasting Room, Woodinville, WA",
-      "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-15T00:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-15T00:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Saturday Night Music at Chateau Ste. Michelle-2026-11-15T01:00:00.000Z",
-      "title": "Saturday Night Music at Chateau Ste. Michelle",
-      "category": "music",
-      "start": "2026-11-15T01:00:00.000Z",
-      "location": "Chateau Ste. Michelle Tasting Room, 14111 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.ste-michelle.com/visit-us/experiences",
-      "description": "Live music from local Seattle-area musicians, 5-7pm, in the tasting room. Held select Friday and Saturday nights; check ste-michelle.com for the artist. Wine by the glass and Chateau Kitchen food available. All ages.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Electric Boots (Elton John Tribute) at Freebush-2026-11-15T02:00:00.000Z",
-      "title": "Electric Boots (Elton John Tribute) at Freebush",
-      "category": "music",
-      "start": "2026-11-15T02:00:00.000Z",
-      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/freebushcellars/event/599320/electric-boots",
-      "description": "Elton John tribute, 6-9pm. $11 per ticket.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at The Shed-2026-11-15T02:00:00.000Z",
-      "title": "Live Music at The Shed",
-      "category": "music",
-      "start": "2026-11-15T02:00:00.000Z",
-      "location": "The Shed at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-15T02:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-15T02:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-11-15t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
-      "title": "Live Music at Gorman Winery (Hollywood Hill)",
-      "category": "music",
-      "start": "2026-11-15T02:00:00.000Z",
-      "end": "2026-11-15T04:00:00.000Z",
-      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
-      "url": "https://www.gormanwinery.com/",
-      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
-      "source": "Recurring"
-    },
-    {
-      "id": "rec-2026-11-15t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
-      "title": "Live Music at Fireside Lounge (Willows Lodge)",
-      "category": "music",
-      "start": "2026-11-15T02:00:00.000Z",
-      "end": "2026-11-15T04:30:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
-      "source": "Recurring"
-    },
-    {
-      "id": "winery-Patterson Cellars-Live Music at Hollywood Hill: Ian Skavdahl-2026-11-15T02:00:00.200Z",
-      "title": "Live Music at Hollywood Hill: Ian Skavdahl",
-      "category": "music",
-      "start": "2026-11-15T02:00:00.200Z",
-      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA, 98072",
-      "url": "https://www.pattersoncellars.com/events/2026/11/14/live-music-at-hollywood-hill-ian-skavdahl",
-      "description": "",
-      "source": "Patterson Cellars"
-    },
-    {
-      "id": "winery-Village Wines-Tyler McGinnis-2026-11-15T03:00:00.000Z",
-      "title": "Tyler McGinnis",
-      "category": "music",
-      "start": "2026-11-15T03:00:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/brian-james-live-2/",
-      "description": "Live Music at Village Wines — Featuring Tyler McGinnis Saturday, November 14th | 7:00–9:00 PM Join us for an unforgettable evening of live music at Village Wines with Tyler McGinnis, a powe rful singer-songwriter whose soulful blend of Americana, alternative country, and southern",
-      "source": "Village Wines"
-    },
-    {
-      "id": "manual-Live Music at Obelisco-2026-11-15T03:00:00.000Z",
-      "title": "Live Music at Obelisco",
-      "category": "music",
-      "start": "2026-11-15T03:00:00.000Z",
-      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE Suite 121, Woodinville, WA 98072",
-      "url": "https://obelisco.com/events-dinners/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-11-15T08:00:00.000Z",
-      "title": "Social Sundays: New Connections",
-      "category": "food-drink",
-      "start": "2026-11-15T08:00:00.000Z",
-      "location": "All Locations",
-      "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-11-15/",
-      "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
-      "source": "Alexandria Nicole Cellars"
-    },
-    {
-      "id": "manual-Drag Brunch at Freebush Cellars-2026-11-15T18:00:00.000Z",
-      "title": "Drag Brunch at Freebush Cellars",
-      "category": "comedy",
-      "start": "2026-11-15T18:00:00.000Z",
-      "location": "Freebush Cellars, 19495 144th Ave NE Ste B235, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/freebushcellars/event/619888/drag-brunch",
-      "description": "Brunch with a drag show, 10am-1pm. $32 per ticket includes a mimosa or Bloody Mary.",
-      "source": "Manually added"
-    },
     {
       "id": "winery-Wit Cellars-Bubble Release Party @ WIT in Woodinville-2026-11-15T20:00:00.000Z",
       "title": "Bubble Release Party @ WIT in Woodinville",
@@ -6585,11 +6382,11 @@
     {
       "id": "winery-Jackson House-New Year's Eve at Jackson House-2026-12-31T20:00:00.000Z",
       "title": "New Year's Eve at Jackson House",
-      "category": "community",
+      "category": "food-drink",
       "start": "2026-12-31T20:00:00.000Z",
       "location": "",
       "url": "https://jacksonhousewoodinville.com/#featured-event",
-      "description": "Celebrate New Year's Eve at Jackson House with three courses of bubbles and caviar.",
+      "description": "Welcome the New Year with an evening worth savoring. Join us at Jackson House for a three-course caviar pairing dinner, complemented by wines from our friends at Tirriddis. Gather your favorite people, raise a glass, and celebrate in style as we toast to new beginnings and a bril",
       "source": "Jackson House"
     },
     {
@@ -8463,6 +8260,50 @@
       "category": "music",
       "start": "2027-02-13T02:00:00.000Z",
       "end": "2027-02-13T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-13t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-02-13T22:30:00.000Z",
+      "end": "2027-02-14T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-14t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
+      "title": "Live Music at Patterson Cellars (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-02-14T02:00:00.000Z",
+      "end": "2027-02-14T04:00:00.000Z",
+      "location": "Patterson Cellars, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
+      "description": "Live music Friday and Saturday nights, 6-8pm, at the Hollywood Hill tasting room.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-14t02-00-00-000z-live-music-at-gorman-winery-hollywood-hill-",
+      "title": "Live Music at Gorman Winery (Hollywood Hill)",
+      "category": "music",
+      "start": "2027-02-14T02:00:00.000Z",
+      "end": "2027-02-14T04:00:00.000Z",
+      "location": "Gorman Winery, 14505 148th Ave NE, Woodinville, WA 98072",
+      "url": "https://www.gormanwinery.com/",
+      "description": "Live music Friday and Saturday evenings at the Hollywood Hill tasting room (The Station).",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-14t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-02-14T02:00:00.000Z",
+      "end": "2027-02-14T04:30:00.000Z",
       "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
       "url": "https://www.willowslodge.com/events/",
       "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
