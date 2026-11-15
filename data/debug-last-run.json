@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-14T18:36:19.523Z",
+  "ranAt": "2026-11-15T19:11:28.934Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 8,
-      "addedCount": 8
+      "rawCount": 7,
+      "addedCount": 7
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 45,
+      "count": 44,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -400,7 +400,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 6,
+      "count": 4,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -534,7 +534,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 21,
+      "count": 19,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -555,7 +555,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 13,
+      "count": 12,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
@@ -599,7 +599,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 8,
+      "count": 7,
       "eventPage": "https://witcellars.com/"
     },
     {
