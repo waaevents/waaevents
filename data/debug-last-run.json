@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-15T19:11:28.934Z",
+  "ranAt": "2026-11-16T22:39:13.739Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 7,
-      "addedCount": 7
+      "rawCount": 6,
+      "addedCount": 6
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 45,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -428,7 +428,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 14,
+      "count": 15,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -491,7 +491,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 14,
+      "count": 12,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -540,10 +540,10 @@
     {
       "winery": "Two Vintners",
       "status": "ok",
-      "strategy": "squarespace",
+      "strategy": "jsonld",
       "platform": "squarespace",
-      "count": 5,
-      "eventPage": "https://www.twovintners.com/all-events-?tag=TWO+FUNK+FRIDAY"
+      "count": 1,
+      "eventPage": "https://www.twovintners.com/all-events-/sedona-rose-and-the-thorns"
     },
     {
       "winery": "Vaunt Modern Gallery",
@@ -599,7 +599,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 7,
+      "count": 6,
       "eventPage": "https://witcellars.com/"
     },
     {
