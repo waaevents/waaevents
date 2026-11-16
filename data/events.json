@@ -1,180 +1,8 @@
 {
-  "updatedAt": "2026-11-15T19:11:29.382Z",
+  "updatedAt": "2026-11-16T22:39:14.258Z",
   "windowDays": 90,
-  "count": 806,
+  "count": 794,
   "events": [
-    {
-      "id": "winery-Wit Cellars-Bubble Release Party @ WIT in Woodinville-2026-11-15T20:00:00.000Z",
-      "title": "Bubble Release Party @ WIT in Woodinville",
-      "category": "food-drink",
-      "start": "2026-11-15T20:00:00.000Z",
-      "location": "WIT Cellars – Woodinville, 19501 144th Ave NE Suite A400, Woodinville",
-      "url": "https://witcellars.com/event/bubble-release-party-wit-in-woodinville/2026-11-15/",
-      "description": "Come get your sparkle on! 🥂✨ Join us at WIT Cellars in Woodinville for a sparkling weekend featuring some of our favorite bubbles paired with delicious bites! Whether you’re celebrating with someone special or gathering your favorite wine-loving friends, it’s a great excuse to e",
-      "source": "Wit Cellars"
-    },
-    {
-      "id": "10002149-1794745800-1794753000@www.alexandrianicolecellars.com",
-      "title": "2026 Books on Tap in Woodinville",
-      "category": "community",
-      "start": "2026-11-15T20:30:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
-      "url": "https://www.alexandrianicolecellars.com/event/2026-books-on-tap-in-woodinville/2026-11-15/",
-      "description": "Introducing our Books on Tap: 2026 Edition! We’re excited to bring Books on Tap Sundays to our Woodin Creek Tasting Room for the very first time, and we’re kicking off the year with a fresh reading lineup and a fun new twist. For 2026, each month’s book will feature a playful the",
-      "source": "Alexandria Nicole Cellars (Woodin Creek)"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-15T21:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-15T21:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Synne Cellars-Watch Party: Seahawks vs. Raiders-2026-11-15T21:05:00.000Z",
-      "title": "Watch Party: Seahawks vs. Raiders",
-      "category": "food-drink",
-      "start": "2026-11-15T21:05:00.000Z",
-      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
-      "url": "https://www.synnecellars.com/event/watch-party-seahawks-vs-raiders/",
-      "description": "Wine, Beer, Football! 🏈 Join us Sunday, November 15 for Seahawks football, local beer, and great wine at the Hollywood Schoolhouse! Kickoff is at 1:05 PM. Wear your Seahawks colors, bring your game-day crew, and settle in to cheer on Seattle. We’ll have Watts Waggle Dance IPA on",
-      "source": "Synne Cellars"
-    },
-    {
-      "id": "winery-Village Wines-Game Day: Hawks Pass Menu & Watch Party-2026-11-15T21:05:00.000Z",
-      "title": "Game Day: Hawks Pass Menu & Watch Party",
-      "category": "community",
-      "start": "2026-11-15T21:05:00.000Z",
-      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
-      "url": "https://www.myvillagewines.com/event/game-day-hawks-pass-menu-watch-party-8/",
-      "description": "Seahawks Watch Party at Village! Football is better together, and Village Wines is the place to watch it! Let us handle the food prep, game-day shopping, dishes, and entertaining! Join us for a Seahawks Watch Party with a lively crowd, great food, and every play on one of our fiv",
-      "source": "Village Wines"
-    },
-    {
-      "id": "manual-Seahawks vs Raiders at Evergreen Family Wines-2026-11-15T21:05:00.000Z",
-      "title": "Seahawks vs Raiders at Evergreen Family Wines",
-      "category": "community",
-      "start": "2026-11-15T21:05:00.000Z",
-      "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
-      "url": "https://evergreenfamilywines.com/event/seahawks-vs-raiders-all-locations/",
-      "description": "Catch the game on select Sundays: $12 tastings for the 12th and select premium glass pours.",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Jarrett Renshaw at Brian Carter Cellars-2026-11-15T22:00:00.000Z",
-      "title": "Jarrett Renshaw at Brian Carter Cellars",
-      "category": "music",
-      "start": "2026-11-15T22:00:00.000Z",
-      "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
-      "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-15T22:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-11-15T22:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-11-15t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
-      "title": "Happy Hour at The Restaurant at DeLille",
-      "category": "food-drink",
-      "start": "2026-11-15T22:30:00.000Z",
-      "end": "2026-11-16T01:00:00.000Z",
-      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
-      "url": "https://delillecellars.com/restaurant/",
-      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
-      "source": "Recurring"
-    },
-    {
-      "id": "manual-Sunday Live Music at From The Sky Down-2026-11-15T23:00:00.000Z",
-      "title": "Sunday Live Music at From The Sky Down",
-      "category": "music",
-      "start": "2026-11-15T23:00:00.000Z",
-      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
-      "url": "https://www.exploretock.com/matthews-winery",
-      "description": "3-6pm",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000437-1794756600-1794763800@425cellars.com",
-      "title": "Live Music with Michael Scott",
-      "category": "music",
-      "start": "2026-11-15T23:30:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/live-music-with-michael-scott/",
-      "description": "Spend your Sunday afternoon with live acoustic music from Seattle-area singer-songwriter Michael Scott. Enjoy a relaxed mix of classic rock, country, blues, pop, folk, and original songs alongside your favorite 425 Cellars wine. Complimentary admission with the purchase of wine, ",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-16T00:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-16T00:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Synne Cellars-Post Hawks Party: Live Music at Synne Cellars-2026-11-16T01:00:00.000Z",
-      "title": "Post Hawks Party: Live Music at Synne Cellars",
-      "category": "music",
-      "start": "2026-11-16T01:00:00.000Z",
-      "location": "Synne Cellars Tasting Room at Hollywood Schoolhouse, 14810 NE 145th Street, Suite B, Woodinville",
-      "url": "https://www.synnecellars.com/event/post-hawks-party-live-music-at-synne-cellars/",
-      "description": "Kozmo Live at Synne Cellars Sunday, November 15 · 5–8 PM Join us in welcoming Kozmo for his first performance at Synne Cellars! With a dynamic, expressive voice, Kozmo brings a unique mix of pop and alternative styles to life through musical storytelling on piano and acoustic gui",
-      "source": "Synne Cellars"
-    },
-    {
-      "id": "manual-Industry Night at The SOMM (5pm to close)-2026-11-16T01:00:00.000Z",
-      "title": "Industry Night at The SOMM (5pm to close)",
-      "category": "food-drink",
-      "start": "2026-11-16T01:00:00.000Z",
-      "location": "Bin 47 and The Shed at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "rec-2026-11-16t01-00-00-000z-industry-night-at-flatstick-pub",
-      "title": "Industry Night at Flatstick Pub",
-      "category": "food-drink",
-      "start": "2026-11-16T01:00:00.000Z",
-      "timeTBA": true,
-      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
-      "url": "https://flatstickpub.com/woodinville/",
-      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
-      "source": "Recurring"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-16T02:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-16T02:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-16T19:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-11-16T19:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "rec-2026-11-16t19-00-00-000z-happy-hour-monday-at-patterson-cellars-hollywood-hill-",
       "title": "Happy Hour Monday at Patterson Cellars (Hollywood Hill)",
@@ -185,26 +13,6 @@
       "url": "https://www.pattersoncellars.com/hollywood-hill-wine-tasting-room",
       "description": "$8 glass pours and $10 local cheese or meat plates during regular business hours.",
       "source": "Recurring"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-16T21:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-16T21:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-16T22:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-11-16T22:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
     },
     {
       "id": "rec-2026-11-16t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
@@ -832,6 +640,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Two Vintners-Sedona Rose & The Thorns (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle-2026-11-21T02:00:00.000Z",
+      "title": "Sedona Rose & The Thorns (Woodinville) — Two Vintners: Washington Winery | Wineries Near Seattle",
+      "category": "community",
+      "start": "2026-11-21T02:00:00.000Z",
+      "location": "Two Vintners, 18576 142nd Avenue Northeast Woodinville, WA, 98072 United States",
+      "url": "",
+      "description": "",
+      "source": "Two Vintners"
+    },
+    {
       "id": "manual-Alex Britton at Freebush Cellars-2026-11-21T02:00:00.000Z",
       "title": "Alex Britton at Freebush Cellars",
       "category": "music",
@@ -858,6 +676,16 @@
       "start": "2026-11-21T02:00:00.000Z",
       "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://thesomm.com/happenings",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
+      "id": "manual-Friday Live Music at Two Vintners-2026-11-21T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-11-21T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
       "description": "",
       "source": "Manually added"
     },
@@ -903,16 +731,6 @@
       "url": "https://www.prohibitioncellars.com/events-1/the-davanos-9zpfg-w2a3c-afz84-tf2lm-5pcbb-ydx6h",
       "description": "The Davanos were co-founded in 2003 by the incredibly talented duo of guitarist Jerry Battista and drummer Fred Holzman, while Bassist Greg Youtsey completes the trifecta perfectly. The Davanos play a kick-ass combination of classic rock, blues, country western along with some of",
       "source": "Prohibition Cellars"
-    },
-    {
-      "id": "winery-Two Vintners-Sedona Rose & The Thorns (Woodinville)-2026-11-21T02:00:00.394Z",
-      "title": "Sedona Rose & The Thorns (Woodinville)",
-      "category": "music",
-      "start": "2026-11-21T02:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/sedona-rose-and-the-thorns",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
     },
     {
       "id": "winery-Watts Brewing Company-Stand Up Comedy with JR Berard and Amanda Knox-2026-11-21T03:00:00.049Z",
@@ -1925,6 +1743,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Two Vintners-2026-11-28T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-11-28T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "rec-2026-11-28t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -1966,16 +1794,6 @@
       "url": "https://www.prohibitioncellars.com/events-1/joel-gibson-jr-bespj-3fdsf-xx9l3",
       "description": "Coveted and distinctive Country & Rock Singer-Songwriter, Joel Gibson Jr. is the premier independent Country & Rock artist of the PNW! His Kitsap County roots mixed with his Summers spent in North Carolina as a youth provide the foundation for an eclectic blend of Country, Rock &",
       "source": "Prohibition Cellars"
-    },
-    {
-      "id": "winery-Two Vintners-Jon Petty & The Heartfakers (Woodinville)-2026-11-28T02:00:00.394Z",
-      "title": "Jon Petty & The Heartfakers (Woodinville)",
-      "category": "music",
-      "start": "2026-11-28T02:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/jonpetty-and-heartfakers",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
     },
     {
       "id": "winery-Village Wines-Pajama Bingo Party with Kelvin-2026-11-28T03:00:00.000Z",
@@ -2609,6 +2427,16 @@
       "source": "Wit Cellars"
     },
     {
+      "id": "winery-Village Wines-Wednesday Hosted Trivia & Prizes-2026-12-03T02:00:00.000Z",
+      "title": "Wednesday Hosted Trivia & Prizes",
+      "category": "food-drink",
+      "start": "2026-12-03T02:00:00.000Z",
+      "location": "Village Wines, 14450 Redmond - Woodinville Road Northeast, Woodinville",
+      "url": "https://www.myvillagewines.com/event/wednesday-hosted-trivia-prizes-3/",
+      "description": "Join us on Wednesday, December 2nd, 6pm to 7:30pm Get ready for a fun night of friendly competition during our Trivia Night at Village Wines. Bring your friends, charge your phone, and join us for an evening of pop culture, laughs, and great food and wine. It’s also Wednesday Win",
+      "source": "Village Wines"
+    },
+    {
       "id": "rec-2026-12-03t02-00-00-000z-trivia-night-at-bayernmoor-cellars-monthly-themed-",
       "title": "Trivia Night at Bayernmoor Cellars (monthly, themed)",
       "category": "food-drink",
@@ -2915,6 +2743,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Two Vintners-2026-12-05T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-12-05T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "rec-2026-12-05t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -2966,16 +2804,6 @@
       "url": "https://www.prohibitioncellars.com/events-1/the-industrials-zjsmd-9g4w9-gz34k-g74zg",
       "description": "Laurel Canyon Legacy celebrates the explosion of popular music that came out of LA’s Laurel Canyon in the mid-60s as folk music blended with rock and went electric. Come let us take you on a musical journey through the 60’s and 70’s as we perform your favorite songs by groups lik",
       "source": "Prohibition Cellars"
-    },
-    {
-      "id": "winery-Two Vintners-Under The Puddle (Woodinville)-2026-12-05T02:00:00.394Z",
-      "title": "Under The Puddle (Woodinville)",
-      "category": "music",
-      "start": "2026-12-05T02:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/under-the-puddle-live-music-woodinville",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
     },
     {
       "id": "rec-2026-12-05t02-30-00-000z-first-friday-live-music-at-fid-litas",
@@ -3963,6 +3791,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Two Vintners-2026-12-12T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-12-12T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "rec-2026-12-12t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -3994,16 +3832,6 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
-    },
-    {
-      "id": "winery-Two Vintners-Slimtones (Woodinville)-2026-12-12T02:00:00.394Z",
-      "title": "Slimtones (Woodinville)",
-      "category": "music",
-      "start": "2026-12-12T02:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/slimtones-live-music-woodinville",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
     },
     {
       "id": "manual-Comedy Night at Love That Red Winery-2026-12-12T03:00:00.000Z",
@@ -4921,6 +4749,16 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Friday Live Music at Two Vintners-2026-12-19T02:00:00.000Z",
+      "title": "Friday Live Music at Two Vintners",
+      "category": "music",
+      "start": "2026-12-19T02:00:00.000Z",
+      "location": "Two Vintners, 18570 142nd Ave NE, Woodinville, WA 98072",
+      "url": "https://www.twovintners.com/",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "rec-2026-12-19t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
       "title": "Live Music at Patterson Cellars (Hollywood Hill)",
       "category": "music",
@@ -4952,16 +4790,6 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
-    },
-    {
-      "id": "winery-Two Vintners-Marilyn & the G-Strings (Woodinville)-2026-12-19T02:00:00.394Z",
-      "title": "Marilyn & the G-Strings (Woodinville)",
-      "category": "music",
-      "start": "2026-12-19T02:00:00.394Z",
-      "location": "Two Vintners, 18576 142nd Avenue Northeast, Woodinville, WA, 98072",
-      "url": "https://www.twovintners.com/all-events-/marilyn-and-the-gstrings-live-music-woodinville",
-      "description": "Join us on Friday evenings in Woodinville for happy hour from 4-8pm and live music from 6-8 pm! Select wines by-the-glass and full bottle purchases will be available. Food will be available for purchase from our in-house chefs or curated local food trucks. Seating is first-come-f",
-      "source": "Two Vintners"
     },
     {
       "id": "winery-Prohibition Cellars-Three Trick Pony-2026-12-19T02:00:00.879Z",
@@ -5128,14 +4956,14 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
-      "id": "winery-Alexandria Nicole Cellars-2026 Books on Tap in Woodinville-2026-12-20T20:30:00.000Z",
+      "id": "10002150-1797769800-1797777000@www.alexandrianicolecellars.com",
       "title": "2026 Books on Tap in Woodinville",
-      "category": "food-drink",
+      "category": "community",
       "start": "2026-12-20T20:30:00.000Z",
-      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville, 98072",
       "url": "https://www.alexandrianicolecellars.com/event/2026-books-on-tap-in-woodinville/2026-12-20/",
-      "description": "@ Introducing our Books on Tap: 2026 Edition! We’re excited to bring Books on Tap Sundays to our Woodin Creek Tasting Room for the very first time, and we’re kicking off the year with a fresh reading lineup and a fun new twist. For 2026, each month’s book will feature a playful t",
-      "source": "Alexandria Nicole Cellars"
+      "description": "Introducing our Books on Tap: 2026 Edition! We’re excited to bring Books on Tap Sundays to our Woodin Creek Tasting Room for the very first time, and we’re kicking off the year with a fresh reading lineup and a fun new twist. For 2026, each month’s book will feature a playful the",
+      "source": "Alexandria Nicole Cellars (Woodin Creek)"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-20T21:00:00.000Z",
@@ -5595,6 +5423,16 @@
       "url": "https://delillecellars.com/restaurant/",
       "description": "Happy hour specials on drinks and bites all day every Thursday.",
       "source": "Recurring"
+    },
+    {
+      "id": "winery-Prohibition Cellars-Holiday Closures-2026-12-24T20:00:00.170Z",
+      "title": "Holiday Closures",
+      "category": "food-drink",
+      "start": "2026-12-24T20:00:00.170Z",
+      "location": "Prohibition Cellars, 19501 144th Ave NE F-900, Woodinville, WA 98072",
+      "url": "https://www.prohibitioncellars.com/events-1/holiday-closures-bdn2e-jgjsj",
+      "description": "Prohibition Cellars Holiday Hours: Both locations closed: December 24th, 25th, and January 1st Woodinville also closed: December 31st All other dates: Both tasting rooms will follow their regular operating schedules throughout the holiday season. We wish you a joyful holiday seas",
+      "source": "Prohibition Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-24T21:00:00.000Z",
@@ -7279,6 +7117,16 @@
       "source": "Recurring"
     },
     {
+      "id": "winery-Alexandria Nicole Cellars-Taco Tuesdays @ Woodin Creek-2027-01-19T20:00:00.000Z",
+      "title": "Taco Tuesdays @ Woodin Creek",
+      "category": "food-drink",
+      "start": "2027-01-19T20:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2027-01-19/",
+      "description": "@ Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will al",
+      "source": "Alexandria Nicole Cellars"
+    },
+    {
       "id": "rec-2027-01-19t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -7288,6 +7136,16 @@
       "url": "https://delillecellars.com/restaurant/",
       "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
       "source": "Recurring"
+    },
+    {
+      "id": "winery-Alexandria Nicole Cellars-“No Fee” Bingo Nights at Woodin Creek-2027-01-20T01:00:00.000Z",
+      "title": "“No Fee” Bingo Nights at Woodin Creek",
+      "category": "community",
+      "start": "2027-01-20T01:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "url": "https://www.alexandrianicolecellars.com/event/no-fee-bingo-nights-at-woodin-creek/2027-01-19/",
+      "description": "@ Join us every Tuesday for No Fee Bingo Nights! Enjoy an evening of fun, laughter, and prizes at our Woodin Creek location! Sip on your favorite wines while taking part in the friendly competition of bingo in a relaxed, welcoming atmosphere. Whether you’re a seasoned player or n",
+      "source": "Alexandria Nicole Cellars"
     },
     {
       "id": "rec-2027-01-20t02-00-00-000z-live-music-at-bin-47-the-somm-",
@@ -8307,6 +8165,28 @@
       "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
       "url": "https://www.willowslodge.com/events/",
       "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-14t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-02-14T22:30:00.000Z",
+      "end": "2027-02-15T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-15t01-00-00-000z-industry-night-at-flatstick-pub",
+      "title": "Industry Night at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-02-15T01:00:00.000Z",
+      "timeTBA": true,
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Sunday Industry Night. Flatstick hasn't posted the Woodinville hours or specials online; the pub is open Sundays 11am-11pm. Call (425) 414-6151 to confirm.",
       "source": "Recurring"
     }
   ]
