@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-18T20:59:41.449Z",
+  "ranAt": "2026-11-18T22:44:34.916Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -101,8 +101,8 @@
     },
     {
       "winery": "Bong Bong",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Brian Carter Cellars",
@@ -121,8 +121,8 @@
     },
     {
       "winery": "Cascade Cliffs (The Yard at Harvest)",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Category 5 Cellars",
@@ -211,8 +211,11 @@
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 4,
+      "eventPage": "https://evergreenfamilywines.com/events"
     },
     {
       "winery": "Fidélitas",
@@ -547,8 +550,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Village Wines",
