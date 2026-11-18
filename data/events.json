@@ -1,37 +1,8 @@
 {
-  "updatedAt": "2026-11-18T20:59:41.815Z",
+  "updatedAt": "2026-11-18T22:44:35.371Z",
   "windowDays": 90,
-  "count": 796,
+  "count": 832,
   "events": [
-    {
-      "title": "WineDown Wednesday at EFESTĒ",
-      "category": "food-drink",
-      "start": "2026-11-18T20:00:00.000Z",
-      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
-      "url": "https://efeste.com/pages/event-calendar",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-18T21:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-18T21:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-18T22:00:00.000Z",
-      "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
-      "category": "food-drink",
-      "start": "2026-11-18T22:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "rec-2026-11-18t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
@@ -175,6 +146,16 @@
       "source": "425 Cellars"
     },
     {
+      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-11-20T01:30:00.000Z",
+      "title": "Knotty Thursdays | Woodinville",
+      "category": "food-drink",
+      "start": "2026-11-20T01:30:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-11-19/",
+      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity, and good company. Knotty Thursday is all about making something with your hands, enjoying a gr",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Jarrett Renshaw at 425 Cellars-2026-11-20T01:30:00.000Z",
       "title": "Jarrett Renshaw at 425 Cellars",
       "category": "music",
@@ -202,7 +183,8 @@
       "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
       "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-11-19/",
       "description": "Bring your knitting, crochet or crafty project for an evening of wine, creativity and good company.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-20T03:00:00.000Z"
     },
     {
       "id": "rec-2026-11-20t01-30-00-000z-somm-class-at-from-the-sky-down",
@@ -243,9 +225,11 @@
       "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
       "url": "https://www.willowslodge.com/events/",
       "description": "Live music from Richard Taylor Jr. Seating is first-come, first-served.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-20T04:30:00.000Z"
     },
     {
+      "id": "manual-Family Movie Night: Home Alone at From The Sky Down-2026-11-20T02:00:00.000Z",
       "title": "Family Movie Night: Home Alone at From The Sky Down",
       "category": "comedy",
       "start": "2026-11-20T02:00:00.000Z",
@@ -366,6 +350,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Evergreen Family Wines-Live Music by Josiah Bogle | Woodinville-2026-11-21T01:00:00.000Z",
+      "title": "Live Music by Josiah Bogle | Woodinville",
+      "category": "music",
+      "start": "2026-11-21T01:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/live-music-by-josiah-bogle-woodinville-3/2026-11-20/",
+      "description": "<p>Join us for the talented Josiah Bogle in Woodinville. His performance will enhance your Evergreen experience, making you want to come back for more! Josiah Bogle takes you on a journey through the best of vintage pop rock nuanced with today’s current sound. Whether singi",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-11-21T01:00:00.000Z",
       "title": "Friday Night Music at Chateau Ste. Michelle",
       "category": "music",
@@ -393,7 +387,8 @@
       "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
       "url": "https://evergreenfamilywines.com/event/live-music-by-josiah-bogle-woodinville-3/2026-11-20/",
       "description": "Live music at the Woodinville tasting room.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-21T04:00:00.000Z"
     },
     {
       "id": "winery-Synne Cellars-A Better Way to Wine Down | Live Acoustic Music with Robbie Egelstad at Synne-2026-11-21T01:30:00.000Z",
@@ -509,14 +504,15 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "manual-Brian James at Obelisco-2026-11-21T03:00:00.000Z",
       "title": "Brian James at Obelisco",
       "category": "music",
       "start": "2026-11-21T03:00:00.000Z",
-      "end": "2026-11-21T05:00:00.000Z",
       "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE, Suite 121, Woodinville, WA 98072",
       "url": "https://www.cellarpass.com/business/obelisco-estate-winery?eventId=30606&date=11%2f20%2f2026&book=true",
       "description": "Live music, 7-9pm, at the Apple Farm Village tasting room. 21+. Reservations recommended.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-21T05:00:00.000Z"
     },
     {
       "id": "winery-Watts Brewing Company-Stand Up Comedy with JR Berard and Amanda Knox-2026-11-21T03:00:00.049Z",
@@ -569,6 +565,16 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "winery-Evergreen Family Wines-Live Music by Sarah Brunner | Woodinville-2026-11-21T22:00:00.000Z",
+      "title": "Live Music by Sarah Brunner | Woodinville",
+      "category": "music",
+      "start": "2026-11-21T22:00:00.000Z",
+      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
+      "url": "https://evergreenfamilywines.com/event/live-music-by-sarah-brunner-woodinville-4/2026-11-21/",
+      "description": "<p> Michigan native and Seattle-based musician Sarah Brunner is a full-time performer, both as a solo artist and with her band, The Hipocrats. Her style, deeply rooted in acoustic Americana, folk, and country, blends rhythm guitar with soulful vocal melodies to create a sou",
+      "source": "Evergreen Family Wines"
+    },
+    {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-21T22:00:00.000Z",
       "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
       "category": "food-drink",
@@ -586,7 +592,8 @@
       "location": "Evergreen Family Wines, 14450 Redmond-Woodinville Rd NE, Woodinville, WA 98072",
       "url": "https://evergreenfamilywines.com/event/live-music-by-sarah-brunner-woodinville-4/2026-11-21/",
       "description": "Acoustic Americana and folk from Seattle-based Sarah Brunner.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-22T01:00:00.000Z"
     },
     {
       "id": "winery-LaShellé Wines-Saturday Music Ben Meyer-2026-11-21T22:00:00.566Z",
@@ -687,7 +694,8 @@
       "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
       "url": "https://www.willowslodge.com/events/",
       "description": "Classical guitar from Chilean-born Patricio Contreras. Seating is first-come, first-served.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-22T04:00:00.000Z"
     },
     {
       "id": "rec-2026-11-22t02-00-00-000z-live-music-at-patterson-cellars-hollywood-hill-",
@@ -712,14 +720,15 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Larry Murante at Obelisco-2026-11-22T03:00:00.000Z",
       "title": "Larry Murante at Obelisco",
       "category": "music",
       "start": "2026-11-22T03:00:00.000Z",
-      "end": "2026-11-22T05:00:00.000Z",
       "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE, Suite 121, Woodinville, WA 98072",
       "url": "https://www.cellarpass.com/business/obelisco-estate-winery?eventId=30390&date=11%2f21%2f2026&book=true",
       "description": "Live music, 7-9pm, at the Apple Farm Village tasting room. 21+.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-22T05:00:00.000Z"
     },
     {
       "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-11-22T08:00:00.000Z",
@@ -730,6 +739,16 @@
       "url": "https://www.alexandrianicolecellars.com/event/social-sundays-new-connections/2026-11-22/",
       "description": "@ Come Curious. Leave Connected Social Sundays is your invitation to show up solo and leave with new connections. Designed with singles in mind, this is a relaxed, welcoming space to meet new people, spark real conversations, and enjoy a glass of wine without the pressure of a fo",
       "source": "Alexandria Nicole Cellars"
+    },
+    {
+      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-11-22T20:00:00.000Z",
+      "title": "Sip Back Sundays | All Locations",
+      "category": "food-drink",
+      "start": "2026-11-22T20:00:00.000Z",
+      "location": "",
+      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-11-22/",
+      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend and let us pour you something delicious.</p>\\n",
+      "source": "Evergreen Family Wines"
     },
     {
       "id": "winery-Patterson Cellars-Progressive Wine & Cheese Pairing Event-2026-11-22T20:00:00.078Z",
@@ -789,7 +808,8 @@
       "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
       "url": "https://briancartercellars.com/woodinville/events",
       "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-23T00:00:00.000Z"
     },
     {
       "id": "rec-2026-11-22t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
@@ -803,14 +823,15 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Henry Burke at From The Sky Down-2026-11-22T23:00:00.000Z",
       "title": "Henry Burke at From The Sky Down",
       "category": "music",
       "start": "2026-11-22T23:00:00.000Z",
-      "end": "2026-11-23T02:00:00.000Z",
       "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
       "url": "https://fromtheskydown.com/events",
       "description": "Live music Sundays, 3-6pm, on the farm.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-23T02:00:00.000Z"
     },
     {
       "id": "10000440-1795361400-1795368600@425cellars.com",
@@ -963,7 +984,8 @@
       "location": "Bin 47 at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
       "url": "https://jarrettrenshawmusic.com/home#upcoming-shows",
       "description": "Monday night live music in Bin 47, 6-9pm.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-24T05:00:00.000Z"
     },
     {
       "id": "winery-Watts Brewing Company-Firefly Social: Woodinville Tech Connect-2026-11-24T02:00:00.825Z",
@@ -1396,7 +1418,8 @@
       "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
       "url": "https://www.willowslodge.com/events/",
       "description": "Live music from Linzy Collins. Seating is first-come, first-served.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-27T04:30:00.000Z"
     },
     {
       "id": "manual-Trivia Night at Northwest Spirits-2026-11-27T03:00:00.000Z",
@@ -1623,14 +1646,15 @@
       "source": "Warr-King Wines"
     },
     {
+      "id": "manual-Nicholas Russell at Obelisco-2026-11-28T03:00:00.000Z",
       "title": "Nicholas Russell at Obelisco",
       "category": "music",
       "start": "2026-11-28T03:00:00.000Z",
-      "end": "2026-11-28T05:00:00.000Z",
       "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE, Suite 121, Woodinville, WA 98072",
       "url": "https://www.cellarpass.com/business/obelisco-estate-winery?eventId=30638&date=11%2f27%2f2026&book=true",
       "description": "Live music, 7-9pm, at the Apple Farm Village tasting room. 21+.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-28T05:00:00.000Z"
     },
     {
       "id": "winery-Wit Cellars-Holiday Sip & Shop – Woodinville Warehouse Wineries-2026-11-28T20:00:00.000Z",
@@ -1767,14 +1791,15 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Jonathan Sherrill at Obelisco-2026-11-29T03:00:00.000Z",
       "title": "Jonathan Sherrill at Obelisco",
       "category": "music",
       "start": "2026-11-29T03:00:00.000Z",
-      "end": "2026-11-29T05:00:00.000Z",
       "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE, Suite 121, Woodinville, WA 98072",
       "url": "https://www.cellarpass.com/business/obelisco-estate-winery?eventId=30639&date=11%2f28%2f2026&book=true",
       "description": "Live music, 7-9pm, at the Apple Farm Village tasting room. 21+.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-29T05:00:00.000Z"
     },
     {
       "id": "winery-Alexandria Nicole Cellars-Social Sundays: New Connections-2026-11-29T08:00:00.000Z",
@@ -1854,7 +1879,8 @@
       "location": "Brian Carter Cellars, 17140 135th Ave NE, Woodinville, WA 98072",
       "url": "https://briancartercellars.com/woodinville/events",
       "description": "Live music every Sunday, 2-4pm, at the Woodinville Tasting Room & Bistro. Walk-ins welcome, reservations recommended.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-30T00:00:00.000Z"
     },
     {
       "id": "rec-2026-11-29t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
@@ -1868,14 +1894,15 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Jarrett Renshaw at From The Sky Down-2026-11-29T23:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
       "start": "2026-11-29T23:00:00.000Z",
-      "end": "2026-11-30T02:00:00.000Z",
       "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
       "url": "https://fromtheskydown.com/events",
       "description": "Live music Sundays, 3-6pm, on the farm.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-11-30T02:00:00.000Z"
     },
     {
       "id": "10000443-1795966200-1795973400@425cellars.com",
@@ -2420,6 +2447,7 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Family Movie Night: Elf at From The Sky Down-2026-12-04T02:00:00.000Z",
       "title": "Family Movie Night: Elf at From The Sky Down",
       "category": "comedy",
       "start": "2026-12-04T02:00:00.000Z",
@@ -2611,6 +2639,7 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Members Holiday Party at From The Sky Down-2026-12-05T02:00:00.000Z",
       "title": "Members Holiday Party at From The Sky Down",
       "category": "community",
       "start": "2026-12-05T02:00:00.000Z",
@@ -2980,14 +3009,15 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Josiah Bogle at From The Sky Down-2026-12-06T23:00:00.000Z",
       "title": "Josiah Bogle at From The Sky Down",
       "category": "music",
       "start": "2026-12-06T23:00:00.000Z",
-      "end": "2026-12-07T02:00:00.000Z",
       "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
       "url": "https://fromtheskydown.com/events",
       "description": "Live music Sundays, 3-6pm, on the farm.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-12-07T02:00:00.000Z"
     },
     {
       "id": "10000447-1796571000-1796578200@425cellars.com",
@@ -3549,6 +3579,7 @@
       "source": "Synne Cellars"
     },
     {
+      "id": "manual-Family Movie Night: The Santa Clause at From The Sky Down-2026-12-11T02:00:00.000Z",
       "title": "Family Movie Night: The Santa Clause at From The Sky Down",
       "category": "comedy",
       "start": "2026-12-11T02:00:00.000Z",
@@ -4040,14 +4071,15 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Jarrett Renshaw at From The Sky Down-2026-12-13T23:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
       "start": "2026-12-13T23:00:00.000Z",
-      "end": "2026-12-14T02:00:00.000Z",
       "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
       "url": "https://fromtheskydown.com/events",
       "description": "Live music Sundays, 3-6pm, on the farm.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-12-14T02:00:00.000Z"
     },
     {
       "id": "winery-Synne Cellars-DJingo: Second Sunday Funday at Synne-2026-12-14T00:00:00.000Z",
@@ -4580,6 +4612,7 @@
       "source": "Manually added"
     },
     {
+      "id": "manual-Family Movie Night: The Grinch (Jim Carrey, 2000) at From The Sky Down-2026-12-18T02:00:00.000Z",
       "title": "Family Movie Night: The Grinch (Jim Carrey, 2000) at From The Sky Down",
       "category": "comedy",
       "start": "2026-12-18T02:00:00.000Z",
@@ -5041,14 +5074,15 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Henry Burke at From The Sky Down-2026-12-20T23:00:00.000Z",
       "title": "Henry Burke at From The Sky Down",
       "category": "music",
       "start": "2026-12-20T23:00:00.000Z",
-      "end": "2026-12-21T02:00:00.000Z",
       "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
       "url": "https://fromtheskydown.com/events",
       "description": "Live music Sundays, 3-6pm, on the farm.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-12-21T02:00:00.000Z"
     },
     {
       "id": "10000455-1797780600-1797787800@425cellars.com",
@@ -5876,14 +5910,15 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Jarrett Renshaw at From The Sky Down-2026-12-27T23:00:00.000Z",
       "title": "Jarrett Renshaw at From The Sky Down",
       "category": "music",
       "start": "2026-12-27T23:00:00.000Z",
-      "end": "2026-12-28T02:00:00.000Z",
       "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
       "url": "https://fromtheskydown.com/events",
       "description": "Live music Sundays, 3-6pm, on the farm.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "end": "2026-12-28T02:00:00.000Z"
     },
     {
       "id": "10000457-1798385400-1798392600@425cellars.com",
@@ -8577,24 +8612,26 @@
       "source": "Recurring"
     },
     {
+      "id": "manual-Significant Other at Woodinville Repertory Theatre-2027-02-27T03:30:00.000Z",
       "title": "Significant Other at Woodinville Repertory Theatre",
       "category": "comedy",
       "start": "2027-02-27T03:30:00.000Z",
-      "through": "2027-03-21",
       "location": "Woodinville Repertory Theatre at The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://www.woodinvillerep.org/significant-other/",
       "description": "Opening night. Runs Feb 26-Mar 21, 2027: Fridays and Saturdays 7:30pm, Sundays 2pm. Optional dinner theater with The Restaurant at DeLille. Tickets on Ludus.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "through": "2027-03-21"
     },
     {
+      "id": "manual-Dream Hou$e at Woodinville Repertory Theatre-2027-05-01T02:30:00.000Z",
       "title": "Dream Hou$e at Woodinville Repertory Theatre",
       "category": "comedy",
       "start": "2027-05-01T02:30:00.000Z",
-      "through": "2027-05-23",
       "location": "Woodinville Repertory Theatre at The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
       "url": "https://www.woodinvillerep.org/dream-house/",
       "description": "Opening night. Runs Apr 30-May 23, 2027: Fridays and Saturdays 7:30pm, Sundays 2pm. Optional dinner theater with The Restaurant at DeLille. Tickets on Ludus.",
-      "source": "Manually added"
+      "source": "Manually added",
+      "through": "2027-05-23"
     }
   ]
 }
