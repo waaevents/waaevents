@@ -4,6 +4,15 @@
   "count": 796,
   "events": [
     {
+      "title": "WineDown Wednesday at EFESTĒ",
+      "category": "food-drink",
+      "start": "2026-11-18T20:00:00.000Z",
+      "location": "EFESTĒ Woodinville, 19730 144th Ave NE, Woodinville, WA 98072",
+      "url": "https://efeste.com/pages/event-calendar",
+      "description": "",
+      "source": "Manually added"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-18T21:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -4795,6 +4804,17 @@
       "source": "Prohibition Cellars"
     },
     {
+      "id": "rec-2026-12-19t03-00-00-000z-live-music-at-obelisco",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2026-12-19T03:00:00.000Z",
+      "end": "2026-12-19T05:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE, Suite 121, Woodinville, WA 98072",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "Live music every Friday and Saturday evening, 7-9pm, at the Apple Farm Village tasting room. 21+. Reservations recommended on weekends.",
+      "source": "Recurring"
+    },
+    {
       "id": "10000454-1797678000-1797681600@425cellars.com",
       "title": "Yoga & Wine with Debbie",
       "category": "community",
@@ -7273,6 +7293,17 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
+      "id": "rec-2027-01-19t20-00-00-000z-wine-down-with-your-hound-tuesday-dog-days-at-from-the-sky-down",
+      "title": "Wine Down With Your Hound: Tuesday Dog Days at From The Sky Down",
+      "category": "community",
+      "start": "2027-01-19T20:00:00.000Z",
+      "end": "2027-01-20T03:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/events",
+      "description": "Bring your pup (on a leash) and enjoy a glass of wine on the lawn. Happy hour pricing on glasses and bottles if you bring your dog, all day Tuesdays.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-01-19t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -7595,6 +7626,17 @@
       "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2027-01-26/",
       "description": "@ Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will al",
       "source": "Alexandria Nicole Cellars"
+    },
+    {
+      "id": "rec-2027-01-26t20-00-00-000z-wine-down-with-your-hound-tuesday-dog-days-at-from-the-sky-down",
+      "title": "Wine Down With Your Hound: Tuesday Dog Days at From The Sky Down",
+      "category": "community",
+      "start": "2027-01-26T20:00:00.000Z",
+      "end": "2027-01-27T03:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/events",
+      "description": "Bring your pup (on a leash) and enjoy a glass of wine on the lawn. Happy hour pricing on glasses and bottles if you bring your dog, all day Tuesdays.",
+      "source": "Recurring"
     },
     {
       "id": "rec-2027-01-26t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
@@ -8315,16 +8357,6 @@
       "source": "Recurring"
     },
     {
-      "id": "rec-2027-02-12t02-00-00-000z-family-movie-night-at-from-the-sky-down",
-      "title": "Family Movie Night at From The Sky Down",
-      "category": "community",
-      "start": "2027-02-12T02:00:00.000Z",
-      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
-      "url": "https://fromtheskydown.com/visit",
-      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle.",
-      "source": "Recurring"
-    },
-    {
       "id": "rec-2027-02-12t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8380,6 +8412,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-02-13t03-00-00-000z-live-music-at-obelisco",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2027-02-13T03:00:00.000Z",
+      "end": "2027-02-13T05:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE, Suite 121, Woodinville, WA 98072",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "Live music every Friday and Saturday evening, 7-9pm, at the Apple Farm Village tasting room. 21+. Reservations recommended on weekends.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-02-13t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8421,6 +8464,17 @@
       "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
       "url": "https://www.willowslodge.com/events/",
       "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-14t03-00-00-000z-live-music-at-obelisco",
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "start": "2027-02-14T03:00:00.000Z",
+      "end": "2027-02-14T05:00:00.000Z",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE, Suite 121, Woodinville, WA 98072",
+      "url": "https://obelisco.com/events-dinners/",
+      "description": "Live music every Friday and Saturday evening, 7-9pm, at the Apple Farm Village tasting room. 21+. Reservations recommended on weekends.",
       "source": "Recurring"
     },
     {
@@ -8479,6 +8533,17 @@
       "source": "Recurring"
     },
     {
+      "id": "rec-2027-02-16t20-00-00-000z-wine-down-with-your-hound-tuesday-dog-days-at-from-the-sky-down",
+      "title": "Wine Down With Your Hound: Tuesday Dog Days at From The Sky Down",
+      "category": "community",
+      "start": "2027-02-16T20:00:00.000Z",
+      "end": "2027-02-17T03:00:00.000Z",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "url": "https://fromtheskydown.com/events",
+      "description": "Bring your pup (on a leash) and enjoy a glass of wine on the lawn. Happy hour pricing on glasses and bottles if you bring your dog, all day Tuesdays.",
+      "source": "Recurring"
+    },
+    {
       "id": "rec-2027-02-16t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
       "title": "Happy Hour at The Restaurant at DeLille",
       "category": "food-drink",
@@ -8510,6 +8575,26 @@
       "url": "https://www.willowslodge.com/events/",
       "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
+    },
+    {
+      "title": "Significant Other at Woodinville Repertory Theatre",
+      "category": "comedy",
+      "start": "2027-02-27T03:30:00.000Z",
+      "through": "2027-03-21",
+      "location": "Woodinville Repertory Theatre at The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://www.woodinvillerep.org/significant-other/",
+      "description": "Opening night. Runs Feb 26-Mar 21, 2027: Fridays and Saturdays 7:30pm, Sundays 2pm. Optional dinner theater with The Restaurant at DeLille. Tickets on Ludus.",
+      "source": "Manually added"
+    },
+    {
+      "title": "Dream Hou$e at Woodinville Repertory Theatre",
+      "category": "comedy",
+      "start": "2027-05-01T02:30:00.000Z",
+      "through": "2027-05-23",
+      "location": "Woodinville Repertory Theatre at The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://www.woodinvillerep.org/dream-house/",
+      "description": "Opening night. Runs Apr 30-May 23, 2027: Fridays and Saturdays 7:30pm, Sundays 2pm. Optional dinner theater with The Restaurant at DeLille. Tickets on Ludus.",
+      "source": "Manually added"
     }
   ]
 }
