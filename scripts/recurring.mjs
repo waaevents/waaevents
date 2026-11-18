@@ -29,7 +29,8 @@ export function expandRecurring(series, now = new Date(), windowDays = 90) {
     const y = Number(p.year), m = Number(p.month), d = Number(p.day), wd = WD[p.weekday];
     for (const s of series) {
       if (!s.weekdays.includes(wd)) continue;
-      if (s.nth && Math.ceil(d / 7) !== s.nth) continue; // e.g. nth: 1 = first <weekday> of the month
+      if (s.nth && ![].concat(s.nth).includes(Math.ceil(d / 7))) continue; // nth: 1 = first <weekday> of the month; [1, 3] = first and third
+      if (s.until && `${p.year}-${p.month}-${p.day}` > s.until) continue;
       if (s.skipDates && s.skipDates.includes(`${p.year}-${p.month}-${p.day}`)) continue;
       const [sh, sm] = s.start.split(':').map(Number);
       const start = pacificToUtc(y, m, d, sh, sm);

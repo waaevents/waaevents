@@ -247,7 +247,8 @@ async function renderCategoryList() {
       const when = ev.times && ev.times.length > 1
         ? ev.times.map((t) => fmtTime(t.start)).join(', ')
         : (ev.timeTBA ? (endTime ? 'Until ' + endTime : 'Time TBA') : time + (endTime ? ' – ' + endTime : ''));
-      const meta = [full + ' · ' + when, venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
+      const thru = ev.through ? new Date(`${ev.through}T12:00:00`).toLocaleDateString('en-US', { month: 'short', day: 'numeric' }) : '';
+      const meta = [full + ' · ' + when + (thru ? ` · runs through ${thru}` : ''), venue && !venueInTitle ? venue : ''].filter(Boolean).join(' — ');
       return `
         <li class="event-card">
           <div class="event-date">

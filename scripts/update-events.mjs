@@ -430,7 +430,9 @@ async function main() {
     if (!ev.start) continue;
     const start = new Date(ev.start);
     if (Number.isNaN(start.getTime())) continue;
-    if (start < now || start > maxDate) continue;
+    // A run that is still going (ev.through in the future) stays listed; alwaysShow keeps far-off ticketed shows visible early.
+    const stillRunning = ev.through && new Date(`${ev.through}T23:59:59-08:00`) >= now;
+    if ((start < now && !stillRunning) || (start > maxDate && !ev.alwaysShow)) continue;
 
     const title = decodeEntities((ev.title || 'Untitled event').toString()).trim();
     const uid = ev.id || `manual-${title}-${start.toISOString()}`;
@@ -450,6 +452,9 @@ async function main() {
       url: (ev.url || '').toString().trim(),
       description: (ev.description || '').toString().slice(0, 280),
       source: 'Manually added',
+      ...(ev.end && !Number.isNaN(new Date(ev.end).getTime()) ? { end: new Date(ev.end).toISOString() } : {}),
+      ...(ev.timeTBA ? { timeTBA: true } : {}),
+      ...(ev.through ? { through: ev.through } : {}),
     });
     manualAdded += 1;
   }

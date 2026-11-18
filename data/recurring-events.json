@@ -1,5 +1,5 @@
 {
-  "_note": "Weekly shows that aren't published as individual dated listings. scripts/recurring.mjs turns each into dated events for the next 90 days (Pacific time). When a venue publishes a specific show for the same night, the specific listing wins and the generic one is dropped. Weekdays: 0=Sun ... 6=Sat. skipDates: YYYY-MM-DD. Optional: nth (1 = first <weekday> of the month), end (omit if unknown), timeTBA (card shows 'Time TBA').",
+  "_note": "Weekly shows that aren't published as individual dated listings. scripts/recurring.mjs turns each into dated events for the next 90 days (Pacific time). When a venue publishes a specific show for the same night, the specific listing wins and the generic one is dropped. Weekdays: 0=Sun ... 6=Sat. skipDates: YYYY-MM-DD. Optional: nth (1 = first <weekday> of the month), end (omit if unknown), timeTBA (card shows 'Time TBA'). nth may be a list ([1,3] = 1st and 3rd). until = last date (YYYY-MM-DD).",
   "series": [
     {
       "title": "Live Music at Prohibition Cellars",
@@ -197,19 +197,48 @@
       "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served."
     },
     {
-      "title": "Family Movie Night at From The Sky Down",
+      "title": "Wine Down With Your Hound: Tuesday Dog Days at From The Sky Down",
       "category": "community",
+      "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
+      "weekdays": [
+        2
+      ],
+      "start": "12:00",
+      "end": "19:00",
+      "url": "https://fromtheskydown.com/events",
+      "description": "Bring your pup (on a leash) and enjoy a glass of wine on the lawn. Happy hour pricing on glasses and bottles if you bring your dog, all day Tuesdays."
+    },
+    {
+      "title": "Somm Class at From The Sky Down",
+      "category": "food-drink",
       "location": "Matthews Winery & From The Sky Down, 16116 140th Pl NE, Woodinville, WA 98072",
       "weekdays": [
         4
       ],
-      "start": "18:00",
-      "url": "https://fromtheskydown.com/visit",
-      "skipDates": [
-        "2026-11-26",
-        "2026-12-24"
+      "nth": [
+        1,
+        3
       ],
-      "description": "Family movie night every Thursday on the farm; the movie starts at 6pm. Wine available by the glass or bottle."
+      "start": "17:30",
+      "end": "19:00",
+      "url": "https://www.exploretock.com/matthews-winery/",
+      "description": "Sommelier-led class on the 1st and 3rd Thursdays. Tickets in person or on Tock."
+    },
+    {
+      "title": "Live Music at Obelisco",
+      "category": "music",
+      "location": "Obelisco Estate, Apple Farm Village Tasting Room, 14525 148th Ave NE, Suite 121, Woodinville, WA 98072",
+      "weekdays": [
+        5,
+        6
+      ],
+      "start": "19:00",
+      "end": "21:00",
+      "url": "https://obelisco.com/events-dinners/",
+      "skipDates": [
+        "2026-12-25"
+      ],
+      "description": "Live music every Friday and Saturday evening, 7-9pm, at the Apple Farm Village tasting room. 21+. Reservations recommended on weekends."
     }
   ]
 }
