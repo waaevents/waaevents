@@ -1,89 +1,8 @@
 {
-  "updatedAt": "2026-11-18T22:44:35.371Z",
+  "updatedAt": "2026-11-19T21:04:57.322Z",
   "windowDays": 90,
-  "count": 832,
+  "count": 828,
   "events": [
-    {
-      "id": "rec-2026-11-18t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
-      "title": "Happy Hour at The Restaurant at DeLille",
-      "category": "food-drink",
-      "start": "2026-11-18T22:30:00.000Z",
-      "end": "2026-11-19T01:00:00.000Z",
-      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
-      "url": "https://delillecellars.com/restaurant/",
-      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
-      "source": "Recurring"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-19T00:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-19T00:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-LaShellé Wines-Game Night! Bunko-2026-11-19T01:30:00.291Z",
-      "title": "Game Night! Bunko",
-      "category": "food-drink",
-      "start": "2026-11-19T01:30:00.291Z",
-      "location": "LaShellé Wines , 19501 144th Ave NE C900, Woodinville, Washington, 98072",
-      "url": "https://www.lashellewines.com/calendar/bunko",
-      "description": "Join us for great evening of playing Bunko. Come with friends! Meet new friends! Roll the dice, count points and laugh. Doors open at 5:30 Game begins 6pm. $10 to play Wine and food will be available for purchase.",
-      "source": "LaShellé Wines"
-    },
-    {
-      "id": "manual-New Age Flamenco at Fireside Lounge-2026-11-19T02:00:00.000Z",
-      "title": "New Age Flamenco at Fireside Lounge",
-      "category": "music",
-      "start": "2026-11-19T02:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "10000438-1795028400-1795033800@425cellars.com",
-      "title": "Wine & Bingo",
-      "category": "community",
-      "start": "2026-11-19T03:00:00.000Z",
-      "location": "425 Cellars Tasting room, 14525 148th Avenue Northeast #suite 211, Woodinville, WA, 98072, United States",
-      "url": "https://425cellars.com/event/wine-bingo/",
-      "description": "Join us for an easygoing evening of Wine & Bingo at 425 Cellars. Enjoy a glass of wine, a little friendly competition, and plenty of fun throughout the night. Compliments of 425 Cellars. Seating is limited, and guests can enjoy 20% off when purchasing 2 bottles. Sign up using the",
-      "source": "425 Cellars"
-    },
-    {
-      "id": "rec-2026-11-19t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
-      "title": "Beat the Geek Trivia at Flatstick Pub",
-      "category": "food-drink",
-      "start": "2026-11-19T03:00:00.000Z",
-      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
-      "url": "https://flatstickpub.com/woodinville/",
-      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
-      "source": "Recurring"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-19T19:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-11-19T19:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap-2026-11-19T19:00:00.000Z",
-      "title": "$5 Beer Thursday (All Day) at Woodin Creek Kitchen & Tap",
-      "category": "food-drink",
-      "start": "2026-11-19T19:00:00.000Z",
-      "location": "Woodin Creek Kitchen & Tap, 13550 NE Village Square Dr Unit #1010, Woodinville, WA 98072",
-      "url": "https://www.woodincreekkitchen.com/",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "rec-2026-11-19t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
       "title": "All-Day Happy Hour at The Restaurant at DeLille",
@@ -94,16 +13,6 @@
       "url": "https://delillecellars.com/restaurant/",
       "description": "Happy hour specials on drinks and bites all day every Thursday.",
       "source": "Recurring"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-19T21:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-19T21:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
     },
     {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-19T22:00:00.000Z",
@@ -144,16 +53,6 @@
       "url": "https://425cellars.com/event/live-music-with-jarrett-renshaw-11-2026/",
       "description": "Join us for an evening of acoustic soft rock and pop with singer and multi-instrumentalist Jarrett Renshaw. Expect a relaxed singer-songwriter set and a great night in the tasting room. Complimentary admission with the purchase of wine, plus 20% off when you purchase 2 bottles.",
       "source": "425 Cellars"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Knotty Thursdays | Woodinville-2026-11-20T01:30:00.000Z",
-      "title": "Knotty Thursdays | Woodinville",
-      "category": "food-drink",
-      "start": "2026-11-20T01:30:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/knotty-thursdays-woodinville/2026-11-19/",
-      "description": "<p>Get a little knotty with us every second Thursday of the month! Bring your knitting, crochet, or current crafty project and settle in for a relaxed evening of wine, creativity, and good company. Knotty Thursday is all about making something with your hands, enjoying a gr",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Jarrett Renshaw at 425 Cellars-2026-11-20T01:30:00.000Z",
@@ -330,6 +229,16 @@
       "source": "Recurring"
     },
     {
+      "id": "winery-Bayernmoor Cellars-Live Music at Bayernmoor – Tyler McGinnis-2026-11-21T00:00:00.000Z",
+      "title": "Live Music at Bayernmoor – Tyler McGinnis",
+      "category": "music",
+      "start": "2026-11-21T00:00:00.000Z",
+      "location": "Bayernmoor Woodinville Tasting Room",
+      "url": "https://bayernmoor.com/events/chill-vibes-6-2-863-240-397-186-798/",
+      "description": "Enjoy classic tunes from local artist, Tyler McGinnis! Make a reservation for wine, food and fun music!",
+      "source": "Bayernmoor Cellars"
+    },
+    {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-21T00:00:00.000Z",
       "title": "Wine Blending Experience at The SOMM",
       "category": "food-drink",
@@ -348,16 +257,6 @@
       "url": "https://bayernmoor.com/tasting-room/",
       "description": "",
       "source": "Manually added"
-    },
-    {
-      "id": "winery-Evergreen Family Wines-Live Music by Josiah Bogle | Woodinville-2026-11-21T01:00:00.000Z",
-      "title": "Live Music by Josiah Bogle | Woodinville",
-      "category": "music",
-      "start": "2026-11-21T01:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-josiah-bogle-woodinville-3/2026-11-20/",
-      "description": "<p>Join us for the talented Josiah Bogle in Woodinville. His performance will enhance your Evergreen experience, making you want to come back for more! Josiah Bogle takes you on a journey through the best of vintage pop rock nuanced with today’s current sound. Whether singi",
-      "source": "Evergreen Family Wines"
     },
     {
       "id": "manual-Friday Night Music at Chateau Ste. Michelle-2026-11-21T01:00:00.000Z",
@@ -565,16 +464,6 @@
       "source": "Prohibition Cellars"
     },
     {
-      "id": "winery-Evergreen Family Wines-Live Music by Sarah Brunner | Woodinville-2026-11-21T22:00:00.000Z",
-      "title": "Live Music by Sarah Brunner | Woodinville",
-      "category": "music",
-      "start": "2026-11-21T22:00:00.000Z",
-      "location": "Woodinville Tasting Room, 14450 Redmond-Woodinville Rd NE, Woodinville, WA",
-      "url": "https://evergreenfamilywines.com/event/live-music-by-sarah-brunner-woodinville-4/2026-11-21/",
-      "description": "<p> Michigan native and Seattle-based musician Sarah Brunner is a full-time performer, both as a solo artist and with her band, The Hipocrats. Her style, deeply rooted in acoustic Americana, folk, and country, blends rhythm guitar with soulful vocal melodies to create a sou",
-      "source": "Evergreen Family Wines"
-    },
-    {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-21T22:00:00.000Z",
       "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
       "category": "food-drink",
@@ -741,16 +630,6 @@
       "source": "Alexandria Nicole Cellars"
     },
     {
-      "id": "winery-Evergreen Family Wines-Sip Back Sundays | All Locations-2026-11-22T20:00:00.000Z",
-      "title": "Sip Back Sundays | All Locations",
-      "category": "food-drink",
-      "start": "2026-11-22T20:00:00.000Z",
-      "location": "",
-      "url": "https://evergreenfamilywines.com/event/sip-back-sundays/2026-11-22/",
-      "description": "<p>Sundays deserves a little treat. Join us for Sip Back Sundays Happy Hour and enjoy special pricing on wines by the glass in a cozy, relaxed atmosphere. Grab a friend and let us pour you something delicious.</p>\\n",
-      "source": "Evergreen Family Wines"
-    },
-    {
       "id": "winery-Patterson Cellars-Progressive Wine & Cheese Pairing Event-2026-11-22T20:00:00.078Z",
       "title": "Progressive Wine & Cheese Pairing Event",
       "category": "food-drink",
@@ -769,6 +648,16 @@
       "url": "https://www.prohibitioncellars.com/events-1/progressive-wine-cheese-pairing",
       "description": "Five Wineries. Great Wines. Delicious Cheeses. One Fun Afternoon. Just in time for Thanksgiving, five Woodinville wineries are coming together for an afternoon of great wine, delicious cheese, and some exciting pairings! Best of all, they're all within walking distance of one ano",
       "source": "Prohibition Cellars"
+    },
+    {
+      "id": "winery-Bayernmoor Cellars-Chef Tyler’s Table – Thanksgiving Sides-2026-11-22T21:00:00.000Z",
+      "title": "Chef Tyler’s Table – Thanksgiving Sides",
+      "category": "food-drink",
+      "start": "2026-11-22T21:00:00.000Z",
+      "location": "",
+      "url": "https://bayernmoor.com/events/chef-toris-table-ramen-487-443-379-405-256/",
+      "description": "Enjoy Tyler's special menu at Bayernmoor!!! Woodinville Tasting Room ~ Sunday, Nov 22nd 12:00pm - 5:30pm Enjoy delightful mains and delectable sides all day while supplies last. Make a reservation today!",
+      "source": "Bayernmoor Cellars"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-11-22T21:00:00.000Z",
@@ -1170,6 +1059,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Bayernmoor Cellars-Kitchen Closed, Snacks Only!-2026-11-25T20:00:00.000Z",
+      "title": "Kitchen Closed, Snacks Only!",
+      "category": "food-drink",
+      "start": "2026-11-25T20:00:00.000Z",
+      "location": "",
+      "url": "https://bayernmoor.com/events/thanskgiving-closed-817-180-729/",
+      "description": "We will be open to pour wine and help you select that perfect bottle for Thanksgiving. Our kitchen will be closed and we will be serving an assortment of snacks.",
+      "source": "Bayernmoor Cellars"
+    },
+    {
       "id": "manual-WineDown Wednesday at EFESTĒ-2026-11-25T20:00:00.000Z",
       "title": "WineDown Wednesday at EFESTĒ",
       "category": "food-drink",
@@ -1321,6 +1220,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Bayernmoor Cellars-Thanskgiving – Closed!-2026-11-26T20:00:00.000Z",
+      "title": "Thanskgiving – Closed!",
+      "category": "community",
+      "start": "2026-11-26T20:00:00.000Z",
+      "location": "",
+      "url": "https://bayernmoor.com/events/thanskgiving-closed-467/",
+      "description": "We will be closed today to celebrate the holiday. See you soon!",
+      "source": "Bayernmoor Cellars"
+    },
+    {
       "id": "winery-Beaumont Cellars-Woodinville and Quincy CLOSED for Thanksgiving-2026-11-26T20:00:00.783Z",
       "title": "Woodinville and Quincy CLOSED for Thanksgiving",
       "category": "community",
@@ -1432,6 +1341,16 @@
       "source": "Manually added"
     },
     {
+      "id": "winery-Elk Haven Winery & Rainfire Distillery-Black Friday Special-2022 Syrah Case Sale-2026-11-27T19:00:00.000Z",
+      "title": "Black Friday Special-2022 Syrah Case Sale",
+      "category": "food-drink",
+      "start": "2026-11-27T19:00:00.000Z",
+      "location": "",
+      "url": "https://www.elkhavenwinery.com/event/black-friday-special-2022-syrah-case-sale/",
+      "description": "We’re uncorking a Black Friday special you won’t want to miss! 2022 Syrah – Just $96 per Case! ($8 per bottle) That’s right! Stock up on this delicious Elk Haven Syrah and make sure your holiday gatherings, dinner parties, and cozy winter evenings are well supplied. It’s the perf",
+      "source": "Elk Haven Winery & Rainfire Distillery"
+    },
+    {
       "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-27T19:00:00.000Z",
       "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
       "category": "food-drink",
@@ -1440,6 +1359,16 @@
       "url": "https://vons1000spirits.com/location/woodinville/",
       "description": "",
       "source": "Manually added"
+    },
+    {
+      "id": "winery-Bayernmoor Cellars-Black Friday – Closed!-2026-11-27T20:00:00.000Z",
+      "title": "Black Friday – Closed!",
+      "category": "food-drink",
+      "start": "2026-11-27T20:00:00.000Z",
+      "location": "",
+      "url": "https://bayernmoor.com/events/thanskgiving-closed-817-180/",
+      "description": "We will be closed today to decorate our tasting room for the holiday season! See you soon!",
+      "source": "Bayernmoor Cellars"
     },
     {
       "id": "winery-Woodinville Wine Country Events-Winter wreath-making: Black friday, reimagined @ Sky River Mead-2026-11-27T20:00:00.000Z",
@@ -8609,6 +8538,38 @@
       "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
       "url": "https://www.willowslodge.com/events/",
       "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-17t22-30-00-000z-happy-hour-at-the-restaurant-at-delille",
+      "title": "Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-02-17T22:30:00.000Z",
+      "end": "2027-02-18T01:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Daily happy hour, 2:30-5pm. Wednesdays: $2.50 oysters.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-18t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-02-18T02:00:00.000Z",
+      "end": "2027-02-18T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-18t03-00-00-000z-beat-the-geek-trivia-at-flatstick-pub",
+      "title": "Beat the Geek Trivia at Flatstick Pub",
+      "category": "food-drink",
+      "start": "2027-02-18T03:00:00.000Z",
+      "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
+      "url": "https://flatstickpub.com/woodinville/",
+      "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
       "source": "Recurring"
     },
     {
