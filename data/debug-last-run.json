@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-18T22:44:34.916Z",
+  "ranAt": "2026-11-19T21:04:56.878Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 21,
-      "addedCount": 21
+      "rawCount": 20,
+      "addedCount": 20
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -83,8 +83,11 @@
     },
     {
       "winery": "Bayernmoor Cellars",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "ok",
+      "strategy": "jsonld",
+      "platform": "wordpress",
+      "count": 5,
+      "eventPage": "https://bayernmoor.com/events"
     },
     {
       "winery": "Beaumont Cellars",
@@ -206,16 +209,16 @@
     },
     {
       "winery": "Elk Haven Winery & Rainfire Distillery",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "ok",
+      "strategy": "tribe",
+      "platform": "wordpress",
+      "count": 1,
+      "eventPage": "https://www.elkhavenwinery.com/"
     },
     {
       "winery": "Evergreen Family Wines",
-      "status": "ok",
-      "strategy": "jsonld",
-      "platform": "wordpress",
-      "count": 4,
-      "eventPage": "https://evergreenfamilywines.com/events"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Fidélitas",
@@ -320,7 +323,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 17,
+      "count": 16,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -409,7 +412,7 @@
     {
       "winery": "Pepper Bridge Winery & Amavi Cellars",
       "status": "site-unreachable",
-      "error": "HTTP 403"
+      "error": "fetch failed"
     },
     {
       "winery": "Pomum Cellars",
@@ -418,8 +421,8 @@
     },
     {
       "winery": "Pondera Winery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "This operation was aborted"
     },
     {
       "winery": "Pour Decisions Taps",
@@ -476,8 +479,8 @@
     },
     {
       "winery": "Stevens Winery",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Story Cellars",
@@ -537,7 +540,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 19,
+      "count": 17,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -550,8 +553,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Village Wines",
@@ -568,8 +571,8 @@
     },
     {
       "winery": "Warehouse Wineries",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "This operation was aborted"
     },
     {
       "winery": "Warr-King Wines",
