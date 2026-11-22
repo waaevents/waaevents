@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-21T19:53:15.266Z",
+  "ranAt": "2026-11-22T20:03:08.679Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 45,
+      "count": 44,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -169,8 +169,8 @@
     },
     {
       "winery": "Darby Winery",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "DeLille Cellars",
@@ -323,7 +323,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 15,
+      "count": 14,
       "eventPage": "https://www.lashellewines.com/calendar"
     },
     {
@@ -388,13 +388,13 @@
     },
     {
       "winery": "Obelisco Estate (Apple Farm Village)",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Obelisco Estate (Warehouse District)",
-      "status": "site-unreachable",
-      "error": "fetch failed"
+      "status": "no-events-found",
+      "platform": "wordpress"
     },
     {
       "winery": "Page Cellars",
@@ -406,7 +406,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 5,
+      "count": 3,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -434,7 +434,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 14,
+      "count": 12,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -497,7 +497,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 12,
+      "count": 11,
       "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
@@ -540,7 +540,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 16,
+      "count": 14,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -553,8 +553,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "site-unreachable",
-      "error": "HTTP 403"
+      "status": "no-events-found",
+      "platform": "other"
     },
     {
       "winery": "Village Wines",
@@ -587,7 +587,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 7,
+      "count": 6,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
@@ -605,7 +605,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 6,
+      "count": 4,
       "eventPage": "https://witcellars.com/"
     },
     {
