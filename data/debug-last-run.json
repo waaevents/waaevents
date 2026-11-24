@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-24T00:29:20.446Z",
+  "ranAt": "2026-11-24T22:50:53.942Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 15,
-      "addedCount": 5
+      "addedCount": 3
     },
     {
       "feed": "Evergreen Family Wines",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 45,
+      "count": 44,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -498,7 +498,7 @@
       "strategy": "tribe",
       "platform": "wordpress",
       "count": 13,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
+      "eventPage": "https://www.synnecellars.com/our-tasting-room"
     },
     {
       "winery": "Tenor Winery",
@@ -540,7 +540,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 14,
+      "count": 19,
       "eventPage": "https://tsillancellars.com/"
     },
     {
@@ -587,7 +587,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 5,
+      "count": 4,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
