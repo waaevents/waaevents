@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-22T20:03:08.679Z",
+  "ranAt": "2026-11-24T00:29:20.446Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -19,8 +19,8 @@
       "feed": "425 Cellars",
       "url": "https://425cellars.com/?post_type=tribe_events&ical=1&eventDisplay=list",
       "ok": true,
-      "rawCount": 19,
-      "addedCount": 19
+      "rawCount": 18,
+      "addedCount": 18
     },
     {
       "feed": "Alexandria Nicole Cellars (Woodin Creek)",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 45,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -86,7 +86,7 @@
       "status": "ok",
       "strategy": "jsonld",
       "platform": "wordpress",
-      "count": 4,
+      "count": 3,
       "eventPage": "https://bayernmoor.com/events"
     },
     {
@@ -406,7 +406,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 3,
+      "count": 5,
       "eventPage": "https://www.pattersoncellars.com/events"
     },
     {
@@ -497,8 +497,8 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 11,
-      "eventPage": "https://www.synnecellars.com/our-tasting-room"
+      "count": 13,
+      "eventPage": "https://www.synnecellars.com/our-tasting-room/"
     },
     {
       "winery": "Tenor Winery",
@@ -561,7 +561,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 12,
+      "count": 11,
       "eventPage": "https://www.myvillagewines.com/"
     },
     {
@@ -587,7 +587,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 6,
+      "count": 5,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
