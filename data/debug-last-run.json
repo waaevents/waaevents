@@ -1,5 +1,5 @@
 {
-  "ranAt": "2026-11-24T22:50:53.942Z",
+  "ranAt": "2026-11-25T22:04:25.901Z",
   "feedDiagnostics": [
     {
       "feed": "Visit Woodinville",
@@ -27,7 +27,7 @@
       "url": "https://www.alexandrianicolecellars.com/events/list/?ical=1",
       "ok": true,
       "rawCount": 15,
-      "addedCount": 3
+      "addedCount": 1
     },
     {
       "feed": "Evergreen Family Wines",
@@ -43,7 +43,7 @@
       "status": "ok",
       "strategy": "tribe",
       "platform": "wordpress",
-      "count": 44,
+      "count": 45,
       "eventPage": "https://www.alexandrianicolecellars.com/"
     },
     {
@@ -86,7 +86,7 @@
       "status": "ok",
       "strategy": "jsonld",
       "platform": "wordpress",
-      "count": 3,
+      "count": 2,
       "eventPage": "https://bayernmoor.com/events"
     },
     {
@@ -169,8 +169,8 @@
     },
     {
       "winery": "Darby Winery",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "DeLille Cellars",
@@ -388,13 +388,13 @@
     },
     {
       "winery": "Obelisco Estate (Apple Farm Village)",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Obelisco Estate (Warehouse District)",
-      "status": "no-events-found",
-      "platform": "wordpress"
+      "status": "site-unreachable",
+      "error": "fetch failed"
     },
     {
       "winery": "Page Cellars",
@@ -434,7 +434,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 12,
+      "count": 15,
       "eventPage": "https://www.prohibitioncellars.com/events-1"
     },
     {
@@ -553,8 +553,8 @@
     },
     {
       "winery": "Vaunt Modern Gallery",
-      "status": "no-events-found",
-      "platform": "other"
+      "status": "site-unreachable",
+      "error": "HTTP 403"
     },
     {
       "winery": "Village Wines",
@@ -587,7 +587,7 @@
       "status": "ok",
       "strategy": "squarespace",
       "platform": "squarespace",
-      "count": 4,
+      "count": 3,
       "eventPage": "https://wattsbrewingcompany.com/events"
     },
     {
