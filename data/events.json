@@ -1,129 +1,8 @@
 {
-  "updatedAt": "2026-11-26T22:01:37.535Z",
+  "updatedAt": "2026-11-27T21:44:52.884Z",
   "windowDays": 90,
-  "count": 747,
+  "count": 739,
   "events": [
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-27T00:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-27T00:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Live Music at Goose Ridge Woodinville-2026-11-27T01:00:00.000Z",
-      "title": "Live Music at Goose Ridge Woodinville",
-      "category": "music",
-      "start": "2026-11-27T01:00:00.000Z",
-      "location": "Goose Ridge Woodinville Tasting Room, Woodinville, WA",
-      "url": "https://www.gooseridge.com/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Luna Matto at Amavi Cellars & Pepper Bridge Winery-2026-11-27T01:00:00.000Z",
-      "title": "Luna Matto at Amavi Cellars & Pepper Bridge Winery",
-      "category": "music",
-      "start": "2026-11-27T01:00:00.000Z",
-      "location": "Amavi Cellars & Pepper Bridge Winery Tasting Room, 14810 NE 145th St, Woodinville, WA 98072",
-      "url": "https://wineindustryadvisor.com/event/live-music-with-luna-matto-11/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-The Summit: 16-Course Chef's Counter Dinner-2026-11-27T01:30:00.000Z",
-      "title": "The Summit: 16-Course Chef's Counter Dinner",
-      "category": "food-drink",
-      "start": "2026-11-27T01:30:00.000Z",
-      "location": "Bin 47 Chef's Counter at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "manual-Linzy Collins at Fireside Lounge-2026-11-27T02:00:00.000Z",
-      "title": "Linzy Collins at Fireside Lounge",
-      "category": "music",
-      "start": "2026-11-27T02:00:00.000Z",
-      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
-      "url": "https://www.willowslodge.com/events/",
-      "description": "Live music from Linzy Collins. Seating is first-come, first-served.",
-      "source": "Manually added",
-      "end": "2026-11-27T04:30:00.000Z"
-    },
-    {
-      "id": "manual-Trivia Night at Northwest Spirits-2026-11-27T03:00:00.000Z",
-      "title": "Trivia Night at Northwest Spirits",
-      "category": "food-drink",
-      "start": "2026-11-27T03:00:00.000Z",
-      "location": "Northwest Spirits, 15029 Woodinville-Redmond Rd NE, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Tsillan Cellars-CHELAN – Fireside Fare-2026-11-27T08:00:00.000Z",
-      "title": "CHELAN – Fireside Fare",
-      "category": "food-drink",
-      "start": "2026-11-27T08:00:00.000Z",
-      "location": "",
-      "url": "https://tsillancellars.com/event/chelan-fireside-fare-2/",
-      "description": "SPECIAL BLACK FRIDAY HOURS! Cozy up in the Tasting Room with our Fireside Fare menu — a seasonal lineup of chef-crafted bites and snacks that pair perfectly with your favorite Tsillan Cellars wines. 🥂🔥 Details: Friday 1:00 -5:00 PM Saturday 12:00-5:00 PM Stay tuned to our calen",
-      "source": "Tsillan Cellars"
-    },
-    {
-      "id": "winery-Elk Haven Winery & Rainfire Distillery-Black Friday Special-2022 Syrah Case Sale-2026-11-27T19:00:00.000Z",
-      "title": "Black Friday Special-2022 Syrah Case Sale",
-      "category": "food-drink",
-      "start": "2026-11-27T19:00:00.000Z",
-      "location": "",
-      "url": "https://www.elkhavenwinery.com/event/black-friday-special-2022-syrah-case-sale/",
-      "description": "We’re uncorking a Black Friday special you won’t want to miss! 2022 Syrah – Just $96 per Case! ($8 per bottle) That’s right! Stock up on this delicious Elk Haven Syrah and make sure your holiday gatherings, dinner parties, and cozy winter evenings are well supplied. It’s the perf",
-      "source": "Elk Haven Winery & Rainfire Distillery"
-    },
-    {
-      "id": "manual-Von's WA Resident Weekday Lunch: 20% Off Until 2pm-2026-11-27T19:00:00.000Z",
-      "title": "Von's WA Resident Weekday Lunch: 20% Off Until 2pm",
-      "category": "food-drink",
-      "start": "2026-11-27T19:00:00.000Z",
-      "location": "Von's 1000 Spirits, 15029 Woodinville-Redmond Rd NE Ste 100, Woodinville, WA 98072",
-      "url": "https://vons1000spirits.com/location/woodinville/",
-      "description": "",
-      "source": "Manually added"
-    },
-    {
-      "id": "winery-Bayernmoor Cellars-Black Friday – Closed!-2026-11-27T20:00:00.000Z",
-      "title": "Black Friday – Closed!",
-      "category": "food-drink",
-      "start": "2026-11-27T20:00:00.000Z",
-      "location": "",
-      "url": "https://bayernmoor.com/events/thanskgiving-closed-817-180/",
-      "description": "We will be closed today to decorate our tasting room for the holiday season! See you soon!",
-      "source": "Bayernmoor Cellars"
-    },
-    {
-      "id": "winery-Woodinville Wine Country Events-Winter wreath-making: Black friday, reimagined @ Sky River Mead-2026-11-27T20:00:00.000Z",
-      "title": "Winter wreath-making: Black friday, reimagined @ Sky River Mead",
-      "category": "art",
-      "start": "2026-11-27T20:00:00.000Z",
-      "location": "Woodinville Wine Country, 19151 144th Ave NE Ste. G , Woodinville, WA",
-      "url": "https://woodinvillewinecountry.com/event/winter-wreath-making-black-friday-reimagined-sky-river-mead/",
-      "description": "Trade crowds for fresh evergreens, handcrafted mead, & an evening of creativity. Give yourself the gift of beautiful holiday memories! A Wreath, a Sip, a Little Holiday Magic. Gather your friends, grab a glass of mead, and get ready for a little holiday creativity at Sky River Me",
-      "source": "Woodinville Wine Country Events"
-    },
-    {
-      "id": "manual-Wine Blending Experience at The SOMM-2026-11-27T21:00:00.000Z",
-      "title": "Wine Blending Experience at The SOMM",
-      "category": "food-drink",
-      "start": "2026-11-27T21:00:00.000Z",
-      "location": "The Blending Room at The SOMM Hotel, 14800 NE 144th St, Woodinville, WA 98072",
-      "url": "https://thesomm.com/happenings",
-      "description": "",
-      "source": "Manually added"
-    },
     {
       "id": "manual-Von's 1000 Spirits Happy Hour (2-6pm)-2026-11-27T22:00:00.000Z",
       "title": "Von's 1000 Spirits Happy Hour (2-6pm)",
@@ -1463,6 +1342,16 @@
       "url": "https://tsillancellars.com/event/woodinville-2024-red-vintage-tasting-2/",
       "description": "Tasting of the 2024 Red Vintage An Exclusive Wine Club Event Woodinville – Saturday, Dec. 5th 12:30-2:30pm We are excited to announce our Fourth Red Vintage Preview Event! Head Winemaker Garrett Grubbs and Vineyard Manager/Assistant Winemaker Nic Stevens can’t wait to share this",
       "source": "Tsillan Cellars"
+    },
+    {
+      "id": "winery-Elk Haven Winery & Rainfire Distillery-Holiday Pop-Up with Amy’s Paper Garden-2026-12-05T21:00:00.000Z",
+      "title": "Holiday Pop-Up with Amy’s Paper Garden",
+      "category": "food-drink",
+      "start": "2026-12-05T21:00:00.000Z",
+      "location": "Woodinville, 14480 147th PL NE Suite E34, Woodinville",
+      "url": "https://www.elkhavenwinery.com/event/woodinville-holiday-pop-up-amys-paper-garden/",
+      "description": "Join us at Elk Haven Winery Woodinville for a Holiday Pop Up with Amy’s Paper Garden Saturday December 5 th from 1-6pm. Sip on wine, spirits, or a craft cocktail while you peruse. About Amy’s Paper Garden: Based in Mukilteo, Washington, Amy’s Paper Garden is a small creative busi",
+      "source": "Elk Haven Winery & Rainfire Distillery"
     },
     {
       "id": "manual-Wine Blending Experience at The SOMM-2026-12-05T21:00:00.000Z",
@@ -7397,6 +7286,16 @@
       "source": "Recurring"
     },
     {
+      "id": "winery-Alexandria Nicole Cellars-Taco Tuesdays @ Woodin Creek-2027-02-16T20:00:00.000Z",
+      "title": "Taco Tuesdays @ Woodin Creek",
+      "category": "food-drink",
+      "start": "2027-02-16T20:00:00.000Z",
+      "location": "Woodin Creek Tasting Room, 17140 135th Ave NE Bldg 2D Ste. 1010, Woodinville",
+      "url": "https://www.alexandrianicolecellars.com/event/taco-tuesdays-woodin-creek/2027-02-16/",
+      "description": "@ Tuesdays just got a whole lot tastier at Woodin Creek. Join us each week for Taco Tuesday, where the tacos keep changing and the wine keeps flowing. Every week features a different taco creation, from classic street-style favorites to fun, flavor-packed twists. Our team will al",
+      "source": "Alexandria Nicole Cellars"
+    },
+    {
       "id": "rec-2027-02-16t20-00-00-000z-wine-down-with-your-hound-tuesday-dog-days-at-from-the-sky-down",
       "title": "Wine Down With Your Hound: Tuesday Dog Days at From The Sky Down",
       "category": "community",
@@ -7755,6 +7654,28 @@
       "location": "Flatstick Pub, 13205 NE 175th St, Woodinville, WA 98072",
       "url": "https://flatstickpub.com/woodinville/",
       "description": "Beat the Geek Trivia with host Rey, Wednesdays at 7pm. Free to play, prizes for the top teams.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-25t19-30-00-000z-all-day-happy-hour-at-the-restaurant-at-delille",
+      "title": "All-Day Happy Hour at The Restaurant at DeLille",
+      "category": "food-drink",
+      "start": "2027-02-25T19:30:00.000Z",
+      "end": "2027-02-26T05:00:00.000Z",
+      "location": "The Restaurant at DeLille, 14300 NE 145th St, Suite 100, Woodinville, WA 98072",
+      "url": "https://delillecellars.com/restaurant/",
+      "description": "Happy hour specials on drinks and bites all day every Thursday.",
+      "source": "Recurring"
+    },
+    {
+      "id": "rec-2027-02-26t02-00-00-000z-live-music-at-fireside-lounge-willows-lodge-",
+      "title": "Live Music at Fireside Lounge (Willows Lodge)",
+      "category": "music",
+      "start": "2027-02-26T02:00:00.000Z",
+      "end": "2027-02-26T04:30:00.000Z",
+      "location": "Fireside Lounge at Willows Lodge, 14580 NE 145th St, Woodinville, WA 98072",
+      "url": "https://www.willowslodge.com/events/",
+      "description": "Live music in the Fireside Lounge Tuesday through Saturday evenings, 6-8:30pm. Happier Hour runs 3-5:30pm. Seating is first-come, first-served.",
       "source": "Recurring"
     },
     {
